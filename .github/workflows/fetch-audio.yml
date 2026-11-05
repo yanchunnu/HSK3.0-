@@ -28,28 +28,17 @@ jobs:
               urllib.request.urlretrieve(item["url"], target)
           PY
 
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
       - name: Join the full 1-300 track
         run: |
-          python3 - <<'PY'
-          import pathlib, wave
-          sources = [
-              pathlib.Path("audio/all-001-100.wav"),
-              pathlib.Path("audio/all-101-200.wav"),
-              pathlib.Path("audio/all-201-300.wav"),
-          ]
-          with wave.open(str(sources[0]), "rb") as first:
-              params = first.getparams()
-              frames = [first.readframes(first.getnframes())]
-          for source in sources[1:]:
-              with wave.open(str(source), "rb") as current:
-                  current_params = current.getparams()
-                  assert current_params[:4] == params[:4], (source, current_params, params)
-                  frames.append(current.readframes(current.getnframes()))
-          with wave.open("audio/all-001-300.wav", "wb") as output:
-              output.setparams(params)
-              for block in frames:
-                  output.writeframes(block)
-          PY
+          cd audio
+          printf "file 'all-001-100.wav'\nfile 'all-101-200.wav'\nfile 'all-201-300.wav'\n" > concat.txt
+          ffmpeg -y -f concat -safe 0 -i concat.txt -c:a pcm_s16le all-001-300.wav
+          rm concat.txt
 
       - name: Commit audio files
         run: |
