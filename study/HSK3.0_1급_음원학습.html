@@ -23,6 +23,10 @@
     .batch button { min-height:40px; border:1px solid #a9c3df; border-radius:10px; padding:0 14px; background:#f5f9ff; color:var(--blue); font-weight:800; cursor:pointer; }
     .batch button:hover { background:#e1edff; }
     .batch .stop { color:#a61b1b; border-color:#e2aaaa; background:#fff7f7; }
+    .startControl { display:flex; align-items:center; gap:7px; min-height:40px; padding:0 10px; border:1px solid #a9c3df; border-radius:10px; background:white; font-weight:800; color:#334e68; }
+    .startControl input { width:64px; height:30px; border:1px solid #bcccdc; border-radius:7px; text-align:center; font-weight:800; }
+    .startPick { border:0; background:transparent; color:#627d98; font-weight:900; cursor:pointer; border-radius:7px; padding:7px; }
+    .startPick:hover, .startPick.selected { background:var(--blue); color:white; }
     main { padding:18px 0 50px; }
     .category { margin:22px 0 10px; color:var(--blue); font-size:19px; }
     .card { background:white; border:1px solid var(--line); border-radius:15px; margin:10px 0; padding:15px 16px; box-shadow:0 3px 10px #102a430a; }
@@ -67,9 +71,10 @@
       <button class="toggle on" id="translationToggle" type="button">해석 보임</button>
     </div>
     <div class="batch">
-      <button type="button" id="playAllWords">▶ 1~300 전체 단어</button>
-      <button type="button" id="playAllSentences">▶ 1~300 전체 예문</button>
-      <button type="button" id="playAllBoth">▶ 1~300 단어+예문</button>
+      <label class="startControl">시작 번호 <input id="startNo" type="number" min="1" max="300" value="1"></label>
+      <button type="button" id="playAllWords">▶ 선택 번호부터 단어</button>
+      <button type="button" id="playAllSentences">▶ 선택 번호부터 예문</button>
+      <button type="button" id="playAllBoth">▶ 선택 번호부터 단어+예문</button>
       <button type="button" class="stop" id="stopAll">■ 재생 멈춤</button>
     </div>
   </div>
@@ -92,7 +97,7 @@ function render() {
     const heading = x.category !== last ? `<h2 class="category">${esc(x.category)}</h2>` : '';
     last = x.category;
     return `${heading}<article class="card">
-      <div class="wordline"><div class="no">${x.no}</div><div class="hanzi">${esc(x.word)}</div><div class="pinyin">${esc(x.pinyin)}</div><button class="play" data-kind="word" data-no="${x.no}">▶ 단어</button></div>
+      <div class="wordline"><button class="startPick ${Number(document.getElementById('startNo')?.value||1)===x.no?'selected':''}" data-no="${x.no}" title="${x.no}번부터 연속 재생">${x.no}</button><div class="hanzi">${esc(x.word)}</div><div class="pinyin">${esc(x.pinyin)}</div><button class="play" data-kind="word" data-no="${x.no}">▶ 단어</button></div>
       <div class="answer meaning ${state.showMeaning?'':'hidden'}">${esc(x.meaning)}</div>
       <div class="exampleline"><div class="no">例</div><div class="hanzi sentence">${esc(x.example)}</div><div class="pinyin">${esc(x.examplePinyin)}</div><button class="play" data-kind="sentence" data-no="${x.no}">▶ 예문</button></div>
       <div class="answer translation ${state.showTranslation?'':'hidden'}">${esc(x.translation)}</div>
@@ -149,8 +154,22 @@ function stopPlayback() {
   setTimeout(() => statusBox.classList.remove('show'), 1500);
 }
 function showStatus(msg) { statusBox.textContent = msg; statusBox.classList.add('show'); }
+function selectedItems() {
+  const input = document.getElementById('startNo');
+  const start = Math.min(300, Math.max(1, Number(input.value) || 1));
+  input.value = start;
+  return {start, items:DATA.filter(x => x.no >= start)};
+}
 
 list.addEventListener('click', e => {
+  const pick = e.target.closest('.startPick');
+  if (pick) {
+    document.getElementById('startNo').value = pick.dataset.no;
+    render();
+    showStatus(`${pick.dataset.no}번을 연속 재생 시작 번호로 선택했습니다.`);
+    setTimeout(() => statusBox.classList.remove('show'), 1500);
+    return;
+  }
   const btn = e.target.closest('.play'); if (!btn) return;
   const item = DATA.find(x => x.no === Number(btn.dataset.no));
   const isWord = btn.dataset.kind === 'word';
@@ -159,18 +178,22 @@ list.addEventListener('click', e => {
 });
 document.getElementById('playAllWords').addEventListener('click', () => {
   const repeat = Number(document.getElementById('wordRepeat').value);
-  playQueue(DATA.flatMap(x => repeatEntries(x.word, repeat, `${x.no}/300 단어`)), '1~300 전체 단어');
+  const {start,items} = selectedItems();
+  playQueue(items.flatMap(x => repeatEntries(x.word, repeat, `${x.no}/300 단어`)), `${start}~300 전체 단어`);
 });
 document.getElementById('playAllSentences').addEventListener('click', () => {
   const repeat = Number(document.getElementById('sentenceRepeat').value);
-  playQueue(DATA.flatMap(x => repeatEntries(x.example, repeat, `${x.no}/300 예문`)), '1~300 전체 예문');
+  const {start,items} = selectedItems();
+  playQueue(items.flatMap(x => repeatEntries(x.example, repeat, `${x.no}/300 예문`)), `${start}~300 전체 예문`);
 });
 document.getElementById('playAllBoth').addEventListener('click', () => {
   const wr = Number(document.getElementById('wordRepeat').value);
   const sr = Number(document.getElementById('sentenceRepeat').value);
-  playQueue(DATA.flatMap(x => [...repeatEntries(x.word, wr, `${x.no}/300 단어`), ...repeatEntries(x.example, sr, `${x.no}/300 예문`)]), '1~300 단어+예문');
+  const {start,items} = selectedItems();
+  playQueue(items.flatMap(x => [...repeatEntries(x.word, wr, `${x.no}/300 단어`), ...repeatEntries(x.example, sr, `${x.no}/300 예문`)]), `${start}~300 단어+예문`);
 });
 document.getElementById('stopAll').addEventListener('click', stopPlayback);
+document.getElementById('startNo').addEventListener('change', () => { selectedItems(); render(); });
 document.getElementById('search').addEventListener('input', render);
 document.getElementById('meaningToggle').addEventListener('click', e => { state.showMeaning=!state.showMeaning; e.currentTarget.classList.toggle('on',state.showMeaning); e.currentTarget.textContent=state.showMeaning?'뜻 보임':'뜻 숨김'; render(); });
 document.getElementById('translationToggle').addEventListener('click', e => { state.showTranslation=!state.showTranslation; e.currentTarget.classList.toggle('on',state.showTranslation); e.currentTarget.textContent=state.showTranslation?'해석 보임':'해석 숨김'; render(); });
