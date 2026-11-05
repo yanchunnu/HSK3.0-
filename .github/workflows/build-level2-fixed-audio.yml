@@ -1,0 +1,53 @@
+name: Build level 2 fixed pronunciation audio
+
+on:
+  push:
+    paths:
+      - audio/level2-fixed-audio.json
+      - .github/workflows/build-level2-fixed-audio.yml
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: "!contains(github.event.head_commit.message, '[fixed-audio-built]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download and split verified Mandarin audio
+        run: |
+          python - <<'PY'
+          import json
+          import urllib.request
+          import wave
+          from pathlib import Path
+
+          root = Path('audio')
+          spec = json.loads((root / 'level2-fixed-audio.json').read_text(encoding='utf-8'))
+          master = root / 'level2-fixed-master.wav'
+          urllib.request.urlretrieve(spec['source_url'], master)
+
+          with wave.open(str(master), 'rb') as src:
+              params = src.getparams()
+              frames = src.readframes(src.getnframes())
+          width = params.sampwidth * params.nchannels
+          rate = params.framerate
+          pad = b'\0' * int(rate * 0.08) * width
+          for clip in spec['clips']:
+              start = max(0, int(clip['start'] * rate)) * width
+              end = min(params.nframes, int(clip['end'] * rate)) * width
+              with wave.open(str(root / clip['file']), 'wb') as out:
+                  out.setparams(params)
+                  out.writeframes(pad + frames[start:end] + pad)
+          PY
+      - name: Commit generated clips
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/item2-*.wav audio/level2-fixed-master.wav
+          git diff --cached --quiet || git commit -m "Add verified level 2 pronunciation audio [fixed-audio-built]"
+          git push
