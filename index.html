@@ -15,7 +15,7 @@
     h1 { margin:0; font-size:clamp(22px,4vw,34px); letter-spacing:-.04em; }
     .sub { color:#627d98; font-size:13px; margin-top:4px; }
     .count { color:#486581; font-weight:700; white-space:nowrap; }
-    .controls { display:grid; grid-template-columns:2fr repeat(4,auto); gap:10px; padding-bottom:14px; align-items:center; }
+    .controls { display:grid; grid-template-columns:2fr repeat(5,auto); gap:10px; padding-bottom:14px; align-items:center; }
     .controls input, .controls select, .toggle { min-height:42px; border:1px solid #bcccdc; border-radius:10px; background:white; padding:0 12px; }
     .toggle { cursor:pointer; font-weight:700; color:#334e68; }
     .toggle.on { background:var(--blue); border-color:var(--blue); color:white; }
@@ -62,6 +62,7 @@
       <input id="search" type="search" placeholder="번호·한자·병음·뜻 검색">
       <label>단어 <select id="wordRepeat"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>회</label>
       <label>예문 <select id="sentenceRepeat"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>회</label>
+      <label>속도 <select id="speechRate"><option value="0.55">매우 느리게</option><option value="0.68">느리게</option><option value="0.78" selected>학습 속도</option><option value="0.9">조금 빠르게</option><option value="1">보통</option><option value="1.15">빠르게</option><option value="1.3">매우 빠르게</option></select></label>
       <button class="toggle on" id="meaningToggle" type="button">뜻 보임</button>
       <button class="toggle on" id="translationToggle" type="button">해석 보임</button>
     </div>
@@ -124,7 +125,7 @@ function playQueue(entries, label) {
     const item = entries[done];
     showStatus(`${label} 재생 중 · ${item.progress || `${done+1}/${entries.length}`}`);
     const u = new SpeechSynthesisUtterance(item.text);
-    u.lang = 'zh-CN'; u.rate = 0.78; u.pitch = 1; if (voice) u.voice = voice;
+    u.lang = 'zh-CN'; u.rate = Number(document.getElementById('speechRate').value); u.pitch = 1; if (voice) u.voice = voice;
     u.onend = () => { done++; setTimeout(next, 350); };
     u.onerror = () => {
       if (runId !== state.runId) return;
