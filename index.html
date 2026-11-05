@@ -22,6 +22,9 @@
     .batch { display:flex; flex-wrap:wrap; gap:8px; padding:0 0 14px; }
     .batch button { min-height:40px; border:1px solid #a9c3df; border-radius:10px; padding:0 14px; background:#f5f9ff; color:var(--blue); font-weight:800; cursor:pointer; }
     .batch button:hover { background:#e1edff; }
+    .batch button:disabled { opacity:.5; cursor:not-allowed; }
+    .batch .pause { color:#735c0f; border-color:#dfc56d; background:#fff9df; }
+    .batch .pause.paused { color:#0b6b45; border-color:#74c69d; background:#edfff5; }
     .batch .stop { color:#a61b1b; border-color:#e2aaaa; background:#fff7f7; }
     .startControl { display:flex; align-items:center; gap:7px; min-height:40px; padding:0 10px; border:1px solid #a9c3df; border-radius:10px; background:white; font-weight:800; color:#334e68; }
     .startControl input { width:64px; height:30px; border:1px solid #bcccdc; border-radius:7px; text-align:center; font-weight:800; }
@@ -83,6 +86,7 @@
       <button type="button" id="playAllWords">▶ 선택 번호부터 단어</button>
       <button type="button" id="playAllSentences">▶ 선택 번호부터 예문</button>
       <button type="button" id="playAllBoth">▶ 선택 번호부터 단어+예문</button>
+      <button type="button" class="pause" id="pauseResume" disabled>Ⅱ 일시정지</button>
       <button type="button" class="stop" id="stopAll">■ 재생 멈춤</button>
     </div>
   </div>
@@ -95,6 +99,13 @@ const DATA = [{"no":1,"category":"인사·사람·대명사","word":"你","pinyi
 const state = { showMeaning:true, showTranslation:true, speaking:false, paused:false, resumeNext:null, resumeSpeech:null, speechToken:0, runId:0, currentAudio:null, currentNo:null };
 const list = document.getElementById('list');
 const statusBox = document.getElementById('status');
+const pauseResumeBtn = document.getElementById('pauseResume');
+
+function syncPauseButton() {
+  pauseResumeBtn.disabled = !state.speaking;
+  pauseResumeBtn.classList.toggle('paused', state.paused);
+  pauseResumeBtn.textContent = state.paused ? '▶ 이어듣기' : 'Ⅱ 일시정지';
+}
 
 function esc(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function render() {
@@ -128,6 +139,7 @@ function playQueue(entries, label) {
   state.resumeNext = null;
   state.resumeSpeech = null;
   state.speechToken++;
+  syncPauseButton();
   document.querySelectorAll('.play').forEach(b => b.disabled = true);
   const voice = getChineseVoice();
   let done = 0;
@@ -137,6 +149,8 @@ function playQueue(entries, label) {
     if (state.paused) { state.resumeNext = next; return; }
     if (done >= entries.length) {
       state.speaking = false;
+      state.paused = false;
+      syncPauseButton();
       document.querySelectorAll('.play').forEach(b => b.disabled = false);
       showStatus(`${label} 재생 완료`);
       setTimeout(() => statusBox.classList.remove('show'), 1500);
@@ -222,6 +236,7 @@ function stopPlayback() {
   speechSynthesis.cancel();
   if (state.currentAudio) { state.currentAudio.pause(); state.currentAudio.currentTime=0; state.currentAudio=null; }
   state.currentNo=null;
+  syncPauseButton();
   document.querySelectorAll('.card.reading').forEach(x => x.classList.remove('reading'));
   document.querySelectorAll('.play').forEach(b => b.disabled = false);
   showStatus('재생을 멈췄습니다.');
@@ -237,7 +252,8 @@ function togglePause() {
       state.speechToken++;
       speechSynthesis.cancel();
     }
-    showStatus('일시정지됨 · 화면을 다시 누르면 이어서 재생합니다');
+    syncPauseButton();
+    showStatus('일시정지됨 · 화면을 다시 누르거나 이어듣기 버튼을 누르세요');
     return;
   }
   state.paused = false;
@@ -247,6 +263,7 @@ function togglePause() {
   const resume = state.resumeNext;
   state.resumeNext = null;
   if (resume) resume();
+  syncPauseButton();
   showStatus('이어서 재생합니다');
 }
 function showStatus(msg) { statusBox.textContent = msg; statusBox.classList.add('show'); }
@@ -289,6 +306,7 @@ document.getElementById('playAllBoth').addEventListener('click', () => {
   playQueue(items.flatMap(x => [...repeatEntries(x.word, wr, `${x.no}/300 단어`, fixedAudio(x.no,'word'), x.no, 'word'), ...repeatEntries(x.example, sr, `${x.no}/300 예문`, fixedAudio(x.no,'example'), x.no, 'example')]), `${start}~300 단어+예문`);
 });
 document.getElementById('stopAll').addEventListener('click', stopPlayback);
+pauseResumeBtn.addEventListener('click', togglePause);
 document.addEventListener('click', e => {
   if (e.target.closest('button, input, select, label, a, .status')) return;
   togglePause();
