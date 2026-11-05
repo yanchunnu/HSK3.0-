@@ -23,7 +23,7 @@ jobs:
           python - <<'PY'
           import json
           import urllib.request
-          import wave
+          import subprocess
           from pathlib import Path
 
           root = Path('audio')
@@ -31,18 +31,15 @@ jobs:
           master = root / 'level2-fixed-master.wav'
           urllib.request.urlretrieve(spec['source_url'], master)
 
-          with wave.open(str(master), 'rb') as src:
-              params = src.getparams()
-              frames = src.readframes(src.getnframes())
-          width = params.sampwidth * params.nchannels
-          rate = params.framerate
-          pad = b'\0' * int(rate * 0.08) * width
           for clip in spec['clips']:
-              start = max(0, int(clip['start'] * rate)) * width
-              end = min(params.nframes, int(clip['end'] * rate)) * width
-              with wave.open(str(root / clip['file']), 'wb') as out:
-                  out.setparams(params)
-                  out.writeframes(pad + frames[start:end] + pad)
+              duration = clip['end'] - clip['start']
+              subprocess.run([
+                  'ffmpeg', '-hide_banner', '-loglevel', 'error', '-y',
+                  '-ss', str(clip['start']), '-t', str(duration), '-i', str(master),
+                  '-af', 'adelay=80:all=1,apad=pad_dur=0.08',
+                  '-ar', '24000', '-ac', '1', '-c:a', 'pcm_s16le',
+                  str(root / clip['file'])
+              ], check=True)
           PY
       - name: Commit generated clips
         run: |
