@@ -30,9 +30,10 @@ jobs:
 
       - name: Join the full 1-300 track
         run: |
-          printf "file 'all-001-100.wav'\nfile 'all-101-200.wav'\nfile 'all-201-300.wav'\n" > audio/concat.txt
-          ffmpeg -y -f concat -safe 0 -i audio/concat.txt -c copy audio/all-001-300.wav
-          rm audio/concat.txt
+          cd audio
+          printf "file 'all-001-100.wav'\nfile 'all-101-200.wav'\nfile 'all-201-300.wav'\n" > concat.txt
+          ffmpeg -y -f concat -safe 0 -i concat.txt -c copy all-001-300.wav
+          rm concat.txt
 
       - name: Commit audio files
         run: |
