@@ -45,14 +45,18 @@
     .status { position:fixed; right:16px; bottom:16px; z-index:8; max-width:min(380px,calc(100% - 32px)); background:#102a43; color:white; padding:10px 14px; border-radius:10px; box-shadow:0 8px 22px #102a4340; display:none; }
     .status.show { display:block; }
     @media (max-width:760px) {
+      header { position:static; }
       .top { align-items:start; }
       .controls { grid-template-columns:1fr 1fr; }
       .controls input { grid-column:1/-1; }
+      main { padding-bottom:82px; }
+      .card { scroll-margin-top:12px; }
       .wordline, .exampleline { grid-template-columns:36px 1fr auto; }
       .pinyin { grid-column:2/3; }
       .play { grid-column:3/4; grid-row:1/3; }
       .answer { margin-left:46px; }
       .sentence { font-size:18px; }
+      .status { left:8px; right:8px; bottom:8px; max-width:none; padding:9px 12px; font-size:13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; border-radius:9px; }
     }
   </style>
 </head>
