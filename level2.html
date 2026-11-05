@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HSK 3.0 2급 음원 학습</title>
+  <style>
+    :root { --blue:#174ea6; --deep:#102a43; --line:#d8e2ec; --soft:#f2f7fb; --accent:#eaf2ff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:"Malgun Gothic","Noto Sans KR",sans-serif; color:var(--deep); background:#eef3f7; }
+    button, select, input { font:inherit; }
+    header { position:sticky; top:0; z-index:5; background:rgba(255,255,255,.97); border-bottom:1px solid var(--line); box-shadow:0 4px 18px #102a4312; }
+    .wrap { width:min(1120px, calc(100% - 24px)); margin:auto; }
+    .top { padding:18px 0 12px; display:flex; justify-content:space-between; gap:16px; align-items:end; }
+    h1 { margin:0; font-size:clamp(22px,4vw,34px); letter-spacing:-.04em; }
+    .sub { color:#627d98; font-size:13px; margin-top:4px; }
+    .count { color:#486581; font-weight:700; white-space:nowrap; }
+    .controls { display:grid; grid-template-columns:2fr repeat(6,auto); gap:10px; padding-bottom:14px; align-items:center; }
+    .controls input, .controls select, .toggle { min-height:42px; border:1px solid #bcccdc; border-radius:10px; background:white; padding:0 12px; }
+    .toggle { cursor:pointer; font-weight:700; color:#334e68; }
+    .toggle.on { background:var(--blue); border-color:var(--blue); color:white; }
+    .batch { display:flex; flex-wrap:wrap; gap:8px; padding:0 0 14px; }
+    .batch button { min-height:40px; border:1px solid #a9c3df; border-radius:10px; padding:0 14px; background:#f5f9ff; color:var(--blue); font-weight:800; cursor:pointer; }
+    .batch button:hover { background:#e1edff; }
+    .batch button:disabled { opacity:.5; cursor:not-allowed; }
+    .batch .pause { color:#735c0f; border-color:#dfc56d; background:#fff9df; }
+    .batch .pause.paused { color:#0b6b45; border-color:#74c69d; background:#edfff5; }
+    .batch .stop { color:#a61b1b; border-color:#e2aaaa; background:#fff7f7; }
+    .startControl { display:flex; align-items:center; gap:7px; min-height:40px; padding:0 10px; border:1px solid #a9c3df; border-radius:10px; background:white; font-weight:800; color:#334e68; }
+    .startControl input { width:64px; height:30px; border:1px solid #bcccdc; border-radius:7px; text-align:center; font-weight:800; }
+    .startPick { border:0; background:transparent; color:#627d98; font-weight:900; cursor:pointer; border-radius:7px; padding:7px; }
+    .startPick:hover, .startPick.selected { background:var(--blue); color:white; }
+    main { padding:18px 0 50px; }
+    .category { margin:22px 0 10px; color:var(--blue); font-size:19px; }
+    .card { background:white; border:1px solid var(--line); border-radius:15px; margin:10px 0; padding:15px 16px; box-shadow:0 3px 10px #102a430a; }
+    .card.reading { border:3px solid #2b6ed2; background:#f7fbff; box-shadow:0 0 0 5px #2b6ed21c, 0 8px 24px #102a4320; }
+    .wordline, .exampleline { display:grid; grid-template-columns:52px minmax(110px,1fr) minmax(130px,1.1fr) auto; gap:10px; align-items:center; }
+    .exampleline { grid-template-columns:52px minmax(220px,2fr) minmax(220px,2fr) auto; margin-top:13px; padding-top:13px; border-top:1px dashed var(--line); }
+    .no { color:#829ab1; font-weight:800; text-align:center; }
+    .hanzi { color:#000; font-family:"Microsoft YaHei","Noto Sans SC",sans-serif; font-size:25px; font-weight:900; }
+    .sentence { font-size:20px; }
+    .pinyin { color:#526d82; font-size:15px; }
+    .pinyin.hidden { display:none; }
+    .play { border:0; border-radius:10px; min-height:42px; padding:0 15px; background:var(--accent); color:var(--blue); font-weight:800; cursor:pointer; }
+    .play:hover { background:#d7e7ff; }
+    .play:disabled { opacity:.5; cursor:not-allowed; }
+    .answer { margin:10px 0 0 62px; padding:9px 12px; background:var(--soft); border-radius:9px; color:#334e68; }
+    .answer.hidden { display:none; }
+    .status { position:fixed; right:16px; bottom:16px; z-index:8; max-width:min(380px,calc(100% - 32px)); background:#102a43; color:white; padding:10px 14px; border-radius:10px; box-shadow:0 8px 22px #102a4340; display:none; }
+    .status.show { display:block; }
+    .toTop { position:fixed; right:16px; bottom:72px; z-index:9; width:48px; height:48px; border:0; border-radius:50%; background:var(--blue); color:white; font-size:21px; font-weight:900; box-shadow:0 6px 18px #102a4340; cursor:pointer; opacity:0; pointer-events:none; transform:translateY(8px); transition:.2s; }
+    .toTop.show { opacity:1; pointer-events:auto; transform:none; }
+    @media (max-width:760px) {
+      header { position:static; }
+      .top { align-items:start; }
+      .controls { grid-template-columns:1fr 1fr; }
+      .controls input { grid-column:1/-1; }
+      main { padding-bottom:82px; }
+      .card { scroll-margin-top:12px; }
+      .wordline, .exampleline { grid-template-columns:36px 1fr auto; }
+      .pinyin { grid-column:2/3; }
+      .play { grid-column:3/4; grid-row:1/3; }
+      .answer { margin-left:46px; }
+      .sentence { font-size:18px; }
+      .status { left:8px; right:8px; bottom:8px; max-width:none; padding:9px 12px; font-size:13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; border-radius:9px; }
+      .toTop { right:10px; bottom:56px; width:44px; height:44px; font-size:19px; }
+    }
+  </style>
+</head>
+<body>
+<!-- mobile playback controls v2 -->
+<header>
+  <div class="wrap">
+    <div class="top">
+      <div><h1>HSK 3.0 2급 음원 학습</h1><div class="sub">한자단어와 예문을 원하는 횟수만큼 반복해서 들으세요.</div></div>
+      <div class="count" id="count"></div>
+    </div>
+    <div class="controls">
+      <input id="search" type="search" placeholder="번호·한자·병음·뜻 검색">
+      <label>단어 <select id="wordRepeat"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>회</label>
+      <label>예문 <select id="sentenceRepeat"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>회</label>
+      <label>속도 <select id="speechRate"><option value="0.55">매우 느리게</option><option value="0.68">느리게</option><option value="0.78" selected>학습 속도</option><option value="0.9">조금 빠르게</option><option value="1">보통</option><option value="1.15">빠르게</option><option value="1.3">매우 빠르게</option></select></label>
+      <button class="toggle on" id="pinyinToggle" type="button">병음 보임</button>
+      <button class="toggle on" id="meaningToggle" type="button">뜻 보임</button>
+      <button class="toggle on" id="translationToggle" type="button">해석 보임</button>
+    </div>
+    <div class="batch">
+      <label class="startControl">시작 번호 <input id="startNo" type="number" min="1" max="500" value="1"></label>
+      <button type="button" id="playAllWords">▶ 선택 번호부터 단어</button>
+      <button type="button" id="playAllSentences">▶ 선택 번호부터 예문</button>
+      <button type="button" id="playAllBoth">▶ 선택 번호부터 단어+예문</button>
+      <button type="button" class="pause" id="pauseResume" disabled>Ⅱ 일시정지</button>
+      <button type="button" class="stop" id="stopAll">■ 재생 멈춤</button>
+    </div>
+  </div>
+</header>
+<main class="wrap" id="list"></main>
+<div class="status" id="status"></div>
+<button class="toTop" id="toTop" type="button" aria-label="맨 위로 가기" title="맨 위로 가기">↑</button>
+<script>
+const DATA = [{"no":1,"category":"인사·사람·대명사","word":"你","pinyin":"nǐ","meaning":"너, 당신","example":"你是老师吗？","examplePinyin":"nǐ shì lǎoshī ma?","translation":"당신은 선생님인가요?"},{"no":2,"category":"인사·사람·대명사","word":"您","pinyin":"nín","meaning":"당신(존칭)","example":"您好，请问您找谁？","examplePinyin":"nín hǎo, qǐngwèn nín zhǎo shéi?","translation":"안녕하세요, 누구를 찾으세요?"},{"no":3,"category":"인사·사람·대명사","word":"你们","pinyin":"nǐmen","meaning":"여러분, 너희들","example":"你们都是学生吗？","examplePinyin":"nǐmen dōu shì xuéshēng ma?","translation":"여러분은 모두 학생인가요?"},{"no":4,"category":"인사·사람·대명사","word":"我","pinyin":"wǒ","meaning":"나, 저","example":"我是学生。","examplePinyin":"wǒ shì xuéshēng.","translation":"저는 학생이에요."},{"no":5,"category":"인사·사람·대명사","word":"我们","pinyin":"wǒmen","meaning":"우리","example":"我们都是朋友。","examplePinyin":"wǒmen dōu shì péngyou.","translation":"우리는 모두 친구예요."},{"no":6,"category":"인사·사람·대명사","word":"他","pinyin":"tā","meaning":"그, 그 사람","example":"他是我的老师。","examplePinyin":"tā shì wǒ de lǎoshī.","translation":"그는 제 선생님이에요."},{"no":7,"category":"인사·사람·대명사","word":"她","pinyin":"tā","meaning":"그녀","example":"她是我的老师。","examplePinyin":"tā shì wǒ de lǎoshī.","translation":"그녀는 제 선생님이에요."},{"no":8,"category":"인사·사람·대명사","word":"它","pinyin":"tā","meaning":"그것(사물·동물)","example":"它是一只猫。","examplePinyin":"tā shì yì zhī māo.","translation":"그것은 고양이 한 마리예요."},{"no":9,"category":"인사·사람·대명사","word":"他们","pinyin":"tāmen","meaning":"그들","example":"他们都是学生。","examplePinyin":"tāmen dōu shì xuéshēng.","translation":"그들은 모두 학생이에요."},{"no":10,"category":"인사·사람·대명사","word":"她们","pinyin":"tāmen","meaning":"그녀들","example":"她们都是老师。","examplePinyin":"tāmen dōu shì lǎoshī.","translation":"그녀들은 모두 선생님이에요."},{"no":11,"category":"인사·사람·대명사","word":"它们","pinyin":"tāmen","meaning":"그것들","example":"它们都是我的。","examplePinyin":"tāmen dōu shì wǒ de.","translation":"그것들은 모두 제 것이에요."},{"no":12,"category":"인사·사람·대명사","word":"自己","pinyin":"zìjǐ","meaning":"자기 자신","example":"我自己做饭。","examplePinyin":"wǒ zìjǐ zuòfàn.","translation":"저는 직접 요리해요."},{"no":13,"category":"인사·사람·대명사","word":"大家","pinyin":"dàjiā","meaning":"모두, 여러분","example":"大家好！","examplePinyin":"dàjiā hǎo!","translation":"여러분, 안녕하세요!"},{"no":14,"category":"인사·사람·대명사","word":"人","pinyin":"rén","meaning":"사람","example":"这里有很多人。","examplePinyin":"zhèlǐ yǒu hěn duō rén.","translation":"여기에는 사람이 많아요."},{"no":15,"category":"인사·사람·대명사","word":"男","pinyin":"nán","meaning":"남자, 남성의","example":"他是男老师。","examplePinyin":"tā shì nán lǎoshī.","translation":"그는 남자 선생님이에요."},{"no":16,"category":"인사·사람·대명사","word":"女","pinyin":"nǚ","meaning":"여자, 여성의","example":"她是女老师。","examplePinyin":"tā shì nǚ lǎoshī.","translation":"그녀는 여자 선생님이에요."},{"no":17,"category":"인사·사람·대명사","word":"男孩儿","pinyin":"nánháir","meaning":"남자아이","example":"那个男孩儿是我弟弟。","examplePinyin":"nàge nánháir shì wǒ dìdi.","translation":"저 남자아이는 제 남동생이에요."},{"no":18,"category":"인사·사람·대명사","word":"女孩儿","pinyin":"nǚháir","meaning":"여자아이","example":"那个女孩儿很漂亮。","examplePinyin":"nàge nǚháir hěn piàoliang.","translation":"저 여자아이는 아주 예뻐요."},{"no":19,"category":"인사·사람·대명사","word":"小孩儿","pinyin":"xiǎoháir","meaning":"어린아이","example":"那个小孩儿很可爱。","examplePinyin":"nàge xiǎoháir hěn kě'ài.","translation":"저 아이는 아주 귀여워요."},{"no":20,"category":"인사·사람·대명사","word":"女士","pinyin":"nǚshì","meaning":"여성, ~여사","example":"王女士是老师。","examplePinyin":"wáng nǚshì shì lǎoshī.","translation":"왕 여사는 선생님이에요."},{"no":21,"category":"인사·사람·대명사","word":"先生","pinyin":"xiānsheng","meaning":"선생님, ~씨","example":"王先生是老师。","examplePinyin":"wáng xiānsheng shì lǎoshī.","translation":"왕 선생님은 교사예요."},{"no":22,"category":"인사·사람·대명사","word":"姓","pinyin":"xìng","meaning":"성이 ~이다","example":"我姓王。","examplePinyin":"wǒ xìng Wáng.","translation":"제 성은 왕입니다."},{"no":23,"category":"인사·사람·대명사","word":"姓名","pinyin":"xìngmíng","meaning":"성명","example":"请写你的姓名。","examplePinyin":"qǐng xiě nǐ de xìngmíng.","translation":"성명을 적어 주세요."},{"no":24,"category":"인사·사람·대명사","word":"你好","pinyin":"nǐ hǎo","meaning":"안녕하세요","example":"你好，很高兴认识你。","examplePinyin":"nǐ hǎo, hěn gāoxìng rènshi nǐ.","translation":"안녕하세요, 만나서 반가워요."},{"no":25,"category":"인사·사람·대명사","word":"再见","pinyin":"zàijiàn","meaning":"안녕히 가세요","example":"老师，再见！","examplePinyin":"lǎoshī, zàijiàn!","translation":"선생님, 안녕히 가세요!"},{"no":26,"category":"인사·사람·대명사","word":"谢谢","pinyin":"xièxie","meaning":"감사합니다","example":"谢谢老师！","examplePinyin":"xièxie lǎoshī!","translation":"선생님, 감사합니다!"},{"no":27,"category":"인사·사람·대명사","word":"不客气","pinyin":"bú kèqi","meaning":"천만에요","example":"谢谢！不客气。","examplePinyin":"xièxie! Bú kèqi.","translation":"감사합니다! 천만에요."},{"no":28,"category":"인사·사람·대명사","word":"对不起","pinyin":"duìbuqǐ","meaning":"미안합니다","example":"对不起，我来晚了。","examplePinyin":"duìbuqǐ, wǒ lái wǎn le.","translation":"미안해요, 제가 늦었어요."},{"no":29,"category":"인사·사람·대명사","word":"不好意思","pinyin":"bù hǎoyìsi","meaning":"죄송하다, 실례하다","example":"不好意思，我来晚了。","examplePinyin":"bù hǎoyìsi, wǒ lái wǎn le.","translation":"죄송해요, 제가 늦었어요."},{"no":30,"category":"인사·사람·대명사","word":"没关系","pinyin":"méi guānxi","meaning":"괜찮다","example":"对不起。没关系。","examplePinyin":"duìbuqǐ. Méi guānxi.","translation":"미안합니다. 괜찮아요."},{"no":31,"category":"인사·사람·대명사","word":"没事","pinyin":"méishì","meaning":"괜찮다, 별일 없다","example":"没事，你去吧。","examplePinyin":"méishì, nǐ qù ba.","translation":"괜찮아요, 가세요."},{"no":32,"category":"인사·사람·대명사","word":"请","pinyin":"qǐng","meaning":"청하다, ~하세요","example":"请坐。","examplePinyin":"qǐng zuò.","translation":"앉으세요."},{"no":33,"category":"인사·사람·대명사","word":"请问","pinyin":"qǐngwèn","meaning":"실례지만, 여쭙겠습니다","example":"请问，医院在哪儿？","examplePinyin":"qǐngwèn, yīyuàn zài nǎr?","translation":"실례지만, 병원이 어디에 있나요?"},{"no":34,"category":"인사·사람·대명사","word":"喂","pinyin":"wéi","meaning":"여보세요","example":"喂，你好！","examplePinyin":"wéi, nǐ hǎo!","translation":"여보세요, 안녕하세요!"},{"no":35,"category":"인사·사람·대명사","word":"位","pinyin":"wèi","meaning":"분(사람의 존칭 양사)","example":"这位是王老师。","examplePinyin":"zhè wèi shì Wáng lǎoshī.","translation":"이분은 왕 선생님이에요."},{"no":36,"category":"가족·관계","word":"爸爸","pinyin":"bàba","meaning":"아빠","example":"我爸爸在公司工作。","examplePinyin":"wǒ bàba zài gōngsī gōngzuò.","translation":"우리 아빠는 회사에서 일해요."},{"no":37,"category":"가족·관계","word":"妈妈","pinyin":"māma","meaning":"엄마","example":"我妈妈会做饭。","examplePinyin":"wǒ māma huì zuòfàn.","translation":"우리 엄마는 요리할 줄 알아요."},{"no":38,"category":"가족·관계","word":"哥哥","pinyin":"gēge","meaning":"형, 오빠","example":"我哥哥在公司工作。","examplePinyin":"wǒ gēge zài gōngsī gōngzuò.","translation":"제 오빠는 회사에서 일해요."},{"no":39,"category":"가족·관계","word":"姐姐","pinyin":"jiějie","meaning":"언니, 누나","example":"我姐姐是老师。","examplePinyin":"wǒ jiějie shì lǎoshī.","translation":"제 언니는 선생님이에요."},{"no":40,"category":"가족·관계","word":"弟弟","pinyin":"dìdi","meaning":"남동생","example":"我弟弟是学生。","examplePinyin":"wǒ dìdi shì xuéshēng.","translation":"제 남동생은 학생이에요."},{"no":41,"category":"가족·관계","word":"妹妹","pinyin":"mèimei","meaning":"여동생","example":"我妹妹是学生。","examplePinyin":"wǒ mèimei shì xuéshēng.","translation":"제 여동생은 학생이에요."},{"no":42,"category":"가족·관계","word":"儿子","pinyin":"érzi","meaning":"아들","example":"我儿子是小学生。","examplePinyin":"wǒ érzi shì xiǎoxuéshēng.","translation":"제 아들은 초등학생이에요."},{"no":43,"category":"가족·관계","word":"女儿","pinyin":"nǚ'ér","meaning":"딸","example":"她女儿五岁了。","examplePinyin":"tā nǚ'ér wǔ suì le.","translation":"그녀의 딸은 다섯 살이에요."},{"no":44,"category":"가족·관계","word":"奶奶","pinyin":"nǎinai","meaning":"할머니(친가)","example":"我奶奶今年七十岁。","examplePinyin":"wǒ nǎinai jīnnián qīshí suì.","translation":"우리 할머니는 올해 일흔 살이에요."},{"no":45,"category":"가족·관계","word":"爷爷","pinyin":"yéye","meaning":"할아버지(친가)","example":"我爷爷喜欢喝茶。","examplePinyin":"wǒ yéye xǐhuan hē chá.","translation":"우리 할아버지는 차 마시는 것을 좋아하세요."},{"no":46,"category":"가족·관계","word":"妻子","pinyin":"qīzi","meaning":"아내","example":"我妻子是老师。","examplePinyin":"wǒ qīzi shì lǎoshī.","translation":"제 아내는 선생님이에요."},{"no":47,"category":"가족·관계","word":"丈夫","pinyin":"zhàngfu","meaning":"남편","example":"我丈夫在公司工作。","examplePinyin":"wǒ zhàngfu zài gōngsī gōngzuò.","translation":"제 남편은 회사에서 일해요."},{"no":48,"category":"가족·관계","word":"家人","pinyin":"jiārén","meaning":"가족","example":"我的家人都很好。","examplePinyin":"wǒ de jiārén dōu hěn hǎo.","translation":"제 가족은 모두 잘 지내요."},{"no":49,"category":"가족·관계","word":"男朋友","pinyin":"nánpéngyou","meaning":"남자친구","example":"他是我的男朋友。","examplePinyin":"tā shì wǒ de nánpéngyou.","translation":"그는 제 남자친구예요."},{"no":50,"category":"가족·관계","word":"女朋友","pinyin":"nǚpéngyou","meaning":"여자친구","example":"她是我的女朋友。","examplePinyin":"tā shì wǒ de nǚpéngyou.","translation":"그녀는 제 여자친구예요."},{"no":51,"category":"가족·관계","word":"朋友","pinyin":"péngyou","meaning":"친구","example":"他是我的好朋友。","examplePinyin":"tā shì wǒ de hǎo péngyou.","translation":"그는 제 좋은 친구예요."},{"no":52,"category":"가족·관계","word":"小朋友","pinyin":"xiǎopéngyou","meaning":"어린이","example":"小朋友们在玩。","examplePinyin":"xiǎopéngyoumen zài wán.","translation":"아이들이 놀고 있어요."},{"no":53,"category":"가…23888 tokens truncated…"得","pinyin":"de","meaning":"정도보어를 이끄는 조사","example":"他跑得很快。","examplePinyin":"tā pǎo de hěn kuài.","translation":"그는 아주 빨리 달려요."},{"no":468,"category":"성질·상태·문법","word":"地","pinyin":"de","meaning":"부사어를 나타내는 조사","example":"他高兴地笑了。","examplePinyin":"tā gāoxìng de xiào le.","translation":"그는 기쁘게 웃었어요."},{"no":469,"category":"성질·상태·문법","word":"过","pinyin":"guo","meaning":"경험을 나타내는 조사","example":"我去过北京。","examplePinyin":"wǒ qù guo Běijīng.","translation":"저는 베이징에 가본 적이 있어요."},{"no":470,"category":"성질·상태·문법","word":"着","pinyin":"zhe","meaning":"동작·상태의 지속을 나타냄","example":"门开着。","examplePinyin":"mén kāi zhe.","translation":"문이 열려 있어요."},{"no":471,"category":"성질·상태·문법","word":"的","pinyin":"de","meaning":"~의","example":"这是我的书。","examplePinyin":"zhè shì wǒ de shū.","translation":"이것은 제 책이에요."},{"no":472,"category":"성질·상태·문법","word":"们","pinyin":"men","meaning":"~들(복수)","example":"他们都是学生。","examplePinyin":"tāmen dōu shì xuéshēng.","translation":"그들은 모두 학생이에요."},{"no":473,"category":"성질·상태·문법","word":"和","pinyin":"hé","meaning":"~와/과, 그리고","example":"我和朋友去电影院。","examplePinyin":"wǒ hé péngyou qù diànyǐngyuàn.","translation":"저는 친구와 영화관에 가요."},{"no":474,"category":"성질·상태·문법","word":"也","pinyin":"yě","meaning":"~도, 또한","example":"我也是学生。","examplePinyin":"wǒ yě shì xuéshēng.","translation":"저도 학생이에요."},{"no":475,"category":"성질·상태·문법","word":"都","pinyin":"dōu","meaning":"모두, 다","example":"我们都是学生。","examplePinyin":"wǒmen dōu shì xuéshēng.","translation":"우리는 모두 학생이에요."},{"no":476,"category":"성질·상태·문법","word":"还","pinyin":"hái","meaning":"아직, 또","example":"他还在学校。","examplePinyin":"tā hái zài xuéxiào.","translation":"그는 아직 학교에 있어요."},{"no":477,"category":"성질·상태·문법","word":"再","pinyin":"zài","meaning":"다시, 또","example":"请再说一次。","examplePinyin":"qǐng zài shuō yí cì.","translation":"다시 한 번 말해 주세요."},{"no":478,"category":"성질·상태·문법","word":"正在","pinyin":"zhèngzài","meaning":"지금 ~하고 있다","example":"我正在吃饭。","examplePinyin":"wǒ zhèngzài chīfàn.","translation":"저는 지금 밥을 먹고 있어요."},{"no":479,"category":"성질·상태·문법","word":"了","pinyin":"le","meaning":"완료·변화 표시","example":"我吃饭了。","examplePinyin":"wǒ chīfàn le.","translation":"저는 밥을 먹었어요."},{"no":480,"category":"성질·상태·문법","word":"吗","pinyin":"ma","meaning":"~입니까?","example":"你是学生吗？","examplePinyin":"nǐ shì xuéshēng ma?","translation":"당신은 학생입니까?"},{"no":481,"category":"성질·상태·문법","word":"呢","pinyin":"ne","meaning":"~은/는요?","example":"我很好，你呢？","examplePinyin":"wǒ hěn hǎo, nǐ ne?","translation":"저는 잘 지내요. 당신은요?"},{"no":482,"category":"성질·상태·문법","word":"吧","pinyin":"ba","meaning":"~하자, ~하세요","example":"我们去吃饭吧。","examplePinyin":"wǒmen qù chīfàn ba.","translation":"우리 밥 먹으러 가요."},{"no":483,"category":"성질·상태·문법","word":"不","pinyin":"bù","meaning":"~않다, 아니다","example":"我不喝茶。","examplePinyin":"wǒ bù hē chá.","translation":"저는 차를 마시지 않아요."},{"no":484,"category":"성질·상태·문법","word":"不要","pinyin":"búyào","meaning":"~하지 마라","example":"不要说话。","examplePinyin":"búyào shuōhuà.","translation":"말하지 마세요."},{"no":485,"category":"성질·상태·문법","word":"对","pinyin":"duì","meaning":"맞다, 옳다","example":"你说得对。","examplePinyin":"nǐ shuō de duì.","translation":"당신 말이 맞아요."},{"no":486,"category":"성질·상태·문법","word":"非常","pinyin":"fēicháng","meaning":"매우","example":"我非常高兴。","examplePinyin":"wǒ fēicháng gāoxìng.","translation":"저는 매우 기뻐요."},{"no":487,"category":"성질·상태·문법","word":"狗","pinyin":"gǒu","meaning":"개","example":"我家有一只狗。","examplePinyin":"wǒ jiā yǒu yì zhī gǒu.","translation":"우리 집에는 개 한 마리가 있어요."},{"no":488,"category":"성질·상태·문법","word":"好","pinyin":"hǎo","meaning":"좋다","example":"今天天气很好。","examplePinyin":"jīntiān tiānqì hěn hǎo.","translation":"오늘 날씨가 좋아요."},{"no":489,"category":"성질·상태·문법","word":"很","pinyin":"hěn","meaning":"매우, 아주","example":"她很漂亮。","examplePinyin":"tā hěn piàoliang.","translation":"그녀는 아주 예뻐요."},{"no":490,"category":"성질·상태·문법","word":"猫","pinyin":"māo","meaning":"고양이","example":"我家有一只猫。","examplePinyin":"wǒ jiā yǒu yì zhī māo.","translation":"우리 집에는 고양이 한 마리가 있어요."},{"no":491,"category":"성질·상태·문법","word":"没(有)","pinyin":"méi(yǒu)","meaning":"없다, ~하지 않았다","example":"我没有车。","examplePinyin":"wǒ méiyǒu chē.","translation":"저는 차가 없어요."},{"no":492,"category":"성질·상태·문법","word":"名字","pinyin":"míngzi","meaning":"이름","example":"你叫什么名字？","examplePinyin":"nǐ jiào shénme míngzi?","translation":"이름이 뭐예요?"},{"no":493,"category":"성질·상태·문법","word":"事","pinyin":"shì","meaning":"일, 사건","example":"我今天有事。","examplePinyin":"wǒ jīntiān yǒu shì.","translation":"저는 오늘 일이 있어요."},{"no":494,"category":"성질·상태·문법","word":"是","pinyin":"shì","meaning":"~이다","example":"我是大学生。","examplePinyin":"wǒ shì dàxuéshēng.","translation":"저는 대학생이에요."},{"no":495,"category":"성질·상태·문법","word":"太","pinyin":"tài","meaning":"너무, 몹시","example":"今天太热了。","examplePinyin":"jīntiān tài rè le.","translation":"오늘 너무 더워요."},{"no":496,"category":"성질·상태·문법","word":"有的","pinyin":"yǒude","meaning":"어떤 것, 어떤 사람","example":"有的人喜欢喝茶。","examplePinyin":"yǒude rén xǐhuan hē chá.","translation":"어떤 사람들은 차 마시는 것을 좋아해요."},{"no":497,"category":"성질·상태·문법","word":"有(一)点儿","pinyin":"yǒu(yì)diǎnr","meaning":"조금, 약간","example":"今天有点儿冷。","examplePinyin":"jīntiān yǒudiǎnr lěng.","translation":"오늘은 조금 추워요."},{"no":498,"category":"성질·상태·문법","word":"真","pinyin":"zhēn","meaning":"정말, 진짜","example":"这个菜真好吃。","examplePinyin":"zhège cài zhēn hǎochī.","translation":"이 요리는 정말 맛있어요."},{"no":499,"category":"성질·상태·문법","word":"个子","pinyin":"gèzi","meaning":"키, 체격","example":"她个子很高。","examplePinyin":"tā gèzi hěn gāo.","translation":"그녀는 키가 커요."},{"no":500,"category":"성질·상태·문법","word":"一起","pinyin":"yìqǐ","meaning":"함께","example":"我们一起学习吧。","examplePinyin":"wǒmen yìqǐ xuéxí ba.","translation":"우리 함께 공부해요."}];
+const LEVEL = 2;
+const state = { showPinyin:true, showMeaning:true, showTranslation:true, speaking:false, paused:false, resumeNext:null, resumeSpeech:null, speechToken:0, runId:0, currentAudio:null, currentNo:null };
+const list = document.getElementById('list');
+const statusBox = document.getElementById('status');
+const pauseResumeBtn = document.getElementById('pauseResume');
+
+function syncPauseButton() {
+  pauseResumeBtn.disabled = !state.speaking;
+  pauseResumeBtn.classList.toggle('paused', state.paused);
+  pauseResumeBtn.textContent = state.paused ? '▶ 이어듣기' : 'Ⅱ 일시정지';
+}
+
+function esc(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function render() {
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const filtered = DATA.filter(x => !q || [x.no,x.word,x.pinyin,x.meaning,x.example,x.examplePinyin,x.translation,x.category].join(' ').toLowerCase().includes(q));
+  document.getElementById('count').textContent = `${filtered.length} / 500`;
+  let last = '';
+  list.innerHTML = filtered.map(x => {
+    const heading = x.category !== last ? `<h2 class="category">${esc(x.category)}</h2>` : '';
+    last = x.category;
+    return `${heading}<article class="card">
+      <div class="wordline"><button class="startPick ${Number(document.getElementById('startNo')?.value||1)===x.no?'selected':''}" data-no="${x.no}" title="${x.no}번부터 연속 재생">${x.no}</button><div class="hanzi">${esc(x.word)}</div><div class="pinyin ${state.showPinyin?'':'hidden'}">${esc(x.pinyin)}</div><button class="play" data-kind="word" data-no="${x.no}">▶ 단어</button></div>
+      <div class="answer meaning ${state.showMeaning?'':'hidden'}">${esc(x.meaning)}</div>
+      <div class="exampleline"><div class="no">例</div><div class="hanzi sentence">${esc(x.example)}</div><div class="pinyin ${state.showPinyin?'':'hidden'}">${esc(x.examplePinyin)}</div><button class="play" data-kind="sentence" data-no="${x.no}">▶ 예문</button></div>
+      <div class="answer translation ${state.showTranslation?'':'hidden'}">${esc(x.translation)}</div>
+    </article>`;
+  }).join('');
+}
+
+function getChineseVoice() {
+  const voices = speechSynthesis.getVoices();
+  return voices.find(v => /^zh(-|_)?CN/i.test(v.lang)) || voices.find(v => /^zh/i.test(v.lang)) || null;
+}
+function playQueue(entries, label) {
+  if (!('speechSynthesis' in window)) { showStatus('이 브라우저는 음성 재생을 지원하지 않습니다.'); return; }
+  speechSynthesis.cancel();
+  if (state.currentAudio) { state.currentAudio.pause(); state.currentAudio = null; }
+  const runId = ++state.runId;
+  state.speaking = true;
+  state.paused = false;
+  state.resumeNext = null;
+  state.resumeSpeech = null;
+  state.speechToken++;
+  syncPauseButton();
+  document.querySelectorAll('.play').forEach(b => b.disabled = true);
+  const voice = getChineseVoice();
+  let done = 0;
+  showStatus(`${label} 재생 준비 중…`);
+  const next = () => {
+    if (runId !== state.runId) return;
+    if (state.paused) { state.resumeNext = next; return; }
+    if (done >= entries.length) {
+      state.speaking = false;
+      state.paused = false;
+      syncPauseButton();
+      document.querySelectorAll('.play').forEach(b => b.disabled = false);
+      showStatus(`${label} 재생 완료`);
+      setTimeout(() => statusBox.classList.remove('show'), 1500);
+      return;
+    }
+    const item = entries[done];
+    focusCurrent(item.no);
+    showStatus(`${label} 재생 중 · ${item.progress || `${done+1}/${entries.length}`}`);
+    if (item.audio) {
+      const audio = new Audio(item.audio);
+      state.currentAudio = audio;
+      audio.playbackRate = Number(document.getElementById('speechRate').value);
+      audio.onended = () => { state.currentAudio=null; done++; setTimeout(next,350); };
+      audio.onerror = () => {
+        if (runId !== state.runId) return;
+        state.speaking=false; state.currentAudio=null;
+        document.querySelectorAll('.play').forEach(b=>b.disabled=false);
+        showStatus('63번 표준 발음 음원을 불러오지 못했습니다. 인터넷 연결을 확인하세요.');
+      };
+      audio.play().catch(() => audio.onerror());
+      return;
+    }
+    const speakCurrent = () => {
+      if (runId !== state.runId) return;
+      if (state.paused) { state.resumeNext = speakCurrent; return; }
+      const token = ++state.speechToken;
+      state.resumeSpeech = speakCurrent;
+      const u = new SpeechSynthesisUtterance(item.text);
+      u.lang = 'zh-CN'; u.rate = Number(document.getElementById('speechRate').value); u.pitch = 1; if (voice) u.voice = voice;
+      u.onend = () => {
+        if (runId !== state.runId || token !== state.speechToken || state.paused) return;
+        state.resumeSpeech = null;
+        done++;
+        setTimeout(next, 350);
+      };
+      u.onerror = () => {
+        if (runId !== state.runId || token !== state.speechToken || state.paused) return;
+        state.speaking=false;
+        state.resumeSpeech=null;
+        document.querySelectorAll('.play').forEach(b=>b.disabled=false);
+        showStatus('음성 재생에 실패했습니다. 중국어 음성이 설치되어 있는지 확인하세요.');
+      };
+      speechSynthesis.speak(u);
+    };
+    speakCurrent();
+  };
+  next();
+}
+function fixedAudio(no, kind) {
+  if (LEVEL !== 1) return null;
+  const files = {
+    26:{word:'item-026-word.wav',example:'item-026-example.wav'},
+    63:{word:'item-063-word.wav',example:'item-063-example.wav'},
+    103:{word:'item-103-word.wav',example:'item-103-example.wav'},
+    152:{example:'item-152-example.wav'},
+    182:{word:'item-182-word.wav',example:'item-182-example.wav'},
+    248:{word:'item-248-word.wav',example:'item-248-example.wav'},
+    273:{word:'item-273-word.wav',example:'item-273-example.wav'},
+    299:{word:'item-299-word.wav',example:'item-299-example.wav'}
+  };
+  const file = files[no]?.[kind];
+  if (!file) return null;
+  return `https://raw.githubusercontent.com/yanchunnu/HSK3.0-/main/audio/${file}`;
+}
+function repeatEntries(text, repeat, progress, audio=null, no=null, kind=null) {
+  return Array.from({length:repeat}, (_,i) => ({text, audio, no, kind, progress:`${progress} · ${i+1}/${repeat}회`}));
+}
+function focusCurrent(no) {
+  if (!no) return;
+  document.querySelectorAll('.card.reading').forEach(x => x.classList.remove('reading'));
+  const card = document.querySelector(`article.card:has(.startPick[data-no="${no}"])`);
+  if (!card) return;
+  card.classList.add('reading');
+  if (state.currentNo !== no) card.scrollIntoView({behavior:'smooth', block:'center'});
+  state.currentNo = no;
+}
+function stopPlayback() {
+  state.runId++;
+  state.speaking = false;
+  state.paused = false;
+  state.resumeNext = null;
+  state.resumeSpeech = null;
+  state.speechToken++;
+  speechSynthesis.cancel();
+  if (state.currentAudio) { state.currentAudio.pause(); state.currentAudio.currentTime=0; state.currentAudio=null; }
+  state.currentNo=null;
+  syncPauseButton();
+  document.querySelectorAll('.card.reading').forEach(x => x.classList.remove('reading'));
+  document.querySelectorAll('.play').forEach(b => b.disabled = false);
+  showStatus('재생을 멈췄습니다.');
+  setTimeout(() => statusBox.classList.remove('show'), 1500);
+}
+function togglePause() {
+  if (!state.speaking) return;
+  if (!state.paused) {
+    state.paused = true;
+    if (state.currentAudio && !state.currentAudio.paused) state.currentAudio.pause();
+    if (!state.currentAudio && state.resumeSpeech) {
+      state.resumeNext = state.resumeSpeech;
+      state.speechToken++;
+      speechSynthesis.cancel();
+    }
+    syncPauseButton();
+    showStatus('일시정지됨 · 화면을 다시 누르거나 이어듣기 버튼을 누르세요');
+    return;
+  }
+  state.paused = false;
+  if (state.currentAudio && state.currentAudio.paused) {
+    state.currentAudio.play().catch(() => showStatus('재생을 다시 시작하지 못했습니다.'));
+  }
+  const resume = state.resumeNext;
+  state.resumeNext = null;
+  if (resume) resume();
+  syncPauseButton();
+  showStatus('이어서 재생합니다');
+}
+function showStatus(msg) { statusBox.textContent = msg; statusBox.classList.add('show'); }
+function selectedItems() {
+  const input = document.getElementById('startNo');
+  const start = Math.min(500, Math.max(1, Number(input.value) || 1));
+  input.value = start;
+  return {start, items:DATA.filter(x => x.no >= start)};
+}
+
+list.addEventListener('click', e => {
+  const pick = e.target.closest('.startPick');
+  if (pick) {
+    document.getElementById('startNo').value = pick.dataset.no;
+    render();
+    showStatus(`${pick.dataset.no}번을 연속 재생 시작 번호로 선택했습니다.`);
+    setTimeout(() => statusBox.classList.remove('show'), 1500);
+    return;
+  }
+  const btn = e.target.closest('.play'); if (!btn) return;
+  const item = DATA.find(x => x.no === Number(btn.dataset.no));
+  const isWord = btn.dataset.kind === 'word';
+  const repeat = Number(document.getElementById(isWord?'wordRepeat':'sentenceRepeat').value);
+  playQueue(repeatEntries(isWord?item.word:item.example, repeat, `${item.no}번`, fixedAudio(item.no,isWord?'word':'example'), item.no, isWord?'word':'example'), isWord?'단어':'예문');
+});
+document.getElementById('playAllWords').addEventListener('click', () => {
+  const repeat = Number(document.getElementById('wordRepeat').value);
+  const {start,items} = selectedItems();
+  playQueue(items.flatMap(x => repeatEntries(x.word, repeat, `${x.no}/500 단어`, fixedAudio(x.no,'word'), x.no, 'word')), `${start}~500 전체 단어`);
+});
+document.getElementById('playAllSentences').addEventListener('click', () => {
+  const repeat = Number(document.getElementById('sentenceRepeat').value);
+  const {start,items} = selectedItems();
+  playQueue(items.flatMap(x => repeatEntries(x.example, repeat, `${x.no}/500 예문`, fixedAudio(x.no,'example'), x.no, 'example')), `${start}~500 전체 예문`);
+});
+document.getElementById('playAllBoth').addEventListener('click', () => {
+  const wr = Number(document.getElementById('wordRepeat').value);
+  const sr = Number(document.getElementById('sentenceRepeat').value);
+  const {start,items} = selectedItems();
+  playQueue(items.flatMap(x => [...repeatEntries(x.word, wr, `${x.no}/500 단어`, fixedAudio(x.no,'word'), x.no, 'word'), ...repeatEntries(x.example, sr, `${x.no}/500 예문`, fixedAudio(x.no,'example'), x.no, 'example')]), `${start}~500 단어+예문`);
+});
+document.getElementById('stopAll').addEventListener('click', stopPlayback);
+pauseResumeBtn.addEventListener('click', togglePause);
+document.addEventListener('click', e => {
+  if (e.target.closest('button, input, select, label, a, .status')) return;
+  togglePause();
+});
+const toTop = document.getElementById('toTop');
+toTop.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+window.addEventListener('scroll', () => toTop.classList.toggle('show', window.scrollY > 450), {passive:true});
+document.getElementById('startNo').addEventListener('change', () => { selectedItems(); render(); });
+document.getElementById('search').addEventListener('input', render);
+document.getElementById('pinyinToggle').addEventListener('click', e => { state.showPinyin=!state.showPinyin; e.currentTarget.classList.toggle('on',state.showPinyin); e.currentTarget.textContent=state.showPinyin?'병음 보임':'병음 숨김'; render(); });
+document.getElementById('meaningToggle').addEventListener('click', e => { state.showMeaning=!state.showMeaning; e.currentTarget.classList.toggle('on',state.showMeaning); e.currentTarget.textContent=state.showMeaning?'뜻 보임':'뜻 숨김'; render(); });
+document.getElementById('translationToggle').addEventListener('click', e => { state.showTranslation=!state.showTranslation; e.currentTarget.classList.toggle('on',state.showTranslation); e.currentTarget.textContent=state.showTranslation?'해석 보임':'해석 숨김'; render(); });
+speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
+render();
+</script>
+</body>
+</html>
