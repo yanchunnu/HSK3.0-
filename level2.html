@@ -204,8 +204,7 @@ function playQueue(entries, label) {
   next();
 }
 function fixedAudio(no, kind) {
-  if (LEVEL !== 1) return null;
-  const files = {
+  const level1Files = {
     26:{word:'item-026-word.wav',example:'item-026-example.wav'},
     63:{word:'item-063-word.wav',example:'item-063-example.wav'},
     103:{word:'item-103-word.wav',example:'item-103-example.wav'},
@@ -215,6 +214,24 @@ function fixedAudio(no, kind) {
     273:{word:'item-273-word.wav',example:'item-273-example.wav'},
     299:{word:'item-299-word.wav',example:'item-299-example.wav'}
   };
+  const level2Files = {
+    34:{word:'item2-034-word.wav',example:'item2-034-example.wav'},
+    76:{word:'item2-076-word.wav',example:'item2-076-example.wav'},
+    86:{word:'item2-086-word.wav',example:'item2-086-example.wav'},
+    147:{word:'item2-147-word.wav',example:'item2-147-example.wav'},
+    214:{word:'item2-214-word.wav',example:'item2-214-example.wav'},
+    258:{word:'item2-258-word.wav',example:'item2-258-example.wav'},
+    395:{word:'item2-395-word.wav',example:'item2-395-example.wav'},
+    446:{word:'item2-446-word.wav',example:'item2-446-example.wav'},
+    467:{word:'item2-467-word.wav',example:'item2-467-example.wav'},
+    468:{word:'item2-468-word.wav',example:'item2-468-example.wav'},
+    469:{word:'item2-469-word.wav',example:'item2-469-example.wav'},
+    470:{word:'item2-470-word.wav',example:'item2-470-example.wav'},
+    476:{word:'item2-476-word.wav',example:'item2-476-example.wav'},
+    491:{word:'item2-491-word.wav',example:'item2-491-example.wav'},
+    497:{word:'item2-497-word.wav',example:'item2-497-example.wav'}
+  };
+  const files = LEVEL === 1 ? level1Files : level2Files;
   const file = files[no]?.[kind];
   if (!file) return null;
   return `https://raw.githubusercontent.com/yanchunnu/HSK3.0-/main/audio/${file}`;
