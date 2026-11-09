@@ -55,6 +55,24 @@ class PlaybackTests(unittest.TestCase):
   self.page.locator('#search').fill('750')
   self.assertEqual(self.page.locator('article.card').count(),1)
   self.assertIn('liáotiānr',self.page.locator('article.card').inner_text())
+ def test_erhua_audio_matches_displayed_content(self):
+  import hashlib
+  manifest=json.loads((ROOT/'audio/level3-erhua/manifest.json').read_text())
+  clips=manifest['clips']
+  self.assertEqual(sum(c['kind']=='word' for c in clips),13)
+  self.assertEqual(sum(c['kind']=='example' for c in clips),103)
+  data={x['no']:x for x in self.ev('DATA')}
+  for clip in clips:
+   row=data[clip['no']]
+   expected=re.sub('[()（）]','',row['word']) if clip['kind']=='word' else row['example']
+   self.assertEqual(clip['text'],expected)
+   path=ROOT/clip['file']
+   self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),clip['sha256'])
+   route=self.page.evaluate('(c)=>fixedAudio(c.no,c.kind)',clip)
+   self.assertEqual(route,clip['file'])
+  self.assertEqual(self.ev('fixedAudio(57,"word") || null'),None)
+  self.assertEqual(self.ev('fixedAudio(58,"word") || null'),None)
+  self.assertTrue(self.ev('fixedAudio(750,"word").includes("0750-word.mp3")'))
  def test_mandarin_voice_selection(self):
   for voices,expected in [([{'lang':'zh-HK'}],None),([{'lang':'zh-TW'},{'lang':'zh_CN'}],'zh_CN'),([{'lang':'cmn-Hans-CN'}],'cmn-Hans-CN')]:
    self.page.evaluate('(v)=>window.__voices=v',voices)
