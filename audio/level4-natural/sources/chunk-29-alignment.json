@@ -1,0 +1,2657 @@
+{
+  "chunk": 29,
+  "duration": 81.288,
+  "transcript_match_ratio": 0.9911,
+  "clips": [
+    {
+      "no": 580,
+      "kind": "example",
+      "text": "看见队员有些累了，观众大声喊加油。",
+      "spoken_text": "看见队员有些累了，观众大声喊加油。",
+      "pinyin": "Kànjiàn duìyuán yǒuxiē lèi le, guānzhòng dàshēng hǎn jiāyóu.",
+      "source_chunk": 29,
+      "speech_start": 0.0,
+      "speech_end": 2.84,
+      "confidence": 0.6987,
+      "characters": [
+        {
+          "char": "看",
+          "start": 0.0,
+          "end": 0.44,
+          "confidence": 0.9525
+        },
+        {
+          "char": "见",
+          "start": 0.44,
+          "end": 0.58,
+          "confidence": 0.0763
+        },
+        {
+          "char": "队",
+          "start": 0.58,
+          "end": 0.68,
+          "confidence": 0.5194
+        },
+        {
+          "char": "员",
+          "start": 0.68,
+          "end": 0.8,
+          "confidence": 0.9814
+        },
+        {
+          "char": "有",
+          "start": 0.8,
+          "end": 0.94,
+          "confidence": 0.9864
+        },
+        {
+          "char": "些",
+          "start": 0.94,
+          "end": 1.08,
+          "confidence": 0.996
+        },
+        {
+          "char": "累",
+          "start": 1.08,
+          "end": 1.22,
+          "confidence": 0.9846
+        },
+        {
+          "char": "了",
+          "start": 1.22,
+          "end": 1.5,
+          "confidence": 0.949
+        },
+        {
+          "char": "观",
+          "start": 1.72,
+          "end": 1.82,
+          "confidence": 0.4199
+        },
+        {
+          "char": "众",
+          "start": 1.82,
+          "end": 1.94,
+          "confidence": 0.9888
+        },
+        {
+          "char": "大",
+          "start": 1.94,
+          "end": 2.12,
+          "confidence": 0.984
+        },
+        {
+          "char": "声",
+          "start": 2.12,
+          "end": 2.28,
+          "confidence": 0.7591
+        },
+        {
+          "char": "喊",
+          "start": 2.28,
+          "end": 2.46,
+          "confidence": 0.85
+        },
+        {
+          "char": "加",
+          "start": 2.46,
+          "end": 2.6,
+          "confidence": 0.0042
+        },
+        {
+          "char": "油",
+          "start": 2.6,
+          "end": 2.84,
+          "confidence": 0.0289
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22792
+    },
+    {
+      "no": 581,
+      "kind": "word",
+      "text": "艺术",
+      "spoken_text": "艺术。",
+      "pinyin": "yìshù",
+      "source_chunk": 29,
+      "speech_start": 3.22,
+      "speech_end": 3.7,
+      "confidence": 0.9576,
+      "characters": [
+        {
+          "char": "艺",
+          "start": 3.22,
+          "end": 3.44,
+          "confidence": 0.9311
+        },
+        {
+          "char": "术",
+          "start": 3.44,
+          "end": 3.7,
+          "confidence": 0.984
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.27237
+    },
+    {
+      "no": 581,
+      "kind": "example",
+      "text": "她认为艺术能让人发现生活中的美。",
+      "spoken_text": "她认为艺术能让人发现生活中的美。",
+      "pinyin": "Tā rènwéi yìshù néng ràng rén fāxiàn shēnghuó zhōng de měi.",
+      "source_chunk": 29,
+      "speech_start": 4.02,
+      "speech_end": 6.52,
+      "confidence": 0.825,
+      "characters": [
+        {
+          "char": "她",
+          "start": 4.02,
+          "end": 4.3,
+          "confidence": 0.1967
+        },
+        {
+          "char": "认",
+          "start": 4.3,
+          "end": 4.44,
+          "confidence": 0.9985
+        },
+        {
+          "char": "为",
+          "start": 4.44,
+          "end": 4.56,
+          "confidence": 0.9971
+        },
+        {
+          "char": "艺",
+          "start": 4.56,
+          "end": 4.78,
+          "confidence": 0.9936
+        },
+        {
+          "char": "术",
+          "start": 4.78,
+          "end": 5.02,
+          "confidence": 0.9998
+        },
+        {
+          "char": "能",
+          "start": 5.02,
+          "end": 5.16,
+          "confidence": 0.979
+        },
+        {
+          "char": "让",
+          "start": 5.16,
+          "end": 5.3,
+          "confidence": 0.996
+        },
+        {
+          "char": "人",
+          "start": 5.3,
+          "end": 5.42,
+          "confidence": 0.9953
+        },
+        {
+          "char": "发",
+          "start": 5.42,
+          "end": 5.58,
+          "confidence": 0.9943
+        },
+        {
+          "char": "现",
+          "start": 5.58,
+          "end": 5.74,
+          "confidence": 0.9987
+        },
+        {
+          "char": "生",
+          "start": 5.74,
+          "end": 5.94,
+          "confidence": 0.0075
+        },
+        {
+          "char": "活",
+          "start": 5.94,
+          "end": 6.1,
+          "confidence": 0.3133
+        },
+        {
+          "char": "中",
+          "start": 6.1,
+          "end": 6.24,
+          "confidence": 0.9574
+        },
+        {
+          "char": "的",
+          "start": 6.24,
+          "end": 6.36,
+          "confidence": 0.9783
+        },
+        {
+          "char": "美",
+          "start": 6.36,
+          "end": 6.52,
+          "confidence": 0.9692
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24127
+    },
+    {
+      "no": 582,
+      "kind": "word",
+      "text": "钢琴",
+      "spoken_text": "钢琴。",
+      "pinyin": "gāngqín",
+      "source_chunk": 29,
+      "speech_start": 6.96,
+      "speech_end": 7.48,
+      "confidence": 0.7804,
+      "characters": [
+        {
+          "char": "钢",
+          "start": 6.96,
+          "end": 7.26,
+          "confidence": 0.5753
+        },
+        {
+          "char": "琴",
+          "start": 7.26,
+          "end": 7.48,
+          "confidence": 0.9855
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.1916
+    },
+    {
+      "no": 582,
+      "kind": "example",
+      "text": "学钢琴不能只靠兴趣，还要坚持练习。",
+      "spoken_text": "学钢琴不能只靠兴趣，还要坚持练习。",
+      "pinyin": "Xué gāngqín bùnéng zhǐ kào xìngqù, hái yào jiānchí liànxí.",
+      "source_chunk": 29,
+      "speech_start": 7.87,
+      "speech_end": 10.89,
+      "confidence": 0.7708,
+      "characters": [
+        {
+          "char": "学",
+          "start": 7.87,
+          "end": 8.23,
+          "confidence": 0.6143
+        },
+        {
+          "char": "钢",
+          "start": 8.23,
+          "end": 8.39,
+          "confidence": 0.99
+        },
+        {
+          "char": "琴",
+          "start": 8.39,
+          "end": 8.67,
+          "confidence": 0.9987
+        },
+        {
+          "char": "不",
+          "start": 8.67,
+          "end": 8.87,
+          "confidence": 0.0252
+        },
+        {
+          "char": "能",
+          "start": 8.87,
+          "end": 8.97,
+          "confidence": 0.4688
+        },
+        {
+          "char": "只",
+          "start": 8.97,
+          "end": 9.13,
+          "confidence": 0.9211
+        },
+        {
+          "char": "靠",
+          "start": 9.13,
+          "end": 9.29,
+          "confidence": 0.9984
+        },
+        {
+          "char": "兴",
+          "start": 9.29,
+          "end": 9.47,
+          "confidence": 0.713
+        },
+        {
+          "char": "趣",
+          "start": 9.47,
+          "end": 9.73,
+          "confidence": 0.9863
+        },
+        {
+          "char": "还",
+          "start": 10.05,
+          "end": 10.07,
+          "confidence": 0.0738
+        },
+        {
+          "char": "要",
+          "start": 10.07,
+          "end": 10.19,
+          "confidence": 0.9798
+        },
+        {
+          "char": "坚",
+          "start": 10.19,
+          "end": 10.31,
+          "confidence": 0.913
+        },
+        {
+          "char": "持",
+          "start": 10.31,
+          "end": 10.43,
+          "confidence": 0.9993
+        },
+        {
+          "char": "练",
+          "start": 10.43,
+          "end": 10.59,
+          "confidence": 0.9094
+        },
+        {
+          "char": "习",
+          "start": 10.59,
+          "end": 10.89,
+          "confidence": 0.9714
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21615
+    },
+    {
+      "no": 583,
+      "kind": "example",
+      "text": "琴放在窗边太久，表面已经有些变色。",
+      "spoken_text": "琴放在窗边太久，表面已经有些变色。",
+      "pinyin": "Qín fàng zài chuāng biān tài jiǔ, biǎomiàn yǐjīng yǒuxiē biànsè.",
+      "source_chunk": 29,
+      "speech_start": 11.23,
+      "speech_end": 14.01,
+      "confidence": 0.7604,
+      "characters": [
+        {
+          "char": "琴",
+          "start": 11.23,
+          "end": 11.53,
+          "confidence": 0.8839
+        },
+        {
+          "char": "放",
+          "start": 11.53,
+          "end": 11.65,
+          "confidence": 0.9955
+        },
+        {
+          "char": "在",
+          "start": 11.65,
+          "end": 11.79,
+          "confidence": 0.9955
+        },
+        {
+          "char": "窗",
+          "start": 11.79,
+          "end": 11.95,
+          "confidence": 0.7295
+        },
+        {
+          "char": "边",
+          "start": 11.95,
+          "end": 12.07,
+          "confidence": 0.9521
+        },
+        {
+          "char": "太",
+          "start": 12.07,
+          "end": 12.29,
+          "confidence": 0.5778
+        },
+        {
+          "char": "久",
+          "start": 12.29,
+          "end": 12.55,
+          "confidence": 0.9873
+        },
+        {
+          "char": "表",
+          "start": 12.93,
+          "end": 13.03,
+          "confidence": 0.9492
+        },
+        {
+          "char": "面",
+          "start": 13.03,
+          "end": 13.19,
+          "confidence": 0.9979
+        },
+        {
+          "char": "已",
+          "start": 13.19,
+          "end": 13.31,
+          "confidence": 0.0081
+        },
+        {
+          "char": "经",
+          "start": 13.31,
+          "end": 13.43,
+          "confidence": 0.0
+        },
+        {
+          "char": "有",
+          "start": 13.43,
+          "end": 13.51,
+          "confidence": 0.5914
+        },
+        {
+          "char": "些",
+          "start": 13.51,
+          "end": 13.65,
+          "confidence": 0.96
+        },
+        {
+          "char": "变",
+          "start": 13.65,
+          "end": 13.77,
+          "confidence": 0.7914
+        },
+        {
+          "char": "色",
+          "start": 13.77,
+          "end": 14.01,
+          "confidence": 0.9865
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21612
+    },
+    {
+      "no": 584,
+      "kind": "example",
+      "text": "这首曲子太难，我暂时还弹不下来。",
+      "spoken_text": "这首曲子太难，我暂时还弹不下来。",
+      "pinyin": "Zhè shǒu qǔzi tài nán, wǒ zànshí hái tán bu xiàlai.",
+      "source_chunk": 29,
+      "speech_start": 14.45,
+      "speech_end": 16.85,
+      "confidence": 0.9155,
+      "characters": [
+        {
+          "char": "这",
+          "start": 14.45,
+          "end": 14.71,
+          "confidence": 0.9782
+        },
+        {
+          "char": "首",
+          "start": 14.71,
+          "end": 14.83,
+          "confidence": 0.8389
+        },
+        {
+          "char": "曲",
+          "start": 14.83,
+          "end": 14.99,
+          "confidence": 0.994
+        },
+        {
+          "char": "子",
+          "start": 14.99,
+          "end": 15.11,
+          "confidence": 0.9852
+        },
+        {
+          "char": "太",
+          "start": 15.11,
+          "end": 15.29,
+          "confidence": 0.9929
+        },
+        {
+          "char": "难",
+          "start": 15.29,
+          "end": 15.49,
+          "confidence": 0.9661
+        },
+        {
+          "char": "我",
+          "start": 15.83,
+          "end": 15.89,
+          "confidence": 0.6054
+        },
+        {
+          "char": "暂",
+          "start": 15.89,
+          "end": 16.01,
+          "confidence": 0.9886
+        },
+        {
+          "char": "时",
+          "start": 16.01,
+          "end": 16.13,
+          "confidence": 0.9962
+        },
+        {
+          "char": "还",
+          "start": 16.13,
+          "end": 16.25,
+          "confidence": 0.989
+        },
+        {
+          "char": "弹",
+          "start": 16.25,
+          "end": 16.39,
+          "confidence": 0.5295
+        },
+        {
+          "char": "不",
+          "start": 16.39,
+          "end": 16.51,
+          "confidence": 0.9646
+        },
+        {
+          "char": "下",
+          "start": 16.51,
+          "end": 16.67,
+          "confidence": 0.996
+        },
+        {
+          "char": "来",
+          "start": 16.67,
+          "end": 16.85,
+          "confidence": 0.992
+        }
+      ],
+      "independent_asr_coverage": 0.929,
+      "rms": 0.17471
+    },
+    {
+      "no": 585,
+      "kind": "word",
+      "text": "歌声",
+      "spoken_text": "歌声。",
+      "pinyin": "gēshēng",
+      "source_chunk": 29,
+      "speech_start": 17.31,
+      "speech_end": 17.75,
+      "confidence": 0.8518,
+      "characters": [
+        {
+          "char": "歌",
+          "start": 17.31,
+          "end": 17.53,
+          "confidence": 0.7357
+        },
+        {
+          "char": "声",
+          "start": 17.53,
+          "end": 17.75,
+          "confidence": 0.968
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25302
+    },
+    {
+      "no": 585,
+      "kind": "example",
+      "text": "她的歌声从窗户传出来，吸引了路人。",
+      "spoken_text": "她的歌声从窗户传出来，吸引了路人。",
+      "pinyin": "Tā de gēshēng cóng chuānghu chuán chūlai, xīyǐn le lù rén.",
+      "source_chunk": 29,
+      "speech_start": 18.27,
+      "speech_end": 21.15,
+      "confidence": 0.7795,
+      "characters": [
+        {
+          "char": "她",
+          "start": 18.27,
+          "end": 18.57,
+          "confidence": 0.2327
+        },
+        {
+          "char": "的",
+          "start": 18.57,
+          "end": 18.67,
+          "confidence": 0.989
+        },
+        {
+          "char": "歌",
+          "start": 18.67,
+          "end": 18.81,
+          "confidence": 0.9964
+        },
+        {
+          "char": "声",
+          "start": 18.81,
+          "end": 19.01,
+          "confidence": 0.9616
+        },
+        {
+          "char": "从",
+          "start": 19.01,
+          "end": 19.27,
+          "confidence": 0.9744
+        },
+        {
+          "char": "窗",
+          "start": 19.27,
+          "end": 19.47,
+          "confidence": 0.9263
+        },
+        {
+          "char": "户",
+          "start": 19.47,
+          "end": 19.61,
+          "confidence": 0.9838
+        },
+        {
+          "char": "传",
+          "start": 19.61,
+          "end": 19.79,
+          "confidence": 0.9748
+        },
+        {
+          "char": "出",
+          "start": 19.79,
+          "end": 19.97,
+          "confidence": 0.0835
+        },
+        {
+          "char": "来",
+          "start": 19.97,
+          "end": 20.21,
+          "confidence": 0.8621
+        },
+        {
+          "char": "吸",
+          "start": 20.55,
+          "end": 20.63,
+          "confidence": 0.0084
+        },
+        {
+          "char": "引",
+          "start": 20.63,
+          "end": 20.73,
+          "confidence": 0.9985
+        },
+        {
+          "char": "了",
+          "start": 20.73,
+          "end": 20.81,
+          "confidence": 0.9953
+        },
+        {
+          "char": "路",
+          "start": 20.81,
+          "end": 20.95,
+          "confidence": 0.7084
+        },
+        {
+          "char": "人",
+          "start": 20.95,
+          "end": 21.15,
+          "confidence": 0.9972
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21732
+    },
+    {
+      "no": 586,
+      "kind": "word",
+      "text": "歌手",
+      "spoken_text": "歌手。",
+      "pinyin": "gēshǒu",
+      "source_chunk": 29,
+      "speech_start": 21.73,
+      "speech_end": 22.15,
+      "confidence": 0.8116,
+      "characters": [
+        {
+          "char": "歌",
+          "start": 21.73,
+          "end": 21.89,
+          "confidence": 0.6801
+        },
+        {
+          "char": "手",
+          "start": 21.89,
+          "end": 22.15,
+          "confidence": 0.9431
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23949
+    },
+    {
+      "no": 586,
+      "kind": "example",
+      "text": "这位歌手不仅会唱歌，还会自己写歌。",
+      "spoken_text": "这位歌手不仅会唱歌，还会自己写歌。",
+      "pinyin": "Zhè wèi gēshǒu bùjǐn huì chànggē, hái huì zìjǐ xiěgē.",
+      "source_chunk": 29,
+      "speech_start": 22.65,
+      "speech_end": 25.43,
+      "confidence": 0.8399,
+      "characters": [
+        {
+          "char": "这",
+          "start": 22.65,
+          "end": 22.95,
+          "confidence": 0.9857
+        },
+        {
+          "char": "位",
+          "start": 22.95,
+          "end": 23.03,
+          "confidence": 0.9854
+        },
+        {
+          "char": "歌",
+          "start": 23.03,
+          "end": 23.19,
+          "confidence": 0.9976
+        },
+        {
+          "char": "手",
+          "start": 23.19,
+          "end": 23.37,
+          "confidence": 0.9926
+        },
+        {
+          "char": "不",
+          "start": 23.37,
+          "end": 23.55,
+          "confidence": 0.9047
+        },
+        {
+          "char": "仅",
+          "start": 23.55,
+          "end": 23.65,
+          "confidence": 0.9914
+        },
+        {
+          "char": "会",
+          "start": 23.65,
+          "end": 23.81,
+          "confidence": 0.9759
+        },
+        {
+          "char": "唱",
+          "start": 23.81,
+          "end": 23.97,
+          "confidence": 0.9831
+        },
+        {
+          "char": "歌",
+          "start": 23.97,
+          "end": 24.25,
+          "confidence": 0.9989
+        },
+        {
+          "char": "还",
+          "start": 24.55,
+          "end": 24.61,
+          "confidence": 0.9388
+        },
+        {
+          "char": "会",
+          "start": 24.61,
+          "end": 24.71,
+          "confidence": 0.9963
+        },
+        {
+          "char": "自",
+          "start": 24.71,
+          "end": 24.89,
+          "confidence": 0.0096
+        },
+        {
+          "char": "己",
+          "start": 24.89,
+          "end": 25.01,
+          "confidence": 0.0324
+        },
+        {
+          "char": "写",
+          "start": 25.01,
+          "end": 25.19,
+          "confidence": 0.808
+        },
+        {
+          "char": "歌",
+          "start": 25.19,
+          "end": 25.43,
+          "confidence": 0.9983
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21142
+    },
+    {
+      "no": 587,
+      "kind": "example",
+      "text": "他演的父亲很真实，让观众十分感动。",
+      "spoken_text": "他演的父亲很真实，让观众十分感动。",
+      "pinyin": "Tā yǎn de fùqīn hěn zhēnshí, ràng guānzhòng shífēn gǎndòng.",
+      "source_chunk": 29,
+      "speech_start": 25.95,
+      "speech_end": 28.87,
+      "confidence": 0.8885,
+      "characters": [
+        {
+          "char": "他",
+          "start": 25.95,
+          "end": 26.15,
+          "confidence": 0.0595
+        },
+        {
+          "char": "演",
+          "start": 26.15,
+          "end": 26.31,
+          "confidence": 0.8964
+        },
+        {
+          "char": "的",
+          "start": 26.31,
+          "end": 26.41,
+          "confidence": 0.7472
+        },
+        {
+          "char": "父",
+          "start": 26.41,
+          "end": 26.55,
+          "confidence": 0.9261
+        },
+        {
+          "char": "亲",
+          "start": 26.55,
+          "end": 26.65,
+          "confidence": 0.9718
+        },
+        {
+          "char": "很",
+          "start": 26.65,
+          "end": 26.85,
+          "confidence": 0.969
+        },
+        {
+          "char": "真",
+          "start": 26.85,
+          "end": 27.07,
+          "confidence": 0.9634
+        },
+        {
+          "char": "实",
+          "start": 27.07,
+          "end": 27.37,
+          "confidence": 0.9878
+        },
+        {
+          "char": "让",
+          "start": 27.73,
+          "end": 27.79,
+          "confidence": 0.9528
+        },
+        {
+          "char": "观",
+          "start": 27.79,
+          "end": 27.95,
+          "confidence": 0.9707
+        },
+        {
+          "char": "众",
+          "start": 27.95,
+          "end": 28.09,
+          "confidence": 0.9983
+        },
+        {
+          "char": "十",
+          "start": 28.09,
+          "end": 28.35,
+          "confidence": 0.905
+        },
+        {
+          "char": "分",
+          "start": 28.35,
+          "end": 28.51,
+          "confidence": 0.998
+        },
+        {
+          "char": "感",
+          "start": 28.51,
+          "end": 28.67,
+          "confidence": 0.993
+        },
+        {
+          "char": "动",
+          "start": 28.67,
+          "end": 28.87,
+          "confidence": 0.9885
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22553
+    },
+    {
+      "no": 588,
+      "kind": "word",
+      "text": "演唱",
+      "spoken_text": "演唱。",
+      "pinyin": "yǎnchàng",
+      "source_chunk": 29,
+      "speech_start": 29.43,
+      "speech_end": 29.87,
+      "confidence": 0.9118,
+      "characters": [
+        {
+          "char": "演",
+          "start": 29.43,
+          "end": 29.57,
+          "confidence": 0.834
+        },
+        {
+          "char": "唱",
+          "start": 29.57,
+          "end": 29.87,
+          "confidence": 0.9896
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.16134
+    },
+    {
+      "no": 588,
+      "kind": "example",
+      "text": "毕业晚会上，我们共同演唱了一首老歌。",
+      "spoken_text": "毕业晚会上，我们共同演唱了一首老歌。",
+      "pinyin": "Bìyè wǎnhuì shàng, wǒmen gòngtóng yǎnchàng le yì shǒu lǎogē.",
+      "source_chunk": 29,
+      "speech_start": 30.23,
+      "speech_end": 33.01,
+      "confidence": 0.8501,
+      "characters": [
+        {
+          "char": "毕",
+          "start": 30.23,
+          "end": 30.53,
+          "confidence": 0.8595
+        },
+        {
+          "char": "业",
+          "start": 30.53,
+          "end": 30.63,
+          "confidence": 0.9992
+        },
+        {
+          "char": "晚",
+          "start": 30.63,
+          "end": 30.75,
+          "confidence": 0.223
+        },
+        {
+          "char": "会",
+          "start": 30.75,
+          "end": 30.95,
+          "confidence": 0.9734
+        },
+        {
+          "char": "上",
+          "start": 30.95,
+          "end": 31.19,
+          "confidence": 0.9695
+        },
+        {
+          "char": "我",
+          "start": 31.53,
+          "end": 31.57,
+          "confidence": 0.0013
+        },
+        {
+          "char": "们",
+          "start": 31.57,
+          "end": 31.65,
+          "confidence": 0.8373
+        },
+        {
+          "char": "共",
+          "start": 31.65,
+          "end": 31.77,
+          "confidence": 0.9946
+        },
+        {
+          "char": "同",
+          "start": 31.77,
+          "end": 31.91,
+          "confidence": 0.9957
+        },
+        {
+          "char": "演",
+          "start": 31.91,
+          "end": 32.09,
+          "confidence": 0.9959
+        },
+        {
+          "char": "唱",
+          "start": 32.09,
+          "end": 32.29,
+          "confidence": 0.9984
+        },
+        {
+          "char": "了",
+          "start": 32.29,
+          "end": 32.39,
+          "confidence": 0.997
+        },
+        {
+          "char": "一",
+          "start": 32.39,
+          "end": 32.47,
+          "confidence": 0.9874
+        },
+        {
+          "char": "首",
+          "start": 32.47,
+          "end": 32.59,
+          "confidence": 0.9924
+        },
+        {
+          "char": "老",
+          "start": 32.59,
+          "end": 32.79,
+          "confidence": 0.8597
+        },
+        {
+          "char": "歌",
+          "start": 32.79,
+          "end": 33.01,
+          "confidence": 0.9169
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24685
+    },
+    {
+      "no": 589,
+      "kind": "word",
+      "text": "演出",
+      "spoken_text": "演出。",
+      "pinyin": "yǎnchū",
+      "source_chunk": 29,
+      "speech_start": 33.45,
+      "speech_end": 33.85,
+      "confidence": 0.9387,
+      "characters": [
+        {
+          "char": "演",
+          "start": 33.45,
+          "end": 33.55,
+          "confidence": 0.9046
+        },
+        {
+          "char": "出",
+          "start": 33.55,
+          "end": 33.85,
+          "confidence": 0.9729
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.15896
+    },
+    {
+      "no": 589,
+      "kind": "example",
+      "text": "由于演员生病，今晚的演出推迟了。",
+      "spoken_text": "由于演员生病，今晚的演出推迟了。",
+      "pinyin": "Yóuyú yǎnyuán shēngbìng, jīnwǎn de yǎnchū tuīchí le.",
+      "source_chunk": 29,
+      "speech_start": 34.37,
+      "speech_end": 37.11,
+      "confidence": 0.9566,
+      "characters": [
+        {
+          "char": "由",
+          "start": 34.37,
+          "end": 34.67,
+          "confidence": 0.9746
+        },
+        {
+          "char": "于",
+          "start": 34.67,
+          "end": 34.77,
+          "confidence": 0.9946
+        },
+        {
+          "char": "演",
+          "start": 34.77,
+          "end": 34.91,
+          "confidence": 0.9643
+        },
+        {
+          "char": "员",
+          "start": 34.91,
+          "end": 35.05,
+          "confidence": 0.9944
+        },
+        {
+          "char": "生",
+          "start": 35.05,
+          "end": 35.25,
+          "confidence": 0.9398
+        },
+        {
+          "char": "病",
+          "start": 35.25,
+          "end": 35.43,
+          "confidence": 0.9972
+        },
+        {
+          "char": "今",
+          "start": 35.81,
+          "end": 35.95,
+          "confidence": 0.8741
+        },
+        {
+          "char": "晚",
+          "start": 35.95,
+          "end": 36.03,
+          "confidence": 0.9969
+        },
+        {
+          "char": "的",
+          "start": 36.03,
+          "end": 36.15,
+          "confidence": 0.9885
+        },
+        {
+          "char": "演",
+          "start": 36.15,
+          "end": 36.27,
+          "confidence": 0.9964
+        },
+        {
+          "char": "出",
+          "start": 36.27,
+          "end": 36.47,
+          "confidence": 0.9985
+        },
+        {
+          "char": "推",
+          "start": 36.47,
+          "end": 36.69,
+          "confidence": 0.8542
+        },
+        {
+          "char": "迟",
+          "start": 36.69,
+          "end": 36.93,
+          "confidence": 0.8492
+        },
+        {
+          "char": "了",
+          "start": 36.93,
+          "end": 37.11,
+          "confidence": 0.9695
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22394
+    },
+    {
+      "no": 590,
+      "kind": "word",
+      "text": "演员",
+      "spoken_text": "演员。",
+      "pinyin": "yǎnyuán",
+      "source_chunk": 29,
+      "speech_start": 37.5,
+      "speech_end": 37.88,
+      "confidence": 0.9857,
+      "characters": [
+        {
+          "char": "演",
+          "start": 37.5,
+          "end": 37.62,
+          "confidence": 0.9741
+        },
+        {
+          "char": "员",
+          "start": 37.62,
+          "end": 37.88,
+          "confidence": 0.9974
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.10888
+    },
+    {
+      "no": 590,
+      "kind": "example",
+      "text": "为了演好这个角色，演员做了很多准备。",
+      "spoken_text": "为了演好这个角色，演员做了很多准备。",
+      "pinyin": "Wèile yǎn hǎo zhè ge juésè, yǎnyuán zuò le hěn duō zhǔnbèi.",
+      "source_chunk": 29,
+      "speech_start": 38.18,
+      "speech_end": 41.08,
+      "confidence": 0.8037,
+      "characters": [
+        {
+          "char": "为",
+          "start": 38.18,
+          "end": 38.52,
+          "confidence": 0.9916
+        },
+        {
+          "char": "了",
+          "start": 38.52,
+          "end": 38.6,
+          "confidence": 0.9986
+        },
+        {
+          "char": "演",
+          "start": 38.6,
+          "end": 38.72,
+          "confidence": 0.8455
+        },
+        {
+          "char": "好",
+          "start": 38.72,
+          "end": 38.92,
+          "confidence": 0.9674
+        },
+        {
+          "char": "这",
+          "start": 38.92,
+          "end": 39.08,
+          "confidence": 0.0168
+        },
+        {
+          "char": "个",
+          "start": 39.08,
+          "end": 39.16,
+          "confidence": 0.3947
+        },
+        {
+          "char": "角",
+          "start": 39.16,
+          "end": 39.28,
+          "confidence": 0.9945
+        },
+        {
+          "char": "色",
+          "start": 39.28,
+          "end": 39.54,
+          "confidence": 0.9998
+        },
+        {
+          "char": "演",
+          "start": 39.9,
+          "end": 40.02,
+          "confidence": 0.7643
+        },
+        {
+          "char": "员",
+          "start": 40.02,
+          "end": 40.14,
+          "confidence": 0.9984
+        },
+        {
+          "char": "做",
+          "start": 40.14,
+          "end": 40.28,
+          "confidence": 0.9604
+        },
+        {
+          "char": "了",
+          "start": 40.28,
+          "end": 40.38,
+          "confidence": 0.9929
+        },
+        {
+          "char": "很",
+          "start": 40.38,
+          "end": 40.54,
+          "confidence": 0.0038
+        },
+        {
+          "char": "多",
+          "start": 40.54,
+          "end": 40.72,
+          "confidence": 0.9322
+        },
+        {
+          "char": "准",
+          "start": 40.72,
+          "end": 40.92,
+          "confidence": 0.9989
+        },
+        {
+          "char": "备",
+          "start": 40.92,
+          "end": 41.08,
+          "confidence": 0.9997
+        }
+      ],
+      "independent_asr_coverage": 0.938,
+      "rms": 0.20246
+    },
+    {
+      "no": 591,
+      "kind": "word",
+      "text": "话剧",
+      "spoken_text": "话剧。",
+      "pinyin": "huàjù",
+      "source_chunk": 29,
+      "speech_start": 41.58,
+      "speech_end": 42.14,
+      "confidence": 0.3859,
+      "characters": [
+        {
+          "char": "话",
+          "start": 41.58,
+          "end": 41.88,
+          "confidence": 0.2232
+        },
+        {
+          "char": "剧",
+          "start": 41.88,
+          "end": 42.14,
+          "confidence": 0.5486
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.13581
+    },
+    {
+      "no": 591,
+      "kind": "example",
+      "text": "看完这部话剧，我对亲情有了新的理解。",
+      "spoken_text": "看完这部话剧，我对亲情有了新的理解。",
+      "pinyin": "Kàn wán zhè bù huàjù, wǒ duì qīnqíng yǒu le xīn de lǐjiě.",
+      "source_chunk": 29,
+      "speech_start": 42.68,
+      "speech_end": 45.66,
+      "confidence": 0.9349,
+      "characters": [
+        {
+          "char": "看",
+          "start": 42.68,
+          "end": 43.06,
+          "confidence": 0.99
+        },
+        {
+          "char": "完",
+          "start": 43.06,
+          "end": 43.18,
+          "confidence": 0.9966
+        },
+        {
+          "char": "这",
+          "start": 43.18,
+          "end": 43.32,
+          "confidence": 0.9961
+        },
+        {
+          "char": "部",
+          "start": 43.32,
+          "end": 43.42,
+          "confidence": 0.9408
+        },
+        {
+          "char": "话",
+          "start": 43.42,
+          "end": 43.6,
+          "confidence": 0.9372
+        },
+        {
+          "char": "剧",
+          "start": 43.6,
+          "end": 43.84,
+          "confidence": 0.9749
+        },
+        {
+          "char": "我",
+          "start": 44.12,
+          "end": 44.2,
+          "confidence": 0.8913
+        },
+        {
+          "char": "对",
+          "start": 44.2,
+          "end": 44.3,
+          "confidence": 0.99
+        },
+        {
+          "char": "亲",
+          "start": 44.3,
+          "end": 44.5,
+          "confidence": 0.6336
+        },
+        {
+          "char": "情",
+          "start": 44.5,
+          "end": 44.7,
+          "confidence": 0.9696
+        },
+        {
+          "char": "有",
+          "start": 44.7,
+          "end": 44.88,
+          "confidence": 0.9858
+        },
+        {
+          "char": "了",
+          "start": 44.88,
+          "end": 44.98,
+          "confidence": 0.9966
+        },
+        {
+          "char": "新",
+          "start": 44.98,
+          "end": 45.18,
+          "confidence": 0.6701
+        },
+        {
+          "char": "的",
+          "start": 45.18,
+          "end": 45.32,
+          "confidence": 0.9968
+        },
+        {
+          "char": "理",
+          "start": 45.32,
+          "end": 45.46,
+          "confidence": 0.9908
+        },
+        {
+          "char": "解",
+          "start": 45.46,
+          "end": 45.66,
+          "confidence": 0.9985
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24886
+    },
+    {
+      "no": 592,
+      "kind": "word",
+      "text": "京剧",
+      "spoken_text": "京剧。",
+      "pinyin": "jīngjù",
+      "source_chunk": 29,
+      "speech_start": 46.0,
+      "speech_end": 47.14,
+      "confidence": 0.4462,
+      "characters": [
+        {
+          "char": "京",
+          "start": 46.0,
+          "end": 46.42,
+          "confidence": 0.0
+        },
+        {
+          "char": "剧",
+          "start": 46.42,
+          "end": 47.14,
+          "confidence": 0.8925
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.1916
+    },
+    {
+      "no": 592,
+      "kind": "example",
+      "text": "爷爷喜欢京剧，常一边听一边跟着唱。",
+      "spoken_text": "爷爷喜欢京剧，常一边听一边跟着唱。",
+      "pinyin": "Yéye xǐhuan jīngjù, cháng yìbiān tīng yìbiān gēnzhe chàng.",
+      "source_chunk": 29,
+      "speech_start": 47.56,
+      "speech_end": 50.56,
+      "confidence": 0.65,
+      "characters": [
+        {
+          "char": "爷",
+          "start": 47.56,
+          "end": 47.92,
+          "confidence": 0.0143
+        },
+        {
+          "char": "爷",
+          "start": 47.92,
+          "end": 48.12,
+          "confidence": 0.0031
+        },
+        {
+          "char": "喜",
+          "start": 48.12,
+          "end": 48.18,
+          "confidence": 0.002
+        },
+        {
+          "char": "欢",
+          "start": 48.18,
+          "end": 48.32,
+          "confidence": 0.3718
+        },
+        {
+          "char": "京",
+          "start": 48.32,
+          "end": 48.48,
+          "confidence": 0.9821
+        },
+        {
+          "char": "剧",
+          "start": 48.48,
+          "end": 48.7,
+          "confidence": 0.9957
+        },
+        {
+          "char": "常",
+          "start": 49.06,
+          "end": 49.16,
+          "confidence": 0.0771
+        },
+        {
+          "char": "一",
+          "start": 49.16,
+          "end": 49.26,
+          "confidence": 0.7213
+        },
+        {
+          "char": "边",
+          "start": 49.26,
+          "end": 49.4,
+          "confidence": 0.9722
+        },
+        {
+          "char": "听",
+          "start": 49.4,
+          "end": 49.66,
+          "confidence": 0.9814
+        },
+        {
+          "char": "一",
+          "start": 49.66,
+          "end": 49.96,
+          "confidence": 0.7358
+        },
+        {
+          "char": "边",
+          "start": 49.96,
+          "end": 50.1,
+          "confidence": 0.9869
+        },
+        {
+          "char": "跟",
+          "start": 50.1,
+          "end": 50.24,
+          "confidence": 0.9394
+        },
+        {
+          "char": "着",
+          "start": 50.24,
+          "end": 50.38,
+          "confidence": 0.9891
+        },
+        {
+          "char": "唱",
+          "start": 50.38,
+          "end": 50.56,
+          "confidence": 0.9782
+        }
+      ],
+      "independent_asr_coverage": 0.933,
+      "rms": 0.22794
+    },
+    {
+      "no": 593,
+      "kind": "word",
+      "text": "剧院",
+      "spoken_text": "剧院。",
+      "pinyin": "jùyuàn",
+      "source_chunk": 29,
+      "speech_start": 50.92,
+      "speech_end": 51.42,
+      "confidence": 0.4004,
+      "characters": [
+        {
+          "char": "剧",
+          "start": 50.92,
+          "end": 51.18,
+          "confidence": 0.6767
+        },
+        {
+          "char": "院",
+          "start": 51.18,
+          "end": 51.42,
+          "confidence": 0.1241
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.26374
+    },
+    {
+      "no": 593,
+      "kind": "example",
+      "text": "剧院离地铁站不远，走五分钟就到了。",
+      "spoken_text": "剧院离地铁站不远，走五分钟就到了。",
+      "pinyin": "Jùyuàn lí dìtiězhàn bùyuǎn, zǒu wǔ fēnzhōng jiù dào le.",
+      "source_chunk": 29,
+      "speech_start": 51.86,
+      "speech_end": 54.54,
+      "confidence": 0.8269,
+      "characters": [
+        {
+          "char": "剧",
+          "start": 51.86,
+          "end": 52.16,
+          "confidence": 0.9579
+        },
+        {
+          "char": "院",
+          "start": 52.16,
+          "end": 52.3,
+          "confidence": 0.9948
+        },
+        {
+          "char": "离",
+          "start": 52.3,
+          "end": 52.44,
+          "confidence": 0.8509
+        },
+        {
+          "char": "地",
+          "start": 52.44,
+          "end": 52.58,
+          "confidence": 0.8651
+        },
+        {
+          "char": "铁",
+          "start": 52.58,
+          "end": 52.68,
+          "confidence": 0.9407
+        },
+        {
+          "char": "站",
+          "start": 52.68,
+          "end": 52.82,
+          "confidence": 0.7796
+        },
+        {
+          "char": "不",
+          "start": 52.82,
+          "end": 53.0,
+          "confidence": 0.7504
+        },
+        {
+          "char": "远",
+          "start": 53.0,
+          "end": 53.16,
+          "confidence": 0.9869
+        },
+        {
+          "char": "走",
+          "start": 53.48,
+          "end": 53.56,
+          "confidence": 0.7495
+        },
+        {
+          "char": "五",
+          "start": 53.56,
+          "end": 53.72,
+          "confidence": 0.8216
+        },
+        {
+          "char": "分",
+          "start": 53.72,
+          "end": 53.86,
+          "confidence": 0.9874
+        },
+        {
+          "char": "钟",
+          "start": 53.86,
+          "end": 54.02,
+          "confidence": 0.978
+        },
+        {
+          "char": "就",
+          "start": 54.02,
+          "end": 54.14,
+          "confidence": 0.8192
+        },
+        {
+          "char": "到",
+          "start": 54.14,
+          "end": 54.32,
+          "confidence": 0.008
+        },
+        {
+          "char": "了",
+          "start": 54.32,
+          "end": 54.54,
+          "confidence": 0.9132
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25823
+    },
+    {
+      "no": 594,
+      "kind": "word",
+      "text": "精彩",
+      "spoken_text": "精彩。",
+      "pinyin": "jīngcǎi",
+      "source_chunk": 29,
+      "speech_start": 54.87,
+      "speech_end": 55.41,
+      "confidence": 0.8166,
+      "characters": [
+        {
+          "char": "精",
+          "start": 54.87,
+          "end": 55.17,
+          "confidence": 0.7226
+        },
+        {
+          "char": "彩",
+          "start": 55.17,
+          "end": 55.41,
+          "confidence": 0.9107
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19674
+    },
+    {
+      "no": 594,
+      "kind": "example",
+      "text": "演出非常精彩，结束后大家还不愿离开。",
+      "spoken_text": "演出非常精彩，结束后大家还不愿离开。",
+      "pinyin": "Yǎnchū fēicháng jīngcǎi, jiéshù hòu dàjiā hái bú yuàn líkāi.",
+      "source_chunk": 29,
+      "speech_start": 55.83,
+      "speech_end": 58.97,
+      "confidence": 0.6947,
+      "characters": [
+        {
+          "char": "演",
+          "start": 55.83,
+          "end": 56.05,
+          "confidence": 0.6985
+        },
+        {
+          "char": "出",
+          "start": 56.05,
+          "end": 56.21,
+          "confidence": 0.9976
+        },
+        {
+          "char": "非",
+          "start": 56.21,
+          "end": 56.37,
+          "confidence": 0.0002
+        },
+        {
+          "char": "常",
+          "start": 56.37,
+          "end": 56.51,
+          "confidence": 0.0132
+        },
+        {
+          "char": "精",
+          "start": 56.51,
+          "end": 56.65,
+          "confidence": 0.9957
+        },
+        {
+          "char": "彩",
+          "start": 56.65,
+          "end": 56.89,
+          "confidence": 0.9996
+        },
+        {
+          "char": "结",
+          "start": 57.41,
+          "end": 57.51,
+          "confidence": 0.0764
+        },
+        {
+          "char": "束",
+          "start": 57.51,
+          "end": 57.63,
+          "confidence": 0.9981
+        },
+        {
+          "char": "后",
+          "start": 57.63,
+          "end": 57.85,
+          "confidence": 0.9878
+        },
+        {
+          "char": "大",
+          "start": 57.85,
+          "end": 58.09,
+          "confidence": 0.0004
+        },
+        {
+          "char": "家",
+          "start": 58.09,
+          "end": 58.21,
+          "confidence": 0.4164
+        },
+        {
+          "char": "还",
+          "start": 58.21,
+          "end": 58.35,
+          "confidence": 0.9748
+        },
+        {
+          "char": "不",
+          "start": 58.35,
+          "end": 58.47,
+          "confidence": 0.9958
+        },
+        {
+          "char": "愿",
+          "start": 58.47,
+          "end": 58.59,
+          "confidence": 0.9675
+        },
+        {
+          "char": "离",
+          "start": 58.59,
+          "end": 58.73,
+          "confidence": 0.9938
+        },
+        {
+          "char": "开",
+          "start": 58.73,
+          "end": 58.97,
+          "confidence": 0.9995
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21647
+    },
+    {
+      "no": 595,
+      "kind": "word",
+      "text": "读者",
+      "spoken_text": "读者。",
+      "pinyin": "dúzhě",
+      "source_chunk": 29,
+      "speech_start": 59.45,
+      "speech_end": 59.77,
+      "confidence": 0.8893,
+      "characters": [
+        {
+          "char": "读",
+          "start": 59.45,
+          "end": 59.59,
+          "confidence": 0.7911
+        },
+        {
+          "char": "者",
+          "start": 59.59,
+          "end": 59.77,
+          "confidence": 0.9875
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.17431
+    },
+    {
+      "no": 595,
+      "kind": "example",
+      "text": "这本书用简单的故事，引导读者思考。",
+      "spoken_text": "这本书用简单的故事，引导读者思考。",
+      "pinyin": "Zhè běn shū yòng jiǎndān de gùshi, yǐndǎo dúzhě sīkǎo.",
+      "source_chunk": 29,
+      "speech_start": 60.21,
+      "speech_end": 63.11,
+      "confidence": 0.9624,
+      "characters": [
+        {
+          "char": "这",
+          "start": 60.21,
+          "end": 60.45,
+          "confidence": 0.9673
+        },
+        {
+          "char": "本",
+          "start": 60.45,
+          "end": 60.57,
+          "confidence": 0.9953
+        },
+        {
+          "char": "书",
+          "start": 60.57,
+          "end": 60.79,
+          "confidence": 0.9797
+        },
+        {
+          "char": "用",
+          "start": 60.79,
+          "end": 61.03,
+          "confidence": 0.9774
+        },
+        {
+          "char": "简",
+          "start": 61.03,
+          "end": 61.25,
+          "confidence": 0.9964
+        },
+        {
+          "char": "单",
+          "start": 61.25,
+          "end": 61.43,
+          "confidence": 0.9985
+        },
+        {
+          "char": "的",
+          "start": 61.43,
+          "end": 61.55,
+          "confidence": 0.9832
+        },
+        {
+          "char": "故",
+          "start": 61.55,
+          "end": 61.69,
+          "confidence": 0.9904
+        },
+        {
+          "char": "事",
+          "start": 61.69,
+          "end": 61.93,
+          "confidence": 0.9981
+        },
+        {
+          "char": "引",
+          "start": 62.21,
+          "end": 62.35,
+          "confidence": 0.5855
+        },
+        {
+          "char": "导",
+          "start": 62.35,
+          "end": 62.43,
+          "confidence": 0.9912
+        },
+        {
+          "char": "读",
+          "start": 62.43,
+          "end": 62.59,
+          "confidence": 0.9984
+        },
+        {
+          "char": "者",
+          "start": 62.59,
+          "end": 62.75,
+          "confidence": 0.9998
+        },
+        {
+          "char": "思",
+          "start": 62.75,
+          "end": 62.95,
+          "confidence": 0.9771
+        },
+        {
+          "char": "考",
+          "start": 62.95,
+          "end": 63.11,
+          "confidence": 0.9972
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2344
+    },
+    {
+      "no": 596,
+      "kind": "word",
+      "text": "作者",
+      "spoken_text": "作者。",
+      "pinyin": "zuòzhě",
+      "source_chunk": 29,
+      "speech_start": 63.49,
+      "speech_end": 63.93,
+      "confidence": 0.6654,
+      "characters": [
+        {
+          "char": "作",
+          "start": 63.49,
+          "end": 63.75,
+          "confidence": 0.3313
+        },
+        {
+          "char": "者",
+          "start": 63.75,
+          "end": 63.93,
+          "confidence": 0.9995
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18883
+    },
+    {
+      "no": 596,
+      "kind": "example",
+      "text": "作者把自己的旅行经历，写成了一本书。",
+      "spoken_text": "作者把自己的旅行经历，写成了一本书。",
+      "pinyin": "Zuòzhě bǎ zìjǐ de lǚxíng jīnglì, xiěchéng le yì běn shū.",
+      "source_chunk": 29,
+      "speech_start": 64.49,
+      "speech_end": 67.33,
+      "confidence": 0.7981,
+      "characters": [
+        {
+          "char": "作",
+          "start": 64.49,
+          "end": 64.91,
+          "confidence": 0.9184
+        },
+        {
+          "char": "者",
+          "start": 64.91,
+          "end": 65.01,
+          "confidence": 1.0
+        },
+        {
+          "char": "把",
+          "start": 65.01,
+          "end": 65.13,
+          "confidence": 0.9956
+        },
+        {
+          "char": "自",
+          "start": 65.13,
+          "end": 65.31,
+          "confidence": 0.001
+        },
+        {
+          "char": "己",
+          "start": 65.31,
+          "end": 65.41,
+          "confidence": 0.004
+        },
+        {
+          "char": "的",
+          "start": 65.41,
+          "end": 65.51,
+          "confidence": 0.9255
+        },
+        {
+          "char": "旅",
+          "start": 65.51,
+          "end": 65.63,
+          "confidence": 0.9448
+        },
+        {
+          "char": "行",
+          "start": 65.63,
+          "end": 65.75,
+          "confidence": 0.9963
+        },
+        {
+          "char": "经",
+          "start": 65.75,
+          "end": 65.95,
+          "confidence": 0.5344
+        },
+        {
+          "char": "历",
+          "start": 65.95,
+          "end": 66.15,
+          "confidence": 0.9835
+        },
+        {
+          "char": "写",
+          "start": 66.57,
+          "end": 66.65,
+          "confidence": 0.4993
+        },
+        {
+          "char": "成",
+          "start": 66.65,
+          "end": 66.75,
+          "confidence": 0.9973
+        },
+        {
+          "char": "了",
+          "start": 66.75,
+          "end": 66.85,
+          "confidence": 0.9959
+        },
+        {
+          "char": "一",
+          "start": 66.85,
+          "end": 66.93,
+          "confidence": 0.9767
+        },
+        {
+          "char": "本",
+          "start": 66.93,
+          "end": 67.03,
+          "confidence": 0.9991
+        },
+        {
+          "char": "书",
+          "start": 67.03,
+          "end": 67.33,
+          "confidence": 0.9981
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22681
+    },
+    {
+      "no": 597,
+      "kind": "word",
+      "text": "作家",
+      "spoken_text": "作家。",
+      "pinyin": "zuòjiā",
+      "source_chunk": 29,
+      "speech_start": 67.81,
+      "speech_end": 68.15,
+      "confidence": 0.9093,
+      "characters": [
+        {
+          "char": "作",
+          "start": 67.81,
+          "end": 67.95,
+          "confidence": 0.8638
+        },
+        {
+          "char": "家",
+          "start": 67.95,
+          "end": 68.15,
+          "confidence": 0.9548
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23594
+    },
+    {
+      "no": 597,
+      "kind": "example",
+      "text": "这位作家虽然年轻，作品却很受欢迎。",
+      "spoken_text": "这位作家虽然年轻，作品却很受欢迎。",
+      "pinyin": "Zhè wèi zuòjiā suīrán niánqīng, zuòpǐn què hěn shòuhuānyíng.",
+      "source_chunk": 29,
+      "speech_start": 68.67,
+      "speech_end": 71.69,
+      "confidence": 0.9484,
+      "characters": [
+        {
+          "char": "这",
+          "start": 68.67,
+          "end": 69.01,
+          "confidence": 0.9925
+        },
+        {
+          "char": "位",
+          "start": 69.01,
+          "end": 69.11,
+          "confidence": 0.9467
+        },
+        {
+          "char": "作",
+          "start": 69.11,
+          "end": 69.27,
+          "confidence": 0.9959
+        },
+        {
+          "char": "家",
+          "start": 69.27,
+          "end": 69.45,
+          "confidence": 0.9995
+        },
+        {
+          "char": "虽",
+          "start": 69.45,
+          "end": 69.61,
+          "confidence": 0.9817
+        },
+        {
+          "char": "然",
+          "start": 69.61,
+          "end": 69.75,
+          "confidence": 0.9991
+        },
+        {
+          "char": "年",
+          "start": 69.75,
+          "end": 69.91,
+          "confidence": 0.9821
+        },
+        {
+          "char": "轻",
+          "start": 69.91,
+          "end": 70.17,
+          "confidence": 0.9936
+        },
+        {
+          "char": "作",
+          "start": 70.53,
+          "end": 70.61,
+          "confidence": 0.6014
+        },
+        {
+          "char": "品",
+          "start": 70.61,
+          "end": 70.79,
+          "confidence": 0.9912
+        },
+        {
+          "char": "却",
+          "start": 70.79,
+          "end": 71.03,
+          "confidence": 0.962
+        },
+        {
+          "char": "很",
+          "start": 71.03,
+          "end": 71.19,
+          "confidence": 0.9899
+        },
+        {
+          "char": "受",
+          "start": 71.19,
+          "end": 71.35,
+          "confidence": 0.7978
+        },
+        {
+          "char": "欢",
+          "start": 71.35,
+          "end": 71.51,
+          "confidence": 0.9947
+        },
+        {
+          "char": "迎",
+          "start": 71.51,
+          "end": 71.69,
+          "confidence": 0.9974
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24948
+    },
+    {
+      "no": 598,
+      "kind": "word",
+      "text": "作品",
+      "spoken_text": "作品。",
+      "pinyin": "zuòpǐn",
+      "source_chunk": 29,
+      "speech_start": 72.12,
+      "speech_end": 72.86,
+      "confidence": 0.8325,
+      "characters": [
+        {
+          "char": "作",
+          "start": 72.12,
+          "end": 72.52,
+          "confidence": 0.6684
+        },
+        {
+          "char": "品",
+          "start": 72.52,
+          "end": 72.86,
+          "confidence": 0.9965
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.14591
+    },
+    {
+      "no": 598,
+      "kind": "example",
+      "text": "展览中的作品，大部分来自当地学生。",
+      "spoken_text": "展览中的作品，大部分来自当地学生。",
+      "pinyin": "Zhǎnlǎn zhōng de zuòpǐn, dàbùfen láizì dāngdì xuéshēng.",
+      "source_chunk": 29,
+      "speech_start": 73.24,
+      "speech_end": 75.94,
+      "confidence": 0.8094,
+      "characters": [
+        {
+          "char": "展",
+          "start": 73.24,
+          "end": 73.48,
+          "confidence": 0.8523
+        },
+        {
+          "char": "览",
+          "start": 73.48,
+          "end": 73.64,
+          "confidence": 0.9584
+        },
+        {
+          "char": "中",
+          "start": 73.64,
+          "end": 73.78,
+          "confidence": 0.9899
+        },
+        {
+          "char": "的",
+          "start": 73.78,
+          "end": 73.9,
+          "confidence": 0.9935
+        },
+        {
+          "char": "作",
+          "start": 73.9,
+          "end": 74.06,
+          "confidence": 0.9948
+        },
+        {
+          "char": "品",
+          "start": 74.06,
+          "end": 74.34,
+          "confidence": 0.9999
+        },
+        {
+          "char": "大",
+          "start": 74.62,
+          "end": 74.74,
+          "confidence": 0.4349
+        },
+        {
+          "char": "部",
+          "start": 74.74,
+          "end": 74.86,
+          "confidence": 0.0014
+        },
+        {
+          "char": "分",
+          "start": 74.86,
+          "end": 74.98,
+          "confidence": 0.053
+        },
+        {
+          "char": "来",
+          "start": 74.98,
+          "end": 75.12,
+          "confidence": 0.9347
+        },
+        {
+          "char": "自",
+          "start": 75.12,
+          "end": 75.26,
+          "confidence": 0.977
+        },
+        {
+          "char": "当",
+          "start": 75.26,
+          "end": 75.4,
+          "confidence": 0.9794
+        },
+        {
+          "char": "地",
+          "start": 75.4,
+          "end": 75.54,
+          "confidence": 0.9844
+        },
+        {
+          "char": "学",
+          "start": 75.54,
+          "end": 75.72,
+          "confidence": 0.9922
+        },
+        {
+          "char": "生",
+          "start": 75.72,
+          "end": 75.94,
+          "confidence": 0.9955
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22184
+    },
+    {
+      "no": 599,
+      "kind": "word",
+      "text": "小说",
+      "spoken_text": "小说。",
+      "pinyin": "xiǎoshuō",
+      "source_chunk": 29,
+      "speech_start": 76.46,
+      "speech_end": 76.88,
+      "confidence": 0.959,
+      "characters": [
+        {
+          "char": "小",
+          "start": 76.46,
+          "end": 76.68,
+          "confidence": 0.9351
+        },
+        {
+          "char": "说",
+          "start": 76.68,
+          "end": 76.88,
+          "confidence": 0.983
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18056
+    },
+    {
+      "no": 599,
+      "kind": "example",
+      "text": "这本小说的结尾，和我猜的完全不同。",
+      "spoken_text": "这本小说的结尾，和我猜的完全不同。",
+      "pinyin": "Zhè běn xiǎoshuō de jiéwěi, hé wǒ cāi de wánquán bùtóng.",
+      "source_chunk": 29,
+      "speech_start": 77.28,
+      "speech_end": 80.0,
+      "confidence": 0.7134,
+      "characters": [
+        {
+          "char": "这",
+          "start": 77.28,
+          "end": 77.46,
+          "confidence": 0.9923
+        },
+        {
+          "char": "本",
+          "start": 77.46,
+          "end": 77.56,
+          "confidence": 0.9753
+        },
+        {
+          "char": "小",
+          "start": 77.56,
+          "end": 77.72,
+          "confidence": 0.9921
+        },
+        {
+          "char": "说",
+          "start": 77.72,
+          "end": 77.86,
+          "confidence": 0.9883
+        },
+        {
+          "char": "的",
+          "start": 77.86,
+          "end": 77.98,
+          "confidence": 0.9932
+        },
+        {
+          "char": "结",
+          "start": 77.98,
+          "end": 78.16,
+          "confidence": 0.4805
+        },
+        {
+          "char": "尾",
+          "start": 78.16,
+          "end": 78.36,
+          "confidence": 0.9484
+        },
+        {
+          "char": "和",
+          "start": 78.7,
+          "end": 78.8,
+          "confidence": 0.7325
+        },
+        {
+          "char": "我",
+          "start": 78.8,
+          "end": 78.94,
+          "confidence": 0.9805
+        },
+        {
+          "char": "猜",
+          "start": 78.94,
+          "end": 79.1,
+          "confidence": 0.9853
+        },
+        {
+          "char": "的",
+          "start": 79.1,
+          "end": 79.22,
+          "confidence": 0.8064
+        },
+        {
+          "char": "完",
+          "start": 79.22,
+          "end": 79.38,
+          "confidence": 0.0023
+        },
+        {
+          "char": "全",
+          "start": 79.38,
+          "end": 79.62,
+          "confidence": 0.0646
+        },
+        {
+          "char": "不",
+          "start": 79.62,
+          "end": 79.78,
+          "confidence": 0.0598
+        },
+        {
+          "char": "同",
+          "start": 79.78,
+          "end": 80.0,
+          "confidence": 0.6996
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22118
+    },
+    {
+      "no": 600,
+      "kind": "word",
+      "text": "杂志",
+      "spoken_text": "杂志。",
+      "pinyin": "zázhì",
+      "source_chunk": 29,
+      "speech_start": 80.42,
+      "speech_end": 80.94,
+      "confidence": 0.7508,
+      "characters": [
+        {
+          "char": "杂",
+          "start": 80.42,
+          "end": 80.68,
+          "confidence": 0.6313
+        },
+        {
+          "char": "志",
+          "start": 80.68,
+          "end": 80.94,
+          "confidence": 0.8703
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.13847
+    }
+  ],
+  "windows": [
+    {
+      "first_clip": 0,
+      "last_clip": 4,
+      "start": 0,
+      "end": 11.51,
+      "text": "看见队员有些累了，观众大声喊加油。艺术。她认为艺术能让人发现生活中的美。钢琴。学钢琴不能只靠兴趣，还要坚持练习。"
+    },
+    {
+      "first_clip": 3,
+      "last_clip": 8,
+      "start": 5.909999999999999,
+      "end": 21.81,
+      "text": "钢琴。学钢琴不能只靠兴趣，还要坚持练习。琴放在窗边太久，表面已经有些变色。这首曲子太难，我暂时还弹不下来。歌声。她的歌声从窗户传出来，吸引了路人。"
+    },
+    {
+      "first_clip": 7,
+      "last_clip": 12,
+      "start": 16.17,
+      "end": 30.659999999999997,
+      "text": "歌声。她的歌声从窗户传出来，吸引了路人。歌手。这位歌手不仅会唱歌，还会自己写歌。他演的父亲很真实，让观众十分感动。演唱。"
+    },
+    {
+      "first_clip": 11,
+      "last_clip": 16,
+      "start": 24.91,
+      "end": 38.73,
+      "text": "他演的父亲很真实，让观众十分感动。演唱。毕业晚会上，我们共同演唱了一首老歌。演出。由于演员生病，今晚的演出推迟了。演员。"
+    },
+    {
+      "first_clip": 15,
+      "last_clip": 20,
+      "start": 33.42,
+      "end": 47.82,
+      "text": "由于演员生病，今晚的演出推迟了。演员。为了演好这个角色，演员做了很多准备。话剧。看完这部话剧，我对亲情有了新的理解。京剧。"
+    },
+    {
+      "first_clip": 19,
+      "last_clip": 24,
+      "start": 41.82,
+      "end": 56.28,
+      "text": "看完这部话剧，我对亲情有了新的理解。京剧。爷爷喜欢京剧，常一边听一边跟着唱。剧院。剧院离地铁站不远，走五分钟就到了。精彩。"
+    },
+    {
+      "first_clip": 23,
+      "last_clip": 28,
+      "start": 50.99,
+      "end": 64.9,
+      "text": "剧院离地铁站不远，走五分钟就到了。精彩。演出非常精彩，结束后大家还不愿离开。读者。这本书用简单的故事，引导读者思考。作者。"
+    },
+    {
+      "first_clip": 27,
+      "last_clip": 32,
+      "start": 59.15,
+      "end": 73.57000000000001,
+      "text": "这本书用简单的故事，引导读者思考。作者。作者把自己的旅行经历，写成了一本书。作家。这位作家虽然年轻，作品却很受欢迎。作品。"
+    },
+    {
+      "first_clip": 31,
+      "last_clip": 36,
+      "start": 67.75999999999999,
+      "end": 81.288,
+      "text": "这位作家虽然年轻，作品却很受欢迎。作品。展览中的作品，大部分来自当地学生。小说。这本小说的结尾，和我猜的完全不同。杂志。"
+    },
+    {
+      "first_clip": 35,
+      "last_clip": 36,
+      "start": 76.22999999999999,
+      "end": 81.288,
+      "text": "这本小说的结尾，和我猜的完全不同。杂志。"
+    }
+  ],
+  "alerts": []
+}
