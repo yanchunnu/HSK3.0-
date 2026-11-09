@@ -1,0 +1,149 @@
+{
+  "chunk": 50,
+  "duration": 4.872,
+  "transcript_match_ratio": 1.0,
+  "clips": [
+    {
+      "no": 541,
+      "kind": "word",
+      "text": "星星",
+      "spoken_text": "星星。",
+      "pinyin": "xīngxing",
+      "source_chunk": 50,
+      "speech_start": 0.0,
+      "speech_end": 0.58,
+      "confidence": 0.6361,
+      "characters": [
+        {
+          "char": "星",
+          "start": 0.0,
+          "end": 0.32,
+          "confidence": 0.3806
+        },
+        {
+          "char": "星",
+          "start": 0.32,
+          "end": 0.58,
+          "confidence": 0.8917
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2196
+    },
+    {
+      "no": 541,
+      "kind": "example",
+      "text": "乡下的夜空很晴朗，能看见很多星星。",
+      "spoken_text": "乡下的夜空很晴朗，能看见很多星星。",
+      "pinyin": "Xiāngxià de yèkōng hěn qínglǎng, néng kànjiàn hěn duō xīngxing.",
+      "source_chunk": 50,
+      "speech_start": 1.04,
+      "speech_end": 4.08,
+      "confidence": 0.7871,
+      "characters": [
+        {
+          "char": "乡",
+          "start": 1.04,
+          "end": 1.44,
+          "confidence": 0.5004
+        },
+        {
+          "char": "下",
+          "start": 1.44,
+          "end": 1.62,
+          "confidence": 0.9837
+        },
+        {
+          "char": "的",
+          "start": 1.62,
+          "end": 1.72,
+          "confidence": 0.9025
+        },
+        {
+          "char": "夜",
+          "start": 1.72,
+          "end": 1.86,
+          "confidence": 0.9704
+        },
+        {
+          "char": "空",
+          "start": 1.86,
+          "end": 2.02,
+          "confidence": 0.9969
+        },
+        {
+          "char": "很",
+          "start": 2.02,
+          "end": 2.26,
+          "confidence": 0.9867
+        },
+        {
+          "char": "晴",
+          "start": 2.26,
+          "end": 2.46,
+          "confidence": 0.5444
+        },
+        {
+          "char": "朗",
+          "start": 2.46,
+          "end": 2.68,
+          "confidence": 0.7788
+        },
+        {
+          "char": "能",
+          "start": 3.04,
+          "end": 3.08,
+          "confidence": 0.2648
+        },
+        {
+          "char": "看",
+          "start": 3.08,
+          "end": 3.22,
+          "confidence": 0.9497
+        },
+        {
+          "char": "见",
+          "start": 3.22,
+          "end": 3.34,
+          "confidence": 0.9684
+        },
+        {
+          "char": "很",
+          "start": 3.34,
+          "end": 3.52,
+          "confidence": 0.0014
+        },
+        {
+          "char": "多",
+          "start": 3.52,
+          "end": 3.68,
+          "confidence": 0.9831
+        },
+        {
+          "char": "星",
+          "start": 3.68,
+          "end": 3.88,
+          "confidence": 0.9904
+        },
+        {
+          "char": "星",
+          "start": 3.88,
+          "end": 4.08,
+          "confidence": 0.9847
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21443
+    }
+  ],
+  "windows": [
+    {
+      "first_clip": 0,
+      "last_clip": 1,
+      "start": 0,
+      "end": 4.872,
+      "text": "星星。乡下的夜空很晴朗，能看见很多星星。"
+    }
+  ],
+  "alerts": []
+}
