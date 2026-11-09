@@ -1,0 +1,2580 @@
+{
+  "chunk": 18,
+  "duration": 75.744,
+  "transcript_match_ratio": 0.9926,
+  "clips": [
+    {
+      "no": 349,
+      "kind": "example",
+      "text": "她把巧克力分给大家，庆祝比赛获奖。",
+      "spoken_text": "她把巧克力分给大家，庆祝比赛获奖。",
+      "pinyin": "Tā bǎ qiǎokèlì fēngěi dàjiā, qìngzhù bǐsài huòjiǎng.",
+      "source_chunk": 18,
+      "speech_start": 0.0,
+      "speech_end": 2.86,
+      "confidence": 0.7408,
+      "characters": [
+        {
+          "char": "她",
+          "start": 0.0,
+          "end": 0.4,
+          "confidence": 0.2975
+        },
+        {
+          "char": "把",
+          "start": 0.4,
+          "end": 0.52,
+          "confidence": 0.9899
+        },
+        {
+          "char": "巧",
+          "start": 0.52,
+          "end": 0.68,
+          "confidence": 0.976
+        },
+        {
+          "char": "克",
+          "start": 0.68,
+          "end": 0.8,
+          "confidence": 0.9997
+        },
+        {
+          "char": "力",
+          "start": 0.8,
+          "end": 0.92,
+          "confidence": 0.9939
+        },
+        {
+          "char": "分",
+          "start": 0.92,
+          "end": 1.06,
+          "confidence": 0.9099
+        },
+        {
+          "char": "给",
+          "start": 1.06,
+          "end": 1.2,
+          "confidence": 0.3855
+        },
+        {
+          "char": "大",
+          "start": 1.2,
+          "end": 1.4,
+          "confidence": 0.0003
+        },
+        {
+          "char": "家",
+          "start": 1.4,
+          "end": 1.58,
+          "confidence": 0.7174
+        },
+        {
+          "char": "庆",
+          "start": 1.96,
+          "end": 2.1,
+          "confidence": 0.5401
+        },
+        {
+          "char": "祝",
+          "start": 2.1,
+          "end": 2.22,
+          "confidence": 0.7684
+        },
+        {
+          "char": "比",
+          "start": 2.22,
+          "end": 2.34,
+          "confidence": 0.9933
+        },
+        {
+          "char": "赛",
+          "start": 2.34,
+          "end": 2.5,
+          "confidence": 0.9381
+        },
+        {
+          "char": "获",
+          "start": 2.5,
+          "end": 2.7,
+          "confidence": 0.7907
+        },
+        {
+          "char": "奖",
+          "start": 2.7,
+          "end": 2.86,
+          "confidence": 0.8116
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20712
+    },
+    {
+      "no": 350,
+      "kind": "word",
+      "text": "西红柿",
+      "spoken_text": "西红柿。",
+      "pinyin": "xīhóngshì",
+      "source_chunk": 18,
+      "speech_start": 3.22,
+      "speech_end": 3.94,
+      "confidence": 0.6716,
+      "characters": [
+        {
+          "char": "西",
+          "start": 3.22,
+          "end": 3.56,
+          "confidence": 0.632
+        },
+        {
+          "char": "红",
+          "start": 3.56,
+          "end": 3.7,
+          "confidence": 0.8882
+        },
+        {
+          "char": "柿",
+          "start": 3.7,
+          "end": 3.94,
+          "confidence": 0.4946
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18346
+    },
+    {
+      "no": 350,
+      "kind": "example",
+      "text": "把西红柿切成小块，再放进锅里。",
+      "spoken_text": "把西红柿切成小块，再放进锅里。",
+      "pinyin": "Bǎ xīhóngshì qiēchéng xiǎo kuài, zài fàngjìn guō lǐ.",
+      "source_chunk": 18,
+      "speech_start": 4.34,
+      "speech_end": 6.62,
+      "confidence": 0.93,
+      "characters": [
+        {
+          "char": "把",
+          "start": 4.34,
+          "end": 4.58,
+          "confidence": 0.9785
+        },
+        {
+          "char": "西",
+          "start": 4.58,
+          "end": 4.76,
+          "confidence": 0.9988
+        },
+        {
+          "char": "红",
+          "start": 4.76,
+          "end": 4.9,
+          "confidence": 0.996
+        },
+        {
+          "char": "柿",
+          "start": 4.9,
+          "end": 5.04,
+          "confidence": 0.9991
+        },
+        {
+          "char": "切",
+          "start": 5.04,
+          "end": 5.18,
+          "confidence": 0.9512
+        },
+        {
+          "char": "成",
+          "start": 5.18,
+          "end": 5.3,
+          "confidence": 0.9992
+        },
+        {
+          "char": "小",
+          "start": 5.3,
+          "end": 5.48,
+          "confidence": 0.9831
+        },
+        {
+          "char": "块",
+          "start": 5.48,
+          "end": 5.66,
+          "confidence": 0.9792
+        },
+        {
+          "char": "再",
+          "start": 5.82,
+          "end": 6.04,
+          "confidence": 0.3067
+        },
+        {
+          "char": "放",
+          "start": 6.04,
+          "end": 6.16,
+          "confidence": 0.9991
+        },
+        {
+          "char": "进",
+          "start": 6.16,
+          "end": 6.32,
+          "confidence": 0.9717
+        },
+        {
+          "char": "锅",
+          "start": 6.32,
+          "end": 6.48,
+          "confidence": 0.9682
+        },
+        {
+          "char": "里",
+          "start": 6.48,
+          "end": 6.62,
+          "confidence": 0.9591
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23445
+    },
+    {
+      "no": 351,
+      "kind": "word",
+      "text": "葡萄",
+      "spoken_text": "葡萄。",
+      "pinyin": "pútao",
+      "source_chunk": 18,
+      "speech_start": 7.1,
+      "speech_end": 7.44,
+      "confidence": 0.782,
+      "characters": [
+        {
+          "char": "葡",
+          "start": 7.1,
+          "end": 7.26,
+          "confidence": 0.6061
+        },
+        {
+          "char": "萄",
+          "start": 7.26,
+          "end": 7.44,
+          "confidence": 0.958
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.13758
+    },
+    {
+      "no": 351,
+      "kind": "example",
+      "text": "这些葡萄看起来很新鲜，买一公斤吧。",
+      "spoken_text": "这些葡萄看起来很新鲜，买一公斤吧。",
+      "pinyin": "Zhèxiē pútao kànqǐlai hěn xīnxiān, mǎi yì gōngjīn ba.",
+      "source_chunk": 18,
+      "speech_start": 7.77,
+      "speech_end": 10.31,
+      "confidence": 0.871,
+      "characters": [
+        {
+          "char": "这",
+          "start": 7.77,
+          "end": 8.07,
+          "confidence": 0.4938
+        },
+        {
+          "char": "些",
+          "start": 8.07,
+          "end": 8.15,
+          "confidence": 0.9945
+        },
+        {
+          "char": "葡",
+          "start": 8.15,
+          "end": 8.31,
+          "confidence": 0.9824
+        },
+        {
+          "char": "萄",
+          "start": 8.31,
+          "end": 8.43,
+          "confidence": 0.8285
+        },
+        {
+          "char": "看",
+          "start": 8.43,
+          "end": 8.59,
+          "confidence": 0.9504
+        },
+        {
+          "char": "起",
+          "start": 8.59,
+          "end": 8.71,
+          "confidence": 0.9879
+        },
+        {
+          "char": "来",
+          "start": 8.71,
+          "end": 8.79,
+          "confidence": 0.9945
+        },
+        {
+          "char": "很",
+          "start": 8.79,
+          "end": 8.97,
+          "confidence": 0.984
+        },
+        {
+          "char": "新",
+          "start": 8.97,
+          "end": 9.15,
+          "confidence": 0.9135
+        },
+        {
+          "char": "鲜",
+          "start": 9.15,
+          "end": 9.35,
+          "confidence": 0.998
+        },
+        {
+          "char": "买",
+          "start": 9.71,
+          "end": 9.77,
+          "confidence": 0.5138
+        },
+        {
+          "char": "一",
+          "start": 9.77,
+          "end": 9.87,
+          "confidence": 0.807
+        },
+        {
+          "char": "公",
+          "start": 9.87,
+          "end": 9.95,
+          "confidence": 0.7283
+        },
+        {
+          "char": "斤",
+          "start": 9.95,
+          "end": 10.11,
+          "confidence": 0.9888
+        },
+        {
+          "char": "吧",
+          "start": 10.11,
+          "end": 10.31,
+          "confidence": 0.8995
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.26349
+    },
+    {
+      "no": 352,
+      "kind": "example",
+      "text": "汤还有点烫，等凉一些再喝。",
+      "spoken_text": "汤还有点烫，等凉一些再喝。",
+      "pinyin": "Tāng hái yǒudiǎn tàng, děng liáng yìxiē zài hē.",
+      "source_chunk": 18,
+      "speech_start": 10.71,
+      "speech_end": 12.75,
+      "confidence": 0.636,
+      "characters": [
+        {
+          "char": "汤",
+          "start": 10.71,
+          "end": 10.87,
+          "confidence": 0.9807
+        },
+        {
+          "char": "还",
+          "start": 10.87,
+          "end": 11.03,
+          "confidence": 0.6046
+        },
+        {
+          "char": "有",
+          "start": 11.03,
+          "end": 11.15,
+          "confidence": 0.7034
+        },
+        {
+          "char": "点",
+          "start": 11.15,
+          "end": 11.27,
+          "confidence": 0.9986
+        },
+        {
+          "char": "烫",
+          "start": 11.27,
+          "end": 11.49,
+          "confidence": 0.7234
+        },
+        {
+          "char": "等",
+          "start": 11.81,
+          "end": 11.93,
+          "confidence": 0.3588
+        },
+        {
+          "char": "凉",
+          "start": 11.93,
+          "end": 12.07,
+          "confidence": 0.8313
+        },
+        {
+          "char": "一",
+          "start": 12.07,
+          "end": 12.23,
+          "confidence": 0.0454
+        },
+        {
+          "char": "些",
+          "start": 12.23,
+          "end": 12.35,
+          "confidence": 0.3379
+        },
+        {
+          "char": "再",
+          "start": 12.35,
+          "end": 12.49,
+          "confidence": 0.5953
+        },
+        {
+          "char": "喝",
+          "start": 12.49,
+          "end": 12.75,
+          "confidence": 0.8163
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2153
+    },
+    {
+      "no": 353,
+      "kind": "example",
+      "text": "炒菜时少放一点油，味道也很好。",
+      "spoken_text": "炒菜时少放一点油，味道也很好。",
+      "pinyin": "Chǎocài shí shǎo fàng yìdiǎn yóu, wèidao yě hěn hǎo.",
+      "source_chunk": 18,
+      "speech_start": 13.17,
+      "speech_end": 15.89,
+      "confidence": 0.7803,
+      "characters": [
+        {
+          "char": "炒",
+          "start": 13.17,
+          "end": 13.51,
+          "confidence": 0.944
+        },
+        {
+          "char": "菜",
+          "start": 13.51,
+          "end": 13.69,
+          "confidence": 0.9976
+        },
+        {
+          "char": "时",
+          "start": 13.69,
+          "end": 13.93,
+          "confidence": 0.7707
+        },
+        {
+          "char": "少",
+          "start": 13.93,
+          "end": 14.23,
+          "confidence": 0.6221
+        },
+        {
+          "char": "放",
+          "start": 14.23,
+          "end": 14.37,
+          "confidence": 0.911
+        },
+        {
+          "char": "一",
+          "start": 14.37,
+          "end": 14.49,
+          "confidence": 0.0047
+        },
+        {
+          "char": "点",
+          "start": 14.49,
+          "end": 14.59,
+          "confidence": 0.8803
+        },
+        {
+          "char": "油",
+          "start": 14.59,
+          "end": 14.89,
+          "confidence": 0.9785
+        },
+        {
+          "char": "味",
+          "start": 15.23,
+          "end": 15.29,
+          "confidence": 0.9633
+        },
+        {
+          "char": "道",
+          "start": 15.29,
+          "end": 15.39,
+          "confidence": 0.9976
+        },
+        {
+          "char": "也",
+          "start": 15.39,
+          "end": 15.51,
+          "confidence": 0.9884
+        },
+        {
+          "char": "很",
+          "start": 15.51,
+          "end": 15.69,
+          "confidence": 0.0967
+        },
+        {
+          "char": "好",
+          "start": 15.69,
+          "end": 15.89,
+          "confidence": 0.9885
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22474
+    },
+    {
+      "no": 354,
+      "kind": "example",
+      "text": "我已经放过盐了，你先尝尝再加。",
+      "spoken_text": "我已经放过盐了，你先尝尝再加。",
+      "pinyin": "Wǒ yǐjīng fàngguo yán le, nǐ xiān chángchang zài jiā.",
+      "source_chunk": 18,
+      "speech_start": 16.33,
+      "speech_end": 18.49,
+      "confidence": 0.7371,
+      "characters": [
+        {
+          "char": "我",
+          "start": 16.33,
+          "end": 16.57,
+          "confidence": 0.9539
+        },
+        {
+          "char": "已",
+          "start": 16.57,
+          "end": 16.67,
+          "confidence": 0.0024
+        },
+        {
+          "char": "经",
+          "start": 16.67,
+          "end": 16.79,
+          "confidence": 0.0001
+        },
+        {
+          "char": "放",
+          "start": 16.79,
+          "end": 16.89,
+          "confidence": 0.7501
+        },
+        {
+          "char": "过",
+          "start": 16.89,
+          "end": 17.05,
+          "confidence": 0.9958
+        },
+        {
+          "char": "盐",
+          "start": 17.05,
+          "end": 17.19,
+          "confidence": 0.8008
+        },
+        {
+          "char": "了",
+          "start": 17.19,
+          "end": 17.39,
+          "confidence": 0.9606
+        },
+        {
+          "char": "你",
+          "start": 17.65,
+          "end": 17.71,
+          "confidence": 0.7861
+        },
+        {
+          "char": "先",
+          "start": 17.71,
+          "end": 17.87,
+          "confidence": 0.8842
+        },
+        {
+          "char": "尝",
+          "start": 17.87,
+          "end": 18.01,
+          "confidence": 0.9888
+        },
+        {
+          "char": "尝",
+          "start": 18.01,
+          "end": 18.15,
+          "confidence": 0.9737
+        },
+        {
+          "char": "再",
+          "start": 18.15,
+          "end": 18.29,
+          "confidence": 0.5707
+        },
+        {
+          "char": "加",
+          "start": 18.29,
+          "end": 18.49,
+          "confidence": 0.9152
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23889
+    },
+    {
+      "no": 355,
+      "kind": "word",
+      "text": "茶叶",
+      "spoken_text": "茶叶。",
+      "pinyin": "cháyè",
+      "source_chunk": 18,
+      "speech_start": 18.77,
+      "speech_end": 19.23,
+      "confidence": 0.871,
+      "characters": [
+        {
+          "char": "茶",
+          "start": 18.77,
+          "end": 19.03,
+          "confidence": 0.8551
+        },
+        {
+          "char": "叶",
+          "start": 19.03,
+          "end": 19.23,
+          "confidence": 0.8868
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18832
+    },
+    {
+      "no": 355,
+      "kind": "example",
+      "text": "这种茶叶适合用热水泡，别煮太久。",
+      "spoken_text": "这种茶叶适合用热水泡，别煮太久。",
+      "pinyin": "Zhè zhǒng cháyè shìhé yòng rèshuǐ pào, bié zhǔ tài jiǔ.",
+      "source_chunk": 18,
+      "speech_start": 19.57,
+      "speech_end": 22.19,
+      "confidence": 0.9193,
+      "characters": [
+        {
+          "char": "这",
+          "start": 19.57,
+          "end": 19.83,
+          "confidence": 0.867
+        },
+        {
+          "char": "种",
+          "start": 19.83,
+          "end": 19.95,
+          "confidence": 0.9847
+        },
+        {
+          "char": "茶",
+          "start": 19.95,
+          "end": 20.15,
+          "confidence": 0.9969
+        },
+        {
+          "char": "叶",
+          "start": 20.15,
+          "end": 20.33,
+          "confidence": 0.9987
+        },
+        {
+          "char": "适",
+          "start": 20.33,
+          "end": 20.53,
+          "confidence": 0.7838
+        },
+        {
+          "char": "合",
+          "start": 20.53,
+          "end": 20.63,
+          "confidence": 0.9871
+        },
+        {
+          "char": "用",
+          "start": 20.63,
+          "end": 20.79,
+          "confidence": 0.9724
+        },
+        {
+          "char": "热",
+          "start": 20.79,
+          "end": 20.93,
+          "confidence": 0.9849
+        },
+        {
+          "char": "水",
+          "start": 20.93,
+          "end": 21.09,
+          "confidence": 0.9985
+        },
+        {
+          "char": "泡",
+          "start": 21.09,
+          "end": 21.31,
+          "confidence": 0.9508
+        },
+        {
+          "char": "别",
+          "start": 21.59,
+          "end": 21.67,
+          "confidence": 0.441
+        },
+        {
+          "char": "煮",
+          "start": 21.67,
+          "end": 21.79,
+          "confidence": 0.99
+        },
+        {
+          "char": "太",
+          "start": 21.79,
+          "end": 21.95,
+          "confidence": 0.9402
+        },
+        {
+          "char": "久",
+          "start": 21.95,
+          "end": 22.19,
+          "confidence": 0.9748
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23568
+    },
+    {
+      "no": 356,
+      "kind": "word",
+      "text": "果汁",
+      "spoken_text": "果汁。",
+      "pinyin": "guǒzhī",
+      "source_chunk": 18,
+      "speech_start": 22.53,
+      "speech_end": 22.91,
+      "confidence": 0.9036,
+      "characters": [
+        {
+          "char": "果",
+          "start": 22.53,
+          "end": 22.71,
+          "confidence": 0.812
+        },
+        {
+          "char": "汁",
+          "start": 22.71,
+          "end": 22.91,
+          "confidence": 0.9952
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.16779
+    },
+    {
+      "no": 356,
+      "kind": "example",
+      "text": "我想要一杯不加糖的鲜果汁。",
+      "spoken_text": "我想要一杯不加糖的鲜果汁。",
+      "pinyin": "Wǒ xiǎngyào yì bēi bù jiā táng de xiānguǒzhī.",
+      "source_chunk": 18,
+      "speech_start": 23.33,
+      "speech_end": 25.37,
+      "confidence": 0.7902,
+      "characters": [
+        {
+          "char": "我",
+          "start": 23.33,
+          "end": 23.63,
+          "confidence": 0.0972
+        },
+        {
+          "char": "想",
+          "start": 23.63,
+          "end": 23.73,
+          "confidence": 0.5636
+        },
+        {
+          "char": "要",
+          "start": 23.73,
+          "end": 23.87,
+          "confidence": 0.9762
+        },
+        {
+          "char": "一",
+          "start": 23.87,
+          "end": 24.01,
+          "confidence": 0.9112
+        },
+        {
+          "char": "杯",
+          "start": 24.01,
+          "end": 24.09,
+          "confidence": 0.9838
+        },
+        {
+          "char": "不",
+          "start": 24.09,
+          "end": 24.29,
+          "confidence": 0.8355
+        },
+        {
+          "char": "加",
+          "start": 24.29,
+          "end": 24.43,
+          "confidence": 0.305
+        },
+        {
+          "char": "糖",
+          "start": 24.43,
+          "end": 24.63,
+          "confidence": 0.9394
+        },
+        {
+          "char": "的",
+          "start": 24.63,
+          "end": 24.79,
+          "confidence": 0.9835
+        },
+        {
+          "char": "鲜",
+          "start": 24.79,
+          "end": 24.91,
+          "confidence": 0.8939
+        },
+        {
+          "char": "果",
+          "start": 24.91,
+          "end": 25.11,
+          "confidence": 0.9948
+        },
+        {
+          "char": "汁",
+          "start": 25.11,
+          "end": 25.37,
+          "confidence": 0.9986
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22034
+    },
+    {
+      "no": 357,
+      "kind": "word",
+      "text": "汽水",
+      "spoken_text": "汽水。",
+      "pinyin": "qìshuǐ",
+      "source_chunk": 18,
+      "speech_start": 25.73,
+      "speech_end": 26.13,
+      "confidence": 0.8059,
+      "characters": [
+        {
+          "char": "汽",
+          "start": 25.73,
+          "end": 25.93,
+          "confidence": 0.6178
+        },
+        {
+          "char": "水",
+          "start": 25.93,
+          "end": 26.13,
+          "confidence": 0.9941
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18932
+    },
+    {
+      "no": 357,
+      "kind": "example",
+      "text": "他原来爱喝汽水，现在更喜欢白开水。",
+      "spoken_text": "他原来爱喝汽水，现在更喜欢白开水。",
+      "pinyin": "Tā yuánlái ài hē qìshuǐ, xiànzài gèng xǐhuan báikāishuǐ.",
+      "source_chunk": 18,
+      "speech_start": 26.57,
+      "speech_end": 29.53,
+      "confidence": 0.6541,
+      "characters": [
+        {
+          "char": "他",
+          "start": 26.57,
+          "end": 26.95,
+          "confidence": 0.0579
+        },
+        {
+          "char": "原",
+          "start": 26.95,
+          "end": 27.09,
+          "confidence": 0.964
+        },
+        {
+          "char": "来",
+          "start": 27.09,
+          "end": 27.23,
+          "confidence": 0.8803
+        },
+        {
+          "char": "爱",
+          "start": 27.23,
+          "end": 27.35,
+          "confidence": 0.9154
+        },
+        {
+          "char": "喝",
+          "start": 27.35,
+          "end": 27.51,
+          "confidence": 0.9939
+        },
+        {
+          "char": "汽",
+          "start": 27.51,
+          "end": 27.73,
+          "confidence": 0.9943
+        },
+        {
+          "char": "水",
+          "start": 27.73,
+          "end": 27.93,
+          "confidence": 0.9976
+        },
+        {
+          "char": "现",
+          "start": 28.33,
+          "end": 28.35,
+          "confidence": 0.0005
+        },
+        {
+          "char": "在",
+          "start": 28.35,
+          "end": 28.47,
+          "confidence": 0.1133
+        },
+        {
+          "char": "更",
+          "start": 28.47,
+          "end": 28.57,
+          "confidence": 0.9836
+        },
+        {
+          "char": "喜",
+          "start": 28.57,
+          "end": 28.75,
+          "confidence": 0.0011
+        },
+        {
+          "char": "欢",
+          "start": 28.75,
+          "end": 28.87,
+          "confidence": 0.006
+        },
+        {
+          "char": "白",
+          "start": 28.87,
+          "end": 29.01,
+          "confidence": 0.9811
+        },
+        {
+          "char": "开",
+          "start": 29.01,
+          "end": 29.23,
+          "confidence": 0.9358
+        },
+        {
+          "char": "水",
+          "start": 29.23,
+          "end": 29.53,
+          "confidence": 0.9867
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22296
+    },
+    {
+      "no": 358,
+      "kind": "word",
+      "text": "酸奶",
+      "spoken_text": "酸奶。",
+      "pinyin": "suānnǎi",
+      "source_chunk": 18,
+      "speech_start": 30.11,
+      "speech_end": 30.69,
+      "confidence": 0.9608,
+      "characters": [
+        {
+          "char": "酸",
+          "start": 30.11,
+          "end": 30.45,
+          "confidence": 0.9455
+        },
+        {
+          "char": "奶",
+          "start": 30.45,
+          "end": 30.69,
+          "confidence": 0.9761
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.17849
+    },
+    {
+      "no": 358,
+      "kind": "example",
+      "text": "买酸奶时，我总会看看能保存多久。",
+      "spoken_text": "买酸奶时，我总会看看能保存多久。",
+      "pinyin": "Mǎi suānnǎi shí, wǒ zǒng huì kànkan néng bǎocún duōjiǔ.",
+      "source_chunk": 18,
+      "speech_start": 31.05,
+      "speech_end": 33.71,
+      "confidence": 0.8535,
+      "characters": [
+        {
+          "char": "买",
+          "start": 31.05,
+          "end": 31.25,
+          "confidence": 0.9767
+        },
+        {
+          "char": "酸",
+          "start": 31.25,
+          "end": 31.45,
+          "confidence": 0.9994
+        },
+        {
+          "char": "奶",
+          "start": 31.45,
+          "end": 31.61,
+          "confidence": 0.9987
+        },
+        {
+          "char": "时",
+          "start": 31.61,
+          "end": 31.87,
+          "confidence": 0.8578
+        },
+        {
+          "char": "我",
+          "start": 32.27,
+          "end": 32.35,
+          "confidence": 0.905
+        },
+        {
+          "char": "总",
+          "start": 32.35,
+          "end": 32.47,
+          "confidence": 0.991
+        },
+        {
+          "char": "会",
+          "start": 32.47,
+          "end": 32.63,
+          "confidence": 0.9648
+        },
+        {
+          "char": "看",
+          "start": 32.63,
+          "end": 32.79,
+          "confidence": 0.3888
+        },
+        {
+          "char": "看",
+          "start": 32.79,
+          "end": 32.93,
+          "confidence": 0.0468
+        },
+        {
+          "char": "能",
+          "start": 32.93,
+          "end": 33.03,
+          "confidence": 0.9892
+        },
+        {
+          "char": "保",
+          "start": 33.03,
+          "end": 33.17,
+          "confidence": 0.8951
+        },
+        {
+          "char": "存",
+          "start": 33.17,
+          "end": 33.33,
+          "confidence": 0.9981
+        },
+        {
+          "char": "多",
+          "start": 33.33,
+          "end": 33.51,
+          "confidence": 0.9893
+        },
+        {
+          "char": "久",
+          "start": 33.51,
+          "end": 33.71,
+          "confidence": 0.9477
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20951
+    },
+    {
+      "no": 359,
+      "kind": "word",
+      "text": "白酒",
+      "spoken_text": "白酒。",
+      "pinyin": "báijiǔ",
+      "source_chunk": 18,
+      "speech_start": 34.07,
+      "speech_end": 34.73,
+      "confidence": 0.9223,
+      "characters": [
+        {
+          "char": "白",
+          "start": 34.07,
+          "end": 34.47,
+          "confidence": 0.9072
+        },
+        {
+          "char": "酒",
+          "start": 34.47,
+          "end": 34.73,
+          "confidence": 0.9373
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.15326
+    },
+    {
+      "no": 359,
+      "kind": "example",
+      "text": "这种白酒度数很高，我只尝了一点。",
+      "spoken_text": "这种白酒度数很高，我只尝了一点。",
+      "pinyin": "Zhè zhǒng báijiǔ dùshù hěn gāo, wǒ zhǐ cháng le yìdiǎn.",
+      "source_chunk": 18,
+      "speech_start": 35.05,
+      "speech_end": 37.71,
+      "confidence": 0.8579,
+      "characters": [
+        {
+          "char": "这",
+          "start": 35.05,
+          "end": 35.57,
+          "confidence": 0.6875
+        },
+        {
+          "char": "种",
+          "start": 35.57,
+          "end": 35.67,
+          "confidence": 0.9945
+        },
+        {
+          "char": "白",
+          "start": 35.67,
+          "end": 35.81,
+          "confidence": 0.9953
+        },
+        {
+          "char": "酒",
+          "start": 35.81,
+          "end": 35.97,
+          "confidence": 0.9963
+        },
+        {
+          "char": "度",
+          "start": 35.97,
+          "end": 36.11,
+          "confidence": 0.9096
+        },
+        {
+          "char": "数",
+          "start": 36.11,
+          "end": 36.25,
+          "confidence": 0.8946
+        },
+        {
+          "char": "很",
+          "start": 36.25,
+          "end": 36.41,
+          "confidence": 0.9907
+        },
+        {
+          "char": "高",
+          "start": 36.41,
+          "end": 36.65,
+          "confidence": 0.9988
+        },
+        {
+          "char": "我",
+          "start": 36.93,
+          "end": 37.01,
+          "confidence": 0.9318
+        },
+        {
+          "char": "只",
+          "start": 37.01,
+          "end": 37.11,
+          "confidence": 0.9916
+        },
+        {
+          "char": "尝",
+          "start": 37.11,
+          "end": 37.29,
+          "confidence": 0.6915
+        },
+        {
+          "char": "了",
+          "start": 37.29,
+          "end": 37.43,
+          "confidence": 0.976
+        },
+        {
+          "char": "一",
+          "start": 37.43,
+          "end": 37.53,
+          "confidence": 0.0075
+        },
+        {
+          "char": "点",
+          "start": 37.53,
+          "end": 37.71,
+          "confidence": 0.9456
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20998
+    },
+    {
+      "no": 360,
+      "kind": "word",
+      "text": "葡萄酒",
+      "spoken_text": "葡萄酒。",
+      "pinyin": "pútaojiǔ",
+      "source_chunk": 18,
+      "speech_start": 38.19,
+      "speech_end": 38.73,
+      "confidence": 0.929,
+      "characters": [
+        {
+          "char": "葡",
+          "start": 38.19,
+          "end": 38.39,
+          "confidence": 0.8275
+        },
+        {
+          "char": "萄",
+          "start": 38.39,
+          "end": 38.53,
+          "confidence": 0.966
+        },
+        {
+          "char": "酒",
+          "start": 38.53,
+          "end": 38.73,
+          "confidence": 0.9934
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.17744
+    },
+    {
+      "no": 360,
+      "kind": "example",
+      "text": "客人带来一瓶葡萄酒，准备晚餐时喝。",
+      "spoken_text": "客人带来一瓶葡萄酒，准备晚餐时喝。",
+      "pinyin": "Kèrén dàilái yì píng pútaojiǔ, zhǔnbèi wǎncān shí hē.",
+      "source_chunk": 18,
+      "speech_start": 39.09,
+      "speech_end": 41.87,
+      "confidence": 0.9119,
+      "characters": [
+        {
+          "char": "客",
+          "start": 39.09,
+          "end": 39.37,
+          "confidence": 0.8499
+        },
+        {
+          "char": "人",
+          "start": 39.37,
+          "end": 39.55,
+          "confidence": 0.9989
+        },
+        {
+          "char": "带",
+          "start": 39.55,
+          "end": 39.69,
+          "confidence": 0.9928
+        },
+        {
+          "char": "来",
+          "start": 39.69,
+          "end": 39.79,
+          "confidence": 0.9802
+        },
+        {
+          "char": "一",
+          "start": 39.79,
+          "end": 39.93,
+          "confidence": 0.991
+        },
+        {
+          "char": "瓶",
+          "start": 39.93,
+          "end": 40.03,
+          "confidence": 0.9819
+        },
+        {
+          "char": "葡",
+          "start": 40.03,
+          "end": 40.25,
+          "confidence": 0.9766
+        },
+        {
+          "char": "萄",
+          "start": 40.25,
+          "end": 40.37,
+          "confidence": 0.9974
+        },
+        {
+          "char": "酒",
+          "start": 40.37,
+          "end": 40.59,
+          "confidence": 0.9996
+        },
+        {
+          "char": "准",
+          "start": 40.93,
+          "end": 41.01,
+          "confidence": 0.9853
+        },
+        {
+          "char": "备",
+          "start": 41.01,
+          "end": 41.11,
+          "confidence": 0.9914
+        },
+        {
+          "char": "晚",
+          "start": 41.11,
+          "end": 41.27,
+          "confidence": 0.8095
+        },
+        {
+          "char": "餐",
+          "start": 41.27,
+          "end": 41.45,
+          "confidence": 0.9979
+        },
+        {
+          "char": "时",
+          "start": 41.45,
+          "end": 41.67,
+          "confidence": 0.4748
+        },
+        {
+          "char": "喝",
+          "start": 41.67,
+          "end": 41.87,
+          "confidence": 0.6515
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22503
+    },
+    {
+      "no": 361,
+      "kind": "example",
+      "text": "这块肉里面还是生的，需要再烤一会儿。",
+      "spoken_text": "这块肉里面还是生的，需要再烤一会儿。",
+      "pinyin": "Zhè kuài ròu lǐmiàn háishi shēng de, xūyào zài kǎo yíhuìr.",
+      "source_chunk": 18,
+      "speech_start": 42.3,
+      "speech_end": 45.08,
+      "confidence": 0.6719,
+      "characters": [
+        {
+          "char": "这",
+          "start": 42.3,
+          "end": 42.48,
+          "confidence": 0.964
+        },
+        {
+          "char": "块",
+          "start": 42.48,
+          "end": 42.62,
+          "confidence": 0.8914
+        },
+        {
+          "char": "肉",
+          "start": 42.62,
+          "end": 42.78,
+          "confidence": 0.995
+        },
+        {
+          "char": "里",
+          "start": 42.78,
+          "end": 42.94,
+          "confidence": 0.9533
+        },
+        {
+          "char": "面",
+          "start": 42.94,
+          "end": 43.06,
+          "confidence": 0.4928
+        },
+        {
+          "char": "还",
+          "start": 43.06,
+          "end": 43.18,
+          "confidence": 0.0091
+        },
+        {
+          "char": "是",
+          "start": 43.18,
+          "end": 43.32,
+          "confidence": 0.0697
+        },
+        {
+          "char": "生",
+          "start": 43.32,
+          "end": 43.48,
+          "confidence": 0.9506
+        },
+        {
+          "char": "的",
+          "start": 43.48,
+          "end": 43.7,
+          "confidence": 0.973
+        },
+        {
+          "char": "需",
+          "start": 44.08,
+          "end": 44.18,
+          "confidence": 0.0017
+        },
+        {
+          "char": "要",
+          "start": 44.18,
+          "end": 44.32,
+          "confidence": 0.0298
+        },
+        {
+          "char": "再",
+          "start": 44.32,
+          "end": 44.42,
+          "confidence": 0.9524
+        },
+        {
+          "char": "烤",
+          "start": 44.42,
+          "end": 44.62,
+          "confidence": 0.9473
+        },
+        {
+          "char": "一",
+          "start": 44.62,
+          "end": 44.82,
+          "confidence": 0.9811
+        },
+        {
+          "char": "会",
+          "start": 44.82,
+          "end": 44.92,
+          "confidence": 0.9713
+        },
+        {
+          "char": "儿",
+          "start": 44.92,
+          "end": 45.08,
+          "confidence": 0.5683
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21051
+    },
+    {
+      "no": 362,
+      "kind": "example",
+      "text": "等土豆熟了，再把其他蔬菜放进去。",
+      "spoken_text": "等土豆熟了，再把其他蔬菜放进去。",
+      "pinyin": "Děng tǔdòu shú le, zài bǎ qítā shūcài fàngjìnqù.",
+      "source_chunk": 18,
+      "speech_start": 45.48,
+      "speech_end": 48.02,
+      "confidence": 0.9204,
+      "characters": [
+        {
+          "char": "等",
+          "start": 45.48,
+          "end": 45.68,
+          "confidence": 0.9712
+        },
+        {
+          "char": "土",
+          "start": 45.68,
+          "end": 45.88,
+          "confidence": 0.4918
+        },
+        {
+          "char": "豆",
+          "start": 45.88,
+          "end": 45.98,
+          "confidence": 0.9986
+        },
+        {
+          "char": "熟",
+          "start": 45.98,
+          "end": 46.2,
+          "confidence": 0.9621
+        },
+        {
+          "char": "了",
+          "start": 46.2,
+          "end": 46.4,
+          "confidence": 0.9655
+        },
+        {
+          "char": "再",
+          "start": 46.72,
+          "end": 46.78,
+          "confidence": 0.9322
+        },
+        {
+          "char": "把",
+          "start": 46.78,
+          "end": 46.88,
+          "confidence": 0.9755
+        },
+        {
+          "char": "其",
+          "start": 46.88,
+          "end": 47.04,
+          "confidence": 0.9928
+        },
+        {
+          "char": "他",
+          "start": 47.04,
+          "end": 47.2,
+          "confidence": 0.8422
+        },
+        {
+          "char": "蔬",
+          "start": 47.2,
+          "end": 47.34,
+          "confidence": 0.7648
+        },
+        {
+          "char": "菜",
+          "start": 47.34,
+          "end": 47.5,
+          "confidence": 0.9985
+        },
+        {
+          "char": "放",
+          "start": 47.5,
+          "end": 47.64,
+          "confidence": 0.9995
+        },
+        {
+          "char": "进",
+          "start": 47.64,
+          "end": 47.82,
+          "confidence": 0.9952
+        },
+        {
+          "char": "去",
+          "start": 47.82,
+          "end": 48.02,
+          "confidence": 0.9964
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19755
+    },
+    {
+      "no": 363,
+      "kind": "example",
+      "text": "我第一次烤面包，没想到这么成功。",
+      "spoken_text": "我第一次烤面包，没想到这么成功。",
+      "pinyin": "Wǒ dìyīcì kǎo miànbāo, méixiǎngdào zhème chénggōng.",
+      "source_chunk": 18,
+      "speech_start": 48.56,
+      "speech_end": 50.98,
+      "confidence": 0.6911,
+      "characters": [
+        {
+          "char": "我",
+          "start": 48.56,
+          "end": 48.78,
+          "confidence": 0.9722
+        },
+        {
+          "char": "第",
+          "start": 48.78,
+          "end": 48.92,
+          "confidence": 0.0049
+        },
+        {
+          "char": "一",
+          "start": 48.92,
+          "end": 49.06,
+          "confidence": 0.0356
+        },
+        {
+          "char": "次",
+          "start": 49.06,
+          "end": 49.18,
+          "confidence": 0.8658
+        },
+        {
+          "char": "烤",
+          "start": 49.18,
+          "end": 49.32,
+          "confidence": 0.9916
+        },
+        {
+          "char": "面",
+          "start": 49.32,
+          "end": 49.46,
+          "confidence": 0.9069
+        },
+        {
+          "char": "包",
+          "start": 49.46,
+          "end": 49.7,
+          "confidence": 0.9937
+        },
+        {
+          "char": "没",
+          "start": 50.04,
+          "end": 50.12,
+          "confidence": 0.9068
+        },
+        {
+          "char": "想",
+          "start": 50.12,
+          "end": 50.24,
+          "confidence": 0.995
+        },
+        {
+          "char": "到",
+          "start": 50.24,
+          "end": 50.34,
+          "confidence": 0.979
+        },
+        {
+          "char": "这",
+          "start": 50.34,
+          "end": 50.5,
+          "confidence": 0.0054
+        },
+        {
+          "char": "么",
+          "start": 50.5,
+          "end": 50.6,
+          "confidence": 0.0261
+        },
+        {
+          "char": "成",
+          "start": 50.6,
+          "end": 50.78,
+          "confidence": 0.9954
+        },
+        {
+          "char": "功",
+          "start": 50.78,
+          "end": 50.98,
+          "confidence": 0.9976
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22317
+    },
+    {
+      "no": 364,
+      "kind": "example",
+      "text": "这道菜有一股甜味，孩子们很喜欢。",
+      "spoken_text": "这道菜有一股甜味，孩子们很喜欢。",
+      "pinyin": "Zhè dào cài yǒu yìgǔ tiánwèi, háizimen hěn xǐhuan.",
+      "source_chunk": 18,
+      "speech_start": 51.4,
+      "speech_end": 53.94,
+      "confidence": 0.6293,
+      "characters": [
+        {
+          "char": "这",
+          "start": 51.4,
+          "end": 51.62,
+          "confidence": 0.9601
+        },
+        {
+          "char": "道",
+          "start": 51.62,
+          "end": 51.74,
+          "confidence": 0.9279
+        },
+        {
+          "char": "菜",
+          "start": 51.74,
+          "end": 51.9,
+          "confidence": 0.9993
+        },
+        {
+          "char": "有",
+          "start": 51.9,
+          "end": 52.08,
+          "confidence": 0.0642
+        },
+        {
+          "char": "一",
+          "start": 52.08,
+          "end": 52.2,
+          "confidence": 0.623
+        },
+        {
+          "char": "股",
+          "start": 52.2,
+          "end": 52.3,
+          "confidence": 0.9161
+        },
+        {
+          "char": "甜",
+          "start": 52.3,
+          "end": 52.5,
+          "confidence": 0.8628
+        },
+        {
+          "char": "味",
+          "start": 52.5,
+          "end": 52.74,
+          "confidence": 0.9983
+        },
+        {
+          "char": "孩",
+          "start": 53.08,
+          "end": 53.2,
+          "confidence": 0.0125
+        },
+        {
+          "char": "子",
+          "start": 53.2,
+          "end": 53.32,
+          "confidence": 0.0857
+        },
+        {
+          "char": "们",
+          "start": 53.32,
+          "end": 53.42,
+          "confidence": 0.9808
+        },
+        {
+          "char": "很",
+          "start": 53.42,
+          "end": 53.56,
+          "confidence": 0.8172
+        },
+        {
+          "char": "喜",
+          "start": 53.56,
+          "end": 53.76,
+          "confidence": 0.0016
+        },
+        {
+          "char": "欢",
+          "start": 53.76,
+          "end": 53.94,
+          "confidence": 0.5611
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19754
+    },
+    {
+      "no": 365,
+      "kind": "word",
+      "text": "味道",
+      "spoken_text": "味道。",
+      "pinyin": "wèidao",
+      "source_chunk": 18,
+      "speech_start": 54.32,
+      "speech_end": 54.7,
+      "confidence": 0.9921,
+      "characters": [
+        {
+          "char": "味",
+          "start": 54.32,
+          "end": 54.52,
+          "confidence": 0.9853
+        },
+        {
+          "char": "道",
+          "start": 54.52,
+          "end": 54.7,
+          "confidence": 0.999
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18414
+    },
+    {
+      "no": 365,
+      "kind": "example",
+      "text": "虽然做法简单，味道却和饭店的一样好。",
+      "spoken_text": "虽然做法简单，味道却和饭店的一样好。",
+      "pinyin": "Suīrán zuòfǎ jiǎndān, wèidao què hé fàndiàn de yíyàng hǎo.",
+      "source_chunk": 18,
+      "speech_start": 55.08,
+      "speech_end": 58.08,
+      "confidence": 0.9539,
+      "characters": [
+        {
+          "char": "虽",
+          "start": 55.08,
+          "end": 55.32,
+          "confidence": 0.983
+        },
+        {
+          "char": "然",
+          "start": 55.32,
+          "end": 55.5,
+          "confidence": 0.9915
+        },
+        {
+          "char": "做",
+          "start": 55.5,
+          "end": 55.6,
+          "confidence": 0.8998
+        },
+        {
+          "char": "法",
+          "start": 55.6,
+          "end": 55.74,
+          "confidence": 0.9874
+        },
+        {
+          "char": "简",
+          "start": 55.74,
+          "end": 55.94,
+          "confidence": 0.9783
+        },
+        {
+          "char": "单",
+          "start": 55.94,
+          "end": 56.2,
+          "confidence": 0.9989
+        },
+        {
+          "char": "味",
+          "start": 56.62,
+          "end": 56.7,
+          "confidence": 0.6206
+        },
+        {
+          "char": "道",
+          "start": 56.7,
+          "end": 56.8,
+          "confidence": 0.986
+        },
+        {
+          "char": "却",
+          "start": 56.8,
+          "end": 56.98,
+          "confidence": 0.9256
+        },
+        {
+          "char": "和",
+          "start": 56.98,
+          "end": 57.14,
+          "confidence": 0.9855
+        },
+        {
+          "char": "饭",
+          "start": 57.14,
+          "end": 57.3,
+          "confidence": 0.9933
+        },
+        {
+          "char": "店",
+          "start": 57.3,
+          "end": 57.46,
+          "confidence": 0.9877
+        },
+        {
+          "char": "的",
+          "start": 57.46,
+          "end": 57.62,
+          "confidence": 0.9529
+        },
+        {
+          "char": "一",
+          "start": 57.62,
+          "end": 57.72,
+          "confidence": 0.9864
+        },
+        {
+          "char": "样",
+          "start": 57.72,
+          "end": 57.82,
+          "confidence": 0.9994
+        },
+        {
+          "char": "好",
+          "start": 57.82,
+          "end": 58.08,
+          "confidence": 0.9858
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23617
+    },
+    {
+      "no": 366,
+      "kind": "example",
+      "text": "这条鱼很鲜，清蒸就已经很好吃了。",
+      "spoken_text": "这条鱼很鲜，清蒸就已经很好吃了。",
+      "pinyin": "Zhè tiáo yú hěn xiān, qīngzhēng jiù yǐjīng hěn hǎochī le.",
+      "source_chunk": 18,
+      "speech_start": 58.52,
+      "speech_end": 61.18,
+      "confidence": 0.6582,
+      "characters": [
+        {
+          "char": "这",
+          "start": 58.52,
+          "end": 58.66,
+          "confidence": 0.9621
+        },
+        {
+          "char": "条",
+          "start": 58.66,
+          "end": 58.82,
+          "confidence": 0.9776
+        },
+        {
+          "char": "鱼",
+          "start": 58.82,
+          "end": 58.9,
+          "confidence": 0.8885
+        },
+        {
+          "char": "很",
+          "start": 58.9,
+          "end": 59.1,
+          "confidence": 0.9873
+        },
+        {
+          "char": "鲜",
+          "start": 59.1,
+          "end": 59.38,
+          "confidence": 0.9771
+        },
+        {
+          "char": "清",
+          "start": 59.92,
+          "end": 60.08,
+          "confidence": 0.4062
+        },
+        {
+          "char": "蒸",
+          "start": 60.08,
+          "end": 60.1,
+          "confidence": 0.9109
+        },
+        {
+          "char": "就",
+          "start": 60.1,
+          "end": 60.26,
+          "confidence": 0.9617
+        },
+        {
+          "char": "已",
+          "start": 60.26,
+          "end": 60.38,
+          "confidence": 0.0005
+        },
+        {
+          "char": "经",
+          "start": 60.38,
+          "end": 60.54,
+          "confidence": 0.0
+        },
+        {
+          "char": "很",
+          "start": 60.54,
+          "end": 60.68,
+          "confidence": 0.1504
+        },
+        {
+          "char": "好",
+          "start": 60.68,
+          "end": 60.82,
+          "confidence": 0.0604
+        },
+        {
+          "char": "吃",
+          "start": 60.82,
+          "end": 61.06,
+          "confidence": 0.9912
+        },
+        {
+          "char": "了",
+          "start": 61.06,
+          "end": 61.18,
+          "confidence": 0.9407
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23793
+    },
+    {
+      "no": 367,
+      "kind": "example",
+      "text": "刚打开饭盒，我就闻到了香味。",
+      "spoken_text": "刚打开饭盒，我就闻到了香味。",
+      "pinyin": "Gāng dǎkāi fànhé, wǒ jiù wéndào le xiāngwèi.",
+      "source_chunk": 18,
+      "speech_start": 61.56,
+      "speech_end": 63.72,
+      "confidence": 0.7222,
+      "characters": [
+        {
+          "char": "刚",
+          "start": 61.56,
+          "end": 61.76,
+          "confidence": 0.968
+        },
+        {
+          "char": "打",
+          "start": 61.76,
+          "end": 61.9,
+          "confidence": 0.9866
+        },
+        {
+          "char": "开",
+          "start": 61.9,
+          "end": 62.08,
+          "confidence": 0.9968
+        },
+        {
+          "char": "饭",
+          "start": 62.08,
+          "end": 62.22,
+          "confidence": 0.9756
+        },
+        {
+          "char": "盒",
+          "start": 62.22,
+          "end": 62.48,
+          "confidence": 0.9388
+        },
+        {
+          "char": "我",
+          "start": 62.82,
+          "end": 62.92,
+          "confidence": 0.072
+        },
+        {
+          "char": "就",
+          "start": 62.92,
+          "end": 63.02,
+          "confidence": 0.6593
+        },
+        {
+          "char": "闻",
+          "start": 63.02,
+          "end": 63.14,
+          "confidence": 0.9254
+        },
+        {
+          "char": "到",
+          "start": 63.14,
+          "end": 63.28,
+          "confidence": 0.037
+        },
+        {
+          "char": "了",
+          "start": 63.28,
+          "end": 63.4,
+          "confidence": 0.1508
+        },
+        {
+          "char": "香",
+          "start": 63.4,
+          "end": 63.54,
+          "confidence": 0.9654
+        },
+        {
+          "char": "味",
+          "start": 63.54,
+          "end": 63.72,
+          "confidence": 0.9901
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2036
+    },
+    {
+      "no": 368,
+      "kind": "example",
+      "text": "这颗葡萄太酸，我吃了一颗就不想吃了。",
+      "spoken_text": "这颗葡萄太酸，我吃了一颗就不想吃了。",
+      "pinyin": "Zhè kē pútao tài suān, wǒ chī le yì kē jiù bùxiǎng chī le.",
+      "source_chunk": 18,
+      "speech_start": 64.19,
+      "speech_end": 66.87,
+      "confidence": 0.8759,
+      "characters": [
+        {
+          "char": "这",
+          "start": 64.19,
+          "end": 64.39,
+          "confidence": 0.461
+        },
+        {
+          "char": "颗",
+          "start": 64.39,
+          "end": 64.51,
+          "confidence": 0.837
+        },
+        {
+          "char": "葡",
+          "start": 64.51,
+          "end": 64.63,
+          "confidence": 0.7941
+        },
+        {
+          "char": "萄",
+          "start": 64.63,
+          "end": 64.71,
+          "confidence": 0.966
+        },
+        {
+          "char": "太",
+          "start": 64.71,
+          "end": 64.93,
+          "confidence": 0.4324
+        },
+        {
+          "char": "酸",
+          "start": 64.93,
+          "end": 65.23,
+          "confidence": 0.9162
+        },
+        {
+          "char": "我",
+          "start": 65.65,
+          "end": 65.65,
+          "confidence": 0.7565
+        },
+        {
+          "char": "吃",
+          "start": 65.65,
+          "end": 65.83,
+          "confidence": 0.9858
+        },
+        {
+          "char": "了",
+          "start": 65.83,
+          "end": 65.93,
+          "confidence": 0.9722
+        },
+        {
+          "char": "一",
+          "start": 65.93,
+          "end": 66.03,
+          "confidence": 0.9878
+        },
+        {
+          "char": "颗",
+          "start": 66.03,
+          "end": 66.15,
+          "confidence": 0.9746
+        },
+        {
+          "char": "就",
+          "start": 66.15,
+          "end": 66.27,
+          "confidence": 0.9868
+        },
+        {
+          "char": "不",
+          "start": 66.27,
+          "end": 66.37,
+          "confidence": 0.9974
+        },
+        {
+          "char": "想",
+          "start": 66.37,
+          "end": 66.49,
+          "confidence": 0.9696
+        },
+        {
+          "char": "吃",
+          "start": 66.49,
+          "end": 66.73,
+          "confidence": 0.9966
+        },
+        {
+          "char": "了",
+          "start": 66.73,
+          "end": 66.87,
+          "confidence": 0.9809
+        }
+      ],
+      "independent_asr_coverage": 0.875,
+      "rms": 0.20178
+    },
+    {
+      "no": 369,
+      "kind": "example",
+      "text": "如果觉得果汁酸，可以加一点蜂蜜。",
+      "spoken_text": "如果觉得果汁酸，可以加一点蜂蜜。",
+      "pinyin": "Rúguǒ juéde guǒzhī suān, kěyǐ jiā yìdiǎn fēngmì.",
+      "source_chunk": 18,
+      "speech_start": 67.29,
+      "speech_end": 69.59,
+      "confidence": 0.4732,
+      "characters": [
+        {
+          "char": "如",
+          "start": 67.29,
+          "end": 67.51,
+          "confidence": 0.0002
+        },
+        {
+          "char": "果",
+          "start": 67.51,
+          "end": 67.69,
+          "confidence": 0.0205
+        },
+        {
+          "char": "觉",
+          "start": 67.69,
+          "end": 67.69,
+          "confidence": 0.0
+        },
+        {
+          "char": "得",
+          "start": 67.69,
+          "end": 67.79,
+          "confidence": 0.0051
+        },
+        {
+          "char": "果",
+          "start": 67.79,
+          "end": 67.95,
+          "confidence": 0.975
+        },
+        {
+          "char": "汁",
+          "start": 67.95,
+          "end": 68.11,
+          "confidence": 0.9612
+        },
+        {
+          "char": "酸",
+          "start": 68.11,
+          "end": 68.37,
+          "confidence": 0.9968
+        },
+        {
+          "char": "可",
+          "start": 68.65,
+          "end": 68.77,
+          "confidence": 0.0066
+        },
+        {
+          "char": "以",
+          "start": 68.77,
+          "end": 68.87,
+          "confidence": 0.0
+        },
+        {
+          "char": "加",
+          "start": 68.87,
+          "end": 68.97,
+          "confidence": 0.945
+        },
+        {
+          "char": "一",
+          "start": 68.97,
+          "end": 69.07,
+          "confidence": 0.0042
+        },
+        {
+          "char": "点",
+          "start": 69.07,
+          "end": 69.19,
+          "confidence": 0.9297
+        },
+        {
+          "char": "蜂",
+          "start": 69.19,
+          "end": 69.41,
+          "confidence": 0.7881
+        },
+        {
+          "char": "蜜",
+          "start": 69.41,
+          "end": 69.59,
+          "confidence": 0.9925
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.28045
+    },
+    {
+      "no": 370,
+      "kind": "example",
+      "text": "这道菜有些咸，配米饭吃正合适。",
+      "spoken_text": "这道菜有些咸，配米饭吃正合适。",
+      "pinyin": "Zhè dào cài yǒuxiē xián, pèi mǐfàn chī zhèng héshì.",
+      "source_chunk": 18,
+      "speech_start": 70.05,
+      "speech_end": 72.73,
+      "confidence": 0.8916,
+      "characters": [
+        {
+          "char": "这",
+          "start": 70.05,
+          "end": 70.25,
+          "confidence": 0.928
+        },
+        {
+          "char": "道",
+          "start": 70.25,
+          "end": 70.37,
+          "confidence": 0.7921
+        },
+        {
+          "char": "菜",
+          "start": 70.37,
+          "end": 70.51,
+          "confidence": 0.9999
+        },
+        {
+          "char": "有",
+          "start": 70.51,
+          "end": 70.65,
+          "confidence": 0.9363
+        },
+        {
+          "char": "些",
+          "start": 70.65,
+          "end": 70.83,
+          "confidence": 0.9586
+        },
+        {
+          "char": "咸",
+          "start": 70.83,
+          "end": 71.11,
+          "confidence": 0.7165
+        },
+        {
+          "char": "配",
+          "start": 71.39,
+          "end": 71.55,
+          "confidence": 0.9062
+        },
+        {
+          "char": "米",
+          "start": 71.55,
+          "end": 71.67,
+          "confidence": 0.9657
+        },
+        {
+          "char": "饭",
+          "start": 71.67,
+          "end": 71.85,
+          "confidence": 0.9921
+        },
+        {
+          "char": "吃",
+          "start": 71.85,
+          "end": 72.09,
+          "confidence": 0.8717
+        },
+        {
+          "char": "正",
+          "start": 72.09,
+          "end": 72.31,
+          "confidence": 0.6137
+        },
+        {
+          "char": "合",
+          "start": 72.31,
+          "end": 72.51,
+          "confidence": 0.9445
+        },
+        {
+          "char": "适",
+          "start": 72.51,
+          "end": 72.73,
+          "confidence": 0.9653
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22823
+    },
+    {
+      "no": 371,
+      "kind": "example",
+      "text": "我不太能吃辣，请少放些辣椒。",
+      "spoken_text": "我不太能吃辣，请少放些辣椒。",
+      "pinyin": "Wǒ bú tài néng chī là, qǐng shǎo fàng xiē làjiāo.",
+      "source_chunk": 18,
+      "speech_start": 73.13,
+      "speech_end": 75.37,
+      "confidence": 0.7988,
+      "characters": [
+        {
+          "char": "我",
+          "start": 73.13,
+          "end": 73.41,
+          "confidence": 0.043
+        },
+        {
+          "char": "不",
+          "start": 73.41,
+          "end": 73.49,
+          "confidence": 0.9289
+        },
+        {
+          "char": "太",
+          "start": 73.49,
+          "end": 73.63,
+          "confidence": 0.9975
+        },
+        {
+          "char": "能",
+          "start": 73.63,
+          "end": 73.75,
+          "confidence": 0.9975
+        },
+        {
+          "char": "吃",
+          "start": 73.75,
+          "end": 74.03,
+          "confidence": 0.9971
+        },
+        {
+          "char": "辣",
+          "start": 74.03,
+          "end": 74.15,
+          "confidence": 0.5602
+        },
+        {
+          "char": "请",
+          "start": 74.43,
+          "end": 74.57,
+          "confidence": 0.2236
+        },
+        {
+          "char": "少",
+          "start": 74.57,
+          "end": 74.73,
+          "confidence": 0.9317
+        },
+        {
+          "char": "放",
+          "start": 74.73,
+          "end": 74.89,
+          "confidence": 0.9857
+        },
+        {
+          "char": "些",
+          "start": 74.89,
+          "end": 75.05,
+          "confidence": 0.9296
+        },
+        {
+          "char": "辣",
+          "start": 75.05,
+          "end": 75.21,
+          "confidence": 0.9954
+        },
+        {
+          "char": "椒",
+          "start": 75.21,
+          "end": 75.37,
+          "confidence": 0.9959
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19588
+    }
+  ],
+  "windows": [
+    {
+      "first_clip": 0,
+      "last_clip": 4,
+      "start": 0,
+      "end": 11.14,
+      "text": "她把巧克力分给大家，庆祝比赛获奖。西红柿。把西红柿切成小块，再放进锅里。葡萄。这些葡萄看起来很新鲜，买一公斤吧。"
+    },
+    {
+      "first_clip": 3,
+      "last_clip": 8,
+      "start": 6.209999999999999,
+      "end": 20.08,
+      "text": "葡萄。这些葡萄看起来很新鲜，买一公斤吧。汤还有点烫，等凉一些再喝。炒菜时少放一点油，味道也很好。我已经放过盐了，你先尝尝再加。茶叶。"
+    },
+    {
+      "first_clip": 7,
+      "last_clip": 12,
+      "start": 15.469999999999997,
+      "end": 27.06,
+      "text": "我已经放过盐了，你先尝尝再加。茶叶。这种茶叶适合用热水泡，别煮太久。果汁。我想要一杯不加糖的鲜果汁。汽水。"
+    },
+    {
+      "first_clip": 11,
+      "last_clip": 16,
+      "start": 22.51,
+      "end": 35.62,
+      "text": "我想要一杯不加糖的鲜果汁。汽水。他原来爱喝汽水，现在更喜欢白开水。酸奶。买酸奶时，我总会看看能保存多久。白酒。"
+    },
+    {
+      "first_clip": 15,
+      "last_clip": 20,
+      "start": 30.21,
+      "end": 45.88999999999999,
+      "text": "买酸奶时，我总会看看能保存多久。白酒。这种白酒度数很高，我只尝了一点。葡萄酒。客人带来一瓶葡萄酒，准备晚餐时喝。这块肉里面还是生的，需要再烤一会儿。"
+    },
+    {
+      "first_clip": 19,
+      "last_clip": 24,
+      "start": 38.300000000000004,
+      "end": 55.61,
+      "text": "客人带来一瓶葡萄酒，准备晚餐时喝。这块肉里面还是生的，需要再烤一会儿。等土豆熟了，再把其他蔬菜放进去。我第一次烤面包，没想到这么成功。这道菜有一股甜味，孩子们很喜欢。味道。"
+    },
+    {
+      "first_clip": 23,
+      "last_clip": 28,
+      "start": 50.559999999999995,
+      "end": 67.53,
+      "text": "这道菜有一股甜味，孩子们很喜欢。味道。虽然做法简单，味道却和饭店的一样好。这条鱼很鲜，清蒸就已经很好吃了。刚打开饭盒，我就闻到了香味。这颗葡萄太酸，我吃了一颗就不想吃了。"
+    },
+    {
+      "first_clip": 27,
+      "last_clip": 31,
+      "start": 60.550000000000004,
+      "end": 75.744,
+      "text": "刚打开饭盒，我就闻到了香味。这颗葡萄太酸，我吃了一颗就不想吃了。如果觉得果汁酸，可以加一点蜂蜜。这道菜有些咸，配米饭吃正合适。我不太能吃辣，请少放些辣椒。"
+    }
+  ],
+  "alerts": []
+}

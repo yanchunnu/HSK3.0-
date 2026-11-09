@@ -1,0 +1,2699 @@
+{
+  "chunk": 20,
+  "duration": 78.312,
+  "transcript_match_ratio": 0.9926,
+  "clips": [
+    {
+      "no": 393,
+      "kind": "example",
+      "text": "报名费包括教材的钱，不需要另外付款。",
+      "spoken_text": "报名费包括教材的钱，不需要另外付款。",
+      "pinyin": "Bàomíngfèi bāokuò jiàocái de qián, bù xūyào lìngwài fùkuǎn.",
+      "source_chunk": 20,
+      "speech_start": 0.0,
+      "speech_end": 3.0,
+      "confidence": 0.5325,
+      "characters": [
+        {
+          "char": "报",
+          "start": 0.0,
+          "end": 0.36,
+          "confidence": 0.0919
+        },
+        {
+          "char": "名",
+          "start": 0.36,
+          "end": 0.52,
+          "confidence": 0.9905
+        },
+        {
+          "char": "费",
+          "start": 0.52,
+          "end": 0.72,
+          "confidence": 0.977
+        },
+        {
+          "char": "包",
+          "start": 0.72,
+          "end": 0.96,
+          "confidence": 0.0079
+        },
+        {
+          "char": "括",
+          "start": 0.96,
+          "end": 1.12,
+          "confidence": 0.0015
+        },
+        {
+          "char": "教",
+          "start": 1.12,
+          "end": 1.24,
+          "confidence": 0.5023
+        },
+        {
+          "char": "材",
+          "start": 1.24,
+          "end": 1.42,
+          "confidence": 0.9363
+        },
+        {
+          "char": "的",
+          "start": 1.42,
+          "end": 1.54,
+          "confidence": 0.9901
+        },
+        {
+          "char": "钱",
+          "start": 1.54,
+          "end": 1.74,
+          "confidence": 0.9925
+        },
+        {
+          "char": "不",
+          "start": 2.12,
+          "end": 2.18,
+          "confidence": 0.5181
+        },
+        {
+          "char": "需",
+          "start": 2.18,
+          "end": 2.32,
+          "confidence": 0.0022
+        },
+        {
+          "char": "要",
+          "start": 2.32,
+          "end": 2.42,
+          "confidence": 0.0543
+        },
+        {
+          "char": "另",
+          "start": 2.42,
+          "end": 2.5,
+          "confidence": 0.0078
+        },
+        {
+          "char": "外",
+          "start": 2.5,
+          "end": 2.72,
+          "confidence": 0.4708
+        },
+        {
+          "char": "付",
+          "start": 2.72,
+          "end": 2.82,
+          "confidence": 0.9803
+        },
+        {
+          "char": "款",
+          "start": 2.82,
+          "end": 3.0,
+          "confidence": 0.9958
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21539
+    },
+    {
+      "no": 394,
+      "kind": "word",
+      "text": "费用",
+      "spoken_text": "费用。",
+      "pinyin": "fèiyòng",
+      "source_chunk": 20,
+      "speech_start": 3.56,
+      "speech_end": 3.9,
+      "confidence": 0.9808,
+      "characters": [
+        {
+          "char": "费",
+          "start": 3.56,
+          "end": 3.7,
+          "confidence": 0.9761
+        },
+        {
+          "char": "用",
+          "start": 3.7,
+          "end": 3.9,
+          "confidence": 0.9855
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25723
+    },
+    {
+      "no": 394,
+      "kind": "example",
+      "text": "这次旅行的费用，比我们想象的低。",
+      "spoken_text": "这次旅行的费用，比我们想象的低。",
+      "pinyin": "Zhè cì lǚxíng de fèiyòng, bǐ wǒmen xiǎngxiàng de dī.",
+      "source_chunk": 20,
+      "speech_start": 4.38,
+      "speech_end": 6.72,
+      "confidence": 0.8591,
+      "characters": [
+        {
+          "char": "这",
+          "start": 4.38,
+          "end": 4.68,
+          "confidence": 0.9696
+        },
+        {
+          "char": "次",
+          "start": 4.68,
+          "end": 4.82,
+          "confidence": 0.9896
+        },
+        {
+          "char": "旅",
+          "start": 4.82,
+          "end": 4.96,
+          "confidence": 0.956
+        },
+        {
+          "char": "行",
+          "start": 4.96,
+          "end": 5.08,
+          "confidence": 0.9885
+        },
+        {
+          "char": "的",
+          "start": 5.08,
+          "end": 5.22,
+          "confidence": 0.9209
+        },
+        {
+          "char": "费",
+          "start": 5.22,
+          "end": 5.36,
+          "confidence": 0.999
+        },
+        {
+          "char": "用",
+          "start": 5.36,
+          "end": 5.56,
+          "confidence": 0.9979
+        },
+        {
+          "char": "比",
+          "start": 5.82,
+          "end": 5.94,
+          "confidence": 0.9862
+        },
+        {
+          "char": "我",
+          "start": 5.94,
+          "end": 6.04,
+          "confidence": 0.0006
+        },
+        {
+          "char": "们",
+          "start": 6.04,
+          "end": 6.14,
+          "confidence": 0.5309
+        },
+        {
+          "char": "想",
+          "start": 6.14,
+          "end": 6.26,
+          "confidence": 0.8672
+        },
+        {
+          "char": "象",
+          "start": 6.26,
+          "end": 6.46,
+          "confidence": 0.9514
+        },
+        {
+          "char": "的",
+          "start": 6.46,
+          "end": 6.58,
+          "confidence": 0.981
+        },
+        {
+          "char": "低",
+          "start": 6.58,
+          "end": 6.72,
+          "confidence": 0.8881
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24779
+    },
+    {
+      "no": 395,
+      "kind": "word",
+      "text": "收费",
+      "spoken_text": "收费。",
+      "pinyin": "shōufèi",
+      "source_chunk": 20,
+      "speech_start": 7.34,
+      "speech_end": 7.88,
+      "confidence": 0.9871,
+      "characters": [
+        {
+          "char": "收",
+          "start": 7.34,
+          "end": 7.66,
+          "confidence": 0.9763
+        },
+        {
+          "char": "费",
+          "start": 7.66,
+          "end": 7.88,
+          "confidence": 0.998
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2271
+    },
+    {
+      "no": 395,
+      "kind": "example",
+      "text": "这里停车按小时收费，第一小时免费。",
+      "spoken_text": "这里停车按小时收费，第一小时免费。",
+      "pinyin": "Zhèlǐ tíngchē àn xiǎoshí shōufèi, dìyī xiǎoshí miǎnfèi.",
+      "source_chunk": 20,
+      "speech_start": 8.29,
+      "speech_end": 10.99,
+      "confidence": 0.7965,
+      "characters": [
+        {
+          "char": "这",
+          "start": 8.29,
+          "end": 8.49,
+          "confidence": 0.04
+        },
+        {
+          "char": "里",
+          "start": 8.49,
+          "end": 8.59,
+          "confidence": 0.7691
+        },
+        {
+          "char": "停",
+          "start": 8.59,
+          "end": 8.73,
+          "confidence": 0.9935
+        },
+        {
+          "char": "车",
+          "start": 8.73,
+          "end": 8.95,
+          "confidence": 0.9977
+        },
+        {
+          "char": "按",
+          "start": 8.95,
+          "end": 9.07,
+          "confidence": 0.9274
+        },
+        {
+          "char": "小",
+          "start": 9.07,
+          "end": 9.25,
+          "confidence": 0.8756
+        },
+        {
+          "char": "时",
+          "start": 9.25,
+          "end": 9.45,
+          "confidence": 0.9927
+        },
+        {
+          "char": "收",
+          "start": 9.45,
+          "end": 9.63,
+          "confidence": 0.9989
+        },
+        {
+          "char": "费",
+          "start": 9.63,
+          "end": 9.81,
+          "confidence": 0.9994
+        },
+        {
+          "char": "第",
+          "start": 10.19,
+          "end": 10.21,
+          "confidence": 0.0027
+        },
+        {
+          "char": "一",
+          "start": 10.21,
+          "end": 10.35,
+          "confidence": 0.382
+        },
+        {
+          "char": "小",
+          "start": 10.35,
+          "end": 10.45,
+          "confidence": 0.985
+        },
+        {
+          "char": "时",
+          "start": 10.45,
+          "end": 10.67,
+          "confidence": 0.9991
+        },
+        {
+          "char": "免",
+          "start": 10.67,
+          "end": 10.79,
+          "confidence": 0.9856
+        },
+        {
+          "char": "费",
+          "start": 10.79,
+          "end": 10.99,
+          "confidence": 0.9992
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25014
+    },
+    {
+      "no": 396,
+      "kind": "word",
+      "text": "免费",
+      "spoken_text": "免费。",
+      "pinyin": "miǎnfèi",
+      "source_chunk": 20,
+      "speech_start": 11.37,
+      "speech_end": 11.65,
+      "confidence": 0.8159,
+      "characters": [
+        {
+          "char": "免",
+          "start": 11.37,
+          "end": 11.45,
+          "confidence": 0.6321
+        },
+        {
+          "char": "费",
+          "start": 11.45,
+          "end": 11.65,
+          "confidence": 0.9997
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.17455
+    },
+    {
+      "no": 396,
+      "kind": "example",
+      "text": "参观展览免费，不过需要提前预约。",
+      "spoken_text": "参观展览免费，不过需要提前预约。",
+      "pinyin": "Cānguān zhǎnlǎn miǎnfèi, búguò xūyào tíqián yùyuē.",
+      "source_chunk": 20,
+      "speech_start": 12.07,
+      "speech_end": 14.61,
+      "confidence": 0.773,
+      "characters": [
+        {
+          "char": "参",
+          "start": 12.07,
+          "end": 12.33,
+          "confidence": 0.8094
+        },
+        {
+          "char": "观",
+          "start": 12.33,
+          "end": 12.47,
+          "confidence": 0.9863
+        },
+        {
+          "char": "展",
+          "start": 12.47,
+          "end": 12.63,
+          "confidence": 0.9011
+        },
+        {
+          "char": "览",
+          "start": 12.63,
+          "end": 12.73,
+          "confidence": 0.7905
+        },
+        {
+          "char": "免",
+          "start": 12.73,
+          "end": 12.95,
+          "confidence": 0.9952
+        },
+        {
+          "char": "费",
+          "start": 12.95,
+          "end": 13.17,
+          "confidence": 0.9999
+        },
+        {
+          "char": "不",
+          "start": 13.55,
+          "end": 13.59,
+          "confidence": 0.3516
+        },
+        {
+          "char": "过",
+          "start": 13.59,
+          "end": 13.67,
+          "confidence": 0.9737
+        },
+        {
+          "char": "需",
+          "start": 13.67,
+          "end": 13.81,
+          "confidence": 0.0006
+        },
+        {
+          "char": "要",
+          "start": 13.81,
+          "end": 13.95,
+          "confidence": 0.3806
+        },
+        {
+          "char": "提",
+          "start": 13.95,
+          "end": 14.07,
+          "confidence": 0.9932
+        },
+        {
+          "char": "前",
+          "start": 14.07,
+          "end": 14.29,
+          "confidence": 0.8914
+        },
+        {
+          "char": "预",
+          "start": 14.29,
+          "end": 14.43,
+          "confidence": 0.7538
+        },
+        {
+          "char": "约",
+          "start": 14.43,
+          "end": 14.61,
+          "confidence": 0.9953
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22511
+    },
+    {
+      "no": 397,
+      "kind": "example",
+      "text": "钱已经付了，请把收据交给我。",
+      "spoken_text": "钱已经付了，请把收据交给我。",
+      "pinyin": "Qián yǐjīng fù le, qǐng bǎ shōujù jiāogěi wǒ.",
+      "source_chunk": 20,
+      "speech_start": 15.05,
+      "speech_end": 17.17,
+      "confidence": 0.5861,
+      "characters": [
+        {
+          "char": "钱",
+          "start": 15.05,
+          "end": 15.31,
+          "confidence": 0.7073
+        },
+        {
+          "char": "已",
+          "start": 15.31,
+          "end": 15.49,
+          "confidence": 0.016
+        },
+        {
+          "char": "经",
+          "start": 15.49,
+          "end": 15.59,
+          "confidence": 0.0
+        },
+        {
+          "char": "付",
+          "start": 15.59,
+          "end": 15.77,
+          "confidence": 0.462
+        },
+        {
+          "char": "了",
+          "start": 15.77,
+          "end": 15.91,
+          "confidence": 0.9531
+        },
+        {
+          "char": "请",
+          "start": 16.17,
+          "end": 16.29,
+          "confidence": 0.1353
+        },
+        {
+          "char": "把",
+          "start": 16.29,
+          "end": 16.37,
+          "confidence": 0.9786
+        },
+        {
+          "char": "收",
+          "start": 16.37,
+          "end": 16.55,
+          "confidence": 0.9633
+        },
+        {
+          "char": "据",
+          "start": 16.55,
+          "end": 16.67,
+          "confidence": 0.7303
+        },
+        {
+          "char": "交",
+          "start": 16.67,
+          "end": 16.85,
+          "confidence": 0.9784
+        },
+        {
+          "char": "给",
+          "start": 16.85,
+          "end": 17.01,
+          "confidence": 0.1361
+        },
+        {
+          "char": "我",
+          "start": 17.01,
+          "end": 17.17,
+          "confidence": 0.9733
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2365
+    },
+    {
+      "no": 398,
+      "kind": "word",
+      "text": "支付",
+      "spoken_text": "支付。",
+      "pinyin": "zhīfù",
+      "source_chunk": 20,
+      "speech_start": 17.51,
+      "speech_end": 18.01,
+      "confidence": 0.8123,
+      "characters": [
+        {
+          "char": "支",
+          "start": 17.51,
+          "end": 17.77,
+          "confidence": 0.6293
+        },
+        {
+          "char": "付",
+          "start": 17.77,
+          "end": 18.01,
+          "confidence": 0.9954
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21891
+    },
+    {
+      "no": 398,
+      "kind": "example",
+      "text": "除了现金，这里也支持手机支付。",
+      "spoken_text": "除了现金，这里也支持手机支付。",
+      "pinyin": "Chúle xiànjīn, zhèlǐ yě zhīchí shǒujī zhīfù.",
+      "source_chunk": 20,
+      "speech_start": 18.49,
+      "speech_end": 20.89,
+      "confidence": 0.7446,
+      "characters": [
+        {
+          "char": "除",
+          "start": 18.49,
+          "end": 18.79,
+          "confidence": 0.9581
+        },
+        {
+          "char": "了",
+          "start": 18.79,
+          "end": 18.89,
+          "confidence": 0.9987
+        },
+        {
+          "char": "现",
+          "start": 18.89,
+          "end": 19.03,
+          "confidence": 0.915
+        },
+        {
+          "char": "金",
+          "start": 19.03,
+          "end": 19.23,
+          "confidence": 0.9391
+        },
+        {
+          "char": "这",
+          "start": 19.57,
+          "end": 19.69,
+          "confidence": 0.0489
+        },
+        {
+          "char": "里",
+          "start": 19.69,
+          "end": 19.79,
+          "confidence": 0.8108
+        },
+        {
+          "char": "也",
+          "start": 19.79,
+          "end": 19.91,
+          "confidence": 0.9797
+        },
+        {
+          "char": "支",
+          "start": 19.91,
+          "end": 20.05,
+          "confidence": 0.0027
+        },
+        {
+          "char": "持",
+          "start": 20.05,
+          "end": 20.19,
+          "confidence": 0.0842
+        },
+        {
+          "char": "手",
+          "start": 20.19,
+          "end": 20.39,
+          "confidence": 0.953
+        },
+        {
+          "char": "机",
+          "start": 20.39,
+          "end": 20.51,
+          "confidence": 0.9963
+        },
+        {
+          "char": "支",
+          "start": 20.51,
+          "end": 20.69,
+          "confidence": 0.9943
+        },
+        {
+          "char": "付",
+          "start": 20.69,
+          "end": 20.89,
+          "confidence": 0.9993
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.26334
+    },
+    {
+      "no": 399,
+      "kind": "word",
+      "text": "结账",
+      "spoken_text": "结账。",
+      "pinyin": "jiézhàng",
+      "source_chunk": 20,
+      "speech_start": 21.33,
+      "speech_end": 21.59,
+      "confidence": 0.4233,
+      "characters": [
+        {
+          "char": "结",
+          "start": 21.33,
+          "end": 21.49,
+          "confidence": 0.2298
+        },
+        {
+          "char": "账",
+          "start": 21.49,
+          "end": 21.59,
+          "confidence": 0.6168
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19524
+    },
+    {
+      "no": 399,
+      "kind": "example",
+      "text": "结账时我才发现，自己忘带钱包了。",
+      "spoken_text": "结账时我才发现，自己忘带钱包了。",
+      "pinyin": "Jiézhàng shí wǒ cái fāxiàn, zìjǐ wàng dài qiánbāo le.",
+      "source_chunk": 20,
+      "speech_start": 22.01,
+      "speech_end": 24.59,
+      "confidence": 0.7006,
+      "characters": [
+        {
+          "char": "结",
+          "start": 22.01,
+          "end": 22.27,
+          "confidence": 0.8997
+        },
+        {
+          "char": "账",
+          "start": 22.27,
+          "end": 22.39,
+          "confidence": 0.998
+        },
+        {
+          "char": "时",
+          "start": 22.39,
+          "end": 22.57,
+          "confidence": 0.0141
+        },
+        {
+          "char": "我",
+          "start": 22.57,
+          "end": 22.69,
+          "confidence": 0.9004
+        },
+        {
+          "char": "才",
+          "start": 22.69,
+          "end": 22.83,
+          "confidence": 0.999
+        },
+        {
+          "char": "发",
+          "start": 22.83,
+          "end": 22.99,
+          "confidence": 0.9877
+        },
+        {
+          "char": "现",
+          "start": 22.99,
+          "end": 23.17,
+          "confidence": 0.994
+        },
+        {
+          "char": "自",
+          "start": 23.57,
+          "end": 23.67,
+          "confidence": 0.0113
+        },
+        {
+          "char": "己",
+          "start": 23.67,
+          "end": 23.73,
+          "confidence": 0.0043
+        },
+        {
+          "char": "忘",
+          "start": 23.73,
+          "end": 23.85,
+          "confidence": 0.2116
+        },
+        {
+          "char": "带",
+          "start": 23.85,
+          "end": 23.99,
+          "confidence": 0.9087
+        },
+        {
+          "char": "钱",
+          "start": 23.99,
+          "end": 24.17,
+          "confidence": 0.9671
+        },
+        {
+          "char": "包",
+          "start": 24.17,
+          "end": 24.39,
+          "confidence": 0.9925
+        },
+        {
+          "char": "了",
+          "start": 24.39,
+          "end": 24.59,
+          "confidence": 0.92
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21844
+    },
+    {
+      "no": 400,
+      "kind": "example",
+      "text": "他每月把一部分工资存进银行。",
+      "spoken_text": "他每月把一部分工资存进银行。",
+      "pinyin": "Tā měi yuè bǎ yí bùfen gōngzī cún jìn yínháng.",
+      "source_chunk": 20,
+      "speech_start": 24.99,
+      "speech_end": 27.23,
+      "confidence": 0.7716,
+      "characters": [
+        {
+          "char": "他",
+          "start": 24.99,
+          "end": 25.27,
+          "confidence": 0.288
+        },
+        {
+          "char": "每",
+          "start": 25.27,
+          "end": 25.43,
+          "confidence": 0.9825
+        },
+        {
+          "char": "月",
+          "start": 25.43,
+          "end": 25.57,
+          "confidence": 0.9771
+        },
+        {
+          "char": "把",
+          "start": 25.57,
+          "end": 25.73,
+          "confidence": 0.9794
+        },
+        {
+          "char": "一",
+          "start": 25.73,
+          "end": 25.87,
+          "confidence": 0.9635
+        },
+        {
+          "char": "部",
+          "start": 25.87,
+          "end": 25.97,
+          "confidence": 0.0515
+        },
+        {
+          "char": "分",
+          "start": 25.97,
+          "end": 26.11,
+          "confidence": 0.0807
+        },
+        {
+          "char": "工",
+          "start": 26.11,
+          "end": 26.25,
+          "confidence": 0.9438
+        },
+        {
+          "char": "资",
+          "start": 26.25,
+          "end": 26.47,
+          "confidence": 0.9976
+        },
+        {
+          "char": "存",
+          "start": 26.47,
+          "end": 26.67,
+          "confidence": 0.8766
+        },
+        {
+          "char": "进",
+          "start": 26.67,
+          "end": 26.85,
+          "confidence": 0.9632
+        },
+        {
+          "char": "银",
+          "start": 26.85,
+          "end": 27.05,
+          "confidence": 0.9392
+        },
+        {
+          "char": "行",
+          "start": 27.05,
+          "end": 27.23,
+          "confidence": 0.9881
+        }
+      ],
+      "independent_asr_coverage": 0.923,
+      "rms": 0.26333
+    },
+    {
+      "no": 401,
+      "kind": "word",
+      "text": "节约",
+      "spoken_text": "节约。",
+      "pinyin": "jiéyuē",
+      "source_chunk": 20,
+      "speech_start": 27.63,
+      "speech_end": 27.99,
+      "confidence": 0.5413,
+      "characters": [
+        {
+          "char": "节",
+          "start": 27.63,
+          "end": 27.77,
+          "confidence": 0.0876
+        },
+        {
+          "char": "约",
+          "start": 27.77,
+          "end": 27.99,
+          "confidence": 0.9951
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2046
+    },
+    {
+      "no": 401,
+      "kind": "example",
+      "text": "为了节约时间，我们决定坐地铁去。",
+      "spoken_text": "为了节约时间，我们决定坐地铁去。",
+      "pinyin": "Wèile jiéyuē shíjiān, wǒmen juédìng zuò dìtiě qù.",
+      "source_chunk": 20,
+      "speech_start": 28.45,
+      "speech_end": 30.97,
+      "confidence": 0.6505,
+      "characters": [
+        {
+          "char": "为",
+          "start": 28.45,
+          "end": 28.75,
+          "confidence": 0.9911
+        },
+        {
+          "char": "了",
+          "start": 28.75,
+          "end": 28.83,
+          "confidence": 0.9996
+        },
+        {
+          "char": "节",
+          "start": 28.83,
+          "end": 28.99,
+          "confidence": 0.9671
+        },
+        {
+          "char": "约",
+          "start": 28.99,
+          "end": 29.11,
+          "confidence": 0.9995
+        },
+        {
+          "char": "时",
+          "start": 29.11,
+          "end": 29.29,
+          "confidence": 0.0016
+        },
+        {
+          "char": "间",
+          "start": 29.29,
+          "end": 29.53,
+          "confidence": 0.1068
+        },
+        {
+          "char": "我",
+          "start": 29.91,
+          "end": 29.91,
+          "confidence": 0.0174
+        },
+        {
+          "char": "们",
+          "start": 29.91,
+          "end": 29.99,
+          "confidence": 0.17
+        },
+        {
+          "char": "决",
+          "start": 29.99,
+          "end": 30.11,
+          "confidence": 0.9089
+        },
+        {
+          "char": "定",
+          "start": 30.11,
+          "end": 30.23,
+          "confidence": 0.9982
+        },
+        {
+          "char": "坐",
+          "start": 30.23,
+          "end": 30.41,
+          "confidence": 0.0391
+        },
+        {
+          "char": "地",
+          "start": 30.41,
+          "end": 30.55,
+          "confidence": 0.9682
+        },
+        {
+          "char": "铁",
+          "start": 30.55,
+          "end": 30.71,
+          "confidence": 0.9734
+        },
+        {
+          "char": "去",
+          "start": 30.71,
+          "end": 30.97,
+          "confidence": 0.9666
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23206
+    },
+    {
+      "no": 402,
+      "kind": "word",
+      "text": "浪费",
+      "spoken_text": "浪费。",
+      "pinyin": "làngfèi",
+      "source_chunk": 20,
+      "speech_start": 31.43,
+      "speech_end": 31.73,
+      "confidence": 0.9644,
+      "characters": [
+        {
+          "char": "浪",
+          "start": 31.43,
+          "end": 31.53,
+          "confidence": 0.9347
+        },
+        {
+          "char": "费",
+          "start": 31.53,
+          "end": 31.73,
+          "confidence": 0.994
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.15614
+    },
+    {
+      "no": 402,
+      "kind": "example",
+      "text": "吃多少就点多少，尽量不要浪费食物。",
+      "spoken_text": "吃多少就点多少，尽量不要浪费食物。",
+      "pinyin": "Chī duōshao jiù diǎn duōshao, jǐnliàng búyào làngfèi shíwù.",
+      "source_chunk": 20,
+      "speech_start": 32.17,
+      "speech_end": 34.99,
+      "confidence": 0.7115,
+      "characters": [
+        {
+          "char": "吃",
+          "start": 32.17,
+          "end": 32.51,
+          "confidence": 0.9531
+        },
+        {
+          "char": "多",
+          "start": 32.51,
+          "end": 32.65,
+          "confidence": 0.0293
+        },
+        {
+          "char": "少",
+          "start": 32.65,
+          "end": 32.81,
+          "confidence": 0.5886
+        },
+        {
+          "char": "就",
+          "start": 32.81,
+          "end": 32.95,
+          "confidence": 0.9353
+        },
+        {
+          "char": "点",
+          "start": 32.95,
+          "end": 33.07,
+          "confidence": 0.9671
+        },
+        {
+          "char": "多",
+          "start": 33.07,
+          "end": 33.29,
+          "confidence": 0.0206
+        },
+        {
+          "char": "少",
+          "start": 33.29,
+          "end": 33.55,
+          "confidence": 0.9842
+        },
+        {
+          "char": "尽",
+          "start": 33.83,
+          "end": 33.95,
+          "confidence": 0.4835
+        },
+        {
+          "char": "量",
+          "start": 33.95,
+          "end": 34.05,
+          "confidence": 0.998
+        },
+        {
+          "char": "不",
+          "start": 34.05,
+          "end": 34.19,
+          "confidence": 0.0042
+        },
+        {
+          "char": "要",
+          "start": 34.19,
+          "end": 34.27,
+          "confidence": 0.739
+        },
+        {
+          "char": "浪",
+          "start": 34.27,
+          "end": 34.41,
+          "confidence": 0.9997
+        },
+        {
+          "char": "费",
+          "start": 34.41,
+          "end": 34.55,
+          "confidence": 0.9998
+        },
+        {
+          "char": "食",
+          "start": 34.55,
+          "end": 34.77,
+          "confidence": 0.9715
+        },
+        {
+          "char": "物",
+          "start": 34.77,
+          "end": 34.99,
+          "confidence": 0.9988
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2112
+    },
+    {
+      "no": 403,
+      "kind": "word",
+      "text": "价格",
+      "spoken_text": "价格。",
+      "pinyin": "jiàgé",
+      "source_chunk": 20,
+      "speech_start": 35.39,
+      "speech_end": 35.81,
+      "confidence": 0.9396,
+      "characters": [
+        {
+          "char": "价",
+          "start": 35.39,
+          "end": 35.57,
+          "confidence": 0.8794
+        },
+        {
+          "char": "格",
+          "start": 35.57,
+          "end": 35.81,
+          "confidence": 0.9998
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.16611
+    },
+    {
+      "no": 403,
+      "kind": "example",
+      "text": "同样的产品，在不同商店价格可能不同。",
+      "spoken_text": "同样的产品，在不同商店价格可能不同。",
+      "pinyin": "Tóngyàng de chǎnpǐn, zài bùtóng shāngdiàn jiàgé kěnéng bùtóng.",
+      "source_chunk": 20,
+      "speech_start": 36.17,
+      "speech_end": 39.21,
+      "confidence": 0.7257,
+      "characters": [
+        {
+          "char": "同",
+          "start": 36.17,
+          "end": 36.47,
+          "confidence": 0.9858
+        },
+        {
+          "char": "样",
+          "start": 36.47,
+          "end": 36.61,
+          "confidence": 0.9918
+        },
+        {
+          "char": "的",
+          "start": 36.61,
+          "end": 36.75,
+          "confidence": 0.9949
+        },
+        {
+          "char": "产",
+          "start": 36.75,
+          "end": 36.91,
+          "confidence": 0.9935
+        },
+        {
+          "char": "品",
+          "start": 36.91,
+          "end": 37.11,
+          "confidence": 0.9999
+        },
+        {
+          "char": "在",
+          "start": 37.49,
+          "end": 37.55,
+          "confidence": 0.7987
+        },
+        {
+          "char": "不",
+          "start": 37.55,
+          "end": 37.67,
+          "confidence": 0.0041
+        },
+        {
+          "char": "同",
+          "start": 37.67,
+          "end": 37.81,
+          "confidence": 0.8723
+        },
+        {
+          "char": "商",
+          "start": 37.81,
+          "end": 37.97,
+          "confidence": 0.9858
+        },
+        {
+          "char": "店",
+          "start": 37.97,
+          "end": 38.17,
+          "confidence": 0.9912
+        },
+        {
+          "char": "价",
+          "start": 38.17,
+          "end": 38.45,
+          "confidence": 0.9912
+        },
+        {
+          "char": "格",
+          "start": 38.45,
+          "end": 38.59,
+          "confidence": 0.9999
+        },
+        {
+          "char": "可",
+          "start": 38.59,
+          "end": 38.73,
+          "confidence": 0.004
+        },
+        {
+          "char": "能",
+          "start": 38.73,
+          "end": 38.83,
+          "confidence": 0.014
+        },
+        {
+          "char": "不",
+          "start": 38.83,
+          "end": 38.97,
+          "confidence": 0.025
+        },
+        {
+          "char": "同",
+          "start": 38.97,
+          "end": 39.21,
+          "confidence": 0.9588
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22464
+    },
+    {
+      "no": 404,
+      "kind": "word",
+      "text": "价钱",
+      "spoken_text": "价钱。",
+      "pinyin": "jiàqian",
+      "source_chunk": 20,
+      "speech_start": 39.55,
+      "speech_end": 40.11,
+      "confidence": 0.9541,
+      "characters": [
+        {
+          "char": "价",
+          "start": 39.55,
+          "end": 39.87,
+          "confidence": 0.984
+        },
+        {
+          "char": "钱",
+          "start": 39.87,
+          "end": 40.11,
+          "confidence": 0.9241
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.13131
+    },
+    {
+      "no": 404,
+      "kind": "example",
+      "text": "价钱可以再商量，不过不能低于一百元。",
+      "spoken_text": "价钱可以再商量，不过不能低于一百元。",
+      "pinyin": "Jiàqian kěyǐ zài shāngliang, búguò bùnéng dīyú yìbǎi yuán.",
+      "source_chunk": 20,
+      "speech_start": 40.35,
+      "speech_end": 43.25,
+      "confidence": 0.6231,
+      "characters": [
+        {
+          "char": "价",
+          "start": 40.35,
+          "end": 40.77,
+          "confidence": 0.9721
+        },
+        {
+          "char": "钱",
+          "start": 40.77,
+          "end": 40.95,
+          "confidence": 0.989
+        },
+        {
+          "char": "可",
+          "start": 40.95,
+          "end": 41.05,
+          "confidence": 0.0046
+        },
+        {
+          "char": "以",
+          "start": 41.05,
+          "end": 41.15,
+          "confidence": 0.0251
+        },
+        {
+          "char": "再",
+          "start": 41.15,
+          "end": 41.25,
+          "confidence": 0.1538
+        },
+        {
+          "char": "商",
+          "start": 41.25,
+          "end": 41.45,
+          "confidence": 0.8884
+        },
+        {
+          "char": "量",
+          "start": 41.45,
+          "end": 41.63,
+          "confidence": 0.9879
+        },
+        {
+          "char": "不",
+          "start": 41.93,
+          "end": 42.11,
+          "confidence": 0.1213
+        },
+        {
+          "char": "过",
+          "start": 42.11,
+          "end": 42.21,
+          "confidence": 0.8846
+        },
+        {
+          "char": "不",
+          "start": 42.21,
+          "end": 42.33,
+          "confidence": 0.0132
+        },
+        {
+          "char": "能",
+          "start": 42.33,
+          "end": 42.47,
+          "confidence": 0.2852
+        },
+        {
+          "char": "低",
+          "start": 42.47,
+          "end": 42.61,
+          "confidence": 0.9871
+        },
+        {
+          "char": "于",
+          "start": 42.61,
+          "end": 42.73,
+          "confidence": 0.9904
+        },
+        {
+          "char": "一",
+          "start": 42.73,
+          "end": 42.85,
+          "confidence": 0.7023
+        },
+        {
+          "char": "百",
+          "start": 42.85,
+          "end": 42.99,
+          "confidence": 0.9878
+        },
+        {
+          "char": "元",
+          "start": 42.99,
+          "end": 43.25,
+          "confidence": 0.9762
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24296
+    },
+    {
+      "no": 405,
+      "kind": "word",
+      "text": "低价",
+      "spoken_text": "低价。",
+      "pinyin": "dījià",
+      "source_chunk": 20,
+      "speech_start": 43.79,
+      "speech_end": 44.19,
+      "confidence": 0.9518,
+      "characters": [
+        {
+          "char": "低",
+          "start": 43.79,
+          "end": 43.91,
+          "confidence": 0.93
+        },
+        {
+          "char": "价",
+          "start": 43.91,
+          "end": 44.19,
+          "confidence": 0.9736
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.28324
+    },
+    {
+      "no": 405,
+      "kind": "example",
+      "text": "这家商店以低价出售去年的款式。",
+      "spoken_text": "这家商店以低价出售去年的款式。",
+      "pinyin": "Zhè jiā shāngdiàn yǐ dījià chūshòu qùnián de kuǎnshì.",
+      "source_chunk": 20,
+      "speech_start": 44.61,
+      "speech_end": 47.09,
+      "confidence": 0.8685,
+      "characters": [
+        {
+          "char": "这",
+          "start": 44.61,
+          "end": 44.85,
+          "confidence": 0.8605
+        },
+        {
+          "char": "家",
+          "start": 44.85,
+          "end": 44.99,
+          "confidence": 0.8691
+        },
+        {
+          "char": "商",
+          "start": 44.99,
+          "end": 45.13,
+          "confidence": 0.9945
+        },
+        {
+          "char": "店",
+          "start": 45.13,
+          "end": 45.31,
+          "confidence": 0.9765
+        },
+        {
+          "char": "以",
+          "start": 45.31,
+          "end": 45.55,
+          "confidence": 0.7849
+        },
+        {
+          "char": "低",
+          "start": 45.55,
+          "end": 45.75,
+          "confidence": 0.9977
+        },
+        {
+          "char": "价",
+          "start": 45.75,
+          "end": 45.95,
+          "confidence": 0.9989
+        },
+        {
+          "char": "出",
+          "start": 45.95,
+          "end": 46.13,
+          "confidence": 0.9455
+        },
+        {
+          "char": "售",
+          "start": 46.13,
+          "end": 46.27,
+          "confidence": 0.959
+        },
+        {
+          "char": "去",
+          "start": 46.27,
+          "end": 46.43,
+          "confidence": 0.9721
+        },
+        {
+          "char": "年",
+          "start": 46.43,
+          "end": 46.59,
+          "confidence": 0.0635
+        },
+        {
+          "char": "的",
+          "start": 46.59,
+          "end": 46.69,
+          "confidence": 0.7972
+        },
+        {
+          "char": "款",
+          "start": 46.69,
+          "end": 46.83,
+          "confidence": 0.9458
+        },
+        {
+          "char": "式",
+          "start": 46.83,
+          "end": 47.09,
+          "confidence": 0.9942
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23072
+    },
+    {
+      "no": 406,
+      "kind": "word",
+      "text": "高价",
+      "spoken_text": "高价。",
+      "pinyin": "gāojià",
+      "source_chunk": 20,
+      "speech_start": 47.47,
+      "speech_end": 47.87,
+      "confidence": 0.9719,
+      "characters": [
+        {
+          "char": "高",
+          "start": 47.47,
+          "end": 47.65,
+          "confidence": 0.9537
+        },
+        {
+          "char": "价",
+          "start": 47.65,
+          "end": 47.87,
+          "confidence": 0.9902
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25879
+    },
+    {
+      "no": 406,
+      "kind": "example",
+      "text": "即使有人出高价，他也不愿卖掉这幅画。",
+      "spoken_text": "即使有人出高价，他也不愿卖掉这幅画。",
+      "pinyin": "Jíshǐ yǒurén chū gāojià, tā yě bú yuàn màidiào zhè fú huà.",
+      "source_chunk": 20,
+      "speech_start": 48.29,
+      "speech_end": 50.99,
+      "confidence": 0.8484,
+      "characters": [
+        {
+          "char": "即",
+          "start": 48.29,
+          "end": 48.55,
+          "confidence": 0.9685
+        },
+        {
+          "char": "使",
+          "start": 48.55,
+          "end": 48.69,
+          "confidence": 0.9949
+        },
+        {
+          "char": "有",
+          "start": 48.69,
+          "end": 48.83,
+          "confidence": 0.0169
+        },
+        {
+          "char": "人",
+          "start": 48.83,
+          "end": 48.93,
+          "confidence": 0.9102
+        },
+        {
+          "char": "出",
+          "start": 48.93,
+          "end": 49.09,
+          "confidence": 0.9045
+        },
+        {
+          "char": "高",
+          "start": 49.09,
+          "end": 49.25,
+          "confidence": 0.9958
+        },
+        {
+          "char": "价",
+          "start": 49.25,
+          "end": 49.49,
+          "confidence": 0.9921
+        },
+        {
+          "char": "他",
+          "start": 49.77,
+          "end": 49.87,
+          "confidence": 0.3126
+        },
+        {
+          "char": "也",
+          "start": 49.87,
+          "end": 49.95,
+          "confidence": 0.9904
+        },
+        {
+          "char": "不",
+          "start": 49.95,
+          "end": 50.09,
+          "confidence": 0.9877
+        },
+        {
+          "char": "愿",
+          "start": 50.09,
+          "end": 50.21,
+          "confidence": 0.9711
+        },
+        {
+          "char": "卖",
+          "start": 50.21,
+          "end": 50.37,
+          "confidence": 0.9033
+        },
+        {
+          "char": "掉",
+          "start": 50.37,
+          "end": 50.51,
+          "confidence": 0.9434
+        },
+        {
+          "char": "这",
+          "start": 50.51,
+          "end": 50.67,
+          "confidence": 0.7873
+        },
+        {
+          "char": "幅",
+          "start": 50.67,
+          "end": 50.77,
+          "confidence": 0.9317
+        },
+        {
+          "char": "画",
+          "start": 50.77,
+          "end": 50.99,
+          "confidence": 0.9638
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23964
+    },
+    {
+      "no": 407,
+      "kind": "word",
+      "text": "降价",
+      "spoken_text": "降价。",
+      "pinyin": "jiàngjià",
+      "source_chunk": 20,
+      "speech_start": 51.35,
+      "speech_end": 51.75,
+      "confidence": 0.7381,
+      "characters": [
+        {
+          "char": "降",
+          "start": 51.35,
+          "end": 51.51,
+          "confidence": 0.4836
+        },
+        {
+          "char": "价",
+          "start": 51.51,
+          "end": 51.75,
+          "confidence": 0.9926
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22365
+    },
+    {
+      "no": 407,
+      "kind": "example",
+      "text": "等这款电脑降价以后，我再考虑购买。",
+      "spoken_text": "等这款电脑降价以后，我再考虑购买。",
+      "pinyin": "Děng zhè kuǎn diànnǎo jiàngjià yǐhòu, wǒ zài kǎolǜ gòumǎi.",
+      "source_chunk": 20,
+      "speech_start": 52.13,
+      "speech_end": 54.65,
+      "confidence": 0.9252,
+      "characters": [
+        {
+          "char": "等",
+          "start": 52.13,
+          "end": 52.35,
+          "confidence": 0.9786
+        },
+        {
+          "char": "这",
+          "start": 52.35,
+          "end": 52.49,
+          "confidence": 0.9734
+        },
+        {
+          "char": "款",
+          "start": 52.49,
+          "end": 52.61,
+          "confidence": 0.9804
+        },
+        {
+          "char": "电",
+          "start": 52.61,
+          "end": 52.75,
+          "confidence": 0.9553
+        },
+        {
+          "char": "脑",
+          "start": 52.75,
+          "end": 52.87,
+          "confidence": 0.9987
+        },
+        {
+          "char": "降",
+          "start": 52.87,
+          "end": 53.05,
+          "confidence": 0.9807
+        },
+        {
+          "char": "价",
+          "start": 53.05,
+          "end": 53.23,
+          "confidence": 0.9987
+        },
+        {
+          "char": "以",
+          "start": 53.23,
+          "end": 53.37,
+          "confidence": 0.9886
+        },
+        {
+          "char": "后",
+          "start": 53.37,
+          "end": 53.57,
+          "confidence": 0.994
+        },
+        {
+          "char": "我",
+          "start": 53.83,
+          "end": 53.93,
+          "confidence": 0.1615
+        },
+        {
+          "char": "再",
+          "start": 53.93,
+          "end": 54.03,
+          "confidence": 0.9401
+        },
+        {
+          "char": "考",
+          "start": 54.03,
+          "end": 54.19,
+          "confidence": 0.9928
+        },
+        {
+          "char": "虑",
+          "start": 54.19,
+          "end": 54.29,
+          "confidence": 0.9934
+        },
+        {
+          "char": "购",
+          "start": 54.29,
+          "end": 54.43,
+          "confidence": 0.9514
+        },
+        {
+          "char": "买",
+          "start": 54.43,
+          "end": 54.65,
+          "confidence": 0.99
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.26323
+    },
+    {
+      "no": 408,
+      "kind": "word",
+      "text": "打折",
+      "spoken_text": "打折。",
+      "pinyin": "dǎzhé",
+      "source_chunk": 20,
+      "speech_start": 55.07,
+      "speech_end": 55.47,
+      "confidence": 0.8259,
+      "characters": [
+        {
+          "char": "打",
+          "start": 55.07,
+          "end": 55.27,
+          "confidence": 0.7086
+        },
+        {
+          "char": "折",
+          "start": 55.27,
+          "end": 55.47,
+          "confidence": 0.9432
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.11311
+    },
+    {
+      "no": 408,
+      "kind": "example",
+      "text": "商场周末打折，因此来购物的人特别多。",
+      "spoken_text": "商场周末打折，因此来购物的人特别多。",
+      "pinyin": "Shāngchǎng zhōumò dǎzhé, yīncǐ lái gòuwù de rén tèbié duō.",
+      "source_chunk": 20,
+      "speech_start": 56.01,
+      "speech_end": 58.95,
+      "confidence": 0.8155,
+      "characters": [
+        {
+          "char": "商",
+          "start": 56.01,
+          "end": 56.21,
+          "confidence": 0.9149
+        },
+        {
+          "char": "场",
+          "start": 56.21,
+          "end": 56.37,
+          "confidence": 0.8254
+        },
+        {
+          "char": "周",
+          "start": 56.37,
+          "end": 56.61,
+          "confidence": 0.3566
+        },
+        {
+          "char": "末",
+          "start": 56.61,
+          "end": 56.71,
+          "confidence": 0.9916
+        },
+        {
+          "char": "打",
+          "start": 56.71,
+          "end": 56.91,
+          "confidence": 0.9505
+        },
+        {
+          "char": "折",
+          "start": 56.91,
+          "end": 57.17,
+          "confidence": 0.9995
+        },
+        {
+          "char": "因",
+          "start": 57.55,
+          "end": 57.63,
+          "confidence": 0.5655
+        },
+        {
+          "char": "此",
+          "start": 57.63,
+          "end": 57.77,
+          "confidence": 0.9998
+        },
+        {
+          "char": "来",
+          "start": 57.77,
+          "end": 57.87,
+          "confidence": 0.8777
+        },
+        {
+          "char": "购",
+          "start": 57.87,
+          "end": 58.03,
+          "confidence": 0.8249
+        },
+        {
+          "char": "物",
+          "start": 58.03,
+          "end": 58.15,
+          "confidence": 0.9789
+        },
+        {
+          "char": "的",
+          "start": 58.15,
+          "end": 58.27,
+          "confidence": 0.0093
+        },
+        {
+          "char": "人",
+          "start": 58.27,
+          "end": 58.39,
+          "confidence": 0.7783
+        },
+        {
+          "char": "特",
+          "start": 58.39,
+          "end": 58.59,
+          "confidence": 0.9811
+        },
+        {
+          "char": "别",
+          "start": 58.59,
+          "end": 58.75,
+          "confidence": 0.9998
+        },
+        {
+          "char": "多",
+          "start": 58.75,
+          "end": 58.95,
+          "confidence": 0.9945
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23826
+    },
+    {
+      "no": 409,
+      "kind": "example",
+      "text": "这件外套质量很好，值这个价钱。",
+      "spoken_text": "这件外套质量很好，值这个价钱。",
+      "pinyin": "Zhè jiàn wàitào zhìliàng hěn hǎo, zhí zhè ge jiàqian.",
+      "source_chunk": 20,
+      "speech_start": 59.45,
+      "speech_end": 61.73,
+      "confidence": 0.6582,
+      "characters": [
+        {
+          "char": "这",
+          "start": 59.45,
+          "end": 59.61,
+          "confidence": 0.9471
+        },
+        {
+          "char": "件",
+          "start": 59.61,
+          "end": 59.71,
+          "confidence": 0.6358
+        },
+        {
+          "char": "外",
+          "start": 59.71,
+          "end": 59.87,
+          "confidence": 0.9957
+        },
+        {
+          "char": "套",
+          "start": 59.87,
+          "end": 59.99,
+          "confidence": 0.9996
+        },
+        {
+          "char": "质",
+          "start": 59.99,
+          "end": 60.17,
+          "confidence": 0.8344
+        },
+        {
+          "char": "量",
+          "start": 60.17,
+          "end": 60.25,
+          "confidence": 0.9972
+        },
+        {
+          "char": "很",
+          "start": 60.25,
+          "end": 60.47,
+          "confidence": 0.0774
+        },
+        {
+          "char": "好",
+          "start": 60.47,
+          "end": 60.81,
+          "confidence": 0.9665
+        },
+        {
+          "char": "值",
+          "start": 61.09,
+          "end": 61.17,
+          "confidence": 0.0249
+        },
+        {
+          "char": "这",
+          "start": 61.17,
+          "end": 61.25,
+          "confidence": 0.0189
+        },
+        {
+          "char": "个",
+          "start": 61.25,
+          "end": 61.33,
+          "confidence": 0.2378
+        },
+        {
+          "char": "价",
+          "start": 61.33,
+          "end": 61.47,
+          "confidence": 0.8353
+        },
+        {
+          "char": "钱",
+          "start": 61.47,
+          "end": 61.73,
+          "confidence": 0.9859
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22813
+    },
+    {
+      "no": 410,
+      "kind": "word",
+      "text": "帽子",
+      "spoken_text": "帽子。",
+      "pinyin": "màozi",
+      "source_chunk": 20,
+      "speech_start": 62.17,
+      "speech_end": 62.53,
+      "confidence": 0.882,
+      "characters": [
+        {
+          "char": "帽",
+          "start": 62.17,
+          "end": 62.29,
+          "confidence": 0.7642
+        },
+        {
+          "char": "子",
+          "start": 62.29,
+          "end": 62.53,
+          "confidence": 0.9997
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21666
+    },
+    {
+      "no": 410,
+      "kind": "example",
+      "text": "风越来越大，你最好把帽子戴好。",
+      "spoken_text": "风越来越大，你最好把帽子戴好。",
+      "pinyin": "Fēng yuèláiyuè dà, nǐ zuìhǎo bǎ màozi dài hǎo.",
+      "source_chunk": 20,
+      "speech_start": 62.93,
+      "speech_end": 65.19,
+      "confidence": 0.9275,
+      "characters": [
+        {
+          "char": "风",
+          "start": 62.93,
+          "end": 63.21,
+          "confidence": 0.938
+        },
+        {
+          "char": "越",
+          "start": 63.21,
+          "end": 63.35,
+          "confidence": 0.9505
+        },
+        {
+          "char": "来",
+          "start": 63.35,
+          "end": 63.47,
+          "confidence": 0.9983
+        },
+        {
+          "char": "越",
+          "start": 63.47,
+          "end": 63.59,
+          "confidence": 0.9985
+        },
+        {
+          "char": "大",
+          "start": 63.59,
+          "end": 63.77,
+          "confidence": 0.9957
+        },
+        {
+          "char": "你",
+          "start": 64.09,
+          "end": 64.17,
+          "confidence": 0.7258
+        },
+        {
+          "char": "最",
+          "start": 64.17,
+          "end": 64.27,
+          "confidence": 0.997
+        },
+        {
+          "char": "好",
+          "start": 64.27,
+          "end": 64.41,
+          "confidence": 0.9763
+        },
+        {
+          "char": "把",
+          "start": 64.41,
+          "end": 64.51,
+          "confidence": 0.9569
+        },
+        {
+          "char": "帽",
+          "start": 64.51,
+          "end": 64.67,
+          "confidence": 0.9972
+        },
+        {
+          "char": "子",
+          "start": 64.67,
+          "end": 64.85,
+          "confidence": 0.9999
+        },
+        {
+          "char": "戴",
+          "start": 64.85,
+          "end": 64.93,
+          "confidence": 0.5294
+        },
+        {
+          "char": "好",
+          "start": 64.93,
+          "end": 65.19,
+          "confidence": 0.9936
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24308
+    },
+    {
+      "no": 411,
+      "kind": "word",
+      "text": "眼镜",
+      "spoken_text": "眼镜。",
+      "pinyin": "yǎnjìng",
+      "source_chunk": 20,
+      "speech_start": 65.57,
+      "speech_end": 65.91,
+      "confidence": 0.9125,
+      "characters": [
+        {
+          "char": "眼",
+          "start": 65.57,
+          "end": 65.69,
+          "confidence": 0.9648
+        },
+        {
+          "char": "镜",
+          "start": 65.69,
+          "end": 65.91,
+          "confidence": 0.8603
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23202
+    },
+    {
+      "no": 411,
+      "kind": "example",
+      "text": "换了这副眼镜以后，我看黑板清楚多了。",
+      "spoken_text": "换了这副眼镜以后，我看黑板清楚多了。",
+      "pinyin": "Huàn le zhè fù yǎnjìng yǐhòu, wǒ kàn hēibǎn qīngchu duō le.",
+      "source_chunk": 20,
+      "speech_start": 66.29,
+      "speech_end": 69.71,
+      "confidence": 0.8058,
+      "characters": [
+        {
+          "char": "换",
+          "start": 66.29,
+          "end": 67.13,
+          "confidence": 0.5029
+        },
+        {
+          "char": "了",
+          "start": 67.13,
+          "end": 67.23,
+          "confidence": 0.9767
+        },
+        {
+          "char": "这",
+          "start": 67.23,
+          "end": 67.35,
+          "confidence": 0.8913
+        },
+        {
+          "char": "副",
+          "start": 67.35,
+          "end": 67.47,
+          "confidence": 0.5948
+        },
+        {
+          "char": "眼",
+          "start": 67.47,
+          "end": 67.61,
+          "confidence": 0.9988
+        },
+        {
+          "char": "镜",
+          "start": 67.61,
+          "end": 67.83,
+          "confidence": 0.9786
+        },
+        {
+          "char": "以",
+          "start": 67.83,
+          "end": 67.93,
+          "confidence": 0.9879
+        },
+        {
+          "char": "后",
+          "start": 67.93,
+          "end": 68.17,
+          "confidence": 0.9964
+        },
+        {
+          "char": "我",
+          "start": 68.53,
+          "end": 68.65,
+          "confidence": 0.927
+        },
+        {
+          "char": "看",
+          "start": 68.65,
+          "end": 68.77,
+          "confidence": 0.9829
+        },
+        {
+          "char": "黑",
+          "start": 68.77,
+          "end": 68.93,
+          "confidence": 0.9939
+        },
+        {
+          "char": "板",
+          "start": 68.93,
+          "end": 69.03,
+          "confidence": 0.8027
+        },
+        {
+          "char": "清",
+          "start": 69.03,
+          "end": 69.21,
+          "confidence": 0.374
+        },
+        {
+          "char": "楚",
+          "start": 69.21,
+          "end": 69.35,
+          "confidence": 0.0521
+        },
+        {
+          "char": "多",
+          "start": 69.35,
+          "end": 69.51,
+          "confidence": 0.8835
+        },
+        {
+          "char": "了",
+          "start": 69.51,
+          "end": 69.71,
+          "confidence": 0.9495
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23645
+    },
+    {
+      "no": 412,
+      "kind": "word",
+      "text": "毛衣",
+      "spoken_text": "毛衣。",
+      "pinyin": "máoyī",
+      "source_chunk": 20,
+      "speech_start": 70.15,
+      "speech_end": 70.51,
+      "confidence": 0.8568,
+      "characters": [
+        {
+          "char": "毛",
+          "start": 70.15,
+          "end": 70.29,
+          "confidence": 0.7335
+        },
+        {
+          "char": "衣",
+          "start": 70.29,
+          "end": 70.51,
+          "confidence": 0.9801
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22394
+    },
+    {
+      "no": 412,
+      "kind": "example",
+      "text": "这件毛衣是妈妈亲手织的，我一直留着。",
+      "spoken_text": "这件毛衣是妈妈亲手织的，我一直留着。",
+      "pinyin": "Zhè jiàn máoyī shì māma qīnshǒu zhī de, wǒ yìzhí liú zhe.",
+      "source_chunk": 20,
+      "speech_start": 70.97,
+      "speech_end": 73.65,
+      "confidence": 0.8195,
+      "characters": [
+        {
+          "char": "这",
+          "start": 70.97,
+          "end": 71.17,
+          "confidence": 0.9381
+        },
+        {
+          "char": "件",
+          "start": 71.17,
+          "end": 71.27,
+          "confidence": 0.9704
+        },
+        {
+          "char": "毛",
+          "start": 71.27,
+          "end": 71.43,
+          "confidence": 0.9971
+        },
+        {
+          "char": "衣",
+          "start": 71.43,
+          "end": 71.61,
+          "confidence": 0.9997
+        },
+        {
+          "char": "是",
+          "start": 71.61,
+          "end": 71.77,
+          "confidence": 0.9651
+        },
+        {
+          "char": "妈",
+          "start": 71.77,
+          "end": 71.89,
+          "confidence": 0.8691
+        },
+        {
+          "char": "妈",
+          "start": 71.89,
+          "end": 71.99,
+          "confidence": 0.9966
+        },
+        {
+          "char": "亲",
+          "start": 71.99,
+          "end": 72.15,
+          "confidence": 0.9294
+        },
+        {
+          "char": "手",
+          "start": 72.15,
+          "end": 72.35,
+          "confidence": 0.9803
+        },
+        {
+          "char": "织",
+          "start": 72.35,
+          "end": 72.55,
+          "confidence": 0.4132
+        },
+        {
+          "char": "的",
+          "start": 72.55,
+          "end": 72.71,
+          "confidence": 0.9859
+        },
+        {
+          "char": "我",
+          "start": 73.01,
+          "end": 73.07,
+          "confidence": 0.8964
+        },
+        {
+          "char": "一",
+          "start": 73.07,
+          "end": 73.19,
+          "confidence": 0.0073
+        },
+        {
+          "char": "直",
+          "start": 73.19,
+          "end": 73.31,
+          "confidence": 0.375
+        },
+        {
+          "char": "留",
+          "start": 73.31,
+          "end": 73.47,
+          "confidence": 0.797
+        },
+        {
+          "char": "着",
+          "start": 73.47,
+          "end": 73.65,
+          "confidence": 0.9908
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23648
+    },
+    {
+      "no": 413,
+      "kind": "word",
+      "text": "外套",
+      "spoken_text": "外套。",
+      "pinyin": "wàitào",
+      "source_chunk": 20,
+      "speech_start": 74.09,
+      "speech_end": 74.43,
+      "confidence": 0.9812,
+      "characters": [
+        {
+          "char": "外",
+          "start": 74.09,
+          "end": 74.21,
+          "confidence": 0.9633
+        },
+        {
+          "char": "套",
+          "start": 74.21,
+          "end": 74.43,
+          "confidence": 0.9992
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20014
+    },
+    {
+      "no": 413,
+      "kind": "example",
+      "text": "外面比屋里冷，记得带上外套。",
+      "spoken_text": "外面比屋里冷，记得带上外套。",
+      "pinyin": "Wàimiàn bǐ wūlǐ lěng, jìde dàishàng wàitào.",
+      "source_chunk": 20,
+      "speech_start": 74.93,
+      "speech_end": 76.97,
+      "confidence": 0.7949,
+      "characters": [
+        {
+          "char": "外",
+          "start": 74.93,
+          "end": 75.17,
+          "confidence": 0.9906
+        },
+        {
+          "char": "面",
+          "start": 75.17,
+          "end": 75.29,
+          "confidence": 0.9985
+        },
+        {
+          "char": "比",
+          "start": 75.29,
+          "end": 75.43,
+          "confidence": 0.9728
+        },
+        {
+          "char": "屋",
+          "start": 75.43,
+          "end": 75.61,
+          "confidence": 0.6476
+        },
+        {
+          "char": "里",
+          "start": 75.61,
+          "end": 75.69,
+          "confidence": 0.1859
+        },
+        {
+          "char": "冷",
+          "start": 75.69,
+          "end": 75.89,
+          "confidence": 0.9778
+        },
+        {
+          "char": "记",
+          "start": 76.23,
+          "end": 76.29,
+          "confidence": 0.1096
+        },
+        {
+          "char": "得",
+          "start": 76.29,
+          "end": 76.37,
+          "confidence": 0.9955
+        },
+        {
+          "char": "带",
+          "start": 76.37,
+          "end": 76.47,
+          "confidence": 0.6768
+        },
+        {
+          "char": "上",
+          "start": 76.47,
+          "end": 76.59,
+          "confidence": 0.9955
+        },
+        {
+          "char": "外",
+          "start": 76.59,
+          "end": 76.75,
+          "confidence": 0.9884
+        },
+        {
+          "char": "套",
+          "start": 76.75,
+          "end": 76.97,
+          "confidence": 1.0
+        }
+      ],
+      "independent_asr_coverage": 0.917,
+      "rms": 0.26527
+    },
+    {
+      "no": 414,
+      "kind": "word",
+      "text": "袜子",
+      "spoken_text": "袜子。",
+      "pinyin": "wàzi",
+      "source_chunk": 20,
+      "speech_start": 77.45,
+      "speech_end": 78.05,
+      "confidence": 0.5672,
+      "characters": [
+        {
+          "char": "袜",
+          "start": 77.45,
+          "end": 77.79,
+          "confidence": 0.1388
+        },
+        {
+          "char": "子",
+          "start": 77.79,
+          "end": 78.05,
+          "confidence": 0.9955
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.17727
+    }
+  ],
+  "windows": [
+    {
+      "first_clip": 0,
+      "last_clip": 4,
+      "start": 0,
+      "end": 11.610000000000001,
+      "text": "报名费包括教材的钱，不需要另外付款。费用。这次旅行的费用，比我们想象的低。收费。这里停车按小时收费，第一小时免费。"
+    },
+    {
+      "first_clip": 3,
+      "last_clip": 8,
+      "start": 6.370000000000001,
+      "end": 18.65,
+      "text": "收费。这里停车按小时收费，第一小时免费。免费。参观展览免费，不过需要提前预约。钱已经付了，请把收据交给我。支付。"
+    },
+    {
+      "first_clip": 7,
+      "last_clip": 12,
+      "start": 13.969999999999999,
+      "end": 28.009999999999998,
+      "text": "钱已经付了，请把收据交给我。支付。除了现金，这里也支持手机支付。结账。结账时我才发现，自己忘带钱包了。他每月把一部分工资存进银行。"
+    },
+    {
+      "first_clip": 11,
+      "last_clip": 16,
+      "start": 20.990000000000002,
+      "end": 35.67,
+      "text": "结账时我才发现，自己忘带钱包了。他每月把一部分工资存进银行。节约。为了节约时间，我们决定坐地铁去。浪费。吃多少就点多少，尽量不要浪费食物。"
+    },
+    {
+      "first_clip": 15,
+      "last_clip": 20,
+      "start": 30.590000000000003,
+      "end": 43.97,
+      "text": "浪费。吃多少就点多少，尽量不要浪费食物。价格。同样的产品，在不同商店价格可能不同。价钱。价钱可以再商量，不过不能低于一百元。"
+    },
+    {
+      "first_clip": 19,
+      "last_clip": 24,
+      "start": 38.53,
+      "end": 51.69,
+      "text": "价钱。价钱可以再商量，不过不能低于一百元。低价。这家商店以低价出售去年的款式。高价。即使有人出高价，他也不愿卖掉这幅画。"
+    },
+    {
+      "first_clip": 23,
+      "last_clip": 28,
+      "start": 46.45,
+      "end": 59.589999999999996,
+      "text": "高价。即使有人出高价，他也不愿卖掉这幅画。降价。等这款电脑降价以后，我再考虑购买。打折。商场周末打折，因此来购物的人特别多。"
+    },
+    {
+      "first_clip": 27,
+      "last_clip": 32,
+      "start": 54.01,
+      "end": 67.04,
+      "text": "打折。商场周末打折，因此来购物的人特别多。这件外套质量很好，值这个价钱。帽子。风越来越大，你最好把帽子戴好。眼镜。"
+    },
+    {
+      "first_clip": 31,
+      "last_clip": 36,
+      "start": 62.11,
+      "end": 75.33000000000001,
+      "text": "风越来越大，你最好把帽子戴好。眼镜。换了这副眼镜以后，我看黑板清楚多了。毛衣。这件毛衣是妈妈亲手织的，我一直留着。外套。"
+    },
+    {
+      "first_clip": 35,
+      "last_clip": 38,
+      "start": 70.09,
+      "end": 78.312,
+      "text": "这件毛衣是妈妈亲手织的，我一直留着。外套。外面比屋里冷，记得带上外套。袜子。"
+    }
+  ],
+  "alerts": []
+}
