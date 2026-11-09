@@ -1,0 +1,2683 @@
+{
+  "chunk": 28,
+  "duration": 77.4,
+  "transcript_match_ratio": 0.9928,
+  "clips": [
+    {
+      "no": 560,
+      "kind": "example",
+      "text": "这家健身房离公司近，午休时也能去。",
+      "spoken_text": "这家健身房离公司近，午休时也能去。",
+      "pinyin": "Zhè jiā jiànshēnfáng lí gōngsī jìn, wǔxiū shí yě néng qù.",
+      "source_chunk": 28,
+      "speech_start": 0.0,
+      "speech_end": 2.98,
+      "confidence": 0.7668,
+      "characters": [
+        {
+          "char": "这",
+          "start": 0.0,
+          "end": 0.44,
+          "confidence": 0.2813
+        },
+        {
+          "char": "家",
+          "start": 0.44,
+          "end": 0.54,
+          "confidence": 0.9639
+        },
+        {
+          "char": "健",
+          "start": 0.54,
+          "end": 0.68,
+          "confidence": 0.9238
+        },
+        {
+          "char": "身",
+          "start": 0.68,
+          "end": 0.82,
+          "confidence": 0.9955
+        },
+        {
+          "char": "房",
+          "start": 0.82,
+          "end": 1.02,
+          "confidence": 0.994
+        },
+        {
+          "char": "离",
+          "start": 1.02,
+          "end": 1.18,
+          "confidence": 0.6718
+        },
+        {
+          "char": "公",
+          "start": 1.18,
+          "end": 1.3,
+          "confidence": 0.9614
+        },
+        {
+          "char": "司",
+          "start": 1.3,
+          "end": 1.48,
+          "confidence": 0.9865
+        },
+        {
+          "char": "近",
+          "start": 1.48,
+          "end": 1.68,
+          "confidence": 0.2809
+        },
+        {
+          "char": "午",
+          "start": 2.1,
+          "end": 2.14,
+          "confidence": 0.0045
+        },
+        {
+          "char": "休",
+          "start": 2.14,
+          "end": 2.26,
+          "confidence": 0.9907
+        },
+        {
+          "char": "时",
+          "start": 2.26,
+          "end": 2.44,
+          "confidence": 0.4887
+        },
+        {
+          "char": "也",
+          "start": 2.44,
+          "end": 2.56,
+          "confidence": 0.9809
+        },
+        {
+          "char": "能",
+          "start": 2.56,
+          "end": 2.7,
+          "confidence": 0.9966
+        },
+        {
+          "char": "去",
+          "start": 2.7,
+          "end": 2.98,
+          "confidence": 0.9813
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21058
+    },
+    {
+      "no": 561,
+      "kind": "word",
+      "text": "散步",
+      "spoken_text": "散步。",
+      "pinyin": "sànbù",
+      "source_chunk": 28,
+      "speech_start": 3.38,
+      "speech_end": 3.92,
+      "confidence": 0.9331,
+      "characters": [
+        {
+          "char": "散",
+          "start": 3.38,
+          "end": 3.7,
+          "confidence": 0.9478
+        },
+        {
+          "char": "步",
+          "start": 3.7,
+          "end": 3.92,
+          "confidence": 0.9184
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18898
+    },
+    {
+      "no": 561,
+      "kind": "example",
+      "text": "晚饭后散步时，我们常聊聊白天的事。",
+      "spoken_text": "晚饭后散步时，我们常聊聊白天的事。",
+      "pinyin": "Wǎnfàn hòu sànbù shí, wǒmen cháng liáoliao báitiān de shì.",
+      "source_chunk": 28,
+      "speech_start": 4.24,
+      "speech_end": 6.92,
+      "confidence": 0.8012,
+      "characters": [
+        {
+          "char": "晚",
+          "start": 4.24,
+          "end": 4.46,
+          "confidence": 0.9614
+        },
+        {
+          "char": "饭",
+          "start": 4.46,
+          "end": 4.6,
+          "confidence": 0.9569
+        },
+        {
+          "char": "后",
+          "start": 4.6,
+          "end": 4.78,
+          "confidence": 0.9642
+        },
+        {
+          "char": "散",
+          "start": 4.78,
+          "end": 4.94,
+          "confidence": 0.997
+        },
+        {
+          "char": "步",
+          "start": 4.94,
+          "end": 5.1,
+          "confidence": 0.9965
+        },
+        {
+          "char": "时",
+          "start": 5.1,
+          "end": 5.42,
+          "confidence": 0.9902
+        },
+        {
+          "char": "我",
+          "start": 5.72,
+          "end": 5.8,
+          "confidence": 0.0031
+        },
+        {
+          "char": "们",
+          "start": 5.8,
+          "end": 5.88,
+          "confidence": 0.2161
+        },
+        {
+          "char": "常",
+          "start": 5.88,
+          "end": 6.02,
+          "confidence": 0.7057
+        },
+        {
+          "char": "聊",
+          "start": 6.02,
+          "end": 6.16,
+          "confidence": 0.928
+        },
+        {
+          "char": "聊",
+          "start": 6.16,
+          "end": 6.32,
+          "confidence": 0.9978
+        },
+        {
+          "char": "白",
+          "start": 6.32,
+          "end": 6.44,
+          "confidence": 0.8291
+        },
+        {
+          "char": "天",
+          "start": 6.44,
+          "end": 6.64,
+          "confidence": 0.9975
+        },
+        {
+          "char": "的",
+          "start": 6.64,
+          "end": 6.76,
+          "confidence": 0.5557
+        },
+        {
+          "char": "事",
+          "start": 6.76,
+          "end": 6.92,
+          "confidence": 0.9191
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23158
+    },
+    {
+      "no": 562,
+      "kind": "word",
+      "text": "排球",
+      "spoken_text": "排球。",
+      "pinyin": "páiqiú",
+      "source_chunk": 28,
+      "speech_start": 7.36,
+      "speech_end": 7.8,
+      "confidence": 0.9384,
+      "characters": [
+        {
+          "char": "排",
+          "start": 7.36,
+          "end": 7.54,
+          "confidence": 0.9763
+        },
+        {
+          "char": "球",
+          "start": 7.54,
+          "end": 7.8,
+          "confidence": 0.9005
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.12664
+    },
+    {
+      "no": 562,
+      "kind": "example",
+      "text": "打排球不仅需要技术，还需要团队合作。",
+      "spoken_text": "打排球不仅需要技术，还需要团队合作。",
+      "pinyin": "Dǎ páiqiú bùjǐn xūyào jìshù, hái xūyào tuánduì hézuò.",
+      "source_chunk": 28,
+      "speech_start": 8.13,
+      "speech_end": 11.13,
+      "confidence": 0.7232,
+      "characters": [
+        {
+          "char": "打",
+          "start": 8.13,
+          "end": 8.51,
+          "confidence": 0.2024
+        },
+        {
+          "char": "排",
+          "start": 8.51,
+          "end": 8.67,
+          "confidence": 0.9972
+        },
+        {
+          "char": "球",
+          "start": 8.67,
+          "end": 8.89,
+          "confidence": 0.9997
+        },
+        {
+          "char": "不",
+          "start": 8.89,
+          "end": 9.07,
+          "confidence": 0.9614
+        },
+        {
+          "char": "仅",
+          "start": 9.07,
+          "end": 9.19,
+          "confidence": 0.7581
+        },
+        {
+          "char": "需",
+          "start": 9.19,
+          "end": 9.35,
+          "confidence": 0.0113
+        },
+        {
+          "char": "要",
+          "start": 9.35,
+          "end": 9.51,
+          "confidence": 0.8276
+        },
+        {
+          "char": "技",
+          "start": 9.51,
+          "end": 9.65,
+          "confidence": 0.9962
+        },
+        {
+          "char": "术",
+          "start": 9.65,
+          "end": 9.93,
+          "confidence": 0.7911
+        },
+        {
+          "char": "还",
+          "start": 10.19,
+          "end": 10.21,
+          "confidence": 0.179
+        },
+        {
+          "char": "需",
+          "start": 10.21,
+          "end": 10.35,
+          "confidence": 0.0143
+        },
+        {
+          "char": "要",
+          "start": 10.35,
+          "end": 10.49,
+          "confidence": 0.9026
+        },
+        {
+          "char": "团",
+          "start": 10.49,
+          "end": 10.61,
+          "confidence": 0.9802
+        },
+        {
+          "char": "队",
+          "start": 10.61,
+          "end": 10.75,
+          "confidence": 0.9627
+        },
+        {
+          "char": "合",
+          "start": 10.75,
+          "end": 10.93,
+          "confidence": 0.9938
+        },
+        {
+          "char": "作",
+          "start": 10.93,
+          "end": 11.13,
+          "confidence": 0.9944
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21047
+    },
+    {
+      "no": 563,
+      "kind": "word",
+      "text": "乒乓球",
+      "spoken_text": "乒乓球。",
+      "pinyin": "pīngpāngqiú",
+      "source_chunk": 28,
+      "speech_start": 11.51,
+      "speech_end": 12.03,
+      "confidence": 0.8093,
+      "characters": [
+        {
+          "char": "乒",
+          "start": 11.51,
+          "end": 11.61,
+          "confidence": 0.4739
+        },
+        {
+          "char": "乓",
+          "start": 11.61,
+          "end": 11.73,
+          "confidence": 0.961
+        },
+        {
+          "char": "球",
+          "start": 11.73,
+          "end": 12.03,
+          "confidence": 0.9929
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.31773
+    },
+    {
+      "no": 563,
+      "kind": "example",
+      "text": "他乒乓球打得很好，常代表学校参赛。",
+      "spoken_text": "他乒乓球打得很好，常代表学校参赛。",
+      "pinyin": "Tā pīngpāngqiú dǎ de hěn hǎo, cháng dàibiǎo xuéxiào cānsài.",
+      "source_chunk": 28,
+      "speech_start": 12.37,
+      "speech_end": 14.97,
+      "confidence": 0.8152,
+      "characters": [
+        {
+          "char": "他",
+          "start": 12.37,
+          "end": 12.63,
+          "confidence": 0.6533
+        },
+        {
+          "char": "乒",
+          "start": 12.63,
+          "end": 12.73,
+          "confidence": 0.6647
+        },
+        {
+          "char": "乓",
+          "start": 12.73,
+          "end": 12.93,
+          "confidence": 0.9992
+        },
+        {
+          "char": "球",
+          "start": 12.93,
+          "end": 13.07,
+          "confidence": 0.9997
+        },
+        {
+          "char": "打",
+          "start": 13.07,
+          "end": 13.17,
+          "confidence": 0.9594
+        },
+        {
+          "char": "得",
+          "start": 13.17,
+          "end": 13.27,
+          "confidence": 0.9008
+        },
+        {
+          "char": "很",
+          "start": 13.27,
+          "end": 13.45,
+          "confidence": 0.1356
+        },
+        {
+          "char": "好",
+          "start": 13.45,
+          "end": 13.69,
+          "confidence": 0.9473
+        },
+        {
+          "char": "常",
+          "start": 13.95,
+          "end": 14.09,
+          "confidence": 0.1275
+        },
+        {
+          "char": "代",
+          "start": 14.09,
+          "end": 14.19,
+          "confidence": 0.9656
+        },
+        {
+          "char": "表",
+          "start": 14.19,
+          "end": 14.29,
+          "confidence": 0.9972
+        },
+        {
+          "char": "学",
+          "start": 14.29,
+          "end": 14.47,
+          "confidence": 0.9786
+        },
+        {
+          "char": "校",
+          "start": 14.47,
+          "end": 14.59,
+          "confidence": 0.9994
+        },
+        {
+          "char": "参",
+          "start": 14.59,
+          "end": 14.75,
+          "confidence": 0.9036
+        },
+        {
+          "char": "赛",
+          "start": 14.75,
+          "end": 14.97,
+          "confidence": 0.9962
+        }
+      ],
+      "independent_asr_coverage": 0.933,
+      "rms": 0.19491
+    },
+    {
+      "no": 564,
+      "kind": "word",
+      "text": "教练",
+      "spoken_text": "教练。",
+      "pinyin": "jiàoliàn",
+      "source_chunk": 28,
+      "speech_start": 15.49,
+      "speech_end": 15.81,
+      "confidence": 0.9523,
+      "characters": [
+        {
+          "char": "教",
+          "start": 15.49,
+          "end": 15.63,
+          "confidence": 0.9589
+        },
+        {
+          "char": "练",
+          "start": 15.63,
+          "end": 15.81,
+          "confidence": 0.9457
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.31321
+    },
+    {
+      "no": 564,
+      "kind": "example",
+      "text": "教练指出了我的问题，让我重新练习。",
+      "spoken_text": "教练指出了我的问题，让我重新练习。",
+      "pinyin": "Jiàoliàn zhǐchū le wǒ de wèntí, ràng wǒ chóngxīn liànxí.",
+      "source_chunk": 28,
+      "speech_start": 16.18,
+      "speech_end": 18.84,
+      "confidence": 0.7803,
+      "characters": [
+        {
+          "char": "教",
+          "start": 16.18,
+          "end": 16.5,
+          "confidence": 0.9944
+        },
+        {
+          "char": "练",
+          "start": 16.5,
+          "end": 16.66,
+          "confidence": 0.9977
+        },
+        {
+          "char": "指",
+          "start": 16.66,
+          "end": 16.82,
+          "confidence": 0.7377
+        },
+        {
+          "char": "出",
+          "start": 16.82,
+          "end": 16.98,
+          "confidence": 0.9911
+        },
+        {
+          "char": "了",
+          "start": 16.98,
+          "end": 17.08,
+          "confidence": 0.8941
+        },
+        {
+          "char": "我",
+          "start": 17.08,
+          "end": 17.18,
+          "confidence": 0.0035
+        },
+        {
+          "char": "的",
+          "start": 17.18,
+          "end": 17.26,
+          "confidence": 0.298
+        },
+        {
+          "char": "问",
+          "start": 17.26,
+          "end": 17.38,
+          "confidence": 0.0005
+        },
+        {
+          "char": "题",
+          "start": 17.38,
+          "end": 17.68,
+          "confidence": 0.9588
+        },
+        {
+          "char": "让",
+          "start": 17.96,
+          "end": 18.0,
+          "confidence": 0.8996
+        },
+        {
+          "char": "我",
+          "start": 18.0,
+          "end": 18.1,
+          "confidence": 0.9942
+        },
+        {
+          "char": "重",
+          "start": 18.1,
+          "end": 18.24,
+          "confidence": 0.994
+        },
+        {
+          "char": "新",
+          "start": 18.24,
+          "end": 18.44,
+          "confidence": 0.9602
+        },
+        {
+          "char": "练",
+          "start": 18.44,
+          "end": 18.56,
+          "confidence": 0.9858
+        },
+        {
+          "char": "习",
+          "start": 18.56,
+          "end": 18.84,
+          "confidence": 0.9951
+        }
+      ],
+      "independent_asr_coverage": 0.933,
+      "rms": 0.25488
+    },
+    {
+      "no": 565,
+      "kind": "example",
+      "text": "我们队虽然年轻，但是配合得很好。",
+      "spoken_text": "我们队虽然年轻，但是配合得很好。",
+      "pinyin": "Wǒmen duì suīrán niánqīng, dànshì pèihé de hěn hǎo.",
+      "source_chunk": 28,
+      "speech_start": 19.14,
+      "speech_end": 21.62,
+      "confidence": 0.6328,
+      "characters": [
+        {
+          "char": "我",
+          "start": 19.14,
+          "end": 19.44,
+          "confidence": 0.0258
+        },
+        {
+          "char": "们",
+          "start": 19.44,
+          "end": 19.52,
+          "confidence": 0.7157
+        },
+        {
+          "char": "队",
+          "start": 19.52,
+          "end": 19.64,
+          "confidence": 0.4926
+        },
+        {
+          "char": "虽",
+          "start": 19.64,
+          "end": 19.8,
+          "confidence": 0.9708
+        },
+        {
+          "char": "然",
+          "start": 19.8,
+          "end": 19.94,
+          "confidence": 0.9979
+        },
+        {
+          "char": "年",
+          "start": 19.94,
+          "end": 20.06,
+          "confidence": 0.9675
+        },
+        {
+          "char": "轻",
+          "start": 20.06,
+          "end": 20.32,
+          "confidence": 0.9893
+        },
+        {
+          "char": "但",
+          "start": 20.68,
+          "end": 20.72,
+          "confidence": 0.1293
+        },
+        {
+          "char": "是",
+          "start": 20.72,
+          "end": 20.86,
+          "confidence": 0.044
+        },
+        {
+          "char": "配",
+          "start": 20.86,
+          "end": 20.96,
+          "confidence": 0.9952
+        },
+        {
+          "char": "合",
+          "start": 20.96,
+          "end": 21.1,
+          "confidence": 0.9983
+        },
+        {
+          "char": "得",
+          "start": 21.1,
+          "end": 21.18,
+          "confidence": 0.4586
+        },
+        {
+          "char": "很",
+          "start": 21.18,
+          "end": 21.36,
+          "confidence": 0.112
+        },
+        {
+          "char": "好",
+          "start": 21.36,
+          "end": 21.62,
+          "confidence": 0.9621
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23029
+    },
+    {
+      "no": 566,
+      "kind": "word",
+      "text": "队员",
+      "spoken_text": "队员。",
+      "pinyin": "duìyuán",
+      "source_chunk": 28,
+      "speech_start": 22.04,
+      "speech_end": 22.5,
+      "confidence": 0.8569,
+      "characters": [
+        {
+          "char": "队",
+          "start": 22.04,
+          "end": 22.24,
+          "confidence": 0.7441
+        },
+        {
+          "char": "员",
+          "start": 22.24,
+          "end": 22.5,
+          "confidence": 0.9697
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.31321
+    },
+    {
+      "no": 566,
+      "kind": "example",
+      "text": "每位队员都有自己的任务，不能只顾自己。",
+      "spoken_text": "每位队员都有自己的任务，不能只顾自己。",
+      "pinyin": "Měi wèi duìyuán dōu yǒu zìjǐ de rènwu, bùnéng zhǐgù zìjǐ.",
+      "source_chunk": 28,
+      "speech_start": 23.02,
+      "speech_end": 25.86,
+      "confidence": 0.67,
+      "characters": [
+        {
+          "char": "每",
+          "start": 23.02,
+          "end": 23.24,
+          "confidence": 0.9556
+        },
+        {
+          "char": "位",
+          "start": 23.24,
+          "end": 23.38,
+          "confidence": 0.8357
+        },
+        {
+          "char": "队",
+          "start": 23.38,
+          "end": 23.54,
+          "confidence": 0.993
+        },
+        {
+          "char": "员",
+          "start": 23.54,
+          "end": 23.72,
+          "confidence": 0.998
+        },
+        {
+          "char": "都",
+          "start": 23.72,
+          "end": 23.86,
+          "confidence": 0.0525
+        },
+        {
+          "char": "有",
+          "start": 23.86,
+          "end": 23.98,
+          "confidence": 0.953
+        },
+        {
+          "char": "自",
+          "start": 23.98,
+          "end": 24.12,
+          "confidence": 0.0015
+        },
+        {
+          "char": "己",
+          "start": 24.12,
+          "end": 24.22,
+          "confidence": 0.0198
+        },
+        {
+          "char": "的",
+          "start": 24.22,
+          "end": 24.32,
+          "confidence": 0.9279
+        },
+        {
+          "char": "任",
+          "start": 24.32,
+          "end": 24.46,
+          "confidence": 0.9606
+        },
+        {
+          "char": "务",
+          "start": 24.46,
+          "end": 24.68,
+          "confidence": 0.9983
+        },
+        {
+          "char": "不",
+          "start": 25.0,
+          "end": 25.06,
+          "confidence": 0.0884
+        },
+        {
+          "char": "能",
+          "start": 25.06,
+          "end": 25.16,
+          "confidence": 0.7931
+        },
+        {
+          "char": "只",
+          "start": 25.16,
+          "end": 25.36,
+          "confidence": 0.9546
+        },
+        {
+          "char": "顾",
+          "start": 25.36,
+          "end": 25.48,
+          "confidence": 0.8534
+        },
+        {
+          "char": "自",
+          "start": 25.48,
+          "end": 25.68,
+          "confidence": 0.0162
+        },
+        {
+          "char": "己",
+          "start": 25.68,
+          "end": 25.86,
+          "confidence": 0.9885
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.28438
+    },
+    {
+      "no": 567,
+      "kind": "word",
+      "text": "队长",
+      "spoken_text": "队长。",
+      "pinyin": "duìzhǎng",
+      "source_chunk": 28,
+      "speech_start": 26.17,
+      "speech_end": 26.71,
+      "confidence": 0.8125,
+      "characters": [
+        {
+          "char": "队",
+          "start": 26.17,
+          "end": 26.47,
+          "confidence": 0.6326
+        },
+        {
+          "char": "长",
+          "start": 26.47,
+          "end": 26.71,
+          "confidence": 0.9924
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21108
+    },
+    {
+      "no": 567,
+      "kind": "example",
+      "text": "队长鼓励大家，不到最后不能放弃。",
+      "spoken_text": "队长鼓励大家，不到最后不能放弃。",
+      "pinyin": "Duìzhǎng gǔlì dàjiā, búdào zuìhòu bùnéng fàngqì.",
+      "source_chunk": 28,
+      "speech_start": 27.05,
+      "speech_end": 29.83,
+      "confidence": 0.7437,
+      "characters": [
+        {
+          "char": "队",
+          "start": 27.05,
+          "end": 27.41,
+          "confidence": 0.9603
+        },
+        {
+          "char": "长",
+          "start": 27.41,
+          "end": 27.55,
+          "confidence": 0.9984
+        },
+        {
+          "char": "鼓",
+          "start": 27.55,
+          "end": 27.75,
+          "confidence": 0.9453
+        },
+        {
+          "char": "励",
+          "start": 27.75,
+          "end": 27.87,
+          "confidence": 0.7762
+        },
+        {
+          "char": "大",
+          "start": 27.87,
+          "end": 28.05,
+          "confidence": 0.0018
+        },
+        {
+          "char": "家",
+          "start": 28.05,
+          "end": 28.25,
+          "confidence": 0.6565
+        },
+        {
+          "char": "不",
+          "start": 28.59,
+          "end": 28.67,
+          "confidence": 0.2604
+        },
+        {
+          "char": "到",
+          "start": 28.67,
+          "end": 28.75,
+          "confidence": 0.8146
+        },
+        {
+          "char": "最",
+          "start": 28.75,
+          "end": 28.93,
+          "confidence": 0.9625
+        },
+        {
+          "char": "后",
+          "start": 28.93,
+          "end": 29.11,
+          "confidence": 0.9982
+        },
+        {
+          "char": "不",
+          "start": 29.11,
+          "end": 29.27,
+          "confidence": 0.1038
+        },
+        {
+          "char": "能",
+          "start": 29.27,
+          "end": 29.39,
+          "confidence": 0.9616
+        },
+        {
+          "char": "放",
+          "start": 29.39,
+          "end": 29.55,
+          "confidence": 0.9974
+        },
+        {
+          "char": "弃",
+          "start": 29.55,
+          "end": 29.83,
+          "confidence": 0.975
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20969
+    },
+    {
+      "no": 568,
+      "kind": "word",
+      "text": "球队",
+      "spoken_text": "球队。",
+      "pinyin": "qiúduì",
+      "source_chunk": 28,
+      "speech_start": 30.27,
+      "speech_end": 30.67,
+      "confidence": 0.8308,
+      "characters": [
+        {
+          "char": "球",
+          "start": 30.27,
+          "end": 30.45,
+          "confidence": 0.6664
+        },
+        {
+          "char": "队",
+          "start": 30.45,
+          "end": 30.67,
+          "confidence": 0.9953
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.14048
+    },
+    {
+      "no": 568,
+      "kind": "example",
+      "text": "这支球队上次输了，这次准备再试一次。",
+      "spoken_text": "这支球队上次输了，这次准备再试一次。",
+      "pinyin": "Zhè zhī qiúduì shàngcì shū le, zhè cì zhǔnbèi zài shì yí cì.",
+      "source_chunk": 28,
+      "speech_start": 30.97,
+      "speech_end": 33.83,
+      "confidence": 0.8476,
+      "characters": [
+        {
+          "char": "这",
+          "start": 30.97,
+          "end": 31.21,
+          "confidence": 0.9701
+        },
+        {
+          "char": "支",
+          "start": 31.21,
+          "end": 31.31,
+          "confidence": 0.4837
+        },
+        {
+          "char": "球",
+          "start": 31.31,
+          "end": 31.47,
+          "confidence": 0.999
+        },
+        {
+          "char": "队",
+          "start": 31.47,
+          "end": 31.63,
+          "confidence": 0.9994
+        },
+        {
+          "char": "上",
+          "start": 31.63,
+          "end": 31.79,
+          "confidence": 0.9897
+        },
+        {
+          "char": "次",
+          "start": 31.79,
+          "end": 31.97,
+          "confidence": 0.9958
+        },
+        {
+          "char": "输",
+          "start": 31.97,
+          "end": 32.15,
+          "confidence": 0.9532
+        },
+        {
+          "char": "了",
+          "start": 32.15,
+          "end": 32.35,
+          "confidence": 0.9977
+        },
+        {
+          "char": "这",
+          "start": 32.67,
+          "end": 32.77,
+          "confidence": 0.5934
+        },
+        {
+          "char": "次",
+          "start": 32.77,
+          "end": 32.91,
+          "confidence": 0.9525
+        },
+        {
+          "char": "准",
+          "start": 32.91,
+          "end": 33.05,
+          "confidence": 0.9897
+        },
+        {
+          "char": "备",
+          "start": 33.05,
+          "end": 33.15,
+          "confidence": 0.9989
+        },
+        {
+          "char": "再",
+          "start": 33.15,
+          "end": 33.31,
+          "confidence": 0.9576
+        },
+        {
+          "char": "试",
+          "start": 33.31,
+          "end": 33.53,
+          "confidence": 0.8721
+        },
+        {
+          "char": "一",
+          "start": 33.53,
+          "end": 33.67,
+          "confidence": 0.003
+        },
+        {
+          "char": "次",
+          "start": 33.67,
+          "end": 33.83,
+          "confidence": 0.8051
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20861
+    },
+    {
+      "no": 569,
+      "kind": "word",
+      "text": "球迷",
+      "spoken_text": "球迷。",
+      "pinyin": "qiúmí",
+      "source_chunk": 28,
+      "speech_start": 34.31,
+      "speech_end": 34.77,
+      "confidence": 0.8015,
+      "characters": [
+        {
+          "char": "球",
+          "start": 34.31,
+          "end": 34.51,
+          "confidence": 0.6576
+        },
+        {
+          "char": "迷",
+          "start": 34.51,
+          "end": 34.77,
+          "confidence": 0.9454
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.28644
+    },
+    {
+      "no": 569,
+      "kind": "example",
+      "text": "比赛还没开始，球迷们就已经坐满了看台。",
+      "spoken_text": "比赛还没开始，球迷们就已经坐满了看台。",
+      "pinyin": "Bǐsài hái méi kāishǐ, qiúmímen jiù yǐjīng zuòmǎn le kàntái.",
+      "source_chunk": 28,
+      "speech_start": 35.27,
+      "speech_end": 38.27,
+      "confidence": 0.6174,
+      "characters": [
+        {
+          "char": "比",
+          "start": 35.27,
+          "end": 35.57,
+          "confidence": 0.9946
+        },
+        {
+          "char": "赛",
+          "start": 35.57,
+          "end": 35.71,
+          "confidence": 0.9827
+        },
+        {
+          "char": "还",
+          "start": 35.71,
+          "end": 35.85,
+          "confidence": 0.9927
+        },
+        {
+          "char": "没",
+          "start": 35.85,
+          "end": 35.95,
+          "confidence": 0.9828
+        },
+        {
+          "char": "开",
+          "start": 35.95,
+          "end": 36.11,
+          "confidence": 0.0249
+        },
+        {
+          "char": "始",
+          "start": 36.11,
+          "end": 36.39,
+          "confidence": 0.0578
+        },
+        {
+          "char": "球",
+          "start": 36.79,
+          "end": 36.89,
+          "confidence": 0.0214
+        },
+        {
+          "char": "迷",
+          "start": 36.89,
+          "end": 36.99,
+          "confidence": 0.9903
+        },
+        {
+          "char": "们",
+          "start": 36.99,
+          "end": 37.09,
+          "confidence": 0.9235
+        },
+        {
+          "char": "就",
+          "start": 37.09,
+          "end": 37.21,
+          "confidence": 0.9405
+        },
+        {
+          "char": "已",
+          "start": 37.21,
+          "end": 37.39,
+          "confidence": 0.0008
+        },
+        {
+          "char": "经",
+          "start": 37.39,
+          "end": 37.47,
+          "confidence": 0.0002
+        },
+        {
+          "char": "坐",
+          "start": 37.47,
+          "end": 37.61,
+          "confidence": 0.0079
+        },
+        {
+          "char": "满",
+          "start": 37.61,
+          "end": 37.75,
+          "confidence": 0.808
+        },
+        {
+          "char": "了",
+          "start": 37.75,
+          "end": 37.87,
+          "confidence": 0.9736
+        },
+        {
+          "char": "看",
+          "start": 37.87,
+          "end": 38.01,
+          "confidence": 0.953
+        },
+        {
+          "char": "台",
+          "start": 38.01,
+          "end": 38.27,
+          "confidence": 0.8409
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21457
+    },
+    {
+      "no": 570,
+      "kind": "word",
+      "text": "会员",
+      "spoken_text": "会员。",
+      "pinyin": "huìyuán",
+      "source_chunk": 28,
+      "speech_start": 38.73,
+      "speech_end": 39.23,
+      "confidence": 0.8814,
+      "characters": [
+        {
+          "char": "会",
+          "start": 38.73,
+          "end": 38.93,
+          "confidence": 0.7756
+        },
+        {
+          "char": "员",
+          "start": 38.93,
+          "end": 39.23,
+          "confidence": 0.9873
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24213
+    },
+    {
+      "no": 570,
+      "kind": "example",
+      "text": "成为会员后，可以免费使用这里的设备。",
+      "spoken_text": "成为会员后，可以免费使用这里的设备。",
+      "pinyin": "Chéngwéi huìyuán hòu, kěyǐ miǎnfèi shǐyòng zhèlǐ de shèbèi.",
+      "source_chunk": 28,
+      "speech_start": 39.47,
+      "speech_end": 42.27,
+      "confidence": 0.7862,
+      "characters": [
+        {
+          "char": "成",
+          "start": 39.47,
+          "end": 39.71,
+          "confidence": 0.9766
+        },
+        {
+          "char": "为",
+          "start": 39.71,
+          "end": 39.83,
+          "confidence": 0.9941
+        },
+        {
+          "char": "会",
+          "start": 39.83,
+          "end": 39.99,
+          "confidence": 0.9983
+        },
+        {
+          "char": "员",
+          "start": 39.99,
+          "end": 40.21,
+          "confidence": 0.9994
+        },
+        {
+          "char": "后",
+          "start": 40.21,
+          "end": 40.39,
+          "confidence": 0.9882
+        },
+        {
+          "char": "可",
+          "start": 40.71,
+          "end": 40.83,
+          "confidence": 0.047
+        },
+        {
+          "char": "以",
+          "start": 40.83,
+          "end": 40.93,
+          "confidence": 0.0194
+        },
+        {
+          "char": "免",
+          "start": 40.93,
+          "end": 41.05,
+          "confidence": 0.9945
+        },
+        {
+          "char": "费",
+          "start": 41.05,
+          "end": 41.25,
+          "confidence": 0.9887
+        },
+        {
+          "char": "使",
+          "start": 41.25,
+          "end": 41.45,
+          "confidence": 0.8752
+        },
+        {
+          "char": "用",
+          "start": 41.45,
+          "end": 41.61,
+          "confidence": 0.9986
+        },
+        {
+          "char": "这",
+          "start": 41.61,
+          "end": 41.71,
+          "confidence": 0.0108
+        },
+        {
+          "char": "里",
+          "start": 41.71,
+          "end": 41.81,
+          "confidence": 0.7492
+        },
+        {
+          "char": "的",
+          "start": 41.81,
+          "end": 41.97,
+          "confidence": 0.9572
+        },
+        {
+          "char": "设",
+          "start": 41.97,
+          "end": 42.09,
+          "confidence": 0.9846
+        },
+        {
+          "char": "备",
+          "start": 42.09,
+          "end": 42.27,
+          "confidence": 0.9979
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25581
+    },
+    {
+      "no": 571,
+      "kind": "word",
+      "text": "大赛",
+      "spoken_text": "大赛。",
+      "pinyin": "dàsài",
+      "source_chunk": 28,
+      "speech_start": 42.55,
+      "speech_end": 43.05,
+      "confidence": 0.8756,
+      "characters": [
+        {
+          "char": "大",
+          "start": 42.55,
+          "end": 42.83,
+          "confidence": 0.7799
+        },
+        {
+          "char": "赛",
+          "start": 42.83,
+          "end": 43.05,
+          "confidence": 0.9713
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18637
+    },
+    {
+      "no": 571,
+      "kind": "example",
+      "text": "为了参加这次大赛，他准备了半年。",
+      "spoken_text": "为了参加这次大赛，他准备了半年。",
+      "pinyin": "Wèile cānjiā zhè cì dàsài, tā zhǔnbèi le bàn nián.",
+      "source_chunk": 28,
+      "speech_start": 43.61,
+      "speech_end": 46.07,
+      "confidence": 0.9455,
+      "characters": [
+        {
+          "char": "为",
+          "start": 43.61,
+          "end": 43.83,
+          "confidence": 0.9923
+        },
+        {
+          "char": "了",
+          "start": 43.83,
+          "end": 43.93,
+          "confidence": 0.9966
+        },
+        {
+          "char": "参",
+          "start": 43.93,
+          "end": 44.05,
+          "confidence": 0.9941
+        },
+        {
+          "char": "加",
+          "start": 44.05,
+          "end": 44.19,
+          "confidence": 0.9992
+        },
+        {
+          "char": "这",
+          "start": 44.19,
+          "end": 44.33,
+          "confidence": 0.9884
+        },
+        {
+          "char": "次",
+          "start": 44.33,
+          "end": 44.45,
+          "confidence": 0.9819
+        },
+        {
+          "char": "大",
+          "start": 44.45,
+          "end": 44.61,
+          "confidence": 0.9688
+        },
+        {
+          "char": "赛",
+          "start": 44.61,
+          "end": 44.85,
+          "confidence": 0.9973
+        },
+        {
+          "char": "他",
+          "start": 45.19,
+          "end": 45.27,
+          "confidence": 0.3417
+        },
+        {
+          "char": "准",
+          "start": 45.27,
+          "end": 45.43,
+          "confidence": 0.9969
+        },
+        {
+          "char": "备",
+          "start": 45.43,
+          "end": 45.55,
+          "confidence": 0.9991
+        },
+        {
+          "char": "了",
+          "start": 45.55,
+          "end": 45.65,
+          "confidence": 0.9908
+        },
+        {
+          "char": "半",
+          "start": 45.65,
+          "end": 45.79,
+          "confidence": 0.995
+        },
+        {
+          "char": "年",
+          "start": 45.79,
+          "end": 46.07,
+          "confidence": 0.9951
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23771
+    },
+    {
+      "no": 572,
+      "kind": "word",
+      "text": "参赛",
+      "spoken_text": "参赛。",
+      "pinyin": "cānsài",
+      "source_chunk": 28,
+      "speech_start": 46.45,
+      "speech_end": 46.81,
+      "confidence": 0.9776,
+      "characters": [
+        {
+          "char": "参",
+          "start": 46.45,
+          "end": 46.59,
+          "confidence": 0.9605
+        },
+        {
+          "char": "赛",
+          "start": 46.59,
+          "end": 46.81,
+          "confidence": 0.9947
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19444
+    },
+    {
+      "no": 572,
+      "kind": "example",
+      "text": "这是她第一次参赛，能完成比赛就很满意。",
+      "spoken_text": "这是她第一次参赛，能完成比赛就很满意。",
+      "pinyin": "Zhè shì tā dìyīcì cānsài, néng wánchéng bǐsài jiù hěn mǎnyì.",
+      "source_chunk": 28,
+      "speech_start": 47.15,
+      "speech_end": 50.39,
+      "confidence": 0.6044,
+      "characters": [
+        {
+          "char": "这",
+          "start": 47.15,
+          "end": 47.35,
+          "confidence": 0.0333
+        },
+        {
+          "char": "是",
+          "start": 47.35,
+          "end": 47.47,
+          "confidence": 0.4244
+        },
+        {
+          "char": "她",
+          "start": 47.47,
+          "end": 47.57,
+          "confidence": 0.0041
+        },
+        {
+          "char": "第",
+          "start": 47.57,
+          "end": 47.73,
+          "confidence": 0.0183
+        },
+        {
+          "char": "一",
+          "start": 47.73,
+          "end": 47.87,
+          "confidence": 0.0199
+        },
+        {
+          "char": "次",
+          "start": 47.87,
+          "end": 47.97,
+          "confidence": 0.924
+        },
+        {
+          "char": "参",
+          "start": 47.97,
+          "end": 48.17,
+          "confidence": 0.9889
+        },
+        {
+          "char": "赛",
+          "start": 48.17,
+          "end": 48.43,
+          "confidence": 0.9992
+        },
+        {
+          "char": "能",
+          "start": 48.85,
+          "end": 48.97,
+          "confidence": 0.9669
+        },
+        {
+          "char": "完",
+          "start": 48.97,
+          "end": 49.09,
+          "confidence": 0.0022
+        },
+        {
+          "char": "成",
+          "start": 49.09,
+          "end": 49.27,
+          "confidence": 0.1669
+        },
+        {
+          "char": "比",
+          "start": 49.27,
+          "end": 49.43,
+          "confidence": 0.9984
+        },
+        {
+          "char": "赛",
+          "start": 49.43,
+          "end": 49.65,
+          "confidence": 0.9995
+        },
+        {
+          "char": "就",
+          "start": 49.65,
+          "end": 49.85,
+          "confidence": 0.7963
+        },
+        {
+          "char": "很",
+          "start": 49.85,
+          "end": 49.99,
+          "confidence": 0.9436
+        },
+        {
+          "char": "满",
+          "start": 49.99,
+          "end": 50.17,
+          "confidence": 0.9904
+        },
+        {
+          "char": "意",
+          "start": 50.17,
+          "end": 50.39,
+          "confidence": 0.998
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22908
+    },
+    {
+      "no": 573,
+      "kind": "word",
+      "text": "竞争",
+      "spoken_text": "竞争。",
+      "pinyin": "jìngzhēng",
+      "source_chunk": 28,
+      "speech_start": 50.7,
+      "speech_end": 51.16,
+      "confidence": 0.8869,
+      "characters": [
+        {
+          "char": "竞",
+          "start": 50.7,
+          "end": 50.94,
+          "confidence": 0.8536
+        },
+        {
+          "char": "争",
+          "start": 50.94,
+          "end": 51.16,
+          "confidence": 0.9201
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.28051
+    },
+    {
+      "no": 573,
+      "kind": "example",
+      "text": "竞争虽然激烈，我们仍然有成功的机会。",
+      "spoken_text": "竞争虽然激烈，我们仍然有成功的机会。",
+      "pinyin": "Jìngzhēng suīrán jīliè, wǒmen réngrán yǒu chénggōng de jīhuì.",
+      "source_chunk": 28,
+      "speech_start": 51.64,
+      "speech_end": 54.42,
+      "confidence": 0.8918,
+      "characters": [
+        {
+          "char": "竞",
+          "start": 51.64,
+          "end": 51.96,
+          "confidence": 0.9995
+        },
+        {
+          "char": "争",
+          "start": 51.96,
+          "end": 52.12,
+          "confidence": 0.9999
+        },
+        {
+          "char": "虽",
+          "start": 52.12,
+          "end": 52.26,
+          "confidence": 0.9815
+        },
+        {
+          "char": "然",
+          "start": 52.26,
+          "end": 52.42,
+          "confidence": 0.9976
+        },
+        {
+          "char": "激",
+          "start": 52.42,
+          "end": 52.6,
+          "confidence": 0.8958
+        },
+        {
+          "char": "烈",
+          "start": 52.6,
+          "end": 52.78,
+          "confidence": 0.9814
+        },
+        {
+          "char": "我",
+          "start": 53.18,
+          "end": 53.18,
+          "confidence": 0.0126
+        },
+        {
+          "char": "们",
+          "start": 53.18,
+          "end": 53.24,
+          "confidence": 0.5613
+        },
+        {
+          "char": "仍",
+          "start": 53.24,
+          "end": 53.4,
+          "confidence": 0.9942
+        },
+        {
+          "char": "然",
+          "start": 53.4,
+          "end": 53.54,
+          "confidence": 0.9309
+        },
+        {
+          "char": "有",
+          "start": 53.54,
+          "end": 53.66,
+          "confidence": 0.9888
+        },
+        {
+          "char": "成",
+          "start": 53.66,
+          "end": 53.82,
+          "confidence": 0.9942
+        },
+        {
+          "char": "功",
+          "start": 53.82,
+          "end": 53.98,
+          "confidence": 0.9983
+        },
+        {
+          "char": "的",
+          "start": 53.98,
+          "end": 54.1,
+          "confidence": 0.9821
+        },
+        {
+          "char": "机",
+          "start": 54.1,
+          "end": 54.24,
+          "confidence": 0.9548
+        },
+        {
+          "char": "会",
+          "start": 54.24,
+          "end": 54.42,
+          "confidence": 0.9954
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.27613
+    },
+    {
+      "no": 574,
+      "kind": "example",
+      "text": "输了比赛并不可怕，重要的是找到原因。",
+      "spoken_text": "输了比赛并不可怕，重要的是找到原因。",
+      "pinyin": "Shū le bǐsài bìng bù kěpà, zhòngyào de shì zhǎodào yuányīn.",
+      "source_chunk": 28,
+      "speech_start": 54.82,
+      "speech_end": 57.68,
+      "confidence": 0.7062,
+      "characters": [
+        {
+          "char": "输",
+          "start": 54.82,
+          "end": 55.1,
+          "confidence": 0.6405
+        },
+        {
+          "char": "了",
+          "start": 55.1,
+          "end": 55.2,
+          "confidence": 0.9853
+        },
+        {
+          "char": "比",
+          "start": 55.2,
+          "end": 55.32,
+          "confidence": 0.9995
+        },
+        {
+          "char": "赛",
+          "start": 55.32,
+          "end": 55.54,
+          "confidence": 0.9994
+        },
+        {
+          "char": "并",
+          "start": 55.54,
+          "end": 55.74,
+          "confidence": 0.8206
+        },
+        {
+          "char": "不",
+          "start": 55.74,
+          "end": 55.88,
+          "confidence": 0.9969
+        },
+        {
+          "char": "可",
+          "start": 55.88,
+          "end": 56.04,
+          "confidence": 0.9904
+        },
+        {
+          "char": "怕",
+          "start": 56.04,
+          "end": 56.2,
+          "confidence": 0.9969
+        },
+        {
+          "char": "重",
+          "start": 56.58,
+          "end": 56.7,
+          "confidence": 0.0467
+        },
+        {
+          "char": "要",
+          "start": 56.7,
+          "end": 56.82,
+          "confidence": 0.516
+        },
+        {
+          "char": "的",
+          "start": 56.82,
+          "end": 56.92,
+          "confidence": 0.1027
+        },
+        {
+          "char": "是",
+          "start": 56.92,
+          "end": 57.04,
+          "confidence": 0.812
+        },
+        {
+          "char": "找",
+          "start": 57.04,
+          "end": 57.2,
+          "confidence": 0.9796
+        },
+        {
+          "char": "到",
+          "start": 57.2,
+          "end": 57.32,
+          "confidence": 0.9801
+        },
+        {
+          "char": "原",
+          "start": 57.32,
+          "end": 57.48,
+          "confidence": 0.002
+        },
+        {
+          "char": "因",
+          "start": 57.48,
+          "end": 57.68,
+          "confidence": 0.4302
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23487
+    },
+    {
+      "no": 575,
+      "kind": "example",
+      "text": "只要再赢一场，我们就能进入决赛。",
+      "spoken_text": "只要再赢一场，我们就能进入决赛。",
+      "pinyin": "Zhǐyào zài yíng yì chǎng, wǒmen jiù néng jìnrù juésài.",
+      "source_chunk": 28,
+      "speech_start": 58.12,
+      "speech_end": 60.46,
+      "confidence": 0.8413,
+      "characters": [
+        {
+          "char": "只",
+          "start": 58.12,
+          "end": 58.32,
+          "confidence": 0.993
+        },
+        {
+          "char": "要",
+          "start": 58.32,
+          "end": 58.44,
+          "confidence": 0.999
+        },
+        {
+          "char": "再",
+          "start": 58.44,
+          "end": 58.6,
+          "confidence": 0.8515
+        },
+        {
+          "char": "赢",
+          "start": 58.6,
+          "end": 58.76,
+          "confidence": 0.6686
+        },
+        {
+          "char": "一",
+          "start": 58.76,
+          "end": 58.92,
+          "confidence": 0.9838
+        },
+        {
+          "char": "场",
+          "start": 58.92,
+          "end": 59.1,
+          "confidence": 0.9899
+        },
+        {
+          "char": "我",
+          "start": 59.44,
+          "end": 59.46,
+          "confidence": 0.0153
+        },
+        {
+          "char": "们",
+          "start": 59.46,
+          "end": 59.54,
+          "confidence": 0.612
+        },
+        {
+          "char": "就",
+          "start": 59.54,
+          "end": 59.64,
+          "confidence": 0.9633
+        },
+        {
+          "char": "能",
+          "start": 59.64,
+          "end": 59.76,
+          "confidence": 0.9917
+        },
+        {
+          "char": "进",
+          "start": 59.76,
+          "end": 59.9,
+          "confidence": 0.9948
+        },
+        {
+          "char": "入",
+          "start": 59.9,
+          "end": 60.04,
+          "confidence": 0.9999
+        },
+        {
+          "char": "决",
+          "start": 60.04,
+          "end": 60.22,
+          "confidence": 0.7162
+        },
+        {
+          "char": "赛",
+          "start": 60.22,
+          "end": 60.46,
+          "confidence": 0.9993
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21704
+    },
+    {
+      "no": 576,
+      "kind": "word",
+      "text": "赢得",
+      "spoken_text": "赢得。",
+      "pinyin": "yíngdé",
+      "source_chunk": 28,
+      "speech_start": 60.81,
+      "speech_end": 61.17,
+      "confidence": 0.8471,
+      "characters": [
+        {
+          "char": "赢",
+          "start": 60.81,
+          "end": 60.99,
+          "confidence": 0.7238
+        },
+        {
+          "char": "得",
+          "start": 60.99,
+          "end": 61.17,
+          "confidence": 0.9704
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.26402
+    },
+    {
+      "no": 576,
+      "kind": "example",
+      "text": "他的认真态度，赢得了大家的信任。",
+      "spoken_text": "他的认真态度，赢得了大家的信任。",
+      "pinyin": "Tā de rènzhēn tàidu, yíngdé le dàjiā de xìnrèn.",
+      "source_chunk": 28,
+      "speech_start": 61.59,
+      "speech_end": 64.21,
+      "confidence": 0.7184,
+      "characters": [
+        {
+          "char": "他",
+          "start": 61.59,
+          "end": 61.89,
+          "confidence": 0.04
+        },
+        {
+          "char": "的",
+          "start": 61.89,
+          "end": 62.01,
+          "confidence": 0.2906
+        },
+        {
+          "char": "认",
+          "start": 62.01,
+          "end": 62.17,
+          "confidence": 0.984
+        },
+        {
+          "char": "真",
+          "start": 62.17,
+          "end": 62.27,
+          "confidence": 0.9897
+        },
+        {
+          "char": "态",
+          "start": 62.27,
+          "end": 62.55,
+          "confidence": 0.9345
+        },
+        {
+          "char": "度",
+          "start": 62.55,
+          "end": 62.75,
+          "confidence": 0.9977
+        },
+        {
+          "char": "赢",
+          "start": 63.17,
+          "end": 63.27,
+          "confidence": 0.519
+        },
+        {
+          "char": "得",
+          "start": 63.27,
+          "end": 63.37,
+          "confidence": 0.9957
+        },
+        {
+          "char": "了",
+          "start": 63.37,
+          "end": 63.47,
+          "confidence": 0.9481
+        },
+        {
+          "char": "大",
+          "start": 63.47,
+          "end": 63.61,
+          "confidence": 0.003
+        },
+        {
+          "char": "家",
+          "start": 63.61,
+          "end": 63.75,
+          "confidence": 0.5018
+        },
+        {
+          "char": "的",
+          "start": 63.75,
+          "end": 63.85,
+          "confidence": 0.9323
+        },
+        {
+          "char": "信",
+          "start": 63.85,
+          "end": 64.03,
+          "confidence": 0.9797
+        },
+        {
+          "char": "任",
+          "start": 64.03,
+          "end": 64.21,
+          "confidence": 0.9411
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2255
+    },
+    {
+      "no": 577,
+      "kind": "word",
+      "text": "打败",
+      "spoken_text": "打败。",
+      "pinyin": "dǎbài",
+      "source_chunk": 28,
+      "speech_start": 64.61,
+      "speech_end": 65.03,
+      "confidence": 0.9418,
+      "characters": [
+        {
+          "char": "打",
+          "start": 64.61,
+          "end": 64.83,
+          "confidence": 0.9258
+        },
+        {
+          "char": "败",
+          "start": 64.83,
+          "end": 65.03,
+          "confidence": 0.9579
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.14797
+    },
+    {
+      "no": 577,
+      "kind": "example",
+      "text": "这次能打败对手，是大家共同努力的结果。",
+      "spoken_text": "这次能打败对手，是大家共同努力的结果。",
+      "pinyin": "Zhè cì néng dǎbài duìshǒu, shì dàjiā gòngtóng nǔlì de jiéguǒ.",
+      "source_chunk": 28,
+      "speech_start": 65.53,
+      "speech_end": 68.57,
+      "confidence": 0.9079,
+      "characters": [
+        {
+          "char": "这",
+          "start": 65.53,
+          "end": 65.83,
+          "confidence": 0.9783
+        },
+        {
+          "char": "次",
+          "start": 65.83,
+          "end": 65.97,
+          "confidence": 0.988
+        },
+        {
+          "char": "能",
+          "start": 65.97,
+          "end": 66.07,
+          "confidence": 0.9705
+        },
+        {
+          "char": "打",
+          "start": 66.07,
+          "end": 66.27,
+          "confidence": 0.9952
+        },
+        {
+          "char": "败",
+          "start": 66.27,
+          "end": 66.41,
+          "confidence": 0.9978
+        },
+        {
+          "char": "对",
+          "start": 66.41,
+          "end": 66.55,
+          "confidence": 0.9691
+        },
+        {
+          "char": "手",
+          "start": 66.55,
+          "end": 66.77,
+          "confidence": 0.9942
+        },
+        {
+          "char": "是",
+          "start": 67.11,
+          "end": 67.19,
+          "confidence": 0.6593
+        },
+        {
+          "char": "大",
+          "start": 67.19,
+          "end": 67.27,
+          "confidence": 0.0067
+        },
+        {
+          "char": "家",
+          "start": 67.27,
+          "end": 67.43,
+          "confidence": 0.971
+        },
+        {
+          "char": "共",
+          "start": 67.43,
+          "end": 67.59,
+          "confidence": 0.9752
+        },
+        {
+          "char": "同",
+          "start": 67.59,
+          "end": 67.79,
+          "confidence": 0.9946
+        },
+        {
+          "char": "努",
+          "start": 67.79,
+          "end": 67.99,
+          "confidence": 0.9849
+        },
+        {
+          "char": "力",
+          "start": 67.99,
+          "end": 68.11,
+          "confidence": 0.9994
+        },
+        {
+          "char": "的",
+          "start": 68.11,
+          "end": 68.23,
+          "confidence": 0.9893
+        },
+        {
+          "char": "结",
+          "start": 68.23,
+          "end": 68.39,
+          "confidence": 0.9615
+        },
+        {
+          "char": "果",
+          "start": 68.39,
+          "end": 68.57,
+          "confidence": 0.9998
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23883
+    },
+    {
+      "no": 578,
+      "kind": "example",
+      "text": "他拿到了比赛的一等奖，高兴得说不出话。",
+      "spoken_text": "他拿到了比赛的一等奖，高兴得说不出话。",
+      "pinyin": "Tā nádào le bǐsài de yīděngjiǎng, gāoxìng de shuō bu chū huà.",
+      "source_chunk": 28,
+      "speech_start": 68.91,
+      "speech_end": 71.97,
+      "confidence": 0.7389,
+      "characters": [
+        {
+          "char": "他",
+          "start": 68.91,
+          "end": 69.27,
+          "confidence": 0.592
+        },
+        {
+          "char": "拿",
+          "start": 69.27,
+          "end": 69.45,
+          "confidence": 0.9784
+        },
+        {
+          "char": "到",
+          "start": 69.45,
+          "end": 69.57,
+          "confidence": 0.0153
+        },
+        {
+          "char": "了",
+          "start": 69.57,
+          "end": 69.73,
+          "confidence": 0.0805
+        },
+        {
+          "char": "比",
+          "start": 69.73,
+          "end": 69.81,
+          "confidence": 0.9971
+        },
+        {
+          "char": "赛",
+          "start": 69.81,
+          "end": 69.99,
+          "confidence": 0.994
+        },
+        {
+          "char": "的",
+          "start": 69.99,
+          "end": 70.09,
+          "confidence": 0.9771
+        },
+        {
+          "char": "一",
+          "start": 70.09,
+          "end": 70.23,
+          "confidence": 0.7094
+        },
+        {
+          "char": "等",
+          "start": 70.23,
+          "end": 70.35,
+          "confidence": 0.757
+        },
+        {
+          "char": "奖",
+          "start": 70.35,
+          "end": 70.59,
+          "confidence": 0.8578
+        },
+        {
+          "char": "高",
+          "start": 70.99,
+          "end": 71.11,
+          "confidence": 0.6214
+        },
+        {
+          "char": "兴",
+          "start": 71.11,
+          "end": 71.27,
+          "confidence": 0.9317
+        },
+        {
+          "char": "得",
+          "start": 71.27,
+          "end": 71.39,
+          "confidence": 0.0907
+        },
+        {
+          "char": "说",
+          "start": 71.39,
+          "end": 71.55,
+          "confidence": 0.9848
+        },
+        {
+          "char": "不",
+          "start": 71.55,
+          "end": 71.65,
+          "confidence": 0.9949
+        },
+        {
+          "char": "出",
+          "start": 71.65,
+          "end": 71.75,
+          "confidence": 0.9832
+        },
+        {
+          "char": "话",
+          "start": 71.75,
+          "end": 71.97,
+          "confidence": 0.9968
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20162
+    },
+    {
+      "no": 579,
+      "kind": "word",
+      "text": "获奖",
+      "spoken_text": "获奖。",
+      "pinyin": "huòjiǎng",
+      "source_chunk": 28,
+      "speech_start": 72.35,
+      "speech_end": 72.81,
+      "confidence": 0.7676,
+      "characters": [
+        {
+          "char": "获",
+          "start": 72.35,
+          "end": 72.65,
+          "confidence": 0.5614
+        },
+        {
+          "char": "奖",
+          "start": 72.65,
+          "end": 72.81,
+          "confidence": 0.9738
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.17928
+    },
+    {
+      "no": 579,
+      "kind": "example",
+      "text": "得知自己获奖，她马上把消息告诉了家人。",
+      "spoken_text": "得知自己获奖，她马上把消息告诉了家人。",
+      "pinyin": "Dézhī zìjǐ huòjiǎng, tā mǎshàng bǎ xiāoxi gàosu le jiārén.",
+      "source_chunk": 28,
+      "speech_start": 73.27,
+      "speech_end": 76.23,
+      "confidence": 0.6782,
+      "characters": [
+        {
+          "char": "得",
+          "start": 73.27,
+          "end": 73.43,
+          "confidence": 0.6976
+        },
+        {
+          "char": "知",
+          "start": 73.43,
+          "end": 73.57,
+          "confidence": 0.9954
+        },
+        {
+          "char": "自",
+          "start": 73.57,
+          "end": 73.75,
+          "confidence": 0.001
+        },
+        {
+          "char": "己",
+          "start": 73.75,
+          "end": 73.83,
+          "confidence": 0.051
+        },
+        {
+          "char": "获",
+          "start": 73.83,
+          "end": 74.03,
+          "confidence": 0.9684
+        },
+        {
+          "char": "奖",
+          "start": 74.03,
+          "end": 74.21,
+          "confidence": 0.9997
+        },
+        {
+          "char": "她",
+          "start": 74.61,
+          "end": 74.73,
+          "confidence": 0.0208
+        },
+        {
+          "char": "马",
+          "start": 74.73,
+          "end": 74.87,
+          "confidence": 0.9875
+        },
+        {
+          "char": "上",
+          "start": 74.87,
+          "end": 75.05,
+          "confidence": 0.9992
+        },
+        {
+          "char": "把",
+          "start": 75.05,
+          "end": 75.19,
+          "confidence": 0.9899
+        },
+        {
+          "char": "消",
+          "start": 75.19,
+          "end": 75.35,
+          "confidence": 0.9435
+        },
+        {
+          "char": "息",
+          "start": 75.35,
+          "end": 75.49,
+          "confidence": 0.9998
+        },
+        {
+          "char": "告",
+          "start": 75.49,
+          "end": 75.63,
+          "confidence": 0.002
+        },
+        {
+          "char": "诉",
+          "start": 75.63,
+          "end": 75.79,
+          "confidence": 0.0013
+        },
+        {
+          "char": "了",
+          "start": 75.79,
+          "end": 75.89,
+          "confidence": 0.984
+        },
+        {
+          "char": "家",
+          "start": 75.89,
+          "end": 76.03,
+          "confidence": 0.8922
+        },
+        {
+          "char": "人",
+          "start": 76.03,
+          "end": 76.23,
+          "confidence": 0.9954
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21952
+    },
+    {
+      "no": 580,
+      "kind": "word",
+      "text": "加油",
+      "spoken_text": "加油。",
+      "pinyin": "jiāyóu",
+      "source_chunk": 28,
+      "speech_start": 76.61,
+      "speech_end": 77.01,
+      "confidence": 0.0991,
+      "characters": [
+        {
+          "char": "加",
+          "start": 76.61,
+          "end": 76.83,
+          "confidence": 0.0029
+        },
+        {
+          "char": "油",
+          "start": 76.83,
+          "end": 77.01,
+          "confidence": 0.1954
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.31602
+    }
+  ],
+  "windows": [
+    {
+      "first_clip": 0,
+      "last_clip": 4,
+      "start": 0,
+      "end": 11.959999999999999,
+      "text": "这家健身房离公司近，午休时也能去。散步。晚饭后散步时，我们常聊聊白天的事。排球。打排球不仅需要技术，还需要团队合作。"
+    },
+    {
+      "first_clip": 3,
+      "last_clip": 8,
+      "start": 6.49,
+      "end": 19.68,
+      "text": "排球。打排球不仅需要技术，还需要团队合作。乒乓球。他乒乓球打得很好，常代表学校参赛。教练。教练指出了我的问题，让我重新练习。"
+    },
+    {
+      "first_clip": 7,
+      "last_clip": 12,
+      "start": 14.58,
+      "end": 27.58,
+      "text": "教练。教练指出了我的问题，让我重新练习。我们队虽然年轻，但是配合得很好。队员。每位队员都有自己的任务，不能只顾自己。队长。"
+    },
+    {
+      "first_clip": 11,
+      "last_clip": 16,
+      "start": 22.090000000000003,
+      "end": 35.62,
+      "text": "每位队员都有自己的任务，不能只顾自己。队长。队长鼓励大家，不到最后不能放弃。球队。这支球队上次输了，这次准备再试一次。球迷。"
+    },
+    {
+      "first_clip": 15,
+      "last_clip": 20,
+      "start": 30.11,
+      "end": 43.9,
+      "text": "这支球队上次输了，这次准备再试一次。球迷。比赛还没开始，球迷们就已经坐满了看台。会员。成为会员后，可以免费使用这里的设备。大赛。"
+    },
+    {
+      "first_clip": 19,
+      "last_clip": 24,
+      "start": 38.75000000000001,
+      "end": 52.04,
+      "text": "成为会员后，可以免费使用这里的设备。大赛。为了参加这次大赛，他准备了半年。参赛。这是她第一次参赛，能完成比赛就很满意。竞争。"
+    },
+    {
+      "first_clip": 23,
+      "last_clip": 28,
+      "start": 46.339999999999996,
+      "end": 61.83,
+      "text": "这是她第一次参赛，能完成比赛就很满意。竞争。竞争虽然激烈，我们仍然有成功的机会。输了比赛并不可怕，重要的是找到原因。只要再赢一场，我们就能进入决赛。赢得。"
+    },
+    {
+      "first_clip": 27,
+      "last_clip": 32,
+      "start": 56.910000000000004,
+      "end": 72.71000000000001,
+      "text": "只要再赢一场，我们就能进入决赛。赢得。他的认真态度，赢得了大家的信任。打败。这次能打败对手，是大家共同努力的结果。他拿到了比赛的一等奖，高兴得说不出话。"
+    },
+    {
+      "first_clip": 31,
+      "last_clip": 35,
+      "start": 64.61,
+      "end": 77.4,
+      "text": "这次能打败对手，是大家共同努力的结果。他拿到了比赛的一等奖，高兴得说不出话。获奖。得知自己获奖，她马上把消息告诉了家人。加油。"
+    }
+  ],
+  "alerts": []
+}

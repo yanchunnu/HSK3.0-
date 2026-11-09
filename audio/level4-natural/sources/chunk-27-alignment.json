@@ -1,0 +1,2666 @@
+{
+  "chunk": 27,
+  "duration": 79.368,
+  "transcript_match_ratio": 0.9792,
+  "clips": [
+    {
+      "no": 540,
+      "kind": "example",
+      "text": "这里阳光充足，种的花开得特别好。",
+      "spoken_text": "这里阳光充足，种的花开得特别好。",
+      "pinyin": "Zhèlǐ yángguāng chōngzú, zhòng de huā kāi de tèbié hǎo.",
+      "source_chunk": 27,
+      "speech_start": 0.0,
+      "speech_end": 3.02,
+      "confidence": 0.777,
+      "characters": [
+        {
+          "char": "这",
+          "start": 0.0,
+          "end": 0.4,
+          "confidence": 0.0194
+        },
+        {
+          "char": "里",
+          "start": 0.4,
+          "end": 0.52,
+          "confidence": 0.885
+        },
+        {
+          "char": "阳",
+          "start": 0.52,
+          "end": 0.64,
+          "confidence": 0.9017
+        },
+        {
+          "char": "光",
+          "start": 0.64,
+          "end": 0.82,
+          "confidence": 0.9979
+        },
+        {
+          "char": "充",
+          "start": 0.82,
+          "end": 1.04,
+          "confidence": 0.6235
+        },
+        {
+          "char": "足",
+          "start": 1.04,
+          "end": 1.32,
+          "confidence": 0.9801
+        },
+        {
+          "char": "种",
+          "start": 1.66,
+          "end": 1.78,
+          "confidence": 0.3199
+        },
+        {
+          "char": "的",
+          "start": 1.78,
+          "end": 1.88,
+          "confidence": 0.4228
+        },
+        {
+          "char": "花",
+          "start": 1.88,
+          "end": 2.02,
+          "confidence": 0.9854
+        },
+        {
+          "char": "开",
+          "start": 2.02,
+          "end": 2.22,
+          "confidence": 0.9778
+        },
+        {
+          "char": "得",
+          "start": 2.22,
+          "end": 2.32,
+          "confidence": 0.7969
+        },
+        {
+          "char": "特",
+          "start": 2.32,
+          "end": 2.52,
+          "confidence": 0.9712
+        },
+        {
+          "char": "别",
+          "start": 2.52,
+          "end": 2.7,
+          "confidence": 0.9997
+        },
+        {
+          "char": "好",
+          "start": 2.7,
+          "end": 3.02,
+          "confidence": 0.9972
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19871
+    },
+    {
+      "no": 541,
+      "kind": "word",
+      "text": "星星",
+      "spoken_text": "星星。",
+      "pinyin": "xīngxing",
+      "source_chunk": 27,
+      "speech_start": 3.32,
+      "speech_end": 3.62,
+      "confidence": 0.5016,
+      "characters": [
+        {
+          "char": "星",
+          "start": 3.32,
+          "end": 3.44,
+          "confidence": 0.1218
+        },
+        {
+          "char": "星",
+          "start": 3.44,
+          "end": 3.62,
+          "confidence": 0.8815
+        }
+      ],
+      "independent_asr_coverage": 0.0,
+      "rms": 0.18763
+    },
+    {
+      "no": 541,
+      "kind": "example",
+      "text": "乡下的夜空很晴朗，能看见很多星星。",
+      "spoken_text": "乡下的夜空很晴朗，能看见很多星星。",
+      "pinyin": "Xiāngxià de yèkōng hěn qínglǎng, néng kànjiàn hěn duō xīngxing.",
+      "source_chunk": 27,
+      "speech_start": 4.18,
+      "speech_end": 7.02,
+      "confidence": 0.833,
+      "characters": [
+        {
+          "char": "乡",
+          "start": 4.18,
+          "end": 4.44,
+          "confidence": 0.5078
+        },
+        {
+          "char": "下",
+          "start": 4.44,
+          "end": 4.6,
+          "confidence": 0.9874
+        },
+        {
+          "char": "的",
+          "start": 4.6,
+          "end": 4.7,
+          "confidence": 0.986
+        },
+        {
+          "char": "夜",
+          "start": 4.7,
+          "end": 4.82,
+          "confidence": 0.9702
+        },
+        {
+          "char": "空",
+          "start": 4.82,
+          "end": 4.96,
+          "confidence": 0.9967
+        },
+        {
+          "char": "很",
+          "start": 4.96,
+          "end": 5.2,
+          "confidence": 0.9904
+        },
+        {
+          "char": "晴",
+          "start": 5.2,
+          "end": 5.4,
+          "confidence": 0.5482
+        },
+        {
+          "char": "朗",
+          "start": 5.4,
+          "end": 5.62,
+          "confidence": 0.6866
+        },
+        {
+          "char": "能",
+          "start": 6.0,
+          "end": 6.02,
+          "confidence": 0.9267
+        },
+        {
+          "char": "看",
+          "start": 6.02,
+          "end": 6.16,
+          "confidence": 0.9509
+        },
+        {
+          "char": "见",
+          "start": 6.16,
+          "end": 6.28,
+          "confidence": 0.9974
+        },
+        {
+          "char": "很",
+          "start": 6.28,
+          "end": 6.46,
+          "confidence": 0.005
+        },
+        {
+          "char": "多",
+          "start": 6.46,
+          "end": 6.64,
+          "confidence": 0.9569
+        },
+        {
+          "char": "星",
+          "start": 6.64,
+          "end": 6.82,
+          "confidence": 0.9923
+        },
+        {
+          "char": "星",
+          "start": 6.82,
+          "end": 7.02,
+          "confidence": 0.9926
+        }
+      ],
+      "independent_asr_coverage": 0.867,
+      "rms": 0.23933
+    },
+    {
+      "no": 542,
+      "kind": "example",
+      "text": "天上的云越来越厚，恐怕快要下雨了。",
+      "spoken_text": "天上的云越来越厚，恐怕快要下雨了。",
+      "pinyin": "Tiānshàng de yún yuèláiyuè hòu, kǒngpà kuàiyào xiàyǔ le.",
+      "source_chunk": 27,
+      "speech_start": 7.56,
+      "speech_end": 10.32,
+      "confidence": 0.9201,
+      "characters": [
+        {
+          "char": "天",
+          "start": 7.56,
+          "end": 7.78,
+          "confidence": 0.9796
+        },
+        {
+          "char": "上",
+          "start": 7.78,
+          "end": 7.94,
+          "confidence": 0.9902
+        },
+        {
+          "char": "的",
+          "start": 7.94,
+          "end": 8.06,
+          "confidence": 0.9743
+        },
+        {
+          "char": "云",
+          "start": 8.06,
+          "end": 8.24,
+          "confidence": 0.6753
+        },
+        {
+          "char": "越",
+          "start": 8.24,
+          "end": 8.38,
+          "confidence": 0.6249
+        },
+        {
+          "char": "来",
+          "start": 8.38,
+          "end": 8.54,
+          "confidence": 0.9953
+        },
+        {
+          "char": "越",
+          "start": 8.54,
+          "end": 8.68,
+          "confidence": 0.9841
+        },
+        {
+          "char": "厚",
+          "start": 8.68,
+          "end": 8.94,
+          "confidence": 0.8496
+        },
+        {
+          "char": "恐",
+          "start": 9.3,
+          "end": 9.4,
+          "confidence": 0.9286
+        },
+        {
+          "char": "怕",
+          "start": 9.4,
+          "end": 9.52,
+          "confidence": 0.9963
+        },
+        {
+          "char": "快",
+          "start": 9.52,
+          "end": 9.62,
+          "confidence": 0.9697
+        },
+        {
+          "char": "要",
+          "start": 9.62,
+          "end": 9.78,
+          "confidence": 0.9977
+        },
+        {
+          "char": "下",
+          "start": 9.78,
+          "end": 9.94,
+          "confidence": 0.8818
+        },
+        {
+          "char": "雨",
+          "start": 9.94,
+          "end": 10.12,
+          "confidence": 0.9904
+        },
+        {
+          "char": "了",
+          "start": 10.12,
+          "end": 10.32,
+          "confidence": 0.9642
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22411
+    },
+    {
+      "no": 543,
+      "kind": "word",
+      "text": "风景",
+      "spoken_text": "风景。",
+      "pinyin": "fēngjǐng",
+      "source_chunk": 27,
+      "speech_start": 10.65667,
+      "speech_end": 11.01667,
+      "confidence": 0.9135,
+      "characters": [
+        {
+          "char": "风",
+          "start": 10.65667,
+          "end": 10.85667,
+          "confidence": 0.8567
+        },
+        {
+          "char": "景",
+          "start": 10.85667,
+          "end": 11.01667,
+          "confidence": 0.9703
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23424
+    },
+    {
+      "no": 543,
+      "kind": "example",
+      "text": "沿途的风景很美，我们边走边拍照。",
+      "spoken_text": "沿途的风景很美，我们边走边拍照。",
+      "pinyin": "Yántú de fēngjǐng hěn měi, wǒmen biān zǒu biān pāizhào.",
+      "source_chunk": 27,
+      "speech_start": 11.33667,
+      "speech_end": 14.09667,
+      "confidence": 0.8608,
+      "characters": [
+        {
+          "char": "沿",
+          "start": 11.33667,
+          "end": 11.59667,
+          "confidence": 0.5482
+        },
+        {
+          "char": "途",
+          "start": 11.59667,
+          "end": 11.75667,
+          "confidence": 0.9379
+        },
+        {
+          "char": "的",
+          "start": 11.75667,
+          "end": 11.87667,
+          "confidence": 0.9843
+        },
+        {
+          "char": "风",
+          "start": 11.87667,
+          "end": 12.03667,
+          "confidence": 0.9857
+        },
+        {
+          "char": "景",
+          "start": 12.03667,
+          "end": 12.17667,
+          "confidence": 0.9999
+        },
+        {
+          "char": "很",
+          "start": 12.17667,
+          "end": 12.39667,
+          "confidence": 0.9858
+        },
+        {
+          "char": "美",
+          "start": 12.39667,
+          "end": 12.59667,
+          "confidence": 0.9952
+        },
+        {
+          "char": "我",
+          "start": 12.93667,
+          "end": 13.01667,
+          "confidence": 0.0021
+        },
+        {
+          "char": "们",
+          "start": 13.01667,
+          "end": 13.13667,
+          "confidence": 0.7358
+        },
+        {
+          "char": "边",
+          "start": 13.13667,
+          "end": 13.27667,
+          "confidence": 0.9389
+        },
+        {
+          "char": "走",
+          "start": 13.27667,
+          "end": 13.51667,
+          "confidence": 0.97
+        },
+        {
+          "char": "边",
+          "start": 13.51667,
+          "end": 13.67667,
+          "confidence": 0.9816
+        },
+        {
+          "char": "拍",
+          "start": 13.67667,
+          "end": 13.87667,
+          "confidence": 0.9882
+        },
+        {
+          "char": "照",
+          "start": 13.87667,
+          "end": 14.09667,
+          "confidence": 0.9971
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2265
+    },
+    {
+      "no": 544,
+      "kind": "word",
+      "text": "景色",
+      "spoken_text": "景色。",
+      "pinyin": "jǐngsè",
+      "source_chunk": 27,
+      "speech_start": 14.53667,
+      "speech_end": 14.91667,
+      "confidence": 0.9666,
+      "characters": [
+        {
+          "char": "景",
+          "start": 14.53667,
+          "end": 14.65667,
+          "confidence": 0.9337
+        },
+        {
+          "char": "色",
+          "start": 14.65667,
+          "end": 14.91667,
+          "confidence": 0.9994
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.1453
+    },
+    {
+      "no": 544,
+      "kind": "example",
+      "text": "无论哪个季节，这里的景色都很迷人。",
+      "spoken_text": "无论哪个季节，这里的景色都很迷人。",
+      "pinyin": "Wúlùn nǎge jìjié, zhèlǐ de jǐngsè dōu hěn mírén.",
+      "source_chunk": 27,
+      "speech_start": 15.25667,
+      "speech_end": 18.17667,
+      "confidence": 0.9074,
+      "characters": [
+        {
+          "char": "无",
+          "start": 15.25667,
+          "end": 15.55667,
+          "confidence": 0.9508
+        },
+        {
+          "char": "论",
+          "start": 15.55667,
+          "end": 15.67667,
+          "confidence": 0.9964
+        },
+        {
+          "char": "哪",
+          "start": 15.67667,
+          "end": 15.81667,
+          "confidence": 0.9302
+        },
+        {
+          "char": "个",
+          "start": 15.81667,
+          "end": 15.97667,
+          "confidence": 0.9862
+        },
+        {
+          "char": "季",
+          "start": 15.97667,
+          "end": 16.07667,
+          "confidence": 0.9401
+        },
+        {
+          "char": "节",
+          "start": 16.07667,
+          "end": 16.27667,
+          "confidence": 0.9832
+        },
+        {
+          "char": "这",
+          "start": 16.69667,
+          "end": 16.77667,
+          "confidence": 0.0191
+        },
+        {
+          "char": "里",
+          "start": 16.77667,
+          "end": 16.85667,
+          "confidence": 0.943
+        },
+        {
+          "char": "的",
+          "start": 16.85667,
+          "end": 16.95667,
+          "confidence": 0.9479
+        },
+        {
+          "char": "景",
+          "start": 16.95667,
+          "end": 17.09667,
+          "confidence": 0.9976
+        },
+        {
+          "char": "色",
+          "start": 17.09667,
+          "end": 17.35667,
+          "confidence": 0.9989
+        },
+        {
+          "char": "都",
+          "start": 17.35667,
+          "end": 17.57667,
+          "confidence": 0.9715
+        },
+        {
+          "char": "很",
+          "start": 17.57667,
+          "end": 17.81667,
+          "confidence": 0.9919
+        },
+        {
+          "char": "迷",
+          "start": 17.81667,
+          "end": 17.95667,
+          "confidence": 0.9569
+        },
+        {
+          "char": "人",
+          "start": 17.95667,
+          "end": 18.17667,
+          "confidence": 0.9967
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21849
+    },
+    {
+      "no": 545,
+      "kind": "word",
+      "text": "美景",
+      "spoken_text": "美景。",
+      "pinyin": "měijǐng",
+      "source_chunk": 27,
+      "speech_start": 18.61,
+      "speech_end": 18.97,
+      "confidence": 0.6276,
+      "characters": [
+        {
+          "char": "美",
+          "start": 18.61,
+          "end": 18.73,
+          "confidence": 0.2656
+        },
+        {
+          "char": "景",
+          "start": 18.73,
+          "end": 18.97,
+          "confidence": 0.9896
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.13831
+    },
+    {
+      "no": 545,
+      "kind": "example",
+      "text": "为了拍下日出的美景，他天没亮就出发了。",
+      "spoken_text": "为了拍下日出的美景，他天没亮就出发了。",
+      "pinyin": "Wèile pāi xià rìchū de měijǐng, tā tiān méi liàng jiù chūfā le.",
+      "source_chunk": 27,
+      "speech_start": 19.41,
+      "speech_end": 22.51,
+      "confidence": 0.8731,
+      "characters": [
+        {
+          "char": "为",
+          "start": 19.41,
+          "end": 19.69,
+          "confidence": 0.9618
+        },
+        {
+          "char": "了",
+          "start": 19.69,
+          "end": 19.79,
+          "confidence": 0.9985
+        },
+        {
+          "char": "拍",
+          "start": 19.79,
+          "end": 19.91,
+          "confidence": 0.9325
+        },
+        {
+          "char": "下",
+          "start": 19.91,
+          "end": 20.07,
+          "confidence": 0.9101
+        },
+        {
+          "char": "日",
+          "start": 20.07,
+          "end": 20.23,
+          "confidence": 0.9969
+        },
+        {
+          "char": "出",
+          "start": 20.23,
+          "end": 20.39,
+          "confidence": 0.8199
+        },
+        {
+          "char": "的",
+          "start": 20.39,
+          "end": 20.49,
+          "confidence": 0.9956
+        },
+        {
+          "char": "美",
+          "start": 20.49,
+          "end": 20.65,
+          "confidence": 0.9723
+        },
+        {
+          "char": "景",
+          "start": 20.65,
+          "end": 20.89,
+          "confidence": 0.9992
+        },
+        {
+          "char": "他",
+          "start": 21.19,
+          "end": 21.29,
+          "confidence": 0.2976
+        },
+        {
+          "char": "天",
+          "start": 21.29,
+          "end": 21.43,
+          "confidence": 0.9585
+        },
+        {
+          "char": "没",
+          "start": 21.43,
+          "end": 21.61,
+          "confidence": 0.2072
+        },
+        {
+          "char": "亮",
+          "start": 21.61,
+          "end": 21.79,
+          "confidence": 0.9771
+        },
+        {
+          "char": "就",
+          "start": 21.79,
+          "end": 21.97,
+          "confidence": 0.9024
+        },
+        {
+          "char": "出",
+          "start": 21.97,
+          "end": 22.13,
+          "confidence": 0.9354
+        },
+        {
+          "char": "发",
+          "start": 22.13,
+          "end": 22.33,
+          "confidence": 0.9936
+        },
+        {
+          "char": "了",
+          "start": 22.33,
+          "end": 22.51,
+          "confidence": 0.9835
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24449
+    },
+    {
+      "no": 546,
+      "kind": "word",
+      "text": "环保",
+      "spoken_text": "环保。",
+      "pinyin": "huánbǎo",
+      "source_chunk": 27,
+      "speech_start": 22.91,
+      "speech_end": 23.27,
+      "confidence": 0.9313,
+      "characters": [
+        {
+          "char": "环",
+          "start": 22.91,
+          "end": 23.11,
+          "confidence": 0.9679
+        },
+        {
+          "char": "保",
+          "start": 23.11,
+          "end": 23.27,
+          "confidence": 0.8947
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.27599
+    },
+    {
+      "no": 546,
+      "kind": "example",
+      "text": "使用自己的水杯，是一种环保的生活方式。",
+      "spoken_text": "使用自己的水杯，是一种环保的生活方式。",
+      "pinyin": "Shǐyòng zìjǐ de shuǐbēi, shì yì zhǒng huánbǎo de shēnghuó fāngshì.",
+      "source_chunk": 27,
+      "speech_start": 23.79,
+      "speech_end": 26.71,
+      "confidence": 0.7703,
+      "characters": [
+        {
+          "char": "使",
+          "start": 23.79,
+          "end": 24.05,
+          "confidence": 0.9442
+        },
+        {
+          "char": "用",
+          "start": 24.05,
+          "end": 24.17,
+          "confidence": 0.9997
+        },
+        {
+          "char": "自",
+          "start": 24.17,
+          "end": 24.31,
+          "confidence": 0.0032
+        },
+        {
+          "char": "己",
+          "start": 24.31,
+          "end": 24.41,
+          "confidence": 0.0053
+        },
+        {
+          "char": "的",
+          "start": 24.41,
+          "end": 24.51,
+          "confidence": 0.9891
+        },
+        {
+          "char": "水",
+          "start": 24.51,
+          "end": 24.67,
+          "confidence": 0.9888
+        },
+        {
+          "char": "杯",
+          "start": 24.67,
+          "end": 24.85,
+          "confidence": 0.9324
+        },
+        {
+          "char": "是",
+          "start": 25.23,
+          "end": 25.31,
+          "confidence": 0.9802
+        },
+        {
+          "char": "一",
+          "start": 25.31,
+          "end": 25.39,
+          "confidence": 0.9615
+        },
+        {
+          "char": "种",
+          "start": 25.39,
+          "end": 25.49,
+          "confidence": 0.9973
+        },
+        {
+          "char": "环",
+          "start": 25.49,
+          "end": 25.75,
+          "confidence": 0.999
+        },
+        {
+          "char": "保",
+          "start": 25.75,
+          "end": 25.91,
+          "confidence": 0.9785
+        },
+        {
+          "char": "的",
+          "start": 25.91,
+          "end": 26.03,
+          "confidence": 0.9669
+        },
+        {
+          "char": "生",
+          "start": 26.03,
+          "end": 26.17,
+          "confidence": 0.0015
+        },
+        {
+          "char": "活",
+          "start": 26.17,
+          "end": 26.31,
+          "confidence": 0.3553
+        },
+        {
+          "char": "方",
+          "start": 26.31,
+          "end": 26.47,
+          "confidence": 0.9931
+        },
+        {
+          "char": "式",
+          "start": 26.47,
+          "end": 26.71,
+          "confidence": 0.999
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24382
+    },
+    {
+      "no": 547,
+      "kind": "word",
+      "text": "污染",
+      "spoken_text": "污染。",
+      "pinyin": "wūrǎn",
+      "source_chunk": 27,
+      "speech_start": 27.14,
+      "speech_end": 27.62,
+      "confidence": 0.7894,
+      "characters": [
+        {
+          "char": "污",
+          "start": 27.14,
+          "end": 27.46,
+          "confidence": 0.6947
+        },
+        {
+          "char": "染",
+          "start": 27.46,
+          "end": 27.62,
+          "confidence": 0.8842
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2862
+    },
+    {
+      "no": 547,
+      "kind": "example",
+      "text": "经过治理，这条河的污染已经减少了。",
+      "spoken_text": "经过治理，这条河的污染已经减少了。",
+      "pinyin": "Jīngguò zhìlǐ, zhè tiáo hé de wūrǎn yǐjīng jiǎnshǎo le.",
+      "source_chunk": 27,
+      "speech_start": 28.06,
+      "speech_end": 30.88,
+      "confidence": 0.7806,
+      "characters": [
+        {
+          "char": "经",
+          "start": 28.06,
+          "end": 28.3,
+          "confidence": 0.9334
+        },
+        {
+          "char": "过",
+          "start": 28.3,
+          "end": 28.46,
+          "confidence": 0.9867
+        },
+        {
+          "char": "治",
+          "start": 28.46,
+          "end": 28.62,
+          "confidence": 0.7562
+        },
+        {
+          "char": "理",
+          "start": 28.62,
+          "end": 28.78,
+          "confidence": 0.919
+        },
+        {
+          "char": "这",
+          "start": 29.1,
+          "end": 29.22,
+          "confidence": 0.5176
+        },
+        {
+          "char": "条",
+          "start": 29.22,
+          "end": 29.34,
+          "confidence": 0.9809
+        },
+        {
+          "char": "河",
+          "start": 29.34,
+          "end": 29.5,
+          "confidence": 0.8158
+        },
+        {
+          "char": "的",
+          "start": 29.5,
+          "end": 29.6,
+          "confidence": 0.9629
+        },
+        {
+          "char": "污",
+          "start": 29.6,
+          "end": 29.78,
+          "confidence": 0.995
+        },
+        {
+          "char": "染",
+          "start": 29.78,
+          "end": 29.92,
+          "confidence": 0.9971
+        },
+        {
+          "char": "已",
+          "start": 29.92,
+          "end": 30.2,
+          "confidence": 0.01
+        },
+        {
+          "char": "经",
+          "start": 30.2,
+          "end": 30.32,
+          "confidence": 0.0001
+        },
+        {
+          "char": "减",
+          "start": 30.32,
+          "end": 30.46,
+          "confidence": 0.8706
+        },
+        {
+          "char": "少",
+          "start": 30.46,
+          "end": 30.68,
+          "confidence": 0.9994
+        },
+        {
+          "char": "了",
+          "start": 30.68,
+          "end": 30.88,
+          "confidence": 0.9647
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21139
+    },
+    {
+      "no": 548,
+      "kind": "word",
+      "text": "气候",
+      "spoken_text": "气候。",
+      "pinyin": "qìhòu",
+      "source_chunk": 27,
+      "speech_start": 31.32,
+      "speech_end": 31.76,
+      "confidence": 0.7933,
+      "characters": [
+        {
+          "char": "气",
+          "start": 31.32,
+          "end": 31.54,
+          "confidence": 0.9359
+        },
+        {
+          "char": "候",
+          "start": 31.54,
+          "end": 31.76,
+          "confidence": 0.6506
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.17171
+    },
+    {
+      "no": 548,
+      "kind": "example",
+      "text": "我刚搬到这里，还不太适应当地的气候。",
+      "spoken_text": "我刚搬到这里，还不太适应当地的气候。",
+      "pinyin": "Wǒ gāng bān dào zhèlǐ, hái bú tài shìyìng dāngdì de qìhòu.",
+      "source_chunk": 27,
+      "speech_start": 32.14,
+      "speech_end": 34.82,
+      "confidence": 0.8976,
+      "characters": [
+        {
+          "char": "我",
+          "start": 32.14,
+          "end": 32.32,
+          "confidence": 0.985
+        },
+        {
+          "char": "刚",
+          "start": 32.32,
+          "end": 32.46,
+          "confidence": 0.9785
+        },
+        {
+          "char": "搬",
+          "start": 32.46,
+          "end": 32.58,
+          "confidence": 0.9721
+        },
+        {
+          "char": "到",
+          "start": 32.58,
+          "end": 32.74,
+          "confidence": 0.9986
+        },
+        {
+          "char": "这",
+          "start": 32.74,
+          "end": 32.9,
+          "confidence": 0.0289
+        },
+        {
+          "char": "里",
+          "start": 32.9,
+          "end": 33.06,
+          "confidence": 0.7342
+        },
+        {
+          "char": "还",
+          "start": 33.44,
+          "end": 33.46,
+          "confidence": 0.8994
+        },
+        {
+          "char": "不",
+          "start": 33.46,
+          "end": 33.56,
+          "confidence": 0.9959
+        },
+        {
+          "char": "太",
+          "start": 33.56,
+          "end": 33.68,
+          "confidence": 0.9851
+        },
+        {
+          "char": "适",
+          "start": 33.68,
+          "end": 33.86,
+          "confidence": 0.8632
+        },
+        {
+          "char": "应",
+          "start": 33.86,
+          "end": 33.96,
+          "confidence": 0.9667
+        },
+        {
+          "char": "当",
+          "start": 33.96,
+          "end": 34.12,
+          "confidence": 0.9782
+        },
+        {
+          "char": "地",
+          "start": 34.12,
+          "end": 34.28,
+          "confidence": 0.9982
+        },
+        {
+          "char": "的",
+          "start": 34.28,
+          "end": 34.38,
+          "confidence": 0.9852
+        },
+        {
+          "char": "气",
+          "start": 34.38,
+          "end": 34.58,
+          "confidence": 0.9938
+        },
+        {
+          "char": "候",
+          "start": 34.58,
+          "end": 34.82,
+          "confidence": 0.9986
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22077
+    },
+    {
+      "no": 549,
+      "kind": "word",
+      "text": "温度",
+      "spoken_text": "温度。",
+      "pinyin": "wēndù",
+      "source_chunk": 27,
+      "speech_start": 35.1,
+      "speech_end": 35.56,
+      "confidence": 0.9544,
+      "characters": [
+        {
+          "char": "温",
+          "start": 35.1,
+          "end": 35.38,
+          "confidence": 0.9142
+        },
+        {
+          "char": "度",
+          "start": 35.38,
+          "end": 35.56,
+          "confidence": 0.9945
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.26152
+    },
+    {
+      "no": 549,
+      "kind": "example",
+      "text": "做面包时，烤箱的温度不能太高。",
+      "spoken_text": "做面包时，烤箱的温度不能太高。",
+      "pinyin": "Zuò miànbāo shí, kǎoxiāng de wēndù bùnéng tài gāo.",
+      "source_chunk": 27,
+      "speech_start": 36.0,
+      "speech_end": 38.6,
+      "confidence": 0.7506,
+      "characters": [
+        {
+          "char": "做",
+          "start": 36.0,
+          "end": 36.38,
+          "confidence": 0.3667
+        },
+        {
+          "char": "面",
+          "start": 36.38,
+          "end": 36.5,
+          "confidence": 0.984
+        },
+        {
+          "char": "包",
+          "start": 36.5,
+          "end": 36.64,
+          "confidence": 0.9843
+        },
+        {
+          "char": "时",
+          "start": 36.64,
+          "end": 36.98,
+          "confidence": 0.8433
+        },
+        {
+          "char": "烤",
+          "start": 37.38,
+          "end": 37.46,
+          "confidence": 0.4854
+        },
+        {
+          "char": "箱",
+          "start": 37.46,
+          "end": 37.6,
+          "confidence": 0.9523
+        },
+        {
+          "char": "的",
+          "start": 37.6,
+          "end": 37.7,
+          "confidence": 0.9224
+        },
+        {
+          "char": "温",
+          "start": 37.7,
+          "end": 37.84,
+          "confidence": 0.999
+        },
+        {
+          "char": "度",
+          "start": 37.84,
+          "end": 37.98,
+          "confidence": 0.9996
+        },
+        {
+          "char": "不",
+          "start": 37.98,
+          "end": 38.12,
+          "confidence": 0.0087
+        },
+        {
+          "char": "能",
+          "start": 38.12,
+          "end": 38.22,
+          "confidence": 0.2212
+        },
+        {
+          "char": "太",
+          "start": 38.22,
+          "end": 38.4,
+          "confidence": 0.993
+        },
+        {
+          "char": "高",
+          "start": 38.4,
+          "end": 38.6,
+          "confidence": 0.998
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.26292
+    },
+    {
+      "no": 550,
+      "kind": "word",
+      "text": "气温",
+      "spoken_text": "气温。",
+      "pinyin": "qìwēn",
+      "source_chunk": 27,
+      "speech_start": 39.22,
+      "speech_end": 39.68,
+      "confidence": 0.9678,
+      "characters": [
+        {
+          "char": "气",
+          "start": 39.22,
+          "end": 39.5,
+          "confidence": 0.9517
+        },
+        {
+          "char": "温",
+          "start": 39.5,
+          "end": 39.68,
+          "confidence": 0.9839
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21259
+    },
+    {
+      "no": 550,
+      "kind": "example",
+      "text": "天气预报说明天的气温会明显下降。",
+      "spoken_text": "天气预报说明天的气温会明显下降。",
+      "pinyin": "Tiānqì yùbào shuō míngtiān de qìwēn huì míngxiǎn xiàjiàng.",
+      "source_chunk": 27,
+      "speech_start": 40.08,
+      "speech_end": 42.62,
+      "confidence": 0.9607,
+      "characters": [
+        {
+          "char": "天",
+          "start": 40.08,
+          "end": 40.32,
+          "confidence": 0.9739
+        },
+        {
+          "char": "气",
+          "start": 40.32,
+          "end": 40.46,
+          "confidence": 0.9347
+        },
+        {
+          "char": "预",
+          "start": 40.46,
+          "end": 40.62,
+          "confidence": 0.8257
+        },
+        {
+          "char": "报",
+          "start": 40.62,
+          "end": 40.72,
+          "confidence": 0.9542
+        },
+        {
+          "char": "说",
+          "start": 40.72,
+          "end": 40.96,
+          "confidence": 0.9368
+        },
+        {
+          "char": "明",
+          "start": 40.96,
+          "end": 41.2,
+          "confidence": 0.8949
+        },
+        {
+          "char": "天",
+          "start": 41.2,
+          "end": 41.36,
+          "confidence": 0.9992
+        },
+        {
+          "char": "的",
+          "start": 41.36,
+          "end": 41.46,
+          "confidence": 0.9891
+        },
+        {
+          "char": "气",
+          "start": 41.46,
+          "end": 41.64,
+          "confidence": 0.9969
+        },
+        {
+          "char": "温",
+          "start": 41.64,
+          "end": 41.76,
+          "confidence": 0.9966
+        },
+        {
+          "char": "会",
+          "start": 41.76,
+          "end": 41.94,
+          "confidence": 0.9766
+        },
+        {
+          "char": "明",
+          "start": 41.94,
+          "end": 42.06,
+          "confidence": 0.9891
+        },
+        {
+          "char": "显",
+          "start": 42.06,
+          "end": 42.24,
+          "confidence": 0.9977
+        },
+        {
+          "char": "下",
+          "start": 42.24,
+          "end": 42.46,
+          "confidence": 0.9485
+        },
+        {
+          "char": "降",
+          "start": 42.46,
+          "end": 42.62,
+          "confidence": 0.9969
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.26049
+    },
+    {
+      "no": 551,
+      "kind": "word",
+      "text": "低温",
+      "spoken_text": "低温。",
+      "pinyin": "dīwēn",
+      "source_chunk": 27,
+      "speech_start": 42.97,
+      "speech_end": 43.33,
+      "confidence": 0.8085,
+      "characters": [
+        {
+          "char": "低",
+          "start": 42.97,
+          "end": 43.11,
+          "confidence": 0.6245
+        },
+        {
+          "char": "温",
+          "start": 43.11,
+          "end": 43.33,
+          "confidence": 0.9924
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.31911
+    },
+    {
+      "no": 551,
+      "kind": "example",
+      "text": "这种食品需要低温保存，不能放在窗边。",
+      "spoken_text": "这种食品需要低温保存，不能放在窗边。",
+      "pinyin": "Zhè zhǒng shípǐn xūyào dīwēn bǎocún, bùnéng fàng zài chuāng biān.",
+      "source_chunk": 27,
+      "speech_start": 43.63,
+      "speech_end": 47.33,
+      "confidence": 0.703,
+      "characters": [
+        {
+          "char": "这",
+          "start": 43.63,
+          "end": 44.65,
+          "confidence": 0.0166
+        },
+        {
+          "char": "种",
+          "start": 44.65,
+          "end": 44.81,
+          "confidence": 0.9908
+        },
+        {
+          "char": "食",
+          "start": 44.81,
+          "end": 44.95,
+          "confidence": 0.9221
+        },
+        {
+          "char": "品",
+          "start": 44.95,
+          "end": 45.11,
+          "confidence": 0.9995
+        },
+        {
+          "char": "需",
+          "start": 45.11,
+          "end": 45.31,
+          "confidence": 0.0005
+        },
+        {
+          "char": "要",
+          "start": 45.31,
+          "end": 45.47,
+          "confidence": 0.0979
+        },
+        {
+          "char": "低",
+          "start": 45.47,
+          "end": 45.61,
+          "confidence": 0.9946
+        },
+        {
+          "char": "温",
+          "start": 45.61,
+          "end": 45.79,
+          "confidence": 0.9994
+        },
+        {
+          "char": "保",
+          "start": 45.79,
+          "end": 45.93,
+          "confidence": 0.8364
+        },
+        {
+          "char": "存",
+          "start": 45.93,
+          "end": 46.17,
+          "confidence": 0.997
+        },
+        {
+          "char": "不",
+          "start": 46.57,
+          "end": 46.59,
+          "confidence": 0.0207
+        },
+        {
+          "char": "能",
+          "start": 46.59,
+          "end": 46.71,
+          "confidence": 0.915
+        },
+        {
+          "char": "放",
+          "start": 46.71,
+          "end": 46.83,
+          "confidence": 0.9964
+        },
+        {
+          "char": "在",
+          "start": 46.83,
+          "end": 46.97,
+          "confidence": 0.9862
+        },
+        {
+          "char": "窗",
+          "start": 46.97,
+          "end": 47.13,
+          "confidence": 0.527
+        },
+        {
+          "char": "边",
+          "start": 47.13,
+          "end": 47.33,
+          "confidence": 0.9472
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21406
+    },
+    {
+      "no": 552,
+      "kind": "word",
+      "text": "高温",
+      "spoken_text": "高温。",
+      "pinyin": "gāowēn",
+      "source_chunk": 27,
+      "speech_start": 47.71,
+      "speech_end": 48.07,
+      "confidence": 0.9463,
+      "characters": [
+        {
+          "char": "高",
+          "start": 47.71,
+          "end": 47.85,
+          "confidence": 0.8943
+        },
+        {
+          "char": "温",
+          "start": 47.85,
+          "end": 48.07,
+          "confidence": 0.9983
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.30868
+    },
+    {
+      "no": 552,
+      "kind": "example",
+      "text": "高温天气外出工作，比平时辛苦得多。",
+      "spoken_text": "高温天气外出工作，比平时辛苦得多。",
+      "pinyin": "Gāowēn tiānqì wàichū gōngzuò, bǐ píngshí xīnkǔ de duō.",
+      "source_chunk": 27,
+      "speech_start": 48.37,
+      "speech_end": 51.31,
+      "confidence": 0.71,
+      "characters": [
+        {
+          "char": "高",
+          "start": 48.37,
+          "end": 48.73,
+          "confidence": 0.9927
+        },
+        {
+          "char": "温",
+          "start": 48.73,
+          "end": 48.87,
+          "confidence": 0.9998
+        },
+        {
+          "char": "天",
+          "start": 48.87,
+          "end": 49.05,
+          "confidence": 0.9977
+        },
+        {
+          "char": "气",
+          "start": 49.05,
+          "end": 49.23,
+          "confidence": 0.9913
+        },
+        {
+          "char": "外",
+          "start": 49.23,
+          "end": 49.37,
+          "confidence": 0.9985
+        },
+        {
+          "char": "出",
+          "start": 49.37,
+          "end": 49.53,
+          "confidence": 0.991
+        },
+        {
+          "char": "工",
+          "start": 49.53,
+          "end": 49.69,
+          "confidence": 0.0006
+        },
+        {
+          "char": "作",
+          "start": 49.69,
+          "end": 49.95,
+          "confidence": 0.0265
+        },
+        {
+          "char": "比",
+          "start": 50.19,
+          "end": 50.31,
+          "confidence": 0.9468
+        },
+        {
+          "char": "平",
+          "start": 50.31,
+          "end": 50.47,
+          "confidence": 0.6431
+        },
+        {
+          "char": "时",
+          "start": 50.47,
+          "end": 50.63,
+          "confidence": 0.9829
+        },
+        {
+          "char": "辛",
+          "start": 50.63,
+          "end": 50.85,
+          "confidence": 0.0196
+        },
+        {
+          "char": "苦",
+          "start": 50.85,
+          "end": 51.03,
+          "confidence": 0.9675
+        },
+        {
+          "char": "得",
+          "start": 51.03,
+          "end": 51.15,
+          "confidence": 0.115
+        },
+        {
+          "char": "多",
+          "start": 51.15,
+          "end": 51.31,
+          "confidence": 0.9777
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22675
+    },
+    {
+      "no": 553,
+      "kind": "word",
+      "text": "降温",
+      "spoken_text": "降温。",
+      "pinyin": "jiàngwēn",
+      "source_chunk": 27,
+      "speech_start": 51.72,
+      "speech_end": 52.18,
+      "confidence": 0.6648,
+      "characters": [
+        {
+          "char": "降",
+          "start": 51.72,
+          "end": 51.86,
+          "confidence": 0.331
+        },
+        {
+          "char": "温",
+          "start": 51.86,
+          "end": 52.18,
+          "confidence": 0.9985
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19986
+    },
+    {
+      "no": 553,
+      "kind": "example",
+      "text": "听说明天降温，妈妈提醒我多穿点衣服。",
+      "spoken_text": "听说明天降温，妈妈提醒我多穿点衣服。",
+      "pinyin": "Tīngshuō míngtiān jiàngwēn, māma tíxǐng wǒ duō chuān diǎn yīfu.",
+      "source_chunk": 27,
+      "speech_start": 52.58,
+      "speech_end": 55.42,
+      "confidence": 0.9534,
+      "characters": [
+        {
+          "char": "听",
+          "start": 52.58,
+          "end": 52.8,
+          "confidence": 0.9576
+        },
+        {
+          "char": "说",
+          "start": 52.8,
+          "end": 52.94,
+          "confidence": 0.9955
+        },
+        {
+          "char": "明",
+          "start": 52.94,
+          "end": 53.06,
+          "confidence": 0.9833
+        },
+        {
+          "char": "天",
+          "start": 53.06,
+          "end": 53.22,
+          "confidence": 0.9994
+        },
+        {
+          "char": "降",
+          "start": 53.22,
+          "end": 53.42,
+          "confidence": 0.9987
+        },
+        {
+          "char": "温",
+          "start": 53.42,
+          "end": 53.68,
+          "confidence": 0.9996
+        },
+        {
+          "char": "妈",
+          "start": 54.02,
+          "end": 54.1,
+          "confidence": 0.6119
+        },
+        {
+          "char": "妈",
+          "start": 54.1,
+          "end": 54.22,
+          "confidence": 0.9948
+        },
+        {
+          "char": "提",
+          "start": 54.22,
+          "end": 54.34,
+          "confidence": 0.9742
+        },
+        {
+          "char": "醒",
+          "start": 54.34,
+          "end": 54.48,
+          "confidence": 0.9801
+        },
+        {
+          "char": "我",
+          "start": 54.48,
+          "end": 54.6,
+          "confidence": 0.9891
+        },
+        {
+          "char": "多",
+          "start": 54.6,
+          "end": 54.74,
+          "confidence": 0.9656
+        },
+        {
+          "char": "穿",
+          "start": 54.74,
+          "end": 54.92,
+          "confidence": 0.844
+        },
+        {
+          "char": "点",
+          "start": 54.92,
+          "end": 55.06,
+          "confidence": 0.964
+        },
+        {
+          "char": "衣",
+          "start": 55.06,
+          "end": 55.26,
+          "confidence": 0.9995
+        },
+        {
+          "char": "服",
+          "start": 55.26,
+          "end": 55.42,
+          "confidence": 0.9977
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.28013
+    },
+    {
+      "no": 554,
+      "kind": "word",
+      "text": "零下",
+      "spoken_text": "零下。",
+      "pinyin": "língxià",
+      "source_chunk": 27,
+      "speech_start": 55.96,
+      "speech_end": 56.34,
+      "confidence": 0.7031,
+      "characters": [
+        {
+          "char": "零",
+          "start": 55.96,
+          "end": 56.12,
+          "confidence": 0.5351
+        },
+        {
+          "char": "下",
+          "start": 56.12,
+          "end": 56.34,
+          "confidence": 0.8711
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20183
+    },
+    {
+      "no": 554,
+      "kind": "example",
+      "text": "今晚最低零下十度，河面可能会结冰。",
+      "spoken_text": "今晚最低零下十度，河面可能会结冰。",
+      "pinyin": "Jīnwǎn zuì dī língxià shí dù, hémiàn kěnéng huì jiébīng.",
+      "source_chunk": 27,
+      "speech_start": 56.9,
+      "speech_end": 59.58,
+      "confidence": 0.7298,
+      "characters": [
+        {
+          "char": "今",
+          "start": 56.9,
+          "end": 57.16,
+          "confidence": 0.9655
+        },
+        {
+          "char": "晚",
+          "start": 57.16,
+          "end": 57.28,
+          "confidence": 0.9858
+        },
+        {
+          "char": "最",
+          "start": 57.28,
+          "end": 57.42,
+          "confidence": 0.9424
+        },
+        {
+          "char": "低",
+          "start": 57.42,
+          "end": 57.58,
+          "confidence": 0.9944
+        },
+        {
+          "char": "零",
+          "start": 57.58,
+          "end": 57.68,
+          "confidence": 0.9701
+        },
+        {
+          "char": "下",
+          "start": 57.68,
+          "end": 57.86,
+          "confidence": 0.991
+        },
+        {
+          "char": "十",
+          "start": 57.86,
+          "end": 58.14,
+          "confidence": 0.429
+        },
+        {
+          "char": "度",
+          "start": 58.14,
+          "end": 58.3,
+          "confidence": 0.9981
+        },
+        {
+          "char": "河",
+          "start": 58.72,
+          "end": 58.8,
+          "confidence": 0.4934
+        },
+        {
+          "char": "面",
+          "start": 58.8,
+          "end": 58.88,
+          "confidence": 0.9967
+        },
+        {
+          "char": "可",
+          "start": 58.88,
+          "end": 59.02,
+          "confidence": 0.0018
+        },
+        {
+          "char": "能",
+          "start": 59.02,
+          "end": 59.12,
+          "confidence": 0.1035
+        },
+        {
+          "char": "会",
+          "start": 59.12,
+          "end": 59.26,
+          "confidence": 0.8185
+        },
+        {
+          "char": "结",
+          "start": 59.26,
+          "end": 59.4,
+          "confidence": 0.474
+        },
+        {
+          "char": "冰",
+          "start": 59.4,
+          "end": 59.58,
+          "confidence": 0.7831
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23909
+    },
+    {
+      "no": 555,
+      "kind": "word",
+      "text": "寒冷",
+      "spoken_text": "寒冷。",
+      "pinyin": "hánlěng",
+      "source_chunk": 27,
+      "speech_start": 60.09,
+      "speech_end": 60.75,
+      "confidence": 0.9017,
+      "characters": [
+        {
+          "char": "寒",
+          "start": 60.09,
+          "end": 60.59,
+          "confidence": 0.8051
+        },
+        {
+          "char": "冷",
+          "start": 60.59,
+          "end": 60.75,
+          "confidence": 0.9983
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22203
+    },
+    {
+      "no": 555,
+      "kind": "example",
+      "text": "即使天气寒冷，他也坚持每天跑步。",
+      "spoken_text": "即使天气寒冷，他也坚持每天跑步。",
+      "pinyin": "Jíshǐ tiānqì hánlěng, tā yě jiānchí měi tiān pǎobù.",
+      "source_chunk": 27,
+      "speech_start": 61.15,
+      "speech_end": 63.47,
+      "confidence": 0.8832,
+      "characters": [
+        {
+          "char": "即",
+          "start": 61.15,
+          "end": 61.33,
+          "confidence": 0.8418
+        },
+        {
+          "char": "使",
+          "start": 61.33,
+          "end": 61.45,
+          "confidence": 0.9636
+        },
+        {
+          "char": "天",
+          "start": 61.45,
+          "end": 61.57,
+          "confidence": 0.9897
+        },
+        {
+          "char": "气",
+          "start": 61.57,
+          "end": 61.71,
+          "confidence": 0.8959
+        },
+        {
+          "char": "寒",
+          "start": 61.71,
+          "end": 61.89,
+          "confidence": 0.9258
+        },
+        {
+          "char": "冷",
+          "start": 61.89,
+          "end": 62.07,
+          "confidence": 0.9999
+        },
+        {
+          "char": "他",
+          "start": 62.37,
+          "end": 62.43,
+          "confidence": 0.0383
+        },
+        {
+          "char": "也",
+          "start": 62.43,
+          "end": 62.53,
+          "confidence": 0.9899
+        },
+        {
+          "char": "坚",
+          "start": 62.53,
+          "end": 62.67,
+          "confidence": 0.7611
+        },
+        {
+          "char": "持",
+          "start": 62.67,
+          "end": 62.81,
+          "confidence": 0.9988
+        },
+        {
+          "char": "每",
+          "start": 62.81,
+          "end": 62.95,
+          "confidence": 0.98
+        },
+        {
+          "char": "天",
+          "start": 62.95,
+          "end": 63.11,
+          "confidence": 0.9961
+        },
+        {
+          "char": "跑",
+          "start": 63.11,
+          "end": 63.27,
+          "confidence": 0.9866
+        },
+        {
+          "char": "步",
+          "start": 63.27,
+          "end": 63.47,
+          "confidence": 0.9978
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20748
+    },
+    {
+      "no": 556,
+      "kind": "word",
+      "text": "暖和",
+      "spoken_text": "暖和。",
+      "pinyin": "nuǎnhuo",
+      "source_chunk": 27,
+      "speech_start": 64.03,
+      "speech_end": 64.43,
+      "confidence": 0.6007,
+      "characters": [
+        {
+          "char": "暖",
+          "start": 64.03,
+          "end": 64.23,
+          "confidence": 0.9734
+        },
+        {
+          "char": "和",
+          "start": 64.23,
+          "end": 64.43,
+          "confidence": 0.2279
+        }
+      ],
+      "independent_asr_coverage": 0.5,
+      "rms": 0.17242
+    },
+    {
+      "no": 556,
+      "kind": "example",
+      "text": "太阳出来以后，屋里渐渐暖和了。",
+      "spoken_text": "太阳出来以后，屋里渐渐暖和了。",
+      "pinyin": "Tàiyáng chūlai yǐhòu, wūlǐ jiànjiàn nuǎnhuo le.",
+      "source_chunk": 27,
+      "speech_start": 64.85,
+      "speech_end": 67.05,
+      "confidence": 0.8016,
+      "characters": [
+        {
+          "char": "太",
+          "start": 64.85,
+          "end": 65.11,
+          "confidence": 0.9135
+        },
+        {
+          "char": "阳",
+          "start": 65.11,
+          "end": 65.21,
+          "confidence": 0.8511
+        },
+        {
+          "char": "出",
+          "start": 65.21,
+          "end": 65.37,
+          "confidence": 0.215
+        },
+        {
+          "char": "来",
+          "start": 65.37,
+          "end": 65.47,
+          "confidence": 0.5657
+        },
+        {
+          "char": "以",
+          "start": 65.47,
+          "end": 65.59,
+          "confidence": 0.9943
+        },
+        {
+          "char": "后",
+          "start": 65.59,
+          "end": 65.79,
+          "confidence": 0.9846
+        },
+        {
+          "char": "屋",
+          "start": 66.17,
+          "end": 66.23,
+          "confidence": 0.4987
+        },
+        {
+          "char": "里",
+          "start": 66.23,
+          "end": 66.29,
+          "confidence": 0.9702
+        },
+        {
+          "char": "渐",
+          "start": 66.29,
+          "end": 66.43,
+          "confidence": 0.4837
+        },
+        {
+          "char": "渐",
+          "start": 66.43,
+          "end": 66.55,
+          "confidence": 0.9949
+        },
+        {
+          "char": "暖",
+          "start": 66.55,
+          "end": 66.73,
+          "confidence": 0.9912
+        },
+        {
+          "char": "和",
+          "start": 66.73,
+          "end": 66.95,
+          "confidence": 0.9962
+        },
+        {
+          "char": "了",
+          "start": 66.95,
+          "end": 67.05,
+          "confidence": 0.9615
+        }
+      ],
+      "independent_asr_coverage": 0.923,
+      "rms": 0.23129
+    },
+    {
+      "no": 557,
+      "kind": "example",
+      "text": "山上晚上比较凉，最好带一件厚衣服。",
+      "spoken_text": "山上晚上比较凉，最好带一件厚衣服。",
+      "pinyin": "Shānshàng wǎnshang bǐjiào liáng, zuìhǎo dài yí jiàn hòu yīfu.",
+      "source_chunk": 27,
+      "speech_start": 67.525,
+      "speech_end": 70.165,
+      "confidence": 0.8264,
+      "characters": [
+        {
+          "char": "山",
+          "start": 67.525,
+          "end": 67.845,
+          "confidence": 0.922
+        },
+        {
+          "char": "上",
+          "start": 67.845,
+          "end": 67.985,
+          "confidence": 0.9956
+        },
+        {
+          "char": "晚",
+          "start": 67.985,
+          "end": 68.085,
+          "confidence": 0.0049
+        },
+        {
+          "char": "上",
+          "start": 68.085,
+          "end": 68.245,
+          "confidence": 0.811
+        },
+        {
+          "char": "比",
+          "start": 68.245,
+          "end": 68.365,
+          "confidence": 0.9484
+        },
+        {
+          "char": "较",
+          "start": 68.365,
+          "end": 68.485,
+          "confidence": 0.9987
+        },
+        {
+          "char": "凉",
+          "start": 68.485,
+          "end": 68.705,
+          "confidence": 0.7333
+        },
+        {
+          "char": "最",
+          "start": 69.105,
+          "end": 69.145,
+          "confidence": 0.6745
+        },
+        {
+          "char": "好",
+          "start": 69.145,
+          "end": 69.265,
+          "confidence": 0.9845
+        },
+        {
+          "char": "带",
+          "start": 69.265,
+          "end": 69.385,
+          "confidence": 0.9461
+        },
+        {
+          "char": "一",
+          "start": 69.385,
+          "end": 69.545,
+          "confidence": 0.9569
+        },
+        {
+          "char": "件",
+          "start": 69.545,
+          "end": 69.625,
+          "confidence": 0.6887
+        },
+        {
+          "char": "厚",
+          "start": 69.625,
+          "end": 69.825,
+          "confidence": 0.7794
+        },
+        {
+          "char": "衣",
+          "start": 69.825,
+          "end": 70.005,
+          "confidence": 0.9968
+        },
+        {
+          "char": "服",
+          "start": 70.005,
+          "end": 70.165,
+          "confidence": 0.9546
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21572
+    },
+    {
+      "no": 558,
+      "kind": "word",
+      "text": "功夫",
+      "spoken_text": "功夫。",
+      "pinyin": "gōngfu",
+      "source_chunk": 27,
+      "speech_start": 70.525,
+      "speech_end": 70.845,
+      "confidence": 0.585,
+      "characters": [
+        {
+          "char": "功",
+          "start": 70.525,
+          "end": 70.665,
+          "confidence": 0.2331
+        },
+        {
+          "char": "夫",
+          "start": 70.665,
+          "end": 70.845,
+          "confidence": 0.9369
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18182
+    },
+    {
+      "no": 558,
+      "kind": "example",
+      "text": "他因为喜欢中国功夫，开始学习汉语。",
+      "spoken_text": "他因为喜欢中国功夫，开始学习汉语。",
+      "pinyin": "Tā yīnwèi xǐhuan Zhōngguó gōngfu, kāishǐ xuéxí Hànyǔ.",
+      "source_chunk": 27,
+      "speech_start": 71.205,
+      "speech_end": 73.885,
+      "confidence": 0.457,
+      "characters": [
+        {
+          "char": "他",
+          "start": 71.205,
+          "end": 71.485,
+          "confidence": 0.5442
+        },
+        {
+          "char": "因",
+          "start": 71.485,
+          "end": 71.605,
+          "confidence": 0.0015
+        },
+        {
+          "char": "为",
+          "start": 71.605,
+          "end": 71.725,
+          "confidence": 0.1595
+        },
+        {
+          "char": "喜",
+          "start": 71.725,
+          "end": 71.845,
+          "confidence": 0.0018
+        },
+        {
+          "char": "欢",
+          "start": 71.845,
+          "end": 71.965,
+          "confidence": 0.0569
+        },
+        {
+          "char": "中",
+          "start": 71.965,
+          "end": 72.105,
+          "confidence": 0.0011
+        },
+        {
+          "char": "国",
+          "start": 72.105,
+          "end": 72.285,
+          "confidence": 0.5985
+        },
+        {
+          "char": "功",
+          "start": 72.285,
+          "end": 72.445,
+          "confidence": 0.9115
+        },
+        {
+          "char": "夫",
+          "start": 72.445,
+          "end": 72.685,
+          "confidence": 0.998
+        },
+        {
+          "char": "开",
+          "start": 72.945,
+          "end": 73.065,
+          "confidence": 0.0152
+        },
+        {
+          "char": "始",
+          "start": 73.065,
+          "end": 73.185,
+          "confidence": 0.0248
+        },
+        {
+          "char": "学",
+          "start": 73.185,
+          "end": 73.345,
+          "confidence": 0.9267
+        },
+        {
+          "char": "习",
+          "start": 73.345,
+          "end": 73.465,
+          "confidence": 0.9311
+        },
+        {
+          "char": "汉",
+          "start": 73.465,
+          "end": 73.705,
+          "confidence": 0.7568
+        },
+        {
+          "char": "语",
+          "start": 73.705,
+          "end": 73.885,
+          "confidence": 0.9276
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21293
+    },
+    {
+      "no": 559,
+      "kind": "word",
+      "text": "健身",
+      "spoken_text": "健身。",
+      "pinyin": "jiànshēn",
+      "source_chunk": 27,
+      "speech_start": 74.285,
+      "speech_end": 74.625,
+      "confidence": 0.7726,
+      "characters": [
+        {
+          "char": "健",
+          "start": 74.285,
+          "end": 74.445,
+          "confidence": 0.5842
+        },
+        {
+          "char": "身",
+          "start": 74.445,
+          "end": 74.625,
+          "confidence": 0.961
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21051
+    },
+    {
+      "no": 559,
+      "kind": "example",
+      "text": "我把健身安排在下班后，每周三次。",
+      "spoken_text": "我把健身安排在下班后，每周三次。",
+      "pinyin": "Wǒ bǎ jiànshēn ānpái zài xiàbān hòu, měi zhōu sān cì.",
+      "source_chunk": 27,
+      "speech_start": 74.83,
+      "speech_end": 77.91,
+      "confidence": 0.9033,
+      "characters": [
+        {
+          "char": "我",
+          "start": 74.83,
+          "end": 75.43,
+          "confidence": 0.9199
+        },
+        {
+          "char": "把",
+          "start": 75.43,
+          "end": 75.53,
+          "confidence": 0.9806
+        },
+        {
+          "char": "健",
+          "start": 75.53,
+          "end": 75.71,
+          "confidence": 0.9547
+        },
+        {
+          "char": "身",
+          "start": 75.71,
+          "end": 75.91,
+          "confidence": 0.9948
+        },
+        {
+          "char": "安",
+          "start": 75.91,
+          "end": 76.11,
+          "confidence": 0.999
+        },
+        {
+          "char": "排",
+          "start": 76.11,
+          "end": 76.21,
+          "confidence": 0.9998
+        },
+        {
+          "char": "在",
+          "start": 76.21,
+          "end": 76.37,
+          "confidence": 0.9761
+        },
+        {
+          "char": "下",
+          "start": 76.37,
+          "end": 76.53,
+          "confidence": 0.9882
+        },
+        {
+          "char": "班",
+          "start": 76.53,
+          "end": 76.67,
+          "confidence": 0.9906
+        },
+        {
+          "char": "后",
+          "start": 76.67,
+          "end": 76.99,
+          "confidence": 0.6969
+        },
+        {
+          "char": "每",
+          "start": 77.25,
+          "end": 77.33,
+          "confidence": 0.4998
+        },
+        {
+          "char": "周",
+          "start": 77.33,
+          "end": 77.45,
+          "confidence": 0.6733
+        },
+        {
+          "char": "三",
+          "start": 77.45,
+          "end": 77.65,
+          "confidence": 0.9749
+        },
+        {
+          "char": "次",
+          "start": 77.65,
+          "end": 77.91,
+          "confidence": 0.998
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22523
+    },
+    {
+      "no": 560,
+      "kind": "word",
+      "text": "健身房",
+      "spoken_text": "健身房。",
+      "pinyin": "jiànshēnfáng",
+      "source_chunk": 27,
+      "speech_start": 78.45,
+      "speech_end": 79.05,
+      "confidence": 0.9889,
+      "characters": [
+        {
+          "char": "健",
+          "start": 78.45,
+          "end": 78.67,
+          "confidence": 0.9702
+        },
+        {
+          "char": "身",
+          "start": 78.67,
+          "end": 78.85,
+          "confidence": 0.9995
+        },
+        {
+          "char": "房",
+          "start": 78.85,
+          "end": 79.05,
+          "confidence": 0.9971
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.28618
+    }
+  ],
+  "windows": [
+    {
+      "first_clip": 0,
+      "last_clip": 4,
+      "start": 0,
+      "end": 11.89,
+      "text": "这里阳光充足，种的花开得特别好。星星。乡下的夜空很晴朗，能看见很多星星。天上的云越来越厚，恐怕快要下雨了。风景。"
+    },
+    {
+      "first_clip": 3,
+      "last_clip": 8,
+      "start": 6.816666666666666,
+      "end": 19.84,
+      "text": "天上的云越来越厚，恐怕快要下雨了。风景。沿途的风景很美，我们边走边拍照。景色。无论哪个季节，这里的景色都很迷人。美景。"
+    },
+    {
+      "first_clip": 7,
+      "last_clip": 12,
+      "start": 14.47,
+      "end": 28.46,
+      "text": "无论哪个季节，这里的景色都很迷人。美景。为了拍下日出的美景，他天没亮就出发了。环保。使用自己的水杯，是一种环保的生活方式。污染。"
+    },
+    {
+      "first_clip": 11,
+      "last_clip": 16,
+      "start": 22.880000000000003,
+      "end": 36.46,
+      "text": "使用自己的水杯，是一种环保的生活方式。污染。经过治理，这条河的污染已经减少了。气候。我刚搬到这里，还不太适应当地的气候。温度。"
+    },
+    {
+      "first_clip": 15,
+      "last_clip": 20,
+      "start": 31.340000000000003,
+      "end": 44.52,
+      "text": "我刚搬到这里，还不太适应当地的气候。温度。做面包时，烤箱的温度不能太高。气温。天气预报说明天的气温会明显下降。低温。"
+    },
+    {
+      "first_clip": 19,
+      "last_clip": 24,
+      "start": 39.23,
+      "end": 53.0,
+      "text": "天气预报说明天的气温会明显下降。低温。这种食品需要低温保存，不能放在窗边。高温。高温天气外出工作，比平时辛苦得多。降温。"
+    },
+    {
+      "first_clip": 23,
+      "last_clip": 28,
+      "start": 47.6,
+      "end": 61.589999999999996,
+      "text": "高温天气外出工作，比平时辛苦得多。降温。听说明天降温，妈妈提醒我多穿点衣服。零下。今晚最低零下十度，河面可能会结冰。寒冷。"
+    },
+    {
+      "first_clip": 27,
+      "last_clip": 32,
+      "start": 55.910000000000004,
+      "end": 71.0,
+      "text": "今晚最低零下十度，河面可能会结冰。寒冷。即使天气寒冷，他也坚持每天跑步。暖和。太阳出来以后，屋里渐渐暖和了。山上晚上比较凉，最好带一件厚衣服。"
+    },
+    {
+      "first_clip": 31,
+      "last_clip": 36,
+      "start": 64.125,
+      "end": 78.84,
+      "text": "太阳出来以后，屋里渐渐暖和了。山上晚上比较凉，最好带一件厚衣服。功夫。他因为喜欢中国功夫，开始学习汉语。健身。我把健身安排在下班后，每周三次。"
+    },
+    {
+      "first_clip": 35,
+      "last_clip": 37,
+      "start": 73.44999999999999,
+      "end": 79.368,
+      "text": "健身。我把健身安排在下班后，每周三次。健身房。"
+    }
+  ],
+  "alerts": []
+}

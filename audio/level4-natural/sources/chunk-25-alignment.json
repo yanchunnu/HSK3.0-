@@ -1,0 +1,2620 @@
+{
+  "chunk": 25,
+  "duration": 77.256,
+  "transcript_match_ratio": 0.9792,
+  "clips": [
+    {
+      "no": 497,
+      "kind": "example",
+      "text": "这家店理发需要预约，你最好先打电话。",
+      "spoken_text": "这家店理发需要预约，你最好先打电话。",
+      "pinyin": "Zhè jiā diàn lǐfà xūyào yùyuē, nǐ zuìhǎo xiān dǎ diànhuà.",
+      "source_chunk": 25,
+      "speech_start": 0.0,
+      "speech_end": 2.88,
+      "confidence": 0.7109,
+      "characters": [
+        {
+          "char": "这",
+          "start": 0.0,
+          "end": 0.42,
+          "confidence": 0.1364
+        },
+        {
+          "char": "家",
+          "start": 0.42,
+          "end": 0.54,
+          "confidence": 0.9906
+        },
+        {
+          "char": "店",
+          "start": 0.54,
+          "end": 0.7,
+          "confidence": 0.8534
+        },
+        {
+          "char": "理",
+          "start": 0.7,
+          "end": 0.86,
+          "confidence": 0.005
+        },
+        {
+          "char": "发",
+          "start": 0.86,
+          "end": 1.02,
+          "confidence": 0.3815
+        },
+        {
+          "char": "需",
+          "start": 1.02,
+          "end": 1.2,
+          "confidence": 0.0009
+        },
+        {
+          "char": "要",
+          "start": 1.2,
+          "end": 1.32,
+          "confidence": 0.7335
+        },
+        {
+          "char": "预",
+          "start": 1.32,
+          "end": 1.48,
+          "confidence": 0.8801
+        },
+        {
+          "char": "约",
+          "start": 1.48,
+          "end": 1.66,
+          "confidence": 0.9938
+        },
+        {
+          "char": "你",
+          "start": 1.9,
+          "end": 1.98,
+          "confidence": 0.4477
+        },
+        {
+          "char": "最",
+          "start": 1.98,
+          "end": 2.1,
+          "confidence": 0.9978
+        },
+        {
+          "char": "好",
+          "start": 2.1,
+          "end": 2.24,
+          "confidence": 0.9848
+        },
+        {
+          "char": "先",
+          "start": 2.24,
+          "end": 2.4,
+          "confidence": 0.9912
+        },
+        {
+          "char": "打",
+          "start": 2.4,
+          "end": 2.52,
+          "confidence": 0.9836
+        },
+        {
+          "char": "电",
+          "start": 2.52,
+          "end": 2.66,
+          "confidence": 0.9948
+        },
+        {
+          "char": "话",
+          "start": 2.66,
+          "end": 2.88,
+          "confidence": 0.9987
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19775
+    },
+    {
+      "no": 498,
+      "kind": "example",
+      "text": "我半夜醒了一次，听见外面正在下雨。",
+      "spoken_text": "我半夜醒了一次，听见外面正在下雨。",
+      "pinyin": "Wǒ bànyè xǐng le yí cì, tīngjiàn wàimiàn zhèngzài xiàyǔ.",
+      "source_chunk": 25,
+      "speech_start": 3.3,
+      "speech_end": 5.98,
+      "confidence": 0.8843,
+      "characters": [
+        {
+          "char": "我",
+          "start": 3.3,
+          "end": 3.54,
+          "confidence": 0.9714
+        },
+        {
+          "char": "半",
+          "start": 3.54,
+          "end": 3.66,
+          "confidence": 0.8451
+        },
+        {
+          "char": "夜",
+          "start": 3.66,
+          "end": 3.8,
+          "confidence": 0.9918
+        },
+        {
+          "char": "醒",
+          "start": 3.8,
+          "end": 3.98,
+          "confidence": 0.9969
+        },
+        {
+          "char": "了",
+          "start": 3.98,
+          "end": 4.12,
+          "confidence": 0.9946
+        },
+        {
+          "char": "一",
+          "start": 4.12,
+          "end": 4.24,
+          "confidence": 0.0205
+        },
+        {
+          "char": "次",
+          "start": 4.24,
+          "end": 4.46,
+          "confidence": 0.7666
+        },
+        {
+          "char": "听",
+          "start": 4.8,
+          "end": 4.92,
+          "confidence": 0.8321
+        },
+        {
+          "char": "见",
+          "start": 4.92,
+          "end": 5.0,
+          "confidence": 0.9805
+        },
+        {
+          "char": "外",
+          "start": 5.0,
+          "end": 5.16,
+          "confidence": 0.9955
+        },
+        {
+          "char": "面",
+          "start": 5.16,
+          "end": 5.3,
+          "confidence": 0.9994
+        },
+        {
+          "char": "正",
+          "start": 5.3,
+          "end": 5.4,
+          "confidence": 0.9893
+        },
+        {
+          "char": "在",
+          "start": 5.4,
+          "end": 5.56,
+          "confidence": 0.9912
+        },
+        {
+          "char": "下",
+          "start": 5.56,
+          "end": 5.74,
+          "confidence": 0.9221
+        },
+        {
+          "char": "雨",
+          "start": 5.74,
+          "end": 5.98,
+          "confidence": 0.968
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23082
+    },
+    {
+      "no": 499,
+      "kind": "word",
+      "text": "养成",
+      "spoken_text": "养成。",
+      "pinyin": "yǎngchéng",
+      "source_chunk": 25,
+      "speech_start": 6.44,
+      "speech_end": 6.76,
+      "confidence": 0.7739,
+      "characters": [
+        {
+          "char": "养",
+          "start": 6.44,
+          "end": 6.58,
+          "confidence": 0.8094
+        },
+        {
+          "char": "成",
+          "start": 6.58,
+          "end": 6.76,
+          "confidence": 0.7384
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.13678
+    },
+    {
+      "no": 499,
+      "kind": "example",
+      "text": "养成按时睡觉的习惯，白天才有精神。",
+      "spoken_text": "养成按时睡觉的习惯，白天才有精神。",
+      "pinyin": "Yǎngchéng ànshí shuìjiào de xíguàn, báitiān cái yǒu jīngshen.",
+      "source_chunk": 25,
+      "speech_start": 7.2,
+      "speech_end": 10.0,
+      "confidence": 0.8994,
+      "characters": [
+        {
+          "char": "养",
+          "start": 7.2,
+          "end": 7.52,
+          "confidence": 0.9949
+        },
+        {
+          "char": "成",
+          "start": 7.52,
+          "end": 7.68,
+          "confidence": 0.9991
+        },
+        {
+          "char": "按",
+          "start": 7.68,
+          "end": 7.8,
+          "confidence": 0.0545
+        },
+        {
+          "char": "时",
+          "start": 7.8,
+          "end": 7.96,
+          "confidence": 0.9598
+        },
+        {
+          "char": "睡",
+          "start": 7.96,
+          "end": 8.14,
+          "confidence": 0.996
+        },
+        {
+          "char": "觉",
+          "start": 8.14,
+          "end": 8.28,
+          "confidence": 0.9823
+        },
+        {
+          "char": "的",
+          "start": 8.28,
+          "end": 8.46,
+          "confidence": 0.988
+        },
+        {
+          "char": "习",
+          "start": 8.46,
+          "end": 8.6,
+          "confidence": 0.9794
+        },
+        {
+          "char": "惯",
+          "start": 8.6,
+          "end": 8.76,
+          "confidence": 0.9884
+        },
+        {
+          "char": "白",
+          "start": 9.1,
+          "end": 9.18,
+          "confidence": 0.7026
+        },
+        {
+          "char": "天",
+          "start": 9.18,
+          "end": 9.38,
+          "confidence": 0.998
+        },
+        {
+          "char": "才",
+          "start": 9.38,
+          "end": 9.54,
+          "confidence": 0.9911
+        },
+        {
+          "char": "有",
+          "start": 9.54,
+          "end": 9.66,
+          "confidence": 0.9944
+        },
+        {
+          "char": "精",
+          "start": 9.66,
+          "end": 9.82,
+          "confidence": 0.8648
+        },
+        {
+          "char": "神",
+          "start": 9.82,
+          "end": 10.0,
+          "confidence": 0.9978
+        }
+      ],
+      "independent_asr_coverage": 0.933,
+      "rms": 0.20563
+    },
+    {
+      "no": 500,
+      "kind": "example",
+      "text": "跑完步后，他出了一身汗，衣服都湿了。",
+      "spoken_text": "跑完步后，他出了一身汗，衣服都湿了。",
+      "pinyin": "Pǎo wán bù hòu, tā chū le yìshēn hàn, yīfu dōu shī le.",
+      "source_chunk": 25,
+      "speech_start": 10.33,
+      "speech_end": 13.45,
+      "confidence": 0.8505,
+      "characters": [
+        {
+          "char": "跑",
+          "start": 10.33,
+          "end": 10.59,
+          "confidence": 0.9678
+        },
+        {
+          "char": "完",
+          "start": 10.59,
+          "end": 10.73,
+          "confidence": 0.9959
+        },
+        {
+          "char": "步",
+          "start": 10.73,
+          "end": 10.87,
+          "confidence": 0.41
+        },
+        {
+          "char": "后",
+          "start": 10.87,
+          "end": 11.17,
+          "confidence": 0.9959
+        },
+        {
+          "char": "他",
+          "start": 11.43,
+          "end": 11.55,
+          "confidence": 0.4428
+        },
+        {
+          "char": "出",
+          "start": 11.55,
+          "end": 11.71,
+          "confidence": 0.9372
+        },
+        {
+          "char": "了",
+          "start": 11.71,
+          "end": 11.81,
+          "confidence": 0.9904
+        },
+        {
+          "char": "一",
+          "start": 11.81,
+          "end": 11.91,
+          "confidence": 0.9854
+        },
+        {
+          "char": "身",
+          "start": 11.91,
+          "end": 12.05,
+          "confidence": 0.8369
+        },
+        {
+          "char": "汗",
+          "start": 12.05,
+          "end": 12.33,
+          "confidence": 0.7416
+        },
+        {
+          "char": "衣",
+          "start": 12.73,
+          "end": 12.89,
+          "confidence": 0.8513
+        },
+        {
+          "char": "服",
+          "start": 12.89,
+          "end": 12.91,
+          "confidence": 0.9887
+        },
+        {
+          "char": "都",
+          "start": 12.91,
+          "end": 13.03,
+          "confidence": 0.9872
+        },
+        {
+          "char": "湿",
+          "start": 13.03,
+          "end": 13.29,
+          "confidence": 0.6317
+        },
+        {
+          "char": "了",
+          "start": 13.29,
+          "end": 13.45,
+          "confidence": 0.9941
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21974
+    },
+    {
+      "no": 501,
+      "kind": "word",
+      "text": "全身",
+      "spoken_text": "全身。",
+      "pinyin": "quánshēn",
+      "source_chunk": 25,
+      "speech_start": 13.79,
+      "speech_end": 14.19,
+      "confidence": 0.9405,
+      "characters": [
+        {
+          "char": "全",
+          "start": 13.79,
+          "end": 13.97,
+          "confidence": 0.9555
+        },
+        {
+          "char": "身",
+          "start": 13.97,
+          "end": 14.19,
+          "confidence": 0.9255
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.13381
+    },
+    {
+      "no": 501,
+      "kind": "example",
+      "text": "听到这个消息，他激动得全身发抖。",
+      "spoken_text": "听到这个消息，他激动得全身发抖。",
+      "pinyin": "Tīngdào zhè ge xiāoxi, tā jīdòng de quánshēn fādǒu.",
+      "source_chunk": 25,
+      "speech_start": 14.67,
+      "speech_end": 17.23,
+      "confidence": 0.7841,
+      "characters": [
+        {
+          "char": "听",
+          "start": 14.67,
+          "end": 14.85,
+          "confidence": 0.905
+        },
+        {
+          "char": "到",
+          "start": 14.85,
+          "end": 14.97,
+          "confidence": 0.9946
+        },
+        {
+          "char": "这",
+          "start": 14.97,
+          "end": 15.09,
+          "confidence": 0.0079
+        },
+        {
+          "char": "个",
+          "start": 15.09,
+          "end": 15.21,
+          "confidence": 0.6497
+        },
+        {
+          "char": "消",
+          "start": 15.21,
+          "end": 15.35,
+          "confidence": 0.9741
+        },
+        {
+          "char": "息",
+          "start": 15.35,
+          "end": 15.57,
+          "confidence": 0.7474
+        },
+        {
+          "char": "他",
+          "start": 15.89,
+          "end": 15.99,
+          "confidence": 0.9074
+        },
+        {
+          "char": "激",
+          "start": 15.99,
+          "end": 16.17,
+          "confidence": 0.925
+        },
+        {
+          "char": "动",
+          "start": 16.17,
+          "end": 16.31,
+          "confidence": 0.9867
+        },
+        {
+          "char": "得",
+          "start": 16.31,
+          "end": 16.41,
+          "confidence": 0.0134
+        },
+        {
+          "char": "全",
+          "start": 16.41,
+          "end": 16.65,
+          "confidence": 0.9937
+        },
+        {
+          "char": "身",
+          "start": 16.65,
+          "end": 16.85,
+          "confidence": 0.9909
+        },
+        {
+          "char": "发",
+          "start": 16.85,
+          "end": 17.05,
+          "confidence": 0.9831
+        },
+        {
+          "char": "抖",
+          "start": 17.05,
+          "end": 17.23,
+          "confidence": 0.8987
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23254
+    },
+    {
+      "no": 502,
+      "kind": "word",
+      "text": "鼻子",
+      "spoken_text": "鼻子。",
+      "pinyin": "bízi",
+      "source_chunk": 25,
+      "speech_start": 17.65,
+      "speech_end": 17.95,
+      "confidence": 0.9817,
+      "characters": [
+        {
+          "char": "鼻",
+          "start": 17.65,
+          "end": 17.77,
+          "confidence": 0.9681
+        },
+        {
+          "char": "子",
+          "start": 17.77,
+          "end": 17.95,
+          "confidence": 0.9954
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.14532
+    },
+    {
+      "no": 502,
+      "kind": "example",
+      "text": "鼻子不舒服时，他总是用纸巾轻轻擦。",
+      "spoken_text": "鼻子不舒服时，他总是用纸巾轻轻擦。",
+      "pinyin": "Bízi bù shūfu shí, tā zǒngshì yòng zhǐjīn qīngqīng cā.",
+      "source_chunk": 25,
+      "speech_start": 18.12,
+      "speech_end": 21.2,
+      "confidence": 0.8316,
+      "characters": [
+        {
+          "char": "鼻",
+          "start": 18.12,
+          "end": 18.58,
+          "confidence": 0.9943
+        },
+        {
+          "char": "子",
+          "start": 18.58,
+          "end": 18.7,
+          "confidence": 0.9998
+        },
+        {
+          "char": "不",
+          "start": 18.7,
+          "end": 18.84,
+          "confidence": 0.9902
+        },
+        {
+          "char": "舒",
+          "start": 18.84,
+          "end": 18.96,
+          "confidence": 0.9916
+        },
+        {
+          "char": "服",
+          "start": 18.96,
+          "end": 19.08,
+          "confidence": 0.9919
+        },
+        {
+          "char": "时",
+          "start": 19.08,
+          "end": 19.34,
+          "confidence": 0.7604
+        },
+        {
+          "char": "他",
+          "start": 19.74,
+          "end": 19.78,
+          "confidence": 0.11
+        },
+        {
+          "char": "总",
+          "start": 19.78,
+          "end": 19.94,
+          "confidence": 0.9739
+        },
+        {
+          "char": "是",
+          "start": 19.94,
+          "end": 20.12,
+          "confidence": 0.9479
+        },
+        {
+          "char": "用",
+          "start": 20.12,
+          "end": 20.22,
+          "confidence": 0.9923
+        },
+        {
+          "char": "纸",
+          "start": 20.22,
+          "end": 20.42,
+          "confidence": 0.5262
+        },
+        {
+          "char": "巾",
+          "start": 20.42,
+          "end": 20.58,
+          "confidence": 0.6267
+        },
+        {
+          "char": "轻",
+          "start": 20.58,
+          "end": 20.8,
+          "confidence": 0.696
+        },
+        {
+          "char": "轻",
+          "start": 20.8,
+          "end": 20.92,
+          "confidence": 0.9937
+        },
+        {
+          "char": "擦",
+          "start": 20.92,
+          "end": 21.2,
+          "confidence": 0.8796
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20659
+    },
+    {
+      "no": 503,
+      "kind": "word",
+      "text": "胳膊",
+      "spoken_text": "胳膊。",
+      "pinyin": "gēbo",
+      "source_chunk": 25,
+      "speech_start": 21.6,
+      "speech_end": 21.98,
+      "confidence": 0.6231,
+      "characters": [
+        {
+          "char": "胳",
+          "start": 21.6,
+          "end": 21.8,
+          "confidence": 0.2885
+        },
+        {
+          "char": "膊",
+          "start": 21.8,
+          "end": 21.98,
+          "confidence": 0.9578
+        }
+      ],
+      "independent_asr_coverage": 0.5,
+      "rms": 0.28573
+    },
+    {
+      "no": 503,
+      "kind": "example",
+      "text": "他提的东西太重，胳膊都酸了。",
+      "spoken_text": "他提的东西太重，胳膊都酸了。",
+      "pinyin": "Tā tí de dōngxi tài zhòng, gēbo dōu suān le.",
+      "source_chunk": 25,
+      "speech_start": 22.46,
+      "speech_end": 24.78,
+      "confidence": 0.8978,
+      "characters": [
+        {
+          "char": "他",
+          "start": 22.46,
+          "end": 22.78,
+          "confidence": 0.5243
+        },
+        {
+          "char": "提",
+          "start": 22.78,
+          "end": 22.92,
+          "confidence": 0.9298
+        },
+        {
+          "char": "的",
+          "start": 22.92,
+          "end": 23.02,
+          "confidence": 0.919
+        },
+        {
+          "char": "东",
+          "start": 23.02,
+          "end": 23.12,
+          "confidence": 0.9813
+        },
+        {
+          "char": "西",
+          "start": 23.12,
+          "end": 23.24,
+          "confidence": 0.9996
+        },
+        {
+          "char": "太",
+          "start": 23.24,
+          "end": 23.44,
+          "confidence": 0.9868
+        },
+        {
+          "char": "重",
+          "start": 23.44,
+          "end": 23.68,
+          "confidence": 0.9669
+        },
+        {
+          "char": "胳",
+          "start": 24.06,
+          "end": 24.16,
+          "confidence": 0.6025
+        },
+        {
+          "char": "膊",
+          "start": 24.16,
+          "end": 24.24,
+          "confidence": 0.9994
+        },
+        {
+          "char": "都",
+          "start": 24.24,
+          "end": 24.36,
+          "confidence": 0.9835
+        },
+        {
+          "char": "酸",
+          "start": 24.36,
+          "end": 24.58,
+          "confidence": 0.8869
+        },
+        {
+          "char": "了",
+          "start": 24.58,
+          "end": 24.78,
+          "confidence": 0.9938
+        }
+      ],
+      "independent_asr_coverage": 0.917,
+      "rms": 0.22747
+    },
+    {
+      "no": 504,
+      "kind": "word",
+      "text": "肚子",
+      "spoken_text": "肚子。",
+      "pinyin": "dùzi",
+      "source_chunk": 25,
+      "speech_start": 25.14,
+      "speech_end": 25.5,
+      "confidence": 0.9922,
+      "characters": [
+        {
+          "char": "肚",
+          "start": 25.14,
+          "end": 25.3,
+          "confidence": 0.9847
+        },
+        {
+          "char": "子",
+          "start": 25.3,
+          "end": 25.5,
+          "confidence": 0.9997
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25406
+    },
+    {
+      "no": 504,
+      "kind": "example",
+      "text": "我肚子不太舒服，想先回房间休息。",
+      "spoken_text": "我肚子不太舒服，想先回房间休息。",
+      "pinyin": "Wǒ dùzi bú tài shūfu, xiǎng xiān huí fángjiān xiūxi.",
+      "source_chunk": 25,
+      "speech_start": 25.73,
+      "speech_end": 28.43,
+      "confidence": 0.9268,
+      "characters": [
+        {
+          "char": "我",
+          "start": 25.73,
+          "end": 26.09,
+          "confidence": 0.8608
+        },
+        {
+          "char": "肚",
+          "start": 26.09,
+          "end": 26.21,
+          "confidence": 0.9987
+        },
+        {
+          "char": "子",
+          "start": 26.21,
+          "end": 26.31,
+          "confidence": 0.9997
+        },
+        {
+          "char": "不",
+          "start": 26.31,
+          "end": 26.41,
+          "confidence": 0.998
+        },
+        {
+          "char": "太",
+          "start": 26.41,
+          "end": 26.53,
+          "confidence": 0.9979
+        },
+        {
+          "char": "舒",
+          "start": 26.53,
+          "end": 26.75,
+          "confidence": 0.9862
+        },
+        {
+          "char": "服",
+          "start": 26.75,
+          "end": 26.97,
+          "confidence": 0.9913
+        },
+        {
+          "char": "想",
+          "start": 27.29,
+          "end": 27.41,
+          "confidence": 0.8217
+        },
+        {
+          "char": "先",
+          "start": 27.41,
+          "end": 27.59,
+          "confidence": 0.8984
+        },
+        {
+          "char": "回",
+          "start": 27.59,
+          "end": 27.67,
+          "confidence": 0.9839
+        },
+        {
+          "char": "房",
+          "start": 27.67,
+          "end": 27.81,
+          "confidence": 0.9791
+        },
+        {
+          "char": "间",
+          "start": 27.81,
+          "end": 27.97,
+          "confidence": 0.8793
+        },
+        {
+          "char": "休",
+          "start": 27.97,
+          "end": 28.19,
+          "confidence": 0.8431
+        },
+        {
+          "char": "息",
+          "start": 28.19,
+          "end": 28.43,
+          "confidence": 0.7377
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20982
+    },
+    {
+      "no": 505,
+      "kind": "word",
+      "text": "皮肤",
+      "spoken_text": "皮肤。",
+      "pinyin": "pífū",
+      "source_chunk": 25,
+      "speech_start": 28.89,
+      "speech_end": 29.27,
+      "confidence": 0.7437,
+      "characters": [
+        {
+          "char": "皮",
+          "start": 28.89,
+          "end": 29.03,
+          "confidence": 0.8789
+        },
+        {
+          "char": "肤",
+          "start": 29.03,
+          "end": 29.27,
+          "confidence": 0.6084
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.12361
+    },
+    {
+      "no": 505,
+      "kind": "example",
+      "text": "她的皮肤比较敏感，所以挑护肤品很仔细。",
+      "spoken_text": "她的皮肤比较敏感，所以挑护肤品很仔细。",
+      "pinyin": "Tā de pífū bǐjiào mǐngǎn, suǒyǐ tiāo hùfūpǐn hěn zǐxì.",
+      "source_chunk": 25,
+      "speech_start": 29.63,
+      "speech_end": 32.65,
+      "confidence": 0.6928,
+      "characters": [
+        {
+          "char": "她",
+          "start": 29.63,
+          "end": 29.91,
+          "confidence": 0.0838
+        },
+        {
+          "char": "的",
+          "start": 29.91,
+          "end": 30.01,
+          "confidence": 0.986
+        },
+        {
+          "char": "皮",
+          "start": 30.01,
+          "end": 30.15,
+          "confidence": 0.9914
+        },
+        {
+          "char": "肤",
+          "start": 30.15,
+          "end": 30.29,
+          "confidence": 0.9967
+        },
+        {
+          "char": "比",
+          "start": 30.29,
+          "end": 30.43,
+          "confidence": 0.8375
+        },
+        {
+          "char": "较",
+          "start": 30.43,
+          "end": 30.57,
+          "confidence": 0.9973
+        },
+        {
+          "char": "敏",
+          "start": 30.57,
+          "end": 30.71,
+          "confidence": 0.9868
+        },
+        {
+          "char": "感",
+          "start": 30.71,
+          "end": 30.93,
+          "confidence": 0.9971
+        },
+        {
+          "char": "所",
+          "start": 31.31,
+          "end": 31.35,
+          "confidence": 0.0053
+        },
+        {
+          "char": "以",
+          "start": 31.35,
+          "end": 31.47,
+          "confidence": 0.0013
+        },
+        {
+          "char": "挑",
+          "start": 31.47,
+          "end": 31.59,
+          "confidence": 0.0968
+        },
+        {
+          "char": "护",
+          "start": 31.59,
+          "end": 31.77,
+          "confidence": 0.6884
+        },
+        {
+          "char": "肤",
+          "start": 31.77,
+          "end": 31.93,
+          "confidence": 0.9522
+        },
+        {
+          "char": "品",
+          "start": 31.93,
+          "end": 32.03,
+          "confidence": 0.3509
+        },
+        {
+          "char": "很",
+          "start": 32.03,
+          "end": 32.25,
+          "confidence": 0.8671
+        },
+        {
+          "char": "仔",
+          "start": 32.25,
+          "end": 32.41,
+          "confidence": 0.9703
+        },
+        {
+          "char": "细",
+          "start": 32.41,
+          "end": 32.65,
+          "confidence": 0.9681
+        }
+      ],
+      "independent_asr_coverage": 0.882,
+      "rms": 0.19608
+    },
+    {
+      "no": 506,
+      "kind": "example",
+      "text": "护士抽完血后，让我在外面等结果。",
+      "spoken_text": "护士抽完血后，让我在外面等结果。",
+      "pinyin": "Hùshi chōu wán xuè hòu, ràng wǒ zài wàimiàn děng jiéguǒ.",
+      "source_chunk": 25,
+      "speech_start": 33.05,
+      "speech_end": 35.55,
+      "confidence": 0.8524,
+      "characters": [
+        {
+          "char": "护",
+          "start": 33.05,
+          "end": 33.41,
+          "confidence": 0.9692
+        },
+        {
+          "char": "士",
+          "start": 33.41,
+          "end": 33.51,
+          "confidence": 0.8034
+        },
+        {
+          "char": "抽",
+          "start": 33.51,
+          "end": 33.65,
+          "confidence": 0.9571
+        },
+        {
+          "char": "完",
+          "start": 33.65,
+          "end": 33.77,
+          "confidence": 0.9302
+        },
+        {
+          "char": "血",
+          "start": 33.77,
+          "end": 33.95,
+          "confidence": 0.9171
+        },
+        {
+          "char": "后",
+          "start": 33.95,
+          "end": 34.23,
+          "confidence": 0.9484
+        },
+        {
+          "char": "让",
+          "start": 34.53,
+          "end": 34.63,
+          "confidence": 0.6685
+        },
+        {
+          "char": "我",
+          "start": 34.63,
+          "end": 34.69,
+          "confidence": 0.0776
+        },
+        {
+          "char": "在",
+          "start": 34.69,
+          "end": 34.79,
+          "confidence": 0.7582
+        },
+        {
+          "char": "外",
+          "start": 34.79,
+          "end": 34.89,
+          "confidence": 0.9972
+        },
+        {
+          "char": "面",
+          "start": 34.89,
+          "end": 35.05,
+          "confidence": 0.9726
+        },
+        {
+          "char": "等",
+          "start": 35.05,
+          "end": 35.15,
+          "confidence": 0.985
+        },
+        {
+          "char": "结",
+          "start": 35.15,
+          "end": 35.35,
+          "confidence": 0.9495
+        },
+        {
+          "char": "果",
+          "start": 35.35,
+          "end": 35.55,
+          "confidence": 0.9997
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22897
+    },
+    {
+      "no": 507,
+      "kind": "example",
+      "text": "他忙得满头大汗，连水都顾不上喝。",
+      "spoken_text": "他忙得满头大汗，连水都顾不上喝。",
+      "pinyin": "Tā máng de mǎntóudàhàn, lián shuǐ dōu gùbushàng hē.",
+      "source_chunk": 25,
+      "speech_start": 35.93,
+      "speech_end": 38.65,
+      "confidence": 0.7664,
+      "characters": [
+        {
+          "char": "他",
+          "start": 35.93,
+          "end": 36.23,
+          "confidence": 0.287
+        },
+        {
+          "char": "忙",
+          "start": 36.23,
+          "end": 36.37,
+          "confidence": 0.9253
+        },
+        {
+          "char": "得",
+          "start": 36.37,
+          "end": 36.51,
+          "confidence": 0.3612
+        },
+        {
+          "char": "满",
+          "start": 36.51,
+          "end": 36.63,
+          "confidence": 0.968
+        },
+        {
+          "char": "头",
+          "start": 36.63,
+          "end": 36.83,
+          "confidence": 0.9856
+        },
+        {
+          "char": "大",
+          "start": 36.83,
+          "end": 37.01,
+          "confidence": 0.9117
+        },
+        {
+          "char": "汗",
+          "start": 37.01,
+          "end": 37.27,
+          "confidence": 0.6994
+        },
+        {
+          "char": "连",
+          "start": 37.55,
+          "end": 37.65,
+          "confidence": 0.5259
+        },
+        {
+          "char": "水",
+          "start": 37.65,
+          "end": 37.89,
+          "confidence": 0.9765
+        },
+        {
+          "char": "都",
+          "start": 37.89,
+          "end": 38.07,
+          "confidence": 0.9973
+        },
+        {
+          "char": "顾",
+          "start": 38.07,
+          "end": 38.19,
+          "confidence": 0.8942
+        },
+        {
+          "char": "不",
+          "start": 38.19,
+          "end": 38.29,
+          "confidence": 0.9809
+        },
+        {
+          "char": "上",
+          "start": 38.29,
+          "end": 38.43,
+          "confidence": 0.9821
+        },
+        {
+          "char": "喝",
+          "start": 38.43,
+          "end": 38.65,
+          "confidence": 0.2352
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2379
+    },
+    {
+      "no": 508,
+      "kind": "word",
+      "text": "力气",
+      "spoken_text": "力气。",
+      "pinyin": "lìqi",
+      "source_chunk": 25,
+      "speech_start": 39.11,
+      "speech_end": 39.47,
+      "confidence": 0.5227,
+      "characters": [
+        {
+          "char": "力",
+          "start": 39.11,
+          "end": 39.23,
+          "confidence": 0.107
+        },
+        {
+          "char": "气",
+          "start": 39.23,
+          "end": 39.47,
+          "confidence": 0.9384
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.26644
+    },
+    {
+      "no": 508,
+      "kind": "example",
+      "text": "箱子太重，我一个人没有力气搬动。",
+      "spoken_text": "箱子太重，我一个人没有力气搬动。",
+      "pinyin": "Xiāngzi tài zhòng, wǒ yí ge rén méiyǒu lìqi bāndòng.",
+      "source_chunk": 25,
+      "speech_start": 40.07,
+      "speech_end": 42.43,
+      "confidence": 0.6573,
+      "characters": [
+        {
+          "char": "箱",
+          "start": 40.07,
+          "end": 40.31,
+          "confidence": 0.6158
+        },
+        {
+          "char": "子",
+          "start": 40.31,
+          "end": 40.41,
+          "confidence": 0.9997
+        },
+        {
+          "char": "太",
+          "start": 40.41,
+          "end": 40.57,
+          "confidence": 0.9922
+        },
+        {
+          "char": "重",
+          "start": 40.57,
+          "end": 40.79,
+          "confidence": 0.9471
+        },
+        {
+          "char": "我",
+          "start": 41.19,
+          "end": 41.27,
+          "confidence": 0.975
+        },
+        {
+          "char": "一",
+          "start": 41.27,
+          "end": 41.41,
+          "confidence": 0.0018
+        },
+        {
+          "char": "个",
+          "start": 41.41,
+          "end": 41.49,
+          "confidence": 0.068
+        },
+        {
+          "char": "人",
+          "start": 41.49,
+          "end": 41.61,
+          "confidence": 0.9964
+        },
+        {
+          "char": "没",
+          "start": 41.61,
+          "end": 41.73,
+          "confidence": 0.0205
+        },
+        {
+          "char": "有",
+          "start": 41.73,
+          "end": 41.87,
+          "confidence": 0.0007
+        },
+        {
+          "char": "力",
+          "start": 41.87,
+          "end": 41.93,
+          "confidence": 0.9903
+        },
+        {
+          "char": "气",
+          "start": 41.93,
+          "end": 42.09,
+          "confidence": 0.9849
+        },
+        {
+          "char": "搬",
+          "start": 42.09,
+          "end": 42.21,
+          "confidence": 0.6407
+        },
+        {
+          "char": "动",
+          "start": 42.21,
+          "end": 42.43,
+          "confidence": 0.9687
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21956
+    },
+    {
+      "no": 509,
+      "kind": "word",
+      "text": "体温",
+      "spoken_text": "体温。",
+      "pinyin": "tǐwēn",
+      "source_chunk": 25,
+      "speech_start": 42.89,
+      "speech_end": 43.25,
+      "confidence": 0.8222,
+      "characters": [
+        {
+          "char": "体",
+          "start": 42.89,
+          "end": 43.09,
+          "confidence": 0.6544
+        },
+        {
+          "char": "温",
+          "start": 43.09,
+          "end": 43.25,
+          "confidence": 0.9901
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23546
+    },
+    {
+      "no": 509,
+      "kind": "example",
+      "text": "护士记录了体温，然后问我哪里不舒服。",
+      "spoken_text": "护士记录了体温，然后问我哪里不舒服。",
+      "pinyin": "Hùshi jìlù le tǐwēn, ránhòu wèn wǒ nǎlǐ bù shūfu.",
+      "source_chunk": 25,
+      "speech_start": 43.62,
+      "speech_end": 46.4,
+      "confidence": 0.8266,
+      "characters": [
+        {
+          "char": "护",
+          "start": 43.62,
+          "end": 43.92,
+          "confidence": 0.79
+        },
+        {
+          "char": "士",
+          "start": 43.92,
+          "end": 44.04,
+          "confidence": 0.9648
+        },
+        {
+          "char": "记",
+          "start": 44.04,
+          "end": 44.22,
+          "confidence": 0.7036
+        },
+        {
+          "char": "录",
+          "start": 44.22,
+          "end": 44.32,
+          "confidence": 0.9859
+        },
+        {
+          "char": "了",
+          "start": 44.32,
+          "end": 44.42,
+          "confidence": 0.9796
+        },
+        {
+          "char": "体",
+          "start": 44.42,
+          "end": 44.6,
+          "confidence": 0.9867
+        },
+        {
+          "char": "温",
+          "start": 44.6,
+          "end": 44.82,
+          "confidence": 0.9996
+        },
+        {
+          "char": "然",
+          "start": 45.24,
+          "end": 45.26,
+          "confidence": 0.0015
+        },
+        {
+          "char": "后",
+          "start": 45.26,
+          "end": 45.36,
+          "confidence": 0.0549
+        },
+        {
+          "char": "问",
+          "start": 45.36,
+          "end": 45.5,
+          "confidence": 0.9483
+        },
+        {
+          "char": "我",
+          "start": 45.5,
+          "end": 45.62,
+          "confidence": 0.9691
+        },
+        {
+          "char": "哪",
+          "start": 45.62,
+          "end": 45.78,
+          "confidence": 0.9233
+        },
+        {
+          "char": "里",
+          "start": 45.78,
+          "end": 45.92,
+          "confidence": 0.9664
+        },
+        {
+          "char": "不",
+          "start": 45.92,
+          "end": 46.06,
+          "confidence": 0.9848
+        },
+        {
+          "char": "舒",
+          "start": 46.06,
+          "end": 46.22,
+          "confidence": 0.9757
+        },
+        {
+          "char": "服",
+          "start": 46.22,
+          "end": 46.4,
+          "confidence": 0.9915
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24676
+    },
+    {
+      "no": 510,
+      "kind": "word",
+      "text": "体重",
+      "spoken_text": "体重。",
+      "pinyin": "tǐzhòng",
+      "source_chunk": 25,
+      "speech_start": 46.84,
+      "speech_end": 47.12,
+      "confidence": 0.893,
+      "characters": [
+        {
+          "char": "体",
+          "start": 46.84,
+          "end": 46.96,
+          "confidence": 0.8023
+        },
+        {
+          "char": "重",
+          "start": 46.96,
+          "end": 47.12,
+          "confidence": 0.9837
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25553
+    },
+    {
+      "no": 510,
+      "kind": "example",
+      "text": "经过几个月的运动，他的体重减轻了。",
+      "spoken_text": "经过几个月的运动，他的体重减轻了。",
+      "pinyin": "Jīngguò jǐ gè yuè de yùndòng, tā de tǐzhòng jiǎnqīng le.",
+      "source_chunk": 25,
+      "speech_start": 47.68,
+      "speech_end": 50.3,
+      "confidence": 0.8284,
+      "characters": [
+        {
+          "char": "经",
+          "start": 47.68,
+          "end": 47.98,
+          "confidence": 0.9417
+        },
+        {
+          "char": "过",
+          "start": 47.98,
+          "end": 48.12,
+          "confidence": 0.9977
+        },
+        {
+          "char": "几",
+          "start": 48.12,
+          "end": 48.26,
+          "confidence": 0.9963
+        },
+        {
+          "char": "个",
+          "start": 48.26,
+          "end": 48.36,
+          "confidence": 0.9968
+        },
+        {
+          "char": "月",
+          "start": 48.36,
+          "end": 48.48,
+          "confidence": 0.9919
+        },
+        {
+          "char": "的",
+          "start": 48.48,
+          "end": 48.62,
+          "confidence": 0.9511
+        },
+        {
+          "char": "运",
+          "start": 48.62,
+          "end": 48.72,
+          "confidence": 0.9941
+        },
+        {
+          "char": "动",
+          "start": 48.72,
+          "end": 48.92,
+          "confidence": 0.9977
+        },
+        {
+          "char": "他",
+          "start": 49.32,
+          "end": 49.36,
+          "confidence": 0.0165
+        },
+        {
+          "char": "的",
+          "start": 49.36,
+          "end": 49.44,
+          "confidence": 0.1182
+        },
+        {
+          "char": "体",
+          "start": 49.44,
+          "end": 49.58,
+          "confidence": 0.9975
+        },
+        {
+          "char": "重",
+          "start": 49.58,
+          "end": 49.72,
+          "confidence": 0.9921
+        },
+        {
+          "char": "减",
+          "start": 49.72,
+          "end": 49.92,
+          "confidence": 0.6747
+        },
+        {
+          "char": "轻",
+          "start": 49.92,
+          "end": 50.1,
+          "confidence": 0.8799
+        },
+        {
+          "char": "了",
+          "start": 50.1,
+          "end": 50.3,
+          "confidence": 0.8796
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23666
+    },
+    {
+      "no": 511,
+      "kind": "example",
+      "text": "走了这么远的路，我的脚有点痛。",
+      "spoken_text": "走了这么远的路，我的脚有点痛。",
+      "pinyin": "Zǒu le zhème yuǎn de lù, wǒ de jiǎo yǒudiǎn tòng.",
+      "source_chunk": 25,
+      "speech_start": 50.7,
+      "speech_end": 53.04,
+      "confidence": 0.6125,
+      "characters": [
+        {
+          "char": "走",
+          "start": 50.7,
+          "end": 50.92,
+          "confidence": 0.394
+        },
+        {
+          "char": "了",
+          "start": 50.92,
+          "end": 51.02,
+          "confidence": 0.533
+        },
+        {
+          "char": "这",
+          "start": 51.02,
+          "end": 51.14,
+          "confidence": 0.008
+        },
+        {
+          "char": "么",
+          "start": 51.14,
+          "end": 51.22,
+          "confidence": 0.2609
+        },
+        {
+          "char": "远",
+          "start": 51.22,
+          "end": 51.34,
+          "confidence": 0.9919
+        },
+        {
+          "char": "的",
+          "start": 51.34,
+          "end": 51.5,
+          "confidence": 0.9799
+        },
+        {
+          "char": "路",
+          "start": 51.5,
+          "end": 51.66,
+          "confidence": 0.9975
+        },
+        {
+          "char": "我",
+          "start": 52.14,
+          "end": 52.26,
+          "confidence": 0.1136
+        },
+        {
+          "char": "的",
+          "start": 52.26,
+          "end": 52.36,
+          "confidence": 0.0948
+        },
+        {
+          "char": "脚",
+          "start": 52.36,
+          "end": 52.52,
+          "confidence": 0.7838
+        },
+        {
+          "char": "有",
+          "start": 52.52,
+          "end": 52.7,
+          "confidence": 0.8196
+        },
+        {
+          "char": "点",
+          "start": 52.7,
+          "end": 52.8,
+          "confidence": 0.9939
+        },
+        {
+          "char": "痛",
+          "start": 52.8,
+          "end": 53.04,
+          "confidence": 0.9921
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18764
+    },
+    {
+      "no": 512,
+      "kind": "word",
+      "text": "头痛",
+      "spoken_text": "头痛。",
+      "pinyin": "tóutòng",
+      "source_chunk": 25,
+      "speech_start": 53.4,
+      "speech_end": 53.88,
+      "confidence": 0.9399,
+      "characters": [
+        {
+          "char": "头",
+          "start": 53.4,
+          "end": 53.68,
+          "confidence": 0.8931
+        },
+        {
+          "char": "痛",
+          "start": 53.68,
+          "end": 53.88,
+          "confidence": 0.9867
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.16293
+    },
+    {
+      "no": 512,
+      "kind": "example",
+      "text": "他头痛了一整天，决定去医院看看。",
+      "spoken_text": "他头痛了一整天，决定去医院看看。",
+      "pinyin": "Tā tóutòng le yìzhěngtiān, juédìng qù yīyuàn kànkan.",
+      "source_chunk": 25,
+      "speech_start": 54.24,
+      "speech_end": 56.88,
+      "confidence": 0.7673,
+      "characters": [
+        {
+          "char": "他",
+          "start": 54.24,
+          "end": 54.44,
+          "confidence": 0.2229
+        },
+        {
+          "char": "头",
+          "start": 54.44,
+          "end": 54.66,
+          "confidence": 0.9716
+        },
+        {
+          "char": "痛",
+          "start": 54.66,
+          "end": 54.84,
+          "confidence": 0.9807
+        },
+        {
+          "char": "了",
+          "start": 54.84,
+          "end": 54.92,
+          "confidence": 0.3638
+        },
+        {
+          "char": "一",
+          "start": 54.92,
+          "end": 55.02,
+          "confidence": 0.9846
+        },
+        {
+          "char": "整",
+          "start": 55.02,
+          "end": 55.14,
+          "confidence": 0.9972
+        },
+        {
+          "char": "天",
+          "start": 55.14,
+          "end": 55.38,
+          "confidence": 0.9989
+        },
+        {
+          "char": "决",
+          "start": 55.84,
+          "end": 55.88,
+          "confidence": 0.6925
+        },
+        {
+          "char": "定",
+          "start": 55.88,
+          "end": 55.98,
+          "confidence": 0.9921
+        },
+        {
+          "char": "去",
+          "start": 55.98,
+          "end": 56.14,
+          "confidence": 0.9758
+        },
+        {
+          "char": "医",
+          "start": 56.14,
+          "end": 56.26,
+          "confidence": 0.9926
+        },
+        {
+          "char": "院",
+          "start": 56.26,
+          "end": 56.36,
+          "confidence": 0.9979
+        },
+        {
+          "char": "看",
+          "start": 56.36,
+          "end": 56.56,
+          "confidence": 0.0692
+        },
+        {
+          "char": "看",
+          "start": 56.56,
+          "end": 56.88,
+          "confidence": 0.5021
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22014
+    },
+    {
+      "no": 513,
+      "kind": "example",
+      "text": "他一边说话一边咳，声音有些沙哑。",
+      "spoken_text": "他一边说话一边咳，声音有些沙哑。",
+      "pinyin": "Tā yìbiān shuōhuà yìbiān ké, shēngyīn yǒuxiē shāyǎ.",
+      "source_chunk": 25,
+      "speech_start": 57.18,
+      "speech_end": 60.12,
+      "confidence": 0.7661,
+      "characters": [
+        {
+          "char": "他",
+          "start": 57.18,
+          "end": 57.44,
+          "confidence": 0.6663
+        },
+        {
+          "char": "一",
+          "start": 57.44,
+          "end": 57.56,
+          "confidence": 0.9913
+        },
+        {
+          "char": "边",
+          "start": 57.56,
+          "end": 57.68,
+          "confidence": 0.9832
+        },
+        {
+          "char": "说",
+          "start": 57.68,
+          "end": 57.88,
+          "confidence": 0.9259
+        },
+        {
+          "char": "话",
+          "start": 57.88,
+          "end": 58.12,
+          "confidence": 0.99
+        },
+        {
+          "char": "一",
+          "start": 58.12,
+          "end": 58.32,
+          "confidence": 0.2813
+        },
+        {
+          "char": "边",
+          "start": 58.32,
+          "end": 58.48,
+          "confidence": 0.9898
+        },
+        {
+          "char": "咳",
+          "start": 58.48,
+          "end": 58.78,
+          "confidence": 0.5095
+        },
+        {
+          "char": "声",
+          "start": 59.2,
+          "end": 59.3,
+          "confidence": 0.5977
+        },
+        {
+          "char": "音",
+          "start": 59.3,
+          "end": 59.42,
+          "confidence": 0.9977
+        },
+        {
+          "char": "有",
+          "start": 59.42,
+          "end": 59.56,
+          "confidence": 0.9304
+        },
+        {
+          "char": "些",
+          "start": 59.56,
+          "end": 59.7,
+          "confidence": 0.9846
+        },
+        {
+          "char": "沙",
+          "start": 59.7,
+          "end": 59.92,
+          "confidence": 0.8113
+        },
+        {
+          "char": "哑",
+          "start": 59.92,
+          "end": 60.12,
+          "confidence": 0.0671
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23032
+    },
+    {
+      "no": 514,
+      "kind": "word",
+      "text": "咳嗽",
+      "spoken_text": "咳嗽。",
+      "pinyin": "késou",
+      "source_chunk": 25,
+      "speech_start": 60.68,
+      "speech_end": 61.08,
+      "confidence": 0.8604,
+      "characters": [
+        {
+          "char": "咳",
+          "start": 60.68,
+          "end": 60.84,
+          "confidence": 0.8114
+        },
+        {
+          "char": "嗽",
+          "start": 60.84,
+          "end": 61.08,
+          "confidence": 0.9094
+        }
+      ],
+      "independent_asr_coverage": 0.5,
+      "rms": 0.14562
+    },
+    {
+      "no": 514,
+      "kind": "example",
+      "text": "她咳嗽还没好，所以取消了周末的旅行。",
+      "spoken_text": "她咳嗽还没好，所以取消了周末的旅行。",
+      "pinyin": "Tā késou hái méi hǎo, suǒyǐ qǔxiāo le zhōumò de lǚxíng.",
+      "source_chunk": 25,
+      "speech_start": 61.37,
+      "speech_end": 64.31,
+      "confidence": 0.779,
+      "characters": [
+        {
+          "char": "她",
+          "start": 61.37,
+          "end": 61.75,
+          "confidence": 0.341
+        },
+        {
+          "char": "咳",
+          "start": 61.75,
+          "end": 61.91,
+          "confidence": 0.9717
+        },
+        {
+          "char": "嗽",
+          "start": 61.91,
+          "end": 62.05,
+          "confidence": 0.9854
+        },
+        {
+          "char": "还",
+          "start": 62.05,
+          "end": 62.19,
+          "confidence": 0.3577
+        },
+        {
+          "char": "没",
+          "start": 62.19,
+          "end": 62.29,
+          "confidence": 0.9472
+        },
+        {
+          "char": "好",
+          "start": 62.29,
+          "end": 62.55,
+          "confidence": 0.9914
+        },
+        {
+          "char": "所",
+          "start": 62.95,
+          "end": 62.99,
+          "confidence": 0.0576
+        },
+        {
+          "char": "以",
+          "start": 62.99,
+          "end": 63.11,
+          "confidence": 0.0068
+        },
+        {
+          "char": "取",
+          "start": 63.11,
+          "end": 63.25,
+          "confidence": 0.9355
+        },
+        {
+          "char": "消",
+          "start": 63.25,
+          "end": 63.39,
+          "confidence": 0.993
+        },
+        {
+          "char": "了",
+          "start": 63.39,
+          "end": 63.55,
+          "confidence": 0.9875
+        },
+        {
+          "char": "周",
+          "start": 63.55,
+          "end": 63.71,
+          "confidence": 0.9424
+        },
+        {
+          "char": "末",
+          "start": 63.71,
+          "end": 63.79,
+          "confidence": 0.9925
+        },
+        {
+          "char": "的",
+          "start": 63.79,
+          "end": 63.93,
+          "confidence": 0.9698
+        },
+        {
+          "char": "旅",
+          "start": 63.93,
+          "end": 64.05,
+          "confidence": 0.9894
+        },
+        {
+          "char": "行",
+          "start": 64.05,
+          "end": 64.31,
+          "confidence": 0.995
+        }
+      ],
+      "independent_asr_coverage": 0.938,
+      "rms": 0.21936
+    },
+    {
+      "no": 515,
+      "kind": "example",
+      "text": "昨晚没睡好，我上午开会时特别困。",
+      "spoken_text": "昨晚没睡好，我上午开会时特别困。",
+      "pinyin": "Zuówǎn méi shuì hǎo, wǒ shàngwǔ kāihuì shí tèbié kùn.",
+      "source_chunk": 25,
+      "speech_start": 64.75,
+      "speech_end": 67.47,
+      "confidence": 0.9705,
+      "characters": [
+        {
+          "char": "昨",
+          "start": 64.75,
+          "end": 64.95,
+          "confidence": 0.8138
+        },
+        {
+          "char": "晚",
+          "start": 64.95,
+          "end": 65.05,
+          "confidence": 0.9903
+        },
+        {
+          "char": "没",
+          "start": 65.05,
+          "end": 65.19,
+          "confidence": 0.9789
+        },
+        {
+          "char": "睡",
+          "start": 65.19,
+          "end": 65.33,
+          "confidence": 0.9942
+        },
+        {
+          "char": "好",
+          "start": 65.33,
+          "end": 65.59,
+          "confidence": 0.9901
+        },
+        {
+          "char": "我",
+          "start": 66.01,
+          "end": 66.11,
+          "confidence": 0.9648
+        },
+        {
+          "char": "上",
+          "start": 66.11,
+          "end": 66.25,
+          "confidence": 0.9966
+        },
+        {
+          "char": "午",
+          "start": 66.25,
+          "end": 66.35,
+          "confidence": 0.958
+        },
+        {
+          "char": "开",
+          "start": 66.35,
+          "end": 66.51,
+          "confidence": 0.9816
+        },
+        {
+          "char": "会",
+          "start": 66.51,
+          "end": 66.67,
+          "confidence": 0.9857
+        },
+        {
+          "char": "时",
+          "start": 66.67,
+          "end": 66.87,
+          "confidence": 0.9777
+        },
+        {
+          "char": "特",
+          "start": 66.87,
+          "end": 67.09,
+          "confidence": 0.9825
+        },
+        {
+          "char": "别",
+          "start": 67.09,
+          "end": 67.27,
+          "confidence": 0.9998
+        },
+        {
+          "char": "困",
+          "start": 67.27,
+          "end": 67.47,
+          "confidence": 0.9729
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23169
+    },
+    {
+      "no": 516,
+      "kind": "word",
+      "text": "受伤",
+      "spoken_text": "受伤。",
+      "pinyin": "shòushāng",
+      "source_chunk": 25,
+      "speech_start": 67.97,
+      "speech_end": 68.33,
+      "confidence": 0.6743,
+      "characters": [
+        {
+          "char": "受",
+          "start": 67.97,
+          "end": 68.11,
+          "confidence": 0.3607
+        },
+        {
+          "char": "伤",
+          "start": 68.11,
+          "end": 68.33,
+          "confidence": 0.9878
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.15759
+    },
+    {
+      "no": 516,
+      "kind": "example",
+      "text": "虽然比赛中受伤了，他还是坚持到最后。",
+      "spoken_text": "虽然比赛中受伤了，他还是坚持到最后。",
+      "pinyin": "Suīrán bǐsài zhōng shòushāng le, tā háishi jiānchí dào zuìhòu.",
+      "source_chunk": 25,
+      "speech_start": 68.77,
+      "speech_end": 71.75,
+      "confidence": 0.8128,
+      "characters": [
+        {
+          "char": "虽",
+          "start": 68.77,
+          "end": 69.01,
+          "confidence": 0.9945
+        },
+        {
+          "char": "然",
+          "start": 69.01,
+          "end": 69.17,
+          "confidence": 0.9994
+        },
+        {
+          "char": "比",
+          "start": 69.17,
+          "end": 69.29,
+          "confidence": 0.9989
+        },
+        {
+          "char": "赛",
+          "start": 69.29,
+          "end": 69.43,
+          "confidence": 0.9465
+        },
+        {
+          "char": "中",
+          "start": 69.43,
+          "end": 69.57,
+          "confidence": 0.9703
+        },
+        {
+          "char": "受",
+          "start": 69.57,
+          "end": 69.77,
+          "confidence": 0.9994
+        },
+        {
+          "char": "伤",
+          "start": 69.77,
+          "end": 69.99,
+          "confidence": 0.9997
+        },
+        {
+          "char": "了",
+          "start": 69.99,
+          "end": 70.21,
+          "confidence": 0.9977
+        },
+        {
+          "char": "他",
+          "start": 70.57,
+          "end": 70.65,
+          "confidence": 0.1421
+        },
+        {
+          "char": "还",
+          "start": 70.65,
+          "end": 70.79,
+          "confidence": 0.0316
+        },
+        {
+          "char": "是",
+          "start": 70.79,
+          "end": 70.95,
+          "confidence": 0.0129
+        },
+        {
+          "char": "坚",
+          "start": 70.95,
+          "end": 71.07,
+          "confidence": 0.959
+        },
+        {
+          "char": "持",
+          "start": 71.07,
+          "end": 71.19,
+          "confidence": 0.9969
+        },
+        {
+          "char": "到",
+          "start": 71.19,
+          "end": 71.33,
+          "confidence": 0.9741
+        },
+        {
+          "char": "最",
+          "start": 71.33,
+          "end": 71.49,
+          "confidence": 0.9873
+        },
+        {
+          "char": "后",
+          "start": 71.49,
+          "end": 71.75,
+          "confidence": 0.9939
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20818
+    },
+    {
+      "no": 517,
+      "kind": "word",
+      "text": "体检",
+      "spoken_text": "体检。",
+      "pinyin": "tǐjiǎn",
+      "source_chunk": 25,
+      "speech_start": 72.25,
+      "speech_end": 72.65,
+      "confidence": 0.4768,
+      "characters": [
+        {
+          "char": "体",
+          "start": 72.25,
+          "end": 72.43,
+          "confidence": 0.0843
+        },
+        {
+          "char": "检",
+          "start": 72.43,
+          "end": 72.65,
+          "confidence": 0.8692
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.11936
+    },
+    {
+      "no": 517,
+      "kind": "example",
+      "text": "公司安排下周体检，具体时间另行通知。",
+      "spoken_text": "公司安排下周体检，具体时间另行通知。",
+      "pinyin": "Gōngsī ānpái xiàzhōu tǐjiǎn, jùtǐ shíjiān lìngxíng tōngzhī.",
+      "source_chunk": 25,
+      "speech_start": 73.05,
+      "speech_end": 76.15,
+      "confidence": 0.7905,
+      "characters": [
+        {
+          "char": "公",
+          "start": 73.05,
+          "end": 73.25,
+          "confidence": 0.9392
+        },
+        {
+          "char": "司",
+          "start": 73.25,
+          "end": 73.41,
+          "confidence": 0.9705
+        },
+        {
+          "char": "安",
+          "start": 73.41,
+          "end": 73.53,
+          "confidence": 0.9973
+        },
+        {
+          "char": "排",
+          "start": 73.53,
+          "end": 73.67,
+          "confidence": 0.9994
+        },
+        {
+          "char": "下",
+          "start": 73.67,
+          "end": 73.87,
+          "confidence": 0.7806
+        },
+        {
+          "char": "周",
+          "start": 73.87,
+          "end": 74.03,
+          "confidence": 0.932
+        },
+        {
+          "char": "体",
+          "start": 74.03,
+          "end": 74.23,
+          "confidence": 0.9517
+        },
+        {
+          "char": "检",
+          "start": 74.23,
+          "end": 74.45,
+          "confidence": 0.9939
+        },
+        {
+          "char": "具",
+          "start": 74.85,
+          "end": 74.95,
+          "confidence": 0.6891
+        },
+        {
+          "char": "体",
+          "start": 74.95,
+          "end": 75.03,
+          "confidence": 0.9986
+        },
+        {
+          "char": "时",
+          "start": 75.03,
+          "end": 75.19,
+          "confidence": 0.0019
+        },
+        {
+          "char": "间",
+          "start": 75.19,
+          "end": 75.39,
+          "confidence": 0.017
+        },
+        {
+          "char": "另",
+          "start": 75.39,
+          "end": 75.53,
+          "confidence": 0.697
+        },
+        {
+          "char": "行",
+          "start": 75.53,
+          "end": 75.75,
+          "confidence": 0.9488
+        },
+        {
+          "char": "通",
+          "start": 75.75,
+          "end": 75.93,
+          "confidence": 0.7373
+        },
+        {
+          "char": "知",
+          "start": 75.93,
+          "end": 76.15,
+          "confidence": 0.9938
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23729
+    },
+    {
+      "no": 518,
+      "kind": "word",
+      "text": "打针",
+      "spoken_text": "打针。",
+      "pinyin": "dǎzhēn",
+      "source_chunk": 25,
+      "speech_start": 76.61,
+      "speech_end": 76.95,
+      "confidence": 0.8527,
+      "characters": [
+        {
+          "char": "打",
+          "start": 76.61,
+          "end": 76.77,
+          "confidence": 0.8274
+        },
+        {
+          "char": "针",
+          "start": 76.77,
+          "end": 76.95,
+          "confidence": 0.878
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19284
+    }
+  ],
+  "windows": [
+    {
+      "first_clip": 0,
+      "last_clip": 4,
+      "start": 0,
+      "end": 14.26,
+      "text": "这家店理发需要预约，你最好先打电话。我半夜醒了一次，听见外面正在下雨。养成。养成按时睡觉的习惯，白天才有精神。跑完步后，他出了一身汗，衣服都湿了。"
+    },
+    {
+      "first_clip": 3,
+      "last_clip": 8,
+      "start": 6.369999999999999,
+      "end": 22.049999999999997,
+      "text": "养成按时睡觉的习惯，白天才有精神。跑完步后，他出了一身汗，衣服都湿了。全身。听到这个消息，他激动得全身发抖。鼻子。鼻子不舒服时，他总是用纸巾轻轻擦。"
+    },
+    {
+      "first_clip": 7,
+      "last_clip": 12,
+      "start": 16.8,
+      "end": 29.299999999999997,
+      "text": "鼻子。鼻子不舒服时，他总是用纸巾轻轻擦。胳膊。他提的东西太重，胳膊都酸了。肚子。我肚子不太舒服，想先回房间休息。"
+    },
+    {
+      "first_clip": 11,
+      "last_clip": 16,
+      "start": 24.290000000000003,
+      "end": 39.51,
+      "text": "肚子。我肚子不太舒服，想先回房间休息。皮肤。她的皮肤比较敏感，所以挑护肤品很仔细。护士抽完血后，让我在外面等结果。他忙得满头大汗，连水都顾不上喝。"
+    },
+    {
+      "first_clip": 15,
+      "last_clip": 20,
+      "start": 32.21,
+      "end": 47.24,
+      "text": "护士抽完血后，让我在外面等结果。他忙得满头大汗，连水都顾不上喝。力气。箱子太重，我一个人没有力气搬动。体温。护士记录了体温，然后问我哪里不舒服。"
+    },
+    {
+      "first_clip": 19,
+      "last_clip": 24,
+      "start": 42.00000000000001,
+      "end": 54.75,
+      "text": "体温。护士记录了体温，然后问我哪里不舒服。体重。经过几个月的运动，他的体重减轻了。走了这么远的路，我的脚有点痛。头痛。"
+    },
+    {
+      "first_clip": 23,
+      "last_clip": 28,
+      "start": 49.800000000000004,
+      "end": 64.97,
+      "text": "走了这么远的路，我的脚有点痛。头痛。他头痛了一整天，决定去医院看看。他一边说话一边咳，声音有些沙哑。咳嗽。她咳嗽还没好，所以取消了周末的旅行。"
+    },
+    {
+      "first_clip": 27,
+      "last_clip": 32,
+      "start": 59.75,
+      "end": 73.31,
+      "text": "咳嗽。她咳嗽还没好，所以取消了周末的旅行。昨晚没睡好，我上午开会时特别困。受伤。虽然比赛中受伤了，他还是坚持到最后。体检。"
+    },
+    {
+      "first_clip": 31,
+      "last_clip": 34,
+      "start": 67.69,
+      "end": 77.256,
+      "text": "虽然比赛中受伤了，他还是坚持到最后。体检。公司安排下周体检，具体时间另行通知。打针。"
+    }
+  ],
+  "alerts": []
+}

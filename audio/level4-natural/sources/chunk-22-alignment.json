@@ -1,0 +1,2717 @@
+{
+  "chunk": 22,
+  "duration": 80.448,
+  "transcript_match_ratio": 0.9942,
+  "clips": [
+    {
+      "no": 435,
+      "kind": "example",
+      "text": "骑电动车时，别忘了戴好头盔。",
+      "spoken_text": "骑电动车时，别忘了戴好头盔。",
+      "pinyin": "Qí diàndòngchē shí, bié wàng le dài hǎo tóukuī.",
+      "source_chunk": 22,
+      "speech_start": 0.0,
+      "speech_end": 2.4,
+      "confidence": 0.8182,
+      "characters": [
+        {
+          "char": "骑",
+          "start": 0.0,
+          "end": 0.44,
+          "confidence": 0.5018
+        },
+        {
+          "char": "电",
+          "start": 0.44,
+          "end": 0.54,
+          "confidence": 0.9623
+        },
+        {
+          "char": "动",
+          "start": 0.54,
+          "end": 0.66,
+          "confidence": 0.9525
+        },
+        {
+          "char": "车",
+          "start": 0.66,
+          "end": 0.88,
+          "confidence": 0.9985
+        },
+        {
+          "char": "时",
+          "start": 0.88,
+          "end": 1.12,
+          "confidence": 0.9755
+        },
+        {
+          "char": "别",
+          "start": 1.42,
+          "end": 1.5,
+          "confidence": 0.209
+        },
+        {
+          "char": "忘",
+          "start": 1.5,
+          "end": 1.62,
+          "confidence": 0.9943
+        },
+        {
+          "char": "了",
+          "start": 1.62,
+          "end": 1.74,
+          "confidence": 0.9986
+        },
+        {
+          "char": "戴",
+          "start": 1.74,
+          "end": 1.84,
+          "confidence": 0.5429
+        },
+        {
+          "char": "好",
+          "start": 1.84,
+          "end": 2.0,
+          "confidence": 0.9403
+        },
+        {
+          "char": "头",
+          "start": 2.0,
+          "end": 2.2,
+          "confidence": 0.8363
+        },
+        {
+          "char": "盔",
+          "start": 2.2,
+          "end": 2.4,
+          "confidence": 0.9067
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2054
+    },
+    {
+      "no": 436,
+      "kind": "word",
+      "text": "动车",
+      "spoken_text": "动车。",
+      "pinyin": "dòngchē",
+      "source_chunk": 22,
+      "speech_start": 2.74,
+      "speech_end": 3.22,
+      "confidence": 0.9692,
+      "characters": [
+        {
+          "char": "动",
+          "start": 2.74,
+          "end": 2.92,
+          "confidence": 0.9391
+        },
+        {
+          "char": "车",
+          "start": 2.92,
+          "end": 3.22,
+          "confidence": 0.9994
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2568
+    },
+    {
+      "no": 436,
+      "kind": "example",
+      "text": "坐动车到那里只要两个小时，比开车快。",
+      "spoken_text": "坐动车到那里只要两个小时，比开车快。",
+      "pinyin": "Zuò dòngchē dào nàlǐ zhǐyào liǎng gè xiǎoshí, bǐ kāichē kuài.",
+      "source_chunk": 22,
+      "speech_start": 3.58,
+      "speech_end": 6.56,
+      "confidence": 0.9211,
+      "characters": [
+        {
+          "char": "坐",
+          "start": 3.58,
+          "end": 3.9,
+          "confidence": 0.4689
+        },
+        {
+          "char": "动",
+          "start": 3.9,
+          "end": 4.06,
+          "confidence": 0.9486
+        },
+        {
+          "char": "车",
+          "start": 4.06,
+          "end": 4.24,
+          "confidence": 0.9994
+        },
+        {
+          "char": "到",
+          "start": 4.24,
+          "end": 4.36,
+          "confidence": 0.8734
+        },
+        {
+          "char": "那",
+          "start": 4.36,
+          "end": 4.52,
+          "confidence": 0.9808
+        },
+        {
+          "char": "里",
+          "start": 4.52,
+          "end": 4.7,
+          "confidence": 0.9866
+        },
+        {
+          "char": "只",
+          "start": 4.7,
+          "end": 4.9,
+          "confidence": 0.9793
+        },
+        {
+          "char": "要",
+          "start": 4.9,
+          "end": 4.98,
+          "confidence": 0.9975
+        },
+        {
+          "char": "两",
+          "start": 4.98,
+          "end": 5.16,
+          "confidence": 0.9687
+        },
+        {
+          "char": "个",
+          "start": 5.16,
+          "end": 5.3,
+          "confidence": 0.9987
+        },
+        {
+          "char": "小",
+          "start": 5.3,
+          "end": 5.46,
+          "confidence": 0.9874
+        },
+        {
+          "char": "时",
+          "start": 5.46,
+          "end": 5.76,
+          "confidence": 0.9993
+        },
+        {
+          "char": "比",
+          "start": 5.98,
+          "end": 6.08,
+          "confidence": 0.5933
+        },
+        {
+          "char": "开",
+          "start": 6.08,
+          "end": 6.2,
+          "confidence": 0.9886
+        },
+        {
+          "char": "车",
+          "start": 6.2,
+          "end": 6.38,
+          "confidence": 0.9989
+        },
+        {
+          "char": "快",
+          "start": 6.38,
+          "end": 6.56,
+          "confidence": 0.9686
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20618
+    },
+    {
+      "no": 437,
+      "kind": "word",
+      "text": "航班",
+      "spoken_text": "航班。",
+      "pinyin": "hángbān",
+      "source_chunk": 22,
+      "speech_start": 7.2,
+      "speech_end": 7.48,
+      "confidence": 0.9326,
+      "characters": [
+        {
+          "char": "航",
+          "start": 7.2,
+          "end": 7.3,
+          "confidence": 0.8733
+        },
+        {
+          "char": "班",
+          "start": 7.3,
+          "end": 7.48,
+          "confidence": 0.992
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23089
+    },
+    {
+      "no": 437,
+      "kind": "example",
+      "text": "由于天气原因，今天的航班取消了。",
+      "spoken_text": "由于天气原因，今天的航班取消了。",
+      "pinyin": "Yóuyú tiānqì yuányīn, jīntiān de hángbān qǔxiāo le.",
+      "source_chunk": 22,
+      "speech_start": 7.97,
+      "speech_end": 10.41,
+      "confidence": 0.6938,
+      "characters": [
+        {
+          "char": "由",
+          "start": 7.97,
+          "end": 8.13,
+          "confidence": 0.9907
+        },
+        {
+          "char": "于",
+          "start": 8.13,
+          "end": 8.25,
+          "confidence": 0.651
+        },
+        {
+          "char": "天",
+          "start": 8.25,
+          "end": 8.37,
+          "confidence": 0.9898
+        },
+        {
+          "char": "气",
+          "start": 8.37,
+          "end": 8.55,
+          "confidence": 0.9478
+        },
+        {
+          "char": "原",
+          "start": 8.55,
+          "end": 8.73,
+          "confidence": 0.0005
+        },
+        {
+          "char": "因",
+          "start": 8.73,
+          "end": 8.91,
+          "confidence": 0.0995
+        },
+        {
+          "char": "今",
+          "start": 9.17,
+          "end": 9.31,
+          "confidence": 0.0002
+        },
+        {
+          "char": "天",
+          "start": 9.31,
+          "end": 9.43,
+          "confidence": 0.3946
+        },
+        {
+          "char": "的",
+          "start": 9.43,
+          "end": 9.53,
+          "confidence": 0.9027
+        },
+        {
+          "char": "航",
+          "start": 9.53,
+          "end": 9.65,
+          "confidence": 0.9969
+        },
+        {
+          "char": "班",
+          "start": 9.65,
+          "end": 9.79,
+          "confidence": 0.9992
+        },
+        {
+          "char": "取",
+          "start": 9.79,
+          "end": 9.99,
+          "confidence": 0.9556
+        },
+        {
+          "char": "消",
+          "start": 9.99,
+          "end": 10.17,
+          "confidence": 0.8047
+        },
+        {
+          "char": "了",
+          "start": 10.17,
+          "end": 10.41,
+          "confidence": 0.9803
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24331
+    },
+    {
+      "no": 438,
+      "kind": "word",
+      "text": "登机",
+      "spoken_text": "登机。",
+      "pinyin": "dēngjī",
+      "source_chunk": 22,
+      "speech_start": 10.73,
+      "speech_end": 11.21,
+      "confidence": 0.7128,
+      "characters": [
+        {
+          "char": "登",
+          "start": 10.73,
+          "end": 10.95,
+          "confidence": 0.6373
+        },
+        {
+          "char": "机",
+          "start": 10.95,
+          "end": 11.21,
+          "confidence": 0.7883
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.27138
+    },
+    {
+      "no": 438,
+      "kind": "example",
+      "text": "离登机还有一小时，我们可以先吃点东西。",
+      "spoken_text": "离登机还有一小时，我们可以先吃点东西。",
+      "pinyin": "Lí dēngjī háiyǒu yì xiǎoshí, wǒmen kěyǐ xiān chī diǎn dōngxi.",
+      "source_chunk": 22,
+      "speech_start": 11.65,
+      "speech_end": 14.47,
+      "confidence": 0.6757,
+      "characters": [
+        {
+          "char": "离",
+          "start": 11.65,
+          "end": 11.83,
+          "confidence": 0.6838
+        },
+        {
+          "char": "登",
+          "start": 11.83,
+          "end": 11.95,
+          "confidence": 0.9935
+        },
+        {
+          "char": "机",
+          "start": 11.95,
+          "end": 12.13,
+          "confidence": 0.9917
+        },
+        {
+          "char": "还",
+          "start": 12.13,
+          "end": 12.29,
+          "confidence": 0.9682
+        },
+        {
+          "char": "有",
+          "start": 12.29,
+          "end": 12.39,
+          "confidence": 0.0015
+        },
+        {
+          "char": "一",
+          "start": 12.39,
+          "end": 12.51,
+          "confidence": 0.6613
+        },
+        {
+          "char": "小",
+          "start": 12.51,
+          "end": 12.65,
+          "confidence": 0.9644
+        },
+        {
+          "char": "时",
+          "start": 12.65,
+          "end": 12.93,
+          "confidence": 0.9981
+        },
+        {
+          "char": "我",
+          "start": 13.31,
+          "end": 13.39,
+          "confidence": 0.0084
+        },
+        {
+          "char": "们",
+          "start": 13.39,
+          "end": 13.47,
+          "confidence": 0.3182
+        },
+        {
+          "char": "可",
+          "start": 13.47,
+          "end": 13.57,
+          "confidence": 0.0018
+        },
+        {
+          "char": "以",
+          "start": 13.57,
+          "end": 13.65,
+          "confidence": 0.0034
+        },
+        {
+          "char": "先",
+          "start": 13.65,
+          "end": 13.79,
+          "confidence": 0.9657
+        },
+        {
+          "char": "吃",
+          "start": 13.79,
+          "end": 13.95,
+          "confidence": 0.9891
+        },
+        {
+          "char": "点",
+          "start": 13.95,
+          "end": 14.07,
+          "confidence": 0.9857
+        },
+        {
+          "char": "东",
+          "start": 14.07,
+          "end": 14.25,
+          "confidence": 0.9934
+        },
+        {
+          "char": "西",
+          "start": 14.25,
+          "end": 14.47,
+          "confidence": 0.9583
+        }
+      ],
+      "independent_asr_coverage": 0.941,
+      "rms": 0.22012
+    },
+    {
+      "no": 439,
+      "kind": "example",
+      "text": "乘地铁去机场，既方便又能避开堵车。",
+      "spoken_text": "乘地铁去机场，既方便又能避开堵车。",
+      "pinyin": "Chéng dìtiě qù jīchǎng, jì fāngbiàn yòu néng bìkāi dǔchē.",
+      "source_chunk": 22,
+      "speech_start": 14.89,
+      "speech_end": 17.87,
+      "confidence": 0.9011,
+      "characters": [
+        {
+          "char": "乘",
+          "start": 14.89,
+          "end": 15.17,
+          "confidence": 0.5491
+        },
+        {
+          "char": "地",
+          "start": 15.17,
+          "end": 15.33,
+          "confidence": 0.88
+        },
+        {
+          "char": "铁",
+          "start": 15.33,
+          "end": 15.45,
+          "confidence": 0.974
+        },
+        {
+          "char": "去",
+          "start": 15.45,
+          "end": 15.65,
+          "confidence": 0.8848
+        },
+        {
+          "char": "机",
+          "start": 15.65,
+          "end": 15.77,
+          "confidence": 0.8817
+        },
+        {
+          "char": "场",
+          "start": 15.77,
+          "end": 16.01,
+          "confidence": 0.9726
+        },
+        {
+          "char": "既",
+          "start": 16.39,
+          "end": 16.47,
+          "confidence": 0.7809
+        },
+        {
+          "char": "方",
+          "start": 16.47,
+          "end": 16.65,
+          "confidence": 0.9954
+        },
+        {
+          "char": "便",
+          "start": 16.65,
+          "end": 16.85,
+          "confidence": 0.9998
+        },
+        {
+          "char": "又",
+          "start": 16.85,
+          "end": 17.05,
+          "confidence": 0.9678
+        },
+        {
+          "char": "能",
+          "start": 17.05,
+          "end": 17.19,
+          "confidence": 0.9963
+        },
+        {
+          "char": "避",
+          "start": 17.19,
+          "end": 17.33,
+          "confidence": 0.8849
+        },
+        {
+          "char": "开",
+          "start": 17.33,
+          "end": 17.47,
+          "confidence": 0.9964
+        },
+        {
+          "char": "堵",
+          "start": 17.47,
+          "end": 17.63,
+          "confidence": 0.756
+        },
+        {
+          "char": "车",
+          "start": 17.63,
+          "end": 17.87,
+          "confidence": 0.997
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20527
+    },
+    {
+      "no": 440,
+      "kind": "word",
+      "text": "乘坐",
+      "spoken_text": "乘坐。",
+      "pinyin": "chéngzuò",
+      "source_chunk": 22,
+      "speech_start": 18.23,
+      "speech_end": 18.61,
+      "confidence": 0.9273,
+      "characters": [
+        {
+          "char": "乘",
+          "start": 18.23,
+          "end": 18.43,
+          "confidence": 0.916
+        },
+        {
+          "char": "坐",
+          "start": 18.43,
+          "end": 18.61,
+          "confidence": 0.9386
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.15493
+    },
+    {
+      "no": 440,
+      "kind": "example",
+      "text": "乘坐公共汽车时，请主动给老人让座。",
+      "spoken_text": "乘坐公共汽车时，请主动给老人让座。",
+      "pinyin": "Chéngzuò gōnggòng qìchē shí, qǐng zhǔdòng gěi lǎorén ràngzuò.",
+      "source_chunk": 22,
+      "speech_start": 18.99,
+      "speech_end": 22.27,
+      "confidence": 0.9205,
+      "characters": [
+        {
+          "char": "乘",
+          "start": 18.99,
+          "end": 19.67,
+          "confidence": 0.9502
+        },
+        {
+          "char": "坐",
+          "start": 19.67,
+          "end": 19.83,
+          "confidence": 0.9961
+        },
+        {
+          "char": "公",
+          "start": 19.83,
+          "end": 19.95,
+          "confidence": 0.9511
+        },
+        {
+          "char": "共",
+          "start": 19.95,
+          "end": 20.07,
+          "confidence": 0.9071
+        },
+        {
+          "char": "汽",
+          "start": 20.07,
+          "end": 20.27,
+          "confidence": 0.9433
+        },
+        {
+          "char": "车",
+          "start": 20.27,
+          "end": 20.43,
+          "confidence": 0.998
+        },
+        {
+          "char": "时",
+          "start": 20.43,
+          "end": 20.69,
+          "confidence": 0.9887
+        },
+        {
+          "char": "请",
+          "start": 21.03,
+          "end": 21.15,
+          "confidence": 0.8409
+        },
+        {
+          "char": "主",
+          "start": 21.15,
+          "end": 21.29,
+          "confidence": 0.9495
+        },
+        {
+          "char": "动",
+          "start": 21.29,
+          "end": 21.45,
+          "confidence": 0.9969
+        },
+        {
+          "char": "给",
+          "start": 21.45,
+          "end": 21.61,
+          "confidence": 0.9393
+        },
+        {
+          "char": "老",
+          "start": 21.61,
+          "end": 21.75,
+          "confidence": 0.9959
+        },
+        {
+          "char": "人",
+          "start": 21.75,
+          "end": 21.89,
+          "confidence": 0.9987
+        },
+        {
+          "char": "让",
+          "start": 21.89,
+          "end": 22.03,
+          "confidence": 0.8891
+        },
+        {
+          "char": "座",
+          "start": 22.03,
+          "end": 22.27,
+          "confidence": 0.4634
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2581
+    },
+    {
+      "no": 441,
+      "kind": "word",
+      "text": "乘客",
+      "spoken_text": "乘客。",
+      "pinyin": "chéngkè",
+      "source_chunk": 22,
+      "speech_start": 22.63,
+      "speech_end": 22.99,
+      "confidence": 0.9788,
+      "characters": [
+        {
+          "char": "乘",
+          "start": 22.63,
+          "end": 22.83,
+          "confidence": 0.9696
+        },
+        {
+          "char": "客",
+          "start": 22.83,
+          "end": 22.99,
+          "confidence": 0.9879
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.11875
+    },
+    {
+      "no": 441,
+      "kind": "example",
+      "text": "列车即将到站，请乘客带好随身物品。",
+      "spoken_text": "列车即将到站，请乘客带好随身物品。",
+      "pinyin": "Lièchē jíjiāng dào zhàn, qǐng chéngkè dài hǎo suíshēn wùpǐn.",
+      "source_chunk": 22,
+      "speech_start": 23.49,
+      "speech_end": 26.39,
+      "confidence": 0.8463,
+      "characters": [
+        {
+          "char": "列",
+          "start": 23.49,
+          "end": 23.67,
+          "confidence": 0.582
+        },
+        {
+          "char": "车",
+          "start": 23.67,
+          "end": 23.87,
+          "confidence": 0.999
+        },
+        {
+          "char": "即",
+          "start": 23.87,
+          "end": 24.01,
+          "confidence": 0.3698
+        },
+        {
+          "char": "将",
+          "start": 24.01,
+          "end": 24.19,
+          "confidence": 0.9891
+        },
+        {
+          "char": "到",
+          "start": 24.19,
+          "end": 24.33,
+          "confidence": 0.8642
+        },
+        {
+          "char": "站",
+          "start": 24.33,
+          "end": 24.53,
+          "confidence": 0.3568
+        },
+        {
+          "char": "请",
+          "start": 24.87,
+          "end": 25.01,
+          "confidence": 0.9366
+        },
+        {
+          "char": "乘",
+          "start": 25.01,
+          "end": 25.21,
+          "confidence": 0.9963
+        },
+        {
+          "char": "客",
+          "start": 25.21,
+          "end": 25.41,
+          "confidence": 0.9972
+        },
+        {
+          "char": "带",
+          "start": 25.41,
+          "end": 25.55,
+          "confidence": 0.9026
+        },
+        {
+          "char": "好",
+          "start": 25.55,
+          "end": 25.71,
+          "confidence": 0.9687
+        },
+        {
+          "char": "随",
+          "start": 25.71,
+          "end": 25.91,
+          "confidence": 0.994
+        },
+        {
+          "char": "身",
+          "start": 25.91,
+          "end": 26.05,
+          "confidence": 0.828
+        },
+        {
+          "char": "物",
+          "start": 26.05,
+          "end": 26.21,
+          "confidence": 0.9158
+        },
+        {
+          "char": "品",
+          "start": 26.21,
+          "end": 26.39,
+          "confidence": 0.9942
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21732
+    },
+    {
+      "no": 442,
+      "kind": "word",
+      "text": "旅客",
+      "spoken_text": "旅客。",
+      "pinyin": "lǚkè",
+      "source_chunk": 22,
+      "speech_start": 27.0,
+      "speech_end": 27.36,
+      "confidence": 0.9176,
+      "characters": [
+        {
+          "char": "旅",
+          "start": 27.0,
+          "end": 27.14,
+          "confidence": 0.8372
+        },
+        {
+          "char": "客",
+          "start": 27.14,
+          "end": 27.36,
+          "confidence": 0.998
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.17915
+    },
+    {
+      "no": 442,
+      "kind": "example",
+      "text": "服务台为旅客提供免费的城市地图。",
+      "spoken_text": "服务台为旅客提供免费的城市地图。",
+      "pinyin": "Fúwùtái wèi lǚkè tígōng miǎnfèi de chéngshì dìtú.",
+      "source_chunk": 22,
+      "speech_start": 27.96,
+      "speech_end": 30.54,
+      "confidence": 0.9764,
+      "characters": [
+        {
+          "char": "服",
+          "start": 27.96,
+          "end": 28.24,
+          "confidence": 0.9289
+        },
+        {
+          "char": "务",
+          "start": 28.24,
+          "end": 28.32,
+          "confidence": 0.9767
+        },
+        {
+          "char": "台",
+          "start": 28.32,
+          "end": 28.5,
+          "confidence": 0.9787
+        },
+        {
+          "char": "为",
+          "start": 28.5,
+          "end": 28.68,
+          "confidence": 0.8978
+        },
+        {
+          "char": "旅",
+          "start": 28.68,
+          "end": 28.84,
+          "confidence": 0.9947
+        },
+        {
+          "char": "客",
+          "start": 28.84,
+          "end": 29.04,
+          "confidence": 0.9999
+        },
+        {
+          "char": "提",
+          "start": 29.04,
+          "end": 29.22,
+          "confidence": 0.991
+        },
+        {
+          "char": "供",
+          "start": 29.22,
+          "end": 29.36,
+          "confidence": 0.998
+        },
+        {
+          "char": "免",
+          "start": 29.36,
+          "end": 29.58,
+          "confidence": 0.9887
+        },
+        {
+          "char": "费",
+          "start": 29.58,
+          "end": 29.74,
+          "confidence": 0.9944
+        },
+        {
+          "char": "的",
+          "start": 29.74,
+          "end": 29.9,
+          "confidence": 0.996
+        },
+        {
+          "char": "城",
+          "start": 29.9,
+          "end": 30.04,
+          "confidence": 0.9521
+        },
+        {
+          "char": "市",
+          "start": 30.04,
+          "end": 30.18,
+          "confidence": 0.9855
+        },
+        {
+          "char": "地",
+          "start": 30.18,
+          "end": 30.3,
+          "confidence": 0.9963
+        },
+        {
+          "char": "图",
+          "start": 30.3,
+          "end": 30.54,
+          "confidence": 0.9679
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25664
+    },
+    {
+      "no": 443,
+      "kind": "word",
+      "text": "安检",
+      "spoken_text": "安检。",
+      "pinyin": "ānjiǎn",
+      "source_chunk": 22,
+      "speech_start": 31.0,
+      "speech_end": 31.42,
+      "confidence": 0.8673,
+      "characters": [
+        {
+          "char": "安",
+          "start": 31.0,
+          "end": 31.24,
+          "confidence": 0.9708
+        },
+        {
+          "char": "检",
+          "start": 31.24,
+          "end": 31.42,
+          "confidence": 0.7637
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23487
+    },
+    {
+      "no": 443,
+      "kind": "example",
+      "text": "通过安检后，才可以进入候车大厅。",
+      "spoken_text": "通过安检后，才可以进入候车大厅。",
+      "pinyin": "Tōngguò ānjiǎn hòu, cái kěyǐ jìnrù hòuchē dàtīng.",
+      "source_chunk": 22,
+      "speech_start": 31.74,
+      "speech_end": 34.3,
+      "confidence": 0.6754,
+      "characters": [
+        {
+          "char": "通",
+          "start": 31.74,
+          "end": 31.98,
+          "confidence": 0.9951
+        },
+        {
+          "char": "过",
+          "start": 31.98,
+          "end": 32.1,
+          "confidence": 0.9947
+        },
+        {
+          "char": "安",
+          "start": 32.1,
+          "end": 32.24,
+          "confidence": 0.9985
+        },
+        {
+          "char": "检",
+          "start": 32.24,
+          "end": 32.4,
+          "confidence": 0.9964
+        },
+        {
+          "char": "后",
+          "start": 32.4,
+          "end": 32.66,
+          "confidence": 0.9872
+        },
+        {
+          "char": "才",
+          "start": 33.06,
+          "end": 33.16,
+          "confidence": 0.0104
+        },
+        {
+          "char": "可",
+          "start": 33.16,
+          "end": 33.26,
+          "confidence": 0.0128
+        },
+        {
+          "char": "以",
+          "start": 33.26,
+          "end": 33.38,
+          "confidence": 0.0
+        },
+        {
+          "char": "进",
+          "start": 33.38,
+          "end": 33.46,
+          "confidence": 0.9927
+        },
+        {
+          "char": "入",
+          "start": 33.46,
+          "end": 33.58,
+          "confidence": 0.9989
+        },
+        {
+          "char": "候",
+          "start": 33.58,
+          "end": 33.74,
+          "confidence": 0.0249
+        },
+        {
+          "char": "车",
+          "start": 33.74,
+          "end": 33.88,
+          "confidence": 0.999
+        },
+        {
+          "char": "大",
+          "start": 33.88,
+          "end": 34.04,
+          "confidence": 0.5299
+        },
+        {
+          "char": "厅",
+          "start": 34.04,
+          "end": 34.3,
+          "confidence": 0.915
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21354
+    },
+    {
+      "no": 444,
+      "kind": "word",
+      "text": "降落",
+      "spoken_text": "降落。",
+      "pinyin": "jiàngluò",
+      "source_chunk": 22,
+      "speech_start": 34.65,
+      "speech_end": 34.97,
+      "confidence": 0.8095,
+      "characters": [
+        {
+          "char": "降",
+          "start": 34.65,
+          "end": 34.79,
+          "confidence": 0.6314
+        },
+        {
+          "char": "落",
+          "start": 34.79,
+          "end": 34.97,
+          "confidence": 0.9875
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21165
+    },
+    {
+      "no": 444,
+      "kind": "example",
+      "text": "飞机降落时，窗外的城市越来越清楚。",
+      "spoken_text": "飞机降落时，窗外的城市越来越清楚。",
+      "pinyin": "Fēijī jiàngluò shí, chuāngwài de chéngshì yuèláiyuè qīngchu.",
+      "source_chunk": 22,
+      "speech_start": 35.33,
+      "speech_end": 38.31,
+      "confidence": 0.8281,
+      "characters": [
+        {
+          "char": "飞",
+          "start": 35.33,
+          "end": 35.59,
+          "confidence": 0.9796
+        },
+        {
+          "char": "机",
+          "start": 35.59,
+          "end": 35.69,
+          "confidence": 0.9826
+        },
+        {
+          "char": "降",
+          "start": 35.69,
+          "end": 35.87,
+          "confidence": 0.9974
+        },
+        {
+          "char": "落",
+          "start": 35.87,
+          "end": 36.01,
+          "confidence": 0.9994
+        },
+        {
+          "char": "时",
+          "start": 36.01,
+          "end": 36.31,
+          "confidence": 0.9525
+        },
+        {
+          "char": "窗",
+          "start": 36.63,
+          "end": 36.77,
+          "confidence": 0.5981
+        },
+        {
+          "char": "外",
+          "start": 36.77,
+          "end": 36.89,
+          "confidence": 0.9986
+        },
+        {
+          "char": "的",
+          "start": 36.89,
+          "end": 37.01,
+          "confidence": 0.9826
+        },
+        {
+          "char": "城",
+          "start": 37.01,
+          "end": 37.17,
+          "confidence": 0.9539
+        },
+        {
+          "char": "市",
+          "start": 37.17,
+          "end": 37.41,
+          "confidence": 0.9936
+        },
+        {
+          "char": "越",
+          "start": 37.41,
+          "end": 37.63,
+          "confidence": 0.8741
+        },
+        {
+          "char": "来",
+          "start": 37.63,
+          "end": 37.75,
+          "confidence": 0.9986
+        },
+        {
+          "char": "越",
+          "start": 37.75,
+          "end": 37.89,
+          "confidence": 0.9995
+        },
+        {
+          "char": "清",
+          "start": 37.89,
+          "end": 38.09,
+          "confidence": 0.0271
+        },
+        {
+          "char": "楚",
+          "start": 38.09,
+          "end": 38.31,
+          "confidence": 0.0833
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22851
+    },
+    {
+      "no": 445,
+      "kind": "word",
+      "text": "换乘",
+      "spoken_text": "换乘。",
+      "pinyin": "huànchéng",
+      "source_chunk": 22,
+      "speech_start": 38.79,
+      "speech_end": 39.27,
+      "confidence": 0.6644,
+      "characters": [
+        {
+          "char": "换",
+          "start": 38.79,
+          "end": 39.01,
+          "confidence": 0.8293
+        },
+        {
+          "char": "乘",
+          "start": 39.01,
+          "end": 39.27,
+          "confidence": 0.4996
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18551
+    },
+    {
+      "no": 445,
+      "kind": "example",
+      "text": "在下一站换乘二号线，就能到博物馆。",
+      "spoken_text": "在下一站换乘二号线，就能到博物馆。",
+      "pinyin": "Zài xià yí zhàn huànchéng èr hào xiàn, jiù néng dào bówùguǎn.",
+      "source_chunk": 22,
+      "speech_start": 39.79,
+      "speech_end": 42.55,
+      "confidence": 0.8126,
+      "characters": [
+        {
+          "char": "在",
+          "start": 39.79,
+          "end": 40.09,
+          "confidence": 0.8251
+        },
+        {
+          "char": "下",
+          "start": 40.09,
+          "end": 40.25,
+          "confidence": 0.0202
+        },
+        {
+          "char": "一",
+          "start": 40.25,
+          "end": 40.43,
+          "confidence": 0.8949
+        },
+        {
+          "char": "站",
+          "start": 40.43,
+          "end": 40.53,
+          "confidence": 0.956
+        },
+        {
+          "char": "换",
+          "start": 40.53,
+          "end": 40.83,
+          "confidence": 0.561
+        },
+        {
+          "char": "乘",
+          "start": 40.83,
+          "end": 40.99,
+          "confidence": 0.9677
+        },
+        {
+          "char": "二",
+          "start": 40.99,
+          "end": 41.15,
+          "confidence": 0.6354
+        },
+        {
+          "char": "号",
+          "start": 41.15,
+          "end": 41.31,
+          "confidence": 0.9869
+        },
+        {
+          "char": "线",
+          "start": 41.31,
+          "end": 41.51,
+          "confidence": 0.8473
+        },
+        {
+          "char": "就",
+          "start": 41.87,
+          "end": 41.87,
+          "confidence": 0.6401
+        },
+        {
+          "char": "能",
+          "start": 41.87,
+          "end": 41.97,
+          "confidence": 0.9965
+        },
+        {
+          "char": "到",
+          "start": 41.97,
+          "end": 42.11,
+          "confidence": 0.9173
+        },
+        {
+          "char": "博",
+          "start": 42.11,
+          "end": 42.27,
+          "confidence": 0.9628
+        },
+        {
+          "char": "物",
+          "start": 42.27,
+          "end": 42.39,
+          "confidence": 0.9964
+        },
+        {
+          "char": "馆",
+          "start": 42.39,
+          "end": 42.55,
+          "confidence": 0.981
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19322
+    },
+    {
+      "no": 446,
+      "kind": "word",
+      "text": "转机",
+      "spoken_text": "转机。",
+      "pinyin": "zhuǎnjī",
+      "source_chunk": 22,
+      "speech_start": 42.93,
+      "speech_end": 43.43,
+      "confidence": 0.8549,
+      "characters": [
+        {
+          "char": "转",
+          "start": 42.93,
+          "end": 43.19,
+          "confidence": 0.9865
+        },
+        {
+          "char": "机",
+          "start": 43.19,
+          "end": 43.43,
+          "confidence": 0.7233
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.1995
+    },
+    {
+      "no": 446,
+      "kind": "example",
+      "text": "这次需要在北京转机，中间有三个小时。",
+      "spoken_text": "这次需要在北京转机，中间有三个小时。",
+      "pinyin": "Zhè cì xūyào zài Běijīng zhuǎnjī, zhōngjiān yǒu sān gè xiǎoshí.",
+      "source_chunk": 22,
+      "speech_start": 43.85,
+      "speech_end": 46.77,
+      "confidence": 0.8629,
+      "characters": [
+        {
+          "char": "这",
+          "start": 43.85,
+          "end": 44.07,
+          "confidence": 0.9564
+        },
+        {
+          "char": "次",
+          "start": 44.07,
+          "end": 44.23,
+          "confidence": 0.9964
+        },
+        {
+          "char": "需",
+          "start": 44.23,
+          "end": 44.37,
+          "confidence": 0.0002
+        },
+        {
+          "char": "要",
+          "start": 44.37,
+          "end": 44.49,
+          "confidence": 0.2235
+        },
+        {
+          "char": "在",
+          "start": 44.49,
+          "end": 44.61,
+          "confidence": 0.9606
+        },
+        {
+          "char": "北",
+          "start": 44.61,
+          "end": 44.77,
+          "confidence": 0.999
+        },
+        {
+          "char": "京",
+          "start": 44.77,
+          "end": 44.93,
+          "confidence": 0.9908
+        },
+        {
+          "char": "转",
+          "start": 44.93,
+          "end": 45.13,
+          "confidence": 0.9984
+        },
+        {
+          "char": "机",
+          "start": 45.13,
+          "end": 45.39,
+          "confidence": 0.9595
+        },
+        {
+          "char": "中",
+          "start": 45.81,
+          "end": 45.81,
+          "confidence": 0.806
+        },
+        {
+          "char": "间",
+          "start": 45.81,
+          "end": 45.93,
+          "confidence": 0.9925
+        },
+        {
+          "char": "有",
+          "start": 45.93,
+          "end": 46.05,
+          "confidence": 0.9928
+        },
+        {
+          "char": "三",
+          "start": 46.05,
+          "end": 46.25,
+          "confidence": 0.9415
+        },
+        {
+          "char": "个",
+          "start": 46.25,
+          "end": 46.37,
+          "confidence": 0.9957
+        },
+        {
+          "char": "小",
+          "start": 46.37,
+          "end": 46.49,
+          "confidence": 0.9946
+        },
+        {
+          "char": "时",
+          "start": 46.49,
+          "end": 46.77,
+          "confidence": 0.9989
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20758
+    },
+    {
+      "no": 447,
+      "kind": "word",
+      "text": "公路",
+      "spoken_text": "公路。",
+      "pinyin": "gōnglù",
+      "source_chunk": 22,
+      "speech_start": 47.25,
+      "speech_end": 47.61,
+      "confidence": 0.8837,
+      "characters": [
+        {
+          "char": "公",
+          "start": 47.25,
+          "end": 47.41,
+          "confidence": 0.7707
+        },
+        {
+          "char": "路",
+          "start": 47.41,
+          "end": 47.61,
+          "confidence": 0.9966
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.3706
+    },
+    {
+      "no": 447,
+      "kind": "example",
+      "text": "新公路修好以后，去县城方便多了。",
+      "spoken_text": "新公路修好以后，去县城方便多了。",
+      "pinyin": "Xīn gōnglù xiūhǎo yǐhòu, qù xiànchéng fāngbiàn duō le.",
+      "source_chunk": 22,
+      "speech_start": 48.07,
+      "speech_end": 50.63,
+      "confidence": 0.8346,
+      "characters": [
+        {
+          "char": "新",
+          "start": 48.07,
+          "end": 48.31,
+          "confidence": 0.745
+        },
+        {
+          "char": "公",
+          "start": 48.31,
+          "end": 48.45,
+          "confidence": 0.9652
+        },
+        {
+          "char": "路",
+          "start": 48.45,
+          "end": 48.57,
+          "confidence": 0.9985
+        },
+        {
+          "char": "修",
+          "start": 48.57,
+          "end": 48.73,
+          "confidence": 0.7303
+        },
+        {
+          "char": "好",
+          "start": 48.73,
+          "end": 48.89,
+          "confidence": 0.9664
+        },
+        {
+          "char": "以",
+          "start": 48.89,
+          "end": 49.05,
+          "confidence": 0.9995
+        },
+        {
+          "char": "后",
+          "start": 49.05,
+          "end": 49.25,
+          "confidence": 0.9978
+        },
+        {
+          "char": "去",
+          "start": 49.59,
+          "end": 49.73,
+          "confidence": 0.5324
+        },
+        {
+          "char": "县",
+          "start": 49.73,
+          "end": 49.87,
+          "confidence": 0.4823
+        },
+        {
+          "char": "城",
+          "start": 49.87,
+          "end": 50.01,
+          "confidence": 0.6024
+        },
+        {
+          "char": "方",
+          "start": 50.01,
+          "end": 50.15,
+          "confidence": 0.9426
+        },
+        {
+          "char": "便",
+          "start": 50.15,
+          "end": 50.31,
+          "confidence": 0.9898
+        },
+        {
+          "char": "多",
+          "start": 50.31,
+          "end": 50.47,
+          "confidence": 0.9798
+        },
+        {
+          "char": "了",
+          "start": 50.47,
+          "end": 50.63,
+          "confidence": 0.7519
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24609
+    },
+    {
+      "no": 448,
+      "kind": "word",
+      "text": "道路",
+      "spoken_text": "道路。",
+      "pinyin": "dàolù",
+      "source_chunk": 22,
+      "speech_start": 50.97,
+      "speech_end": 51.29,
+      "confidence": 0.8661,
+      "characters": [
+        {
+          "char": "道",
+          "start": 50.97,
+          "end": 51.09,
+          "confidence": 0.7346
+        },
+        {
+          "char": "路",
+          "start": 51.09,
+          "end": 51.29,
+          "confidence": 0.9977
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21567
+    },
+    {
+      "no": 448,
+      "kind": "example",
+      "text": "雨后道路很滑，开车一定要小心。",
+      "spoken_text": "雨后道路很滑，开车一定要小心。",
+      "pinyin": "Yǔ hòu dàolù hěn huá, kāichē yídìng yào xiǎoxīn.",
+      "source_chunk": 22,
+      "speech_start": 51.69,
+      "speech_end": 54.23,
+      "confidence": 0.6299,
+      "characters": [
+        {
+          "char": "雨",
+          "start": 51.69,
+          "end": 51.87,
+          "confidence": 0.1266
+        },
+        {
+          "char": "后",
+          "start": 51.87,
+          "end": 52.01,
+          "confidence": 0.9915
+        },
+        {
+          "char": "道",
+          "start": 52.01,
+          "end": 52.17,
+          "confidence": 0.973
+        },
+        {
+          "char": "路",
+          "start": 52.17,
+          "end": 52.29,
+          "confidence": 0.9999
+        },
+        {
+          "char": "很",
+          "start": 52.29,
+          "end": 52.47,
+          "confidence": 0.9891
+        },
+        {
+          "char": "滑",
+          "start": 52.47,
+          "end": 52.69,
+          "confidence": 0.958
+        },
+        {
+          "char": "开",
+          "start": 53.13,
+          "end": 53.27,
+          "confidence": 0.554
+        },
+        {
+          "char": "车",
+          "start": 53.27,
+          "end": 53.43,
+          "confidence": 0.9993
+        },
+        {
+          "char": "一",
+          "start": 53.43,
+          "end": 53.61,
+          "confidence": 0.0004
+        },
+        {
+          "char": "定",
+          "start": 53.61,
+          "end": 53.71,
+          "confidence": 0.1518
+        },
+        {
+          "char": "要",
+          "start": 53.71,
+          "end": 53.85,
+          "confidence": 0.9682
+        },
+        {
+          "char": "小",
+          "start": 53.85,
+          "end": 54.01,
+          "confidence": 0.0036
+        },
+        {
+          "char": "心",
+          "start": 54.01,
+          "end": 54.23,
+          "confidence": 0.4736
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20893
+    },
+    {
+      "no": 449,
+      "kind": "word",
+      "text": "街道",
+      "spoken_text": "街道。",
+      "pinyin": "jiēdào",
+      "source_chunk": 22,
+      "speech_start": 54.75,
+      "speech_end": 55.07,
+      "confidence": 0.5968,
+      "characters": [
+        {
+          "char": "街",
+          "start": 54.75,
+          "end": 54.89,
+          "confidence": 0.1986
+        },
+        {
+          "char": "道",
+          "start": 54.89,
+          "end": 55.07,
+          "confidence": 0.995
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.29917
+    },
+    {
+      "no": 449,
+      "kind": "example",
+      "text": "节日期间，街道两旁挂满了彩灯。",
+      "spoken_text": "节日期间，街道两旁挂满了彩灯。",
+      "pinyin": "Jiérì qījiān, jiēdào liǎngpáng guàmǎn le cǎidēng.",
+      "source_chunk": 22,
+      "speech_start": 55.45,
+      "speech_end": 58.13,
+      "confidence": 0.8529,
+      "characters": [
+        {
+          "char": "节",
+          "start": 55.45,
+          "end": 55.65,
+          "confidence": 0.1728
+        },
+        {
+          "char": "日",
+          "start": 55.65,
+          "end": 55.79,
+          "confidence": 0.9982
+        },
+        {
+          "char": "期",
+          "start": 55.79,
+          "end": 55.93,
+          "confidence": 0.9685
+        },
+        {
+          "char": "间",
+          "start": 55.93,
+          "end": 56.17,
+          "confidence": 0.9889
+        },
+        {
+          "char": "街",
+          "start": 56.59,
+          "end": 56.71,
+          "confidence": 0.2978
+        },
+        {
+          "char": "道",
+          "start": 56.71,
+          "end": 56.81,
+          "confidence": 0.9917
+        },
+        {
+          "char": "两",
+          "start": 56.81,
+          "end": 56.97,
+          "confidence": 0.9507
+        },
+        {
+          "char": "旁",
+          "start": 56.97,
+          "end": 57.23,
+          "confidence": 0.9399
+        },
+        {
+          "char": "挂",
+          "start": 57.23,
+          "end": 57.47,
+          "confidence": 0.9781
+        },
+        {
+          "char": "满",
+          "start": 57.47,
+          "end": 57.63,
+          "confidence": 0.9295
+        },
+        {
+          "char": "了",
+          "start": 57.63,
+          "end": 57.73,
+          "confidence": 0.9933
+        },
+        {
+          "char": "彩",
+          "start": 57.73,
+          "end": 57.91,
+          "confidence": 0.9255
+        },
+        {
+          "char": "灯",
+          "start": 57.91,
+          "end": 58.13,
+          "confidence": 0.9529
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23559
+    },
+    {
+      "no": 450,
+      "kind": "example",
+      "text": "走过前面那座桥，就能看见车站。",
+      "spoken_text": "走过前面那座桥，就能看见车站。",
+      "pinyin": "Zǒuguò qiánmiàn nà zuò qiáo, jiù néng kànjiàn chēzhàn.",
+      "source_chunk": 22,
+      "speech_start": 58.33,
+      "speech_end": 60.59,
+      "confidence": 0.929,
+      "characters": [
+        {
+          "char": "走",
+          "start": 58.33,
+          "end": 58.53,
+          "confidence": 0.9479
+        },
+        {
+          "char": "过",
+          "start": 58.53,
+          "end": 58.65,
+          "confidence": 0.9292
+        },
+        {
+          "char": "前",
+          "start": 58.65,
+          "end": 58.81,
+          "confidence": 0.9887
+        },
+        {
+          "char": "面",
+          "start": 58.81,
+          "end": 58.95,
+          "confidence": 0.9961
+        },
+        {
+          "char": "那",
+          "start": 58.95,
+          "end": 59.05,
+          "confidence": 0.8582
+        },
+        {
+          "char": "座",
+          "start": 59.05,
+          "end": 59.21,
+          "confidence": 0.9872
+        },
+        {
+          "char": "桥",
+          "start": 59.21,
+          "end": 59.45,
+          "confidence": 0.762
+        },
+        {
+          "char": "就",
+          "start": 59.77,
+          "end": 59.85,
+          "confidence": 0.8884
+        },
+        {
+          "char": "能",
+          "start": 59.85,
+          "end": 59.95,
+          "confidence": 0.9915
+        },
+        {
+          "char": "看",
+          "start": 59.95,
+          "end": 60.11,
+          "confidence": 0.963
+        },
+        {
+          "char": "见",
+          "start": 60.11,
+          "end": 60.25,
+          "confidence": 0.8663
+        },
+        {
+          "char": "车",
+          "start": 60.25,
+          "end": 60.45,
+          "confidence": 0.9939
+        },
+        {
+          "char": "站",
+          "start": 60.45,
+          "end": 60.59,
+          "confidence": 0.904
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2211
+    },
+    {
+      "no": 451,
+      "kind": "word",
+      "text": "加油站",
+      "spoken_text": "加油站。",
+      "pinyin": "jiāyóuzhàn",
+      "source_chunk": 22,
+      "speech_start": 61.09,
+      "speech_end": 61.53,
+      "confidence": 0.5715,
+      "characters": [
+        {
+          "char": "加",
+          "start": 61.09,
+          "end": 61.23,
+          "confidence": 0.019
+        },
+        {
+          "char": "油",
+          "start": 61.23,
+          "end": 61.37,
+          "confidence": 0.7201
+        },
+        {
+          "char": "站",
+          "start": 61.37,
+          "end": 61.53,
+          "confidence": 0.9755
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24881
+    },
+    {
+      "no": 451,
+      "kind": "example",
+      "text": "油快用完了，我们得找个加油站。",
+      "spoken_text": "油快用完了，我们得找个加油站。",
+      "pinyin": "Yóu kuài yòng wán le, wǒmen děi zhǎo gè jiāyóuzhàn.",
+      "source_chunk": 22,
+      "speech_start": 62.19,
+      "speech_end": 64.17,
+      "confidence": 0.6715,
+      "characters": [
+        {
+          "char": "油",
+          "start": 62.19,
+          "end": 62.41,
+          "confidence": 0.6585
+        },
+        {
+          "char": "快",
+          "start": 62.41,
+          "end": 62.55,
+          "confidence": 0.6208
+        },
+        {
+          "char": "用",
+          "start": 62.55,
+          "end": 62.69,
+          "confidence": 0.9611
+        },
+        {
+          "char": "完",
+          "start": 62.69,
+          "end": 62.89,
+          "confidence": 0.0143
+        },
+        {
+          "char": "了",
+          "start": 62.89,
+          "end": 63.03,
+          "confidence": 0.8568
+        },
+        {
+          "char": "我",
+          "start": 63.29,
+          "end": 63.39,
+          "confidence": 0.0045
+        },
+        {
+          "char": "们",
+          "start": 63.39,
+          "end": 63.47,
+          "confidence": 0.0304
+        },
+        {
+          "char": "得",
+          "start": 63.47,
+          "end": 63.53,
+          "confidence": 0.9974
+        },
+        {
+          "char": "找",
+          "start": 63.53,
+          "end": 63.69,
+          "confidence": 0.9887
+        },
+        {
+          "char": "个",
+          "start": 63.69,
+          "end": 63.77,
+          "confidence": 0.9898
+        },
+        {
+          "char": "加",
+          "start": 63.77,
+          "end": 63.91,
+          "confidence": 0.6162
+        },
+        {
+          "char": "油",
+          "start": 63.91,
+          "end": 64.03,
+          "confidence": 0.9972
+        },
+        {
+          "char": "站",
+          "start": 64.03,
+          "end": 64.17,
+          "confidence": 0.9934
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24887
+    },
+    {
+      "no": 452,
+      "kind": "word",
+      "text": "高速",
+      "spoken_text": "高速。",
+      "pinyin": "gāosù",
+      "source_chunk": 22,
+      "speech_start": 64.57,
+      "speech_end": 64.93,
+      "confidence": 0.9704,
+      "characters": [
+        {
+          "char": "高",
+          "start": 64.57,
+          "end": 64.71,
+          "confidence": 0.9489
+        },
+        {
+          "char": "速",
+          "start": 64.71,
+          "end": 64.93,
+          "confidence": 0.9918
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21098
+    },
+    {
+      "no": 452,
+      "kind": "example",
+      "text": "走高速虽然要付费，但是能节约时间。",
+      "spoken_text": "走高速虽然要付费，但是能节约时间。",
+      "pinyin": "Zǒu gāosù suīrán yào fùfèi, dànshì néng jiéyuē shíjiān.",
+      "source_chunk": 22,
+      "speech_start": 65.21,
+      "speech_end": 68.11,
+      "confidence": 0.6958,
+      "characters": [
+        {
+          "char": "走",
+          "start": 65.21,
+          "end": 65.53,
+          "confidence": 0.8762
+        },
+        {
+          "char": "高",
+          "start": 65.53,
+          "end": 65.71,
+          "confidence": 0.9989
+        },
+        {
+          "char": "速",
+          "start": 65.71,
+          "end": 65.97,
+          "confidence": 0.9997
+        },
+        {
+          "char": "虽",
+          "start": 65.97,
+          "end": 66.17,
+          "confidence": 0.8832
+        },
+        {
+          "char": "然",
+          "start": 66.17,
+          "end": 66.33,
+          "confidence": 0.9935
+        },
+        {
+          "char": "要",
+          "start": 66.33,
+          "end": 66.43,
+          "confidence": 0.9937
+        },
+        {
+          "char": "付",
+          "start": 66.43,
+          "end": 66.61,
+          "confidence": 0.9722
+        },
+        {
+          "char": "费",
+          "start": 66.61,
+          "end": 66.81,
+          "confidence": 0.8698
+        },
+        {
+          "char": "但",
+          "start": 67.19,
+          "end": 67.19,
+          "confidence": 0.3047
+        },
+        {
+          "char": "是",
+          "start": 67.19,
+          "end": 67.35,
+          "confidence": 0.0617
+        },
+        {
+          "char": "能",
+          "start": 67.35,
+          "end": 67.45,
+          "confidence": 0.9911
+        },
+        {
+          "char": "节",
+          "start": 67.45,
+          "end": 67.59,
+          "confidence": 0.4433
+        },
+        {
+          "char": "约",
+          "start": 67.59,
+          "end": 67.69,
+          "confidence": 0.9961
+        },
+        {
+          "char": "时",
+          "start": 67.69,
+          "end": 67.89,
+          "confidence": 0.0021
+        },
+        {
+          "char": "间",
+          "start": 67.89,
+          "end": 68.11,
+          "confidence": 0.0507
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2149
+    },
+    {
+      "no": 453,
+      "kind": "word",
+      "text": "车速",
+      "spoken_text": "车速。",
+      "pinyin": "chēsù",
+      "source_chunk": 22,
+      "speech_start": 68.47,
+      "speech_end": 68.99,
+      "confidence": 0.9853,
+      "characters": [
+        {
+          "char": "车",
+          "start": 68.47,
+          "end": 68.77,
+          "confidence": 0.9766
+        },
+        {
+          "char": "速",
+          "start": 68.77,
+          "end": 68.99,
+          "confidence": 0.994
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20178
+    },
+    {
+      "no": 453,
+      "kind": "example",
+      "text": "前面有学校，请把车速降下来。",
+      "spoken_text": "前面有学校，请把车速降下来。",
+      "pinyin": "Qiánmiàn yǒu xuéxiào, qǐng bǎ chēsù jiàngxiàlai.",
+      "source_chunk": 22,
+      "speech_start": 69.39,
+      "speech_end": 71.51,
+      "confidence": 0.9237,
+      "characters": [
+        {
+          "char": "前",
+          "start": 69.39,
+          "end": 69.65,
+          "confidence": 0.9946
+        },
+        {
+          "char": "面",
+          "start": 69.65,
+          "end": 69.73,
+          "confidence": 0.9737
+        },
+        {
+          "char": "有",
+          "start": 69.73,
+          "end": 69.85,
+          "confidence": 0.9925
+        },
+        {
+          "char": "学",
+          "start": 69.85,
+          "end": 69.99,
+          "confidence": 0.983
+        },
+        {
+          "char": "校",
+          "start": 69.99,
+          "end": 70.19,
+          "confidence": 0.9988
+        },
+        {
+          "char": "请",
+          "start": 70.49,
+          "end": 70.59,
+          "confidence": 0.2976
+        },
+        {
+          "char": "把",
+          "start": 70.59,
+          "end": 70.69,
+          "confidence": 0.9134
+        },
+        {
+          "char": "车",
+          "start": 70.69,
+          "end": 70.89,
+          "confidence": 0.9991
+        },
+        {
+          "char": "速",
+          "start": 70.89,
+          "end": 71.05,
+          "confidence": 0.9986
+        },
+        {
+          "char": "降",
+          "start": 71.05,
+          "end": 71.17,
+          "confidence": 0.9834
+        },
+        {
+          "char": "下",
+          "start": 71.17,
+          "end": 71.37,
+          "confidence": 0.9957
+        },
+        {
+          "char": "来",
+          "start": 71.37,
+          "end": 71.51,
+          "confidence": 0.9544
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22041
+    },
+    {
+      "no": 454,
+      "kind": "word",
+      "text": "堵车",
+      "spoken_text": "堵车。",
+      "pinyin": "dǔchē",
+      "source_chunk": 22,
+      "speech_start": 71.95,
+      "speech_end": 72.31,
+      "confidence": 0.7976,
+      "characters": [
+        {
+          "char": "堵",
+          "start": 71.95,
+          "end": 72.11,
+          "confidence": 0.597
+        },
+        {
+          "char": "车",
+          "start": 72.11,
+          "end": 72.31,
+          "confidence": 0.9982
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.17121
+    },
+    {
+      "no": 454,
+      "kind": "example",
+      "text": "为了避开堵车，我们比平时早出发一小时。",
+      "spoken_text": "为了避开堵车，我们比平时早出发一小时。",
+      "pinyin": "Wèile bìkāi dǔchē, wǒmen bǐ píngshí zǎo chūfā yì xiǎoshí.",
+      "source_chunk": 22,
+      "speech_start": 72.79,
+      "speech_end": 76.11,
+      "confidence": 0.8645,
+      "characters": [
+        {
+          "char": "为",
+          "start": 72.79,
+          "end": 73.19,
+          "confidence": 0.9772
+        },
+        {
+          "char": "了",
+          "start": 73.19,
+          "end": 73.33,
+          "confidence": 0.9971
+        },
+        {
+          "char": "避",
+          "start": 73.33,
+          "end": 73.41,
+          "confidence": 0.8895
+        },
+        {
+          "char": "开",
+          "start": 73.41,
+          "end": 73.53,
+          "confidence": 0.9963
+        },
+        {
+          "char": "堵",
+          "start": 73.53,
+          "end": 73.71,
+          "confidence": 0.9971
+        },
+        {
+          "char": "车",
+          "start": 73.71,
+          "end": 73.95,
+          "confidence": 0.9996
+        },
+        {
+          "char": "我",
+          "start": 74.31,
+          "end": 74.41,
+          "confidence": 0.0015
+        },
+        {
+          "char": "们",
+          "start": 74.41,
+          "end": 74.49,
+          "confidence": 0.4566
+        },
+        {
+          "char": "比",
+          "start": 74.49,
+          "end": 74.61,
+          "confidence": 0.943
+        },
+        {
+          "char": "平",
+          "start": 74.61,
+          "end": 74.77,
+          "confidence": 0.9285
+        },
+        {
+          "char": "时",
+          "start": 74.77,
+          "end": 74.95,
+          "confidence": 0.9945
+        },
+        {
+          "char": "早",
+          "start": 74.95,
+          "end": 75.13,
+          "confidence": 0.8278
+        },
+        {
+          "char": "出",
+          "start": 75.13,
+          "end": 75.31,
+          "confidence": 0.9392
+        },
+        {
+          "char": "发",
+          "start": 75.31,
+          "end": 75.45,
+          "confidence": 0.9874
+        },
+        {
+          "char": "一",
+          "start": 75.45,
+          "end": 75.59,
+          "confidence": 0.8091
+        },
+        {
+          "char": "小",
+          "start": 75.59,
+          "end": 75.73,
+          "confidence": 0.9532
+        },
+        {
+          "char": "时",
+          "start": 75.73,
+          "end": 76.11,
+          "confidence": 0.9992
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22791
+    },
+    {
+      "no": 455,
+      "kind": "example",
+      "text": "到了第二个路口向右转，银行就在左边。",
+      "spoken_text": "到了第二个路口向右转，银行就在左边。",
+      "pinyin": "Dào le dì'èr gè lùkǒu xiàng yòu zhuǎn, yínháng jiù zài zuǒbian.",
+      "source_chunk": 22,
+      "speech_start": 76.51,
+      "speech_end": 79.29,
+      "confidence": 0.7373,
+      "characters": [
+        {
+          "char": "到",
+          "start": 76.51,
+          "end": 76.71,
+          "confidence": 0.0316
+        },
+        {
+          "char": "了",
+          "start": 76.71,
+          "end": 76.83,
+          "confidence": 0.0387
+        },
+        {
+          "char": "第",
+          "start": 76.83,
+          "end": 76.95,
+          "confidence": 0.2621
+        },
+        {
+          "char": "二",
+          "start": 76.95,
+          "end": 77.09,
+          "confidence": 0.1125
+        },
+        {
+          "char": "个",
+          "start": 77.09,
+          "end": 77.21,
+          "confidence": 0.9965
+        },
+        {
+          "char": "路",
+          "start": 77.21,
+          "end": 77.31,
+          "confidence": 0.9814
+        },
+        {
+          "char": "口",
+          "start": 77.31,
+          "end": 77.49,
+          "confidence": 0.9989
+        },
+        {
+          "char": "向",
+          "start": 77.49,
+          "end": 77.69,
+          "confidence": 0.9296
+        },
+        {
+          "char": "右",
+          "start": 77.69,
+          "end": 77.87,
+          "confidence": 0.9958
+        },
+        {
+          "char": "转",
+          "start": 77.87,
+          "end": 78.05,
+          "confidence": 0.997
+        },
+        {
+          "char": "银",
+          "start": 78.41,
+          "end": 78.55,
+          "confidence": 0.5931
+        },
+        {
+          "char": "行",
+          "start": 78.55,
+          "end": 78.65,
+          "confidence": 0.9686
+        },
+        {
+          "char": "就",
+          "start": 78.65,
+          "end": 78.81,
+          "confidence": 0.9676
+        },
+        {
+          "char": "在",
+          "start": 78.81,
+          "end": 78.93,
+          "confidence": 0.936
+        },
+        {
+          "char": "左",
+          "start": 78.93,
+          "end": 79.11,
+          "confidence": 0.9919
+        },
+        {
+          "char": "边",
+          "start": 79.11,
+          "end": 79.29,
+          "confidence": 0.996
+        }
+      ],
+      "independent_asr_coverage": 0.938,
+      "rms": 0.25179
+    },
+    {
+      "no": 456,
+      "kind": "word",
+      "text": "停车",
+      "spoken_text": "停车。",
+      "pinyin": "tíngchē",
+      "source_chunk": 22,
+      "speech_start": 79.71,
+      "speech_end": 80.15,
+      "confidence": 0.9156,
+      "characters": [
+        {
+          "char": "停",
+          "start": 79.71,
+          "end": 79.95,
+          "confidence": 0.8322
+        },
+        {
+          "char": "车",
+          "start": 79.95,
+          "end": 80.15,
+          "confidence": 0.9989
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23007
+    }
+  ],
+  "windows": [
+    {
+      "first_clip": 0,
+      "last_clip": 4,
+      "start": 0,
+      "end": 11.24,
+      "text": "骑电动车时，别忘了戴好头盔。动车。坐动车到那里只要两个小时，比开车快。航班。由于天气原因，今天的航班取消了。"
+    },
+    {
+      "first_clip": 3,
+      "last_clip": 8,
+      "start": 6.1899999999999995,
+      "end": 19.589999999999996,
+      "text": "航班。由于天气原因，今天的航班取消了。登机。离登机还有一小时，我们可以先吃点东西。乘地铁去机场，既方便又能避开堵车。乘坐。"
+    },
+    {
+      "first_clip": 7,
+      "last_clip": 12,
+      "start": 13.99,
+      "end": 28.269999999999996,
+      "text": "乘地铁去机场，既方便又能避开堵车。乘坐。乘坐公共汽车时，请主动给老人让座。乘客。列车即将到站，请乘客带好随身物品。旅客。"
+    },
+    {
+      "first_clip": 11,
+      "last_clip": 16,
+      "start": 22.62,
+      "end": 35.83,
+      "text": "列车即将到站，请乘客带好随身物品。旅客。服务台为旅客提供免费的城市地图。安检。通过安检后，才可以进入候车大厅。降落。"
+    },
+    {
+      "first_clip": 15,
+      "last_clip": 20,
+      "start": 30.950000000000003,
+      "end": 44.28,
+      "text": "通过安检后，才可以进入候车大厅。降落。飞机降落时，窗外的城市越来越清楚。换乘。在下一站换乘二号线，就能到博物馆。转机。"
+    },
+    {
+      "first_clip": 19,
+      "last_clip": 24,
+      "start": 38.89,
+      "end": 52.15,
+      "text": "在下一站换乘二号线，就能到博物馆。转机。这次需要在北京转机，中间有三个小时。公路。新公路修好以后，去县城方便多了。道路。"
+    },
+    {
+      "first_clip": 23,
+      "last_clip": 28,
+      "start": 47.190000000000005,
+      "end": 61.25,
+      "text": "新公路修好以后，去县城方便多了。道路。雨后道路很滑，开车一定要小心。街道。节日期间，街道两旁挂满了彩灯。走过前面那座桥，就能看见车站。"
+    },
+    {
+      "first_clip": 27,
+      "last_clip": 32,
+      "start": 54.65,
+      "end": 68.73,
+      "text": "节日期间，街道两旁挂满了彩灯。走过前面那座桥，就能看见车站。加油站。油快用完了，我们得找个加油站。高速。走高速虽然要付费，但是能节约时间。"
+    },
+    {
+      "first_clip": 31,
+      "last_clip": 36,
+      "start": 63.589999999999996,
+      "end": 76.83000000000001,
+      "text": "高速。走高速虽然要付费，但是能节约时间。车速。前面有学校，请把车速降下来。堵车。为了避开堵车，我们比平时早出发一小时。"
+    },
+    {
+      "first_clip": 35,
+      "last_clip": 38,
+      "start": 70.99,
+      "end": 80.448,
+      "text": "堵车。为了避开堵车，我们比平时早出发一小时。到了第二个路口向右转，银行就在左边。停车。"
+    }
+  ],
+  "alerts": []
+}

@@ -1,0 +1,2683 @@
+{
+  "chunk": 24,
+  "duration": 77.88,
+  "transcript_match_ratio": 0.9957,
+  "clips": [
+    {
+      "no": 476,
+      "kind": "example",
+      "text": "妈妈在厨房忙着做饭，我进去帮她洗菜。",
+      "spoken_text": "妈妈在厨房忙着做饭，我进去帮她洗菜。",
+      "pinyin": "Māma zài chúfáng máng zhe zuòfàn, wǒ jìnqù bāng tā xǐcài.",
+      "source_chunk": 24,
+      "speech_start": 0.0,
+      "speech_end": 3.04,
+      "confidence": 0.9156,
+      "characters": [
+        {
+          "char": "妈",
+          "start": 0.0,
+          "end": 0.42,
+          "confidence": 0.4709
+        },
+        {
+          "char": "妈",
+          "start": 0.42,
+          "end": 0.52,
+          "confidence": 0.9866
+        },
+        {
+          "char": "在",
+          "start": 0.52,
+          "end": 0.66,
+          "confidence": 0.9687
+        },
+        {
+          "char": "厨",
+          "start": 0.66,
+          "end": 0.82,
+          "confidence": 0.9666
+        },
+        {
+          "char": "房",
+          "start": 0.82,
+          "end": 0.96,
+          "confidence": 0.9956
+        },
+        {
+          "char": "忙",
+          "start": 0.96,
+          "end": 1.12,
+          "confidence": 0.9838
+        },
+        {
+          "char": "着",
+          "start": 1.12,
+          "end": 1.28,
+          "confidence": 0.9874
+        },
+        {
+          "char": "做",
+          "start": 1.28,
+          "end": 1.42,
+          "confidence": 0.7372
+        },
+        {
+          "char": "饭",
+          "start": 1.42,
+          "end": 1.68,
+          "confidence": 0.998
+        },
+        {
+          "char": "我",
+          "start": 2.04,
+          "end": 2.14,
+          "confidence": 0.7321
+        },
+        {
+          "char": "进",
+          "start": 2.14,
+          "end": 2.26,
+          "confidence": 0.9645
+        },
+        {
+          "char": "去",
+          "start": 2.26,
+          "end": 2.4,
+          "confidence": 0.9975
+        },
+        {
+          "char": "帮",
+          "start": 2.4,
+          "end": 2.5,
+          "confidence": 0.9846
+        },
+        {
+          "char": "她",
+          "start": 2.5,
+          "end": 2.64,
+          "confidence": 0.8998
+        },
+        {
+          "char": "洗",
+          "start": 2.64,
+          "end": 2.78,
+          "confidence": 0.9828
+        },
+        {
+          "char": "菜",
+          "start": 2.78,
+          "end": 3.04,
+          "confidence": 0.9932
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20004
+    },
+    {
+      "no": 477,
+      "kind": "word",
+      "text": "厕所",
+      "spoken_text": "厕所。",
+      "pinyin": "cèsuǒ",
+      "source_chunk": 24,
+      "speech_start": 3.36,
+      "speech_end": 3.84,
+      "confidence": 0.8036,
+      "characters": [
+        {
+          "char": "厕",
+          "start": 3.36,
+          "end": 3.6,
+          "confidence": 0.6684
+        },
+        {
+          "char": "所",
+          "start": 3.6,
+          "end": 3.84,
+          "confidence": 0.9388
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.13747
+    },
+    {
+      "no": 477,
+      "kind": "example",
+      "text": "请问厕所在几楼？这层好像没有。",
+      "spoken_text": "请问厕所在几楼？这层好像没有。",
+      "pinyin": "Qǐngwèn cèsuǒ zài jǐ lóu? Zhè céng hǎoxiàng méiyǒu.",
+      "source_chunk": 24,
+      "speech_start": 4.22,
+      "speech_end": 7.02,
+      "confidence": 0.6811,
+      "characters": [
+        {
+          "char": "请",
+          "start": 4.22,
+          "end": 4.54,
+          "confidence": 0.9394
+        },
+        {
+          "char": "问",
+          "start": 4.54,
+          "end": 4.64,
+          "confidence": 0.9882
+        },
+        {
+          "char": "厕",
+          "start": 4.64,
+          "end": 4.84,
+          "confidence": 0.9801
+        },
+        {
+          "char": "所",
+          "start": 4.84,
+          "end": 5.0,
+          "confidence": 0.9995
+        },
+        {
+          "char": "在",
+          "start": 5.0,
+          "end": 5.16,
+          "confidence": 0.937
+        },
+        {
+          "char": "几",
+          "start": 5.16,
+          "end": 5.32,
+          "confidence": 0.7478
+        },
+        {
+          "char": "楼",
+          "start": 5.32,
+          "end": 5.5,
+          "confidence": 0.987
+        },
+        {
+          "char": "这",
+          "start": 6.1,
+          "end": 6.2,
+          "confidence": 0.7256
+        },
+        {
+          "char": "层",
+          "start": 6.2,
+          "end": 6.32,
+          "confidence": 0.9918
+        },
+        {
+          "char": "好",
+          "start": 6.32,
+          "end": 6.48,
+          "confidence": 0.0212
+        },
+        {
+          "char": "像",
+          "start": 6.48,
+          "end": 6.6,
+          "confidence": 0.4119
+        },
+        {
+          "char": "没",
+          "start": 6.6,
+          "end": 6.78,
+          "confidence": 0.0114
+        },
+        {
+          "char": "有",
+          "start": 6.78,
+          "end": 7.02,
+          "confidence": 0.1133
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.1935
+    },
+    {
+      "no": 478,
+      "kind": "example",
+      "text": "关窗以前，请看看外面晾的衣服干了没有。",
+      "spoken_text": "关窗以前，请看看外面晾的衣服干了没有。",
+      "pinyin": "Guānchuāng yǐqián, qǐng kànkan wàimiàn liàng de yīfu gān le méiyǒu.",
+      "source_chunk": 24,
+      "speech_start": 7.44,
+      "speech_end": 10.3,
+      "confidence": 0.5937,
+      "characters": [
+        {
+          "char": "关",
+          "start": 7.44,
+          "end": 7.62,
+          "confidence": 0.233
+        },
+        {
+          "char": "窗",
+          "start": 7.62,
+          "end": 7.78,
+          "confidence": 0.6668
+        },
+        {
+          "char": "以",
+          "start": 7.78,
+          "end": 7.94,
+          "confidence": 0.0028
+        },
+        {
+          "char": "前",
+          "start": 7.94,
+          "end": 8.26,
+          "confidence": 0.9559
+        },
+        {
+          "char": "请",
+          "start": 8.56,
+          "end": 8.66,
+          "confidence": 0.0698
+        },
+        {
+          "char": "看",
+          "start": 8.66,
+          "end": 8.76,
+          "confidence": 0.1116
+        },
+        {
+          "char": "看",
+          "start": 8.76,
+          "end": 8.88,
+          "confidence": 0.4229
+        },
+        {
+          "char": "外",
+          "start": 8.88,
+          "end": 9.02,
+          "confidence": 0.998
+        },
+        {
+          "char": "面",
+          "start": 9.02,
+          "end": 9.14,
+          "confidence": 0.9773
+        },
+        {
+          "char": "晾",
+          "start": 9.14,
+          "end": 9.3,
+          "confidence": 0.562
+        },
+        {
+          "char": "的",
+          "start": 9.3,
+          "end": 9.4,
+          "confidence": 0.9826
+        },
+        {
+          "char": "衣",
+          "start": 9.4,
+          "end": 9.56,
+          "confidence": 0.999
+        },
+        {
+          "char": "服",
+          "start": 9.56,
+          "end": 9.66,
+          "confidence": 0.9948
+        },
+        {
+          "char": "干",
+          "start": 9.66,
+          "end": 9.82,
+          "confidence": 0.9783
+        },
+        {
+          "char": "了",
+          "start": 9.82,
+          "end": 9.94,
+          "confidence": 0.9899
+        },
+        {
+          "char": "没",
+          "start": 9.94,
+          "end": 10.06,
+          "confidence": 0.0144
+        },
+        {
+          "char": "有",
+          "start": 10.06,
+          "end": 10.3,
+          "confidence": 0.1346
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2254
+    },
+    {
+      "no": 479,
+      "kind": "word",
+      "text": "窗户",
+      "spoken_text": "窗户。",
+      "pinyin": "chuānghu",
+      "source_chunk": 24,
+      "speech_start": 10.65,
+      "speech_end": 11.15,
+      "confidence": 0.9144,
+      "characters": [
+        {
+          "char": "窗",
+          "start": 10.65,
+          "end": 10.89,
+          "confidence": 0.8776
+        },
+        {
+          "char": "户",
+          "start": 10.89,
+          "end": 11.15,
+          "confidence": 0.9512
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.16159
+    },
+    {
+      "no": 479,
+      "kind": "example",
+      "text": "阳光透过窗户照进来，屋里很暖和。",
+      "spoken_text": "阳光透过窗户照进来，屋里很暖和。",
+      "pinyin": "Yángguāng tòuguò chuānghu zhàojìnlai, wūlǐ hěn nuǎnhuo.",
+      "source_chunk": 24,
+      "speech_start": 11.57,
+      "speech_end": 14.25,
+      "confidence": 0.8635,
+      "characters": [
+        {
+          "char": "阳",
+          "start": 11.57,
+          "end": 11.79,
+          "confidence": 0.869
+        },
+        {
+          "char": "光",
+          "start": 11.79,
+          "end": 11.95,
+          "confidence": 0.9983
+        },
+        {
+          "char": "透",
+          "start": 11.95,
+          "end": 12.17,
+          "confidence": 0.9639
+        },
+        {
+          "char": "过",
+          "start": 12.17,
+          "end": 12.31,
+          "confidence": 0.9957
+        },
+        {
+          "char": "窗",
+          "start": 12.31,
+          "end": 12.47,
+          "confidence": 0.9993
+        },
+        {
+          "char": "户",
+          "start": 12.47,
+          "end": 12.65,
+          "confidence": 0.9999
+        },
+        {
+          "char": "照",
+          "start": 12.65,
+          "end": 12.79,
+          "confidence": 0.4453
+        },
+        {
+          "char": "进",
+          "start": 12.79,
+          "end": 12.95,
+          "confidence": 0.7815
+        },
+        {
+          "char": "来",
+          "start": 12.95,
+          "end": 13.17,
+          "confidence": 0.9942
+        },
+        {
+          "char": "屋",
+          "start": 13.49,
+          "end": 13.55,
+          "confidence": 0.4532
+        },
+        {
+          "char": "里",
+          "start": 13.55,
+          "end": 13.61,
+          "confidence": 0.985
+        },
+        {
+          "char": "很",
+          "start": 13.61,
+          "end": 13.81,
+          "confidence": 0.9908
+        },
+        {
+          "char": "暖",
+          "start": 13.81,
+          "end": 14.01,
+          "confidence": 0.9513
+        },
+        {
+          "char": "和",
+          "start": 14.01,
+          "end": 14.25,
+          "confidence": 0.6619
+        }
+      ],
+      "independent_asr_coverage": 0.929,
+      "rms": 0.23022
+    },
+    {
+      "no": 480,
+      "kind": "word",
+      "text": "家具",
+      "spoken_text": "家具。",
+      "pinyin": "jiājù",
+      "source_chunk": 24,
+      "speech_start": 14.69,
+      "speech_end": 15.05,
+      "confidence": 0.6048,
+      "characters": [
+        {
+          "char": "家",
+          "start": 14.69,
+          "end": 14.81,
+          "confidence": 0.2621
+        },
+        {
+          "char": "具",
+          "start": 14.81,
+          "end": 15.05,
+          "confidence": 0.9476
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.16143
+    },
+    {
+      "no": 480,
+      "kind": "example",
+      "text": "搬家以前，我们决定卖掉一部分旧家具。",
+      "spoken_text": "搬家以前，我们决定卖掉一部分旧家具。",
+      "pinyin": "Bānjiā yǐqián, wǒmen juédìng màidiào yí bùfen jiù jiājù.",
+      "source_chunk": 24,
+      "speech_start": 15.53,
+      "speech_end": 18.41,
+      "confidence": 0.6681,
+      "characters": [
+        {
+          "char": "搬",
+          "start": 15.53,
+          "end": 15.93,
+          "confidence": 0.7252
+        },
+        {
+          "char": "家",
+          "start": 15.93,
+          "end": 16.05,
+          "confidence": 0.9974
+        },
+        {
+          "char": "以",
+          "start": 16.05,
+          "end": 16.19,
+          "confidence": 0.2548
+        },
+        {
+          "char": "前",
+          "start": 16.19,
+          "end": 16.49,
+          "confidence": 0.9874
+        },
+        {
+          "char": "我",
+          "start": 16.79,
+          "end": 16.85,
+          "confidence": 0.0123
+        },
+        {
+          "char": "们",
+          "start": 16.85,
+          "end": 16.93,
+          "confidence": 0.149
+        },
+        {
+          "char": "决",
+          "start": 16.93,
+          "end": 17.05,
+          "confidence": 0.9689
+        },
+        {
+          "char": "定",
+          "start": 17.05,
+          "end": 17.17,
+          "confidence": 0.9985
+        },
+        {
+          "char": "卖",
+          "start": 17.17,
+          "end": 17.31,
+          "confidence": 0.9349
+        },
+        {
+          "char": "掉",
+          "start": 17.31,
+          "end": 17.45,
+          "confidence": 0.9943
+        },
+        {
+          "char": "一",
+          "start": 17.45,
+          "end": 17.59,
+          "confidence": 0.9294
+        },
+        {
+          "char": "部",
+          "start": 17.59,
+          "end": 17.71,
+          "confidence": 0.0408
+        },
+        {
+          "char": "分",
+          "start": 17.71,
+          "end": 17.85,
+          "confidence": 0.0012
+        },
+        {
+          "char": "旧",
+          "start": 17.85,
+          "end": 18.01,
+          "confidence": 0.7196
+        },
+        {
+          "char": "家",
+          "start": 18.01,
+          "end": 18.21,
+          "confidence": 0.9907
+        },
+        {
+          "char": "具",
+          "start": 18.21,
+          "end": 18.41,
+          "confidence": 0.9844
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23398
+    },
+    {
+      "no": 481,
+      "kind": "word",
+      "text": "镜子",
+      "spoken_text": "镜子。",
+      "pinyin": "jìngzi",
+      "source_chunk": 24,
+      "speech_start": 18.83,
+      "speech_end": 19.37,
+      "confidence": 0.8875,
+      "characters": [
+        {
+          "char": "镜",
+          "start": 18.83,
+          "end": 19.13,
+          "confidence": 0.7755
+        },
+        {
+          "char": "子",
+          "start": 19.13,
+          "end": 19.37,
+          "confidence": 0.9995
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18614
+    },
+    {
+      "no": 481,
+      "kind": "example",
+      "text": "出门前，他站在镜子前整理了一下衣服。",
+      "spoken_text": "出门前，他站在镜子前整理了一下衣服。",
+      "pinyin": "Chūmén qián, tā zhàn zài jìngzi qián zhěnglǐ le yíxià yīfu.",
+      "source_chunk": 24,
+      "speech_start": 19.79,
+      "speech_end": 22.77,
+      "confidence": 0.8092,
+      "characters": [
+        {
+          "char": "出",
+          "start": 19.79,
+          "end": 20.09,
+          "confidence": 0.863
+        },
+        {
+          "char": "门",
+          "start": 20.09,
+          "end": 20.21,
+          "confidence": 0.991
+        },
+        {
+          "char": "前",
+          "start": 20.21,
+          "end": 20.49,
+          "confidence": 0.952
+        },
+        {
+          "char": "他",
+          "start": 20.75,
+          "end": 20.89,
+          "confidence": 0.4621
+        },
+        {
+          "char": "站",
+          "start": 20.89,
+          "end": 20.99,
+          "confidence": 0.7169
+        },
+        {
+          "char": "在",
+          "start": 20.99,
+          "end": 21.15,
+          "confidence": 0.9955
+        },
+        {
+          "char": "镜",
+          "start": 21.15,
+          "end": 21.29,
+          "confidence": 0.9931
+        },
+        {
+          "char": "子",
+          "start": 21.29,
+          "end": 21.41,
+          "confidence": 0.9998
+        },
+        {
+          "char": "前",
+          "start": 21.41,
+          "end": 21.61,
+          "confidence": 0.9932
+        },
+        {
+          "char": "整",
+          "start": 21.61,
+          "end": 21.89,
+          "confidence": 0.8371
+        },
+        {
+          "char": "理",
+          "start": 21.89,
+          "end": 22.01,
+          "confidence": 0.4236
+        },
+        {
+          "char": "了",
+          "start": 22.01,
+          "end": 22.11,
+          "confidence": 0.9787
+        },
+        {
+          "char": "一",
+          "start": 22.11,
+          "end": 22.23,
+          "confidence": 0.1044
+        },
+        {
+          "char": "下",
+          "start": 22.23,
+          "end": 22.37,
+          "confidence": 0.6496
+        },
+        {
+          "char": "衣",
+          "start": 22.37,
+          "end": 22.57,
+          "confidence": 0.9961
+        },
+        {
+          "char": "服",
+          "start": 22.57,
+          "end": 22.77,
+          "confidence": 0.9903
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22027
+    },
+    {
+      "no": 482,
+      "kind": "word",
+      "text": "钥匙",
+      "spoken_text": "钥匙。",
+      "pinyin": "yàoshi",
+      "source_chunk": 24,
+      "speech_start": 23.21,
+      "speech_end": 23.59,
+      "confidence": 0.7478,
+      "characters": [
+        {
+          "char": "钥",
+          "start": 23.21,
+          "end": 23.33,
+          "confidence": 0.5348
+        },
+        {
+          "char": "匙",
+          "start": 23.33,
+          "end": 23.59,
+          "confidence": 0.9607
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21233
+    },
+    {
+      "no": 482,
+      "kind": "example",
+      "text": "我到家才发现，钥匙落在办公室了。",
+      "spoken_text": "我到家才发现，钥匙落在办公室了。",
+      "pinyin": "Wǒ dào jiā cái fāxiàn, yàoshi là zài bàngōngshì le.",
+      "source_chunk": 24,
+      "speech_start": 23.97,
+      "speech_end": 26.47,
+      "confidence": 0.9007,
+      "characters": [
+        {
+          "char": "我",
+          "start": 23.97,
+          "end": 24.29,
+          "confidence": 0.9658
+        },
+        {
+          "char": "到",
+          "start": 24.29,
+          "end": 24.37,
+          "confidence": 0.9673
+        },
+        {
+          "char": "家",
+          "start": 24.37,
+          "end": 24.51,
+          "confidence": 0.9844
+        },
+        {
+          "char": "才",
+          "start": 24.51,
+          "end": 24.67,
+          "confidence": 0.848
+        },
+        {
+          "char": "发",
+          "start": 24.67,
+          "end": 24.83,
+          "confidence": 0.9813
+        },
+        {
+          "char": "现",
+          "start": 24.83,
+          "end": 25.05,
+          "confidence": 0.9871
+        },
+        {
+          "char": "钥",
+          "start": 25.37,
+          "end": 25.49,
+          "confidence": 0.5028
+        },
+        {
+          "char": "匙",
+          "start": 25.49,
+          "end": 25.65,
+          "confidence": 0.9936
+        },
+        {
+          "char": "落",
+          "start": 25.65,
+          "end": 25.73,
+          "confidence": 0.9601
+        },
+        {
+          "char": "在",
+          "start": 25.73,
+          "end": 25.85,
+          "confidence": 0.9923
+        },
+        {
+          "char": "办",
+          "start": 25.85,
+          "end": 25.97,
+          "confidence": 0.9628
+        },
+        {
+          "char": "公",
+          "start": 25.97,
+          "end": 26.09,
+          "confidence": 0.9873
+        },
+        {
+          "char": "室",
+          "start": 26.09,
+          "end": 26.31,
+          "confidence": 0.9973
+        },
+        {
+          "char": "了",
+          "start": 26.31,
+          "end": 26.47,
+          "confidence": 0.4795
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21468
+    },
+    {
+      "no": 483,
+      "kind": "word",
+      "text": "毛巾",
+      "spoken_text": "毛巾。",
+      "pinyin": "máojīn",
+      "source_chunk": 24,
+      "speech_start": 26.93,
+      "speech_end": 27.25,
+      "confidence": 0.7716,
+      "characters": [
+        {
+          "char": "毛",
+          "start": 26.93,
+          "end": 27.03,
+          "confidence": 0.8424
+        },
+        {
+          "char": "巾",
+          "start": 27.03,
+          "end": 27.25,
+          "confidence": 0.7008
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.29628
+    },
+    {
+      "no": 483,
+      "kind": "example",
+      "text": "游泳以后，请用自己的毛巾擦干头发。",
+      "spoken_text": "游泳以后，请用自己的毛巾擦干头发。",
+      "pinyin": "Yóuyǒng yǐhòu, qǐng yòng zìjǐ de máojīn cāgān tóufa.",
+      "source_chunk": 24,
+      "speech_start": 27.77,
+      "speech_end": 30.37,
+      "confidence": 0.7202,
+      "characters": [
+        {
+          "char": "游",
+          "start": 27.77,
+          "end": 27.89,
+          "confidence": 0.7698
+        },
+        {
+          "char": "泳",
+          "start": 27.89,
+          "end": 28.01,
+          "confidence": 0.976
+        },
+        {
+          "char": "以",
+          "start": 28.01,
+          "end": 28.15,
+          "confidence": 0.993
+        },
+        {
+          "char": "后",
+          "start": 28.15,
+          "end": 28.37,
+          "confidence": 0.9988
+        },
+        {
+          "char": "请",
+          "start": 28.77,
+          "end": 28.85,
+          "confidence": 0.0405
+        },
+        {
+          "char": "用",
+          "start": 28.85,
+          "end": 28.95,
+          "confidence": 0.9904
+        },
+        {
+          "char": "自",
+          "start": 28.95,
+          "end": 29.11,
+          "confidence": 0.0086
+        },
+        {
+          "char": "己",
+          "start": 29.11,
+          "end": 29.21,
+          "confidence": 0.0005
+        },
+        {
+          "char": "的",
+          "start": 29.21,
+          "end": 29.31,
+          "confidence": 0.902
+        },
+        {
+          "char": "毛",
+          "start": 29.31,
+          "end": 29.43,
+          "confidence": 0.9971
+        },
+        {
+          "char": "巾",
+          "start": 29.43,
+          "end": 29.63,
+          "confidence": 0.9949
+        },
+        {
+          "char": "擦",
+          "start": 29.63,
+          "end": 29.83,
+          "confidence": 0.8671
+        },
+        {
+          "char": "干",
+          "start": 29.83,
+          "end": 29.95,
+          "confidence": 0.3052
+        },
+        {
+          "char": "头",
+          "start": 29.95,
+          "end": 30.17,
+          "confidence": 0.9705
+        },
+        {
+          "char": "发",
+          "start": 30.17,
+          "end": 30.37,
+          "confidence": 0.9885
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25705
+    },
+    {
+      "no": 484,
+      "kind": "word",
+      "text": "纸巾",
+      "spoken_text": "纸巾。",
+      "pinyin": "zhǐjīn",
+      "source_chunk": 24,
+      "speech_start": 30.81,
+      "speech_end": 31.23,
+      "confidence": 0.732,
+      "characters": [
+        {
+          "char": "纸",
+          "start": 30.81,
+          "end": 31.03,
+          "confidence": 0.5723
+        },
+        {
+          "char": "巾",
+          "start": 31.03,
+          "end": 31.23,
+          "confidence": 0.8917
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22806
+    },
+    {
+      "no": 484,
+      "kind": "example",
+      "text": "饮料洒在桌上了，快拿纸巾擦一下。",
+      "spoken_text": "饮料洒在桌上了，快拿纸巾擦一下。",
+      "pinyin": "Yǐnliào sǎ zài zhuōshàng le, kuài ná zhǐjīn cā yíxià.",
+      "source_chunk": 24,
+      "speech_start": 31.57,
+      "speech_end": 34.03,
+      "confidence": 0.7978,
+      "characters": [
+        {
+          "char": "饮",
+          "start": 31.57,
+          "end": 31.83,
+          "confidence": 0.6714
+        },
+        {
+          "char": "料",
+          "start": 31.83,
+          "end": 31.95,
+          "confidence": 0.9948
+        },
+        {
+          "char": "洒",
+          "start": 31.95,
+          "end": 32.13,
+          "confidence": 0.4293
+        },
+        {
+          "char": "在",
+          "start": 32.13,
+          "end": 32.27,
+          "confidence": 0.9662
+        },
+        {
+          "char": "桌",
+          "start": 32.27,
+          "end": 32.41,
+          "confidence": 0.9814
+        },
+        {
+          "char": "上",
+          "start": 32.41,
+          "end": 32.61,
+          "confidence": 0.9969
+        },
+        {
+          "char": "了",
+          "start": 32.61,
+          "end": 32.75,
+          "confidence": 0.9151
+        },
+        {
+          "char": "快",
+          "start": 33.07,
+          "end": 33.15,
+          "confidence": 0.4727
+        },
+        {
+          "char": "拿",
+          "start": 33.15,
+          "end": 33.25,
+          "confidence": 0.988
+        },
+        {
+          "char": "纸",
+          "start": 33.25,
+          "end": 33.43,
+          "confidence": 0.953
+        },
+        {
+          "char": "巾",
+          "start": 33.43,
+          "end": 33.53,
+          "confidence": 0.996
+        },
+        {
+          "char": "擦",
+          "start": 33.53,
+          "end": 33.73,
+          "confidence": 0.9933
+        },
+        {
+          "char": "一",
+          "start": 33.73,
+          "end": 33.89,
+          "confidence": 0.0312
+        },
+        {
+          "char": "下",
+          "start": 33.89,
+          "end": 34.03,
+          "confidence": 0.7799
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21689
+    },
+    {
+      "no": 485,
+      "kind": "word",
+      "text": "牙膏",
+      "spoken_text": "牙膏。",
+      "pinyin": "yágāo",
+      "source_chunk": 24,
+      "speech_start": 34.43,
+      "speech_end": 34.87,
+      "confidence": 0.8838,
+      "characters": [
+        {
+          "char": "牙",
+          "start": 34.43,
+          "end": 34.71,
+          "confidence": 0.8051
+        },
+        {
+          "char": "膏",
+          "start": 34.71,
+          "end": 34.87,
+          "confidence": 0.9624
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.17639
+    },
+    {
+      "no": 485,
+      "kind": "example",
+      "text": "牙膏快用完了，回家路上记得买一支。",
+      "spoken_text": "牙膏快用完了，回家路上记得买一支。",
+      "pinyin": "Yágāo kuài yòng wán le, huíjiā lùshang jìde mǎi yì zhī.",
+      "source_chunk": 24,
+      "speech_start": 35.29,
+      "speech_end": 37.81,
+      "confidence": 0.801,
+      "characters": [
+        {
+          "char": "牙",
+          "start": 35.29,
+          "end": 35.65,
+          "confidence": 0.9977
+        },
+        {
+          "char": "膏",
+          "start": 35.65,
+          "end": 35.77,
+          "confidence": 0.9996
+        },
+        {
+          "char": "快",
+          "start": 35.77,
+          "end": 35.91,
+          "confidence": 0.9808
+        },
+        {
+          "char": "用",
+          "start": 35.91,
+          "end": 36.03,
+          "confidence": 0.9571
+        },
+        {
+          "char": "完",
+          "start": 36.03,
+          "end": 36.25,
+          "confidence": 0.0157
+        },
+        {
+          "char": "了",
+          "start": 36.25,
+          "end": 36.37,
+          "confidence": 0.7049
+        },
+        {
+          "char": "回",
+          "start": 36.69,
+          "end": 36.79,
+          "confidence": 0.9266
+        },
+        {
+          "char": "家",
+          "start": 36.79,
+          "end": 36.93,
+          "confidence": 0.9863
+        },
+        {
+          "char": "路",
+          "start": 36.93,
+          "end": 37.03,
+          "confidence": 0.7959
+        },
+        {
+          "char": "上",
+          "start": 37.03,
+          "end": 37.19,
+          "confidence": 0.9981
+        },
+        {
+          "char": "记",
+          "start": 37.19,
+          "end": 37.31,
+          "confidence": 0.7513
+        },
+        {
+          "char": "得",
+          "start": 37.31,
+          "end": 37.41,
+          "confidence": 0.9936
+        },
+        {
+          "char": "买",
+          "start": 37.41,
+          "end": 37.53,
+          "confidence": 0.7645
+        },
+        {
+          "char": "一",
+          "start": 37.53,
+          "end": 37.71,
+          "confidence": 0.9797
+        },
+        {
+          "char": "支",
+          "start": 37.71,
+          "end": 37.81,
+          "confidence": 0.1625
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25139
+    },
+    {
+      "no": 486,
+      "kind": "example",
+      "text": "他提了一桶水，把院子的地面冲干净了。",
+      "spoken_text": "他提了一桶水，把院子的地面冲干净了。",
+      "pinyin": "Tā tí le yì tǒng shuǐ, bǎ yuànzi de dìmiàn chōng gānjìng le.",
+      "source_chunk": 24,
+      "speech_start": 38.37,
+      "speech_end": 41.11,
+      "confidence": 0.8494,
+      "characters": [
+        {
+          "char": "他",
+          "start": 38.37,
+          "end": 38.61,
+          "confidence": 0.1482
+        },
+        {
+          "char": "提",
+          "start": 38.61,
+          "end": 38.77,
+          "confidence": 0.8382
+        },
+        {
+          "char": "了",
+          "start": 38.77,
+          "end": 38.87,
+          "confidence": 0.9958
+        },
+        {
+          "char": "一",
+          "start": 38.87,
+          "end": 38.97,
+          "confidence": 0.9923
+        },
+        {
+          "char": "桶",
+          "start": 38.97,
+          "end": 39.09,
+          "confidence": 0.6742
+        },
+        {
+          "char": "水",
+          "start": 39.09,
+          "end": 39.35,
+          "confidence": 0.995
+        },
+        {
+          "char": "把",
+          "start": 39.71,
+          "end": 39.77,
+          "confidence": 0.9862
+        },
+        {
+          "char": "院",
+          "start": 39.77,
+          "end": 39.91,
+          "confidence": 0.6291
+        },
+        {
+          "char": "子",
+          "start": 39.91,
+          "end": 40.07,
+          "confidence": 0.9999
+        },
+        {
+          "char": "的",
+          "start": 40.07,
+          "end": 40.19,
+          "confidence": 0.9408
+        },
+        {
+          "char": "地",
+          "start": 40.19,
+          "end": 40.29,
+          "confidence": 0.9843
+        },
+        {
+          "char": "面",
+          "start": 40.29,
+          "end": 40.43,
+          "confidence": 0.9994
+        },
+        {
+          "char": "冲",
+          "start": 40.43,
+          "end": 40.61,
+          "confidence": 0.7276
+        },
+        {
+          "char": "干",
+          "start": 40.61,
+          "end": 40.77,
+          "confidence": 0.8087
+        },
+        {
+          "char": "净",
+          "start": 40.77,
+          "end": 40.97,
+          "confidence": 0.892
+        },
+        {
+          "char": "了",
+          "start": 40.97,
+          "end": 41.11,
+          "confidence": 0.9786
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25494
+    },
+    {
+      "no": 487,
+      "kind": "example",
+      "text": "这把刀很锋利，使用的时候要小心。",
+      "spoken_text": "这把刀很锋利，使用的时候要小心。",
+      "pinyin": "Zhè bǎ dāo hěn fēnglì, shǐyòng de shíhou yào xiǎoxīn.",
+      "source_chunk": 24,
+      "speech_start": 41.47,
+      "speech_end": 43.87,
+      "confidence": 0.5889,
+      "characters": [
+        {
+          "char": "这",
+          "start": 41.47,
+          "end": 41.61,
+          "confidence": 0.9374
+        },
+        {
+          "char": "把",
+          "start": 41.61,
+          "end": 41.73,
+          "confidence": 0.9766
+        },
+        {
+          "char": "刀",
+          "start": 41.73,
+          "end": 41.85,
+          "confidence": 0.993
+        },
+        {
+          "char": "很",
+          "start": 41.85,
+          "end": 42.05,
+          "confidence": 0.9918
+        },
+        {
+          "char": "锋",
+          "start": 42.05,
+          "end": 42.25,
+          "confidence": 0.5024
+        },
+        {
+          "char": "利",
+          "start": 42.25,
+          "end": 42.41,
+          "confidence": 0.9587
+        },
+        {
+          "char": "使",
+          "start": 42.87,
+          "end": 42.97,
+          "confidence": 0.5376
+        },
+        {
+          "char": "用",
+          "start": 42.97,
+          "end": 43.07,
+          "confidence": 0.9996
+        },
+        {
+          "char": "的",
+          "start": 43.07,
+          "end": 43.17,
+          "confidence": 0.0139
+        },
+        {
+          "char": "时",
+          "start": 43.17,
+          "end": 43.29,
+          "confidence": 0.0386
+        },
+        {
+          "char": "候",
+          "start": 43.29,
+          "end": 43.41,
+          "confidence": 0.0026
+        },
+        {
+          "char": "要",
+          "start": 43.41,
+          "end": 43.51,
+          "confidence": 0.9854
+        },
+        {
+          "char": "小",
+          "start": 43.51,
+          "end": 43.67,
+          "confidence": 0.0046
+        },
+        {
+          "char": "心",
+          "start": 43.67,
+          "end": 43.87,
+          "confidence": 0.3023
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22122
+    },
+    {
+      "no": 488,
+      "kind": "example",
+      "text": "下雨以后，记得把窗上的水擦干。",
+      "spoken_text": "下雨以后，记得把窗上的水擦干。",
+      "pinyin": "Xiàyǔ yǐhòu, jìde bǎ chuāngshàng de shuǐ cāgān.",
+      "source_chunk": 24,
+      "speech_start": 44.37,
+      "speech_end": 46.57,
+      "confidence": 0.8262,
+      "characters": [
+        {
+          "char": "下",
+          "start": 44.37,
+          "end": 44.49,
+          "confidence": 0.607
+        },
+        {
+          "char": "雨",
+          "start": 44.49,
+          "end": 44.65,
+          "confidence": 0.6011
+        },
+        {
+          "char": "以",
+          "start": 44.65,
+          "end": 44.79,
+          "confidence": 0.9764
+        },
+        {
+          "char": "后",
+          "start": 44.79,
+          "end": 44.99,
+          "confidence": 0.9979
+        },
+        {
+          "char": "记",
+          "start": 45.35,
+          "end": 45.43,
+          "confidence": 0.5503
+        },
+        {
+          "char": "得",
+          "start": 45.43,
+          "end": 45.51,
+          "confidence": 0.992
+        },
+        {
+          "char": "把",
+          "start": 45.51,
+          "end": 45.61,
+          "confidence": 0.8951
+        },
+        {
+          "char": "窗",
+          "start": 45.61,
+          "end": 45.81,
+          "confidence": 0.6804
+        },
+        {
+          "char": "上",
+          "start": 45.81,
+          "end": 45.97,
+          "confidence": 0.9911
+        },
+        {
+          "char": "的",
+          "start": 45.97,
+          "end": 46.07,
+          "confidence": 0.9168
+        },
+        {
+          "char": "水",
+          "start": 46.07,
+          "end": 46.21,
+          "confidence": 0.9939
+        },
+        {
+          "char": "擦",
+          "start": 46.21,
+          "end": 46.41,
+          "confidence": 0.8651
+        },
+        {
+          "char": "干",
+          "start": 46.41,
+          "end": 46.57,
+          "confidence": 0.6739
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24344
+    },
+    {
+      "no": 489,
+      "kind": "word",
+      "text": "收拾",
+      "spoken_text": "收拾。",
+      "pinyin": "shōushi",
+      "source_chunk": 24,
+      "speech_start": 47.05,
+      "speech_end": 47.37,
+      "confidence": 0.929,
+      "characters": [
+        {
+          "char": "收",
+          "start": 47.05,
+          "end": 47.21,
+          "confidence": 0.9622
+        },
+        {
+          "char": "拾",
+          "start": 47.21,
+          "end": 47.37,
+          "confidence": 0.8957
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.26715
+    },
+    {
+      "no": 489,
+      "kind": "example",
+      "text": "客人快到了，我们先把房间收拾一下。",
+      "spoken_text": "客人快到了，我们先把房间收拾一下。",
+      "pinyin": "Kèrén kuài dào le, wǒmen xiān bǎ fángjiān shōushi yíxià.",
+      "source_chunk": 24,
+      "speech_start": 47.89,
+      "speech_end": 50.19,
+      "confidence": 0.6835,
+      "characters": [
+        {
+          "char": "客",
+          "start": 47.89,
+          "end": 48.09,
+          "confidence": 0.8423
+        },
+        {
+          "char": "人",
+          "start": 48.09,
+          "end": 48.19,
+          "confidence": 0.9983
+        },
+        {
+          "char": "快",
+          "start": 48.19,
+          "end": 48.33,
+          "confidence": 0.9928
+        },
+        {
+          "char": "到",
+          "start": 48.33,
+          "end": 48.51,
+          "confidence": 0.026
+        },
+        {
+          "char": "了",
+          "start": 48.51,
+          "end": 48.69,
+          "confidence": 0.82
+        },
+        {
+          "char": "我",
+          "start": 49.01,
+          "end": 49.09,
+          "confidence": 0.0097
+        },
+        {
+          "char": "们",
+          "start": 49.09,
+          "end": 49.13,
+          "confidence": 0.0232
+        },
+        {
+          "char": "先",
+          "start": 49.13,
+          "end": 49.23,
+          "confidence": 0.9938
+        },
+        {
+          "char": "把",
+          "start": 49.23,
+          "end": 49.33,
+          "confidence": 0.9857
+        },
+        {
+          "char": "房",
+          "start": 49.33,
+          "end": 49.47,
+          "confidence": 0.9754
+        },
+        {
+          "char": "间",
+          "start": 49.47,
+          "end": 49.59,
+          "confidence": 0.9953
+        },
+        {
+          "char": "收",
+          "start": 49.59,
+          "end": 49.79,
+          "confidence": 0.9961
+        },
+        {
+          "char": "拾",
+          "start": 49.79,
+          "end": 49.93,
+          "confidence": 0.999
+        },
+        {
+          "char": "一",
+          "start": 49.93,
+          "end": 50.05,
+          "confidence": 0.0065
+        },
+        {
+          "char": "下",
+          "start": 50.05,
+          "end": 50.19,
+          "confidence": 0.5879
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24068
+    },
+    {
+      "no": 490,
+      "kind": "word",
+      "text": "整理",
+      "spoken_text": "整理。",
+      "pinyin": "zhěnglǐ",
+      "source_chunk": 24,
+      "speech_start": 50.53,
+      "speech_end": 50.81,
+      "confidence": 0.9945,
+      "characters": [
+        {
+          "char": "整",
+          "start": 50.53,
+          "end": 50.65,
+          "confidence": 0.9971
+        },
+        {
+          "char": "理",
+          "start": 50.65,
+          "end": 50.81,
+          "confidence": 0.9919
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.29287
+    },
+    {
+      "no": 490,
+      "kind": "example",
+      "text": "整理照片时，我发现了几张儿时的照片。",
+      "spoken_text": "整理照片时，我发现了几张儿时的照片。",
+      "pinyin": "Zhěnglǐ zhàopiàn shí, wǒ fāxiàn le jǐ zhāng érshí de zhàopiàn.",
+      "source_chunk": 24,
+      "speech_start": 51.09,
+      "speech_end": 54.09,
+      "confidence": 0.8725,
+      "characters": [
+        {
+          "char": "整",
+          "start": 51.09,
+          "end": 51.49,
+          "confidence": 0.9947
+        },
+        {
+          "char": "理",
+          "start": 51.49,
+          "end": 51.61,
+          "confidence": 0.9991
+        },
+        {
+          "char": "照",
+          "start": 51.61,
+          "end": 51.75,
+          "confidence": 0.9372
+        },
+        {
+          "char": "片",
+          "start": 51.75,
+          "end": 51.89,
+          "confidence": 0.9955
+        },
+        {
+          "char": "时",
+          "start": 51.89,
+          "end": 52.17,
+          "confidence": 0.7148
+        },
+        {
+          "char": "我",
+          "start": 52.51,
+          "end": 52.61,
+          "confidence": 0.8994
+        },
+        {
+          "char": "发",
+          "start": 52.61,
+          "end": 52.77,
+          "confidence": 0.9918
+        },
+        {
+          "char": "现",
+          "start": 52.77,
+          "end": 52.91,
+          "confidence": 0.9967
+        },
+        {
+          "char": "了",
+          "start": 52.91,
+          "end": 53.01,
+          "confidence": 0.9925
+        },
+        {
+          "char": "几",
+          "start": 53.01,
+          "end": 53.13,
+          "confidence": 0.995
+        },
+        {
+          "char": "张",
+          "start": 53.13,
+          "end": 53.27,
+          "confidence": 0.8933
+        },
+        {
+          "char": "儿",
+          "start": 53.27,
+          "end": 53.47,
+          "confidence": 0.3262
+        },
+        {
+          "char": "时",
+          "start": 53.47,
+          "end": 53.63,
+          "confidence": 0.4581
+        },
+        {
+          "char": "的",
+          "start": 53.63,
+          "end": 53.77,
+          "confidence": 0.769
+        },
+        {
+          "char": "照",
+          "start": 53.77,
+          "end": 53.89,
+          "confidence": 0.9968
+        },
+        {
+          "char": "片",
+          "start": 53.89,
+          "end": 54.09,
+          "confidence": 0.9996
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20362
+    },
+    {
+      "no": 491,
+      "kind": "example",
+      "text": "请把外套挂在门后，别放在沙发上。",
+      "spoken_text": "请把外套挂在门后，别放在沙发上。",
+      "pinyin": "Qǐng bǎ wàitào guà zài mén hòu, bié fàng zài shāfā shàng.",
+      "source_chunk": 24,
+      "speech_start": 54.51,
+      "speech_end": 57.03,
+      "confidence": 0.9426,
+      "characters": [
+        {
+          "char": "请",
+          "start": 54.51,
+          "end": 54.73,
+          "confidence": 0.8787
+        },
+        {
+          "char": "把",
+          "start": 54.73,
+          "end": 54.85,
+          "confidence": 0.93
+        },
+        {
+          "char": "外",
+          "start": 54.85,
+          "end": 55.05,
+          "confidence": 0.9969
+        },
+        {
+          "char": "套",
+          "start": 55.05,
+          "end": 55.17,
+          "confidence": 0.9996
+        },
+        {
+          "char": "挂",
+          "start": 55.17,
+          "end": 55.31,
+          "confidence": 0.9372
+        },
+        {
+          "char": "在",
+          "start": 55.31,
+          "end": 55.49,
+          "confidence": 0.9929
+        },
+        {
+          "char": "门",
+          "start": 55.49,
+          "end": 55.59,
+          "confidence": 0.9867
+        },
+        {
+          "char": "后",
+          "start": 55.59,
+          "end": 55.87,
+          "confidence": 0.9824
+        },
+        {
+          "char": "别",
+          "start": 56.15,
+          "end": 56.27,
+          "confidence": 0.6838
+        },
+        {
+          "char": "放",
+          "start": 56.27,
+          "end": 56.37,
+          "confidence": 0.9978
+        },
+        {
+          "char": "在",
+          "start": 56.37,
+          "end": 56.51,
+          "confidence": 0.9572
+        },
+        {
+          "char": "沙",
+          "start": 56.51,
+          "end": 56.67,
+          "confidence": 0.8855
+        },
+        {
+          "char": "发",
+          "start": 56.67,
+          "end": 56.81,
+          "confidence": 0.9884
+        },
+        {
+          "char": "上",
+          "start": 56.81,
+          "end": 57.03,
+          "confidence": 0.9795
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21752
+    },
+    {
+      "no": 492,
+      "kind": "example",
+      "text": "这辆自行车修好以后，还可以骑几年。",
+      "spoken_text": "这辆自行车修好以后，还可以骑几年。",
+      "pinyin": "Zhè liàng zìxíngchē xiūhǎo yǐhòu, hái kěyǐ qí jǐ nián.",
+      "source_chunk": 24,
+      "speech_start": 57.41,
+      "speech_end": 60.05,
+      "confidence": 0.7807,
+      "characters": [
+        {
+          "char": "这",
+          "start": 57.41,
+          "end": 57.63,
+          "confidence": 0.9574
+        },
+        {
+          "char": "辆",
+          "start": 57.63,
+          "end": 57.73,
+          "confidence": 0.6261
+        },
+        {
+          "char": "自",
+          "start": 57.73,
+          "end": 57.89,
+          "confidence": 0.9626
+        },
+        {
+          "char": "行",
+          "start": 57.89,
+          "end": 57.97,
+          "confidence": 0.989
+        },
+        {
+          "char": "车",
+          "start": 57.97,
+          "end": 58.21,
+          "confidence": 0.9946
+        },
+        {
+          "char": "修",
+          "start": 58.21,
+          "end": 58.35,
+          "confidence": 0.9356
+        },
+        {
+          "char": "好",
+          "start": 58.35,
+          "end": 58.53,
+          "confidence": 0.8841
+        },
+        {
+          "char": "以",
+          "start": 58.53,
+          "end": 58.67,
+          "confidence": 0.9975
+        },
+        {
+          "char": "后",
+          "start": 58.67,
+          "end": 58.93,
+          "confidence": 0.9969
+        },
+        {
+          "char": "还",
+          "start": 59.21,
+          "end": 59.27,
+          "confidence": 0.8418
+        },
+        {
+          "char": "可",
+          "start": 59.27,
+          "end": 59.39,
+          "confidence": 0.0065
+        },
+        {
+          "char": "以",
+          "start": 59.39,
+          "end": 59.57,
+          "confidence": 0.0008
+        },
+        {
+          "char": "骑",
+          "start": 59.57,
+          "end": 59.65,
+          "confidence": 0.5239
+        },
+        {
+          "char": "几",
+          "start": 59.65,
+          "end": 59.85,
+          "confidence": 0.9982
+        },
+        {
+          "char": "年",
+          "start": 59.85,
+          "end": 60.05,
+          "confidence": 0.9951
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22608
+    },
+    {
+      "no": 493,
+      "kind": "word",
+      "text": "修理",
+      "spoken_text": "修理。",
+      "pinyin": "xiūlǐ",
+      "source_chunk": 24,
+      "speech_start": 60.45,
+      "speech_end": 60.75,
+      "confidence": 0.9721,
+      "characters": [
+        {
+          "char": "修",
+          "start": 60.45,
+          "end": 60.59,
+          "confidence": 0.993
+        },
+        {
+          "char": "理",
+          "start": 60.59,
+          "end": 60.75,
+          "confidence": 0.9512
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.31172
+    },
+    {
+      "no": 493,
+      "kind": "example",
+      "text": "师傅检查后说，这台冰箱还有修理的价值。",
+      "spoken_text": "师傅检查后说，这台冰箱还有修理的价值。",
+      "pinyin": "Shīfu jiǎnchá hòu shuō, zhè tái bīngxiāng háiyǒu xiūlǐ de jiàzhí.",
+      "source_chunk": 24,
+      "speech_start": 61.03,
+      "speech_end": 64.49,
+      "confidence": 0.8518,
+      "characters": [
+        {
+          "char": "师",
+          "start": 61.03,
+          "end": 61.57,
+          "confidence": 0.576
+        },
+        {
+          "char": "傅",
+          "start": 61.57,
+          "end": 61.67,
+          "confidence": 0.7314
+        },
+        {
+          "char": "检",
+          "start": 61.67,
+          "end": 61.81,
+          "confidence": 0.8385
+        },
+        {
+          "char": "查",
+          "start": 61.81,
+          "end": 61.97,
+          "confidence": 0.9107
+        },
+        {
+          "char": "后",
+          "start": 61.97,
+          "end": 62.17,
+          "confidence": 0.8125
+        },
+        {
+          "char": "说",
+          "start": 62.17,
+          "end": 62.41,
+          "confidence": 0.9711
+        },
+        {
+          "char": "这",
+          "start": 62.83,
+          "end": 62.87,
+          "confidence": 0.7117
+        },
+        {
+          "char": "台",
+          "start": 62.87,
+          "end": 62.99,
+          "confidence": 0.9742
+        },
+        {
+          "char": "冰",
+          "start": 62.99,
+          "end": 63.15,
+          "confidence": 0.9642
+        },
+        {
+          "char": "箱",
+          "start": 63.15,
+          "end": 63.33,
+          "confidence": 0.9765
+        },
+        {
+          "char": "还",
+          "start": 63.33,
+          "end": 63.51,
+          "confidence": 0.2046
+        },
+        {
+          "char": "有",
+          "start": 63.51,
+          "end": 63.61,
+          "confidence": 0.8564
+        },
+        {
+          "char": "修",
+          "start": 63.61,
+          "end": 63.79,
+          "confidence": 0.9992
+        },
+        {
+          "char": "理",
+          "start": 63.79,
+          "end": 63.93,
+          "confidence": 0.9964
+        },
+        {
+          "char": "的",
+          "start": 63.93,
+          "end": 64.05,
+          "confidence": 0.9909
+        },
+        {
+          "char": "价",
+          "start": 64.05,
+          "end": 64.19,
+          "confidence": 0.9724
+        },
+        {
+          "char": "值",
+          "start": 64.19,
+          "end": 64.49,
+          "confidence": 0.9942
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20995
+    },
+    {
+      "no": 494,
+      "kind": "word",
+      "text": "垃圾",
+      "spoken_text": "垃圾。",
+      "pinyin": "lājī",
+      "source_chunk": 24,
+      "speech_start": 64.85,
+      "speech_end": 65.19,
+      "confidence": 0.7935,
+      "characters": [
+        {
+          "char": "垃",
+          "start": 64.85,
+          "end": 64.99,
+          "confidence": 0.6312
+        },
+        {
+          "char": "圾",
+          "start": 64.99,
+          "end": 65.19,
+          "confidence": 0.9558
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.1488
+    },
+    {
+      "no": 494,
+      "kind": "example",
+      "text": "请将垃圾分类，再放进相应的垃圾桶。",
+      "spoken_text": "请将垃圾分类，再放进相应的垃圾桶。",
+      "pinyin": "Qǐng jiāng lājī fēnlèi, zài fàngjìn xiāngyìng de lājītǒng.",
+      "source_chunk": 24,
+      "speech_start": 65.67,
+      "speech_end": 68.53,
+      "confidence": 0.8732,
+      "characters": [
+        {
+          "char": "请",
+          "start": 65.67,
+          "end": 65.89,
+          "confidence": 0.6257
+        },
+        {
+          "char": "将",
+          "start": 65.89,
+          "end": 66.07,
+          "confidence": 0.9649
+        },
+        {
+          "char": "垃",
+          "start": 66.07,
+          "end": 66.25,
+          "confidence": 0.9969
+        },
+        {
+          "char": "圾",
+          "start": 66.25,
+          "end": 66.37,
+          "confidence": 0.9978
+        },
+        {
+          "char": "分",
+          "start": 66.37,
+          "end": 66.59,
+          "confidence": 0.9572
+        },
+        {
+          "char": "类",
+          "start": 66.59,
+          "end": 66.79,
+          "confidence": 0.979
+        },
+        {
+          "char": "再",
+          "start": 67.17,
+          "end": 67.27,
+          "confidence": 0.1684
+        },
+        {
+          "char": "放",
+          "start": 67.27,
+          "end": 67.39,
+          "confidence": 0.9935
+        },
+        {
+          "char": "进",
+          "start": 67.39,
+          "end": 67.57,
+          "confidence": 0.9387
+        },
+        {
+          "char": "相",
+          "start": 67.57,
+          "end": 67.77,
+          "confidence": 0.5505
+        },
+        {
+          "char": "应",
+          "start": 67.77,
+          "end": 67.93,
+          "confidence": 0.9855
+        },
+        {
+          "char": "的",
+          "start": 67.93,
+          "end": 68.07,
+          "confidence": 0.9933
+        },
+        {
+          "char": "垃",
+          "start": 68.07,
+          "end": 68.21,
+          "confidence": 0.9991
+        },
+        {
+          "char": "圾",
+          "start": 68.21,
+          "end": 68.35,
+          "confidence": 0.9964
+        },
+        {
+          "char": "桶",
+          "start": 68.35,
+          "end": 68.53,
+          "confidence": 0.9508
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21032
+    },
+    {
+      "no": 495,
+      "kind": "word",
+      "text": "日常",
+      "spoken_text": "日常。",
+      "pinyin": "rìcháng",
+      "source_chunk": 24,
+      "speech_start": 68.97,
+      "speech_end": 69.29,
+      "confidence": 0.944,
+      "characters": [
+        {
+          "char": "日",
+          "start": 68.97,
+          "end": 69.07,
+          "confidence": 0.9674
+        },
+        {
+          "char": "常",
+          "start": 69.07,
+          "end": 69.29,
+          "confidence": 0.9206
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24698
+    },
+    {
+      "no": 495,
+      "kind": "example",
+      "text": "这些表达在日常生活中经常用得到。",
+      "spoken_text": "这些表达在日常生活中经常用得到。",
+      "pinyin": "Zhèxiē biǎodá zài rìcháng shēnghuó zhōng jīngcháng yòng de dào.",
+      "source_chunk": 24,
+      "speech_start": 69.67,
+      "speech_end": 72.37,
+      "confidence": 0.8155,
+      "characters": [
+        {
+          "char": "这",
+          "start": 69.67,
+          "end": 70.05,
+          "confidence": 0.562
+        },
+        {
+          "char": "些",
+          "start": 70.05,
+          "end": 70.17,
+          "confidence": 0.9972
+        },
+        {
+          "char": "表",
+          "start": 70.17,
+          "end": 70.33,
+          "confidence": 0.9736
+        },
+        {
+          "char": "达",
+          "start": 70.33,
+          "end": 70.53,
+          "confidence": 0.991
+        },
+        {
+          "char": "在",
+          "start": 70.53,
+          "end": 70.71,
+          "confidence": 0.9934
+        },
+        {
+          "char": "日",
+          "start": 70.71,
+          "end": 70.85,
+          "confidence": 0.9896
+        },
+        {
+          "char": "常",
+          "start": 70.85,
+          "end": 71.01,
+          "confidence": 0.9979
+        },
+        {
+          "char": "生",
+          "start": 71.01,
+          "end": 71.17,
+          "confidence": 0.0019
+        },
+        {
+          "char": "活",
+          "start": 71.17,
+          "end": 71.35,
+          "confidence": 0.3224
+        },
+        {
+          "char": "中",
+          "start": 71.35,
+          "end": 71.57,
+          "confidence": 0.9818
+        },
+        {
+          "char": "经",
+          "start": 71.57,
+          "end": 71.75,
+          "confidence": 0.9764
+        },
+        {
+          "char": "常",
+          "start": 71.75,
+          "end": 71.93,
+          "confidence": 0.9998
+        },
+        {
+          "char": "用",
+          "start": 71.93,
+          "end": 72.09,
+          "confidence": 0.9966
+        },
+        {
+          "char": "得",
+          "start": 72.09,
+          "end": 72.23,
+          "confidence": 0.4619
+        },
+        {
+          "char": "到",
+          "start": 72.23,
+          "end": 72.37,
+          "confidence": 0.9876
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20685
+    },
+    {
+      "no": 496,
+      "kind": "word",
+      "text": "卫生",
+      "spoken_text": "卫生。",
+      "pinyin": "wèishēng",
+      "source_chunk": 24,
+      "speech_start": 72.79,
+      "speech_end": 73.11,
+      "confidence": 0.838,
+      "characters": [
+        {
+          "char": "卫",
+          "start": 72.79,
+          "end": 72.91,
+          "confidence": 0.6781
+        },
+        {
+          "char": "生",
+          "start": 72.91,
+          "end": 73.11,
+          "confidence": 0.9979
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.29847
+    },
+    {
+      "no": 496,
+      "kind": "example",
+      "text": "保持厨房卫生，是全家人的共同责任。",
+      "spoken_text": "保持厨房卫生，是全家人的共同责任。",
+      "pinyin": "Bǎochí chúfáng wèishēng, shì quánjiārén de gòngtóng zérèn.",
+      "source_chunk": 24,
+      "speech_start": 73.69,
+      "speech_end": 76.61,
+      "confidence": 0.9551,
+      "characters": [
+        {
+          "char": "保",
+          "start": 73.69,
+          "end": 73.93,
+          "confidence": 0.9824
+        },
+        {
+          "char": "持",
+          "start": 73.93,
+          "end": 74.09,
+          "confidence": 0.9974
+        },
+        {
+          "char": "厨",
+          "start": 74.09,
+          "end": 74.33,
+          "confidence": 0.8277
+        },
+        {
+          "char": "房",
+          "start": 74.33,
+          "end": 74.43,
+          "confidence": 0.9953
+        },
+        {
+          "char": "卫",
+          "start": 74.43,
+          "end": 74.63,
+          "confidence": 0.9951
+        },
+        {
+          "char": "生",
+          "start": 74.63,
+          "end": 74.83,
+          "confidence": 0.9998
+        },
+        {
+          "char": "是",
+          "start": 75.25,
+          "end": 75.29,
+          "confidence": 0.6873
+        },
+        {
+          "char": "全",
+          "start": 75.29,
+          "end": 75.45,
+          "confidence": 0.9019
+        },
+        {
+          "char": "家",
+          "start": 75.45,
+          "end": 75.63,
+          "confidence": 0.9966
+        },
+        {
+          "char": "人",
+          "start": 75.63,
+          "end": 75.79,
+          "confidence": 0.9976
+        },
+        {
+          "char": "的",
+          "start": 75.79,
+          "end": 75.91,
+          "confidence": 0.9821
+        },
+        {
+          "char": "共",
+          "start": 75.91,
+          "end": 76.03,
+          "confidence": 0.9927
+        },
+        {
+          "char": "同",
+          "start": 76.03,
+          "end": 76.27,
+          "confidence": 0.9878
+        },
+        {
+          "char": "责",
+          "start": 76.27,
+          "end": 76.43,
+          "confidence": 0.9838
+        },
+        {
+          "char": "任",
+          "start": 76.43,
+          "end": 76.61,
+          "confidence": 0.9984
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21639
+    },
+    {
+      "no": 497,
+      "kind": "word",
+      "text": "理发",
+      "spoken_text": "理发。",
+      "pinyin": "lǐfà",
+      "source_chunk": 24,
+      "speech_start": 77.21,
+      "speech_end": 77.63,
+      "confidence": 0.5087,
+      "characters": [
+        {
+          "char": "理",
+          "start": 77.21,
+          "end": 77.43,
+          "confidence": 0.3704
+        },
+        {
+          "char": "发",
+          "start": 77.43,
+          "end": 77.63,
+          "confidence": 0.6469
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.17047
+    }
+  ],
+  "windows": [
+    {
+      "first_clip": 0,
+      "last_clip": 4,
+      "start": 0,
+      "end": 12.040000000000001,
+      "text": "妈妈在厨房忙着做饭，我进去帮她洗菜。厕所。请问厕所在几楼？这层好像没有。关窗以前，请看看外面晾的衣服干了没有。窗户。"
+    },
+    {
+      "first_clip": 3,
+      "last_clip": 8,
+      "start": 6.529999999999999,
+      "end": 20.229999999999997,
+      "text": "关窗以前，请看看外面晾的衣服干了没有。窗户。阳光透过窗户照进来，屋里很暖和。家具。搬家以前，我们决定卖掉一部分旧家具。镜子。"
+    },
+    {
+      "first_clip": 7,
+      "last_clip": 12,
+      "start": 14.65,
+      "end": 28.159999999999997,
+      "text": "搬家以前，我们决定卖掉一部分旧家具。镜子。出门前，他站在镜子前整理了一下衣服。钥匙。我到家才发现，钥匙落在办公室了。毛巾。"
+    },
+    {
+      "first_clip": 11,
+      "last_clip": 16,
+      "start": 23.17,
+      "end": 35.77,
+      "text": "我到家才发现，钥匙落在办公室了。毛巾。游泳以后，请用自己的毛巾擦干头发。纸巾。饮料洒在桌上了，快拿纸巾擦一下。牙膏。"
+    },
+    {
+      "first_clip": 15,
+      "last_clip": 20,
+      "start": 30.73,
+      "end": 47.519999999999996,
+      "text": "饮料洒在桌上了，快拿纸巾擦一下。牙膏。牙膏快用完了，回家路上记得买一支。他提了一桶水，把院子的地面冲干净了。这把刀很锋利，使用的时候要小心。下雨以后，记得把窗上的水擦干。"
+    },
+    {
+      "first_clip": 19,
+      "last_clip": 24,
+      "start": 40.51,
+      "end": 54.75,
+      "text": "这把刀很锋利，使用的时候要小心。下雨以后，记得把窗上的水擦干。收拾。客人快到了，我们先把房间收拾一下。整理。整理照片时，我发现了几张儿时的照片。"
+    },
+    {
+      "first_clip": 23,
+      "last_clip": 28,
+      "start": 49.67,
+      "end": 65.17,
+      "text": "整理。整理照片时，我发现了几张儿时的照片。请把外套挂在门后，别放在沙发上。这辆自行车修好以后，还可以骑几年。修理。师傅检查后说，这台冰箱还有修理的价值。"
+    },
+    {
+      "first_clip": 27,
+      "last_clip": 32,
+      "start": 59.410000000000004,
+      "end": 73.05000000000001,
+      "text": "修理。师傅检查后说，这台冰箱还有修理的价值。垃圾。请将垃圾分类，再放进相应的垃圾桶。日常。这些表达在日常生活中经常用得到。"
+    },
+    {
+      "first_clip": 31,
+      "last_clip": 35,
+      "start": 67.86999999999999,
+      "end": 77.88,
+      "text": "日常。这些表达在日常生活中经常用得到。卫生。保持厨房卫生，是全家人的共同责任。理发。"
+    }
+  ],
+  "alerts": []
+}
