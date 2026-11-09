@@ -70,9 +70,25 @@ class PlaybackTests(unittest.TestCase):
    self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),clip['sha256'])
    route=self.page.evaluate('(c)=>fixedAudio(c.no,c.kind)',clip)
    self.assertEqual(route,clip['file'])
-  self.assertEqual(self.ev('fixedAudio(57,"word") || null'),None)
-  self.assertEqual(self.ev('fixedAudio(58,"word") || null'),None)
+  self.assertFalse('level3-erhua' in self.ev('fixedAudio(57,"word")'))
+  self.assertFalse('level3-erhua' in self.ev('fixedAudio(58,"word")'))
   self.assertTrue(self.ev('fixedAudio(750,"word").includes("0750-word.mp3")'))
+ def test_all_1000_words_and_examples_use_fixed_reference_voice(self):
+  import hashlib
+  manifest=json.loads((ROOT/'audio/level3-natural/manifest.json').read_text())
+  self.assertEqual(manifest['voice_id'],'6c364011f30747c9a0a89eec3787cadc')
+  self.assertEqual(len(manifest['clips']),2000)
+  self.assertEqual({(c['no'],c['kind']) for c in manifest['clips']},{(n,k) for n in range(1,1001) for k in ['word','example']})
+  rows={r['no']:r for r in self.ev('DATA')}
+  for clip in manifest['clips']:
+   field='word' if clip['kind']=='word' else 'example'
+   self.assertEqual(clip['display_text'],rows[clip['no']][field])
+   self.assertEqual(hashlib.sha256((ROOT/clip['file']).read_bytes()).hexdigest(),clip['sha256'])
+   self.assertEqual(self.page.evaluate('(c)=>fixedAudio(c.no,c.kind)',clip),clip['file'])
+  for n in [10,11]:
+   clip=next(c for c in manifest['clips'] if c['no']==n and c['kind']=='example')
+   self.assertTrue(clip['reused'])
+   self.assertTrue(clip['file'].startswith('audio/level3-erhua/'))
  def test_mandarin_voice_selection(self):
   for voices,expected in [([{'lang':'zh-HK'}],None),([{'lang':'zh-TW'},{'lang':'zh_CN'}],'zh_CN'),([{'lang':'cmn-Hans-CN'}],'cmn-Hans-CN')]:
    self.page.evaluate('(v)=>window.__voices=v',voices)

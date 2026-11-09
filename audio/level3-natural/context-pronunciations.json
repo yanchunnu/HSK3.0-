@@ -1,0 +1,2221 @@
+[
+  {
+    "no": 46,
+    "kind": "word",
+    "display_text": "喂",
+    "spoken_text": "喂",
+    "pinyin": "wèi",
+    "source_type": "erhua",
+    "source_chunk": 1,
+    "speech_start": 31.63,
+    "speech_end": 32.155,
+    "context_text": "喂，你到哪儿了？我在门口。",
+    "context_character_range": [
+      0,
+      1
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.18945
+  },
+  {
+    "no": 118,
+    "kind": "word",
+    "display_text": "间",
+    "spoken_text": "间",
+    "pinyin": "jiān",
+    "source_type": "natural",
+    "source_chunk": 5,
+    "speech_start": 31.255,
+    "speech_end": 31.485,
+    "context_text": "这间教室比我们班的大。",
+    "context_character_range": [
+      1,
+      2
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.41924
+  },
+  {
+    "no": 118,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 5,
+    "speech_start": 30.84,
+    "speech_end": 32.86,
+    "characters": [
+      {
+        "char": "这",
+        "start": 30.84,
+        "end": 31.28
+      },
+      {
+        "char": "间",
+        "start": 31.28,
+        "end": 31.46
+      },
+      {
+        "char": "教",
+        "start": 31.46,
+        "end": 31.62
+      },
+      {
+        "char": "室",
+        "start": 31.62,
+        "end": 32.0
+      },
+      {
+        "char": "比",
+        "start": 32.0,
+        "end": 32.18
+      },
+      {
+        "char": "我",
+        "start": 32.18,
+        "end": 32.32
+      },
+      {
+        "char": "们",
+        "start": 32.32,
+        "end": 32.44
+      },
+      {
+        "char": "班",
+        "start": 32.44,
+        "end": 32.58
+      },
+      {
+        "char": "的",
+        "start": 32.58,
+        "end": 32.7
+      },
+      {
+        "char": "大",
+        "start": 32.7,
+        "end": 32.86
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 126,
+    "kind": "word",
+    "display_text": "只",
+    "spoken_text": "只",
+    "pinyin": "zhī",
+    "source_type": "natural",
+    "source_chunk": 5,
+    "speech_start": 54.855,
+    "speech_end": 55.065,
+    "context_text": "那只鸟飞到旁边的树上去了。",
+    "context_character_range": [
+      1,
+      2
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.31374
+  },
+  {
+    "no": 126,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 5,
+    "speech_start": 54.62,
+    "speech_end": 56.54,
+    "characters": [
+      {
+        "char": "那",
+        "start": 54.62,
+        "end": 54.88
+      },
+      {
+        "char": "只",
+        "start": 54.88,
+        "end": 55.04
+      },
+      {
+        "char": "鸟",
+        "start": 55.04,
+        "end": 55.24
+      },
+      {
+        "char": "飞",
+        "start": 55.24,
+        "end": 55.44
+      },
+      {
+        "char": "到",
+        "start": 55.44,
+        "end": 55.54
+      },
+      {
+        "char": "旁",
+        "start": 55.54,
+        "end": 55.7
+      },
+      {
+        "char": "边",
+        "start": 55.7,
+        "end": 55.84
+      },
+      {
+        "char": "的",
+        "start": 55.84,
+        "end": 55.92
+      },
+      {
+        "char": "树",
+        "start": 55.92,
+        "end": 56.08
+      },
+      {
+        "char": "上",
+        "start": 56.08,
+        "end": 56.28
+      },
+      {
+        "char": "去",
+        "start": 56.28,
+        "end": 56.42
+      },
+      {
+        "char": "了",
+        "start": 56.42,
+        "end": 56.54
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 127,
+    "kind": "word",
+    "display_text": "只",
+    "spoken_text": "只",
+    "pinyin": "zhǐ",
+    "source_type": "natural",
+    "source_chunk": 5,
+    "speech_start": 57.855,
+    "speech_end": 58.025,
+    "context_text": "我只想休息一天，不想出门。",
+    "context_character_range": [
+      1,
+      2
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.32061
+  },
+  {
+    "no": 127,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 5,
+    "speech_start": 57.34,
+    "speech_end": 59.56,
+    "characters": [
+      {
+        "char": "我",
+        "start": 57.34,
+        "end": 57.88
+      },
+      {
+        "char": "只",
+        "start": 57.88,
+        "end": 58.0
+      },
+      {
+        "char": "想",
+        "start": 58.0,
+        "end": 58.14
+      },
+      {
+        "char": "休",
+        "start": 58.14,
+        "end": 58.3
+      },
+      {
+        "char": "息",
+        "start": 58.3,
+        "end": 58.46
+      },
+      {
+        "char": "一",
+        "start": 58.46,
+        "end": 58.6
+      },
+      {
+        "char": "天",
+        "start": 58.6,
+        "end": 58.8
+      },
+      {
+        "char": "不",
+        "start": 59.04,
+        "end": 59.14
+      },
+      {
+        "char": "想",
+        "start": 59.14,
+        "end": 59.24
+      },
+      {
+        "char": "出",
+        "start": 59.24,
+        "end": 59.42
+      },
+      {
+        "char": "门",
+        "start": 59.42,
+        "end": 59.56
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 214,
+    "kind": "word",
+    "display_text": "里",
+    "spoken_text": "里",
+    "pinyin": "lǐ",
+    "source_type": "natural",
+    "source_chunk": 9,
+    "speech_start": 22.415,
+    "speech_end": 22.665,
+    "context_text": "这件事我一直记在心里。",
+    "context_character_range": [
+      9,
+      10
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.09249
+  },
+  {
+    "no": 214,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 9,
+    "speech_start": 20.74,
+    "speech_end": 22.64,
+    "characters": [
+      {
+        "char": "这",
+        "start": 20.74,
+        "end": 21.18
+      },
+      {
+        "char": "件",
+        "start": 21.18,
+        "end": 21.3
+      },
+      {
+        "char": "事",
+        "start": 21.3,
+        "end": 21.5
+      },
+      {
+        "char": "我",
+        "start": 21.5,
+        "end": 21.68
+      },
+      {
+        "char": "一",
+        "start": 21.68,
+        "end": 21.82
+      },
+      {
+        "char": "直",
+        "start": 21.82,
+        "end": 21.98
+      },
+      {
+        "char": "记",
+        "start": 21.98,
+        "end": 22.12
+      },
+      {
+        "char": "在",
+        "start": 22.12,
+        "end": 22.26
+      },
+      {
+        "char": "心",
+        "start": 22.26,
+        "end": 22.44
+      },
+      {
+        "char": "里",
+        "start": 22.44,
+        "end": 22.64
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 346,
+    "kind": "word",
+    "display_text": "教",
+    "spoken_text": "教",
+    "pinyin": "jiāo",
+    "source_type": "natural",
+    "source_chunk": 14,
+    "speech_start": 48.615,
+    "speech_end": 48.805,
+    "context_text": "老师正在教我们怎么写这个字。",
+    "context_character_range": [
+      4,
+      5
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.28444
+  },
+  {
+    "no": 346,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 14,
+    "speech_start": 47.86,
+    "speech_end": 49.74,
+    "characters": [
+      {
+        "char": "老",
+        "start": 47.86,
+        "end": 48.26
+      },
+      {
+        "char": "师",
+        "start": 48.26,
+        "end": 48.4
+      },
+      {
+        "char": "正",
+        "start": 48.4,
+        "end": 48.5
+      },
+      {
+        "char": "在",
+        "start": 48.5,
+        "end": 48.64
+      },
+      {
+        "char": "教",
+        "start": 48.64,
+        "end": 48.78
+      },
+      {
+        "char": "我",
+        "start": 48.78,
+        "end": 48.9
+      },
+      {
+        "char": "们",
+        "start": 48.9,
+        "end": 49.02
+      },
+      {
+        "char": "怎",
+        "start": 49.02,
+        "end": 49.12
+      },
+      {
+        "char": "么",
+        "start": 49.12,
+        "end": 49.22
+      },
+      {
+        "char": "写",
+        "start": 49.22,
+        "end": 49.36
+      },
+      {
+        "char": "这",
+        "start": 49.36,
+        "end": 49.48
+      },
+      {
+        "char": "个",
+        "start": 49.48,
+        "end": 49.58
+      },
+      {
+        "char": "字",
+        "start": 49.58,
+        "end": 49.74
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 414,
+    "kind": "word",
+    "display_text": "干",
+    "spoken_text": "干",
+    "pinyin": "gàn",
+    "source_type": "natural",
+    "source_chunk": 17,
+    "speech_start": 36.675,
+    "speech_end": 36.865,
+    "context_text": "今天的工作不多，我们一起干吧。",
+    "context_character_range": [
+      12,
+      13
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.16839
+  },
+  {
+    "no": 414,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 17,
+    "speech_start": 34.84,
+    "speech_end": 37.04,
+    "characters": [
+      {
+        "char": "今",
+        "start": 34.84,
+        "end": 35.22
+      },
+      {
+        "char": "天",
+        "start": 35.22,
+        "end": 35.34
+      },
+      {
+        "char": "的",
+        "start": 35.34,
+        "end": 35.44
+      },
+      {
+        "char": "工",
+        "start": 35.44,
+        "end": 35.54
+      },
+      {
+        "char": "作",
+        "start": 35.54,
+        "end": 35.68
+      },
+      {
+        "char": "不",
+        "start": 35.68,
+        "end": 35.82
+      },
+      {
+        "char": "多",
+        "start": 35.82,
+        "end": 35.96
+      },
+      {
+        "char": "我",
+        "start": 36.3,
+        "end": 36.38
+      },
+      {
+        "char": "们",
+        "start": 36.38,
+        "end": 36.46
+      },
+      {
+        "char": "一",
+        "start": 36.46,
+        "end": 36.56
+      },
+      {
+        "char": "起",
+        "start": 36.56,
+        "end": 36.7
+      },
+      {
+        "char": "干",
+        "start": 36.7,
+        "end": 36.84
+      },
+      {
+        "char": "吧",
+        "start": 36.84,
+        "end": 37.04
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 591,
+    "kind": "word",
+    "display_text": "过",
+    "spoken_text": "过",
+    "pinyin": "guò",
+    "source_type": "natural",
+    "source_chunk": 24,
+    "speech_start": 27.995,
+    "speech_end": 28.185,
+    "context_text": "这条河没有桥，我们怎么过？",
+    "context_character_range": [
+      11,
+      12
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.16508
+  },
+  {
+    "no": 591,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 24,
+    "speech_start": 26.0,
+    "speech_end": 28.16,
+    "characters": [
+      {
+        "char": "这",
+        "start": 26.0,
+        "end": 26.4
+      },
+      {
+        "char": "条",
+        "start": 26.4,
+        "end": 26.54
+      },
+      {
+        "char": "河",
+        "start": 26.54,
+        "end": 26.74
+      },
+      {
+        "char": "没",
+        "start": 26.74,
+        "end": 26.88
+      },
+      {
+        "char": "有",
+        "start": 26.88,
+        "end": 27.04
+      },
+      {
+        "char": "桥",
+        "start": 27.04,
+        "end": 27.36
+      },
+      {
+        "char": "我",
+        "start": 27.74,
+        "end": 27.74
+      },
+      {
+        "char": "们",
+        "start": 27.74,
+        "end": 27.82
+      },
+      {
+        "char": "怎",
+        "start": 27.82,
+        "end": 27.94
+      },
+      {
+        "char": "么",
+        "start": 27.94,
+        "end": 28.02
+      },
+      {
+        "char": "过",
+        "start": 28.02,
+        "end": 28.16
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 667,
+    "kind": "word",
+    "display_text": "地",
+    "spoken_text": "地",
+    "pinyin": "dì",
+    "source_type": "erhua",
+    "source_chunk": 3,
+    "speech_start": 57.615,
+    "speech_end": 57.805,
+    "context_text": "雨后的地不好走，要慢一点儿。",
+    "context_character_range": [
+      3,
+      4
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.20623
+  },
+  {
+    "no": 681,
+    "kind": "word",
+    "display_text": "雨",
+    "spoken_text": "雨",
+    "pinyin": "yǔ",
+    "source_type": "erhua",
+    "source_chunk": 3,
+    "speech_start": 59.735,
+    "speech_end": 60.14,
+    "context_text": "雨还没停，我们再等一会儿。",
+    "context_character_range": [
+      0,
+      1
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.18891
+  },
+  {
+    "no": 769,
+    "kind": "word",
+    "display_text": "还",
+    "spoken_text": "还",
+    "pinyin": "huán",
+    "source_type": "natural",
+    "source_chunk": 31,
+    "speech_start": 39.315,
+    "speech_end": 39.525,
+    "context_text": "这本书我下周再还给你，可以吗？",
+    "context_character_range": [
+      7,
+      8
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.16683
+  },
+  {
+    "no": 769,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 31,
+    "speech_start": 38.16,
+    "speech_end": 40.34,
+    "characters": [
+      {
+        "char": "这",
+        "start": 38.16,
+        "end": 38.48
+      },
+      {
+        "char": "本",
+        "start": 38.48,
+        "end": 38.6
+      },
+      {
+        "char": "书",
+        "start": 38.6,
+        "end": 38.76
+      },
+      {
+        "char": "我",
+        "start": 38.76,
+        "end": 38.9
+      },
+      {
+        "char": "下",
+        "start": 38.9,
+        "end": 39.08
+      },
+      {
+        "char": "周",
+        "start": 39.08,
+        "end": 39.22
+      },
+      {
+        "char": "再",
+        "start": 39.22,
+        "end": 39.34
+      },
+      {
+        "char": "还",
+        "start": 39.34,
+        "end": 39.5
+      },
+      {
+        "char": "给",
+        "start": 39.5,
+        "end": 39.64
+      },
+      {
+        "char": "你",
+        "start": 39.64,
+        "end": 39.82
+      },
+      {
+        "char": "可",
+        "start": 40.02,
+        "end": 40.14
+      },
+      {
+        "char": "以",
+        "start": 40.14,
+        "end": 40.26
+      },
+      {
+        "char": "吗",
+        "start": 40.26,
+        "end": 40.34
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 793,
+    "kind": "word",
+    "display_text": "长",
+    "spoken_text": "长",
+    "pinyin": "zhǎng",
+    "source_type": "natural",
+    "source_chunk": 32,
+    "speech_start": 38.935,
+    "speech_end": 39.145,
+    "context_text": "弟弟长高了，去年的衣服都小了。",
+    "context_character_range": [
+      2,
+      3
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.16917
+  },
+  {
+    "no": 793,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 32,
+    "speech_start": 38.52,
+    "speech_end": 40.94,
+    "characters": [
+      {
+        "char": "弟",
+        "start": 38.52,
+        "end": 38.84
+      },
+      {
+        "char": "弟",
+        "start": 38.84,
+        "end": 38.96
+      },
+      {
+        "char": "长",
+        "start": 38.96,
+        "end": 39.12
+      },
+      {
+        "char": "高",
+        "start": 39.12,
+        "end": 39.3
+      },
+      {
+        "char": "了",
+        "start": 39.3,
+        "end": 39.52
+      },
+      {
+        "char": "去",
+        "start": 39.9,
+        "end": 39.94
+      },
+      {
+        "char": "年",
+        "start": 39.94,
+        "end": 40.04
+      },
+      {
+        "char": "的",
+        "start": 40.04,
+        "end": 40.18
+      },
+      {
+        "char": "衣",
+        "start": 40.18,
+        "end": 40.32
+      },
+      {
+        "char": "服",
+        "start": 40.32,
+        "end": 40.42
+      },
+      {
+        "char": "都",
+        "start": 40.42,
+        "end": 40.54
+      },
+      {
+        "char": "小",
+        "start": 40.54,
+        "end": 40.74
+      },
+      {
+        "char": "了",
+        "start": 40.74,
+        "end": 40.94
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 857,
+    "kind": "word",
+    "display_text": "得",
+    "spoken_text": "得",
+    "pinyin": "dé",
+    "source_type": "natural",
+    "source_chunk": 35,
+    "speech_start": 14.615,
+    "speech_end": 14.765,
+    "context_text": "这次比赛，他得了第一名。",
+    "context_character_range": [
+      6,
+      7
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.11488
+  },
+  {
+    "no": 857,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 35,
+    "speech_start": 13.26,
+    "speech_end": 15.3,
+    "characters": [
+      {
+        "char": "这",
+        "start": 13.26,
+        "end": 13.8
+      },
+      {
+        "char": "次",
+        "start": 13.8,
+        "end": 13.94
+      },
+      {
+        "char": "比",
+        "start": 13.94,
+        "end": 14.06
+      },
+      {
+        "char": "赛",
+        "start": 14.06,
+        "end": 14.36
+      },
+      {
+        "char": "他",
+        "start": 14.6,
+        "end": 14.64
+      },
+      {
+        "char": "得",
+        "start": 14.64,
+        "end": 14.74
+      },
+      {
+        "char": "了",
+        "start": 14.74,
+        "end": 14.88
+      },
+      {
+        "char": "第",
+        "start": 14.88,
+        "end": 14.98
+      },
+      {
+        "char": "一",
+        "start": 14.98,
+        "end": 15.14
+      },
+      {
+        "char": "名",
+        "start": 15.14,
+        "end": 15.3
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 860,
+    "kind": "word",
+    "display_text": "得",
+    "spoken_text": "得",
+    "pinyin": "děi",
+    "source_type": "natural",
+    "source_chunk": 35,
+    "speech_start": 24.255,
+    "speech_end": 24.365,
+    "context_text": "时间不早了，我得回家做饭。",
+    "context_character_range": [
+      7,
+      8
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.23486
+  },
+  {
+    "no": 860,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 35,
+    "speech_start": 22.96,
+    "speech_end": 24.94,
+    "characters": [
+      {
+        "char": "时",
+        "start": 22.96,
+        "end": 23.38
+      },
+      {
+        "char": "间",
+        "start": 23.38,
+        "end": 23.5
+      },
+      {
+        "char": "不",
+        "start": 23.5,
+        "end": 23.64
+      },
+      {
+        "char": "早",
+        "start": 23.64,
+        "end": 23.78
+      },
+      {
+        "char": "了",
+        "start": 23.78,
+        "end": 23.98
+      },
+      {
+        "char": "我",
+        "start": 24.16,
+        "end": 24.28
+      },
+      {
+        "char": "得",
+        "start": 24.28,
+        "end": 24.34
+      },
+      {
+        "char": "回",
+        "start": 24.34,
+        "end": 24.48
+      },
+      {
+        "char": "家",
+        "start": 24.48,
+        "end": 24.62
+      },
+      {
+        "char": "做",
+        "start": 24.62,
+        "end": 24.76
+      },
+      {
+        "char": "饭",
+        "start": 24.76,
+        "end": 24.94
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 874,
+    "kind": "word",
+    "display_text": "长",
+    "spoken_text": "长",
+    "pinyin": "cháng",
+    "source_type": "natural",
+    "source_chunk": 35,
+    "speech_start": 66.935,
+    "speech_end": 67.225,
+    "context_text": "这条路比那条长，我们换一条吧。",
+    "context_character_range": [
+      6,
+      7
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.11127
+  },
+  {
+    "no": 874,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 35,
+    "speech_start": 65.62,
+    "speech_end": 68.32,
+    "characters": [
+      {
+        "char": "这",
+        "start": 65.62,
+        "end": 66.16
+      },
+      {
+        "char": "条",
+        "start": 66.16,
+        "end": 66.32
+      },
+      {
+        "char": "路",
+        "start": 66.32,
+        "end": 66.48
+      },
+      {
+        "char": "比",
+        "start": 66.48,
+        "end": 66.62
+      },
+      {
+        "char": "那",
+        "start": 66.62,
+        "end": 66.74
+      },
+      {
+        "char": "条",
+        "start": 66.74,
+        "end": 66.96
+      },
+      {
+        "char": "长",
+        "start": 66.96,
+        "end": 67.2
+      },
+      {
+        "char": "我",
+        "start": 67.54,
+        "end": 67.62
+      },
+      {
+        "char": "们",
+        "start": 67.62,
+        "end": 67.72
+      },
+      {
+        "char": "换",
+        "start": 67.72,
+        "end": 67.86
+      },
+      {
+        "char": "一",
+        "start": 67.86,
+        "end": 68.0
+      },
+      {
+        "char": "条",
+        "start": 68.0,
+        "end": 68.14
+      },
+      {
+        "char": "吧",
+        "start": 68.14,
+        "end": 68.32
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 925,
+    "kind": "word",
+    "display_text": "得",
+    "spoken_text": "得",
+    "pinyin": "de",
+    "source_type": "natural",
+    "source_chunk": 37,
+    "speech_start": 65.835,
+    "speech_end": 65.985,
+    "context_text": "他今天来得很早，比老师还早。",
+    "context_character_range": [
+      4,
+      5
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.26445
+  },
+  {
+    "no": 925,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 37,
+    "speech_start": 64.98,
+    "speech_end": 67.52,
+    "characters": [
+      {
+        "char": "他",
+        "start": 64.98,
+        "end": 65.48
+      },
+      {
+        "char": "今",
+        "start": 65.48,
+        "end": 65.62
+      },
+      {
+        "char": "天",
+        "start": 65.62,
+        "end": 65.74
+      },
+      {
+        "char": "来",
+        "start": 65.74,
+        "end": 65.86
+      },
+      {
+        "char": "得",
+        "start": 65.86,
+        "end": 65.96
+      },
+      {
+        "char": "很",
+        "start": 65.96,
+        "end": 66.12
+      },
+      {
+        "char": "早",
+        "start": 66.12,
+        "end": 66.42
+      },
+      {
+        "char": "比",
+        "start": 66.7,
+        "end": 66.78
+      },
+      {
+        "char": "老",
+        "start": 66.78,
+        "end": 66.94
+      },
+      {
+        "char": "师",
+        "start": 66.94,
+        "end": 67.16
+      },
+      {
+        "char": "还",
+        "start": 67.16,
+        "end": 67.34
+      },
+      {
+        "char": "早",
+        "start": 67.34,
+        "end": 67.52
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 928,
+    "kind": "word",
+    "display_text": "地",
+    "spoken_text": "地",
+    "pinyin": "de",
+    "source_type": "natural",
+    "source_chunk": 37,
+    "speech_start": 75.155,
+    "speech_end": 75.325,
+    "context_text": "孩子高兴地把礼物打开了。",
+    "context_character_range": [
+      4,
+      5
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.36794
+  },
+  {
+    "no": 928,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 37,
+    "speech_start": 74.4,
+    "speech_end": 76.22,
+    "characters": [
+      {
+        "char": "孩",
+        "start": 74.4,
+        "end": 74.72
+      },
+      {
+        "char": "子",
+        "start": 74.72,
+        "end": 74.86
+      },
+      {
+        "char": "高",
+        "start": 74.86,
+        "end": 74.98
+      },
+      {
+        "char": "兴",
+        "start": 74.98,
+        "end": 75.18
+      },
+      {
+        "char": "地",
+        "start": 75.18,
+        "end": 75.3
+      },
+      {
+        "char": "把",
+        "start": 75.3,
+        "end": 75.4
+      },
+      {
+        "char": "礼",
+        "start": 75.4,
+        "end": 75.6
+      },
+      {
+        "char": "物",
+        "start": 75.6,
+        "end": 75.68
+      },
+      {
+        "char": "打",
+        "start": 75.68,
+        "end": 75.84
+      },
+      {
+        "char": "开",
+        "start": 75.84,
+        "end": 76.08
+      },
+      {
+        "char": "了",
+        "start": 76.08,
+        "end": 76.22
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 929,
+    "kind": "word",
+    "display_text": "过",
+    "spoken_text": "过",
+    "pinyin": "guo",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 0.735,
+    "speech_end": 0.925,
+    "context_text": "你以前去过这家电影院吗？",
+    "context_character_range": [
+      4,
+      5
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.4173
+  },
+  {
+    "no": 929,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 0.0,
+    "speech_end": 1.68,
+    "characters": [
+      {
+        "char": "你",
+        "start": 0.0,
+        "end": 0.36
+      },
+      {
+        "char": "以",
+        "start": 0.36,
+        "end": 0.44
+      },
+      {
+        "char": "前",
+        "start": 0.44,
+        "end": 0.58
+      },
+      {
+        "char": "去",
+        "start": 0.58,
+        "end": 0.76
+      },
+      {
+        "char": "过",
+        "start": 0.76,
+        "end": 0.9
+      },
+      {
+        "char": "这",
+        "start": 0.9,
+        "end": 1.0
+      },
+      {
+        "char": "家",
+        "start": 1.0,
+        "end": 1.14
+      },
+      {
+        "char": "电",
+        "start": 1.14,
+        "end": 1.26
+      },
+      {
+        "char": "影",
+        "start": 1.26,
+        "end": 1.4
+      },
+      {
+        "char": "院",
+        "start": 1.4,
+        "end": 1.52
+      },
+      {
+        "char": "吗",
+        "start": 1.52,
+        "end": 1.68
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 930,
+    "kind": "word",
+    "display_text": "着",
+    "spoken_text": "着",
+    "pinyin": "zhe",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 3.295,
+    "speech_end": 3.565,
+    "context_text": "门开着，可是里面没有人。",
+    "context_character_range": [
+      2,
+      3
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.21699
+  },
+  {
+    "no": 930,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 2.54,
+    "speech_end": 4.72,
+    "characters": [
+      {
+        "char": "门",
+        "start": 2.54,
+        "end": 3.08
+      },
+      {
+        "char": "开",
+        "start": 3.08,
+        "end": 3.32
+      },
+      {
+        "char": "着",
+        "start": 3.32,
+        "end": 3.54
+      },
+      {
+        "char": "可",
+        "start": 3.84,
+        "end": 3.92
+      },
+      {
+        "char": "是",
+        "start": 3.92,
+        "end": 4.02
+      },
+      {
+        "char": "里",
+        "start": 4.02,
+        "end": 4.12
+      },
+      {
+        "char": "面",
+        "start": 4.12,
+        "end": 4.22
+      },
+      {
+        "char": "没",
+        "start": 4.22,
+        "end": 4.38
+      },
+      {
+        "char": "有",
+        "start": 4.38,
+        "end": 4.54
+      },
+      {
+        "char": "人",
+        "start": 4.54,
+        "end": 4.72
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 932,
+    "kind": "word",
+    "display_text": "的",
+    "spoken_text": "的",
+    "pinyin": "de",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 9.955,
+    "speech_end": 10.105,
+    "context_text": "这是我为你准备的生日礼物。",
+    "context_character_range": [
+      7,
+      8
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.19816
+  },
+  {
+    "no": 932,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 8.78,
+    "speech_end": 10.7,
+    "characters": [
+      {
+        "char": "这",
+        "start": 8.78,
+        "end": 9.28
+      },
+      {
+        "char": "是",
+        "start": 9.28,
+        "end": 9.4
+      },
+      {
+        "char": "我",
+        "start": 9.4,
+        "end": 9.48
+      },
+      {
+        "char": "为",
+        "start": 9.48,
+        "end": 9.6
+      },
+      {
+        "char": "你",
+        "start": 9.6,
+        "end": 9.7
+      },
+      {
+        "char": "准",
+        "start": 9.7,
+        "end": 9.84
+      },
+      {
+        "char": "备",
+        "start": 9.84,
+        "end": 9.98
+      },
+      {
+        "char": "的",
+        "start": 9.98,
+        "end": 10.08
+      },
+      {
+        "char": "生",
+        "start": 10.08,
+        "end": 10.22
+      },
+      {
+        "char": "日",
+        "start": 10.22,
+        "end": 10.36
+      },
+      {
+        "char": "礼",
+        "start": 10.36,
+        "end": 10.56
+      },
+      {
+        "char": "物",
+        "start": 10.56,
+        "end": 10.7
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 933,
+    "kind": "word",
+    "display_text": "子",
+    "spoken_text": "子",
+    "pinyin": "zi",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 11.875,
+    "speech_end": 12.045,
+    "context_text": "孩子把杯子里的水喝完了。",
+    "context_character_range": [
+      4,
+      5
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.20146
+  },
+  {
+    "no": 933,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 11.02,
+    "speech_end": 12.96,
+    "characters": [
+      {
+        "char": "孩",
+        "start": 11.02,
+        "end": 11.52
+      },
+      {
+        "char": "子",
+        "start": 11.52,
+        "end": 11.64
+      },
+      {
+        "char": "把",
+        "start": 11.64,
+        "end": 11.72
+      },
+      {
+        "char": "杯",
+        "start": 11.72,
+        "end": 11.9
+      },
+      {
+        "char": "子",
+        "start": 11.9,
+        "end": 12.02
+      },
+      {
+        "char": "里",
+        "start": 12.02,
+        "end": 12.1
+      },
+      {
+        "char": "的",
+        "start": 12.1,
+        "end": 12.2
+      },
+      {
+        "char": "水",
+        "start": 12.2,
+        "end": 12.38
+      },
+      {
+        "char": "喝",
+        "start": 12.38,
+        "end": 12.6
+      },
+      {
+        "char": "完",
+        "start": 12.6,
+        "end": 12.84
+      },
+      {
+        "char": "了",
+        "start": 12.84,
+        "end": 12.96
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 934,
+    "kind": "word",
+    "display_text": "们",
+    "spoken_text": "们",
+    "pinyin": "men",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 13.715,
+    "speech_end": 13.805,
+    "context_text": "孩子们已经在外面等了很久。",
+    "context_character_range": [
+      2,
+      3
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.42214
+  },
+  {
+    "no": 934,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 13.1,
+    "speech_end": 15.08,
+    "characters": [
+      {
+        "char": "孩",
+        "start": 13.1,
+        "end": 13.58
+      },
+      {
+        "char": "子",
+        "start": 13.58,
+        "end": 13.74
+      },
+      {
+        "char": "们",
+        "start": 13.74,
+        "end": 13.78
+      },
+      {
+        "char": "已",
+        "start": 13.78,
+        "end": 13.92
+      },
+      {
+        "char": "经",
+        "start": 13.92,
+        "end": 14.04
+      },
+      {
+        "char": "在",
+        "start": 14.04,
+        "end": 14.14
+      },
+      {
+        "char": "外",
+        "start": 14.14,
+        "end": 14.26
+      },
+      {
+        "char": "面",
+        "start": 14.26,
+        "end": 14.4
+      },
+      {
+        "char": "等",
+        "start": 14.4,
+        "end": 14.5
+      },
+      {
+        "char": "了",
+        "start": 14.5,
+        "end": 14.62
+      },
+      {
+        "char": "很",
+        "start": 14.62,
+        "end": 14.8
+      },
+      {
+        "char": "久",
+        "start": 14.8,
+        "end": 15.08
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 940,
+    "kind": "word",
+    "display_text": "为",
+    "spoken_text": "为",
+    "pinyin": "wèi",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 34.175,
+    "speech_end": 34.365,
+    "context_text": "妈妈为我们准备了热茶和水果。",
+    "context_character_range": [
+      2,
+      3
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.38753
+  },
+  {
+    "no": 940,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 33.76,
+    "speech_end": 35.9,
+    "characters": [
+      {
+        "char": "妈",
+        "start": 33.76,
+        "end": 34.02
+      },
+      {
+        "char": "妈",
+        "start": 34.02,
+        "end": 34.2
+      },
+      {
+        "char": "为",
+        "start": 34.2,
+        "end": 34.34
+      },
+      {
+        "char": "我",
+        "start": 34.34,
+        "end": 34.46
+      },
+      {
+        "char": "们",
+        "start": 34.46,
+        "end": 34.58
+      },
+      {
+        "char": "准",
+        "start": 34.58,
+        "end": 34.74
+      },
+      {
+        "char": "备",
+        "start": 34.74,
+        "end": 34.86
+      },
+      {
+        "char": "了",
+        "start": 34.86,
+        "end": 34.94
+      },
+      {
+        "char": "热",
+        "start": 34.94,
+        "end": 35.18
+      },
+      {
+        "char": "茶",
+        "start": 35.18,
+        "end": 35.32
+      },
+      {
+        "char": "和",
+        "start": 35.32,
+        "end": 35.5
+      },
+      {
+        "char": "水",
+        "start": 35.5,
+        "end": 35.68
+      },
+      {
+        "char": "果",
+        "start": 35.68,
+        "end": 35.9
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 945,
+    "kind": "word",
+    "display_text": "还",
+    "spoken_text": "还",
+    "pinyin": "hái",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 50.655,
+    "speech_end": 50.785,
+    "context_text": "这么晚了，老师还在办公室工作。",
+    "context_character_range": [
+      7,
+      8
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.1853
+  },
+  {
+    "no": 945,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 48.7,
+    "speech_end": 51.6,
+    "characters": [
+      {
+        "char": "这",
+        "start": 48.7,
+        "end": 49.4
+      },
+      {
+        "char": "么",
+        "start": 49.4,
+        "end": 49.82
+      },
+      {
+        "char": "晚",
+        "start": 49.82,
+        "end": 50.02
+      },
+      {
+        "char": "了",
+        "start": 50.02,
+        "end": 50.22
+      },
+      {
+        "char": "老",
+        "start": 50.54,
+        "end": 50.54
+      },
+      {
+        "char": "师",
+        "start": 50.54,
+        "end": 50.68
+      },
+      {
+        "char": "还",
+        "start": 50.68,
+        "end": 50.76
+      },
+      {
+        "char": "在",
+        "start": 50.76,
+        "end": 50.88
+      },
+      {
+        "char": "办",
+        "start": 50.88,
+        "end": 50.96
+      },
+      {
+        "char": "公",
+        "start": 50.96,
+        "end": 51.1
+      },
+      {
+        "char": "室",
+        "start": 51.1,
+        "end": 51.26
+      },
+      {
+        "char": "工",
+        "start": 51.26,
+        "end": 51.36
+      },
+      {
+        "char": "作",
+        "start": 51.36,
+        "end": 51.6
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 951,
+    "kind": "word",
+    "display_text": "了",
+    "spoken_text": "了",
+    "pinyin": "le",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 66.995,
+    "speech_end": 67.165,
+    "context_text": "我买了机票，下周三出发。",
+    "context_character_range": [
+      2,
+      3
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.13719
+  },
+  {
+    "no": 951,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 38,
+    "speech_start": 66.42,
+    "speech_end": 68.6,
+    "characters": [
+      {
+        "char": "我",
+        "start": 66.42,
+        "end": 66.9
+      },
+      {
+        "char": "买",
+        "start": 66.9,
+        "end": 67.02
+      },
+      {
+        "char": "了",
+        "start": 67.02,
+        "end": 67.14
+      },
+      {
+        "char": "机",
+        "start": 67.14,
+        "end": 67.26
+      },
+      {
+        "char": "票",
+        "start": 67.26,
+        "end": 67.46
+      },
+      {
+        "char": "下",
+        "start": 67.9,
+        "end": 68.0
+      },
+      {
+        "char": "周",
+        "start": 68.0,
+        "end": 68.08
+      },
+      {
+        "char": "三",
+        "start": 68.08,
+        "end": 68.26
+      },
+      {
+        "char": "出",
+        "start": 68.26,
+        "end": 68.42
+      },
+      {
+        "char": "发",
+        "start": 68.42,
+        "end": 68.6
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 961,
+    "kind": "word",
+    "display_text": "行",
+    "spoken_text": "行",
+    "pinyin": "xíng",
+    "source_type": "natural",
+    "source_chunk": 39,
+    "speech_start": 23.035,
+    "speech_end": 23.285,
+    "context_text": "明天不行的话，后天也行。",
+    "context_character_range": [
+      10,
+      11
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.06902
+  },
+  {
+    "no": 961,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 39,
+    "speech_start": 21.4,
+    "speech_end": 23.26,
+    "characters": [
+      {
+        "char": "明",
+        "start": 21.4,
+        "end": 21.66
+      },
+      {
+        "char": "天",
+        "start": 21.66,
+        "end": 21.84
+      },
+      {
+        "char": "不",
+        "start": 21.84,
+        "end": 21.98
+      },
+      {
+        "char": "行",
+        "start": 21.98,
+        "end": 22.1
+      },
+      {
+        "char": "的",
+        "start": 22.1,
+        "end": 22.2
+      },
+      {
+        "char": "话",
+        "start": 22.2,
+        "end": 22.38
+      },
+      {
+        "char": "后",
+        "start": 22.8,
+        "end": 22.8
+      },
+      {
+        "char": "天",
+        "start": 22.8,
+        "end": 22.92
+      },
+      {
+        "char": "也",
+        "start": 22.92,
+        "end": 23.06
+      },
+      {
+        "char": "行",
+        "start": 23.06,
+        "end": 23.26
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 230,
+    "kind": "word",
+    "display_text": "前天",
+    "spoken_text": "前天",
+    "pinyin": "qiántiān",
+    "source_type": "natural",
+    "source_chunk": 9,
+    "speech_start": 63.6,
+    "speech_end": 64.165,
+    "context_text": "前天发给你的邮件，你看了吗？",
+    "context_character_range": [
+      0,
+      2
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.24695
+  },
+  {
+    "no": 230,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 9,
+    "speech_start": 63.6,
+    "speech_end": 65.74,
+    "characters": [
+      {
+        "char": "前",
+        "start": 63.6,
+        "end": 63.98
+      },
+      {
+        "char": "天",
+        "start": 63.98,
+        "end": 64.14
+      },
+      {
+        "char": "发",
+        "start": 64.14,
+        "end": 64.3
+      },
+      {
+        "char": "给",
+        "start": 64.3,
+        "end": 64.42
+      },
+      {
+        "char": "你",
+        "start": 64.42,
+        "end": 64.54
+      },
+      {
+        "char": "的",
+        "start": 64.54,
+        "end": 64.66
+      },
+      {
+        "char": "邮",
+        "start": 64.66,
+        "end": 64.84
+      },
+      {
+        "char": "件",
+        "start": 64.84,
+        "end": 65.0
+      },
+      {
+        "char": "你",
+        "start": 65.36,
+        "end": 65.36
+      },
+      {
+        "char": "看",
+        "start": 65.36,
+        "end": 65.5
+      },
+      {
+        "char": "了",
+        "start": 65.5,
+        "end": 65.6
+      },
+      {
+        "char": "吗",
+        "start": 65.6,
+        "end": 65.74
+      }
+    ],
+    "method": "independent exact-example alignment"
+  },
+  {
+    "no": 772,
+    "kind": "word",
+    "display_text": "接",
+    "spoken_text": "接",
+    "pinyin": "jiē",
+    "source_type": "natural",
+    "source_chunk": 31,
+    "speech_start": 48.295,
+    "speech_end": 48.465,
+    "context_text": "明天我没空，你去接孩子吧。",
+    "context_character_range": [
+      8,
+      9
+    ],
+    "method": "contextual pronunciation; independent character-level forced alignment",
+    "rms": 0.25886
+  },
+  {
+    "no": 772,
+    "kind": "example",
+    "source_type": "natural",
+    "source_chunk": 31,
+    "speech_start": 46.96,
+    "speech_end": 48.86,
+    "characters": [
+      {
+        "char": "明",
+        "start": 46.96,
+        "end": 47.32
+      },
+      {
+        "char": "天",
+        "start": 47.32,
+        "end": 47.46
+      },
+      {
+        "char": "我",
+        "start": 47.46,
+        "end": 47.58
+      },
+      {
+        "char": "没",
+        "start": 47.58,
+        "end": 47.7
+      },
+      {
+        "char": "空",
+        "start": 47.7,
+        "end": 47.9
+      },
+      {
+        "char": "你",
+        "start": 48.16,
+        "end": 48.24
+      },
+      {
+        "char": "去",
+        "start": 48.24,
+        "end": 48.32
+      },
+      {
+        "char": "接",
+        "start": 48.32,
+        "end": 48.44
+      },
+      {
+        "char": "孩",
+        "start": 48.44,
+        "end": 48.62
+      },
+      {
+        "char": "子",
+        "start": 48.62,
+        "end": 48.78
+      },
+      {
+        "char": "吧",
+        "start": 48.78,
+        "end": 48.86
+      }
+    ],
+    "method": "independent exact-example alignment"
+  }
+]

@@ -3,10 +3,10 @@
 
 ## HSK 3.0 3급 누적 1000단어
 
-- [음원 학습하기](https://yanchunnu.github.io/HSK3.0-/level3.html): 검수한 단어·병음·뜻·새 예문·예문 병음·해석을 단어장과 같은 순서로 제공합니다. 단어와 예문 반복 듣기, 속도 조절, 시작 번호 선택, 일시정지·이어듣기를 지원합니다. 얼화 표제어 13개와 예문 103개는 제작한 고정 음원으로 재생하고, 나머지는 기기의 중국어(보통화) 음성을 사용합니다.
+- [음원 학습하기](https://yanchunnu.github.io/HSK3.0-/level3.html): 검수한 단어·병음·뜻·새 예문·예문 병음·해석을 단어장과 같은 순서로 제공합니다. 단어와 예문 반복 듣기, 속도 조절, 시작 번호 선택, 일시정지·이어듣기를 지원합니다. 단어 1000개와 예문 1000개를 모두 10·11번 예문과 같은 목소리로 제작한 음원으로 재생합니다. 기기 음성 합성에 의존하지 않으며, 기준인 10·11번과 기존 얼화 음원 116개는 유지했습니다.
 - [노란색 표지 및 음원 QR 포함 단어장](HSK3.0_3급단어장_표지포함.pdf): A4 가로 한 쪽에 22단어, 한자예문 열을 넓힌 검수본입니다. 표지 포함 47쪽입니다.
 - [노란색 표지](HSK3.0_3급단어장_표지.pdf) · [음원 학습 QR 코드](study/HSK3.0_3급_음원_QR코드.png)
 
-얼화 음원은 [파일·대본·분할 정보](audio/level3-erhua/manifest.json)에 보관했습니다. `儿子`, `女儿`의 儿는 얼화 대상에 넣지 않았습니다. 원본 음원과 반환된 시간 정보, 독립 음성 인식 결과를 함께 보관하며, 직접 청음 검수는 이 실행 환경에서 수행하지 못했습니다. 음성 인식 결과만으로 얼화의 발음 정확성을 보증하지 않습니다.
+전체 음원의 [파일·원본·대본·분할 정보](audio/level3-natural/manifest.json)와 [문장 속 발음에서 분리한 다의음·조사 정보](audio/level3-natural/context-pronunciations.json)를 보관했습니다. 기존 [얼화 음원 정보](audio/level3-erhua/manifest.json)도 유지합니다. `儿子`, `女儿`의 儿는 얼화 대상에 넣지 않았습니다. 원본 음원과 반환된 시간 정보, 독립 음성 인식 결과를 함께 보관하며, 직접 청음 검수는 이 실행 환경에서 수행하지 못했습니다. 음성 인식 결과만으로 얼화의 발음 정확성을 보증하지 않습니다.
 
-개발 확인: `CHROMIUM_PATH=/usr/bin/chromium python -m unittest discover -s tests -v` (Python Playwright·Chromium 필요). 기존 원본에서 음원을 다시 나누려면 `python scripts/build_level3_erhua.py`를 실행합니다(ffmpeg 필요, 새 음성을 생성하지 않음).
+개발 확인: `CHROMIUM_PATH=/usr/bin/chromium python -m unittest discover -s tests -v` (Python Playwright·Chromium 필요). 기존 원본에서 전체 제작 음원을 다시 나누려면 `python scripts/build_level3_natural.py`를 실행합니다(ffmpeg 필요, 새 음성을 생성하지 않음).
