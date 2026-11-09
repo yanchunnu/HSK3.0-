@@ -1,0 +1,2671 @@
+{
+  "chunk": 3,
+  "duration": 76.344,
+  "transcript_match_ratio": 0.9768,
+  "clips": [
+    {
+      "no": 42,
+      "kind": "example",
+      "text": "她生了孩子以后，仍每天坚持学习。",
+      "spoken_text": "她生了孩子以后，仍每天坚持学习。",
+      "pinyin": "Tā shēng le háizi yǐhòu, réng měi tiān jiānchí xuéxí.",
+      "source_chunk": 3,
+      "speech_start": 0.0,
+      "speech_end": 2.76,
+      "confidence": 0.748,
+      "characters": [
+        {
+          "char": "她",
+          "start": 0.0,
+          "end": 0.36,
+          "confidence": 0.3677
+        },
+        {
+          "char": "生",
+          "start": 0.36,
+          "end": 0.5,
+          "confidence": 0.9779
+        },
+        {
+          "char": "了",
+          "start": 0.5,
+          "end": 0.64,
+          "confidence": 0.8028
+        },
+        {
+          "char": "孩",
+          "start": 0.64,
+          "end": 0.74,
+          "confidence": 0.0003
+        },
+        {
+          "char": "子",
+          "start": 0.74,
+          "end": 0.88,
+          "confidence": 0.6631
+        },
+        {
+          "char": "以",
+          "start": 0.88,
+          "end": 1.0,
+          "confidence": 0.9939
+        },
+        {
+          "char": "后",
+          "start": 1.0,
+          "end": 1.2,
+          "confidence": 0.7924
+        },
+        {
+          "char": "仍",
+          "start": 1.54,
+          "end": 1.62,
+          "confidence": 0.4409
+        },
+        {
+          "char": "每",
+          "start": 1.62,
+          "end": 1.76,
+          "confidence": 0.9435
+        },
+        {
+          "char": "天",
+          "start": 1.76,
+          "end": 1.96,
+          "confidence": 0.9963
+        },
+        {
+          "char": "坚",
+          "start": 1.96,
+          "end": 2.14,
+          "confidence": 0.612
+        },
+        {
+          "char": "持",
+          "start": 2.14,
+          "end": 2.3,
+          "confidence": 0.9994
+        },
+        {
+          "char": "学",
+          "start": 2.3,
+          "end": 2.5,
+          "confidence": 0.922
+        },
+        {
+          "char": "习",
+          "start": 2.5,
+          "end": 2.76,
+          "confidence": 0.9599
+        }
+      ],
+      "independent_asr_coverage": 0.929,
+      "rms": 0.22093
+    },
+    {
+      "no": 43,
+      "kind": "word",
+      "text": "爱情",
+      "spoken_text": "爱情。",
+      "pinyin": "àiqíng",
+      "source_chunk": 3,
+      "speech_start": 3.2,
+      "speech_end": 3.58,
+      "confidence": 0.9089,
+      "characters": [
+        {
+          "char": "爱",
+          "start": 3.2,
+          "end": 3.36,
+          "confidence": 0.8228
+        },
+        {
+          "char": "情",
+          "start": 3.36,
+          "end": 3.58,
+          "confidence": 0.995
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.13494
+    },
+    {
+      "no": 43,
+      "kind": "example",
+      "text": "这部电影讲的是普通人的爱情故事。",
+      "spoken_text": "这部电影讲的是普通人的爱情故事。",
+      "pinyin": "Zhè bù diànyǐng jiǎng de shì pǔtōngrén de àiqíng gùshi.",
+      "source_chunk": 3,
+      "speech_start": 4.0,
+      "speech_end": 6.34,
+      "confidence": 0.8666,
+      "characters": [
+        {
+          "char": "这",
+          "start": 4.0,
+          "end": 4.3,
+          "confidence": 0.9796
+        },
+        {
+          "char": "部",
+          "start": 4.3,
+          "end": 4.4,
+          "confidence": 0.8079
+        },
+        {
+          "char": "电",
+          "start": 4.4,
+          "end": 4.52,
+          "confidence": 0.9951
+        },
+        {
+          "char": "影",
+          "start": 4.52,
+          "end": 4.64,
+          "confidence": 0.9976
+        },
+        {
+          "char": "讲",
+          "start": 4.64,
+          "end": 4.84,
+          "confidence": 0.9168
+        },
+        {
+          "char": "的",
+          "start": 4.84,
+          "end": 4.96,
+          "confidence": 0.056
+        },
+        {
+          "char": "是",
+          "start": 4.96,
+          "end": 5.08,
+          "confidence": 0.2987
+        },
+        {
+          "char": "普",
+          "start": 5.08,
+          "end": 5.28,
+          "confidence": 0.9956
+        },
+        {
+          "char": "通",
+          "start": 5.28,
+          "end": 5.44,
+          "confidence": 0.9993
+        },
+        {
+          "char": "人",
+          "start": 5.44,
+          "end": 5.58,
+          "confidence": 0.9901
+        },
+        {
+          "char": "的",
+          "start": 5.58,
+          "end": 5.7,
+          "confidence": 0.973
+        },
+        {
+          "char": "爱",
+          "start": 5.7,
+          "end": 5.82,
+          "confidence": 0.9924
+        },
+        {
+          "char": "情",
+          "start": 5.82,
+          "end": 5.98,
+          "confidence": 0.9996
+        },
+        {
+          "char": "故",
+          "start": 5.98,
+          "end": 6.14,
+          "confidence": 0.9977
+        },
+        {
+          "char": "事",
+          "start": 6.14,
+          "end": 6.34,
+          "confidence": 0.9992
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25664
+    },
+    {
+      "no": 44,
+      "kind": "word",
+      "text": "爱心",
+      "spoken_text": "爱心。",
+      "pinyin": "àixīn",
+      "source_chunk": 3,
+      "speech_start": 6.74,
+      "speech_end": 7.1,
+      "confidence": 0.9706,
+      "characters": [
+        {
+          "char": "爱",
+          "start": 6.74,
+          "end": 6.86,
+          "confidence": 0.9717
+        },
+        {
+          "char": "心",
+          "start": 6.86,
+          "end": 7.1,
+          "confidence": 0.9695
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.27433
+    },
+    {
+      "no": 44,
+      "kind": "example",
+      "text": "她把旧衣服送给需要的人，很有爱心。",
+      "spoken_text": "她把旧衣服送给需要的人，很有爱心。",
+      "pinyin": "Tā bǎ jiù yīfu sònggěi xūyào de rén, hěn yǒu àixīn.",
+      "source_chunk": 3,
+      "speech_start": 7.46,
+      "speech_end": 10.14,
+      "confidence": 0.689,
+      "characters": [
+        {
+          "char": "她",
+          "start": 7.46,
+          "end": 7.8,
+          "confidence": 0.6279
+        },
+        {
+          "char": "把",
+          "start": 7.8,
+          "end": 7.9,
+          "confidence": 0.977
+        },
+        {
+          "char": "旧",
+          "start": 7.9,
+          "end": 8.04,
+          "confidence": 0.756
+        },
+        {
+          "char": "衣",
+          "start": 8.04,
+          "end": 8.24,
+          "confidence": 0.9143
+        },
+        {
+          "char": "服",
+          "start": 8.24,
+          "end": 8.32,
+          "confidence": 0.9991
+        },
+        {
+          "char": "送",
+          "start": 8.32,
+          "end": 8.46,
+          "confidence": 0.9985
+        },
+        {
+          "char": "给",
+          "start": 8.46,
+          "end": 8.6,
+          "confidence": 0.9956
+        },
+        {
+          "char": "需",
+          "start": 8.6,
+          "end": 8.82,
+          "confidence": 0.0019
+        },
+        {
+          "char": "要",
+          "start": 8.82,
+          "end": 8.94,
+          "confidence": 0.17
+        },
+        {
+          "char": "的",
+          "start": 8.94,
+          "end": 9.06,
+          "confidence": 0.007
+        },
+        {
+          "char": "人",
+          "start": 9.06,
+          "end": 9.24,
+          "confidence": 0.9187
+        },
+        {
+          "char": "很",
+          "start": 9.58,
+          "end": 9.66,
+          "confidence": 0.0555
+        },
+        {
+          "char": "有",
+          "start": 9.66,
+          "end": 9.78,
+          "confidence": 0.922
+        },
+        {
+          "char": "爱",
+          "start": 9.78,
+          "end": 9.9,
+          "confidence": 0.9938
+        },
+        {
+          "char": "心",
+          "start": 9.9,
+          "end": 10.14,
+          "confidence": 0.9978
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24176
+    },
+    {
+      "no": 45,
+      "kind": "word",
+      "text": "感情",
+      "spoken_text": "感情。",
+      "pinyin": "gǎnqíng",
+      "source_chunk": 3,
+      "speech_start": 10.6,
+      "speech_end": 11.0,
+      "confidence": 0.9861,
+      "characters": [
+        {
+          "char": "感",
+          "start": 10.6,
+          "end": 10.74,
+          "confidence": 0.9733
+        },
+        {
+          "char": "情",
+          "start": 10.74,
+          "end": 11.0,
+          "confidence": 0.9988
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.10083
+    },
+    {
+      "no": 45,
+      "kind": "example",
+      "text": "虽然多年没见，我们的感情仍然很深。",
+      "spoken_text": "虽然多年没见，我们的感情仍然很深。",
+      "pinyin": "Suīrán duōnián méi jiàn, wǒmen de gǎnqíng réngrán hěn shēn.",
+      "source_chunk": 3,
+      "speech_start": 11.34,
+      "speech_end": 14.26,
+      "confidence": 0.8621,
+      "characters": [
+        {
+          "char": "虽",
+          "start": 11.34,
+          "end": 11.58,
+          "confidence": 0.9909
+        },
+        {
+          "char": "然",
+          "start": 11.58,
+          "end": 11.72,
+          "confidence": 0.9896
+        },
+        {
+          "char": "多",
+          "start": 11.72,
+          "end": 11.84,
+          "confidence": 0.9859
+        },
+        {
+          "char": "年",
+          "start": 11.84,
+          "end": 12.0,
+          "confidence": 0.9885
+        },
+        {
+          "char": "没",
+          "start": 12.0,
+          "end": 12.18,
+          "confidence": 0.9784
+        },
+        {
+          "char": "见",
+          "start": 12.18,
+          "end": 12.38,
+          "confidence": 0.9982
+        },
+        {
+          "char": "我",
+          "start": 12.82,
+          "end": 12.92,
+          "confidence": 0.0014
+        },
+        {
+          "char": "们",
+          "start": 12.92,
+          "end": 13.0,
+          "confidence": 0.2162
+        },
+        {
+          "char": "的",
+          "start": 13.0,
+          "end": 13.06,
+          "confidence": 0.8864
+        },
+        {
+          "char": "感",
+          "start": 13.06,
+          "end": 13.2,
+          "confidence": 0.9989
+        },
+        {
+          "char": "情",
+          "start": 13.2,
+          "end": 13.48,
+          "confidence": 0.9999
+        },
+        {
+          "char": "仍",
+          "start": 13.48,
+          "end": 13.72,
+          "confidence": 0.9788
+        },
+        {
+          "char": "然",
+          "start": 13.72,
+          "end": 13.86,
+          "confidence": 0.9969
+        },
+        {
+          "char": "很",
+          "start": 13.86,
+          "end": 14.04,
+          "confidence": 0.9906
+        },
+        {
+          "char": "深",
+          "start": 14.04,
+          "end": 14.26,
+          "confidence": 0.9305
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21305
+    },
+    {
+      "no": 46,
+      "kind": "word",
+      "text": "浪漫",
+      "spoken_text": "浪漫。",
+      "pinyin": "làngmàn",
+      "source_chunk": 3,
+      "speech_start": 14.9,
+      "speech_end": 15.36,
+      "confidence": 0.9421,
+      "characters": [
+        {
+          "char": "浪",
+          "start": 14.9,
+          "end": 15.14,
+          "confidence": 0.8957
+        },
+        {
+          "char": "漫",
+          "start": 15.14,
+          "end": 15.36,
+          "confidence": 0.9884
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21201
+    },
+    {
+      "no": 46,
+      "kind": "example",
+      "text": "他在院子里准备了晚餐，十分浪漫。",
+      "spoken_text": "他在院子里准备了晚餐，十分浪漫。",
+      "pinyin": "Tā zài yuànzi lǐ zhǔnbèi le wǎncān, shífēn làngmàn.",
+      "source_chunk": 3,
+      "speech_start": 15.65,
+      "speech_end": 18.57,
+      "confidence": 0.8589,
+      "characters": [
+        {
+          "char": "他",
+          "start": 15.65,
+          "end": 16.23,
+          "confidence": 0.2332
+        },
+        {
+          "char": "在",
+          "start": 16.23,
+          "end": 16.37,
+          "confidence": 0.9881
+        },
+        {
+          "char": "院",
+          "start": 16.37,
+          "end": 16.47,
+          "confidence": 0.9872
+        },
+        {
+          "char": "子",
+          "start": 16.47,
+          "end": 16.65,
+          "confidence": 0.9997
+        },
+        {
+          "char": "里",
+          "start": 16.65,
+          "end": 16.75,
+          "confidence": 0.8643
+        },
+        {
+          "char": "准",
+          "start": 16.75,
+          "end": 16.91,
+          "confidence": 0.9922
+        },
+        {
+          "char": "备",
+          "start": 16.91,
+          "end": 17.03,
+          "confidence": 0.9965
+        },
+        {
+          "char": "了",
+          "start": 17.03,
+          "end": 17.15,
+          "confidence": 0.9963
+        },
+        {
+          "char": "晚",
+          "start": 17.15,
+          "end": 17.27,
+          "confidence": 0.9762
+        },
+        {
+          "char": "餐",
+          "start": 17.27,
+          "end": 17.57,
+          "confidence": 0.9996
+        },
+        {
+          "char": "十",
+          "start": 18.01,
+          "end": 18.09,
+          "confidence": 0.0013
+        },
+        {
+          "char": "分",
+          "start": 18.09,
+          "end": 18.15,
+          "confidence": 0.9912
+        },
+        {
+          "char": "浪",
+          "start": 18.15,
+          "end": 18.33,
+          "confidence": 0.9998
+        },
+        {
+          "char": "漫",
+          "start": 18.33,
+          "end": 18.57,
+          "confidence": 0.9987
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23188
+    },
+    {
+      "no": 47,
+      "kind": "word",
+      "text": "友好",
+      "spoken_text": "友好。",
+      "pinyin": "yǒuhǎo",
+      "source_chunk": 3,
+      "speech_start": 18.89,
+      "speech_end": 19.35,
+      "confidence": 0.9464,
+      "characters": [
+        {
+          "char": "友",
+          "start": 18.89,
+          "end": 19.09,
+          "confidence": 0.8983
+        },
+        {
+          "char": "好",
+          "start": 19.09,
+          "end": 19.35,
+          "confidence": 0.9944
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18176
+    },
+    {
+      "no": 47,
+      "kind": "example",
+      "text": "新同事对我很友好，主动介绍了工作。",
+      "spoken_text": "新同事对我很友好，主动介绍了工作。",
+      "pinyin": "Xīn tóngshì duì wǒ hěn yǒuhǎo, zhǔdòng jièshào le gōngzuò.",
+      "source_chunk": 3,
+      "speech_start": 19.89,
+      "speech_end": 22.41,
+      "confidence": 0.5995,
+      "characters": [
+        {
+          "char": "新",
+          "start": 19.89,
+          "end": 20.07,
+          "confidence": 0.1637
+        },
+        {
+          "char": "同",
+          "start": 20.07,
+          "end": 20.21,
+          "confidence": 0.9268
+        },
+        {
+          "char": "事",
+          "start": 20.21,
+          "end": 20.35,
+          "confidence": 0.7947
+        },
+        {
+          "char": "对",
+          "start": 20.35,
+          "end": 20.47,
+          "confidence": 0.9227
+        },
+        {
+          "char": "我",
+          "start": 20.47,
+          "end": 20.59,
+          "confidence": 0.0796
+        },
+        {
+          "char": "很",
+          "start": 20.59,
+          "end": 20.73,
+          "confidence": 0.017
+        },
+        {
+          "char": "友",
+          "start": 20.73,
+          "end": 20.93,
+          "confidence": 0.9979
+        },
+        {
+          "char": "好",
+          "start": 20.93,
+          "end": 21.15,
+          "confidence": 0.9979
+        },
+        {
+          "char": "主",
+          "start": 21.47,
+          "end": 21.57,
+          "confidence": 0.0653
+        },
+        {
+          "char": "动",
+          "start": 21.57,
+          "end": 21.65,
+          "confidence": 0.9273
+        },
+        {
+          "char": "介",
+          "start": 21.65,
+          "end": 21.83,
+          "confidence": 0.9946
+        },
+        {
+          "char": "绍",
+          "start": 21.83,
+          "end": 21.95,
+          "confidence": 0.9959
+        },
+        {
+          "char": "了",
+          "start": 21.95,
+          "end": 22.07,
+          "confidence": 0.9828
+        },
+        {
+          "char": "工",
+          "start": 22.07,
+          "end": 22.19,
+          "confidence": 0.0001
+        },
+        {
+          "char": "作",
+          "start": 22.19,
+          "end": 22.41,
+          "confidence": 0.1265
+        }
+      ],
+      "independent_asr_coverage": 0.933,
+      "rms": 0.25607
+    },
+    {
+      "no": 48,
+      "kind": "word",
+      "text": "友情",
+      "spoken_text": "友情。",
+      "pinyin": "yǒuqíng",
+      "source_chunk": 3,
+      "speech_start": 22.89,
+      "speech_end": 23.25,
+      "confidence": 0.8962,
+      "characters": [
+        {
+          "char": "友",
+          "start": 22.89,
+          "end": 23.01,
+          "confidence": 0.7991
+        },
+        {
+          "char": "情",
+          "start": 23.01,
+          "end": 23.25,
+          "confidence": 0.9932
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.09894
+    },
+    {
+      "no": 48,
+      "kind": "example",
+      "text": "即使住得很远，我们也不会忘记这份友情。",
+      "spoken_text": "即使住得很远，我们也不会忘记这份友情。",
+      "pinyin": "Jíshǐ zhù de hěn yuǎn, wǒmen yě búhuì wàngjì zhè fèn yǒuqíng.",
+      "source_chunk": 3,
+      "speech_start": 23.63,
+      "speech_end": 26.45,
+      "confidence": 0.7395,
+      "characters": [
+        {
+          "char": "即",
+          "start": 23.63,
+          "end": 23.83,
+          "confidence": 0.9029
+        },
+        {
+          "char": "使",
+          "start": 23.83,
+          "end": 23.97,
+          "confidence": 0.9462
+        },
+        {
+          "char": "住",
+          "start": 23.97,
+          "end": 24.07,
+          "confidence": 0.911
+        },
+        {
+          "char": "得",
+          "start": 24.07,
+          "end": 24.19,
+          "confidence": 0.8934
+        },
+        {
+          "char": "很",
+          "start": 24.19,
+          "end": 24.39,
+          "confidence": 0.9951
+        },
+        {
+          "char": "远",
+          "start": 24.39,
+          "end": 24.61,
+          "confidence": 0.7066
+        },
+        {
+          "char": "我",
+          "start": 25.01,
+          "end": 25.11,
+          "confidence": 0.0028
+        },
+        {
+          "char": "们",
+          "start": 25.11,
+          "end": 25.21,
+          "confidence": 0.1999
+        },
+        {
+          "char": "也",
+          "start": 25.21,
+          "end": 25.29,
+          "confidence": 0.9944
+        },
+        {
+          "char": "不",
+          "start": 25.29,
+          "end": 25.43,
+          "confidence": 0.0391
+        },
+        {
+          "char": "会",
+          "start": 25.43,
+          "end": 25.55,
+          "confidence": 0.1018
+        },
+        {
+          "char": "忘",
+          "start": 25.55,
+          "end": 25.69,
+          "confidence": 0.9837
+        },
+        {
+          "char": "记",
+          "start": 25.69,
+          "end": 25.83,
+          "confidence": 0.9615
+        },
+        {
+          "char": "这",
+          "start": 25.83,
+          "end": 25.95,
+          "confidence": 0.9862
+        },
+        {
+          "char": "份",
+          "start": 25.95,
+          "end": 26.07,
+          "confidence": 0.9538
+        },
+        {
+          "char": "友",
+          "start": 26.07,
+          "end": 26.23,
+          "confidence": 0.9941
+        },
+        {
+          "char": "情",
+          "start": 26.23,
+          "end": 26.45,
+          "confidence": 0.9989
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22414
+    },
+    {
+      "no": 49,
+      "kind": "word",
+      "text": "友谊",
+      "spoken_text": "友谊。",
+      "pinyin": "yǒuyì",
+      "source_chunk": 3,
+      "speech_start": 26.95,
+      "speech_end": 27.33,
+      "confidence": 0.498,
+      "characters": [
+        {
+          "char": "友",
+          "start": 26.95,
+          "end": 27.11,
+          "confidence": 0.49
+        },
+        {
+          "char": "谊",
+          "start": 27.11,
+          "end": 27.33,
+          "confidence": 0.5059
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18426
+    },
+    {
+      "no": 49,
+      "kind": "example",
+      "text": "真正的友谊不会因为距离远而改变。",
+      "spoken_text": "真正的友谊不会因为距离远而改变。",
+      "pinyin": "Zhēnzhèng de yǒuyì búhuì yīnwèi jùlí yuǎn ér gǎibiàn.",
+      "source_chunk": 3,
+      "speech_start": 27.81,
+      "speech_end": 30.19,
+      "confidence": 0.7524,
+      "characters": [
+        {
+          "char": "真",
+          "start": 27.81,
+          "end": 28.01,
+          "confidence": 0.9873
+        },
+        {
+          "char": "正",
+          "start": 28.01,
+          "end": 28.15,
+          "confidence": 0.9953
+        },
+        {
+          "char": "的",
+          "start": 28.15,
+          "end": 28.27,
+          "confidence": 0.9382
+        },
+        {
+          "char": "友",
+          "start": 28.27,
+          "end": 28.41,
+          "confidence": 0.9905
+        },
+        {
+          "char": "谊",
+          "start": 28.41,
+          "end": 28.59,
+          "confidence": 0.9991
+        },
+        {
+          "char": "不",
+          "start": 28.59,
+          "end": 28.81,
+          "confidence": 0.0459
+        },
+        {
+          "char": "会",
+          "start": 28.81,
+          "end": 28.93,
+          "confidence": 0.8138
+        },
+        {
+          "char": "因",
+          "start": 28.93,
+          "end": 29.05,
+          "confidence": 0.0043
+        },
+        {
+          "char": "为",
+          "start": 29.05,
+          "end": 29.17,
+          "confidence": 0.0354
+        },
+        {
+          "char": "距",
+          "start": 29.17,
+          "end": 29.31,
+          "confidence": 0.5418
+        },
+        {
+          "char": "离",
+          "start": 29.31,
+          "end": 29.45,
+          "confidence": 0.9942
+        },
+        {
+          "char": "远",
+          "start": 29.45,
+          "end": 29.67,
+          "confidence": 0.9859
+        },
+        {
+          "char": "而",
+          "start": 29.67,
+          "end": 29.83,
+          "confidence": 0.9606
+        },
+        {
+          "char": "改",
+          "start": 29.83,
+          "end": 29.97,
+          "confidence": 0.9986
+        },
+        {
+          "char": "变",
+          "start": 29.97,
+          "end": 30.19,
+          "confidence": 0.9946
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24636
+    },
+    {
+      "no": 50,
+      "kind": "example",
+      "text": "明天去医院检查时，我会陪你一起去。",
+      "spoken_text": "明天去医院检查时，我会陪你一起去。",
+      "pinyin": "Míngtiān qù yīyuàn jiǎnchá shí, wǒ huì péi nǐ yìqǐ qù.",
+      "source_chunk": 3,
+      "speech_start": 30.59,
+      "speech_end": 33.27,
+      "confidence": 0.8662,
+      "characters": [
+        {
+          "char": "明",
+          "start": 30.59,
+          "end": 30.79,
+          "confidence": 0.9802
+        },
+        {
+          "char": "天",
+          "start": 30.79,
+          "end": 30.95,
+          "confidence": 0.9991
+        },
+        {
+          "char": "去",
+          "start": 30.95,
+          "end": 31.13,
+          "confidence": 0.9784
+        },
+        {
+          "char": "医",
+          "start": 31.13,
+          "end": 31.25,
+          "confidence": 0.9952
+        },
+        {
+          "char": "院",
+          "start": 31.25,
+          "end": 31.33,
+          "confidence": 0.995
+        },
+        {
+          "char": "检",
+          "start": 31.33,
+          "end": 31.51,
+          "confidence": 0.9852
+        },
+        {
+          "char": "查",
+          "start": 31.51,
+          "end": 31.71,
+          "confidence": 0.9494
+        },
+        {
+          "char": "时",
+          "start": 31.71,
+          "end": 32.05,
+          "confidence": 0.9304
+        },
+        {
+          "char": "我",
+          "start": 32.29,
+          "end": 32.39,
+          "confidence": 0.9358
+        },
+        {
+          "char": "会",
+          "start": 32.39,
+          "end": 32.47,
+          "confidence": 0.9784
+        },
+        {
+          "char": "陪",
+          "start": 32.47,
+          "end": 32.63,
+          "confidence": 0.9957
+        },
+        {
+          "char": "你",
+          "start": 32.63,
+          "end": 32.77,
+          "confidence": 0.9545
+        },
+        {
+          "char": "一",
+          "start": 32.77,
+          "end": 32.89,
+          "confidence": 0.0205
+        },
+        {
+          "char": "起",
+          "start": 32.89,
+          "end": 33.03,
+          "confidence": 0.3052
+        },
+        {
+          "char": "去",
+          "start": 33.03,
+          "end": 33.27,
+          "confidence": 0.9904
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.2362
+    },
+    {
+      "no": 51,
+      "kind": "word",
+      "text": "上门",
+      "spoken_text": "上门。",
+      "pinyin": "shàngmén",
+      "source_chunk": 3,
+      "speech_start": 33.53,
+      "speech_end": 33.99,
+      "confidence": 0.9761,
+      "characters": [
+        {
+          "char": "上",
+          "start": 33.53,
+          "end": 33.79,
+          "confidence": 0.9645
+        },
+        {
+          "char": "门",
+          "start": 33.79,
+          "end": 33.99,
+          "confidence": 0.9877
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18617
+    },
+    {
+      "no": 51,
+      "kind": "example",
+      "text": "洗衣机出了问题，师傅答应下午上门修理。",
+      "spoken_text": "洗衣机出了问题，师傅答应下午上门修理。",
+      "pinyin": "Xǐyījī chū le wèntí, shīfu dāying xiàwǔ shàngmén xiūlǐ.",
+      "source_chunk": 3,
+      "speech_start": 34.37,
+      "speech_end": 37.23,
+      "confidence": 0.8232,
+      "characters": [
+        {
+          "char": "洗",
+          "start": 34.37,
+          "end": 34.49,
+          "confidence": 0.7329
+        },
+        {
+          "char": "衣",
+          "start": 34.49,
+          "end": 34.71,
+          "confidence": 0.9708
+        },
+        {
+          "char": "机",
+          "start": 34.71,
+          "end": 34.71,
+          "confidence": 0.9672
+        },
+        {
+          "char": "出",
+          "start": 34.71,
+          "end": 34.89,
+          "confidence": 0.9452
+        },
+        {
+          "char": "了",
+          "start": 34.89,
+          "end": 34.99,
+          "confidence": 0.9894
+        },
+        {
+          "char": "问",
+          "start": 34.99,
+          "end": 35.11,
+          "confidence": 0.0009
+        },
+        {
+          "char": "题",
+          "start": 35.11,
+          "end": 35.39,
+          "confidence": 0.9568
+        },
+        {
+          "char": "师",
+          "start": 35.85,
+          "end": 35.95,
+          "confidence": 0.1604
+        },
+        {
+          "char": "傅",
+          "start": 35.95,
+          "end": 36.03,
+          "confidence": 0.7348
+        },
+        {
+          "char": "答",
+          "start": 36.03,
+          "end": 36.13,
+          "confidence": 0.9921
+        },
+        {
+          "char": "应",
+          "start": 36.13,
+          "end": 36.25,
+          "confidence": 0.9964
+        },
+        {
+          "char": "下",
+          "start": 36.25,
+          "end": 36.45,
+          "confidence": 0.9574
+        },
+        {
+          "char": "午",
+          "start": 36.45,
+          "end": 36.55,
+          "confidence": 0.9969
+        },
+        {
+          "char": "上",
+          "start": 36.55,
+          "end": 36.71,
+          "confidence": 0.894
+        },
+        {
+          "char": "门",
+          "start": 36.71,
+          "end": 36.83,
+          "confidence": 0.9993
+        },
+        {
+          "char": "修",
+          "start": 36.83,
+          "end": 37.03,
+          "confidence": 0.8664
+        },
+        {
+          "char": "理",
+          "start": 37.03,
+          "end": 37.23,
+          "confidence": 0.8342
+        }
+      ],
+      "independent_asr_coverage": 0.941,
+      "rms": 0.2294
+    },
+    {
+      "no": 52,
+      "kind": "word",
+      "text": "邀请",
+      "spoken_text": "邀请。",
+      "pinyin": "yāoqǐng",
+      "source_chunk": 3,
+      "speech_start": 37.69,
+      "speech_end": 38.17,
+      "confidence": 0.9543,
+      "characters": [
+        {
+          "char": "邀",
+          "start": 37.69,
+          "end": 37.91,
+          "confidence": 0.9136
+        },
+        {
+          "char": "请",
+          "start": 37.91,
+          "end": 38.17,
+          "confidence": 0.995
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20051
+    },
+    {
+      "no": 52,
+      "kind": "example",
+      "text": "我想邀请几位同学来家里过中秋节。",
+      "spoken_text": "我想邀请几位同学来家里过中秋节。",
+      "pinyin": "Wǒ xiǎng yāoqǐng jǐ wèi tóngxué lái jiālǐ guò zhōngqiūjié.",
+      "source_chunk": 3,
+      "speech_start": 38.49,
+      "speech_end": 40.89,
+      "confidence": 0.8866,
+      "characters": [
+        {
+          "char": "我",
+          "start": 38.49,
+          "end": 38.75,
+          "confidence": 0.138
+        },
+        {
+          "char": "想",
+          "start": 38.75,
+          "end": 38.85,
+          "confidence": 0.6785
+        },
+        {
+          "char": "邀",
+          "start": 38.85,
+          "end": 39.01,
+          "confidence": 0.9848
+        },
+        {
+          "char": "请",
+          "start": 39.01,
+          "end": 39.15,
+          "confidence": 0.997
+        },
+        {
+          "char": "几",
+          "start": 39.15,
+          "end": 39.31,
+          "confidence": 0.9925
+        },
+        {
+          "char": "位",
+          "start": 39.31,
+          "end": 39.41,
+          "confidence": 0.9981
+        },
+        {
+          "char": "同",
+          "start": 39.41,
+          "end": 39.55,
+          "confidence": 0.9939
+        },
+        {
+          "char": "学",
+          "start": 39.55,
+          "end": 39.77,
+          "confidence": 0.9953
+        },
+        {
+          "char": "来",
+          "start": 39.77,
+          "end": 39.95,
+          "confidence": 0.9746
+        },
+        {
+          "char": "家",
+          "start": 39.95,
+          "end": 40.11,
+          "confidence": 0.859
+        },
+        {
+          "char": "里",
+          "start": 40.11,
+          "end": 40.23,
+          "confidence": 0.9652
+        },
+        {
+          "char": "过",
+          "start": 40.23,
+          "end": 40.35,
+          "confidence": 0.9241
+        },
+        {
+          "char": "中",
+          "start": 40.35,
+          "end": 40.49,
+          "confidence": 0.8265
+        },
+        {
+          "char": "秋",
+          "start": 40.49,
+          "end": 40.67,
+          "confidence": 0.9865
+        },
+        {
+          "char": "节",
+          "start": 40.67,
+          "end": 40.89,
+          "confidence": 0.9856
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22926
+    },
+    {
+      "no": 53,
+      "kind": "example",
+      "text": "我和他约好周五见面，讨论新的计划。",
+      "spoken_text": "我和他约好周五见面，讨论新的计划。",
+      "pinyin": "Wǒ hé tā yuē hǎo zhōuwǔ jiànmiàn, tǎolùn xīn de jìhuà.",
+      "source_chunk": 3,
+      "speech_start": 41.29,
+      "speech_end": 43.87,
+      "confidence": 0.9364,
+      "characters": [
+        {
+          "char": "我",
+          "start": 41.29,
+          "end": 41.51,
+          "confidence": 0.9897
+        },
+        {
+          "char": "和",
+          "start": 41.51,
+          "end": 41.59,
+          "confidence": 0.9632
+        },
+        {
+          "char": "他",
+          "start": 41.59,
+          "end": 41.71,
+          "confidence": 0.607
+        },
+        {
+          "char": "约",
+          "start": 41.71,
+          "end": 41.85,
+          "confidence": 0.9854
+        },
+        {
+          "char": "好",
+          "start": 41.85,
+          "end": 42.03,
+          "confidence": 0.9912
+        },
+        {
+          "char": "周",
+          "start": 42.03,
+          "end": 42.19,
+          "confidence": 0.9472
+        },
+        {
+          "char": "五",
+          "start": 42.19,
+          "end": 42.31,
+          "confidence": 0.9823
+        },
+        {
+          "char": "见",
+          "start": 42.31,
+          "end": 42.49,
+          "confidence": 0.8982
+        },
+        {
+          "char": "面",
+          "start": 42.49,
+          "end": 42.69,
+          "confidence": 0.9996
+        },
+        {
+          "char": "讨",
+          "start": 43.01,
+          "end": 43.09,
+          "confidence": 0.7584
+        },
+        {
+          "char": "论",
+          "start": 43.09,
+          "end": 43.17,
+          "confidence": 0.9968
+        },
+        {
+          "char": "新",
+          "start": 43.17,
+          "end": 43.35,
+          "confidence": 0.9671
+        },
+        {
+          "char": "的",
+          "start": 43.35,
+          "end": 43.49,
+          "confidence": 0.9887
+        },
+        {
+          "char": "计",
+          "start": 43.49,
+          "end": 43.63,
+          "confidence": 0.9816
+        },
+        {
+          "char": "划",
+          "start": 43.63,
+          "end": 43.87,
+          "confidence": 0.9896
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25032
+    },
+    {
+      "no": 54,
+      "kind": "word",
+      "text": "约会",
+      "spoken_text": "约会。",
+      "pinyin": "yuēhuì",
+      "source_chunk": 3,
+      "speech_start": 44.27,
+      "speech_end": 44.63,
+      "confidence": 0.9749,
+      "characters": [
+        {
+          "char": "约",
+          "start": 44.27,
+          "end": 44.43,
+          "confidence": 0.9793
+        },
+        {
+          "char": "会",
+          "start": 44.43,
+          "end": 44.63,
+          "confidence": 0.9705
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.26774
+    },
+    {
+      "no": 54,
+      "kind": "example",
+      "text": "为了这次约会，他特意提前下了班。",
+      "spoken_text": "为了这次约会，他特意提前下了班。",
+      "pinyin": "Wèile zhè cì yuēhuì, tā tèyì tíqián xià le bān.",
+      "source_chunk": 3,
+      "speech_start": 45.05,
+      "speech_end": 47.55,
+      "confidence": 0.9346,
+      "characters": [
+        {
+          "char": "为",
+          "start": 45.05,
+          "end": 45.21,
+          "confidence": 0.9874
+        },
+        {
+          "char": "了",
+          "start": 45.21,
+          "end": 45.31,
+          "confidence": 0.9995
+        },
+        {
+          "char": "这",
+          "start": 45.31,
+          "end": 45.41,
+          "confidence": 0.9637
+        },
+        {
+          "char": "次",
+          "start": 45.41,
+          "end": 45.57,
+          "confidence": 0.993
+        },
+        {
+          "char": "约",
+          "start": 45.57,
+          "end": 45.71,
+          "confidence": 0.995
+        },
+        {
+          "char": "会",
+          "start": 45.71,
+          "end": 45.97,
+          "confidence": 0.989
+        },
+        {
+          "char": "他",
+          "start": 46.29,
+          "end": 46.43,
+          "confidence": 0.4938
+        },
+        {
+          "char": "特",
+          "start": 46.43,
+          "end": 46.61,
+          "confidence": 0.9834
+        },
+        {
+          "char": "意",
+          "start": 46.61,
+          "end": 46.79,
+          "confidence": 0.9198
+        },
+        {
+          "char": "提",
+          "start": 46.79,
+          "end": 46.95,
+          "confidence": 0.9827
+        },
+        {
+          "char": "前",
+          "start": 46.95,
+          "end": 47.13,
+          "confidence": 0.9928
+        },
+        {
+          "char": "下",
+          "start": 47.13,
+          "end": 47.31,
+          "confidence": 0.9826
+        },
+        {
+          "char": "了",
+          "start": 47.31,
+          "end": 47.41,
+          "confidence": 0.8207
+        },
+        {
+          "char": "班",
+          "start": 47.41,
+          "end": 47.55,
+          "confidence": 0.9807
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23317
+    },
+    {
+      "no": 55,
+      "kind": "example",
+      "text": "把这个数减去十，答案就容易算了。",
+      "spoken_text": "把这个数减去十，答案就容易算了。",
+      "pinyin": "Bǎ zhè ge shù jiǎnqù shí, dá'àn jiù róngyì suàn le.",
+      "source_chunk": 3,
+      "speech_start": 48.07,
+      "speech_end": 50.55,
+      "confidence": 0.6013,
+      "characters": [
+        {
+          "char": "把",
+          "start": 48.07,
+          "end": 48.29,
+          "confidence": 0.9901
+        },
+        {
+          "char": "这",
+          "start": 48.29,
+          "end": 48.43,
+          "confidence": 0.0117
+        },
+        {
+          "char": "个",
+          "start": 48.43,
+          "end": 48.53,
+          "confidence": 0.0119
+        },
+        {
+          "char": "数",
+          "start": 48.53,
+          "end": 48.63,
+          "confidence": 0.9053
+        },
+        {
+          "char": "减",
+          "start": 48.63,
+          "end": 48.79,
+          "confidence": 0.5035
+        },
+        {
+          "char": "去",
+          "start": 48.79,
+          "end": 49.01,
+          "confidence": 0.9816
+        },
+        {
+          "char": "十",
+          "start": 49.01,
+          "end": 49.27,
+          "confidence": 0.1825
+        },
+        {
+          "char": "答",
+          "start": 49.55,
+          "end": 49.71,
+          "confidence": 0.8712
+        },
+        {
+          "char": "案",
+          "start": 49.71,
+          "end": 49.83,
+          "confidence": 0.9977
+        },
+        {
+          "char": "就",
+          "start": 49.83,
+          "end": 49.97,
+          "confidence": 0.9896
+        },
+        {
+          "char": "容",
+          "start": 49.97,
+          "end": 50.09,
+          "confidence": 0.0021
+        },
+        {
+          "char": "易",
+          "start": 50.09,
+          "end": 50.19,
+          "confidence": 0.0031
+        },
+        {
+          "char": "算",
+          "start": 50.19,
+          "end": 50.37,
+          "confidence": 0.9964
+        },
+        {
+          "char": "了",
+          "start": 50.37,
+          "end": 50.55,
+          "confidence": 0.9718
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.1924
+    },
+    {
+      "no": 56,
+      "kind": "word",
+      "text": "数字",
+      "spoken_text": "数字。",
+      "pinyin": "shùzì",
+      "source_chunk": 3,
+      "speech_start": 50.89,
+      "speech_end": 51.47,
+      "confidence": 0.9646,
+      "characters": [
+        {
+          "char": "数",
+          "start": 50.89,
+          "end": 51.21,
+          "confidence": 0.9306
+        },
+        {
+          "char": "字",
+          "start": 51.21,
+          "end": 51.47,
+          "confidence": 0.9986
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18192
+    },
+    {
+      "no": 56,
+      "kind": "example",
+      "text": "这两个数字容易看错，请仔细检查。",
+      "spoken_text": "这两个数字容易看错，请仔细检查。",
+      "pinyin": "Zhè liǎng gè shùzì róngyì kàn cuò, qǐng zǐxì jiǎnchá.",
+      "source_chunk": 3,
+      "speech_start": 51.79,
+      "speech_end": 54.31,
+      "confidence": 0.8718,
+      "characters": [
+        {
+          "char": "这",
+          "start": 51.79,
+          "end": 52.09,
+          "confidence": 0.9724
+        },
+        {
+          "char": "两",
+          "start": 52.09,
+          "end": 52.23,
+          "confidence": 0.9752
+        },
+        {
+          "char": "个",
+          "start": 52.23,
+          "end": 52.31,
+          "confidence": 0.9982
+        },
+        {
+          "char": "数",
+          "start": 52.31,
+          "end": 52.45,
+          "confidence": 0.9972
+        },
+        {
+          "char": "字",
+          "start": 52.45,
+          "end": 52.59,
+          "confidence": 0.9999
+        },
+        {
+          "char": "容",
+          "start": 52.59,
+          "end": 52.71,
+          "confidence": 0.3168
+        },
+        {
+          "char": "易",
+          "start": 52.71,
+          "end": 52.81,
+          "confidence": 0.8877
+        },
+        {
+          "char": "看",
+          "start": 52.81,
+          "end": 52.97,
+          "confidence": 0.9929
+        },
+        {
+          "char": "错",
+          "start": 52.97,
+          "end": 53.21,
+          "confidence": 0.9916
+        },
+        {
+          "char": "请",
+          "start": 53.49,
+          "end": 53.65,
+          "confidence": 0.1554
+        },
+        {
+          "char": "仔",
+          "start": 53.65,
+          "end": 53.81,
+          "confidence": 0.9927
+        },
+        {
+          "char": "细",
+          "start": 53.81,
+          "end": 53.93,
+          "confidence": 0.9857
+        },
+        {
+          "char": "检",
+          "start": 53.93,
+          "end": 54.11,
+          "confidence": 0.9477
+        },
+        {
+          "char": "查",
+          "start": 54.11,
+          "end": 54.31,
+          "confidence": 0.9918
+        }
+      ],
+      "independent_asr_coverage": 0.929,
+      "rms": 0.21795
+    },
+    {
+      "no": 57,
+      "kind": "example",
+      "text": "请数一数人数，看看还有谁没到。",
+      "spoken_text": "请数一数人数，看看还有谁没到。",
+      "pinyin": "Qǐng shǔ yi shǔ rénshù, kànkan háiyǒu shuí méi dào.",
+      "source_chunk": 3,
+      "speech_start": 54.75,
+      "speech_end": 57.15,
+      "confidence": 0.626,
+      "characters": [
+        {
+          "char": "请",
+          "start": 54.75,
+          "end": 55.05,
+          "confidence": 0.8774
+        },
+        {
+          "char": "数",
+          "start": 55.05,
+          "end": 55.23,
+          "confidence": 0.0882
+        },
+        {
+          "char": "一",
+          "start": 55.23,
+          "end": 55.33,
+          "confidence": 0.8524
+        },
+        {
+          "char": "数",
+          "start": 55.33,
+          "end": 55.47,
+          "confidence": 0.978
+        },
+        {
+          "char": "人",
+          "start": 55.47,
+          "end": 55.61,
+          "confidence": 0.9921
+        },
+        {
+          "char": "数",
+          "start": 55.61,
+          "end": 55.85,
+          "confidence": 0.9944
+        },
+        {
+          "char": "看",
+          "start": 56.13,
+          "end": 56.31,
+          "confidence": 0.0394
+        },
+        {
+          "char": "看",
+          "start": 56.31,
+          "end": 56.43,
+          "confidence": 0.399
+        },
+        {
+          "char": "还",
+          "start": 56.43,
+          "end": 56.57,
+          "confidence": 0.0337
+        },
+        {
+          "char": "有",
+          "start": 56.57,
+          "end": 56.69,
+          "confidence": 0.4225
+        },
+        {
+          "char": "谁",
+          "start": 56.69,
+          "end": 56.83,
+          "confidence": 0.9825
+        },
+        {
+          "char": "没",
+          "start": 56.83,
+          "end": 56.97,
+          "confidence": 0.7226
+        },
+        {
+          "char": "到",
+          "start": 56.97,
+          "end": 57.15,
+          "confidence": 0.7553
+        }
+      ],
+      "independent_asr_coverage": 0.923,
+      "rms": 0.20256
+    },
+    {
+      "no": 58,
+      "kind": "example",
+      "text": "我把费用重新算了一遍，发现多收了钱。",
+      "spoken_text": "我把费用重新算了一遍，发现多收了钱。",
+      "pinyin": "Wǒ bǎ fèiyòng chóngxīn suàn le yí biàn, fāxiàn duō shōu le qián.",
+      "source_chunk": 3,
+      "speech_start": 57.61,
+      "speech_end": 60.35,
+      "confidence": 0.9347,
+      "characters": [
+        {
+          "char": "我",
+          "start": 57.61,
+          "end": 57.83,
+          "confidence": 0.9835
+        },
+        {
+          "char": "把",
+          "start": 57.83,
+          "end": 57.95,
+          "confidence": 0.9802
+        },
+        {
+          "char": "费",
+          "start": 57.95,
+          "end": 58.09,
+          "confidence": 0.7317
+        },
+        {
+          "char": "用",
+          "start": 58.09,
+          "end": 58.25,
+          "confidence": 0.9975
+        },
+        {
+          "char": "重",
+          "start": 58.25,
+          "end": 58.43,
+          "confidence": 0.9855
+        },
+        {
+          "char": "新",
+          "start": 58.43,
+          "end": 58.59,
+          "confidence": 0.6761
+        },
+        {
+          "char": "算",
+          "start": 58.59,
+          "end": 58.79,
+          "confidence": 0.9948
+        },
+        {
+          "char": "了",
+          "start": 58.79,
+          "end": 58.93,
+          "confidence": 0.9918
+        },
+        {
+          "char": "一",
+          "start": 58.93,
+          "end": 59.05,
+          "confidence": 0.9892
+        },
+        {
+          "char": "遍",
+          "start": 59.05,
+          "end": 59.19,
+          "confidence": 0.9914
+        },
+        {
+          "char": "发",
+          "start": 59.47,
+          "end": 59.57,
+          "confidence": 0.7768
+        },
+        {
+          "char": "现",
+          "start": 59.57,
+          "end": 59.69,
+          "confidence": 0.9805
+        },
+        {
+          "char": "多",
+          "start": 59.69,
+          "end": 59.87,
+          "confidence": 0.9863
+        },
+        {
+          "char": "收",
+          "start": 59.87,
+          "end": 60.05,
+          "confidence": 0.9868
+        },
+        {
+          "char": "了",
+          "start": 60.05,
+          "end": 60.17,
+          "confidence": 0.9097
+        },
+        {
+          "char": "钱",
+          "start": 60.17,
+          "end": 60.35,
+          "confidence": 0.9937
+        }
+      ],
+      "independent_asr_coverage": 0.938,
+      "rms": 0.22177
+    },
+    {
+      "no": 59,
+      "kind": "example",
+      "text": "为了少吃糖，我把奶茶里的糖减了一半。",
+      "spoken_text": "为了少吃糖，我把奶茶里的糖减了一半。",
+      "pinyin": "Wèile shǎo chī táng, wǒ bǎ nǎichá lǐ de táng jiǎn le yíbàn.",
+      "source_chunk": 3,
+      "speech_start": 60.83,
+      "speech_end": 63.49,
+      "confidence": 0.927,
+      "characters": [
+        {
+          "char": "为",
+          "start": 60.83,
+          "end": 61.03,
+          "confidence": 0.8888
+        },
+        {
+          "char": "了",
+          "start": 61.03,
+          "end": 61.11,
+          "confidence": 0.9972
+        },
+        {
+          "char": "少",
+          "start": 61.11,
+          "end": 61.25,
+          "confidence": 0.9393
+        },
+        {
+          "char": "吃",
+          "start": 61.25,
+          "end": 61.45,
+          "confidence": 0.9944
+        },
+        {
+          "char": "糖",
+          "start": 61.45,
+          "end": 61.63,
+          "confidence": 0.8398
+        },
+        {
+          "char": "我",
+          "start": 62.07,
+          "end": 62.13,
+          "confidence": 0.8426
+        },
+        {
+          "char": "把",
+          "start": 62.13,
+          "end": 62.23,
+          "confidence": 0.9888
+        },
+        {
+          "char": "奶",
+          "start": 62.23,
+          "end": 62.39,
+          "confidence": 0.8748
+        },
+        {
+          "char": "茶",
+          "start": 62.39,
+          "end": 62.55,
+          "confidence": 0.9965
+        },
+        {
+          "char": "里",
+          "start": 62.55,
+          "end": 62.69,
+          "confidence": 0.9798
+        },
+        {
+          "char": "的",
+          "start": 62.69,
+          "end": 62.79,
+          "confidence": 0.9611
+        },
+        {
+          "char": "糖",
+          "start": 62.79,
+          "end": 62.95,
+          "confidence": 0.9375
+        },
+        {
+          "char": "减",
+          "start": 62.95,
+          "end": 63.13,
+          "confidence": 0.6252
+        },
+        {
+          "char": "了",
+          "start": 63.13,
+          "end": 63.25,
+          "confidence": 0.9815
+        },
+        {
+          "char": "一",
+          "start": 63.25,
+          "end": 63.39,
+          "confidence": 0.9943
+        },
+        {
+          "char": "半",
+          "start": 63.39,
+          "end": 63.49,
+          "confidence": 0.991
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20978
+    },
+    {
+      "no": 60,
+      "kind": "word",
+      "text": "加上",
+      "spoken_text": "加上。",
+      "pinyin": "jiāshàng",
+      "source_chunk": 3,
+      "speech_start": 63.87,
+      "speech_end": 64.21,
+      "confidence": 0.9241,
+      "characters": [
+        {
+          "char": "加",
+          "start": 63.87,
+          "end": 63.99,
+          "confidence": 0.853
+        },
+        {
+          "char": "上",
+          "start": 63.99,
+          "end": 64.21,
+          "confidence": 0.9951
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18755
+    },
+    {
+      "no": 60,
+      "kind": "example",
+      "text": "票价加上行李费，一共是三百元。",
+      "spoken_text": "票价加上行李费，一共是三百元。",
+      "pinyin": "Piàojià jiāshàng xíngli fèi, yígòng shì sānbǎi yuán.",
+      "source_chunk": 3,
+      "speech_start": 64.71,
+      "speech_end": 67.21,
+      "confidence": 0.8081,
+      "characters": [
+        {
+          "char": "票",
+          "start": 64.71,
+          "end": 64.95,
+          "confidence": 0.7745
+        },
+        {
+          "char": "价",
+          "start": 64.95,
+          "end": 65.15,
+          "confidence": 0.7259
+        },
+        {
+          "char": "加",
+          "start": 65.15,
+          "end": 65.33,
+          "confidence": 0.7461
+        },
+        {
+          "char": "上",
+          "start": 65.33,
+          "end": 65.49,
+          "confidence": 0.9986
+        },
+        {
+          "char": "行",
+          "start": 65.49,
+          "end": 65.65,
+          "confidence": 0.9888
+        },
+        {
+          "char": "李",
+          "start": 65.65,
+          "end": 65.77,
+          "confidence": 0.8007
+        },
+        {
+          "char": "费",
+          "start": 65.77,
+          "end": 65.97,
+          "confidence": 0.9783
+        },
+        {
+          "char": "一",
+          "start": 66.37,
+          "end": 66.45,
+          "confidence": 0.4113
+        },
+        {
+          "char": "共",
+          "start": 66.45,
+          "end": 66.53,
+          "confidence": 0.9985
+        },
+        {
+          "char": "是",
+          "start": 66.53,
+          "end": 66.67,
+          "confidence": 0.758
+        },
+        {
+          "char": "三",
+          "start": 66.67,
+          "end": 66.83,
+          "confidence": 0.3455
+        },
+        {
+          "char": "百",
+          "start": 66.83,
+          "end": 67.01,
+          "confidence": 0.9969
+        },
+        {
+          "char": "元",
+          "start": 67.01,
+          "end": 67.21,
+          "confidence": 0.9817
+        }
+      ],
+      "independent_asr_coverage": 0.769,
+      "rms": 0.23246
+    },
+    {
+      "no": 61,
+      "kind": "example",
+      "text": "参加这次活动的学生共六十名。",
+      "spoken_text": "参加这次活动的学生共六十名。",
+      "pinyin": "Cānjiā zhè cì huódòng de xuéshēng gòng liùshí míng.",
+      "source_chunk": 3,
+      "speech_start": 67.79,
+      "speech_end": 69.83,
+      "confidence": 0.8822,
+      "characters": [
+        {
+          "char": "参",
+          "start": 67.79,
+          "end": 68.05,
+          "confidence": 0.8386
+        },
+        {
+          "char": "加",
+          "start": 68.05,
+          "end": 68.17,
+          "confidence": 0.9997
+        },
+        {
+          "char": "这",
+          "start": 68.17,
+          "end": 68.33,
+          "confidence": 0.9761
+        },
+        {
+          "char": "次",
+          "start": 68.33,
+          "end": 68.43,
+          "confidence": 0.9919
+        },
+        {
+          "char": "活",
+          "start": 68.43,
+          "end": 68.59,
+          "confidence": 0.996
+        },
+        {
+          "char": "动",
+          "start": 68.59,
+          "end": 68.69,
+          "confidence": 0.9963
+        },
+        {
+          "char": "的",
+          "start": 68.69,
+          "end": 68.83,
+          "confidence": 0.9728
+        },
+        {
+          "char": "学",
+          "start": 68.83,
+          "end": 68.95,
+          "confidence": 0.9907
+        },
+        {
+          "char": "生",
+          "start": 68.95,
+          "end": 69.13,
+          "confidence": 0.998
+        },
+        {
+          "char": "共",
+          "start": 69.13,
+          "end": 69.31,
+          "confidence": 0.4602
+        },
+        {
+          "char": "六",
+          "start": 69.31,
+          "end": 69.49,
+          "confidence": 0.4825
+        },
+        {
+          "char": "十",
+          "start": 69.49,
+          "end": 69.69,
+          "confidence": 0.9856
+        },
+        {
+          "char": "名",
+          "start": 69.69,
+          "end": 69.83,
+          "confidence": 0.78
+        }
+      ],
+      "independent_asr_coverage": 0.846,
+      "rms": 0.29935
+    },
+    {
+      "no": 62,
+      "kind": "example",
+      "text": "今年的收入是去年的两倍，增长很快。",
+      "spoken_text": "今年的收入是去年的两倍，增长很快。",
+      "pinyin": "Jīnnián de shōurù shì qùnián de liǎng bèi, zēngzhǎng hěn kuài.",
+      "source_chunk": 3,
+      "speech_start": 70.26,
+      "speech_end": 73.1,
+      "confidence": 0.7585,
+      "characters": [
+        {
+          "char": "今",
+          "start": 70.26,
+          "end": 70.54,
+          "confidence": 0.4957
+        },
+        {
+          "char": "年",
+          "start": 70.54,
+          "end": 70.68,
+          "confidence": 0.0013
+        },
+        {
+          "char": "的",
+          "start": 70.68,
+          "end": 70.82,
+          "confidence": 0.5854
+        },
+        {
+          "char": "收",
+          "start": 70.82,
+          "end": 70.94,
+          "confidence": 0.9939
+        },
+        {
+          "char": "入",
+          "start": 70.94,
+          "end": 71.14,
+          "confidence": 0.9981
+        },
+        {
+          "char": "是",
+          "start": 71.14,
+          "end": 71.36,
+          "confidence": 0.9751
+        },
+        {
+          "char": "去",
+          "start": 71.36,
+          "end": 71.52,
+          "confidence": 0.98
+        },
+        {
+          "char": "年",
+          "start": 71.52,
+          "end": 71.66,
+          "confidence": 0.0167
+        },
+        {
+          "char": "的",
+          "start": 71.66,
+          "end": 71.78,
+          "confidence": 0.7844
+        },
+        {
+          "char": "两",
+          "start": 71.78,
+          "end": 71.96,
+          "confidence": 0.9716
+        },
+        {
+          "char": "倍",
+          "start": 71.96,
+          "end": 72.18,
+          "confidence": 0.9902
+        },
+        {
+          "char": "增",
+          "start": 72.48,
+          "end": 72.58,
+          "confidence": 0.6017
+        },
+        {
+          "char": "长",
+          "start": 72.58,
+          "end": 72.68,
+          "confidence": 0.9939
+        },
+        {
+          "char": "很",
+          "start": 72.68,
+          "end": 72.86,
+          "confidence": 0.9945
+        },
+        {
+          "char": "快",
+          "start": 72.86,
+          "end": 73.1,
+          "confidence": 0.9946
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24002
+    },
+    {
+      "no": 63,
+      "kind": "example",
+      "text": "这两份材料都很重要，请别弄丢了。",
+      "spoken_text": "这两份材料都很重要，请别弄丢了。",
+      "pinyin": "Zhè liǎng fèn cáiliào dōu hěn zhòngyào, qǐng bié nòng diū le.",
+      "source_chunk": 3,
+      "speech_start": 73.62,
+      "speech_end": 76.18,
+      "confidence": 0.8164,
+      "characters": [
+        {
+          "char": "这",
+          "start": 73.62,
+          "end": 73.82,
+          "confidence": 0.9879
+        },
+        {
+          "char": "两",
+          "start": 73.82,
+          "end": 73.96,
+          "confidence": 0.9718
+        },
+        {
+          "char": "份",
+          "start": 73.96,
+          "end": 74.08,
+          "confidence": 0.9293
+        },
+        {
+          "char": "材",
+          "start": 74.08,
+          "end": 74.3,
+          "confidence": 0.9933
+        },
+        {
+          "char": "料",
+          "start": 74.3,
+          "end": 74.44,
+          "confidence": 0.999
+        },
+        {
+          "char": "都",
+          "start": 74.44,
+          "end": 74.6,
+          "confidence": 0.9927
+        },
+        {
+          "char": "很",
+          "start": 74.6,
+          "end": 74.82,
+          "confidence": 0.9873
+        },
+        {
+          "char": "重",
+          "start": 74.82,
+          "end": 74.96,
+          "confidence": 0.0024
+        },
+        {
+          "char": "要",
+          "start": 74.96,
+          "end": 75.14,
+          "confidence": 0.2609
+        },
+        {
+          "char": "请",
+          "start": 75.4,
+          "end": 75.52,
+          "confidence": 0.3788
+        },
+        {
+          "char": "别",
+          "start": 75.52,
+          "end": 75.66,
+          "confidence": 0.989
+        },
+        {
+          "char": "弄",
+          "start": 75.66,
+          "end": 75.82,
+          "confidence": 0.9963
+        },
+        {
+          "char": "丢",
+          "start": 75.82,
+          "end": 75.96,
+          "confidence": 0.9855
+        },
+        {
+          "char": "了",
+          "start": 75.96,
+          "end": 76.18,
+          "confidence": 0.9548
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21629
+    }
+  ],
+  "windows": [
+    {
+      "first_clip": 0,
+      "last_clip": 4,
+      "start": 0,
+      "end": 10.98,
+      "text": "她生了孩子以后，仍每天坚持学习。爱情。这部电影讲的是普通人的爱情故事。爱心。她把旧衣服送给需要的人，很有爱心。"
+    },
+    {
+      "first_clip": 3,
+      "last_clip": 8,
+      "start": 5.859999999999999,
+      "end": 19.229999999999997,
+      "text": "爱心。她把旧衣服送给需要的人，很有爱心。感情。虽然多年没见，我们的感情仍然很深。浪漫。他在院子里准备了晚餐，十分浪漫。"
+    },
+    {
+      "first_clip": 7,
+      "last_clip": 12,
+      "start": 14.03,
+      "end": 27.09,
+      "text": "浪漫。他在院子里准备了晚餐，十分浪漫。友好。新同事对我很友好，主动介绍了工作。友情。即使住得很远，我们也不会忘记这份友情。"
+    },
+    {
+      "first_clip": 11,
+      "last_clip": 16,
+      "start": 21.73,
+      "end": 34.65,
+      "text": "友情。即使住得很远，我们也不会忘记这份友情。友谊。真正的友谊不会因为距离远而改变。明天去医院检查时，我会陪你一起去。上门。"
+    },
+    {
+      "first_clip": 15,
+      "last_clip": 20,
+      "start": 29.69,
+      "end": 44.72,
+      "text": "明天去医院检查时，我会陪你一起去。上门。洗衣机出了问题，师傅答应下午上门修理。邀请。我想邀请几位同学来家里过中秋节。我和他约好周五见面，讨论新的计划。"
+    },
+    {
+      "first_clip": 19,
+      "last_clip": 24,
+      "start": 37.690000000000005,
+      "end": 52.26,
+      "text": "我想邀请几位同学来家里过中秋节。我和他约好周五见面，讨论新的计划。约会。为了这次约会，他特意提前下了班。把这个数减去十，答案就容易算了。数字。"
+    },
+    {
+      "first_clip": 23,
+      "last_clip": 28,
+      "start": 47.17,
+      "end": 64.33,
+      "text": "把这个数减去十，答案就容易算了。数字。这两个数字容易看错，请仔细检查。请数一数人数，看看还有谁没到。我把费用重新算了一遍，发现多收了钱。为了少吃糖，我把奶茶里的糖减了一半。"
+    },
+    {
+      "first_clip": 27,
+      "last_clip": 32,
+      "start": 56.49,
+      "end": 74.02000000000001,
+      "text": "我把费用重新算了一遍，发现多收了钱。为了少吃糖，我把奶茶里的糖减了一半。加上。票价加上行李费，一共是三百元。参加这次活动的学生共六十名。今年的收入是去年的两倍，增长很快。"
+    },
+    {
+      "first_clip": 31,
+      "last_clip": 33,
+      "start": 66.88,
+      "end": 76.344,
+      "text": "参加这次活动的学生共六十名。今年的收入是去年的两倍，增长很快。这两份材料都很重要，请别弄丢了。"
+    }
+  ],
+  "alerts": []
+}
