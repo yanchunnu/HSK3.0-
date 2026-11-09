@@ -1,0 +1,2702 @@
+{
+  "chunk": 7,
+  "duration": 78.648,
+  "transcript_match_ratio": 0.9912,
+  "clips": [
+    {
+      "no": 129,
+      "kind": "example",
+      "text": "请在入口排队，不要影响别人进入。",
+      "spoken_text": "请在入口排队，不要影响别人进入。",
+      "pinyin": "Qǐng zài rùkǒu páiduì, búyào yǐngxiǎng biérén jìnrù.",
+      "source_chunk": 7,
+      "speech_start": 0.0,
+      "speech_end": 2.6,
+      "confidence": 0.815,
+      "characters": [
+        {
+          "char": "请",
+          "start": 0.0,
+          "end": 0.4,
+          "confidence": 0.2012
+        },
+        {
+          "char": "在",
+          "start": 0.4,
+          "end": 0.52,
+          "confidence": 0.7827
+        },
+        {
+          "char": "入",
+          "start": 0.52,
+          "end": 0.66,
+          "confidence": 0.9633
+        },
+        {
+          "char": "口",
+          "start": 0.66,
+          "end": 0.78,
+          "confidence": 0.9997
+        },
+        {
+          "char": "排",
+          "start": 0.78,
+          "end": 0.96,
+          "confidence": 0.9873
+        },
+        {
+          "char": "队",
+          "start": 0.96,
+          "end": 1.16,
+          "confidence": 0.9905
+        },
+        {
+          "char": "不",
+          "start": 1.44,
+          "end": 1.54,
+          "confidence": 0.0096
+        },
+        {
+          "char": "要",
+          "start": 1.54,
+          "end": 1.64,
+          "confidence": 0.5185
+        },
+        {
+          "char": "影",
+          "start": 1.64,
+          "end": 1.8,
+          "confidence": 0.9882
+        },
+        {
+          "char": "响",
+          "start": 1.8,
+          "end": 1.96,
+          "confidence": 0.9934
+        },
+        {
+          "char": "别",
+          "start": 1.96,
+          "end": 2.1,
+          "confidence": 0.991
+        },
+        {
+          "char": "人",
+          "start": 2.1,
+          "end": 2.24,
+          "confidence": 0.9994
+        },
+        {
+          "char": "进",
+          "start": 2.24,
+          "end": 2.38,
+          "confidence": 0.9858
+        },
+        {
+          "char": "入",
+          "start": 2.38,
+          "end": 2.6,
+          "confidence": 0.9991
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21043
+    },
+    {
+      "no": 130,
+      "kind": "word",
+      "text": "出口",
+      "spoken_text": "出口。",
+      "pinyin": "chūkǒu",
+      "source_chunk": 7,
+      "speech_start": 2.86,
+      "speech_end": 3.34,
+      "confidence": 0.9645,
+      "characters": [
+        {
+          "char": "出",
+          "start": 2.86,
+          "end": 3.14,
+          "confidence": 0.9291
+        },
+        {
+          "char": "口",
+          "start": 3.14,
+          "end": 3.34,
+          "confidence": 0.9999
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19614
+    },
+    {
+      "no": 130,
+      "kind": "example",
+      "text": "跟着出口的标志走，就能找到停车场。",
+      "spoken_text": "跟着出口的标志走，就能找到停车场。",
+      "pinyin": "Gēnzhe chūkǒu de biāozhì zǒu, jiù néng zhǎodào tíngchēchǎng.",
+      "source_chunk": 7,
+      "speech_start": 3.7,
+      "speech_end": 6.26,
+      "confidence": 0.9389,
+      "characters": [
+        {
+          "char": "跟",
+          "start": 3.7,
+          "end": 4.02,
+          "confidence": 0.962
+        },
+        {
+          "char": "着",
+          "start": 4.02,
+          "end": 4.14,
+          "confidence": 0.9654
+        },
+        {
+          "char": "出",
+          "start": 4.14,
+          "end": 4.3,
+          "confidence": 0.9965
+        },
+        {
+          "char": "口",
+          "start": 4.3,
+          "end": 4.44,
+          "confidence": 1.0
+        },
+        {
+          "char": "的",
+          "start": 4.44,
+          "end": 4.54,
+          "confidence": 0.9941
+        },
+        {
+          "char": "标",
+          "start": 4.54,
+          "end": 4.68,
+          "confidence": 0.9943
+        },
+        {
+          "char": "志",
+          "start": 4.68,
+          "end": 4.84,
+          "confidence": 0.9819
+        },
+        {
+          "char": "走",
+          "start": 4.84,
+          "end": 5.04,
+          "confidence": 0.9955
+        },
+        {
+          "char": "就",
+          "start": 5.3,
+          "end": 5.4,
+          "confidence": 0.8998
+        },
+        {
+          "char": "能",
+          "start": 5.4,
+          "end": 5.5,
+          "confidence": 0.992
+        },
+        {
+          "char": "找",
+          "start": 5.5,
+          "end": 5.64,
+          "confidence": 0.9771
+        },
+        {
+          "char": "到",
+          "start": 5.64,
+          "end": 5.8,
+          "confidence": 0.9929
+        },
+        {
+          "char": "停",
+          "start": 5.8,
+          "end": 5.92,
+          "confidence": 0.97
+        },
+        {
+          "char": "车",
+          "start": 5.92,
+          "end": 6.08,
+          "confidence": 0.9977
+        },
+        {
+          "char": "场",
+          "start": 6.08,
+          "end": 6.26,
+          "confidence": 0.3642
+        }
+      ],
+      "independent_asr_coverage": 0.933,
+      "rms": 0.20538
+    },
+    {
+      "no": 131,
+      "kind": "word",
+      "text": "地址",
+      "spoken_text": "地址。",
+      "pinyin": "dìzhǐ",
+      "source_chunk": 7,
+      "speech_start": 6.76,
+      "speech_end": 7.12,
+      "confidence": 0.84,
+      "characters": [
+        {
+          "char": "地",
+          "start": 6.76,
+          "end": 6.92,
+          "confidence": 0.7196
+        },
+        {
+          "char": "址",
+          "start": 6.92,
+          "end": 7.12,
+          "confidence": 0.9605
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.27365
+    },
+    {
+      "no": 131,
+      "kind": "example",
+      "text": "搬家以后，请及时告诉我你的新地址。",
+      "spoken_text": "搬家以后，请及时告诉我你的新地址。",
+      "pinyin": "Bānjiā yǐhòu, qǐng jíshí gàosu wǒ nǐ de xīn dìzhǐ.",
+      "source_chunk": 7,
+      "speech_start": 7.54,
+      "speech_end": 10.34,
+      "confidence": 0.5422,
+      "characters": [
+        {
+          "char": "搬",
+          "start": 7.54,
+          "end": 7.84,
+          "confidence": 0.7923
+        },
+        {
+          "char": "家",
+          "start": 7.84,
+          "end": 8.0,
+          "confidence": 0.9985
+        },
+        {
+          "char": "以",
+          "start": 8.0,
+          "end": 8.14,
+          "confidence": 0.9961
+        },
+        {
+          "char": "后",
+          "start": 8.14,
+          "end": 8.34,
+          "confidence": 0.9092
+        },
+        {
+          "char": "请",
+          "start": 8.7,
+          "end": 8.82,
+          "confidence": 0.0989
+        },
+        {
+          "char": "及",
+          "start": 8.82,
+          "end": 8.96,
+          "confidence": 0.4658
+        },
+        {
+          "char": "时",
+          "start": 8.96,
+          "end": 9.12,
+          "confidence": 0.9939
+        },
+        {
+          "char": "告",
+          "start": 9.12,
+          "end": 9.24,
+          "confidence": 0.0001
+        },
+        {
+          "char": "诉",
+          "start": 9.24,
+          "end": 9.44,
+          "confidence": 0.0042
+        },
+        {
+          "char": "我",
+          "start": 9.44,
+          "end": 9.54,
+          "confidence": 0.337
+        },
+        {
+          "char": "你",
+          "start": 9.54,
+          "end": 9.64,
+          "confidence": 0.0738
+        },
+        {
+          "char": "的",
+          "start": 9.64,
+          "end": 9.74,
+          "confidence": 0.1484
+        },
+        {
+          "char": "新",
+          "start": 9.74,
+          "end": 9.9,
+          "confidence": 0.3237
+        },
+        {
+          "char": "地",
+          "start": 9.9,
+          "end": 10.06,
+          "confidence": 0.994
+        },
+        {
+          "char": "址",
+          "start": 10.06,
+          "end": 10.34,
+          "confidence": 0.997
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25085
+    },
+    {
+      "no": 132,
+      "kind": "word",
+      "text": "家乡",
+      "spoken_text": "家乡。",
+      "pinyin": "jiāxiāng",
+      "source_chunk": 7,
+      "speech_start": 10.74,
+      "speech_end": 11.2,
+      "confidence": 0.7781,
+      "characters": [
+        {
+          "char": "家",
+          "start": 10.74,
+          "end": 10.96,
+          "confidence": 0.6654
+        },
+        {
+          "char": "乡",
+          "start": 10.96,
+          "end": 11.2,
+          "confidence": 0.8907
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20207
+    },
+    {
+      "no": 132,
+      "kind": "example",
+      "text": "每次提到家乡，她都会讲起那条河。",
+      "spoken_text": "每次提到家乡，她都会讲起那条河。",
+      "pinyin": "Měi cì tídào jiāxiāng, tā dōu huì jiǎng qǐ nà tiáo hé.",
+      "source_chunk": 7,
+      "speech_start": 11.62,
+      "speech_end": 14.2,
+      "confidence": 0.8861,
+      "characters": [
+        {
+          "char": "每",
+          "start": 11.62,
+          "end": 11.82,
+          "confidence": 0.9874
+        },
+        {
+          "char": "次",
+          "start": 11.82,
+          "end": 12.0,
+          "confidence": 0.9914
+        },
+        {
+          "char": "提",
+          "start": 12.0,
+          "end": 12.12,
+          "confidence": 0.9911
+        },
+        {
+          "char": "到",
+          "start": 12.12,
+          "end": 12.24,
+          "confidence": 0.993
+        },
+        {
+          "char": "家",
+          "start": 12.24,
+          "end": 12.42,
+          "confidence": 0.9937
+        },
+        {
+          "char": "乡",
+          "start": 12.42,
+          "end": 12.68,
+          "confidence": 0.9977
+        },
+        {
+          "char": "她",
+          "start": 13.0,
+          "end": 13.1,
+          "confidence": 0.0933
+        },
+        {
+          "char": "都",
+          "start": 13.1,
+          "end": 13.2,
+          "confidence": 0.9857
+        },
+        {
+          "char": "会",
+          "start": 13.2,
+          "end": 13.32,
+          "confidence": 0.9597
+        },
+        {
+          "char": "讲",
+          "start": 13.32,
+          "end": 13.46,
+          "confidence": 0.9742
+        },
+        {
+          "char": "起",
+          "start": 13.46,
+          "end": 13.62,
+          "confidence": 0.8227
+        },
+        {
+          "char": "那",
+          "start": 13.62,
+          "end": 13.74,
+          "confidence": 0.9431
+        },
+        {
+          "char": "条",
+          "start": 13.74,
+          "end": 13.94,
+          "confidence": 0.9938
+        },
+        {
+          "char": "河",
+          "start": 13.94,
+          "end": 14.2,
+          "confidence": 0.6782
+        }
+      ],
+      "independent_asr_coverage": 0.929,
+      "rms": 0.2121
+    },
+    {
+      "no": 133,
+      "kind": "word",
+      "text": "老家",
+      "spoken_text": "老家。",
+      "pinyin": "lǎojiā",
+      "source_chunk": 7,
+      "speech_start": 14.74,
+      "speech_end": 15.16,
+      "confidence": 0.8612,
+      "characters": [
+        {
+          "char": "老",
+          "start": 14.74,
+          "end": 14.96,
+          "confidence": 0.7271
+        },
+        {
+          "char": "家",
+          "start": 14.96,
+          "end": 15.16,
+          "confidence": 0.9954
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.14704
+    },
+    {
+      "no": 133,
+      "kind": "example",
+      "text": "我打算利用假日，带孩子回老家看看。",
+      "spoken_text": "我打算利用假日，带孩子回老家看看。",
+      "pinyin": "Wǒ dǎsuàn lìyòng jiàrì, dài háizi huí lǎojiā kànkan.",
+      "source_chunk": 7,
+      "speech_start": 15.45,
+      "speech_end": 18.23,
+      "confidence": 0.7912,
+      "characters": [
+        {
+          "char": "我",
+          "start": 15.45,
+          "end": 15.75,
+          "confidence": 0.974
+        },
+        {
+          "char": "打",
+          "start": 15.75,
+          "end": 15.85,
+          "confidence": 0.9955
+        },
+        {
+          "char": "算",
+          "start": 15.85,
+          "end": 15.99,
+          "confidence": 0.9995
+        },
+        {
+          "char": "利",
+          "start": 15.99,
+          "end": 16.13,
+          "confidence": 0.997
+        },
+        {
+          "char": "用",
+          "start": 16.13,
+          "end": 16.25,
+          "confidence": 0.9999
+        },
+        {
+          "char": "假",
+          "start": 16.25,
+          "end": 16.43,
+          "confidence": 0.8144
+        },
+        {
+          "char": "日",
+          "start": 16.43,
+          "end": 16.69,
+          "confidence": 0.9996
+        },
+        {
+          "char": "带",
+          "start": 16.89,
+          "end": 17.07,
+          "confidence": 0.5976
+        },
+        {
+          "char": "孩",
+          "start": 17.07,
+          "end": 17.21,
+          "confidence": 0.0002
+        },
+        {
+          "char": "子",
+          "start": 17.21,
+          "end": 17.35,
+          "confidence": 0.6177
+        },
+        {
+          "char": "回",
+          "start": 17.35,
+          "end": 17.43,
+          "confidence": 0.9886
+        },
+        {
+          "char": "老",
+          "start": 17.43,
+          "end": 17.59,
+          "confidence": 0.9893
+        },
+        {
+          "char": "家",
+          "start": 17.59,
+          "end": 17.71,
+          "confidence": 0.9988
+        },
+        {
+          "char": "看",
+          "start": 17.71,
+          "end": 17.91,
+          "confidence": 0.0743
+        },
+        {
+          "char": "看",
+          "start": 17.91,
+          "end": 18.23,
+          "confidence": 0.8212
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24439
+    },
+    {
+      "no": 134,
+      "kind": "example",
+      "text": "这座城虽然不大，却有许多著名景点。",
+      "spoken_text": "这座城虽然不大，却有许多著名景点。",
+      "pinyin": "Zhè zuò chéng suīrán búdà, què yǒu xǔduō zhùmíng jǐngdiǎn.",
+      "source_chunk": 7,
+      "speech_start": 18.63,
+      "speech_end": 21.23,
+      "confidence": 0.8909,
+      "characters": [
+        {
+          "char": "这",
+          "start": 18.63,
+          "end": 18.81,
+          "confidence": 0.9407
+        },
+        {
+          "char": "座",
+          "start": 18.81,
+          "end": 18.93,
+          "confidence": 0.5847
+        },
+        {
+          "char": "城",
+          "start": 18.93,
+          "end": 19.09,
+          "confidence": 0.9562
+        },
+        {
+          "char": "虽",
+          "start": 19.09,
+          "end": 19.27,
+          "confidence": 0.7714
+        },
+        {
+          "char": "然",
+          "start": 19.27,
+          "end": 19.39,
+          "confidence": 0.9985
+        },
+        {
+          "char": "不",
+          "start": 19.39,
+          "end": 19.53,
+          "confidence": 0.9952
+        },
+        {
+          "char": "大",
+          "start": 19.53,
+          "end": 19.71,
+          "confidence": 0.9902
+        },
+        {
+          "char": "却",
+          "start": 20.07,
+          "end": 20.13,
+          "confidence": 0.9274
+        },
+        {
+          "char": "有",
+          "start": 20.13,
+          "end": 20.21,
+          "confidence": 0.9907
+        },
+        {
+          "char": "许",
+          "start": 20.21,
+          "end": 20.37,
+          "confidence": 0.9296
+        },
+        {
+          "char": "多",
+          "start": 20.37,
+          "end": 20.51,
+          "confidence": 0.9974
+        },
+        {
+          "char": "著",
+          "start": 20.51,
+          "end": 20.69,
+          "confidence": 0.6608
+        },
+        {
+          "char": "名",
+          "start": 20.69,
+          "end": 20.81,
+          "confidence": 0.9555
+        },
+        {
+          "char": "景",
+          "start": 20.81,
+          "end": 20.99,
+          "confidence": 0.6799
+        },
+        {
+          "char": "点",
+          "start": 20.99,
+          "end": 21.23,
+          "confidence": 0.9856
+        }
+      ],
+      "independent_asr_coverage": 0.933,
+      "rms": 0.25806
+    },
+    {
+      "no": 135,
+      "kind": "word",
+      "text": "市区",
+      "spoken_text": "市区。",
+      "pinyin": "shìqū",
+      "source_chunk": 7,
+      "speech_start": 21.69,
+      "speech_end": 22.23,
+      "confidence": 0.7425,
+      "characters": [
+        {
+          "char": "市",
+          "start": 21.69,
+          "end": 21.97,
+          "confidence": 0.5261
+        },
+        {
+          "char": "区",
+          "start": 21.97,
+          "end": 22.23,
+          "confidence": 0.9589
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.16688
+    },
+    {
+      "no": 135,
+      "kind": "example",
+      "text": "住在市区交通方便，但是房租较高。",
+      "spoken_text": "住在市区交通方便，但是房租较高。",
+      "pinyin": "Zhù zài shìqū jiāotōng fāngbiàn, dànshì fángzū jiào gāo.",
+      "source_chunk": 7,
+      "speech_start": 22.65,
+      "speech_end": 25.15,
+      "confidence": 0.8412,
+      "characters": [
+        {
+          "char": "住",
+          "start": 22.65,
+          "end": 22.85,
+          "confidence": 0.9916
+        },
+        {
+          "char": "在",
+          "start": 22.85,
+          "end": 22.99,
+          "confidence": 0.9972
+        },
+        {
+          "char": "市",
+          "start": 22.99,
+          "end": 23.13,
+          "confidence": 0.9943
+        },
+        {
+          "char": "区",
+          "start": 23.13,
+          "end": 23.31,
+          "confidence": 0.9981
+        },
+        {
+          "char": "交",
+          "start": 23.31,
+          "end": 23.47,
+          "confidence": 0.9948
+        },
+        {
+          "char": "通",
+          "start": 23.47,
+          "end": 23.59,
+          "confidence": 0.9969
+        },
+        {
+          "char": "方",
+          "start": 23.59,
+          "end": 23.79,
+          "confidence": 0.9336
+        },
+        {
+          "char": "便",
+          "start": 23.79,
+          "end": 24.01,
+          "confidence": 0.9923
+        },
+        {
+          "char": "但",
+          "start": 24.27,
+          "end": 24.39,
+          "confidence": 0.1096
+        },
+        {
+          "char": "是",
+          "start": 24.39,
+          "end": 24.55,
+          "confidence": 0.1091
+        },
+        {
+          "char": "房",
+          "start": 24.55,
+          "end": 24.63,
+          "confidence": 0.9296
+        },
+        {
+          "char": "租",
+          "start": 24.63,
+          "end": 24.79,
+          "confidence": 0.9933
+        },
+        {
+          "char": "较",
+          "start": 24.79,
+          "end": 24.97,
+          "confidence": 0.7398
+        },
+        {
+          "char": "高",
+          "start": 24.97,
+          "end": 25.15,
+          "confidence": 0.997
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.1987
+    },
+    {
+      "no": 136,
+      "kind": "word",
+      "text": "郊区",
+      "spoken_text": "郊区。",
+      "pinyin": "jiāoqū",
+      "source_chunk": 7,
+      "speech_start": 25.63,
+      "speech_end": 26.23,
+      "confidence": 0.6328,
+      "characters": [
+        {
+          "char": "郊",
+          "start": 25.63,
+          "end": 25.97,
+          "confidence": 0.5459
+        },
+        {
+          "char": "区",
+          "start": 25.97,
+          "end": 26.23,
+          "confidence": 0.7197
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.19837
+    },
+    {
+      "no": 136,
+      "kind": "example",
+      "text": "他搬到郊区后，每天坐动车上班。",
+      "spoken_text": "他搬到郊区后，每天坐动车上班。",
+      "pinyin": "Tā bān dào jiāoqū hòu, měi tiān zuò dòngchē shàngbān.",
+      "source_chunk": 7,
+      "speech_start": 26.77,
+      "speech_end": 29.31,
+      "confidence": 0.8397,
+      "characters": [
+        {
+          "char": "他",
+          "start": 26.77,
+          "end": 27.07,
+          "confidence": 0.3418
+        },
+        {
+          "char": "搬",
+          "start": 27.07,
+          "end": 27.19,
+          "confidence": 0.9698
+        },
+        {
+          "char": "到",
+          "start": 27.19,
+          "end": 27.31,
+          "confidence": 0.9938
+        },
+        {
+          "char": "郊",
+          "start": 27.31,
+          "end": 27.47,
+          "confidence": 0.9966
+        },
+        {
+          "char": "区",
+          "start": 27.47,
+          "end": 27.71,
+          "confidence": 0.9935
+        },
+        {
+          "char": "后",
+          "start": 27.71,
+          "end": 27.91,
+          "confidence": 0.9112
+        },
+        {
+          "char": "每",
+          "start": 28.23,
+          "end": 28.33,
+          "confidence": 0.9771
+        },
+        {
+          "char": "天",
+          "start": 28.33,
+          "end": 28.49,
+          "confidence": 0.9985
+        },
+        {
+          "char": "坐",
+          "start": 28.49,
+          "end": 28.63,
+          "confidence": 0.2814
+        },
+        {
+          "char": "动",
+          "start": 28.63,
+          "end": 28.79,
+          "confidence": 0.4835
+        },
+        {
+          "char": "车",
+          "start": 28.79,
+          "end": 28.95,
+          "confidence": 0.9958
+        },
+        {
+          "char": "上",
+          "start": 28.95,
+          "end": 29.17,
+          "confidence": 0.9969
+        },
+        {
+          "char": "班",
+          "start": 29.17,
+          "end": 29.31,
+          "confidence": 0.9768
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21661
+    },
+    {
+      "no": 137,
+      "kind": "example",
+      "text": "村里新修了公路，出行方便多了。",
+      "spoken_text": "村里新修了公路，出行方便多了。",
+      "pinyin": "Cūnlǐ xīn xiū le gōnglù, chūxíng fāngbiàn duō le.",
+      "source_chunk": 7,
+      "speech_start": 29.83,
+      "speech_end": 32.15,
+      "confidence": 0.8716,
+      "characters": [
+        {
+          "char": "村",
+          "start": 29.83,
+          "end": 30.05,
+          "confidence": 0.8264
+        },
+        {
+          "char": "里",
+          "start": 30.05,
+          "end": 30.19,
+          "confidence": 0.9855
+        },
+        {
+          "char": "新",
+          "start": 30.19,
+          "end": 30.39,
+          "confidence": 0.3174
+        },
+        {
+          "char": "修",
+          "start": 30.39,
+          "end": 30.53,
+          "confidence": 0.9515
+        },
+        {
+          "char": "了",
+          "start": 30.53,
+          "end": 30.65,
+          "confidence": 0.912
+        },
+        {
+          "char": "公",
+          "start": 30.65,
+          "end": 30.77,
+          "confidence": 0.9068
+        },
+        {
+          "char": "路",
+          "start": 30.77,
+          "end": 30.97,
+          "confidence": 0.9923
+        },
+        {
+          "char": "出",
+          "start": 31.27,
+          "end": 31.37,
+          "confidence": 0.7319
+        },
+        {
+          "char": "行",
+          "start": 31.37,
+          "end": 31.47,
+          "confidence": 0.9576
+        },
+        {
+          "char": "方",
+          "start": 31.47,
+          "end": 31.65,
+          "confidence": 0.9953
+        },
+        {
+          "char": "便",
+          "start": 31.65,
+          "end": 31.77,
+          "confidence": 0.9986
+        },
+        {
+          "char": "多",
+          "start": 31.77,
+          "end": 31.97,
+          "confidence": 0.9796
+        },
+        {
+          "char": "了",
+          "start": 31.97,
+          "end": 32.15,
+          "confidence": 0.7765
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.25634
+    },
+    {
+      "no": 138,
+      "kind": "word",
+      "text": "农村",
+      "spoken_text": "农村。",
+      "pinyin": "nóngcūn",
+      "source_chunk": 7,
+      "speech_start": 32.51,
+      "speech_end": 32.77,
+      "confidence": 0.8364,
+      "characters": [
+        {
+          "char": "农",
+          "start": 32.51,
+          "end": 32.59,
+          "confidence": 0.6733
+        },
+        {
+          "char": "村",
+          "start": 32.59,
+          "end": 32.77,
+          "confidence": 0.9995
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.18789
+    },
+    {
+      "no": 138,
+      "kind": "example",
+      "text": "在农村生活时，我学会了种菜。",
+      "spoken_text": "在农村生活时，我学会了种菜。",
+      "pinyin": "Zài nóngcūn shēnghuó shí, wǒ xuéhuì le zhòngcài.",
+      "source_chunk": 7,
+      "speech_start": 33.07,
+      "speech_end": 35.29,
+      "confidence": 0.7965,
+      "characters": [
+        {
+          "char": "在",
+          "start": 33.07,
+          "end": 33.33,
+          "confidence": 0.9171
+        },
+        {
+          "char": "农",
+          "start": 33.33,
+          "end": 33.47,
+          "confidence": 0.9819
+        },
+        {
+          "char": "村",
+          "start": 33.47,
+          "end": 33.63,
+          "confidence": 0.9996
+        },
+        {
+          "char": "生",
+          "start": 33.63,
+          "end": 33.77,
+          "confidence": 0.0022
+        },
+        {
+          "char": "活",
+          "start": 33.77,
+          "end": 33.93,
+          "confidence": 0.6623
+        },
+        {
+          "char": "时",
+          "start": 33.93,
+          "end": 34.17,
+          "confidence": 0.8718
+        },
+        {
+          "char": "我",
+          "start": 34.43,
+          "end": 34.61,
+          "confidence": 0.9262
+        },
+        {
+          "char": "学",
+          "start": 34.61,
+          "end": 34.71,
+          "confidence": 0.9715
+        },
+        {
+          "char": "会",
+          "start": 34.71,
+          "end": 34.87,
+          "confidence": 0.9535
+        },
+        {
+          "char": "了",
+          "start": 34.87,
+          "end": 34.97,
+          "confidence": 0.9973
+        },
+        {
+          "char": "种",
+          "start": 34.97,
+          "end": 35.09,
+          "confidence": 0.2908
+        },
+        {
+          "char": "菜",
+          "start": 35.09,
+          "end": 35.29,
+          "confidence": 0.9834
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21929
+    },
+    {
+      "no": 139,
+      "kind": "example",
+      "text": "这个区新建了图书馆，居民可以免费阅读。",
+      "spoken_text": "这个区新建了图书馆，居民可以免费阅读。",
+      "pinyin": "Zhè ge qū xīnjiàn le túshūguǎn, jūmín kěyǐ miǎnfèi yuèdú.",
+      "source_chunk": 7,
+      "speech_start": 35.77,
+      "speech_end": 38.65,
+      "confidence": 0.6641,
+      "characters": [
+        {
+          "char": "这",
+          "start": 35.77,
+          "end": 35.97,
+          "confidence": 0.0181
+        },
+        {
+          "char": "个",
+          "start": 35.97,
+          "end": 36.05,
+          "confidence": 0.085
+        },
+        {
+          "char": "区",
+          "start": 36.05,
+          "end": 36.17,
+          "confidence": 0.8939
+        },
+        {
+          "char": "新",
+          "start": 36.17,
+          "end": 36.37,
+          "confidence": 0.3217
+        },
+        {
+          "char": "建",
+          "start": 36.37,
+          "end": 36.49,
+          "confidence": 0.8006
+        },
+        {
+          "char": "了",
+          "start": 36.49,
+          "end": 36.65,
+          "confidence": 0.9265
+        },
+        {
+          "char": "图",
+          "start": 36.65,
+          "end": 36.77,
+          "confidence": 0.8136
+        },
+        {
+          "char": "书",
+          "start": 36.77,
+          "end": 36.91,
+          "confidence": 0.9838
+        },
+        {
+          "char": "馆",
+          "start": 36.91,
+          "end": 37.11,
+          "confidence": 0.9793
+        },
+        {
+          "char": "居",
+          "start": 37.39,
+          "end": 37.51,
+          "confidence": 0.6827
+        },
+        {
+          "char": "民",
+          "start": 37.51,
+          "end": 37.61,
+          "confidence": 0.9964
+        },
+        {
+          "char": "可",
+          "start": 37.61,
+          "end": 37.77,
+          "confidence": 0.0301
+        },
+        {
+          "char": "以",
+          "start": 37.77,
+          "end": 37.89,
+          "confidence": 0.1236
+        },
+        {
+          "char": "免",
+          "start": 37.89,
+          "end": 37.99,
+          "confidence": 0.9941
+        },
+        {
+          "char": "费",
+          "start": 37.99,
+          "end": 38.17,
+          "confidence": 0.9325
+        },
+        {
+          "char": "阅",
+          "start": 38.17,
+          "end": 38.31,
+          "confidence": 0.7857
+        },
+        {
+          "char": "读",
+          "start": 38.31,
+          "end": 38.65,
+          "confidence": 0.9228
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24045
+    },
+    {
+      "no": 140,
+      "kind": "example",
+      "text": "旅游以前，我想先了解这个省的历史。",
+      "spoken_text": "旅游以前，我想先了解这个省的历史。",
+      "pinyin": "Lǚyóu yǐqián, wǒ xiǎng xiān liǎojiě zhè ge shěng de lìshǐ.",
+      "source_chunk": 7,
+      "speech_start": 39.07,
+      "speech_end": 41.59,
+      "confidence": 0.7447,
+      "characters": [
+        {
+          "char": "旅",
+          "start": 39.07,
+          "end": 39.31,
+          "confidence": 0.9553
+        },
+        {
+          "char": "游",
+          "start": 39.31,
+          "end": 39.39,
+          "confidence": 0.9516
+        },
+        {
+          "char": "以",
+          "start": 39.39,
+          "end": 39.51,
+          "confidence": 0.0039
+        },
+        {
+          "char": "前",
+          "start": 39.51,
+          "end": 39.79,
+          "confidence": 0.9428
+        },
+        {
+          "char": "我",
+          "start": 40.17,
+          "end": 40.25,
+          "confidence": 0.0345
+        },
+        {
+          "char": "想",
+          "start": 40.25,
+          "end": 40.35,
+          "confidence": 0.8672
+        },
+        {
+          "char": "先",
+          "start": 40.35,
+          "end": 40.51,
+          "confidence": 0.9938
+        },
+        {
+          "char": "了",
+          "start": 40.51,
+          "end": 40.63,
+          "confidence": 0.9279
+        },
+        {
+          "char": "解",
+          "start": 40.63,
+          "end": 40.81,
+          "confidence": 0.9997
+        },
+        {
+          "char": "这",
+          "start": 40.81,
+          "end": 40.93,
+          "confidence": 0.0068
+        },
+        {
+          "char": "个",
+          "start": 40.93,
+          "end": 41.03,
+          "confidence": 0.5569
+        },
+        {
+          "char": "省",
+          "start": 41.03,
+          "end": 41.13,
+          "confidence": 0.9741
+        },
+        {
+          "char": "的",
+          "start": 41.13,
+          "end": 41.27,
+          "confidence": 0.9649
+        },
+        {
+          "char": "历",
+          "start": 41.27,
+          "end": 41.39,
+          "confidence": 0.9921
+        },
+        {
+          "char": "史",
+          "start": 41.39,
+          "end": 41.59,
+          "confidence": 0.999
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23272
+    },
+    {
+      "no": 141,
+      "kind": "word",
+      "text": "各地",
+      "spoken_text": "各地。",
+      "pinyin": "gèdì",
+      "source_chunk": 7,
+      "speech_start": 41.89,
+      "speech_end": 42.19,
+      "confidence": 0.9526,
+      "characters": [
+        {
+          "char": "各",
+          "start": 41.89,
+          "end": 42.03,
+          "confidence": 0.9141
+        },
+        {
+          "char": "地",
+          "start": 42.03,
+          "end": 42.19,
+          "confidence": 0.9911
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24345
+    },
+    {
+      "no": 141,
+      "kind": "example",
+      "text": "来自各地的游客都想尝尝当地美食。",
+      "spoken_text": "来自各地的游客都想尝尝当地美食。",
+      "pinyin": "Láizì gèdì de yóukè dōu xiǎng chángchang dāngdì měishí.",
+      "source_chunk": 7,
+      "speech_start": 42.55,
+      "speech_end": 45.13,
+      "confidence": 0.9147,
+      "characters": [
+        {
+          "char": "来",
+          "start": 42.55,
+          "end": 42.89,
+          "confidence": 0.3271
+        },
+        {
+          "char": "自",
+          "start": 42.89,
+          "end": 43.01,
+          "confidence": 0.9947
+        },
+        {
+          "char": "各",
+          "start": 43.01,
+          "end": 43.13,
+          "confidence": 0.982
+        },
+        {
+          "char": "地",
+          "start": 43.13,
+          "end": 43.29,
+          "confidence": 0.9984
+        },
+        {
+          "char": "的",
+          "start": 43.29,
+          "end": 43.41,
+          "confidence": 0.9863
+        },
+        {
+          "char": "游",
+          "start": 43.41,
+          "end": 43.53,
+          "confidence": 0.9117
+        },
+        {
+          "char": "客",
+          "start": 43.53,
+          "end": 43.73,
+          "confidence": 0.9859
+        },
+        {
+          "char": "都",
+          "start": 43.73,
+          "end": 43.91,
+          "confidence": 0.9193
+        },
+        {
+          "char": "想",
+          "start": 43.91,
+          "end": 44.05,
+          "confidence": 0.9911
+        },
+        {
+          "char": "尝",
+          "start": 44.05,
+          "end": 44.23,
+          "confidence": 0.9189
+        },
+        {
+          "char": "尝",
+          "start": 44.23,
+          "end": 44.41,
+          "confidence": 0.9815
+        },
+        {
+          "char": "当",
+          "start": 44.41,
+          "end": 44.53,
+          "confidence": 0.9205
+        },
+        {
+          "char": "地",
+          "start": 44.53,
+          "end": 44.67,
+          "confidence": 0.9911
+        },
+        {
+          "char": "美",
+          "start": 44.67,
+          "end": 44.81,
+          "confidence": 0.9888
+        },
+        {
+          "char": "食",
+          "start": 44.81,
+          "end": 45.13,
+          "confidence": 0.823
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21416
+    },
+    {
+      "no": 142,
+      "kind": "word",
+      "text": "北部",
+      "spoken_text": "北部。",
+      "pinyin": "běibù",
+      "source_chunk": 7,
+      "speech_start": 45.61,
+      "speech_end": 45.99,
+      "confidence": 0.8276,
+      "characters": [
+        {
+          "char": "北",
+          "start": 45.61,
+          "end": 45.73,
+          "confidence": 0.9433
+        },
+        {
+          "char": "部",
+          "start": 45.73,
+          "end": 45.99,
+          "confidence": 0.712
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21057
+    },
+    {
+      "no": 142,
+      "kind": "example",
+      "text": "冬天去北部旅行，一定要带厚衣服。",
+      "spoken_text": "冬天去北部旅行，一定要带厚衣服。",
+      "pinyin": "Dōngtiān qù běibù lǚxíng, yídìng yào dài hòu yīfu.",
+      "source_chunk": 7,
+      "speech_start": 46.47,
+      "speech_end": 48.99,
+      "confidence": 0.7869,
+      "characters": [
+        {
+          "char": "冬",
+          "start": 46.47,
+          "end": 46.71,
+          "confidence": 0.9772
+        },
+        {
+          "char": "天",
+          "start": 46.71,
+          "end": 46.85,
+          "confidence": 0.9996
+        },
+        {
+          "char": "去",
+          "start": 46.85,
+          "end": 46.99,
+          "confidence": 0.9886
+        },
+        {
+          "char": "北",
+          "start": 46.99,
+          "end": 47.11,
+          "confidence": 0.9996
+        },
+        {
+          "char": "部",
+          "start": 47.11,
+          "end": 47.29,
+          "confidence": 0.988
+        },
+        {
+          "char": "旅",
+          "start": 47.29,
+          "end": 47.43,
+          "confidence": 0.9812
+        },
+        {
+          "char": "行",
+          "start": 47.43,
+          "end": 47.67,
+          "confidence": 0.997
+        },
+        {
+          "char": "一",
+          "start": 48.05,
+          "end": 48.11,
+          "confidence": 0.0006
+        },
+        {
+          "char": "定",
+          "start": 48.11,
+          "end": 48.17,
+          "confidence": 0.0032
+        },
+        {
+          "char": "要",
+          "start": 48.17,
+          "end": 48.31,
+          "confidence": 0.7829
+        },
+        {
+          "char": "带",
+          "start": 48.31,
+          "end": 48.41,
+          "confidence": 0.6954
+        },
+        {
+          "char": "厚",
+          "start": 48.41,
+          "end": 48.63,
+          "confidence": 0.6933
+        },
+        {
+          "char": "衣",
+          "start": 48.63,
+          "end": 48.79,
+          "confidence": 0.9521
+        },
+        {
+          "char": "服",
+          "start": 48.79,
+          "end": 48.99,
+          "confidence": 0.9585
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22396
+    },
+    {
+      "no": 143,
+      "kind": "word",
+      "text": "东部",
+      "spoken_text": "东部。",
+      "pinyin": "dōngbù",
+      "source_chunk": 7,
+      "speech_start": 49.39,
+      "speech_end": 49.73,
+      "confidence": 0.359,
+      "characters": [
+        {
+          "char": "东",
+          "start": 49.39,
+          "end": 49.53,
+          "confidence": 0.1355
+        },
+        {
+          "char": "部",
+          "start": 49.53,
+          "end": 49.73,
+          "confidence": 0.5825
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.31606
+    },
+    {
+      "no": 143,
+      "kind": "example",
+      "text": "工厂建在城市东部，离我们学校不远。",
+      "spoken_text": "工厂建在城市东部，离我们学校不远。",
+      "pinyin": "Gōngchǎng jiàn zài chéngshì dōngbù, lí wǒmen xuéxiào bùyuǎn.",
+      "source_chunk": 7,
+      "speech_start": 50.07,
+      "speech_end": 52.97,
+      "confidence": 0.7824,
+      "characters": [
+        {
+          "char": "工",
+          "start": 50.07,
+          "end": 50.41,
+          "confidence": 0.894
+        },
+        {
+          "char": "厂",
+          "start": 50.41,
+          "end": 50.63,
+          "confidence": 0.9542
+        },
+        {
+          "char": "建",
+          "start": 50.63,
+          "end": 50.83,
+          "confidence": 0.918
+        },
+        {
+          "char": "在",
+          "start": 50.83,
+          "end": 50.97,
+          "confidence": 0.9579
+        },
+        {
+          "char": "城",
+          "start": 50.97,
+          "end": 51.15,
+          "confidence": 0.9883
+        },
+        {
+          "char": "市",
+          "start": 51.15,
+          "end": 51.31,
+          "confidence": 0.9929
+        },
+        {
+          "char": "东",
+          "start": 51.31,
+          "end": 51.45,
+          "confidence": 0.9854
+        },
+        {
+          "char": "部",
+          "start": 51.45,
+          "end": 51.69,
+          "confidence": 0.9568
+        },
+        {
+          "char": "离",
+          "start": 52.07,
+          "end": 52.17,
+          "confidence": 0.4912
+        },
+        {
+          "char": "我",
+          "start": 52.17,
+          "end": 52.23,
+          "confidence": 0.0033
+        },
+        {
+          "char": "们",
+          "start": 52.23,
+          "end": 52.33,
+          "confidence": 0.0372
+        },
+        {
+          "char": "学",
+          "start": 52.33,
+          "end": 52.43,
+          "confidence": 0.9797
+        },
+        {
+          "char": "校",
+          "start": 52.43,
+          "end": 52.59,
+          "confidence": 0.9984
+        },
+        {
+          "char": "不",
+          "start": 52.59,
+          "end": 52.75,
+          "confidence": 0.611
+        },
+        {
+          "char": "远",
+          "start": 52.75,
+          "end": 52.97,
+          "confidence": 0.9674
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23445
+    },
+    {
+      "no": 144,
+      "kind": "word",
+      "text": "南部",
+      "spoken_text": "南部。",
+      "pinyin": "nánbù",
+      "source_chunk": 7,
+      "speech_start": 53.41,
+      "speech_end": 53.89,
+      "confidence": 0.959,
+      "characters": [
+        {
+          "char": "南",
+          "start": 53.41,
+          "end": 53.63,
+          "confidence": 0.9309
+        },
+        {
+          "char": "部",
+          "start": 53.63,
+          "end": 53.89,
+          "confidence": 0.9872
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.21133
+    },
+    {
+      "no": 144,
+      "kind": "example",
+      "text": "他在南部工作了几年，已经习惯那儿的气候。",
+      "spoken_text": "他在南部工作了几年，已经习惯那儿的气候。",
+      "pinyin": "Tā zài nánbù gōngzuò le jǐ nián, yǐjīng xíguàn nàr de qìhòu.",
+      "source_chunk": 7,
+      "speech_start": 54.31,
+      "speech_end": 57.39,
+      "confidence": 0.6244,
+      "characters": [
+        {
+          "char": "他",
+          "start": 54.31,
+          "end": 54.49,
+          "confidence": 0.4286
+        },
+        {
+          "char": "在",
+          "start": 54.49,
+          "end": 54.61,
+          "confidence": 0.9912
+        },
+        {
+          "char": "南",
+          "start": 54.61,
+          "end": 54.75,
+          "confidence": 0.9997
+        },
+        {
+          "char": "部",
+          "start": 54.75,
+          "end": 54.97,
+          "confidence": 0.9988
+        },
+        {
+          "char": "工",
+          "start": 54.97,
+          "end": 55.11,
+          "confidence": 0.0006
+        },
+        {
+          "char": "作",
+          "start": 55.11,
+          "end": 55.29,
+          "confidence": 0.1832
+        },
+        {
+          "char": "了",
+          "start": 55.29,
+          "end": 55.41,
+          "confidence": 0.9742
+        },
+        {
+          "char": "几",
+          "start": 55.41,
+          "end": 55.57,
+          "confidence": 0.9989
+        },
+        {
+          "char": "年",
+          "start": 55.57,
+          "end": 55.87,
+          "confidence": 0.9968
+        },
+        {
+          "char": "已",
+          "start": 56.23,
+          "end": 56.31,
+          "confidence": 0.0398
+        },
+        {
+          "char": "经",
+          "start": 56.31,
+          "end": 56.37,
+          "confidence": 0.0
+        },
+        {
+          "char": "习",
+          "start": 56.37,
+          "end": 56.59,
+          "confidence": 0.9581
+        },
+        {
+          "char": "惯",
+          "start": 56.59,
+          "end": 56.71,
+          "confidence": 0.9046
+        },
+        {
+          "char": "那",
+          "start": 56.71,
+          "end": 56.87,
+          "confidence": 0.3609
+        },
+        {
+          "char": "儿",
+          "start": 56.87,
+          "end": 56.97,
+          "confidence": 0.3871
+        },
+        {
+          "char": "的",
+          "start": 56.97,
+          "end": 57.01,
+          "confidence": 0.9376
+        },
+        {
+          "char": "气",
+          "start": 57.01,
+          "end": 57.19,
+          "confidence": 0.0846
+        },
+        {
+          "char": "候",
+          "start": 57.19,
+          "end": 57.39,
+          "confidence": 0.9946
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23302
+    },
+    {
+      "no": 145,
+      "kind": "word",
+      "text": "西部",
+      "spoken_text": "西部。",
+      "pinyin": "xībù",
+      "source_chunk": 7,
+      "speech_start": 57.85,
+      "speech_end": 58.25,
+      "confidence": 0.6316,
+      "characters": [
+        {
+          "char": "西",
+          "start": 57.85,
+          "end": 58.07,
+          "confidence": 0.3607
+        },
+        {
+          "char": "部",
+          "start": 58.07,
+          "end": 58.25,
+          "confidence": 0.9025
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22093
+    },
+    {
+      "no": 145,
+      "kind": "example",
+      "text": "这次去西部旅行，我拍了许多风景照片。",
+      "spoken_text": "这次去西部旅行，我拍了许多风景照片。",
+      "pinyin": "Zhè cì qù xībù lǚxíng, wǒ pāi le xǔduō fēngjǐng zhàopiàn.",
+      "source_chunk": 7,
+      "speech_start": 58.56,
+      "speech_end": 61.58,
+      "confidence": 0.9074,
+      "characters": [
+        {
+          "char": "这",
+          "start": 58.56,
+          "end": 58.92,
+          "confidence": 0.3615
+        },
+        {
+          "char": "次",
+          "start": 58.92,
+          "end": 59.06,
+          "confidence": 0.9965
+        },
+        {
+          "char": "去",
+          "start": 59.06,
+          "end": 59.2,
+          "confidence": 0.9802
+        },
+        {
+          "char": "西",
+          "start": 59.2,
+          "end": 59.38,
+          "confidence": 0.9965
+        },
+        {
+          "char": "部",
+          "start": 59.38,
+          "end": 59.54,
+          "confidence": 0.9883
+        },
+        {
+          "char": "旅",
+          "start": 59.54,
+          "end": 59.66,
+          "confidence": 0.9618
+        },
+        {
+          "char": "行",
+          "start": 59.66,
+          "end": 59.9,
+          "confidence": 0.9951
+        },
+        {
+          "char": "我",
+          "start": 60.32,
+          "end": 60.36,
+          "confidence": 0.7935
+        },
+        {
+          "char": "拍",
+          "start": 60.36,
+          "end": 60.48,
+          "confidence": 0.854
+        },
+        {
+          "char": "了",
+          "start": 60.48,
+          "end": 60.6,
+          "confidence": 0.9972
+        },
+        {
+          "char": "许",
+          "start": 60.6,
+          "end": 60.76,
+          "confidence": 0.9633
+        },
+        {
+          "char": "多",
+          "start": 60.76,
+          "end": 60.92,
+          "confidence": 0.9975
+        },
+        {
+          "char": "风",
+          "start": 60.92,
+          "end": 61.06,
+          "confidence": 0.6629
+        },
+        {
+          "char": "景",
+          "start": 61.06,
+          "end": 61.18,
+          "confidence": 0.9811
+        },
+        {
+          "char": "照",
+          "start": 61.18,
+          "end": 61.38,
+          "confidence": 0.9917
+        },
+        {
+          "char": "片",
+          "start": 61.38,
+          "end": 61.58,
+          "confidence": 0.9973
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23309
+    },
+    {
+      "no": 146,
+      "kind": "word",
+      "text": "亚洲",
+      "spoken_text": "亚洲。",
+      "pinyin": "Yàzhōu",
+      "source_chunk": 7,
+      "speech_start": 62.12,
+      "speech_end": 62.48,
+      "confidence": 0.9434,
+      "characters": [
+        {
+          "char": "亚",
+          "start": 62.12,
+          "end": 62.24,
+          "confidence": 0.9545
+        },
+        {
+          "char": "洲",
+          "start": 62.24,
+          "end": 62.48,
+          "confidence": 0.9322
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.20009
+    },
+    {
+      "no": 146,
+      "kind": "example",
+      "text": "她计划明年去亚洲的几个国家旅行。",
+      "spoken_text": "她计划明年去亚洲的几个国家旅行。",
+      "pinyin": "Tā jìhuà míngnián qù Yàzhōu de jǐ gè guójiā lǚxíng.",
+      "source_chunk": 7,
+      "speech_start": 62.88,
+      "speech_end": 65.26,
+      "confidence": 0.9254,
+      "characters": [
+        {
+          "char": "她",
+          "start": 62.88,
+          "end": 63.1,
+          "confidence": 0.073
+        },
+        {
+          "char": "计",
+          "start": 63.1,
+          "end": 63.24,
+          "confidence": 0.9654
+        },
+        {
+          "char": "划",
+          "start": 63.24,
+          "end": 63.36,
+          "confidence": 0.948
+        },
+        {
+          "char": "明",
+          "start": 63.36,
+          "end": 63.5,
+          "confidence": 0.9737
+        },
+        {
+          "char": "年",
+          "start": 63.5,
+          "end": 63.68,
+          "confidence": 0.9871
+        },
+        {
+          "char": "去",
+          "start": 63.68,
+          "end": 63.88,
+          "confidence": 0.9723
+        },
+        {
+          "char": "亚",
+          "start": 63.88,
+          "end": 64.04,
+          "confidence": 0.9986
+        },
+        {
+          "char": "洲",
+          "start": 64.04,
+          "end": 64.22,
+          "confidence": 0.9961
+        },
+        {
+          "char": "的",
+          "start": 64.22,
+          "end": 64.32,
+          "confidence": 0.9884
+        },
+        {
+          "char": "几",
+          "start": 64.32,
+          "end": 64.44,
+          "confidence": 0.9915
+        },
+        {
+          "char": "个",
+          "start": 64.44,
+          "end": 64.56,
+          "confidence": 0.9968
+        },
+        {
+          "char": "国",
+          "start": 64.56,
+          "end": 64.7,
+          "confidence": 0.9948
+        },
+        {
+          "char": "家",
+          "start": 64.7,
+          "end": 64.82,
+          "confidence": 0.9993
+        },
+        {
+          "char": "旅",
+          "start": 64.82,
+          "end": 65.0,
+          "confidence": 0.9993
+        },
+        {
+          "char": "行",
+          "start": 65.0,
+          "end": 65.26,
+          "confidence": 0.9967
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.26693
+    },
+    {
+      "no": 147,
+      "kind": "word",
+      "text": "全球",
+      "spoken_text": "全球。",
+      "pinyin": "quánqiú",
+      "source_chunk": 7,
+      "speech_start": 65.72,
+      "speech_end": 66.32,
+      "confidence": 0.9829,
+      "characters": [
+        {
+          "char": "全",
+          "start": 65.72,
+          "end": 66.0,
+          "confidence": 0.9692
+        },
+        {
+          "char": "球",
+          "start": 66.0,
+          "end": 66.32,
+          "confidence": 0.9967
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.15652
+    },
+    {
+      "no": 147,
+      "kind": "example",
+      "text": "保护环境需要全球各国共同努力。",
+      "spoken_text": "保护环境需要全球各国共同努力。",
+      "pinyin": "Bǎohù huánjìng xūyào quánqiú gèguó gòngtóng nǔlì.",
+      "source_chunk": 7,
+      "speech_start": 66.74,
+      "speech_end": 69.64,
+      "confidence": 0.7821,
+      "characters": [
+        {
+          "char": "保",
+          "start": 66.74,
+          "end": 67.14,
+          "confidence": 0.9735
+        },
+        {
+          "char": "护",
+          "start": 67.14,
+          "end": 67.28,
+          "confidence": 0.5179
+        },
+        {
+          "char": "环",
+          "start": 67.28,
+          "end": 67.48,
+          "confidence": 0.983
+        },
+        {
+          "char": "境",
+          "start": 67.48,
+          "end": 67.66,
+          "confidence": 0.9988
+        },
+        {
+          "char": "需",
+          "start": 67.66,
+          "end": 67.96,
+          "confidence": 0.0026
+        },
+        {
+          "char": "要",
+          "start": 67.96,
+          "end": 68.1,
+          "confidence": 0.0498
+        },
+        {
+          "char": "全",
+          "start": 68.1,
+          "end": 68.28,
+          "confidence": 0.9907
+        },
+        {
+          "char": "球",
+          "start": 68.28,
+          "end": 68.52,
+          "confidence": 0.9998
+        },
+        {
+          "char": "各",
+          "start": 68.52,
+          "end": 68.68,
+          "confidence": 0.9955
+        },
+        {
+          "char": "国",
+          "start": 68.68,
+          "end": 68.86,
+          "confidence": 0.4909
+        },
+        {
+          "char": "共",
+          "start": 68.86,
+          "end": 69.04,
+          "confidence": 0.9983
+        },
+        {
+          "char": "同",
+          "start": 69.04,
+          "end": 69.22,
+          "confidence": 0.9948
+        },
+        {
+          "char": "努",
+          "start": 69.22,
+          "end": 69.4,
+          "confidence": 0.9536
+        },
+        {
+          "char": "力",
+          "start": 69.4,
+          "end": 69.64,
+          "confidence": 0.9999
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.23785
+    },
+    {
+      "no": 148,
+      "kind": "word",
+      "text": "国际",
+      "spoken_text": "国际。",
+      "pinyin": "guójì",
+      "source_chunk": 7,
+      "speech_start": 70.12,
+      "speech_end": 70.54,
+      "confidence": 0.9114,
+      "characters": [
+        {
+          "char": "国",
+          "start": 70.12,
+          "end": 70.36,
+          "confidence": 0.9214
+        },
+        {
+          "char": "际",
+          "start": 70.36,
+          "end": 70.54,
+          "confidence": 0.9014
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.10803
+    },
+    {
+      "no": 148,
+      "kind": "example",
+      "text": "这次国际比赛吸引了许多优秀选手。",
+      "spoken_text": "这次国际比赛吸引了许多优秀选手。",
+      "pinyin": "Zhè cì guójì bǐsài xīyǐn le xǔduō yōuxiù xuǎnshǒu.",
+      "source_chunk": 7,
+      "speech_start": 70.86,
+      "speech_end": 73.3,
+      "confidence": 0.9702,
+      "characters": [
+        {
+          "char": "这",
+          "start": 70.86,
+          "end": 71.0,
+          "confidence": 0.9468
+        },
+        {
+          "char": "次",
+          "start": 71.0,
+          "end": 71.1,
+          "confidence": 0.998
+        },
+        {
+          "char": "国",
+          "start": 71.1,
+          "end": 71.24,
+          "confidence": 0.9846
+        },
+        {
+          "char": "际",
+          "start": 71.24,
+          "end": 71.38,
+          "confidence": 0.9994
+        },
+        {
+          "char": "比",
+          "start": 71.38,
+          "end": 71.52,
+          "confidence": 0.9995
+        },
+        {
+          "char": "赛",
+          "start": 71.52,
+          "end": 71.76,
+          "confidence": 0.9971
+        },
+        {
+          "char": "吸",
+          "start": 71.76,
+          "end": 72.04,
+          "confidence": 0.8232
+        },
+        {
+          "char": "引",
+          "start": 72.04,
+          "end": 72.14,
+          "confidence": 0.9968
+        },
+        {
+          "char": "了",
+          "start": 72.14,
+          "end": 72.22,
+          "confidence": 0.9912
+        },
+        {
+          "char": "许",
+          "start": 72.22,
+          "end": 72.44,
+          "confidence": 0.9623
+        },
+        {
+          "char": "多",
+          "start": 72.44,
+          "end": 72.62,
+          "confidence": 0.9992
+        },
+        {
+          "char": "优",
+          "start": 72.62,
+          "end": 72.78,
+          "confidence": 0.8802
+        },
+        {
+          "char": "秀",
+          "start": 72.78,
+          "end": 72.9,
+          "confidence": 0.998
+        },
+        {
+          "char": "选",
+          "start": 72.9,
+          "end": 73.1,
+          "confidence": 0.9873
+        },
+        {
+          "char": "手",
+          "start": 73.1,
+          "end": 73.3,
+          "confidence": 0.9892
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24915
+    },
+    {
+      "no": 149,
+      "kind": "word",
+      "text": "国籍",
+      "spoken_text": "国籍。",
+      "pinyin": "guójí",
+      "source_chunk": 7,
+      "speech_start": 73.86,
+      "speech_end": 74.3,
+      "confidence": 0.7398,
+      "characters": [
+        {
+          "char": "国",
+          "start": 73.86,
+          "end": 74.06,
+          "confidence": 0.966
+        },
+        {
+          "char": "籍",
+          "start": 74.06,
+          "end": 74.3,
+          "confidence": 0.5136
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.16795
+    },
+    {
+      "no": 149,
+      "kind": "example",
+      "text": "申请签证时，需要填写自己的国籍。",
+      "spoken_text": "申请签证时，需要填写自己的国籍。",
+      "pinyin": "Shēnqǐng qiānzhèng shí, xūyào tiánxiě zìjǐ de guójí.",
+      "source_chunk": 7,
+      "speech_start": 74.63,
+      "speech_end": 77.57,
+      "confidence": 0.7137,
+      "characters": [
+        {
+          "char": "申",
+          "start": 74.63,
+          "end": 75.15,
+          "confidence": 0.9686
+        },
+        {
+          "char": "请",
+          "start": 75.15,
+          "end": 75.33,
+          "confidence": 0.9858
+        },
+        {
+          "char": "签",
+          "start": 75.33,
+          "end": 75.45,
+          "confidence": 0.9399
+        },
+        {
+          "char": "证",
+          "start": 75.45,
+          "end": 75.61,
+          "confidence": 0.9827
+        },
+        {
+          "char": "时",
+          "start": 75.61,
+          "end": 75.99,
+          "confidence": 0.9755
+        },
+        {
+          "char": "需",
+          "start": 76.27,
+          "end": 76.35,
+          "confidence": 0.0022
+        },
+        {
+          "char": "要",
+          "start": 76.35,
+          "end": 76.47,
+          "confidence": 0.331
+        },
+        {
+          "char": "填",
+          "start": 76.47,
+          "end": 76.63,
+          "confidence": 0.8919
+        },
+        {
+          "char": "写",
+          "start": 76.63,
+          "end": 76.77,
+          "confidence": 0.9947
+        },
+        {
+          "char": "自",
+          "start": 76.77,
+          "end": 76.93,
+          "confidence": 0.0024
+        },
+        {
+          "char": "己",
+          "start": 76.93,
+          "end": 77.03,
+          "confidence": 0.0002
+        },
+        {
+          "char": "的",
+          "start": 77.03,
+          "end": 77.13,
+          "confidence": 0.9398
+        },
+        {
+          "char": "国",
+          "start": 77.13,
+          "end": 77.29,
+          "confidence": 0.9793
+        },
+        {
+          "char": "籍",
+          "start": 77.29,
+          "end": 77.57,
+          "confidence": 0.9982
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.22725
+    },
+    {
+      "no": 150,
+      "kind": "word",
+      "text": "民族",
+      "spoken_text": "民族。",
+      "pinyin": "mínzú",
+      "source_chunk": 7,
+      "speech_start": 77.89,
+      "speech_end": 78.41,
+      "confidence": 0.9554,
+      "characters": [
+        {
+          "char": "民",
+          "start": 77.89,
+          "end": 78.11,
+          "confidence": 0.9584
+        },
+        {
+          "char": "族",
+          "start": 78.11,
+          "end": 78.41,
+          "confidence": 0.9524
+        }
+      ],
+      "independent_asr_coverage": 1.0,
+      "rms": 0.24235
+    }
+  ],
+  "windows": [
+    {
+      "first_clip": 0,
+      "last_clip": 4,
+      "start": 0,
+      "end": 11.19,
+      "text": "请在入口排队，不要影响别人进入。出口。跟着出口的标志走，就能找到停车场。地址。搬家以后，请及时告诉我你的新地址。"
+    },
+    {
+      "first_clip": 3,
+      "last_clip": 8,
+      "start": 5.88,
+      "end": 18.979999999999997,
+      "text": "地址。搬家以后，请及时告诉我你的新地址。家乡。每次提到家乡，她都会讲起那条河。老家。我打算利用假日，带孩子回老家看看。"
+    },
+    {
+      "first_clip": 7,
+      "last_clip": 12,
+      "start": 13.79,
+      "end": 27.11,
+      "text": "老家。我打算利用假日，带孩子回老家看看。这座城虽然不大，却有许多著名景点。市区。住在市区交通方便，但是房租较高。郊区。"
+    },
+    {
+      "first_clip": 11,
+      "last_clip": 16,
+      "start": 21.770000000000003,
+      "end": 36.13,
+      "text": "住在市区交通方便，但是房租较高。郊区。他搬到郊区后，每天坐动车上班。村里新修了公路，出行方便多了。农村。在农村生活时，我学会了种菜。"
+    },
+    {
+      "first_clip": 15,
+      "last_clip": 20,
+      "start": 31.590000000000003,
+      "end": 45.85,
+      "text": "农村。在农村生活时，我学会了种菜。这个区新建了图书馆，居民可以免费阅读。旅游以前，我想先了解这个省的历史。各地。来自各地的游客都想尝尝当地美食。"
+    },
+    {
+      "first_clip": 19,
+      "last_clip": 24,
+      "start": 40.95,
+      "end": 53.589999999999996,
+      "text": "各地。来自各地的游客都想尝尝当地美食。北部。冬天去北部旅行，一定要带厚衣服。东部。工厂建在城市东部，离我们学校不远。"
+    },
+    {
+      "first_clip": 23,
+      "last_clip": 28,
+      "start": 48.35,
+      "end": 62.49999999999999,
+      "text": "东部。工厂建在城市东部，离我们学校不远。南部。他在南部工作了几年，已经习惯那儿的气候。西部。这次去西部旅行，我拍了许多风景照片。"
+    },
+    {
+      "first_clip": 27,
+      "last_clip": 32,
+      "start": 56.86000000000001,
+      "end": 70.49000000000001,
+      "text": "西部。这次去西部旅行，我拍了许多风景照片。亚洲。她计划明年去亚洲的几个国家旅行。全球。保护环境需要全球各国共同努力。"
+    },
+    {
+      "first_clip": 31,
+      "last_clip": 36,
+      "start": 64.82,
+      "end": 78.42,
+      "text": "全球。保护环境需要全球各国共同努力。国际。这次国际比赛吸引了许多优秀选手。国籍。申请签证时，需要填写自己的国籍。"
+    },
+    {
+      "first_clip": 35,
+      "last_clip": 37,
+      "start": 72.88999999999999,
+      "end": 78.648,
+      "text": "国籍。申请签证时，需要填写自己的国籍。民族。"
+    }
+  ],
+  "alerts": []
+}
