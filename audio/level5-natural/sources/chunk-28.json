@@ -3955,6 +3955,10 @@
   "requested_engine": "heygen_voice",
   "requested_speed": 0.85,
   "language": "zh",
-  "native_file": "audio/level5-natural/sources/chunk-28.wav",
-  "native_sha256": "8c89656e65fc2701ddd569ffb1404bb407d5c69dcc919635db239b9d82c06ca0"
+  "original_native_file_name": "chunk-28.wav",
+  "original_native_sha256": "8c89656e65fc2701ddd569ffb1404bb407d5c69dcc919635db239b9d82c06ca0",
+  "archive_file": "audio/level5-natural/sources/chunk-28.flac",
+  "archive_sha256": "29a4b2acc2c1b297dd7a898859f330166387d51f9a6cf9c0409999015e472a54",
+  "decoded_pcm_sha256": "5e8255c9a71d11d93410e1ae04a6e563bcc1ea757699f3bf500b3d73fab43ea8",
+  "archive_format": "FLAC; sample-for-sample lossless PCM copy of original WAV"
 }
