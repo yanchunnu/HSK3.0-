@@ -1,0 +1,2573 @@
+{
+  "chunk": 34,
+  "duration": 80.89475,
+  "transcript_match_ratio": 0.9859,
+  "timing_method": "Provider character timestamps, independently checked against Mandarin transcription and waveform energy",
+  "clips": [
+    {
+      "no": 573,
+      "kind": "example",
+      "text": "选择房屋中介时，应核实资质并了解收费标准。",
+      "spoken_text": "选择房屋中介时，应核实资质并了解收费标准。",
+      "pinyin": "Xuǎnzé fángwū zhōngjiè shí, yīng héshí zīzhì bìng liǎojiě shōufèi biāozhǔn.",
+      "source_chunk": 34,
+      "speech_start": 0.256,
+      "speech_end": 3.925,
+      "independent_asr_coverage": 0.947,
+      "characters": [
+        {
+          "char": "选",
+          "start": 0.256,
+          "end": 0.427,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "择",
+          "start": 0.427,
+          "end": 0.597,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "房",
+          "start": 0.597,
+          "end": 0.725,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "屋",
+          "start": 0.725,
+          "end": 0.853,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "中",
+          "start": 0.853,
+          "end": 0.981,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "介",
+          "start": 0.981,
+          "end": 1.195,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "时",
+          "start": 1.195,
+          "end": 1.451,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "应",
+          "start": 1.664,
+          "end": 1.92,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "核",
+          "start": 1.92,
+          "end": 2.133,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "实",
+          "start": 2.133,
+          "end": 2.304,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "资",
+          "start": 2.304,
+          "end": 2.517,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "质",
+          "start": 2.517,
+          "end": 2.773,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "并",
+          "start": 2.773,
+          "end": 2.944,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "了",
+          "start": 2.944,
+          "end": 3.115,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "解",
+          "start": 3.115,
+          "end": 3.285,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "收",
+          "start": 3.285,
+          "end": 3.456,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "费",
+          "start": 3.456,
+          "end": 3.584,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "标",
+          "start": 3.584,
+          "end": 3.755,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "准",
+          "start": 3.755,
+          "end": 3.925,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.239907
+    },
+    {
+      "no": 574,
+      "kind": "word",
+      "text": "保险",
+      "spoken_text": "保险。",
+      "pinyin": "bǎoxiǎn",
+      "source_chunk": 34,
+      "speech_start": 4.224,
+      "speech_end": 4.608,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "保",
+          "start": 4.224,
+          "end": 4.395,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "险",
+          "start": 4.395,
+          "end": 4.608,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.156177
+    },
+    {
+      "no": 574,
+      "kind": "example",
+      "text": "购买旅游保险之前，要了解清楚保障范围。",
+      "spoken_text": "购买旅游保险之前，要了解清楚保障范围。",
+      "pinyin": "Gòumǎi lǚyóu bǎoxiǎn zhīqián, yào liǎojiě qīngchu bǎozhàng fànwéi.",
+      "source_chunk": 34,
+      "speech_start": 5.077,
+      "speech_end": 8.149,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "购",
+          "start": 5.077,
+          "end": 5.248,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "买",
+          "start": 5.248,
+          "end": 5.419,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "旅",
+          "start": 5.419,
+          "end": 5.547,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "游",
+          "start": 5.547,
+          "end": 5.632,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "保",
+          "start": 5.632,
+          "end": 5.803,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "险",
+          "start": 5.803,
+          "end": 5.931,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "之",
+          "start": 5.931,
+          "end": 6.101,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "前",
+          "start": 6.101,
+          "end": 6.315,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "要",
+          "start": 6.613,
+          "end": 6.784,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "了",
+          "start": 6.784,
+          "end": 6.912,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "解",
+          "start": 6.912,
+          "end": 7.083,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "清",
+          "start": 7.083,
+          "end": 7.296,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "楚",
+          "start": 7.296,
+          "end": 7.467,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "保",
+          "start": 7.467,
+          "end": 7.637,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "障",
+          "start": 7.637,
+          "end": 7.765,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "范",
+          "start": 7.765,
+          "end": 7.979,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "围",
+          "start": 7.979,
+          "end": 8.149,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.262296
+    },
+    {
+      "no": 575,
+      "kind": "word",
+      "text": "成本",
+      "spoken_text": "成本。",
+      "pinyin": "chéngběn",
+      "source_chunk": 34,
+      "speech_start": 8.491,
+      "speech_end": 8.917,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "成",
+          "start": 8.491,
+          "end": 8.704,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "本",
+          "start": 8.704,
+          "end": 8.917,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.284504
+    },
+    {
+      "no": 575,
+      "kind": "example",
+      "text": "使用统一零件，能降低维修成本并提高效率。",
+      "spoken_text": "使用统一零件，能降低维修成本并提高效率。",
+      "pinyin": "Shǐyòng tǒngyī língjiàn, néng jiàngdī wéixiū chéngběn bìng tígāo xiàolǜ.",
+      "source_chunk": 34,
+      "speech_start": 9.088,
+      "speech_end": 12.666,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "使",
+          "start": 9.088,
+          "end": 9.253,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "用",
+          "start": 9.253,
+          "end": 9.423,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "统",
+          "start": 9.423,
+          "end": 9.594,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "一",
+          "start": 9.594,
+          "end": 9.765,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "零",
+          "start": 9.765,
+          "end": 9.935,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "件",
+          "start": 9.935,
+          "end": 10.149,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "能",
+          "start": 10.405,
+          "end": 10.575,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "降",
+          "start": 10.575,
+          "end": 10.789,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "低",
+          "start": 10.789,
+          "end": 10.917,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "维",
+          "start": 10.917,
+          "end": 11.087,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "修",
+          "start": 11.087,
+          "end": 11.258,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "成",
+          "start": 11.258,
+          "end": 11.471,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "本",
+          "start": 11.471,
+          "end": 11.642,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "并",
+          "start": 11.642,
+          "end": 11.941,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "提",
+          "start": 11.941,
+          "end": 12.154,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "高",
+          "start": 12.154,
+          "end": 12.282,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "效",
+          "start": 12.282,
+          "end": 12.495,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "率",
+          "start": 12.495,
+          "end": 12.666,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.230088
+    },
+    {
+      "no": 576,
+      "kind": "word",
+      "text": "充值",
+      "spoken_text": "充值。",
+      "pinyin": "chōngzhí",
+      "source_chunk": 34,
+      "speech_start": 13.093,
+      "speech_end": 13.519,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "充",
+          "start": 13.093,
+          "end": 13.306,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "值",
+          "start": 13.306,
+          "end": 13.519,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.272724
+    },
+    {
+      "no": 576,
+      "kind": "example",
+      "text": "公交卡可以通过手机充值，不必再到窗口排队。",
+      "spoken_text": "公交卡可以通过手机充值，不必再到窗口排队。",
+      "pinyin": "Gōngjiāo kǎ kěyǐ tōngguò shǒujī chōngzhí, búbì zài dào chuāngkǒu páiduì.",
+      "source_chunk": 34,
+      "speech_start": 14.117,
+      "speech_end": 17.445,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "公",
+          "start": 14.117,
+          "end": 14.287,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "交",
+          "start": 14.287,
+          "end": 14.458,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "卡",
+          "start": 14.458,
+          "end": 14.714,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "可",
+          "start": 14.714,
+          "end": 14.885,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "以",
+          "start": 14.885,
+          "end": 14.927,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "通",
+          "start": 14.927,
+          "end": 15.098,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "过",
+          "start": 15.098,
+          "end": 15.226,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "手",
+          "start": 15.226,
+          "end": 15.397,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "机",
+          "start": 15.397,
+          "end": 15.567,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "充",
+          "start": 15.567,
+          "end": 15.738,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "值",
+          "start": 15.738,
+          "end": 15.994,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "不",
+          "start": 16.25,
+          "end": 16.421,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "必",
+          "start": 16.421,
+          "end": 16.549,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "再",
+          "start": 16.549,
+          "end": 16.677,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "到",
+          "start": 16.677,
+          "end": 16.762,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "窗",
+          "start": 16.762,
+          "end": 16.975,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "口",
+          "start": 16.975,
+          "end": 17.103,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "排",
+          "start": 17.103,
+          "end": 17.274,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "队",
+          "start": 17.274,
+          "end": 17.445,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.231055
+    },
+    {
+      "no": 577,
+      "kind": "word",
+      "text": "存款",
+      "spoken_text": "存款。",
+      "pinyin": "cúnkuǎn",
+      "source_chunk": 34,
+      "speech_start": 17.871,
+      "speech_end": 18.341,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "存",
+          "start": 17.871,
+          "end": 18.085,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "款",
+          "start": 18.085,
+          "end": 18.341,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.177376
+    },
+    {
+      "no": 577,
+      "kind": "example",
+      "text": "除了应付日常支出，他还坚持每月留下一笔存款。",
+      "spoken_text": "除了应付日常支出，他还坚持每月留下一笔存款。",
+      "pinyin": "Chúle yìngfu rìcháng zhīchū, tā hái jiānchí měi yuè liúxià yì bǐ cúnkuǎn.",
+      "source_chunk": 34,
+      "speech_start": 18.767,
+      "speech_end": 22.254,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "除",
+          "start": 18.767,
+          "end": 19.011,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "了",
+          "start": 19.011,
+          "end": 19.097,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "应",
+          "start": 19.097,
+          "end": 19.267,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "付",
+          "start": 19.267,
+          "end": 19.395,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "日",
+          "start": 19.395,
+          "end": 19.523,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "常",
+          "start": 19.523,
+          "end": 19.694,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "支",
+          "start": 19.694,
+          "end": 19.865,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "出",
+          "start": 19.865,
+          "end": 20.078,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "他",
+          "start": 20.334,
+          "end": 20.505,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "还",
+          "start": 20.505,
+          "end": 20.59,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "坚",
+          "start": 20.59,
+          "end": 20.761,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "持",
+          "start": 20.761,
+          "end": 21.059,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "每",
+          "start": 21.059,
+          "end": 21.187,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "月",
+          "start": 21.187,
+          "end": 21.358,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "留",
+          "start": 21.358,
+          "end": 21.486,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "下",
+          "start": 21.486,
+          "end": 21.614,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "一",
+          "start": 21.614,
+          "end": 21.699,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "笔",
+          "start": 21.699,
+          "end": 21.827,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "存",
+          "start": 21.827,
+          "end": 22.041,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "款",
+          "start": 22.041,
+          "end": 22.254,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.256312
+    },
+    {
+      "no": 578,
+      "kind": "word",
+      "text": "到期",
+      "spoken_text": "到期。",
+      "pinyin": "dàoqī",
+      "source_chunk": 34,
+      "speech_start": 22.723,
+      "speech_end": 23.15,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "到",
+          "start": 22.723,
+          "end": 22.851,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "期",
+          "start": 22.851,
+          "end": 23.15,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.141486
+    },
+    {
+      "no": 578,
+      "kind": "example",
+      "text": "租赁合同即将到期，双方正在商量是否续签。",
+      "spoken_text": "租赁合同即将到期，双方正在商量是否续签。",
+      "pinyin": "Zūlìn hétong jíjiāng dàoqī, shuāngfāng zhèngzài shāngliang shìfǒu xùqiān.",
+      "source_chunk": 34,
+      "speech_start": 23.705,
+      "speech_end": 26.947,
+      "independent_asr_coverage": 0.944,
+      "characters": [
+        {
+          "char": "租",
+          "start": 23.705,
+          "end": 23.875,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "赁",
+          "start": 23.875,
+          "end": 24.003,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "合",
+          "start": 24.003,
+          "end": 24.131,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "同",
+          "start": 24.131,
+          "end": 24.302,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "即",
+          "start": 24.302,
+          "end": 24.43,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "将",
+          "start": 24.43,
+          "end": 24.558,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "到",
+          "start": 24.558,
+          "end": 24.729,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "期",
+          "start": 24.729,
+          "end": 24.985,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "双",
+          "start": 25.283,
+          "end": 25.497,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "方",
+          "start": 25.497,
+          "end": 25.667,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "正",
+          "start": 25.667,
+          "end": 25.795,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "在",
+          "start": 25.795,
+          "end": 25.923,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "商",
+          "start": 25.923,
+          "end": 26.094,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "量",
+          "start": 26.094,
+          "end": 26.222,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "是",
+          "start": 26.222,
+          "end": 26.393,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "否",
+          "start": 26.393,
+          "end": 26.563,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "续",
+          "start": 26.563,
+          "end": 26.734,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "签",
+          "start": 26.734,
+          "end": 26.947,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.263924
+    },
+    {
+      "no": 579,
+      "kind": "word",
+      "text": "风险",
+      "spoken_text": "风险。",
+      "pinyin": "fēngxiǎn",
+      "source_chunk": 34,
+      "speech_start": 27.502,
+      "speech_end": 27.929,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "风",
+          "start": 27.502,
+          "end": 27.715,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "险",
+          "start": 27.715,
+          "end": 27.929,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.211631
+    },
+    {
+      "no": 579,
+      "kind": "example",
+      "text": "作出投资决定前，不能只看收益而忽略风险。",
+      "spoken_text": "作出投资决定前，不能只看收益而忽略风险。",
+      "pinyin": "Zuòchū tóuzī juédìng qián, bùnéng zhǐ kàn shōuyì ér hūlüè fēngxiǎn.",
+      "source_chunk": 34,
+      "speech_start": 28.378,
+      "speech_end": 32.004,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "作",
+          "start": 28.378,
+          "end": 28.548,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "出",
+          "start": 28.548,
+          "end": 28.676,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "投",
+          "start": 28.676,
+          "end": 28.847,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "资",
+          "start": 28.847,
+          "end": 29.018,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "决",
+          "start": 29.018,
+          "end": 29.188,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "定",
+          "start": 29.188,
+          "end": 29.316,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "前",
+          "start": 29.316,
+          "end": 29.53,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "不",
+          "start": 29.828,
+          "end": 30.084,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "能",
+          "start": 30.084,
+          "end": 30.212,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "只",
+          "start": 30.212,
+          "end": 30.383,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "看",
+          "start": 30.383,
+          "end": 30.554,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "收",
+          "start": 30.554,
+          "end": 30.81,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "益",
+          "start": 30.81,
+          "end": 31.066,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "而",
+          "start": 31.066,
+          "end": 31.279,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "忽",
+          "start": 31.279,
+          "end": 31.45,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "略",
+          "start": 31.45,
+          "end": 31.62,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "风",
+          "start": 31.62,
+          "end": 31.791,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "险",
+          "start": 31.791,
+          "end": 32.004,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.234002
+    },
+    {
+      "no": 580,
+      "kind": "example",
+      "text": "农民富起来以后，更重视村里的公共环境。",
+      "spoken_text": "农民富起来以后，更重视村里的公共环境。",
+      "pinyin": "Nóngmín fù qǐlai yǐhòu, gèng zhòngshì cūnlǐ de gōnggòng huánjìng.",
+      "source_chunk": 34,
+      "speech_start": 32.516,
+      "speech_end": 35.716,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "农",
+          "start": 32.516,
+          "end": 32.9,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "民",
+          "start": 32.9,
+          "end": 33.028,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "富",
+          "start": 33.028,
+          "end": 33.199,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "起",
+          "start": 33.199,
+          "end": 33.327,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "来",
+          "start": 33.327,
+          "end": 33.455,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "以",
+          "start": 33.455,
+          "end": 33.583,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "后",
+          "start": 33.583,
+          "end": 33.796,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "更",
+          "start": 34.052,
+          "end": 34.266,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "重",
+          "start": 34.266,
+          "end": 34.479,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "视",
+          "start": 34.479,
+          "end": 34.607,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "村",
+          "start": 34.607,
+          "end": 34.82,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "里",
+          "start": 34.82,
+          "end": 34.906,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "的",
+          "start": 34.906,
+          "end": 35.034,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "公",
+          "start": 35.034,
+          "end": 35.162,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "共",
+          "start": 35.162,
+          "end": 35.29,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "环",
+          "start": 35.29,
+          "end": 35.46,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "境",
+          "start": 35.46,
+          "end": 35.716,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.258718
+    },
+    {
+      "no": 581,
+      "kind": "word",
+      "text": "负担",
+      "spoken_text": "负担。",
+      "pinyin": "fùdān",
+      "source_chunk": 34,
+      "speech_start": 36.1,
+      "speech_end": 36.484,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "负",
+          "start": 36.1,
+          "end": 36.314,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "担",
+          "start": 36.314,
+          "end": 36.484,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.143943
+    },
+    {
+      "no": 581,
+      "kind": "example",
+      "text": "过高的住房支出，给年轻家庭带来不小负担。",
+      "spoken_text": "过高的住房支出，给年轻家庭带来不小负担。",
+      "pinyin": "Guò gāo de zhùfáng zhīchū, gěi niánqīng jiātíng dàilái bùxiǎo fùdān.",
+      "source_chunk": 34,
+      "speech_start": 36.978,
+      "speech_end": 40.221,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "过",
+          "start": 36.978,
+          "end": 37.191,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "高",
+          "start": 37.191,
+          "end": 37.319,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "的",
+          "start": 37.319,
+          "end": 37.447,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "住",
+          "start": 37.447,
+          "end": 37.575,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "房",
+          "start": 37.575,
+          "end": 37.746,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "支",
+          "start": 37.746,
+          "end": 37.917,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "出",
+          "start": 37.917,
+          "end": 38.173,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "给",
+          "start": 38.343,
+          "end": 38.557,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "年",
+          "start": 38.557,
+          "end": 38.727,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "轻",
+          "start": 38.727,
+          "end": 38.898,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "家",
+          "start": 38.898,
+          "end": 39.111,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "庭",
+          "start": 39.111,
+          "end": 39.325,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "带",
+          "start": 39.325,
+          "end": 39.495,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "来",
+          "start": 39.495,
+          "end": 39.623,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "不",
+          "start": 39.623,
+          "end": 39.751,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "小",
+          "start": 39.751,
+          "end": 39.922,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "负",
+          "start": 39.922,
+          "end": 40.093,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "担",
+          "start": 40.093,
+          "end": 40.221,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.228713
+    },
+    {
+      "no": 582,
+      "kind": "word",
+      "text": "话费",
+      "spoken_text": "话费。",
+      "pinyin": "huàfèi",
+      "source_chunk": 34,
+      "speech_start": 40.647,
+      "speech_end": 41.074,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "话",
+          "start": 40.647,
+          "end": 40.903,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "费",
+          "start": 40.903,
+          "end": 41.074,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.149891
+    },
+    {
+      "no": 582,
+      "kind": "example",
+      "text": "出国前了解漫游话费，可以避免产生意外支出。",
+      "spoken_text": "出国前了解漫游话费，可以避免产生意外支出。",
+      "pinyin": "Chūguó qián liǎojiě mànyóu huàfèi, kěyǐ bìmiǎn chǎnshēng yìwài zhīchū.",
+      "source_chunk": 34,
+      "speech_start": 41.671,
+      "speech_end": 45.085,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "出",
+          "start": 41.671,
+          "end": 41.799,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "国",
+          "start": 41.799,
+          "end": 41.97,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "前",
+          "start": 41.97,
+          "end": 42.183,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "了",
+          "start": 42.183,
+          "end": 42.397,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "解",
+          "start": 42.397,
+          "end": 42.525,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "漫",
+          "start": 42.525,
+          "end": 42.695,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "游",
+          "start": 42.695,
+          "end": 42.823,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "话",
+          "start": 42.823,
+          "end": 43.037,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "费",
+          "start": 43.037,
+          "end": 43.25,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "可",
+          "start": 43.506,
+          "end": 43.634,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "以",
+          "start": 43.634,
+          "end": 43.719,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "避",
+          "start": 43.719,
+          "end": 43.89,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "免",
+          "start": 43.89,
+          "end": 44.018,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "产",
+          "start": 44.018,
+          "end": 44.231,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "生",
+          "start": 44.231,
+          "end": 44.359,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "意",
+          "start": 44.359,
+          "end": 44.53,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "外",
+          "start": 44.53,
+          "end": 44.658,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "支",
+          "start": 44.658,
+          "end": 44.871,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "出",
+          "start": 44.871,
+          "end": 45.085,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.244661
+    },
+    {
+      "no": 583,
+      "kind": "word",
+      "text": "花费",
+      "spoken_text": "花费。",
+      "pinyin": "huāfèi",
+      "source_chunk": 34,
+      "speech_start": 45.597,
+      "speech_end": 46.023,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "花",
+          "start": 45.597,
+          "end": 45.853,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "费",
+          "start": 45.853,
+          "end": 46.023,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.195069
+    },
+    {
+      "no": 583,
+      "kind": "example",
+      "text": "修复古建筑往往要花费大量时间和专业人力。",
+      "spoken_text": "修复古建筑往往要花费大量时间和专业人力。",
+      "pinyin": "Xiūfù gǔjiànzhù wǎngwǎng yào huāfèi dàliàng shíjiān hé zhuānyè rénlì.",
+      "source_chunk": 34,
+      "speech_start": 46.306,
+      "speech_end": 50.06,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "修",
+          "start": 46.306,
+          "end": 46.733,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "复",
+          "start": 46.733,
+          "end": 46.861,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "古",
+          "start": 46.861,
+          "end": 46.989,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "建",
+          "start": 46.989,
+          "end": 47.159,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "筑",
+          "start": 47.159,
+          "end": 47.415,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "往",
+          "start": 47.415,
+          "end": 47.757,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "往",
+          "start": 47.757,
+          "end": 47.927,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "要",
+          "start": 47.927,
+          "end": 48.055,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "花",
+          "start": 48.055,
+          "end": 48.226,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "费",
+          "start": 48.226,
+          "end": 48.354,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "大",
+          "start": 48.354,
+          "end": 48.61,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "量",
+          "start": 48.61,
+          "end": 48.781,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "时",
+          "start": 48.781,
+          "end": 48.994,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "间",
+          "start": 48.994,
+          "end": 49.207,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "和",
+          "start": 49.207,
+          "end": 49.335,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "专",
+          "start": 49.335,
+          "end": 49.548,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "业",
+          "start": 49.548,
+          "end": 49.719,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "人",
+          "start": 49.719,
+          "end": 49.847,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "力",
+          "start": 49.847,
+          "end": 50.06,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.241208
+    },
+    {
+      "no": 584,
+      "kind": "word",
+      "text": "黄金",
+      "spoken_text": "黄金。",
+      "pinyin": "huángjīn",
+      "source_chunk": 34,
+      "speech_start": 50.658,
+      "speech_end": 51.084,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "黄",
+          "start": 50.658,
+          "end": 50.871,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "金",
+          "start": 50.871,
+          "end": 51.084,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.13856
+    },
+    {
+      "no": 584,
+      "kind": "example",
+      "text": "投资黄金也会面临价格波动，并非完全没有风险。",
+      "spoken_text": "投资黄金也会面临价格波动，并非完全没有风险。",
+      "pinyin": "Tóuzī huángjīn yě huì miànlín jiàgé bōdòng, bìngfēi wánquán méiyǒu fēngxiǎn.",
+      "source_chunk": 34,
+      "speech_start": 51.639,
+      "speech_end": 55.181,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "投",
+          "start": 51.639,
+          "end": 51.81,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "资",
+          "start": 51.81,
+          "end": 51.938,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "黄",
+          "start": 51.938,
+          "end": 52.108,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "金",
+          "start": 52.108,
+          "end": 52.322,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "也",
+          "start": 52.322,
+          "end": 52.535,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "会",
+          "start": 52.535,
+          "end": 52.663,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "面",
+          "start": 52.663,
+          "end": 52.791,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "临",
+          "start": 52.791,
+          "end": 52.919,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "价",
+          "start": 52.919,
+          "end": 53.133,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "格",
+          "start": 53.133,
+          "end": 53.261,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "波",
+          "start": 53.261,
+          "end": 53.431,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "动",
+          "start": 53.431,
+          "end": 53.602,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "并",
+          "start": 53.858,
+          "end": 54.029,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "非",
+          "start": 54.029,
+          "end": 54.199,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "完",
+          "start": 54.199,
+          "end": 54.37,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "全",
+          "start": 54.37,
+          "end": 54.583,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "没",
+          "start": 54.583,
+          "end": 54.711,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "有",
+          "start": 54.711,
+          "end": 54.797,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "风",
+          "start": 54.797,
+          "end": 54.967,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "险",
+          "start": 54.967,
+          "end": 55.181,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.2676
+    },
+    {
+      "no": 585,
+      "kind": "word",
+      "text": "汇率",
+      "spoken_text": "汇率。",
+      "pinyin": "huìlǜ",
+      "source_chunk": 34,
+      "speech_start": 55.522,
+      "speech_end": 56.162,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "汇",
+          "start": 55.522,
+          "end": 55.949,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "率",
+          "start": 55.949,
+          "end": 56.162,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.179629
+    },
+    {
+      "no": 585,
+      "kind": "example",
+      "text": "汇率的变化，会影响企业的进口成本。",
+      "spoken_text": "汇率的变化，会影响企业的进口成本。",
+      "pinyin": "Huìlǜ de biànhuà, huì yǐngxiǎng qǐyè de jìnkǒu chéngběn.",
+      "source_chunk": 34,
+      "speech_start": 56.574,
+      "speech_end": 59.305,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "汇",
+          "start": 56.574,
+          "end": 56.788,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "率",
+          "start": 56.788,
+          "end": 56.916,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "的",
+          "start": 56.916,
+          "end": 57.001,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "变",
+          "start": 57.001,
+          "end": 57.214,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "化",
+          "start": 57.214,
+          "end": 57.428,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "会",
+          "start": 57.641,
+          "end": 57.854,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "影",
+          "start": 57.854,
+          "end": 57.982,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "响",
+          "start": 57.982,
+          "end": 58.196,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "企",
+          "start": 58.196,
+          "end": 58.452,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "业",
+          "start": 58.452,
+          "end": 58.537,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "的",
+          "start": 58.537,
+          "end": 58.622,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "进",
+          "start": 58.622,
+          "end": 58.793,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "口",
+          "start": 58.793,
+          "end": 58.964,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "成",
+          "start": 58.964,
+          "end": 59.134,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "本",
+          "start": 59.134,
+          "end": 59.305,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.232434
+    },
+    {
+      "no": 586,
+      "kind": "example",
+      "text": "如果忽略长期维护费用，表面省钱反而可能亏。",
+      "spoken_text": "如果忽略长期维护费用，表面省钱反而可能亏。",
+      "pinyin": "Rúguǒ hūlüè chángqī wéihù fèiyòng, biǎomiàn shěngqián fǎn'ér kěnéng kuī.",
+      "source_chunk": 34,
+      "speech_start": 59.817,
+      "speech_end": 63.486,
+      "independent_asr_coverage": 0.947,
+      "characters": [
+        {
+          "char": "如",
+          "start": 59.817,
+          "end": 59.987,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "果",
+          "start": 59.987,
+          "end": 60.115,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "忽",
+          "start": 60.115,
+          "end": 60.329,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "略",
+          "start": 60.329,
+          "end": 60.457,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "长",
+          "start": 60.457,
+          "end": 60.67,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "期",
+          "start": 60.67,
+          "end": 60.841,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "维",
+          "start": 60.841,
+          "end": 61.011,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "护",
+          "start": 61.011,
+          "end": 61.182,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "费",
+          "start": 61.182,
+          "end": 61.353,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "用",
+          "start": 61.353,
+          "end": 61.523,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "表",
+          "start": 61.779,
+          "end": 62.035,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "面",
+          "start": 62.035,
+          "end": 62.206,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "省",
+          "start": 62.206,
+          "end": 62.377,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "钱",
+          "start": 62.377,
+          "end": 62.675,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "反",
+          "start": 62.675,
+          "end": 62.889,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "而",
+          "start": 62.889,
+          "end": 63.017,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "可",
+          "start": 63.017,
+          "end": 63.145,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "能",
+          "start": 63.145,
+          "end": 63.273,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "亏",
+          "start": 63.273,
+          "end": 63.486,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.226083
+    },
+    {
+      "no": 587,
+      "kind": "word",
+      "text": "利润",
+      "spoken_text": "利润。",
+      "pinyin": "lìrùn",
+      "source_chunk": 34,
+      "speech_start": 64.126,
+      "speech_end": 64.51,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "利",
+          "start": 64.126,
+          "end": 64.34,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "润",
+          "start": 64.34,
+          "end": 64.51,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.29752
+    },
+    {
+      "no": 587,
+      "kind": "example",
+      "text": "企业追求利润的同时，也应承担社会责任。",
+      "spoken_text": "企业追求利润的同时，也应承担社会责任。",
+      "pinyin": "Qǐyè zhuīqiú lìrùn de tóngshí, yě yīng chéngdān shèhuì zérèn.",
+      "source_chunk": 34,
+      "speech_start": 64.98,
+      "speech_end": 68.094,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "企",
+          "start": 64.98,
+          "end": 65.15,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "业",
+          "start": 65.15,
+          "end": 65.321,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "追",
+          "start": 65.321,
+          "end": 65.449,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "求",
+          "start": 65.449,
+          "end": 65.62,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "利",
+          "start": 65.62,
+          "end": 65.79,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "润",
+          "start": 65.79,
+          "end": 65.876,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "的",
+          "start": 65.876,
+          "end": 65.961,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "同",
+          "start": 65.961,
+          "end": 66.174,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "时",
+          "start": 66.174,
+          "end": 66.43,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "也",
+          "start": 66.772,
+          "end": 66.942,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "应",
+          "start": 66.942,
+          "end": 67.07,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "承",
+          "start": 67.07,
+          "end": 67.284,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "担",
+          "start": 67.284,
+          "end": 67.412,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "社",
+          "start": 67.412,
+          "end": 67.625,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "会",
+          "start": 67.625,
+          "end": 67.753,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "责",
+          "start": 67.753,
+          "end": 67.924,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "任",
+          "start": 67.924,
+          "end": 68.094,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.256195
+    },
+    {
+      "no": 588,
+      "kind": "word",
+      "text": "利益",
+      "spoken_text": "利益。",
+      "pinyin": "lìyì",
+      "source_chunk": 34,
+      "speech_start": 68.503,
+      "speech_end": 69.015,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "利",
+          "start": 68.503,
+          "end": 68.716,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "益",
+          "start": 68.716,
+          "end": 69.015,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.328417
+    },
+    {
+      "no": 588,
+      "kind": "example",
+      "text": "处理公共事务时，不能只考虑某个群体的利益。",
+      "spoken_text": "处理公共事务时，不能只考虑某个群体的利益。",
+      "pinyin": "Chǔlǐ gōnggòng shìwù shí, bùnéng zhǐ kǎolǜ mǒuge qúntǐ de lìyì.",
+      "source_chunk": 34,
+      "speech_start": 69.484,
+      "speech_end": 72.897,
+      "independent_asr_coverage": 1.0,
+      "characters": [
+        {
+          "char": "处",
+          "start": 69.484,
+          "end": 69.783,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "理",
+          "start": 69.783,
+          "end": 69.911,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "公",
+          "start": 69.911,
+          "end": 70.039,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "共",
+          "start": 70.039,
+          "end": 70.209,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "事",
+          "start": 70.209,
+          "end": 70.423,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "务",
+          "start": 70.423,
+          "end": 70.551,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "时",
+          "start": 70.551,
+          "end": 70.764,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "不",
+          "start": 71.063,
+          "end": 71.191,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "能",
+          "start": 71.191,
+          "end": 71.319,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "只",
+          "start": 71.319,
+          "end": 71.489,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "考",
+          "start": 71.489,
+          "end": 71.703,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "虑",
+          "start": 71.703,
+          "end": 71.831,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "某",
+          "start": 71.831,
+          "end": 71.959,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "个",
+          "start": 71.959,
+          "end": 72.087,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "群",
+          "start": 72.087,
+          "end": 72.257,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "体",
+          "start": 72.257,
+          "end": 72.471,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "的",
+          "start": 72.471,
+          "end": 72.556,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "利",
+          "start": 72.556,
+          "end": 72.684,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "益",
+          "start": 72.684,
+          "end": 72.897,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.260836
+    },
+    {
+      "no": 589,
+      "kind": "example",
+      "text": "运输中损坏的货物，应根据合同约定由责任方赔。",
+      "spoken_text": "运输中损坏的货物，应根据合同约定由责任方赔。",
+      "pinyin": "Yùnshū zhōng sǔnhuài de huòwù, yīng gēnjù hétong yuēdìng yóu zérèn fāng péi.",
+      "source_chunk": 34,
+      "speech_start": 73.233,
+      "speech_end": 76.817,
+      "independent_asr_coverage": 0.95,
+      "characters": [
+        {
+          "char": "运",
+          "start": 73.233,
+          "end": 73.446,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "输",
+          "start": 73.446,
+          "end": 73.617,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "中",
+          "start": 73.617,
+          "end": 73.745,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "损",
+          "start": 73.745,
+          "end": 73.958,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "坏",
+          "start": 73.958,
+          "end": 74.129,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "的",
+          "start": 74.129,
+          "end": 74.214,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "货",
+          "start": 74.214,
+          "end": 74.428,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "物",
+          "start": 74.428,
+          "end": 74.641,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "应",
+          "start": 74.812,
+          "end": 74.982,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "根",
+          "start": 74.982,
+          "end": 75.11,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "据",
+          "start": 75.11,
+          "end": 75.238,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "合",
+          "start": 75.238,
+          "end": 75.409,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "同",
+          "start": 75.409,
+          "end": 75.58,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "约",
+          "start": 75.58,
+          "end": 75.75,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "定",
+          "start": 75.75,
+          "end": 75.878,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "由",
+          "start": 75.878,
+          "end": 76.134,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "责",
+          "start": 76.134,
+          "end": 76.305,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "任",
+          "start": 76.305,
+          "end": 76.433,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "方",
+          "start": 76.433,
+          "end": 76.604,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "赔",
+          "start": 76.604,
+          "end": 76.817,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.278814
+    },
+    {
+      "no": 590,
+      "kind": "example",
+      "text": "他把欠下的钱分期还清，重新建立了信用。",
+      "spoken_text": "他把欠下的钱分期还清，重新建立了信用。",
+      "pinyin": "Tā bǎ qiànxià de qián fēnqī huánqīng, chóngxīn jiànlì le xìnyòng.",
+      "source_chunk": 34,
+      "speech_start": 77.457,
+      "speech_end": 80.401,
+      "independent_asr_coverage": 0.941,
+      "characters": [
+        {
+          "char": "他",
+          "start": 77.457,
+          "end": 77.585,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "把",
+          "start": 77.585,
+          "end": 77.67,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "欠",
+          "start": 77.67,
+          "end": 77.841,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "下",
+          "start": 77.841,
+          "end": 78.012,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "的",
+          "start": 78.012,
+          "end": 78.097,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "钱",
+          "start": 78.097,
+          "end": 78.31,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "分",
+          "start": 78.31,
+          "end": 78.524,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "期",
+          "start": 78.524,
+          "end": 78.694,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "还",
+          "start": 78.694,
+          "end": 78.865,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "清",
+          "start": 78.865,
+          "end": 79.078,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "重",
+          "start": 79.292,
+          "end": 79.505,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "新",
+          "start": 79.505,
+          "end": 79.676,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "建",
+          "start": 79.676,
+          "end": 79.846,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "立",
+          "start": 79.846,
+          "end": 79.974,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "了",
+          "start": 79.974,
+          "end": 80.06,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "信",
+          "start": 80.06,
+          "end": 80.23,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "用",
+          "start": 80.23,
+          "end": 80.401,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.21472
+    }
+  ],
+  "alerts": []
+}
