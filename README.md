@@ -34,3 +34,5 @@
 저장된 원본으로 음원을 다시 분리하려면 `python scripts/build_level5_natural.py`를 실행합니다(ffmpeg 필요, 새 음성 생성 없음). 재생 및 파일 검사는 `CHROMIUM_PATH=/usr/bin/chromium python -m unittest discover -s tests -v`로 실행합니다.
 
 웹사이트에는 학습용 MP3·PDF·학습 데이터를 게시합니다. 보관용 원본과 분석 자료는 GitHub 저장소의 `sources` 폴더에서 제공합니다.
+
+Pages 게시는 `.github/workflows/publish-study-site.yml`에서 관리합니다. 음원 파일 동기화를 마칠 수 있도록 게시 제한 시간을 30분으로 설정했습니다.
