@@ -3815,6 +3815,10 @@
   "requested_engine": "heygen_voice",
   "requested_speed": 0.85,
   "language": "zh",
-  "native_file": "audio/level5-natural/sources/chunk-63.wav",
-  "native_sha256": "d43a111edf34499509031fed6ad1641a05371df12e7c93b31f9f6896253fa495"
+  "original_native_file_name": "chunk-63.wav",
+  "original_native_sha256": "d43a111edf34499509031fed6ad1641a05371df12e7c93b31f9f6896253fa495",
+  "archive_file": "audio/level5-natural/sources/chunk-63.flac",
+  "archive_sha256": "bb75e04408ea168eb7d52b69c360062d7edde90fb79d9aaea673da597d93ae85",
+  "decoded_pcm_sha256": "611e4946c96afdfe5f45fa25798f978a5140791701f20dcaca2d0a0b6e6511bd",
+  "archive_format": "FLAC; sample-for-sample lossless PCM copy of original WAV"
 }
