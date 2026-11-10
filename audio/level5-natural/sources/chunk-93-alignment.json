@@ -1,0 +1,137 @@
+{
+  "chunk": 93,
+  "duration": 4.5185,
+  "transcript_match_ratio": 0.9474,
+  "timing_method": "Provider character timestamps, independently checked against Mandarin transcription and waveform energy",
+  "clips": [
+    {
+      "no": 1600,
+      "kind": "example",
+      "text": "城市改造应尽量利用原有设施，减少重复建设。",
+      "spoken_text": "城市改造应尽量利用原有设施，减少重复建设。",
+      "pinyin": "Chéngshì gǎizào yīng jǐnliàng lìyòng yuányǒu shèshī, jiǎnshǎo chóngfù jiànshè.",
+      "source_chunk": 93,
+      "speech_start": 0.299,
+      "speech_end": 4.053,
+      "independent_asr_coverage": 0.947,
+      "characters": [
+        {
+          "char": "城",
+          "start": 0.299,
+          "end": 0.512,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "市",
+          "start": 0.512,
+          "end": 0.64,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "改",
+          "start": 0.64,
+          "end": 0.811,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "造",
+          "start": 0.811,
+          "end": 1.067,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "应",
+          "start": 1.067,
+          "end": 1.28,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "尽",
+          "start": 1.28,
+          "end": 1.493,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "量",
+          "start": 1.493,
+          "end": 1.664,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "利",
+          "start": 1.664,
+          "end": 1.792,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "用",
+          "start": 1.792,
+          "end": 1.92,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "原",
+          "start": 1.92,
+          "end": 2.091,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "有",
+          "start": 2.091,
+          "end": 2.261,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "设",
+          "start": 2.261,
+          "end": 2.475,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "施",
+          "start": 2.475,
+          "end": 2.773,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "减",
+          "start": 2.944,
+          "end": 3.115,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "少",
+          "start": 3.115,
+          "end": 3.285,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "重",
+          "start": 3.285,
+          "end": 3.541,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "复",
+          "start": 3.541,
+          "end": 3.669,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "建",
+          "start": 3.669,
+          "end": 3.84,
+          "timing_source": "HeyGen original_characters"
+        },
+        {
+          "char": "设",
+          "start": 3.84,
+          "end": 4.053,
+          "timing_source": "HeyGen original_characters"
+        }
+      ],
+      "rms": 0.233323
+    }
+  ],
+  "alerts": []
+}
