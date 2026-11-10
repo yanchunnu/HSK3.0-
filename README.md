@@ -32,3 +32,5 @@
 [5급 음원 제작·분할 정보](audio/level5-natural/manifest.json)에 PCM 일치를 검증한 무손실 FLAC 원본 음원 93묶음과 3,200개 학습 음원의 연결 정보를 보관했습니다. 한 글자·다음자 등 279개 단어는 해당 예문의 발음 구간에서 분리했습니다. 원본, 제출 대본, 제공된 글자별 시간 정보, 독립 중국어 음성 인식 결과, 문맥별 정렬·구간 선정 근거를 함께 보관했습니다. 직접 청음 검수는 수행하지 못했으며 대본 대조·구간 정렬·파형·브라우저 재생 검사를 실시했습니다.
 
 저장된 원본으로 음원을 다시 분리하려면 `python scripts/build_level5_natural.py`를 실행합니다(ffmpeg 필요, 새 음성 생성 없음). 재생 및 파일 검사는 `CHROMIUM_PATH=/usr/bin/chromium python -m unittest discover -s tests -v`로 실행합니다.
+
+웹사이트에는 학습용 MP3·PDF·학습 데이터를 게시합니다. 보관용 원본과 분석 자료는 GitHub 저장소의 `sources` 폴더에서 제공합니다.
