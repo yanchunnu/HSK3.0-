@@ -204,7 +204,8 @@ function playQueue(entries, label) {
   };
   next();
 }
-const FIXED_AUDIO = Object.fromEntries(DATA.map(x => [x.no, {word:`audio/level5-natural/item5-${String(x.no).padStart(4,"0")}-word.mp3`,example:`audio/level5-natural/item5-${String(x.no).padStart(4,"0")}-example.mp3`}]));
+const AUDIO_REVISION = "20261110-boundaries-v2";
+const FIXED_AUDIO = Object.fromEntries(DATA.map(x => [x.no, {word:`audio/level5-natural/item5-${String(x.no).padStart(4,"0")}-word.mp3?v=${AUDIO_REVISION}`,example:`audio/level5-natural/item5-${String(x.no).padStart(4,"0")}-example.mp3?v=${AUDIO_REVISION}`}]));
 function fixedAudio(no, kind) { return FIXED_AUDIO[no]?.[kind] || null; }
 function repeatEntries(text, repeat, progress, audio=null, no=null, kind=null) {
   return Array.from({length:repeat}, (_,i) => ({text, audio, no, kind, progress:`${progress} · ${i+1}/${repeat}회`}));

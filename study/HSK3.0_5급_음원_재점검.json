@@ -1,0 +1,6685 @@
+{
+  "date": "2026-11-10",
+  "scope": {
+    "level": 5,
+    "entries": 1600,
+    "word_clips": 1600,
+    "example_clips": 1600,
+    "files_checked": 3200
+  },
+  "result": {
+    "missing_files": 0,
+    "decoder_failures": 0,
+    "duration_mismatches": 0,
+    "low_signal_flags": 0,
+    "decoded_peak_clipping_flags": 0,
+    "original_sources_unchanged": 93,
+    "resegmented_whole_utterances": 2921,
+    "additional_contextual_word_refinements": [
+      32,
+      265,
+      772,
+      1543
+    ],
+    "changed_mp3_files": 2925,
+    "full_utterance_boundary_continuity_candidates_before": 1721,
+    "full_utterance_boundary_continuity_candidates_after": 0
+  },
+  "checks": {
+    "browser": "Chromium: every MP3 decoded and duration checked; word/example repeat playback, pause/resume and mobile layout checked.",
+    "independent_transcription": {
+      "clips": 3200,
+      "models": {
+        "faster-whisper small int8": 2,
+        "faster-whisper base int8": 85
+      },
+      "batching": "Actual final MP3 clips joined with 350 ms silence. No expected-text prompt. Token timing and phonetic comparison are fallible, especially for isolated syllables.",
+      "raw_recognition_difference_flags": 475
+    },
+    "contextual_alignment": {
+      "sentences": 279,
+      "model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+      "revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+      "method": "Independent greedy transcription plus Chinese character CTC alignment using expected text; aligned text is not an independent transcription.",
+      "automatic_replacement": false
+    },
+    "waveform": "Ordinary word and sentence cuts checked against measured source quiet intervals; 40 ms outside / 20 ms inside continuity RMS > 0.025 is a screening flag, not a count of proven pronunciation errors.",
+    "contextual_refinements": "32/265/772/1543: inspected phonetic spectrograms and independent CTC anchors; revised coarticulated extraction and applied 3 ms fades at cuts.",
+    "source_integrity": [
+      {
+        "chunk": 1,
+        "sha256": "df65056359fdd59f588bf028b689b4f152ad06eb9b0169b354b33fa557bb1226",
+        "unchanged": true
+      },
+      {
+        "chunk": 2,
+        "sha256": "b287bd34250e258f41bd1a331778598f6b2ebc69a9dde74aac92370b329fa352",
+        "unchanged": true
+      },
+      {
+        "chunk": 3,
+        "sha256": "31d617cfc598671afe034cc3726f32146497dda5844fa62246279080ec94377d",
+        "unchanged": true
+      },
+      {
+        "chunk": 4,
+        "sha256": "29b6330bd177eb7a72e0bfee8c94e9aa6eeb82fa680133b05961a7707070ee2d",
+        "unchanged": true
+      },
+      {
+        "chunk": 5,
+        "sha256": "72d775f371c717322ba824abbb3b652987efda2d48a3ccd4a1f8edd5715db094",
+        "unchanged": true
+      },
+      {
+        "chunk": 6,
+        "sha256": "c390b3c555217d4e2704f1209cd00e84590ee36a75bb5c5b983e2a7dc2588a86",
+        "unchanged": true
+      },
+      {
+        "chunk": 7,
+        "sha256": "155d1ab3712453f35a1f36ee3b2edd9713f7f252c8077de8ee35fc49b51dcc54",
+        "unchanged": true
+      },
+      {
+        "chunk": 8,
+        "sha256": "223b7de6cb5c616cb5d1eb2f8f593344055edcdf1aa412bcf61d065ee9797bdd",
+        "unchanged": true
+      },
+      {
+        "chunk": 9,
+        "sha256": "f2ab29e2e54455206d5b2328ad568ffd4f557d79524e39766eadfe758494bcc5",
+        "unchanged": true
+      },
+      {
+        "chunk": 10,
+        "sha256": "d45f9b0a137ae0caf73f15f46fc29f4bec6d3a5f440dfeefb0f4921afb256936",
+        "unchanged": true
+      },
+      {
+        "chunk": 11,
+        "sha256": "eeb8b416c6c869bdc626ada2f5fe86c6924b2c36a3a7fe5738831eec697f66a1",
+        "unchanged": true
+      },
+      {
+        "chunk": 12,
+        "sha256": "541bf73c0c825b598792e22349d6451603bb89faaead9080fb44bfd0398f080b",
+        "unchanged": true
+      },
+      {
+        "chunk": 13,
+        "sha256": "c7addf27c22d815526b79a7ebd44df38019581266b854ba366e5bff0df12f456",
+        "unchanged": true
+      },
+      {
+        "chunk": 14,
+        "sha256": "924f840db5ca669decc395d2c7c95c588d9c697e1f7bbbdf62ac3330422057d3",
+        "unchanged": true
+      },
+      {
+        "chunk": 15,
+        "sha256": "770eabccecaa5957c76b2b9ed05ca80e242bcfdd02544e9ede0561bfa0a684ed",
+        "unchanged": true
+      },
+      {
+        "chunk": 16,
+        "sha256": "2022c8dd8ccf86acf3eb462bffa3cc81cb287e0075e469fab948774900224a5e",
+        "unchanged": true
+      },
+      {
+        "chunk": 17,
+        "sha256": "1a0de801e95b2a0ee5c01cd1bfe092274d657b7f12e55cf2b8d8c1c9f909a988",
+        "unchanged": true
+      },
+      {
+        "chunk": 18,
+        "sha256": "0ac735a23e6e7e369f9491f81c5e7c1c1f5ca8c2d2ff5d245a317b3a9177368c",
+        "unchanged": true
+      },
+      {
+        "chunk": 19,
+        "sha256": "bc20a5c050a8eb211a0c8aca3ee012dc3913007fe31628374514a055f15be5c3",
+        "unchanged": true
+      },
+      {
+        "chunk": 20,
+        "sha256": "96c0c58575ae792a26689ee02f68666a0faba45352b8abdcde995786d0dfbb82",
+        "unchanged": true
+      },
+      {
+        "chunk": 21,
+        "sha256": "f6399580390ff82a98c197ce8e928cc53c4821550866b40c9fe13d6273b5959a",
+        "unchanged": true
+      },
+      {
+        "chunk": 22,
+        "sha256": "b64727c63dd48b364a91578fc4039a6a214f2b041aa4987dcd18e1178db0e5fd",
+        "unchanged": true
+      },
+      {
+        "chunk": 23,
+        "sha256": "8233d32a320aeb092bd4d26e81bc16c76c52a107068d84943495480223e401f4",
+        "unchanged": true
+      },
+      {
+        "chunk": 24,
+        "sha256": "fdbc55d36c839a2f61bb40ee1e3948f1210ed42fe8833948f6620f9d67503141",
+        "unchanged": true
+      },
+      {
+        "chunk": 25,
+        "sha256": "ddcc1d2e02744ac5a74a4663bac9cea2bfab58de4192aedbb82881787d13b360",
+        "unchanged": true
+      },
+      {
+        "chunk": 26,
+        "sha256": "f6a26aabd26a142c78c4804afcd505dd7c0292ac6cd91319141b831d1a4636b7",
+        "unchanged": true
+      },
+      {
+        "chunk": 27,
+        "sha256": "1d049f2f44956cf3bcd0895ed1a854aa76634839e97ca6ac1003f59b933958b7",
+        "unchanged": true
+      },
+      {
+        "chunk": 28,
+        "sha256": "29a4b2acc2c1b297dd7a898859f330166387d51f9a6cf9c0409999015e472a54",
+        "unchanged": true
+      },
+      {
+        "chunk": 29,
+        "sha256": "54c7a7733eea00c6fa494e59646afb493c3f2583c754029d6a5dc41c2ba7d16d",
+        "unchanged": true
+      },
+      {
+        "chunk": 30,
+        "sha256": "d6084e058b6d2d605a2eb9dc54ab0610e549eb9680ba8778bed971a957160cff",
+        "unchanged": true
+      },
+      {
+        "chunk": 31,
+        "sha256": "27f2a9133395d1178ec12a038766110dd5afc079933c1c3fd3b09f7c89780b8d",
+        "unchanged": true
+      },
+      {
+        "chunk": 32,
+        "sha256": "73c11c62782aedcf537471eb18979e006a6fe22a8c13b93bf1d429e4b18bf728",
+        "unchanged": true
+      },
+      {
+        "chunk": 33,
+        "sha256": "b6515f394e5d7d36308f0489264707c7e554dc517d3335b2bff59b19be33782b",
+        "unchanged": true
+      },
+      {
+        "chunk": 34,
+        "sha256": "5cfadc8998b4d93762b09b20f247aeef44d8fd56d999f13ee2c712640c51fc55",
+        "unchanged": true
+      },
+      {
+        "chunk": 35,
+        "sha256": "32067e6bb6587948b76a80b7ad93ad409b8c5f29537c106dbf5a96bbc56deee8",
+        "unchanged": true
+      },
+      {
+        "chunk": 36,
+        "sha256": "80f7cbf704ab301b384cca309985704cde566af700a18dd10d4cef0971c5b467",
+        "unchanged": true
+      },
+      {
+        "chunk": 37,
+        "sha256": "4ce8219ab1554937f325600777c0f4ffd44410fb561aa0556e9bf79b3eff0318",
+        "unchanged": true
+      },
+      {
+        "chunk": 38,
+        "sha256": "33365ac396bbd1fc323e0de03cf18c5047991ab4091c3f84d0f23e750fe2db5e",
+        "unchanged": true
+      },
+      {
+        "chunk": 39,
+        "sha256": "5d4f4c9f5dbe0340f2f1ec0169ba840e30d0bd9ed55a85028dc12ccc5c43250b",
+        "unchanged": true
+      },
+      {
+        "chunk": 40,
+        "sha256": "50ef682f57b856f2947bd6c3ffe90c575ff6dd897fea711c22dc14fc5f68dbe9",
+        "unchanged": true
+      },
+      {
+        "chunk": 41,
+        "sha256": "678d3fbd582fe4e013d4d30e57cee9ad91ba6975ec33bc266860eaca89624476",
+        "unchanged": true
+      },
+      {
+        "chunk": 42,
+        "sha256": "ca6af803c1446bc7e2f14b30d96a5a88fad38e6c95da570a05cd5e0e66493f13",
+        "unchanged": true
+      },
+      {
+        "chunk": 43,
+        "sha256": "ac26ec06e2981f1353e67b12d8c70c5f0129120a977cfb9ca8a6003cfcd12754",
+        "unchanged": true
+      },
+      {
+        "chunk": 44,
+        "sha256": "e8b6ceb56ce0e309317aa61d0b339c5bdd576aef3a9fce5ff17633a7be0baa70",
+        "unchanged": true
+      },
+      {
+        "chunk": 45,
+        "sha256": "527937dae13771a566b94bd0c1ba222df483a15c376e598c85d93898558fe324",
+        "unchanged": true
+      },
+      {
+        "chunk": 46,
+        "sha256": "b2ca0e136b048b116e2421eeab2b5a48a296112d7c12e488e1d6424844b7a825",
+        "unchanged": true
+      },
+      {
+        "chunk": 47,
+        "sha256": "dabf9edf152d47433d1ab3d8e306029b2beca40785d019329fd90fb72e7affe6",
+        "unchanged": true
+      },
+      {
+        "chunk": 48,
+        "sha256": "dce548564bf1274fdc47c4bbac43834262977d8ea7757270b49ce218f41bba20",
+        "unchanged": true
+      },
+      {
+        "chunk": 49,
+        "sha256": "2cb18c09b5fb3af459b08f1db6af2801fc7fca2bb08475a5ecf91a424282172d",
+        "unchanged": true
+      },
+      {
+        "chunk": 50,
+        "sha256": "53f86d8fe8b1071dc374d10fa9d896ce3f559d45935046785c27052fbd56390a",
+        "unchanged": true
+      },
+      {
+        "chunk": 51,
+        "sha256": "d7cba6ed89ca5b289cb750626dccb3d7f0e7cfa14be98aed2d63a14c3bd758db",
+        "unchanged": true
+      },
+      {
+        "chunk": 52,
+        "sha256": "50b83a15c5ab1ec4be63ef4459f18ac0c2400ab98dac14321911f774aa012c57",
+        "unchanged": true
+      },
+      {
+        "chunk": 53,
+        "sha256": "967736d16d273bdb95c084eb3d54a7a49560eb64118e0a19c88309c109a8bf0f",
+        "unchanged": true
+      },
+      {
+        "chunk": 54,
+        "sha256": "4dffe0f2ec74c333bc8af115a10a6d58a182c5fa1db2fc3aa6bbfbc0b4c4f436",
+        "unchanged": true
+      },
+      {
+        "chunk": 55,
+        "sha256": "2b81e394a587ca1bdd579feb36baab94db54c73b235d5bea8c5a3581621b46af",
+        "unchanged": true
+      },
+      {
+        "chunk": 56,
+        "sha256": "ab4d9620637b32801914b4bd934537fe29fb47723ad447acbd3009ca85c7a79a",
+        "unchanged": true
+      },
+      {
+        "chunk": 57,
+        "sha256": "11d1185510fd57fcec7d8aa64dcf5e7b3cf2e7d2d2fe3fdc9f2b9c2b8b9ac09d",
+        "unchanged": true
+      },
+      {
+        "chunk": 58,
+        "sha256": "cbdf527b2a8ea80883247030e872f41a64592befa1a0e243af7e4a9aaf8fb176",
+        "unchanged": true
+      },
+      {
+        "chunk": 59,
+        "sha256": "5548915dbbf2c66d1c19e33731b905a3eb7b5980ac79eaf53789d6cd0f361534",
+        "unchanged": true
+      },
+      {
+        "chunk": 60,
+        "sha256": "a50e69a6e580e0771f768fc40345b4185ac6469ffea172f4d2d3c8e22116c2ce",
+        "unchanged": true
+      },
+      {
+        "chunk": 61,
+        "sha256": "b16c7510efcd443f5e99e7b11a08e9a632b34a40196b02791843195504f14d2f",
+        "unchanged": true
+      },
+      {
+        "chunk": 62,
+        "sha256": "b55aafc2a935cc2dbc4cd5f0a65e3c58311bfa7c91dbe10ce91d55b4a62f07f3",
+        "unchanged": true
+      },
+      {
+        "chunk": 63,
+        "sha256": "bb75e04408ea168eb7d52b69c360062d7edde90fb79d9aaea673da597d93ae85",
+        "unchanged": true
+      },
+      {
+        "chunk": 64,
+        "sha256": "1abeb41b3a12627bdcceae49c8e4ec76d21995fc0473a8e205368aa5249972a7",
+        "unchanged": true
+      },
+      {
+        "chunk": 65,
+        "sha256": "1afb8de549caa02ec844e4658abf9d9a091e824340886c52ff960ad306c90a6d",
+        "unchanged": true
+      },
+      {
+        "chunk": 66,
+        "sha256": "597bc5e9f2dc23fcd2b5124db5fece9af4c72610bc2c587f71549390a71adf80",
+        "unchanged": true
+      },
+      {
+        "chunk": 67,
+        "sha256": "ea9202b36d781db3637a46470dd060468b73244f703608a12f719357776f4781",
+        "unchanged": true
+      },
+      {
+        "chunk": 68,
+        "sha256": "c98d855f7a154125735e2cc2388696fd600b4eabddf45645206e5b25300b6294",
+        "unchanged": true
+      },
+      {
+        "chunk": 69,
+        "sha256": "a817d134c61b81f98840f5f59d9c43a128d3efeb0e45f366bf833cdc88b99597",
+        "unchanged": true
+      },
+      {
+        "chunk": 70,
+        "sha256": "679779a0daeedd262a5ef2b4f0d4aee9464bda8fee8d099fadf66cdf127be514",
+        "unchanged": true
+      },
+      {
+        "chunk": 71,
+        "sha256": "153c26dc3e6945624c5686e95b1cfa7b2e048fd081c7c9d0dacfe3861c1b2380",
+        "unchanged": true
+      },
+      {
+        "chunk": 72,
+        "sha256": "ac4972dd985b24530f4e4c198dc4562c098bba3c45da14739c470067e9df1d47",
+        "unchanged": true
+      },
+      {
+        "chunk": 73,
+        "sha256": "90e145ef42c121bfd34e10f4c732f7f2d5b541b019cc6d32408bffee262f41a1",
+        "unchanged": true
+      },
+      {
+        "chunk": 74,
+        "sha256": "dd922d93cde1fa38002231938401f054290942caf5358b1fe5f50906f28c0d27",
+        "unchanged": true
+      },
+      {
+        "chunk": 75,
+        "sha256": "629f5c4a3ccc56c50baab2a549ea63ecb1aced9a10f69452a25a27b67bd3045e",
+        "unchanged": true
+      },
+      {
+        "chunk": 76,
+        "sha256": "60fb0fa725321d8c24ea237b5305c32fe5af59cee2a80fb78632ee09e319884a",
+        "unchanged": true
+      },
+      {
+        "chunk": 77,
+        "sha256": "494f5543cc79501e96f66b3f55137778729b6d80703817ab58d431179691a082",
+        "unchanged": true
+      },
+      {
+        "chunk": 78,
+        "sha256": "6c04f712d2cf5f70448ccd8f9acbca41c94fb3fb3ef0e23086f1f449734d6e7a",
+        "unchanged": true
+      },
+      {
+        "chunk": 79,
+        "sha256": "5e7d6892b83536cb81c6c765af19b5129ae7c492ded847b232a76d3399b39bac",
+        "unchanged": true
+      },
+      {
+        "chunk": 80,
+        "sha256": "84517fc5e164722d7cfcb092b78012a8b026c37bb66f1ae09ca1f551ad74b6fb",
+        "unchanged": true
+      },
+      {
+        "chunk": 81,
+        "sha256": "e3418a85b060c87d8750078b51824e36b4552f97dceed6873d54f64523530acf",
+        "unchanged": true
+      },
+      {
+        "chunk": 82,
+        "sha256": "0ab4bfc20677e76471790625418239fdc8fe5397961bda7910293d62b61d2bb1",
+        "unchanged": true
+      },
+      {
+        "chunk": 83,
+        "sha256": "47b64902c4cf45c370b1e3937a45e8b9a3b953b999fe343ad0489931cf3195d6",
+        "unchanged": true
+      },
+      {
+        "chunk": 84,
+        "sha256": "c8fdc0b127a09094ab25598742527b2452b950e76cc61988e6313baf870d45fa",
+        "unchanged": true
+      },
+      {
+        "chunk": 85,
+        "sha256": "f2709cd1a2e8fdb817604e667dddacf589869cbd96fc1af64c44dccf2049b186",
+        "unchanged": true
+      },
+      {
+        "chunk": 86,
+        "sha256": "6a2d3d987ea8805f910e93858f58ae8ba53028ab4d18337b4eb3b73e10162b48",
+        "unchanged": true
+      },
+      {
+        "chunk": 87,
+        "sha256": "ca2ac737802ab1a848d62ca8ea1c0ed26d8a9495625af8229164d505b4fba862",
+        "unchanged": true
+      },
+      {
+        "chunk": 88,
+        "sha256": "6f7f45529daa5be59344a634737c05abd243607f965e15fc417495800b946e4e",
+        "unchanged": true
+      },
+      {
+        "chunk": 89,
+        "sha256": "11871339f5aa6a8f15bbd1d47e5cfa0bd6543845be17f422bb89c2861b9e0e58",
+        "unchanged": true
+      },
+      {
+        "chunk": 90,
+        "sha256": "20b30b07a13b4129b577dea29f71be2fdeb5f58b991b24abf30d03cbe220f247",
+        "unchanged": true
+      },
+      {
+        "chunk": 91,
+        "sha256": "286d7d1544d146d7543358d6f6f9bc9c7eab99881b46f5f1201641ce8d074d81",
+        "unchanged": true
+      },
+      {
+        "chunk": 92,
+        "sha256": "7402b1b978a9a9368650d2f9252ff23a2fd4b43155e350d80cc4a2b0e1432b76",
+        "unchanged": true
+      },
+      {
+        "chunk": 93,
+        "sha256": "e9b8c9744f8d01e59dc72bdb445fa562c90e90459ff048fa6d0dc4fd080f1168",
+        "unchanged": true
+      }
+    ]
+  },
+  "direct_listening": false,
+  "limitations_ko": "이 환경에서는 직접 청음 검수를 수행하지 못했습니다. 자동 음성 인식·글자 정렬·파형·재생 검사만으로 성조, 경성, 얼화와 자연스러움을 모두 보증할 수 없습니다. 인식 차이 목록은 확정된 오독 목록이 아니며, 짧은 단어의 오인식·경계 시간 오차·동음어·숫자 표기 차이·다음자 처리 차이를 포함합니다.",
+  "recognition_differences_for_listening": [
+    {
+      "no": 4,
+      "kind": "word",
+      "expected_text": "恭喜",
+      "expected_pinyin": "gōngxǐ",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 7,
+      "kind": "word",
+      "expected_text": "哈",
+      "expected_pinyin": "hā",
+      "heard_text": "",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 7,
+      "kind": "example",
+      "expected_text": "哈，原来问题出在这里，难怪刚才一直没成功。",
+      "expected_pinyin": "Hā, yuánlái wèntí chū zài zhèlǐ, nánguài gāngcái yìzhí méi chénggōng.",
+      "heard_text": "哈哈,原来问题出在这里,难怪刚才一直没成功",
+      "phonetic_coverage": 0.9444,
+      "phonetic_ratio": 0.973,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 8,
+      "kind": "word",
+      "expected_text": "哦",
+      "expected_pinyin": "ò",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 10,
+      "kind": "word",
+      "expected_text": "呀",
+      "expected_pinyin": "yā",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 12,
+      "kind": "word",
+      "expected_text": "迎",
+      "expected_pinyin": "yíng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 12,
+      "kind": "example",
+      "expected_text": "看到老同学走进院子，他连忙迎上前去。",
+      "expected_pinyin": "Kàndào lǎotóngxué zǒujìn yuànzi, tā liánmáng yíng shàng qiánqù.",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 13,
+      "kind": "word",
+      "expected_text": "迎接",
+      "expected_pinyin": "yíngjiē",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 13,
+      "kind": "example",
+      "expected_text": "村民们准备好热茶，迎接远道而来的客人。",
+      "expected_pinyin": "Cūnmínmen zhǔnbèi hǎo rèchá, yíngjiē yuǎn dào ér lái de kèrén.",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 14,
+      "kind": "word",
+      "expected_text": "成人",
+      "expected_pinyin": "chéngrén",
+      "heard_text": "一伙年轻人利用周末为村里老人维修电器,加兵。部动",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0833,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 14,
+      "kind": "example",
+      "expected_text": "这部动画既适合儿童，也能引发成人的思考。",
+      "expected_pinyin": "Zhè bù dònghuà jì shìhé értóng, yě néng yǐnfā chéngrén de sīkǎo.",
+      "heard_text": "动画既适合儿童,也能引发成人的思考。",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 16,
+      "kind": "word",
+      "expected_text": "大爷",
+      "expected_pinyin": "dàye",
+      "heard_text": "举大爷",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.8,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 16,
+      "kind": "example",
+      "expected_text": "邻居大爷退休后，主动承担了小区的绿化维护。",
+      "expected_pinyin": "Línjū dàye tuìxiū hòu, zhǔdòng chéngdān le xiǎoqū de lǜhuà wéihù.",
+      "heard_text": "退休后,主动承担了小区的绿化维护。",
+      "phonetic_coverage": 0.7895,
+      "phonetic_ratio": 0.8824,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 17,
+      "kind": "word",
+      "expected_text": "伙",
+      "expected_pinyin": "huǒ",
+      "heard_text": "一伙",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 17,
+      "kind": "example",
+      "expected_text": "一伙年轻人利用周末，为村里老人维修电器。",
+      "expected_pinyin": "Yì huǒ niánqīngrén lìyòng zhōumò, wèi cūnlǐ lǎorén wéixiū diànqì.",
+      "heard_text": "年轻人利用周末为村里老人维修电器,",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 18,
+      "kind": "word",
+      "expected_text": "嘉宾",
+      "expected_pinyin": "jiābīn",
+      "heard_text": "加兵。",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 20,
+      "kind": "example",
+      "expected_text": "那名男子发现孩子落单，主动带他去服务中心。",
+      "expected_pinyin": "Nà míng nánzǐ fāxiàn háizi luòdān, zhǔdòng dài tā qù fúwù zhōngxīn.",
+      "heard_text": "内名男子发现孩子落单,主动带她去服务中心。",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 42,
+      "kind": "word",
+      "expected_text": "儿女",
+      "expected_pinyin": "érnǚ",
+      "heard_text": "母",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 42,
+      "kind": "example",
+      "expected_text": "父母尊重儿女的选择，并不意味着放弃必要的引导。",
+      "expected_pinyin": "Fùmǔ zūnzhòng érnǚ de xuǎnzé, bìng bú yìwèizhe fàngqì bìyào de yǐndǎo.",
+      "heard_text": "母尊重儿女的选择并不意味着放弃必要的引导",
+      "phonetic_coverage": 0.9524,
+      "phonetic_ratio": 0.9756,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 45,
+      "kind": "example",
+      "expected_text": "她和老公轮流照顾孩子，各自保留学习的时间。",
+      "expected_pinyin": "Tā hé lǎogōng lúnliú zhàogu háizi, gèzì bǎoliú xuéxí de shíjiān.",
+      "heard_text": "他和老公輪流照顧孩子各自保留學習的時間",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 54,
+      "kind": "word",
+      "expected_text": "子女",
+      "expected_pinyin": "zǐnǚ",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 58,
+      "kind": "word",
+      "expected_text": "离婚",
+      "expected_pinyin": "líhūn",
+      "heard_text": "离婚离",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.8,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 58,
+      "kind": "example",
+      "expected_text": "离婚后，他们仍努力共同承担照顾孩子的责任。",
+      "expected_pinyin": "Líhūn hòu, tāmen réng nǔlì gòngtóng chéngdān zhàogu háizi de zérèn.",
+      "heard_text": "离婚后他们仍努力共同承担照顾孩子的责任",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 59,
+      "kind": "word",
+      "expected_text": "亲爱",
+      "expected_pinyin": "qīn'ài",
+      "heard_text": "亲爱",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 59,
+      "kind": "example",
+      "expected_text": "亲爱的朋友，愿你在新的环境里继续保持热爱。",
+      "expected_pinyin": "Qīn'ài de péngyou, yuàn nǐ zài xīn de huánjìng lǐ jìxù bǎochí rè'ài.",
+      "heard_text": "朋友愿你在心的环境里继续保持热爱",
+      "phonetic_coverage": 0.8421,
+      "phonetic_ratio": 0.9143,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 61,
+      "kind": "example",
+      "expected_text": "新郎在婚礼上，感谢两家人一直以来的支持。",
+      "expected_pinyin": "Xīnláng zài hūnlǐ shàng, gǎnxiè liǎngjiā rén yìzhí yǐlái de zhīchí.",
+      "heard_text": "新郎在婚礼上感謝兩家人一直以來的支持",
+      "phonetic_coverage": 0.9444,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 63,
+      "kind": "word",
+      "expected_text": "彼此",
+      "expected_pinyin": "bǐcǐ",
+      "heard_text": "彼此",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 64,
+      "kind": "word",
+      "expected_text": "处",
+      "expected_pinyin": "chǔ",
+      "heard_text": "相處",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 66,
+      "kind": "example",
+      "expected_text": "告别熟悉的环境，需要勇气，也意味着新的开始。",
+      "expected_pinyin": "Gàobié shúxī de huánjìng, xūyào yǒngqì, yě yìwèizhe xīn de kāishǐ.",
+      "heard_text": "告別熟悉的環境需要勇氣也意味著新的開始",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 74,
+      "kind": "word",
+      "expected_text": "亲",
+      "expected_pinyin": "qīn",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 91,
+      "kind": "word",
+      "expected_text": "类",
+      "expected_pinyin": "lèi",
+      "heard_text": "这类",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 91,
+      "kind": "example",
+      "expected_text": "这类问题不能只靠个人努力，还需要制度支持。",
+      "expected_pinyin": "Zhè lèi wèntí bùnéng zhǐ kào gèrén nǔlì, hái xūyào zhìdù zhīchí.",
+      "heard_text": "问题不能只靠个人努力,还需要制度支持。",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.9444,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 93,
+      "kind": "word",
+      "expected_text": "量",
+      "expected_pinyin": "liàng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 94,
+      "kind": "example",
+      "expected_text": "教学任务的难度，应随着学生能力逐步增加。",
+      "expected_pinyin": "Jiàoxué rènwu de nándù, yīng suízhe xuésheng nénglì zhúbù zēngjiā.",
+      "heard_text": "教學任務的難度,因隨著學生能力逐步增加。",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.8889,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 97,
+      "kind": "word",
+      "expected_text": "数",
+      "expected_pinyin": "shǔ",
+      "heard_text": "新手,",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 101,
+      "kind": "word",
+      "expected_text": "占",
+      "expected_pinyin": "zhàn",
+      "heard_text": "不占,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 106,
+      "kind": "word",
+      "expected_text": "册",
+      "expected_pinyin": "cè",
+      "heard_text": "日测,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 107,
+      "kind": "word",
+      "expected_text": "长度",
+      "expected_pinyin": "chángdù",
+      "heard_text": "长度,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 108,
+      "kind": "word",
+      "expected_text": "称",
+      "expected_pinyin": "chēng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 109,
+      "kind": "word",
+      "expected_text": "度",
+      "expected_pinyin": "dù",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 109,
+      "kind": "example",
+      "expected_text": "今年夏天，市区最高气温一度超过四十度。",
+      "expected_pinyin": "Jīnnián xiàtiān, shìqū zuìgāo qìwēn yí dù chāoguò sìshí dù.",
+      "heard_text": "今年夏天市区最高气温一度超过40度",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.9375,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 110,
+      "kind": "word",
+      "expected_text": "吨",
+      "expected_pinyin": "dūn",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 111,
+      "kind": "word",
+      "expected_text": "朵",
+      "expected_pinyin": "duǒ",
+      "heard_text": "它",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 111,
+      "kind": "example",
+      "expected_text": "她没有摘下一朵花，而是用相机留下春色。",
+      "expected_pinyin": "Tā méiyǒu zhāixià yì duǒ huā, érshì yòng xiàngjī liúxià chūnsè.",
+      "heard_text": "没有摘下一朵花而是用相机留下春色",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9697,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 113,
+      "kind": "word",
+      "expected_text": "级",
+      "expected_pinyin": "jí",
+      "heard_text": "以及",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 114,
+      "kind": "word",
+      "expected_text": "届",
+      "expected_pinyin": "jiè",
+      "heard_text": "本节",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 115,
+      "kind": "word",
+      "expected_text": "颗",
+      "expected_pinyin": "kē",
+      "heard_text": "一颗",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 115,
+      "kind": "example",
+      "expected_text": "一颗小小的种子，也可能长成遮阴的大树。",
+      "expected_pinyin": "Yì kē xiǎoxiǎo de zhǒngzi, yě kěnéng zhǎngchéng zhēyīn de dàshù.",
+      "heard_text": "颗小小的种子,也可能长成遮阴的大树",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9697,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 119,
+      "kind": "word",
+      "expected_text": "匹",
+      "expected_pinyin": "pǐ",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 119,
+      "kind": "example",
+      "expected_text": "牧民牵着一匹马，带领游客缓慢穿过草地。",
+      "expected_pinyin": "Mùmín qiān zhe yì pǐ mǎ, dàilǐng yóukè huǎnmàn chuānguò cǎodì.",
+      "heard_text": "目名牽制一屁馬,帶領遊客緩慢穿過草地。",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.8824,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 120,
+      "kind": "word",
+      "expected_text": "批",
+      "expected_pinyin": "pī",
+      "heard_text": "一屁,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 121,
+      "kind": "word",
+      "expected_text": "群",
+      "expected_pinyin": "qún",
+      "heard_text": "一群",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 121,
+      "kind": "example",
+      "expected_text": "一群年轻人自发组成团队，为社区设计导览地图。",
+      "expected_pinyin": "Yì qún niánqīngrén zìfā zǔchéng tuánduì, wèi shèqū shèjì dǎolǎn dìtú.",
+      "heard_text": "年輕人自發組成團隊為社區設計導覽地圖。",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 123,
+      "kind": "word",
+      "expected_text": "束",
+      "expected_pinyin": "shù",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 124,
+      "kind": "word",
+      "expected_text": "套",
+      "expected_pinyin": "tào",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 125,
+      "kind": "word",
+      "expected_text": "阵",
+      "expected_pinyin": "zhèn",
+      "heard_text": "一阵,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 128,
+      "kind": "word",
+      "expected_text": "某",
+      "expected_pinyin": "mǒu",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 128,
+      "kind": "example",
+      "expected_text": "某些看似合理的规则，可能忽略特殊群体的需要。",
+      "expected_pinyin": "Mǒuxiē kànsì hélǐ de guīzé, kěnéng hūlüè tèshū qúntǐ de xūyào.",
+      "heard_text": "某些看似合理的规则,可能忽略特殊群体的需要。",
+      "phonetic_coverage": 0.95,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 129,
+      "kind": "word",
+      "expected_text": "其",
+      "expected_pinyin": "qí",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 132,
+      "kind": "word",
+      "expected_text": "朝",
+      "expected_pinyin": "cháo",
+      "heard_text": "一朝",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 133,
+      "kind": "word",
+      "expected_text": "处",
+      "expected_pinyin": "chù",
+      "heard_text": "一處",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 134,
+      "kind": "word",
+      "expected_text": "当中",
+      "expected_pinyin": "dāngzhōng",
+      "heard_text": "當中",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 136,
+      "kind": "word",
+      "expected_text": "地下",
+      "expected_pinyin": "dìxià",
+      "heard_text": "地下",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 138,
+      "kind": "word",
+      "expected_text": "隔",
+      "expected_pinyin": "gé",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 140,
+      "kind": "word",
+      "expected_text": "距",
+      "expected_pinyin": "jù",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 146,
+      "kind": "example",
+      "expected_text": "台风过后，工作人员四处检查受损的设施。",
+      "expected_pinyin": "Táifēng guòhòu, gōngzuò rényuán sì chù jiǎnchá shòusǔn de shèshī.",
+      "heard_text": "排风过后工作人员四处检查受损的设施",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 151,
+      "kind": "example",
+      "expected_text": "调整座椅位置以后，他终于能看清屏幕。",
+      "expected_pinyin": "Tiáozhěng zuòyǐ wèizhi yǐhòu, tā zhōngyú néng kànqīng píngmù.",
+      "heard_text": "調整座以位置以後它終於能看清屏幕",
+      "phonetic_coverage": 0.9375,
+      "phonetic_ratio": 0.9375,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 155,
+      "kind": "example",
+      "expected_text": "这家餐厅优先采购本地食材，以减少运输消耗。",
+      "expected_pinyin": "Zhè jiā cāntīng yōuxiān cǎigòu běndì shí cái, yǐ jiǎnshǎo yùnshū xiāohào.",
+      "heard_text": "這家餐廳優先採購本地食材以減少運輸消耗",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 162,
+      "kind": "word",
+      "expected_text": "欧洲",
+      "expected_pinyin": "Ōuzhōu",
+      "heard_text": "歐洲",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 167,
+      "kind": "word",
+      "expected_text": "县",
+      "expected_pinyin": "xiàn",
+      "heard_text": "這個線",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 167,
+      "kind": "example",
+      "expected_text": "这个县通过改善交通，让农产品更容易运出山区。",
+      "expected_pinyin": "Zhè ge xiàn tōngguò gǎishàn jiāotōng, ràng nóngchǎnpǐn gèng róngyì yùnchū shānqū.",
+      "heard_text": "線通過改善交通,讓農產品更容易運出山區",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 168,
+      "kind": "word",
+      "expected_text": "乡",
+      "expected_pinyin": "xiāng",
+      "heard_text": "回鄉,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 171,
+      "kind": "word",
+      "expected_text": "傍晚",
+      "expected_pinyin": "bàngwǎn",
+      "heard_text": "棒完到了",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 171,
+      "kind": "example",
+      "expected_text": "到了傍晚，湖边的步道上渐渐热闹起来。",
+      "expected_pinyin": "Dào le bàngwǎn, húbiān de bùdào shàng jiànjiàn rènao qǐlai.",
+      "heard_text": "到了棒完湖邊的步道上漸漸熱鬧起來",
+      "phonetic_coverage": 0.875,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 173,
+      "kind": "word",
+      "expected_text": "长期",
+      "expected_pinyin": "chángqī",
+      "heard_text": "長期",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 174,
+      "kind": "word",
+      "expected_text": "长远",
+      "expected_pinyin": "chángyuǎn",
+      "heard_text": "長遠",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 179,
+      "kind": "example",
+      "expected_text": "国庆假期临近，景区提前增加了疏导人员。",
+      "expected_pinyin": "Guóqìng jiàqī línjìn, jǐngqū tíqián zēngjiā le shūdǎo rényuán.",
+      "heard_text": "國慶假期零禁,僅去提前增加了輸導人員",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.8824,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 188,
+      "kind": "word",
+      "expected_text": "临时",
+      "expected_pinyin": "línshí",
+      "heard_text": "零時",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 207,
+      "kind": "word",
+      "expected_text": "曾",
+      "expected_pinyin": "céng",
+      "heard_text": "一层,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 217,
+      "kind": "word",
+      "expected_text": "古",
+      "expected_pinyin": "gǔ",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 222,
+      "kind": "example",
+      "expected_text": "这座车站的历史，反映了近代城市交通的发展。",
+      "expected_pinyin": "Zhè zuò chēzhàn de lìshǐ, fǎnyìng le jìndài chéngshì jiāotōng de fāzhǎn.",
+      "heard_text": "制作车站的历史反映了近代城市交通的发展",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 223,
+      "kind": "example",
+      "expected_text": "请尽快确认人数，以便我们安排交通和住宿。",
+      "expected_pinyin": "Qǐng jǐnkuài quèrèn rénshù, yǐbiàn wǒmen ānpái jiāotōng hé zhùsù.",
+      "heard_text": "尽快确认人数以便我们安排交通和住宿立",
+      "phonetic_coverage": 0.9444,
+      "phonetic_ratio": 0.9444,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 224,
+      "kind": "word",
+      "expected_text": "立即",
+      "expected_pinyin": "lìjí",
+      "heard_text": "立即",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 229,
+      "kind": "example",
+      "expected_text": "这座城市首次举办国际论坛，吸引了各界参与。",
+      "expected_pinyin": "Zhè zuò chéngshì shǒucì jǔbàn guójì lùntán, xīyǐn le gèjiè cānyù.",
+      "heard_text": "這座城市首次舉辦國際論壇吸引了各界參與",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 239,
+      "kind": "word",
+      "expected_text": "长久",
+      "expected_pinyin": "chángjiǔ",
+      "heard_text": "長久",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 239,
+      "kind": "example",
+      "expected_text": "没有相互尊重，合作关系就很难长久。",
+      "expected_pinyin": "Méiyǒu xiānghù zūnzhòng, hézuò guānxi jiù hěn nán chángjiǔ.",
+      "heard_text": " 沒有相互尊重合作關係就很難長久",
+      "phonetic_coverage": 0.8667,
+      "phonetic_ratio": 0.9333,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 246,
+      "kind": "word",
+      "expected_text": "时常",
+      "expected_pinyin": "shícháng",
+      "heard_text": "時長,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 255,
+      "kind": "example",
+      "expected_text": "完成基础训练之后，学员才能进入高级课程。",
+      "expected_pinyin": "Wánchéng jīchǔ xùnliàn zhīhòu, xuéyuán cái néng jìnrù gāojí kèchéng.",
+      "heard_text": "完成基礎訓練之後,學員才能進入高級。",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 265,
+      "kind": "word",
+      "expected_text": "系",
+      "expected_pinyin": "xì",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 274,
+      "kind": "word",
+      "expected_text": "背",
+      "expected_pinyin": "bèi",
+      "heard_text": "光被",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 274,
+      "kind": "example",
+      "expected_text": "光背答案不理解原理，很难灵活运用知识。",
+      "expected_pinyin": "Guāng bèi dá'àn bù lǐjiě yuánlǐ, hěn nán línghuó yùnyòng zhīshi.",
+      "heard_text": "被答案不理解原理很难灵活运用知识,",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9697,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 278,
+      "kind": "word",
+      "expected_text": "成果",
+      "expected_pinyin": "chéngguǒ",
+      "heard_text": "成果",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 282,
+      "kind": "example",
+      "expected_text": "奖励不应只看成绩，也应鼓励持续的进步。",
+      "expected_pinyin": "Jiǎnglì bù yīng zhǐ kàn chéngjì, yě yīng gǔlì chíxù de jìnbù.",
+      "heard_text": "讲例不因只看成计,也因鼓励持续的进步。",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.8824,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 288,
+      "kind": "example",
+      "expected_text": "跨领域交流，常常能为研究带来新的启发。",
+      "expected_pinyin": "Kuà lǐngyù jiāoliú, chángcháng néng wèi yánjiū dàilái xīn de qǐfā.",
+      "heard_text": "快領域交流常常能為研究帶來新的啟發,",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 292,
+      "kind": "word",
+      "expected_text": "试卷",
+      "expected_pinyin": "shìjuàn",
+      "heard_text": "試劫。",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 298,
+      "kind": "example",
+      "expected_text": "统计结果公布时，应同时说明样本的范围。",
+      "expected_pinyin": "Tǒngjì jiéguǒ gōngbù shí, yīng tóngshí shuōmíng yàngběn de fànwéi.",
+      "heard_text": "統計結果公佈時,因同時說明樣本的範圍問",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.9143,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 302,
+      "kind": "example",
+      "expected_text": "掌握基本方法之后，才能更灵活地处理新问题。",
+      "expected_pinyin": "Zhǎngwò jīběn fāngfǎ zhīhòu, cái néng gèng línghuó de chǔlǐ xīn wèntí.",
+      "heard_text": "掌握基本方法之後才能更靈活的處理新問題",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 308,
+      "kind": "word",
+      "expected_text": "标题",
+      "expected_pinyin": "biāotí",
+      "heard_text": "表题",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 310,
+      "kind": "word",
+      "expected_text": "称",
+      "expected_pinyin": "chēng",
+      "heard_text": "名稱,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 310,
+      "kind": "example",
+      "expected_text": "当地居民称这座古桥为城市的历史名片。",
+      "expected_pinyin": "Dāngdì jūmín chēng zhè zuò gǔqiáo wéi chéngshì de lìshǐ míngpiàn.",
+      "heard_text": "當地區名稱這座古橋為城市的歷史名片,",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.8824,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 321,
+      "kind": "word",
+      "expected_text": "念",
+      "expected_pinyin": "niàn",
+      "heard_text": "阿念",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 325,
+      "kind": "word",
+      "expected_text": "用法",
+      "expected_pinyin": "yòngfǎ",
+      "heard_text": "用法",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 330,
+      "kind": "word",
+      "expected_text": "测",
+      "expected_pinyin": "cè",
+      "heard_text": "實工",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 330,
+      "kind": "example",
+      "expected_text": "施工之前，工程师先测了地面的高度差。",
+      "expected_pinyin": "Shīgōng zhīqián, gōngchéngshī xiān cè le dìmiàn de gāodù chā.",
+      "heard_text": "工之前工程師先測了地面的高度差",
+      "phonetic_coverage": 0.9375,
+      "phonetic_ratio": 0.9677,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 335,
+      "kind": "word",
+      "expected_text": "键",
+      "expected_pinyin": "jiàn",
+      "heard_text": "無限以",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 335,
+      "kind": "example",
+      "expected_text": "误按删除键以后，他通过备份找回了文件。",
+      "expected_pinyin": "Wù àn shānchú jiàn yǐhòu, tā tōngguò bèifèn zhǎohuí le wénjiàn.",
+      "heard_text": "後,萬山處建以後,他通過被困找回了文件,",
+      "phonetic_coverage": 0.8235,
+      "phonetic_ratio": 0.8235,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 337,
+      "kind": "example",
+      "expected_text": "机器替人完成重复劳动，并不意味着人不再重要。",
+      "expected_pinyin": "Jīqì tìrén wánchéng chóngfù láodòng, bìng bú yìwèizhe rén búzài zhòngyào.",
+      "heard_text": "激氣替人完成重復勞動,並不意味著人不在重要。",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.9,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 356,
+      "kind": "example",
+      "expected_text": "创业之前，他花了半年时间了解行业现状。",
+      "expected_pinyin": "Chuàngyè zhīqián, tā huā le bàn nián shíjiān liǎojiě hángyè xiànzhuàng.",
+      "heard_text": "創業之前,他花了半年時間了解行業現狀,",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 361,
+      "kind": "word",
+      "expected_text": "调",
+      "expected_pinyin": "diào",
+      "heard_text": "因工作",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 361,
+      "kind": "example",
+      "expected_text": "因工作需要，他被调到新成立的研究部门。",
+      "expected_pinyin": "Yīn gōngzuò xūyào, tā bèi diào dào xīn chénglì de yánjiū bùmén.",
+      "heard_text": "工作需要,它被吊到新成立的研究部門,",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9697,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 363,
+      "kind": "word",
+      "expected_text": "副",
+      "expected_pinyin": "fù",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 363,
+      "kind": "example",
+      "expected_text": "这位副经理主要负责培训和部门之间的协调。",
+      "expected_pinyin": "Zhè wèi fùjīnglǐ zhǔyào fùzé péixùn hé bùmén zhījiān de xiétiáo.",
+      "heard_text": "這位附近裡主要負責培訓和部門之間的協調,",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.8947,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 367,
+      "kind": "word",
+      "expected_text": "行",
+      "expected_pinyin": "háng",
+      "heard_text": "進入",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 367,
+      "kind": "example",
+      "expected_text": "进入这一行之后，他才体会到专业积累的重要。",
+      "expected_pinyin": "Jìnrù zhè yì háng zhīhòu, tā cái tǐhuì dào zhuānyè jīlěi de zhòngyào.",
+      "heard_text": "入這一行之後,它才體會到專業積累的重要",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.973,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 371,
+      "kind": "word",
+      "expected_text": "看",
+      "expected_pinyin": "kān",
+      "heard_text": "劉凯、",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 378,
+      "kind": "word",
+      "expected_text": "培训",
+      "expected_pinyin": "péixùn",
+      "heard_text": "正手意,培訓",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.5714,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 378,
+      "kind": "example",
+      "expected_text": "培训结束后，员工还需要在实际工作中巩固技能。",
+      "expected_pinyin": "Péixùn jiéshù hòu, yuángōng hái xūyào zài shíjì gōngzuò zhōng gǒnggù jìnéng.",
+      "heard_text": "結束後,員工還需要在實際工作中鞏固技能,",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 382,
+      "kind": "example",
+      "expected_text": "这位商人重视长期信誉，很少为短期利益让步。",
+      "expected_pinyin": "Zhè wèi shāngrén zhòngshì chángqī xìnyù, hěn shǎo wèi duǎnqī lìyì ràngbù.",
+      "heard_text": "這位商人重視長期幸遇,很少為短期利益讓步,",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.8947,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 403,
+      "kind": "example",
+      "expected_text": "合理分配任务，可以避免有人过忙而有人闲着。",
+      "expected_pinyin": "Hélǐ fēnpèi rènwu, kěyǐ bìmiǎn yǒurén guò máng ér yǒurén xiánzhe.",
+      "heard_text": "合理分配任務可以避免有人過忙,而有人嫌著,",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 413,
+      "kind": "word",
+      "expected_text": "派",
+      "expected_pinyin": "pài",
+      "heard_text": "自派",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 418,
+      "kind": "word",
+      "expected_text": "团",
+      "expected_pinyin": "tuán",
+      "heard_text": "打团",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 421,
+      "kind": "example",
+      "expected_text": "业务规模扩大后，原有的人员安排需要重新调整。",
+      "expected_pinyin": "Yèwù guīmó kuòdà hòu, yuányǒu de rényuán ānpái xūyào chóngxīn tiáozhěng.",
+      "heard_text": "业务规模扩大后原有的人員安排需要重新調整",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.95,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 432,
+      "kind": "example",
+      "expected_text": "签订合同之前，双方应仔细确认各项条款。",
+      "expected_pinyin": "Qiāndìng hétong zhīqián, shuāngfāng yīng zǐxì quèrèn gèxiàng tiáokuǎn.",
+      "heard_text": "簽訂合同之前,雙方因仔細確認各項條款。",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.8824,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 433,
+      "kind": "word",
+      "expected_text": "甲",
+      "expected_pinyin": "jiǎ",
+      "heard_text": "不假,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 435,
+      "kind": "word",
+      "expected_text": "批",
+      "expected_pinyin": "pī",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 437,
+      "kind": "word",
+      "expected_text": "签",
+      "expected_pinyin": "qiān",
+      "heard_text": "確",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 437,
+      "kind": "example",
+      "expected_text": "确认所有条款都清楚后，他才在合同上签了字。",
+      "expected_pinyin": "Quèrèn suǒyǒu tiáokuǎn dōu qīngchu hòu, tā cái zài hétong shàng qiān le zì.",
+      "heard_text": "認所有條款都清楚後他才在合同上簽了字",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.973,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 467,
+      "kind": "example",
+      "expected_text": "市民提出的意见，成为公交线路调整的重要依据。",
+      "expected_pinyin": "Shìmín tíchū de yìjiàn, chéngwéi gōngjiāo xiànlù tiáozhěng de zhòngyào yījù.",
+      "heard_text": "市民提出的意見成為公交陷入調整的重要依據",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.9,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 468,
+      "kind": "example",
+      "expected_text": "面对新的市场形势，企业需要重新评估经营方向。",
+      "expected_pinyin": "Miànduì xīn de shìchǎng xíngshì, qǐyè xūyào chóngxīn pínggū jīngyíng fāngxiàng.",
+      "heard_text": "面對新的市場形勢企業需要重新評估進行方向",
+      "phonetic_coverage": 0.85,
+      "phonetic_ratio": 0.9,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 472,
+      "kind": "word",
+      "expected_text": "族",
+      "expected_pinyin": "zú",
+      "heard_text": "各族",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 472,
+      "kind": "example",
+      "expected_text": "各族居民共同参加节庆活动，尊重彼此的传统。",
+      "expected_pinyin": "Gèzú jūmín gòngtóng cānjiā jiéqìng huódòng, zūnzhòng bǐcǐ de chuántǒng.",
+      "heard_text": "居民共同參加劫慶活動尊重彼此的傳統",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.9444,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 474,
+      "kind": "word",
+      "expected_text": "罚",
+      "expected_pinyin": "fá",
+      "heard_text": "指法",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 475,
+      "kind": "example",
+      "expected_text": "乱倒建筑垃圾，不仅要清理，还可能面临罚款。",
+      "expected_pinyin": "Luàndào jiànzhù lājī, bùjǐn yào qīnglǐ, hái kěnéng miànlín fákuǎn.",
+      "heard_text": "慢到建築垃圾不僅要清理還可能面臨法款",
+      "phonetic_coverage": 0.9444,
+      "phonetic_ratio": 0.9444,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 476,
+      "kind": "word",
+      "expected_text": "防",
+      "expected_pinyin": "fáng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 478,
+      "kind": "word",
+      "expected_text": "规则",
+      "expected_pinyin": "guīzé",
+      "heard_text": "规则",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 481,
+      "kind": "word",
+      "expected_text": "骗",
+      "expected_pinyin": "piàn",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 481,
+      "kind": "example",
+      "expected_text": "骗子常用紧急情况作借口，骗取受害人的信任。",
+      "expected_pinyin": "Piànzi chángyòng jǐnjí qíngkuàng zuò jièkǒu, piànqǔ shòuhàirén de xìnrèn.",
+      "heard_text": "骗子常用紧急情况做借口骗取受害人的信任公",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.9744,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 482,
+      "kind": "word",
+      "expected_text": "权",
+      "expected_pinyin": "quán",
+      "heard_text": "公权",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 487,
+      "kind": "example",
+      "expected_text": "即使没有造成事故，违反安全规定也应及时纠正。",
+      "expected_pinyin": "Jíshǐ méiyǒu zàochéng shìgù, wéifǎn ānquán guīdìng yě yīng jíshí jiūzhèng.",
+      "heard_text": "即使沒有造成事故,違法安全規定也因即使糾正,",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.9,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 497,
+      "kind": "word",
+      "expected_text": "饼",
+      "expected_pinyin": "bǐng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 503,
+      "kind": "word",
+      "expected_text": "番茄",
+      "expected_pinyin": "fānqié",
+      "heard_text": "番茄",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 503,
+      "kind": "example",
+      "expected_text": "这些番茄自然成熟，不必额外添加太多调料。",
+      "expected_pinyin": "Zhèxiē fānqié zìrán chéngshú, búbì éwài tiānjiā tài duō tiáoliào.",
+      "heard_text": "這些番茄自然成熟不必額外添加太多調料",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.9444,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 507,
+      "kind": "word",
+      "expected_text": "梨",
+      "expected_pinyin": "lí",
+      "heard_text": "今天的",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 507,
+      "kind": "example",
+      "expected_text": "今年的梨产量较高，合作社正在寻找新的销售渠道。",
+      "expected_pinyin": "Jīnnián de lí chǎnliàng jiào gāo, hézuòshè zhèngzài xúnzhǎo xīn de xiāoshòu qúdào.",
+      "heard_text": "產量較高合作社正在尋找新的銷售渠道",
+      "phonetic_coverage": 0.8095,
+      "phonetic_ratio": 0.8947,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 510,
+      "kind": "word",
+      "expected_text": "桃",
+      "expected_pinyin": "táo",
+      "heard_text": "年逃",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 518,
+      "kind": "word",
+      "expected_text": "炒",
+      "expected_pinyin": "chǎo",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 521,
+      "kind": "word",
+      "expected_text": "锅",
+      "expected_pinyin": "guō",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 521,
+      "kind": "example",
+      "expected_text": "锅里的水快烧干了，他连忙关火补水。",
+      "expected_pinyin": "Guō lǐ de shuǐ kuài shāogān le, tā liánmáng guān huǒ bǔshuǐ.",
+      "heard_text": "鍋裡的水快燒乾了,它聯盟關火補水。",
+      "phonetic_coverage": 0.8667,
+      "phonetic_ratio": 0.8667,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 527,
+      "kind": "word",
+      "expected_text": "切",
+      "expected_pinyin": "qiē",
+      "heard_text": "再切,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 532,
+      "kind": "word",
+      "expected_text": "炸",
+      "expected_pinyin": "zhá",
+      "heard_text": "配合,炸",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 532,
+      "kind": "example",
+      "expected_text": "炸食物时，要控制油温，避免表面焦了里面未熟。",
+      "expected_pinyin": "Zhá shíwù shí, yào kòngzhì yóuwēn, bìmiǎn biǎomiàn jiāo le lǐmiàn wèi shú.",
+      "heard_text": "食物時要控制油溫,避免表面焦了里面位熟。",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.973,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 533,
+      "kind": "word",
+      "expected_text": "煮",
+      "expected_pinyin": "zhǔ",
+      "heard_text": "笨煮,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 536,
+      "kind": "word",
+      "expected_text": "淡",
+      "expected_pinyin": "dàn",
+      "heard_text": "這道",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 536,
+      "kind": "example",
+      "expected_text": "这道汤味道偏淡，可以根据个人口味适量加盐。",
+      "expected_pinyin": "Zhè dào tāng wèidao piān dàn, kěyǐ gēnjù gèrén kǒuwèi shìliàng jiāyán.",
+      "heard_text": "道湯味道偏淡可以根據個人口味適量加鹽",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.973,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 540,
+      "kind": "word",
+      "expected_text": "浓",
+      "expected_pinyin": "nóng",
+      "heard_text": "愛濃味",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 541,
+      "kind": "word",
+      "expected_text": "品",
+      "expected_pinyin": "pǐn",
+      "heard_text": "滿品,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 545,
+      "kind": "example",
+      "expected_text": "调整饮食习惯需要长期坚持，不能只依靠短期控制。",
+      "expected_pinyin": "Tiáozhěng yǐnshí xíguàn xūyào chángqī jiānchí, bùnéng zhǐ yīkào duǎnqī kòngzhì.",
+      "heard_text": "調整飲食習慣需要長期堅持不能只依靠短期控制",
+      "phonetic_coverage": 0.9048,
+      "phonetic_ratio": 0.9048,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 559,
+      "kind": "example",
+      "expected_text": "品牌的信誉，需要长期稳定的服务来维护。",
+      "expected_pinyin": "Pǐnpái de xìnyù, xūyào chángqī wěndìng de fúwù lái wéihù.",
+      "heard_text": " 品牌的幸運需要長期穩定的服務來維護",
+      "phonetic_coverage": 0.8235,
+      "phonetic_ratio": 0.8235,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 580,
+      "kind": "word",
+      "expected_text": "富",
+      "expected_pinyin": "fù",
+      "heard_text": "農民富",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 586,
+      "kind": "word",
+      "expected_text": "亏",
+      "expected_pinyin": "kuī",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 589,
+      "kind": "word",
+      "expected_text": "赔",
+      "expected_pinyin": "péi",
+      "heard_text": "輸",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 589,
+      "kind": "example",
+      "expected_text": "运输中损坏的货物，应根据合同约定由责任方赔。",
+      "expected_pinyin": "Yùnshū zhōng sǔnhuài de huòwù, yīng gēnjù hétong yuēdìng yóu zérèn fāng péi.",
+      "heard_text": "輸中損壞的貨物,因根據合同約定有責任方培,",
+      "phonetic_coverage": 0.85,
+      "phonetic_ratio": 0.9231,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 590,
+      "kind": "word",
+      "expected_text": "欠",
+      "expected_pinyin": "qiàn",
+      "heard_text": "他把",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 590,
+      "kind": "example",
+      "expected_text": "他把欠下的钱分期还清，重新建立了信用。",
+      "expected_pinyin": "Tā bǎ qiànxià de qián fēnqī huánqīng, chóngxīn jiànlì le xìnyòng.",
+      "heard_text": "把欠下的錢分期環親,重新建立了信用。",
+      "phonetic_coverage": 0.8235,
+      "phonetic_ratio": 0.9091,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 591,
+      "kind": "word",
+      "expected_text": "穷",
+      "expected_pinyin": "qióng",
+      "heard_text": "金窮,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 592,
+      "kind": "word",
+      "expected_text": "税",
+      "expected_pinyin": "shuì",
+      "heard_text": "保稅。",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 594,
+      "kind": "example",
+      "expected_text": "增加资金投入之前，需要评估项目的持续性。",
+      "expected_pinyin": "Zēngjiā zījīn tóurù zhīqián, xūyào pínggū xiàngmù dì chíxùxìng.",
+      "heard_text": "增加資金投入之前,需要評估項目的持續性,",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 595,
+      "kind": "word",
+      "expected_text": "退还",
+      "expected_pinyin": "tuìhuán",
+      "heard_text": "退還。",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 599,
+      "kind": "example",
+      "expected_text": "租用设备前，应确认押金退还的条件和时间。",
+      "expected_pinyin": "Zūyòng shèbèi qián, yīng quèrèn yājīn tuìhuán de tiáojiàn hé shíjiān.",
+      "heard_text": "作用設備錢,因確認壓金退還的條件和時間,",
+      "phonetic_coverage": 0.8333,
+      "phonetic_ratio": 0.8333,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 602,
+      "kind": "word",
+      "expected_text": "挣",
+      "expected_pinyin": "zhèng",
+      "heard_text": "把店长",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 616,
+      "kind": "word",
+      "expected_text": "宝",
+      "expected_pinyin": "bǎo",
+      "heard_text": "而保在",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 617,
+      "kind": "word",
+      "expected_text": "包裹",
+      "expected_pinyin": "bāoguǒ",
+      "heard_text": "包括",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 624,
+      "kind": "word",
+      "expected_text": "物品",
+      "expected_pinyin": "wùpǐn",
+      "heard_text": "木品",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 628,
+      "kind": "word",
+      "expected_text": "产",
+      "expected_pinyin": "chǎn",
+      "heard_text": "厉产。",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 630,
+      "kind": "example",
+      "expected_text": "这座城市正逐步从传统制造业转向绿色产业。",
+      "expected_pinyin": "Zhè zuò chéngshì zhèng zhúbù cóng chuántǒng zhìzàoyè zhuǎnxiàng lǜsè chǎnyè.",
+      "heard_text": "制作城市正逐步从传统制造叶转向绿色产叶。",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 636,
+      "kind": "word",
+      "expected_text": "行业",
+      "expected_pinyin": "hángyè",
+      "heard_text": "行業。",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 650,
+      "kind": "word",
+      "expected_text": "长途",
+      "expected_pinyin": "chángtú",
+      "heard_text": "長途",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 650,
+      "kind": "example",
+      "expected_text": "长途驾驶容易疲劳，最好安排两人轮流开车。",
+      "expected_pinyin": "Chángtú jiàshǐ róngyì píláo, zuìhǎo ānpái liǎng rén lúnliú kāichē.",
+      "heard_text": " 長途駕駛容易疲勞 最好安排兩人輪流開車",
+      "phonetic_coverage": 0.9444,
+      "phonetic_ratio": 0.9444,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 665,
+      "kind": "word",
+      "expected_text": "绕",
+      "expected_pinyin": "rào",
+      "heard_text": "繞繞,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 669,
+      "kind": "word",
+      "expected_text": "退",
+      "expected_pinyin": "tuì",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 674,
+      "kind": "word",
+      "expected_text": "运",
+      "expected_pinyin": "yùn",
+      "heard_text": "许愿",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 677,
+      "kind": "example",
+      "expected_text": "访问期间，代表团重点了解了当地的环保经验。",
+      "expected_pinyin": "Fǎngwèn qījiān, dàibiǎotuán zhòngdiǎn liǎojiě le dāngdì de huánbǎo jīngyàn.",
+      "heard_text": "访问期间代表团重点了解了当地的环保经验",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 681,
+      "kind": "word",
+      "expected_text": "预订",
+      "expected_pinyin": "yùdìng",
+      "heard_text": "預定",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 685,
+      "kind": "example",
+      "expected_text": "这场车祸提醒我们，驾驶时绝不能分心。",
+      "expected_pinyin": "Zhè chǎng chēhuò tíxǐng wǒmen, jiàshǐ shí juébùnéng fēnxīn.",
+      "heard_text": "這場車禍提醒我們駕駛時絕不能分心車",
+      "phonetic_coverage": 0.9375,
+      "phonetic_ratio": 0.9697,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 690,
+      "kind": "example",
+      "expected_text": "车辆在山区行驶时，应提前了解天气和路况。",
+      "expected_pinyin": "Chēliàng zài shānqū xíngshǐ shí, yīng tíqián liǎojiě tiānqì hé lùkuàng.",
+      "heard_text": "车辆在山区行使时,因提前了解天气和路况。",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.9444,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 691,
+      "kind": "word",
+      "expected_text": "场所",
+      "expected_pinyin": "chǎngsuǒ",
+      "heard_text": "长所。",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 694,
+      "kind": "word",
+      "expected_text": "大厦",
+      "expected_pinyin": "dàshà",
+      "heard_text": "大傻,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 699,
+      "kind": "word",
+      "expected_text": "建",
+      "expected_pinyin": "jiàn",
+      "heard_text": "法建,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 705,
+      "kind": "word",
+      "expected_text": "库",
+      "expected_pinyin": "kù",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 706,
+      "kind": "word",
+      "expected_text": "墙",
+      "expected_pinyin": "qiáng",
+      "heard_text": "老闆",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 714,
+      "kind": "word",
+      "expected_text": "造",
+      "expected_pinyin": "zào",
+      "heard_text": "往造,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 716,
+      "kind": "word",
+      "expected_text": "住房",
+      "expected_pinyin": "zhùfáng",
+      "heard_text": "助防",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 720,
+      "kind": "word",
+      "expected_text": "柜子",
+      "expected_pinyin": "guìzi",
+      "heard_text": "櫃子",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 721,
+      "kind": "word",
+      "expected_text": "灰",
+      "expected_pinyin": "huī",
+      "heard_text": "迴施",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 721,
+      "kind": "example",
+      "expected_text": "施工结束后，窗台上落了一层厚厚的灰。",
+      "expected_pinyin": "Shīgōng jiéshù hòu, chuāngtái shàng luò le yì céng hòuhòu de huī.",
+      "heard_text": "工结束后窗台上落了一層厚厚的灰",
+      "phonetic_coverage": 0.875,
+      "phonetic_ratio": 0.9677,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 722,
+      "kind": "word",
+      "expected_text": "浇",
+      "expected_pinyin": "jiāo",
+      "heard_text": "花椒",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 724,
+      "kind": "word",
+      "expected_text": "盆",
+      "expected_pinyin": "pén",
+      "heard_text": "肚盆",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 731,
+      "kind": "example",
+      "expected_text": "装修之前，应向邻居说明施工时间和可能的影响。",
+      "expected_pinyin": "Zhuāngxiū zhīqián, yīng xiàng línjū shuōmíng shīgōng shíjiān hé kěnéng de yǐngxiǎng.",
+      "heard_text": "裝修之前,印象零居說明施工時間和可能的影響。",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.9,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 738,
+      "kind": "word",
+      "expected_text": "架",
+      "expected_pinyin": "jià",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 741,
+      "kind": "word",
+      "expected_text": "铃",
+      "expected_pinyin": "líng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 744,
+      "kind": "word",
+      "expected_text": "锁",
+      "expected_pinyin": "suǒ",
+      "heard_text": "當所",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 746,
+      "kind": "word",
+      "expected_text": "安",
+      "expected_pinyin": "ān",
+      "heard_text": "平安,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 747,
+      "kind": "example",
+      "expected_text": "长期熬夜会影响记忆力，也容易降低效率。",
+      "expected_pinyin": "Chángqī áoyè huì yǐngxiǎng jìyìlì, yě róngyì jiàngdī xiàolǜ.",
+      "heard_text": "長期熬夜會影響記憶力,也容易降低效率。",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 749,
+      "kind": "example",
+      "expected_text": "这片重新变绿的土地，凝结着志愿者的汗水。",
+      "expected_pinyin": "Zhè piàn chóngxīn biànlǜ de tǔdì, níngjié zhe zhìyuànzhě de hànshuǐ.",
+      "heard_text": "這片重新變律的土地凝結著志願者的漢水胡",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.9189,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 755,
+      "kind": "word",
+      "expected_text": "力",
+      "expected_pinyin": "lì",
+      "heard_text": "无力,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 755,
+      "kind": "example",
+      "expected_text": "长期缺乏休息，会使人感到有心无力。",
+      "expected_pinyin": "Chángqī quēfá xiūxi, huì shǐ rén gǎndào yǒuxīn wúlì.",
+      "heard_text": "长期缺乏休息,会使人感到有心无力,",
+      "phonetic_coverage": 0.9333,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 758,
+      "kind": "word",
+      "expected_text": "命",
+      "expected_pinyin": "mìng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 766,
+      "kind": "word",
+      "expected_text": "胃",
+      "expected_pinyin": "wèi",
+      "heard_text": "他",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 766,
+      "kind": "example",
+      "expected_text": "他经常不按时吃饭，最近胃总觉得不舒服。",
+      "expected_pinyin": "Tā jīngcháng bú ànshí chīfàn, zuìjìn wèi zǒng juéde bù shūfu.",
+      "heard_text": "經常不暗示吃飯,最近未總覺得不舒服,",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9697,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 769,
+      "kind": "word",
+      "expected_text": "眼",
+      "expected_pinyin": "yǎn",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 770,
+      "kind": "word",
+      "expected_text": "腰",
+      "expected_pinyin": "yāo",
+      "heard_text": "長",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 770,
+      "kind": "example",
+      "expected_text": "长时间弯着腰工作，容易引起腰部不适。",
+      "expected_pinyin": "Chángshíjiān wān zhe yāo gōngzuò, róngyì yǐnqǐ yāobù búshì.",
+      "heard_text": "時間瞞著腰工作容易引起腰部不是姿",
+      "phonetic_coverage": 0.8125,
+      "phonetic_ratio": 0.8125,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 784,
+      "kind": "word",
+      "expected_text": "伤",
+      "expected_pinyin": "shāng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 785,
+      "kind": "example",
+      "expected_text": "长期失眠影响日常生活时，应及时寻求专业帮助。",
+      "expected_pinyin": "Chángqī shīmián yǐngxiǎng rìcháng shēnghuó shí, yīng jíshí xúnqiú zhuānyè bāngzhù.",
+      "heard_text": "长期失眠影响日常生活时,因即时寻求专业帮助。",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.95,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 788,
+      "kind": "example",
+      "expected_text": "购买药品时，应通过正规渠道并核对相关信息。",
+      "expected_pinyin": "Gòumǎi yàopǐn shí, yīng tōngguò zhèngguī qúdào bìng héduì xiāngguān xìnxī.",
+      "heard_text": "更買藥品時,因通過正規渠道並核對相關信息,",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.8947,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 789,
+      "kind": "example",
+      "expected_text": "药物使用应遵循专业指导，不能随意增减剂量。",
+      "expected_pinyin": "Yàowù shǐyòng yīng zūnxún zhuānyè zhǐdǎo, bùnéng suíyì zēngjiǎn jìliàng.",
+      "heard_text": "藥物使用因尊尋專業指導,不能隨意增減儘量,",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.8947,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 792,
+      "kind": "word",
+      "expected_text": "着凉",
+      "expected_pinyin": "zháoliáng",
+      "heard_text": "著涼,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 794,
+      "kind": "word",
+      "expected_text": "治",
+      "expected_pinyin": "zhì",
+      "heard_text": "時至,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 798,
+      "kind": "example",
+      "expected_text": "小鸟反复展开翅膀，尝试着离开树枝。",
+      "expected_pinyin": "Xiǎoniǎo fǎnfù zhǎnkāi chìbǎng, chángshì zhe líkāi shùzhī.",
+      "heard_text": "小鳥反覆展開翅膀嘗試著離開數字,",
+      "phonetic_coverage": 0.8667,
+      "phonetic_ratio": 0.8667,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 799,
+      "kind": "example",
+      "expected_text": "饲养宠物之前，应认真考虑时间和经济条件。",
+      "expected_pinyin": "Sìyǎng chǒngwù zhīqián, yīng rènzhēn kǎolǜ shíjiān hé jīngjì tiáojiàn.",
+      "heard_text": "四氧重悟之前,因认真考虑时间和经济条件。",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.8889,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 802,
+      "kind": "word",
+      "expected_text": "根",
+      "expected_pinyin": "gēn",
+      "heard_text": "不根,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 815,
+      "kind": "word",
+      "expected_text": "喂",
+      "expected_pinyin": "wèi",
+      "heard_text": "為什麼,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 818,
+      "kind": "example",
+      "expected_text": "种植作物之前，先了解土壤和当地的气候条件。",
+      "expected_pinyin": "Zhòngzhí zuòwù zhīqián, xiān liǎojiě tǔrǎng hé dāngdì de qìhòu tiáojiàn.",
+      "heard_text": "重职做务之前先了解图养和当地的气候条件。",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 820,
+      "kind": "word",
+      "expected_text": "猪",
+      "expected_pinyin": "zhū",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 823,
+      "kind": "word",
+      "expected_text": "池",
+      "expected_pinyin": "chí",
+      "heard_text": "離池,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 825,
+      "kind": "word",
+      "expected_text": "冻",
+      "expected_pinyin": "dòng",
+      "heard_text": "本動,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 826,
+      "kind": "word",
+      "expected_text": "洞",
+      "expected_pinyin": "dòng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 829,
+      "kind": "word",
+      "expected_text": "湖",
+      "expected_pinyin": "hú",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 829,
+      "kind": "example",
+      "expected_text": "湖边恢复湿地后，迁来的水鸟明显增加。",
+      "expected_pinyin": "Húbiān huīfù shīdì hòu, qiān lái de shuǐniǎo míngxiǎn zēngjiā.",
+      "heard_text": "湖边恢复湿地后,签来的水鳥明显增加,",
+      "phonetic_coverage": 0.9375,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 831,
+      "kind": "example",
+      "expected_text": "长期在海上工作，使他更加珍惜回到陆地的时间。",
+      "expected_pinyin": "Chángqī zài hǎishàng gōngzuò, shǐ tā gèngjiā zhēnxī huídào lùdì de shíjiān.",
+      "heard_text": "长期在海上工作,使它更加珍惜回到陆地的时间。",
+      "phonetic_coverage": 0.95,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 838,
+      "kind": "word",
+      "expected_text": "雾",
+      "expected_pinyin": "wù",
+      "heard_text": "阿物",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 845,
+      "kind": "example",
+      "expected_text": "资源再丰富，也不能忽视合理利用和长期保护。",
+      "expected_pinyin": "Zīyuán zài fēngfù, yě bùnéng hūshì hélǐ lìyòng hé chángqī bǎohù.",
+      "heard_text": "資源在豐富也不能忽視合理利用和長期保護",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 846,
+      "kind": "example",
+      "expected_text": "虽然最终比分落后，队员们仍坚持到了最后。",
+      "expected_pinyin": "Suīrán zuìzhōng bǐfēn luòhòu, duìyuánmen réng jiānchí dào le zuìhòu.",
+      "heard_text": "雖然最終比分落後對原本人堅持到了最後裁",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.8649,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 856,
+      "kind": "word",
+      "expected_text": "胜",
+      "expected_pinyin": "shèng",
+      "heard_text": "陈胜",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 859,
+      "kind": "example",
+      "expected_text": "跳远比赛结束后，教练与队员共同分析起跳动作。",
+      "expected_pinyin": "Tiàoyuǎn bǐsài jiéshù hòu, jiàoliàn yǔ duìyuán gòngtóng fēnxī qǐtiào dòngzuò.",
+      "heard_text": "跳源比賽結束後,教練與隊員共同分析起跳動作,",
+      "phonetic_coverage": 0.95,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 862,
+      "kind": "example",
+      "expected_text": "训练计划应根据身体反应调整，不能一味增加强度。",
+      "expected_pinyin": "Xùnliàn jìhuà yīng gēnjù shēntǐ fǎnyìng tiáozhěng, bùnéng yíwèi zēngjiā qiángdù.",
+      "heard_text": "訓練計畫因根據身體反應調整,不能一位增加強度。",
+      "phonetic_coverage": 0.9048,
+      "phonetic_ratio": 0.9048,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 868,
+      "kind": "word",
+      "expected_text": "动画",
+      "expected_pinyin": "dònghuà",
+      "heard_text": "懂话,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 870,
+      "kind": "example",
+      "expected_text": "了解当地风俗，能减少旅行中不必要的误会。",
+      "expected_pinyin": "Liǎojiě dāngdì fēngsú, néng jiǎnshǎo lǚxíng zhōng búbìyào de wùhuì.",
+      "heard_text": "了解当地风俗能减少旅行中不必要的误会。",
+      "phonetic_coverage": 0.9444,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 874,
+      "kind": "example",
+      "expected_text": "鼓声响起时，舞台上的演员缓缓走到中央。",
+      "expected_pinyin": "Gǔshēng xiǎngqǐ shí, wǔtái shàng de yǎnyuán huǎnhuǎn zǒu dào zhōngyāng.",
+      "heard_text": "想起时 舞台上的演员还缓走到中央",
+      "phonetic_coverage": 0.8235,
+      "phonetic_ratio": 0.875,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 878,
+      "kind": "word",
+      "expected_text": "角色",
+      "expected_pinyin": "juésè",
+      "heard_text": "角色,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 880,
+      "kind": "word",
+      "expected_text": "龙",
+      "expected_pinyin": "lóng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 880,
+      "kind": "example",
+      "expected_text": "展览介绍了龙的形象在不同历史时期的变化。",
+      "expected_pinyin": "Zhǎnlǎn jièshào le lóng de xíngxiàng zài bùtóng lìshǐ shíqī de biànhuà.",
+      "heard_text": "转览介绍了龙的形象在不同历史时期的变化,",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 885,
+      "kind": "example",
+      "expected_text": "不同色彩的搭配，会影响观众对画面的感受。",
+      "expected_pinyin": "Bùtóng sècǎi de dāpèi, huì yǐngxiǎng guānzhòng duì huàmiàn de gǎnshòu.",
+      "heard_text": "不同色彩的搭配,会影响观众对画面",
+      "phonetic_coverage": 0.8333,
+      "phonetic_ratio": 0.9091,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 889,
+      "kind": "word",
+      "expected_text": "诗",
+      "expected_pinyin": "shī",
+      "heard_text": "不识",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 897,
+      "kind": "word",
+      "expected_text": "戏",
+      "expected_pinyin": "xì",
+      "heard_text": "不細,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 921,
+      "kind": "word",
+      "expected_text": "集",
+      "expected_pinyin": "jí",
+      "heard_text": "六集。",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 924,
+      "kind": "example",
+      "expected_text": "浏览新闻时，应区分事实报道与个人评论。",
+      "expected_pinyin": "Liúlǎn xīnwén shí, yīng qūfēn shìshí bàodào yǔ gèrén pínglùn.",
+      "heard_text": "流暖新文時,因區分事實報導與個人評論",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.8824,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 932,
+      "kind": "word",
+      "expected_text": "删",
+      "expected_pinyin": "shān",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 932,
+      "kind": "example",
+      "expected_text": "删掉重复资料之前，先确认有没有遗漏重要内容。",
+      "expected_pinyin": "Shāndiào chóngfù zīliào zhīqián, xiān quèrèn yǒuméiyǒu yílòu zhòngyào nèiróng.",
+      "heard_text": "山调重复资料之前,先确认有没有一路重要内容,",
+      "phonetic_coverage": 0.85,
+      "phonetic_ratio": 0.95,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 936,
+      "kind": "word",
+      "expected_text": "搜",
+      "expected_pinyin": "sōu",
+      "heard_text": "",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 947,
+      "kind": "example",
+      "expected_text": "在公共区域播放音乐，应控制音量，避免影响他人。",
+      "expected_pinyin": "Zài gōnggòng qūyù bōfàng yīnyuè, yīng kòngzhì yīnliàng, bìmiǎn yǐngxiǎng tārén.",
+      "heard_text": "在公共區域播放音樂,引控指音量,避免影響他人。",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.9,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 956,
+      "kind": "example",
+      "expected_text": "遇到紧急情况，请立即拨打当地救援电话。",
+      "expected_pinyin": "Yùdào jǐnjí qíngkuàng, qǐng lìjí bōdǎ dāngdì jiùyuán diànhuà.",
+      "heard_text": "遇到緊急情況,請立即播打當地救援電話,",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 957,
+      "kind": "word",
+      "expected_text": "吵",
+      "expected_pinyin": "chǎo",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 960,
+      "kind": "word",
+      "expected_text": "传",
+      "expected_pinyin": "chuán",
+      "heard_text": "地傳,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 962,
+      "kind": "word",
+      "expected_text": "催",
+      "expected_pinyin": "cuī",
+      "heard_text": "在催,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 973,
+      "kind": "word",
+      "expected_text": "骂",
+      "expected_pinyin": "mà",
+      "heard_text": "没骂",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 975,
+      "kind": "word",
+      "expected_text": "闹",
+      "expected_pinyin": "nào",
+      "heard_text": "闹着",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 978,
+      "kind": "word",
+      "expected_text": "劝",
+      "expected_pinyin": "quàn",
+      "heard_text": "他卻",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 978,
+      "kind": "example",
+      "expected_text": "他劝朋友先查清事实，不要急着转发消息。",
+      "expected_pinyin": "Tā quàn péngyou xiān cháqīng shìshí, búyào jí zhe zhuǎnfā xiāoxi.",
+      "heard_text": "朋友先查清事實,不要急著轉發消息。",
+      "phonetic_coverage": 0.8235,
+      "phonetic_ratio": 0.875,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 985,
+      "kind": "example",
+      "expected_text": "询问个人经历之前，应先说明调查的目的。",
+      "expected_pinyin": "Xúnwèn gèrén jīnglì zhīqián, yīng xiān shuōmíng diàochá de mùdì.",
+      "heard_text": "詢問個人經歷之前應先說明調查的目的。",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 992,
+      "kind": "word",
+      "expected_text": "争",
+      "expected_pinyin": "zhēng",
+      "heard_text": "這真",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 992,
+      "kind": "example",
+      "expected_text": "不必事事争个输赢，解决问题才是讨论的目的。",
+      "expected_pinyin": "Búbì shìshì zhēng ge shūyíng, jiějué wèntí cái shì tǎolùn de mùdì.",
+      "heard_text": "不必事實真個輸贏,解決問題才是討論的目的,",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 994,
+      "kind": "example",
+      "expected_text": "闭幕式结束后，志愿者仍留下来整理场地。",
+      "expected_pinyin": "Bìmùshì jiéshù hòu, zhìyuànzhě réng liúxiàlai zhěnglǐ chǎngdì.",
+      "heard_text": "并目是结束后志愿者仍留下来整理场地,",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1000,
+      "kind": "example",
+      "expected_text": "这座小馆通过照片，纪念参与修桥的普通工人。",
+      "expected_pinyin": "Zhè zuò xiǎo guǎn tōngguò zhàopiàn, jìniàn cānyù xiū qiáo de pǔtōng gōngrén.",
+      "heard_text": "制作小管通過照片紀念參與修橋的普通工人",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1003,
+      "kind": "word",
+      "expected_text": "开幕式",
+      "expected_pinyin": "kāimùshì",
+      "heard_text": "開幕式",
+      "phonetic_coverage": 0.6667,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1005,
+      "kind": "word",
+      "expected_text": "赏",
+      "expected_pinyin": "shǎng",
+      "heard_text": "漲花",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1010,
+      "kind": "word",
+      "expected_text": "插",
+      "expected_pinyin": "chā",
+      "heard_text": "分享",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1011,
+      "kind": "word",
+      "expected_text": "拆",
+      "expected_pinyin": "chāi",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1011,
+      "kind": "example",
+      "expected_text": "拆旧房之前，工人先检查了附近的管道。",
+      "expected_pinyin": "Chāi jiùfáng zhīqián, gōngrén xiān jiǎnchá le fùjìn de guǎndào.",
+      "heard_text": "救房之前工人先檢查了附近的管道",
+      "phonetic_coverage": 0.9375,
+      "phonetic_ratio": 0.9677,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1012,
+      "kind": "word",
+      "expected_text": "冲",
+      "expected_pinyin": "chōng",
+      "heard_text": "人衝",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1013,
+      "kind": "word",
+      "expected_text": "抽",
+      "expected_pinyin": "chōu",
+      "heard_text": "一抽",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1014,
+      "kind": "word",
+      "expected_text": "挡",
+      "expected_pinyin": "dǎng",
+      "heard_text": "连挡",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1016,
+      "kind": "example",
+      "expected_text": "动手实验之前，先想清楚要验证什么问题。",
+      "expected_pinyin": "Dòngshǒu shíyàn zhīqián, xiān xiǎng qīngchu yào yànzhèng shénme wèntí.",
+      "heard_text": "动手实验之前先想清楚要验证什么问题能",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9714,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1017,
+      "kind": "word",
+      "expected_text": "堵",
+      "expected_pinyin": "dǔ",
+      "heard_text": "能堵",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1018,
+      "kind": "word",
+      "expected_text": "堆",
+      "expected_pinyin": "duī",
+      "heard_text": "要对",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1019,
+      "kind": "word",
+      "expected_text": "躲",
+      "expected_pinyin": "duǒ",
+      "heard_text": "堵",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1020,
+      "kind": "word",
+      "expected_text": "翻",
+      "expected_pinyin": "fān",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1021,
+      "kind": "word",
+      "expected_text": "扶",
+      "expected_pinyin": "fú",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1022,
+      "kind": "word",
+      "expected_text": "盖",
+      "expected_pinyin": "gài",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1022,
+      "kind": "example",
+      "expected_text": "为防止灰尘落入，他给设备盖上了防护罩。",
+      "expected_pinyin": "Wèi fángzhǐ huīchén luòrù, tā gěi shèbèi gài shàng le fánghùzhào.",
+      "heard_text": "防止灰尘落入,他给设备盖上了防护照。",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9697,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1023,
+      "kind": "word",
+      "expected_text": "滚",
+      "expected_pinyin": "gǔn",
+      "heard_text": "窝滚,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1024,
+      "kind": "word",
+      "expected_text": "挥",
+      "expected_pinyin": "huī",
+      "heard_text": "灰露,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1025,
+      "kind": "word",
+      "expected_text": "系",
+      "expected_pinyin": "jì",
+      "heard_text": "戏牢,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1026,
+      "kind": "word",
+      "expected_text": "挤",
+      "expected_pinyin": "jǐ",
+      "heard_text": "危急,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1027,
+      "kind": "word",
+      "expected_text": "捡",
+      "expected_pinyin": "jiǎn",
+      "heard_text": "培计,见到,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.4,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1028,
+      "kind": "word",
+      "expected_text": "剪",
+      "expected_pinyin": "jiǎn",
+      "heard_text": "不简",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1030,
+      "kind": "word",
+      "expected_text": "结",
+      "expected_pinyin": "jié",
+      "heard_text": "端节,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1030,
+      "kind": "example",
+      "expected_text": "他在绳子末端结了一个结，防止绳子滑落。",
+      "expected_pinyin": "Tā zài shéngzi mòduān jié le yí ge jié, fángzhǐ shéngzi huáluò.",
+      "heard_text": "他在神子末端节了一个节,防止神子滑落,",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.8824,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 1033,
+      "kind": "word",
+      "expected_text": "摸",
+      "expected_pinyin": "mō",
+      "heard_text": "他摸",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1033,
+      "kind": "example",
+      "expected_text": "他摸了摸箱子的边角，确认没有尖锐部分。",
+      "expected_pinyin": "Tā mō le mo xiāngzi de biānjiǎo, quèrèn méiyǒu jiānruì bùfen.",
+      "heard_text": "了摸箱子的边角,却认没有尖锐部分。",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.9375,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1034,
+      "kind": "word",
+      "expected_text": "碰",
+      "expected_pinyin": "pèng",
+      "heard_text": "经碰,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1035,
+      "kind": "word",
+      "expected_text": "拼",
+      "expected_pinyin": "pīn",
+      "heard_text": "二拼,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1036,
+      "kind": "word",
+      "expected_text": "抢",
+      "expected_pinyin": "qiǎng",
+      "heard_text": "不要墙。",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1037,
+      "kind": "word",
+      "expected_text": "洒",
+      "expected_pinyin": "sǎ",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1038,
+      "kind": "word",
+      "expected_text": "扇",
+      "expected_pinyin": "shān",
+      "heard_text": "清山,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1039,
+      "kind": "word",
+      "expected_text": "伸",
+      "expected_pinyin": "shēn",
+      "heard_text": "他身",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1039,
+      "kind": "example",
+      "expected_text": "他伸手扶住晃动的架子，避免上面的东西掉落。",
+      "expected_pinyin": "Tā shēnshǒu fúzhù huàngdòng de jiàzi, bìmiǎn shàngmiàn de dōngxi diàoluò.",
+      "heard_text": "手扶住晃動的架子,避免上面的東西掉落。",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.9444,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1040,
+      "kind": "word",
+      "expected_text": "摔",
+      "expected_pinyin": "shuāi",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1041,
+      "kind": "word",
+      "expected_text": "贴",
+      "expected_pinyin": "tiē",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1042,
+      "kind": "word",
+      "expected_text": "投",
+      "expected_pinyin": "tóu",
+      "heard_text": "人頭",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1043,
+      "kind": "word",
+      "expected_text": "围",
+      "expected_pinyin": "wéi",
+      "heard_text": "大家為",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1043,
+      "kind": "example",
+      "expected_text": "大家围着地图讨论，确定了第二天的调查路线。",
+      "expected_pinyin": "Dàjiā wéizhe dìtú tǎolùn, quèdìng le dì'èrtiān de diàochá lùxiàn.",
+      "heard_text": "著地圖討論,確定了第二天的調查路線。",
+      "phonetic_coverage": 0.7895,
+      "phonetic_ratio": 0.8571,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1045,
+      "kind": "word",
+      "expected_text": "握",
+      "expected_pinyin": "wò",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1046,
+      "kind": "word",
+      "expected_text": "摇",
+      "expected_pinyin": "yáo",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1048,
+      "kind": "word",
+      "expected_text": "移",
+      "expected_pinyin": "yí",
+      "heard_text": "满意,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1052,
+      "kind": "word",
+      "expected_text": "支",
+      "expected_pinyin": "zhī",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1052,
+      "kind": "example",
+      "expected_text": "用木板把棚子支起来，可以暂时遮挡风雨。",
+      "expected_pinyin": "Yòng mùbǎn bǎ péngzi zhī qǐlai, kěyǐ zànshí zhēdǎng fēngyǔ.",
+      "heard_text": "用木板把盆子折起来可以暂时遮挡风雨,先",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.8571,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 1054,
+      "kind": "word",
+      "expected_text": "撞",
+      "expected_pinyin": "zhuàng",
+      "heard_text": "先撞,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1055,
+      "kind": "word",
+      "expected_text": "追",
+      "expected_pinyin": "zhuī",
+      "heard_text": "先追,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1060,
+      "kind": "word",
+      "expected_text": "藏",
+      "expected_pinyin": "cáng",
+      "heard_text": "也藏",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1062,
+      "kind": "word",
+      "expected_text": "重复",
+      "expected_pinyin": "chóngfù",
+      "heard_text": "重复,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1067,
+      "kind": "word",
+      "expected_text": "打破",
+      "expected_pinyin": "dǎpò",
+      "heard_text": "打破",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1070,
+      "kind": "example",
+      "expected_text": "把垃圾正确分类，是回收利用的重要前提。",
+      "expected_pinyin": "Bǎ lājī zhèngquè fēnlèi, shì huíshōu lìyòng de zhòngyào qiántí.",
+      "heard_text": "把拉机正确分类是回收利用的重要前提改",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9714,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1073,
+      "kind": "word",
+      "expected_text": "搞",
+      "expected_pinyin": "gǎo",
+      "heard_text": "提稿,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1076,
+      "kind": "word",
+      "expected_text": "合",
+      "expected_pinyin": "hé",
+      "heard_text": "任何",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1085,
+      "kind": "word",
+      "expected_text": "配",
+      "expected_pinyin": "pèi",
+      "heard_text": "要配",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1087,
+      "kind": "word",
+      "expected_text": "省",
+      "expected_pinyin": "shěng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1089,
+      "kind": "word",
+      "expected_text": "填",
+      "expected_pinyin": "tián",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1089,
+      "kind": "example",
+      "expected_text": "填申请表时，应保证信息真实而且完整。",
+      "expected_pinyin": "Tián shēnqǐngbiǎo shí, yīng bǎozhèng xìnxī zhēnshí érqiě wánzhěng.",
+      "heard_text": "田申請表示,因保證信息真實,而且完整,",
+      "phonetic_coverage": 0.875,
+      "phonetic_ratio": 0.9375,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1090,
+      "kind": "word",
+      "expected_text": "调",
+      "expected_pinyin": "tiáo",
+      "heard_text": "讓調整,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1091,
+      "kind": "word",
+      "expected_text": "调整",
+      "expected_pinyin": "tiáozhěng",
+      "heard_text": "調整。",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1099,
+      "kind": "example",
+      "expected_text": "了解问题只是开始，接下来还需要具体行动。",
+      "expected_pinyin": "Liǎojiě wèntí zhǐshì kāishǐ, jiēxiàlai hái xūyào jùtǐ xíngdòng.",
+      "heard_text": "了解问题只是开始,接下来还需要具体行动。",
+      "phonetic_coverage": 0.9444,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1103,
+      "kind": "word",
+      "expected_text": "运用",
+      "expected_pinyin": "yùnyòng",
+      "heard_text": "运用,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1108,
+      "kind": "word",
+      "expected_text": "沉",
+      "expected_pinyin": "chén",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1108,
+      "kind": "example",
+      "expected_text": "石块慢慢沉到水底，水面又恢复了平静。",
+      "expected_pinyin": "Shíkuài mànmàn chén dào shuǐdǐ, shuǐmiàn yòu huīfù le píngjìng.",
+      "heard_text": "漫漫漫塵到水底,水面又恢復了平靜。",
+      "phonetic_coverage": 0.875,
+      "phonetic_ratio": 0.9032,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1112,
+      "kind": "word",
+      "expected_text": "倒",
+      "expected_pinyin": "dǎo",
+      "heard_text": "被倒。",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1113,
+      "kind": "example",
+      "expected_text": "长期忽视设备维护，可能导致严重的安全事故。",
+      "expected_pinyin": "Chángqī hūshì shèbèi wéihù, kěnéng dǎozhì yánzhòng de ānquán shìgù.",
+      "heard_text": "長期忽視設備維護,可能導致嚴重的安全事故",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1115,
+      "kind": "word",
+      "expected_text": "断",
+      "expected_pinyin": "duàn",
+      "heard_text": "不斷",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1127,
+      "kind": "word",
+      "expected_text": "漏",
+      "expected_pinyin": "lòu",
+      "heard_text": "他",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1127,
+      "kind": "example",
+      "expected_text": "他检查名单时发现，漏了一位临时加入的志愿者。",
+      "expected_pinyin": "Tā jiǎnchá míngdān shí fāxiàn, lòu le yí wèi línshí jiārù de zhìyuànzhě.",
+      "heard_text": "檢查名單時發現漏了一位臨時加入的志願者",
+      "phonetic_coverage": 0.95,
+      "phonetic_ratio": 0.9744,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1129,
+      "kind": "example",
+      "expected_text": "把短期波动当成长期趋势，可能造成判断失误。",
+      "expected_pinyin": "Bǎ duǎnqī bōdòng dàngchéng chángqī qūshì, kěnéng zàochéng pànduàn shīwù.",
+      "heard_text": "把短期波動當成長期趨勢可能造成判斷失誤",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1131,
+      "kind": "example",
+      "expected_text": "随着需求上升，企业需要重新安排生产计划。",
+      "expected_pinyin": "Suízhe xūqiú shàngshēng, qǐyè xūyào chóngxīn ānpái shēngchǎn jìhuà.",
+      "heard_text": "隨著需求上升企業需要重新安排生產計劃",
+      "phonetic_coverage": 0.8333,
+      "phonetic_ratio": 0.9444,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1133,
+      "kind": "word",
+      "expected_text": "升",
+      "expected_pinyin": "shēng",
+      "heard_text": "去升",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1137,
+      "kind": "example",
+      "expected_text": "隐瞒产品缺陷，最终会损害企业长期的信誉。",
+      "expected_pinyin": "Yǐnmán chǎnpǐn quēxiàn, zuìzhōng huì sǔnhài qǐyè chángqī de xìnyù.",
+      "heard_text": "你滿產品缺陷,最終會損害企業長期的幸運。",
+      "phonetic_coverage": 0.7778,
+      "phonetic_ratio": 0.7778,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1142,
+      "kind": "example",
+      "expected_text": "长期忽视通风，可能危害在室内工作的人。",
+      "expected_pinyin": "Chángqī hūshì tōngfēng, kěnéng wēihài zài shìnèi gōngzuò de rén.",
+      "heard_text": "长期忽视通风可能危害在室内工作的人",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1145,
+      "kind": "word",
+      "expected_text": "延长",
+      "expected_pinyin": "yáncháng",
+      "heard_text": "延长",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1148,
+      "kind": "word",
+      "expected_text": "增",
+      "expected_pinyin": "zēng",
+      "heard_text": "纸增,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1150,
+      "kind": "word",
+      "expected_text": "涨",
+      "expected_pinyin": "zhǎng",
+      "heard_text": "白涨,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1151,
+      "kind": "word",
+      "expected_text": "止",
+      "expected_pinyin": "zhǐ",
+      "heard_text": "执着,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1153,
+      "kind": "word",
+      "expected_text": "保",
+      "expected_pinyin": "bǎo",
+      "heard_text": "為了",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1153,
+      "kind": "example",
+      "expected_text": "为了保住传统手艺，村里开办了免费培训班。",
+      "expected_pinyin": "Wèile bǎozhù chuántǒng shǒuyì, cūnlǐ kāibàn le miǎnfèi péixùnbān.",
+      "heard_text": "保住傳統手藝村裡開辦了免費培訓班",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1156,
+      "kind": "word",
+      "expected_text": "递",
+      "expected_pinyin": "dì",
+      "heard_text": "他把",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1156,
+      "kind": "example",
+      "expected_text": "她把整理好的资料递给老师，请他提出修改意见。",
+      "expected_pinyin": "Tā bǎ zhěnglǐ hǎo de zīliào dìgěi lǎoshī, qǐng tā tíchū xiūgǎi yìjiàn.",
+      "heard_text": "把整理好的資料地給老師,請他提出修改意見。",
+      "phonetic_coverage": 0.95,
+      "phonetic_ratio": 0.9744,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1158,
+      "kind": "example",
+      "expected_text": "交换意见的目的不是争胜，而是完善共同方案。",
+      "expected_pinyin": "Jiāohuàn yìjiàn de mùdì búshì zhēngshèng, érshì wánshàn gòngtóng fāng'àn.",
+      "heard_text": "交換意見的目的不是真正,而是完善共同方案。",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 1159,
+      "kind": "word",
+      "expected_text": "救",
+      "expected_pinyin": "jiù",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1160,
+      "kind": "word",
+      "expected_text": "捐",
+      "expected_pinyin": "juān",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1161,
+      "kind": "word",
+      "expected_text": "靠",
+      "expected_pinyin": "kào",
+      "heard_text": "光靠",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1161,
+      "kind": "example",
+      "expected_text": "光靠口头承诺，无法建立长久的合作关系。",
+      "expected_pinyin": "Guāng kào kǒutóu chéngnuò, wúfǎ jiànlì chángjiǔ de hézuò guānxi.",
+      "heard_text": "口头承诺无法建立长久的合作关系",
+      "phonetic_coverage": 0.8235,
+      "phonetic_ratio": 0.9375,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1164,
+      "kind": "word",
+      "expected_text": "替",
+      "expected_pinyin": "tì",
+      "heard_text": "问题同",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1164,
+      "kind": "example",
+      "expected_text": "同事临时有事，他主动替对方承担了接待工作。",
+      "expected_pinyin": "Tóngshì línshí yǒushì, tā zhǔdòng tì duìfāng chéngdān le jiēdài gōngzuò.",
+      "heard_text": "同时临时有事他主动替对方承担了接待工作",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1169,
+      "kind": "word",
+      "expected_text": "赠",
+      "expected_pinyin": "zèng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1173,
+      "kind": "word",
+      "expected_text": "当",
+      "expected_pinyin": "dàng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1180,
+      "kind": "example",
+      "expected_text": "仔细观察日常生活，往往能发现有价值的问题。",
+      "expected_pinyin": "Zǐxì guānchá rìcháng shēnghuó, wǎngwǎng néng fāxiàn yǒu jiàzhí de wèntí.",
+      "heard_text": "仔细观察日常生活往往能发现有价值的问题。",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1183,
+      "kind": "word",
+      "expected_text": "规律",
+      "expected_pinyin": "guīlǜ",
+      "heard_text": "規律只有",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1184,
+      "kind": "word",
+      "expected_text": "忽视",
+      "expected_pinyin": "hūshì",
+      "heard_text": "忽視不能",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1193,
+      "kind": "word",
+      "expected_text": "评",
+      "expected_pinyin": "píng",
+      "heard_text": "限制。平",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1193,
+      "kind": "example",
+      "expected_text": "评一项研究的价值，不能只看发表文章的数量。",
+      "expected_pinyin": "Píng yí xiàng yánjiū de jiàzhí, bùnéng zhǐ kàn fābiǎo wénzhāng de shùliàng.",
+      "heard_text": "一向研究的價值,不能只看發表文章的數量。",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.973,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1198,
+      "kind": "word",
+      "expected_text": "认",
+      "expected_pinyin": "rèn",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1199,
+      "kind": "example",
+      "expected_text": "深入了解背景之后，他调整了最初的判断。",
+      "expected_pinyin": "Shēnrù liǎojiě bèijǐng zhīhòu, tā tiáozhěng le zuìchū de pànduàn.",
+      "heard_text": "深入了解背景之後,他調整了最初的判斷,",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 1205,
+      "kind": "example",
+      "expected_text": "作品表达的思想，需要结合时代背景来理解。",
+      "expected_pinyin": "Zuòpǐn biǎodá de sīxiǎng, xūyào jiéhé shídài bèijǐng lái lǐjiě.",
+      "heard_text": "作品表達的思想需要結合時代背景來理解",
+      "phonetic_coverage": 0.9444,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1208,
+      "kind": "example",
+      "expected_text": "亲身体验一次，比只听介绍更能理解实际困难。",
+      "expected_pinyin": "Qīnshēn tǐyàn yí cì, bǐ zhǐ tīng jièshào gèng néng lǐjiě shíjì kùnnan.",
+      "heard_text": "親身體驗一次比指廳建設更能理解實際困難",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.8947,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 1217,
+      "kind": "example",
+      "expected_text": "对结论提出疑问，是为了让讨论更加严谨。",
+      "expected_pinyin": "Duì jiélùn tíchū yíwèn, shì wèile ràng tǎolùn gèngjiā yánjǐn.",
+      "heard_text": "对结论提出疑问是为了让讨论更加严谨",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1229,
+      "kind": "word",
+      "expected_text": "挑",
+      "expected_pinyin": "tiāo",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1229,
+      "kind": "example",
+      "expected_text": "挑合作伙伴时，长期信誉比眼前报价更重要。",
+      "expected_pinyin": "Tiāo hézuò huǒbàn shí, chángqī xìnyù bǐ yǎnqián bàojià gèng zhòngyào.",
+      "heard_text": "挑合作夥伴時,長期信譽比眼前報價更重要。",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.9444,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1239,
+      "kind": "example",
+      "expected_text": "不能因为一次失误，就否定他长期的努力。",
+      "expected_pinyin": "Bùnéng yīnwèi yí cì shīwù, jiù fǒudìng tā chángqī de nǔlì.",
+      "heard_text": " 不能因為一次失誤就否定他長期的努力",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1242,
+      "kind": "example",
+      "expected_text": "他下定决心改变工作方式，避免无意义的忙碌。",
+      "expected_pinyin": "Tā xià dìng juéxīn gǎibiàn gōngzuò fāngshì, bìmiǎn wú yìyì de mánglù.",
+      "heard_text": " 他下定決心改變工作方式 避免無意義的忙碌",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1243,
+      "kind": "example",
+      "expected_text": "他通过分阶段练习，逐渐克服了公开发言的恐惧。",
+      "expected_pinyin": "Tā tōngguò fēn jiēduàn liànxí, zhújiàn kèfú le gōngkāi fāyán de kǒngjù.",
+      "heard_text": " 他通過分階段練習逐漸克服了公開發言的恐懼",
+      "phonetic_coverage": 0.95,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1247,
+      "kind": "word",
+      "expected_text": "守",
+      "expected_pinyin": "shǒu",
+      "heard_text": "留守,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1252,
+      "kind": "word",
+      "expected_text": "争取",
+      "expected_pinyin": "zhēngqǔ",
+      "heard_text": "争取,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1261,
+      "kind": "word",
+      "expected_text": "不幸",
+      "expected_pinyin": "búxìng",
+      "heard_text": "不信,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1261,
+      "kind": "example",
+      "expected_text": "他在事故中不幸受伤，却始终没有放弃康复训练。",
+      "expected_pinyin": "Tā zài shìgù zhōng búxìng shòushāng, què shǐzhōng méiyǒu fàngqì kāngfù xùnliàn.",
+      "heard_text": "他在事故中不信受傷,去始終沒有放棄康復訊戀。",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.9,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 1263,
+      "kind": "word",
+      "expected_text": "疯狂",
+      "expected_pinyin": "fēngkuáng",
+      "heard_text": "風狂面",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.8,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1270,
+      "kind": "word",
+      "expected_text": "迷",
+      "expected_pinyin": "mí",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1284,
+      "kind": "example",
+      "expected_text": "他觉得自己很幸运，遇到了愿意耐心指导的老师。",
+      "expected_pinyin": "Tā juéde zìjǐ hěn xìngyùn, yùdào le yuànyì nàixīn zhǐdǎo de lǎoshī.",
+      "heard_text": "他覺得自己很幸運,遇到了願意耐心指導的老師",
+      "phonetic_coverage": 0.95,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1290,
+      "kind": "word",
+      "expected_text": "愿",
+      "expected_pinyin": "yuàn",
+      "heard_text": "而願",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1295,
+      "kind": "word",
+      "expected_text": "暗",
+      "expected_pinyin": "àn",
+      "heard_text": "两岸,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1300,
+      "kind": "example",
+      "expected_text": "彩色图表能帮助读者更直观地理解数据。",
+      "expected_pinyin": "Cǎisè túbiǎo néng bāngzhù dúzhě gèng zhíguān de lǐjiě shùjù.",
+      "heard_text": "彩色圖表能幫助讀者更直觀的理解數據。",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.8824,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 1305,
+      "kind": "word",
+      "expected_text": "丑",
+      "expected_pinyin": "chǒu",
+      "heard_text": "沒臭外",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1308,
+      "kind": "example",
+      "expected_text": "单靠个人热情，很难让一个项目长期运转。",
+      "expected_pinyin": "Dān kào gèrén rèqíng, hěn nán ràng yí ge xiàngmù chángqī yùnzhuǎn.",
+      "heard_text": "靠個人熱情很難讓一個項目長期運轉,",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.9091,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1312,
+      "kind": "word",
+      "expected_text": "反",
+      "expected_pinyin": "fǎn",
+      "heard_text": "弄返",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1312,
+      "kind": "example",
+      "expected_text": "他把文件的正反两面都检查了一遍。",
+      "expected_pinyin": "Tā bǎ wénjiàn de zhèngfǎn liǎngmiàn dōu jiǎnchá le yí biàn.",
+      "heard_text": "把文件的正反两面都检查了一遍",
+      "phonetic_coverage": 0.9333,
+      "phonetic_ratio": 0.9655,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1316,
+      "kind": "word",
+      "expected_text": "怪",
+      "expected_pinyin": "guài",
+      "heard_text": "很怪",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1320,
+      "kind": "word",
+      "expected_text": "含",
+      "expected_pinyin": "hán",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1322,
+      "kind": "word",
+      "expected_text": "黑",
+      "expected_pinyin": "hēi",
+      "heard_text": "轉黑,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1323,
+      "kind": "word",
+      "expected_text": "红",
+      "expected_pinyin": "hóng",
+      "heard_text": "電紅,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1324,
+      "kind": "word",
+      "expected_text": "滑",
+      "expected_pinyin": "huá",
+      "heard_text": "一滑。",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1330,
+      "kind": "word",
+      "expected_text": "紧",
+      "expected_pinyin": "jǐn",
+      "heard_text": "畢竟",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1331,
+      "kind": "word",
+      "expected_text": "静",
+      "expected_pinyin": "jìng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1331,
+      "kind": "example",
+      "expected_text": "夜深以后，村子静得只能听见远处的流水声。",
+      "expected_pinyin": "Yèshēn yǐhòu, cūnzi jìng de zhǐnéng tīngjiàn yuǎnchù de liúshuǐshēng.",
+      "heard_text": "生以後村子鏡的只能聽見遠處的流水聲",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.9143,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1338,
+      "kind": "word",
+      "expected_text": "类似",
+      "expected_pinyin": "lèisì",
+      "heard_text": "类似面",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.8,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1338,
+      "kind": "example",
+      "expected_text": "面对类似情况，可以参考经验，但不能机械照搬。",
+      "expected_pinyin": "Miànduì lèisì qíngkuàng, kěyǐ cānkǎo jīngyàn, dàn bùnéng jīxiè zhàobān.",
+      "heard_text": "面对类似情况可以参考经验但不能机械找班忙",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.9744,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1341,
+      "kind": "word",
+      "expected_text": "面",
+      "expected_pinyin": "miàn",
+      "heard_text": "裡面,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1347,
+      "kind": "word",
+      "expected_text": "平",
+      "expected_pinyin": "píng",
+      "heard_text": "不平,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1350,
+      "kind": "word",
+      "expected_text": "齐",
+      "expected_pinyin": "qí",
+      "heard_text": "一起,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1351,
+      "kind": "word",
+      "expected_text": "浅",
+      "expected_pinyin": "qiǎn",
+      "heard_text": "愛前,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1352,
+      "kind": "word",
+      "expected_text": "青",
+      "expected_pinyin": "qīng",
+      "heard_text": "天前,",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1355,
+      "kind": "word",
+      "expected_text": "软",
+      "expected_pinyin": "ruǎn",
+      "heard_text": "来软,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1357,
+      "kind": "word",
+      "expected_text": "湿",
+      "expected_pinyin": "shī",
+      "heard_text": "主持人",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1358,
+      "kind": "word",
+      "expected_text": "顺",
+      "expected_pinyin": "shùn",
+      "heard_text": "不順,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1363,
+      "kind": "word",
+      "expected_text": "特征",
+      "expected_pinyin": "tèzhēng",
+      "heard_text": "特徵,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1367,
+      "kind": "word",
+      "expected_text": "弯",
+      "expected_pinyin": "wān",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1370,
+      "kind": "example",
+      "expected_text": "邻居们主动伸出援手，让刚搬来的他感到温暖。",
+      "expected_pinyin": "Línjūmen zhǔdòng shēnchū yuánshǒu, ràng gāng bān lái de tā gǎndào wēnnuǎn.",
+      "heard_text": "凌俊们主动伸出元首,让刚搬来的他赶到温暖,",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.8947,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1373,
+      "kind": "word",
+      "expected_text": "闲",
+      "expected_pinyin": "xián",
+      "heard_text": "显得,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1374,
+      "kind": "example",
+      "expected_text": "重新调整照明以后，原本狭小的房间显得宽敞了。",
+      "expected_pinyin": "Chóngxīn tiáozhěng zhàomíng yǐhòu, yuánběn xiáxiǎo de fángjiān xiǎnde kuānchang le.",
+      "heard_text": "重新调整照明以后,原本狹小的房间显得宽长了。",
+      "phonetic_coverage": 0.85,
+      "phonetic_ratio": 0.95,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1377,
+      "kind": "word",
+      "expected_text": "相似",
+      "expected_pinyin": "xiāngsì",
+      "heard_text": "相似,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1386,
+      "kind": "word",
+      "expected_text": "硬",
+      "expected_pinyin": "yìng",
+      "heard_text": "能硬",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1389,
+      "kind": "example",
+      "expected_text": "这座古城历史悠久，但居民生活仍在不断变化。",
+      "expected_pinyin": "Zhè zuò gǔchéng lìshǐ yōujiǔ, dàn jūmín shēnghuó réng zài búduàn biànhuà.",
+      "heard_text": "这座古城历史悠久但居民生活仍在不断变化",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1390,
+      "kind": "word",
+      "expected_text": "圆",
+      "expected_pinyin": "yuán",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1391,
+      "kind": "word",
+      "expected_text": "糟",
+      "expected_pinyin": "zāo",
+      "heard_text": "很糟",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1398,
+      "kind": "word",
+      "expected_text": "紫",
+      "expected_pinyin": "zǐ",
+      "heard_text": "暗子,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1401,
+      "kind": "word",
+      "expected_text": "长处",
+      "expected_pinyin": "chángchù",
+      "heard_text": "長處,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1408,
+      "kind": "example",
+      "expected_text": "统一着装，并不意味着每个人都要失去个性。",
+      "expected_pinyin": "Tǒngyī zhuózhuāng, bìng bú yìwèizhe měi ge rén dōu yào shīqù gèxìng.",
+      "heard_text": "統一著裝並不意味著每個人都要失去個性而",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.8649,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 1418,
+      "kind": "word",
+      "expected_text": "强大",
+      "expected_pinyin": "qiángdà",
+      "heard_text": "強大的",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.8,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1418,
+      "kind": "example",
+      "expected_text": "强大的团队，不是每个人都一样，而是能够互补。",
+      "expected_pinyin": "Qiángdà de tuánduì, búshì měi ge rén dōu yíyàng, érshì nénggòu hùbǔ.",
+      "heard_text": "團隊不是每個人都一樣,而是能夠互補。",
+      "phonetic_coverage": 0.8421,
+      "phonetic_ratio": 0.9143,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1422,
+      "kind": "word",
+      "expected_text": "弱",
+      "expected_pinyin": "ruò",
+      "heard_text": "高弱,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1429,
+      "kind": "word",
+      "expected_text": "调皮",
+      "expected_pinyin": "tiáopí",
+      "heard_text": "調皮,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1433,
+      "kind": "example",
+      "expected_text": "了解自身优势，比盲目模仿别人更有意义。",
+      "expected_pinyin": "Liǎojiě zìshēn yōushì, bǐ mángmù mófǎng biéren gèng yǒu yìyì.",
+      "heard_text": "了解自身优势,比盲目模仿别人更有意义。",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1451,
+      "kind": "word",
+      "expected_text": "了不起",
+      "expected_pinyin": "liǎobuqǐ",
+      "heard_text": "很了不起,",
+      "phonetic_coverage": 0.6667,
+      "phonetic_ratio": 0.8571,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1459,
+      "kind": "example",
+      "expected_text": "舒适的公共空间，应兼顾通风、照明和噪声控制。",
+      "expected_pinyin": "Shūshì de gōnggòng kōngjiān, yīng jiāngù tōngfēng, zhàomíng hé zàoshēng kòngzhì.",
+      "heard_text": "舒适的公共空间因尖骨通风、照明和造身控制完",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.8718,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 1461,
+      "kind": "word",
+      "expected_text": "伟大",
+      "expected_pinyin": "wěidà",
+      "heard_text": "伟大的发",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1461,
+      "kind": "example",
+      "expected_text": "伟大的发现背后，往往有许多不起眼的基础工作。",
+      "expected_pinyin": "Wěidà de fāxiàn bèihòu, wǎngwǎng yǒu xǔduō bùqǐyǎn de jīchǔ gōngzuò.",
+      "heard_text": "现背后王王有许多不齐眼的基础工作",
+      "phonetic_coverage": 0.8,
+      "phonetic_ratio": 0.8889,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1477,
+      "kind": "word",
+      "expected_text": "不得了",
+      "expected_pinyin": "bùdéliǎo",
+      "heard_text": "不得了",
+      "phonetic_coverage": 0.6667,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1478,
+      "kind": "word",
+      "expected_text": "超",
+      "expected_pinyin": "chāo",
+      "heard_text": "不超",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1478,
+      "kind": "example",
+      "expected_text": "这次展览的参观人数超了预期，主办方增开夜场。",
+      "expected_pinyin": "Zhè cì zhǎnlǎn de cānguān rénshù chāo le yùqī, zhǔbànfāng zēngkāi yèchǎng.",
+      "heard_text": "次展览的参观人数超了预期主办方增开业长",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.9231,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1480,
+      "kind": "word",
+      "expected_text": "超级",
+      "expected_pinyin": "chāojí",
+      "heard_text": "超级这个",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1492,
+      "kind": "word",
+      "expected_text": "广",
+      "expected_pinyin": "guǎng",
+      "heard_text": "月廣,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1498,
+      "kind": "word",
+      "expected_text": "较",
+      "expected_pinyin": "jiào",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1505,
+      "kind": "word",
+      "expected_text": "全体",
+      "expected_pinyin": "quántǐ",
+      "heard_text": "全体",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1505,
+      "kind": "example",
+      "expected_text": "全体成员都参与讨论，共同承担决策责任。",
+      "expected_pinyin": "Quántǐ chéngyuán dōu cānyù tǎolùn, gòngtóng chéngdān juécè zérèn.",
+      "heard_text": "成员都参与讨论共同承担决策则人。",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.9375,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1512,
+      "kind": "example",
+      "expected_text": "只改进一个环节，不一定能提升整体效率。",
+      "expected_pinyin": "Zhǐ gǎijìn yí ge huánjié, bùyídìng néng tíshēng zhěngtǐ xiàolǜ.",
+      "heard_text": "只改进一个环节不一定能提升整体效率重",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9714,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1513,
+      "kind": "example",
+      "expected_text": "作出重大调整之前，应说明理由并听取意见。",
+      "expected_pinyin": "Zuòchū zhòngdà tiáozhěng zhīqián, yīng shuōmíng lǐyóu bìng tīngqǔ yìjiàn.",
+      "heard_text": "作出重大调整之前,因说明理由并听取意见,",
+      "phonetic_coverage": 0.8889,
+      "phonetic_ratio": 0.9444,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 1516,
+      "kind": "example",
+      "expected_text": "别对新同事要求太高，他毕竟刚接触这项工作。",
+      "expected_pinyin": "Bié duì xīn tóngshì yāoqiú tài gāo, tā bìjìng gāng jiēchù zhè xiàng gōngzuò.",
+      "heard_text": "别对新同事要求太高,他毕竟刚接触这项工作,",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1518,
+      "kind": "example",
+      "expected_text": "请把数据来源写清楚，不然读者难以核实。",
+      "expected_pinyin": "Qǐng bǎ shùjù láiyuán xiě qīngchu, bùrán dúzhě nányǐ héshí.",
+      "heard_text": "尽把数据来源写清楚,不然独者难以何时,",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1520,
+      "kind": "example",
+      "expected_text": "过分强调速度，反而可能降低工作的质量。",
+      "expected_pinyin": "Guòfèn qiángdiào sùdù, fǎn'ér kěnéng jiàngdī gōngzuò de zhìliàng.",
+      "heard_text": "顾问强调速度,反而可能降低工作的质量。",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 0.8824,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1522,
+      "kind": "example",
+      "expected_text": "遇到争议可以继续协商，或是请第三方参与调解。",
+      "expected_pinyin": "Yùdào zhēngyì kěyǐ jìxù xiéshāng, huòshì qǐng dìsānfāng cānyù tiáojiě.",
+      "heard_text": "遇到爭議可以繼續協商,或是請第三方參與條件。",
+      "phonetic_coverage": 0.95,
+      "phonetic_ratio": 0.95,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1523,
+      "kind": "word",
+      "expected_text": "及",
+      "expected_pinyin": "jí",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1527,
+      "kind": "word",
+      "expected_text": "如",
+      "expected_pinyin": "rú",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1531,
+      "kind": "example",
+      "expected_text": "要不是同事及时提醒，我差点错过申请期限。",
+      "expected_pinyin": "Yàobúshì tóngshì jíshí tíxǐng, wǒ chàdiǎn cuòguò shēnqǐng qīxiàn.",
+      "heard_text": "同事及时提醒,我差点错过申请期限。",
+      "phonetic_coverage": 0.8333,
+      "phonetic_ratio": 0.9091,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1537,
+      "kind": "word",
+      "expected_text": "总之",
+      "expected_pinyin": "zǒngzhī",
+      "heard_text": "总之,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1537,
+      "kind": "example",
+      "expected_text": "总之，方案既要可行，也要考虑长期维护。",
+      "expected_pinyin": "Zǒngzhī, fāng'àn jì yào kěxíng, yě yào kǎolǜ chángqī wéihù.",
+      "heard_text": "方案既要可行,也要考虑长期维护,",
+      "phonetic_coverage": 0.8125,
+      "phonetic_ratio": 0.9333,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1538,
+      "kind": "word",
+      "expected_text": "必",
+      "expected_pinyin": "bì",
+      "heard_text": "哎,并,",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1543,
+      "kind": "word",
+      "expected_text": "没法儿",
+      "expected_pinyin": "méifǎr",
+      "heard_text": "没法缺",
+      "phonetic_coverage": 0.3333,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1545,
+      "kind": "word",
+      "expected_text": "需",
+      "expected_pinyin": "xū",
+      "heard_text": "参",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1545,
+      "kind": "example",
+      "expected_text": "参观实验区域需提前预约，并接受安全说明。",
+      "expected_pinyin": "Cānguān shíyàn qūyù xū tíqián yùyuē, bìng jiēshòu ānquán shuōmíng.",
+      "heard_text": "观实验区域,需提前预约,并接受安全说明,",
+      "phonetic_coverage": 0.9444,
+      "phonetic_ratio": 0.9714,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1547,
+      "kind": "word",
+      "expected_text": "白",
+      "expected_pinyin": "bái",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1548,
+      "kind": "word",
+      "expected_text": "便",
+      "expected_pinyin": "biàn",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1548,
+      "kind": "example",
+      "expected_text": "一收到修改意见，他便着手调整研究计划。",
+      "expected_pinyin": "Yì shōudào xiūgǎi yìjiàn, tā biàn zhuóshǒu tiáozhěng yánjiū jìhuà.",
+      "heard_text": "一收到修改意见,它便着手调整研究计划。",
+      "phonetic_coverage": 0.8824,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 1549,
+      "kind": "word",
+      "expected_text": "别",
+      "expected_pinyin": "bié",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1549,
+      "kind": "example",
+      "expected_text": "这条路暂时封闭，我们只好另找别的路线。",
+      "expected_pinyin": "Zhè tiáo lù zànshí fēngbì, wǒmen zhǐhǎo lìng zhǎo biéde lùxiàn.",
+      "heard_text": "条路暂时封闭,我们只好另找别的路线。阿",
+      "phonetic_coverage": 0.9412,
+      "phonetic_ratio": 0.9412,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1552,
+      "kind": "word",
+      "expected_text": "的确",
+      "expected_pinyin": "díquè",
+      "heard_text": "的确,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 1.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1562,
+      "kind": "example",
+      "expected_text": "据调查，多数居民支持增加公共绿地。",
+      "expected_pinyin": "Jù diàochá, duōshù jūmín zhīchí zēngjiā gōnggòng lǜdì.",
+      "heard_text": "查,多數居民支持增加公共綠地,",
+      "phonetic_coverage": 0.8667,
+      "phonetic_ratio": 0.9286,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1565,
+      "kind": "word",
+      "expected_text": "连忙",
+      "expected_pinyin": "liánmáng",
+      "heard_text": "聯盟",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1566,
+      "kind": "word",
+      "expected_text": "令",
+      "expected_pinyin": "lìng",
+      "heard_text": "這",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1566,
+      "kind": "example",
+      "expected_text": "这项看似微小的改进，令使用者感到十分方便。",
+      "expected_pinyin": "Zhè xiàng kànsì wēixiǎo de gǎijìn, lìng shǐyòngzhě gǎndào shífēn fāngbiàn.",
+      "heard_text": "項看似微小的改進 令使用者感到十分方便",
+      "phonetic_coverage": 0.9474,
+      "phonetic_ratio": 0.973,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1568,
+      "kind": "word",
+      "expected_text": "凭",
+      "expected_pinyin": "píng",
+      "heard_text": "惡憑",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1573,
+      "kind": "word",
+      "expected_text": "如此",
+      "expected_pinyin": "rúcǐ",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1578,
+      "kind": "word",
+      "expected_text": "似乎",
+      "expected_pinyin": "sìhū",
+      "heard_text": "似乎她",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.8,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1579,
+      "kind": "word",
+      "expected_text": "随",
+      "expected_pinyin": "suí",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1579,
+      "kind": "example",
+      "expected_text": "服务内容应随居民需求的变化，及时作出调整。",
+      "expected_pinyin": "Fúwù nèiróng yīng suí jūmín xūqiú de biànhuà, jíshí zuòchū tiáozhěng.",
+      "heard_text": "伏内容因随居民需求的变化即时做出调整,",
+      "phonetic_coverage": 0.8421,
+      "phonetic_ratio": 0.9189,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    },
+    {
+      "no": 1582,
+      "kind": "word",
+      "expected_text": "同",
+      "expected_pinyin": "tóng",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1583,
+      "kind": "word",
+      "expected_text": "为",
+      "expected_pinyin": "wéi",
+      "heard_text": "活为",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1585,
+      "kind": "word",
+      "expected_text": "沿",
+      "expected_pinyin": "yán",
+      "heard_text": "理结论严",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.4,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1585,
+      "kind": "example",
+      "expected_text": "沿河设置的步道，为居民提供了方便的散步空间。",
+      "expected_pinyin": "Yánhé shèzhì de bùdào, wèi jūmín tígōng le fāngbiàn de sànbù kōngjiān.",
+      "heard_text": "核设置的步道为居民提供了方便的散步空间",
+      "phonetic_coverage": 0.95,
+      "phonetic_ratio": 0.9744,
+      "flags": [
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1586,
+      "kind": "word",
+      "expected_text": "以",
+      "expected_pinyin": "yǐ",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1586,
+      "kind": "example",
+      "expected_text": "解决问题应以实际需要为依据，而不是只凭想象。",
+      "expected_pinyin": "Jiějué wèntí yīng yǐ shíjì xūyào wéi yījù, ér búshì zhǐ píng xiǎngxiàng.",
+      "heard_text": "决问题因以实际需要为依据而不是指评想象",
+      "phonetic_coverage": 0.9,
+      "phonetic_ratio": 0.9231,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1589,
+      "kind": "word",
+      "expected_text": "意味着",
+      "expected_pinyin": "yìwèizhe",
+      "heard_text": "意味著,",
+      "phonetic_coverage": 0.6667,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1593,
+      "kind": "word",
+      "expected_text": "至",
+      "expected_pinyin": "zhì",
+      "heard_text": "不知,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1594,
+      "kind": "word",
+      "expected_text": "化",
+      "expected_pinyin": "huà",
+      "heard_text": "自話,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1595,
+      "kind": "word",
+      "expected_text": "式",
+      "expected_pinyin": "shì",
+      "heard_text": "因為,",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1596,
+      "kind": "word",
+      "expected_text": "似的",
+      "expected_pinyin": "shìde",
+      "heard_text": "死的,",
+      "phonetic_coverage": 0.5,
+      "phonetic_ratio": 0.5,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1597,
+      "kind": "word",
+      "expected_text": "所",
+      "expected_pinyin": "suǒ",
+      "heard_text": "分所,",
+      "phonetic_coverage": 1.0,
+      "phonetic_ratio": 0.6667,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1598,
+      "kind": "word",
+      "expected_text": "头",
+      "expected_pinyin": "tou",
+      "heard_text": "",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.0,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1599,
+      "kind": "word",
+      "expected_text": "原",
+      "expected_pinyin": "yuán",
+      "heard_text": "您好了原",
+      "phonetic_coverage": 0.0,
+      "phonetic_ratio": 0.4,
+      "flags": [
+        "word_recognition_uncertain"
+      ]
+    },
+    {
+      "no": 1599,
+      "kind": "example",
+      "expected_text": "原计划并未考虑雨季影响，因此需要适当调整。",
+      "expected_pinyin": "Yuán jìhuà bìngwèi kǎolǜ yǔjì yǐngxiǎng, yīncǐ xūyào shìdàng tiáozhěng.",
+      "heard_text": "划并为考虑与记影响因此需要适当调整",
+      "phonetic_coverage": 0.8421,
+      "phonetic_ratio": 0.9444,
+      "flags": [
+        "example_transcript_difference",
+        "example_boundary_needs_check"
+      ]
+    },
+    {
+      "no": 1600,
+      "kind": "example",
+      "expected_text": "城市改造应尽量利用原有设施，减少重复建设。",
+      "expected_pinyin": "Chéngshì gǎizào yīng jǐnliàng lìyòng yuányǒu shèshī, jiǎnshǎo chóngfù jiànshè.",
+      "heard_text": "城市改造因尽量利用原油设施,减少重复建设。",
+      "phonetic_coverage": 0.8947,
+      "phonetic_ratio": 0.9474,
+      "flags": [
+        "example_transcript_difference"
+      ]
+    }
+  ],
+  "focused_independent_checks": [
+    {
+      "no": 12,
+      "kind": "example",
+      "expected_text": "看到老同学走进院子，他连忙迎上前去。",
+      "transcript": "看到老同學走進院子,他聯盟迎上前去。",
+      "phonetic_ratio": 0.9375,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "5572701df5f38cb8dbe081394343651433c28b4de330f53a8df44609b807ab45",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 13,
+      "kind": "example",
+      "expected_text": "村民们准备好热茶，迎接远道而来的客人。",
+      "transcript": "村民們準備好熱茶迎接遠道而來的客人",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "447ebf92620090c3b1541c3c01c4816ebaf411e50bfb03556bd099c9ed02266a",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 16,
+      "kind": "example",
+      "expected_text": "邻居大爷退休后，主动承担了小区的绿化维护。",
+      "transcript": "鄰居大爷退休后,主动承担了小区的绿化维护。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "c6d45d737743efd5f3ee18ad47108080a645bccc118d56a7bc7fa21a12af8e67",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 59,
+      "kind": "example",
+      "expected_text": "亲爱的朋友，愿你在新的环境里继续保持热爱。",
+      "transcript": "親愛的朋友,願你在新的環境裏繼續保持熱愛。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "e32c5661577f75d3599bc4bd231770e9893eaa2d28647593c50c9482b1a2097a",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 65,
+      "kind": "example",
+      "expected_text": "对待不同背景的人，应保持同样的尊重。",
+      "transcript": "对待不同背景的人应保持同样的尊重。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "bacdd1d71da7e6ba9c3076b773fb181c17d7b588c89094baac713bb6faabbf65",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 94,
+      "kind": "example",
+      "expected_text": "教学任务的难度，应随着学生能力逐步增加。",
+      "transcript": "教学任务的难度因随着学生能力逐步增加。",
+      "phonetic_ratio": 0.9444,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "a38163b7fb4fdb5c16da9bec5bb83734a84db2db9f5faee780d394ba666edd00",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 179,
+      "kind": "example",
+      "expected_text": "国庆假期临近，景区提前增加了疏导人员。",
+      "transcript": "國慶假期臨近,景區提前增加了輸導人員。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "3be08419e0507367ee28a3a4f0411a71267a0c7b9656b9e165cbef438b95bf53",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 265,
+      "kind": "word",
+      "expected_text": "系",
+      "transcript": "分析",
+      "phonetic_ratio": 0.6667,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "76e0e973fd2eca49bc624228ca9479aa6ec7c47b4cb6f5738e55bdadd223303e",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 274,
+      "kind": "example",
+      "expected_text": "光背答案不理解原理，很难灵活运用知识。",
+      "transcript": "光被答案不理解原理很难灵活运用知识",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "a36b2833dc88ed80351f2937f36b1a7a847ba4d030fc1f892986561c546617aa",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 282,
+      "kind": "example",
+      "expected_text": "奖励不应只看成绩，也应鼓励持续的进步。",
+      "transcript": "獎勵不應只看成績,也因鼓勵持續的進步。",
+      "phonetic_ratio": 0.9412,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "553f4d55c4f5248e7c6fb0a89fa11af9387ee833c43f7a78e01e8640003761f1",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 310,
+      "kind": "example",
+      "expected_text": "当地居民称这座古桥为城市的历史名片。",
+      "transcript": "当地居民称这座古桥为城市的历史名片。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "5ad0563d2cce32587e2e5465354958d307688fb6b11407331f809bc2d642fdfc",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 772,
+      "kind": "word",
+      "expected_text": "醉",
+      "transcript": "喝醉了",
+      "phonetic_ratio": 0.5,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "bd3d81a644931d76fb0ab61d5721400980c92fe92bb7764397116f005e0d3841",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 1543,
+      "kind": "word",
+      "expected_text": "没法儿",
+      "transcript": "是沒法拍",
+      "phonetic_ratio": 0.5714,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "f519a1aff66d822775511058f88d2ebf36159029963d64195ad2d847953e015c",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 1543,
+      "kind": "example",
+      "expected_text": "缺少关键数据，我们暂时没法儿判断结果是否可靠。",
+      "transcript": "缺少关键数据,我们暂时没法判断结果是否可靠。",
+      "phonetic_ratio": 0.9756,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "46aa2e72ec243cd4e8b93e870148f2f0d5ed4f4c81b4ded24633a88feb105bb9",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 32,
+      "kind": "word",
+      "expected_text": "代",
+      "transcript": "大",
+      "phonetic_ratio": 0.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "36886e6c5167cb604d4f951d5669f317e545aeb8b354a5e904fe219d8d9ed711",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 265,
+      "kind": "word",
+      "expected_text": "系",
+      "transcript": "蜥蜴",
+      "phonetic_ratio": 0.6667,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "e3c4d7968fca086ad5e42c38f2422b565d95f2a0cb6b3011d5d2370bbe269a5b",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 772,
+      "kind": "word",
+      "expected_text": "醉",
+      "transcript": "罪",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "78990c2f63bb251f7e92eab67e15e46596730bba08d40b489c9fc95a805506ea",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 1543,
+      "kind": "word",
+      "expected_text": "没法儿",
+      "transcript": "沒法",
+      "phonetic_ratio": 0.8,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "77e80cea01190485cfe5a6887f0fd9fdb6e0454aa0cbf22207cffbedb4f03cdc",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 4,
+      "kind": "word",
+      "expected_text": "恭喜",
+      "transcript": "恭喜!",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "060947db2c3fc95d41c38e6b8f10467d63c92672602bd1133a9716fb81fd5fb6",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 6,
+      "kind": "example",
+      "expected_text": "请问您贵姓？我核对一下今天的访客名单。",
+      "transcript": "请问您贵姓,我核对一下今天的访客名单。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "b81d36709f1d386b02f9a608c44fa2e2370b0651a9047c2b2d549a31cca93ee9",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 24,
+      "kind": "word",
+      "expected_text": "太太",
+      "transcript": "太太",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "b9d842c8b65754048ed0e73b36f4a9789ae2bdee8f8915255ef2bde994d8c1a9",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 25,
+      "kind": "example",
+      "expected_text": "表达自己观点时，也应给他人留下发言空间。",
+      "transcript": "表达自己观点时也应给他人留下发言空间。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "2f7fd6928fca43276f313b9772cf952fd800962143b9d168809c414689c5a2ae",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 32,
+      "kind": "word",
+      "expected_text": "代",
+      "transcript": "答案",
+      "phonetic_ratio": 0.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "59f7fe1dae95b4a127a8cb1ecfa69d0985eb9c81c353bef24ca7d39164a013e9",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 91,
+      "kind": "example",
+      "expected_text": "这类问题不能只靠个人努力，还需要制度支持。",
+      "transcript": "这类问题不能只靠个人努力,还需要制度支持。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "be9dd6cecedf2a3c587cd6b2052bb3fe927ec1c6b21cd1e9da60d96e928f2ca3",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 111,
+      "kind": "example",
+      "expected_text": "她没有摘下一朵花，而是用相机留下春色。",
+      "transcript": "它沒有摘下一朵花,而是用相機留下春色。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "ed42df607e84b1e00028dfe39150adb68e4356ce1fd793e52c33f6b3dacb1208",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 115,
+      "kind": "example",
+      "expected_text": "一颗小小的种子，也可能长成遮阴的大树。",
+      "transcript": "一颗小小的种子也可能长成遮阴的大树。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "25f720b90f7551e9e31a7e3602cf3edaa1f756ff08e2d800c447d558e627e547",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 119,
+      "kind": "example",
+      "expected_text": "牧民牵着一匹马，带领游客缓慢穿过草地。",
+      "transcript": "牧民牽著一匹馬,帶領遊客緩慢穿過草地。",
+      "phonetic_ratio": 0.9412,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "bec0ceed7d979c38db93f89234454cef5f86f2e62fe816373fb5a44d3c09d867",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 121,
+      "kind": "example",
+      "expected_text": "一群年轻人自发组成团队，为社区设计导览地图。",
+      "transcript": "一群年輕人自發組成團隊為社區設計導覽地圖",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "a16b6c27ffaa96e161b5d17fae1ad1e0a58ba87b90642b3c249d3df66aa8ab63",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 413,
+      "kind": "example",
+      "expected_text": "公司派技术人员到现场，协助查明故障原因。",
+      "transcript": "公司派技術人員到現場協助查明故障原因。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "0ee0b3ccbc2d791795b7f38ca0e5fdfd641cb469b009633642f3a8cf468a7825",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 652,
+      "kind": "word",
+      "expected_text": "车厢",
+      "transcript": "扯香",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "56ddb0c2b9e64e3b66be0854bbddc330759ca624c3796e6369c0570380db0dfd",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 773,
+      "kind": "word",
+      "expected_text": "嘴巴",
+      "transcript": "嘴巴",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "5105432a0c0bba77a6d9336b4a58163b868e3442e3d61b69199d7040e09acb38",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 832,
+      "kind": "example",
+      "expected_text": "物质燃烧时可能产生有害气体，实验必须注意通风。",
+      "transcript": "物質燃燒時可能產生有害氣體,實驗必須注意通風。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "1f0e2b8885374e002f1be6178fbc80301554d278d942eb098bdf3cb830fa31ad",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 944,
+      "kind": "word",
+      "expected_text": "宣传",
+      "transcript": "宣傳",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "5a3c95ff11ded355097e2e69fb080188904b559019006cceb70611317363e00c",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 1126,
+      "kind": "word",
+      "expected_text": "扩大",
+      "transcript": "扩大",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "1a0423abde4c4d9ef7ab5180216ba70ed3611a4081822ea4711995d2e51ab240",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 1157,
+      "kind": "example",
+      "expected_text": "任何长期目标的实现，都需要付出时间和耐心。",
+      "transcript": "任何長期目標的實現都需要付出時間和耐心。",
+      "phonetic_ratio": 0.9474,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "c963ab45cd088a0153ec52efa17052233f9133e4ff416095410c5953a063b248",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 1175,
+      "kind": "word",
+      "expected_text": "当作",
+      "transcript": "擋座",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "fce80e9376f64ce7a3965f615638fc24a31956822ad6f69cd307d7eee3487d57",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 1207,
+      "kind": "example",
+      "expected_text": "细节是否方便使用，体现了设计者对人的关心。",
+      "transcript": "细节是否方便使用,体现了设计者对人的关心。",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "71a30a106782d3ba9baedd752dbeea148a0b90675f18459552f0382b68ee4a24",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 1476,
+      "kind": "word",
+      "expected_text": "包括",
+      "transcript": "包括",
+      "phonetic_ratio": 1.0,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "79a5fdc84eabb53ffd6d807e1b58a394621e01985ea135116595c40ebc857975",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 1600,
+      "kind": "example",
+      "expected_text": "城市改造应尽量利用原有设施，减少重复建设。",
+      "transcript": "城市改造因尽量利用原油设施,减少重复建设。",
+      "phonetic_ratio": 0.9474,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "61c86e1c70e1451168ddd34f4bca824cf757a4061b90089ead3cbe346f1dadd0",
+      "expected_text_prompt": false
+    },
+    {
+      "no": 1137,
+      "kind": "example",
+      "expected_text": "隐瞒产品缺陷，最终会损害企业长期的信誉。",
+      "transcript": "隐瞒產品缺陷,最終會損害企業長期的信譽。",
+      "phonetic_ratio": 0.9444,
+      "model": "faster-whisper-small int8",
+      "clip_sha256": "d108332ddb73212d95b864b4e8823d449f6ed1db533e03df9e0e7f0596238355",
+      "expected_text_prompt": false
+    }
+  ],
+  "evidence_archive": "audio/level5-natural/sources/recheck-2026-11-10.json.gz"
+}
