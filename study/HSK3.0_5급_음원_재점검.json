@@ -6681,5 +6681,20 @@
       "expected_text_prompt": false
     }
   ],
-  "evidence_archive": "audio/level5-natural/sources/recheck-2026-11-10.json.gz"
+  "evidence_archive": "audio/level5-natural/sources/recheck-2026-11-10.json.gz",
+  "targeted_updates": [
+    {
+      "date": "2026-11-10",
+      "no": 42,
+      "word": "儿女",
+      "pinyin": "érnǚ",
+      "kind": "word",
+      "change": "Replaced context excerpt with standalone recording accepted by the user after preview.",
+      "user_accepted_preview": true,
+      "preview_duration_seconds": 0.81,
+      "sha256": "ea810f03e0c72f2d52ab3ad0e8d189746d02bf05ece6b1dfd37dad71a5191dc5",
+      "source_metadata": "audio/level5-natural/sources/word42-2026-11-10.json",
+      "earlier_recognition_findings": "Historical baseline findings above predate this accepted replacement."
+    }
+  ]
 }

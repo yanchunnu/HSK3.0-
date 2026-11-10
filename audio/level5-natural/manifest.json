@@ -1127,6 +1127,18 @@
       "original_native_sha256": "fa51ac5718bb8fd1b32d906e451780a3ef60a7b7ad707093b71ee65b42abfd26",
       "decoded_pcm_sha256": "a4b4bb7e268fdf8cc4b330345382a3529ea933cf404f3f78ce9f2ba66bdd371a",
       "archive_format": "flac (lossless)"
+    },
+    {
+      "chunk": 94,
+      "file": "audio/level5-natural/sources/word42-2026-11-10.flac",
+      "sha256": "e863b380e4afe856b33f42b273077b413f6304218c3c39b69767d6bbb3b02c0f",
+      "duration_seconds": 0.9289569160997733,
+      "script": "audio/level5-natural/sources/word42-2026-11-10.txt",
+      "metadata": "audio/level5-natural/sources/word42-2026-11-10.json",
+      "original_native_sha256": "b1a71846b3238db97e627bb1451af6bbaf545e540684ca0300b4a725f0b7bd64",
+      "decoded_pcm_sha256": "96ddd13a352a7a4f3a4bac7b4d8ba4d944bbe38a09b9d3ffec4027ce8adfb437",
+      "archive_format": "flac (lossless)",
+      "purpose": "Standalone replacement for item 42 儿女 accepted by the user after preview"
     }
   ],
   "clips": [
@@ -2430,23 +2442,17 @@
     {
       "no": 42,
       "kind": "word",
-      "source_chunk": 3,
-      "start": 23.395,
-      "end": 23.745,
+      "source_chunk": 94,
+      "start": 0.0,
+      "end": 0.65,
       "padding_seconds": 0.08,
-      "method": "contextual excerpt: independent ASR timestamp at complete token boundaries",
+      "method": "standalone word take; complete syllables retained; trimmed in measured trailing silence; user accepted exact preview",
       "display_text": "儿女",
       "spoken_text": "儿女",
       "pinyin": "érnǚ",
-      "timing_confidence": 0.8299,
-      "context_text": "父母尊重儿女的选择，并不意味着放弃必要的引导。",
-      "context_character_range": [
-        4,
-        6
-      ],
-      "source_rms": 0.380977,
+      "source_rms": 0.290505,
       "file": "audio/level5-natural/item5-0042-word.mp3",
-      "sha256": "1890bf9fba1ba23a37f5740e4ab9eb25fcb58742e318a46d8986e61054887800"
+      "sha256": "ea810f03e0c72f2d52ab3ad0e8d189746d02bf05ece6b1dfd37dad71a5191dc5"
     },
     {
       "no": 42,
@@ -50829,6 +50835,17 @@
       "context_sentences_ctc_checked": 279,
       "direct_listening": false,
       "report": "study/HSK3.0_5급_음원_재점검.json"
-    }
+    },
+    "targeted_updates": [
+      {
+        "date": "2026-11-10",
+        "no": 42,
+        "kind": "word",
+        "user_accepted_preview": true,
+        "source_chunk": 94,
+        "sha256": "ea810f03e0c72f2d52ab3ad0e8d189746d02bf05ece6b1dfd37dad71a5191dc5",
+        "metadata": "audio/level5-natural/sources/word42-2026-11-10.json"
+      }
+    ]
   }
 }

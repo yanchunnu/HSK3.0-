@@ -1,0 +1,125 @@
+{
+  "request": {
+    "text": "儿女。",
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=049b08fcbbe046b4aeadd65569579d70.wav",
+    "duration": 0.9289569160997733,
+    "original_characters": [
+      {
+        "text": "儿",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "女",
+        "start_time": 0.469,
+        "end_time": 0.725
+      },
+      {
+        "text": "。",
+        "start_time": 0.725,
+        "end_time": 0.896
+      }
+    ],
+    "original_words": [
+      {
+        "text": "儿",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "女",
+        "start_time": 0.469,
+        "end_time": 0.725
+      }
+    ]
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "native_source": {
+    "chunk": 94,
+    "file": "audio/level5-natural/sources/word42-2026-11-10.flac",
+    "sha256": "e863b380e4afe856b33f42b273077b413f6304218c3c39b69767d6bbb3b02c0f",
+    "duration_seconds": 0.9289569160997733,
+    "script": "audio/level5-natural/sources/word42-2026-11-10.txt",
+    "metadata": "audio/level5-natural/sources/word42-2026-11-10.json",
+    "original_native_sha256": "b1a71846b3238db97e627bb1451af6bbaf545e540684ca0300b4a725f0b7bd64",
+    "decoded_pcm_sha256": "96ddd13a352a7a4f3a4bac7b4d8ba4d944bbe38a09b9d3ffec4027ce8adfb437",
+    "archive_format": "flac (lossless)",
+    "purpose": "Standalone replacement for item 42 儿女 accepted by the user after preview"
+  },
+  "edit_mapping": {
+    "start": 0,
+    "end": 0.65,
+    "padding_seconds": 0.08,
+    "coordinate_system": "absolute seconds in original native audio",
+    "reason": "Cut in measured silence after both syllables; exclude detached source-end fragment at 0.87–0.929 seconds; no pitch or speed processing"
+  },
+  "pronunciation_note": "儿 is independent ér, not an erhua suffix; 女 is nǚ.",
+  "accepted_preview": {
+    "sha256": "ea810f03e0c72f2d52ab3ad0e8d189746d02bf05ece6b1dfd37dad71a5191dc5",
+    "duration_seconds": 0.81,
+    "user_approved": true,
+    "approval": "User accepted the supplied preview and instructed continuing publication."
+  },
+  "assistant_direct_listening": false,
+  "automatic_recognition": "Short isolated syllables gave ambiguous transcripts; no claim of expert listening verification. Acceptance is based on the user-approved preview.",
+  "previous_clip": {
+    "no": 42,
+    "kind": "word",
+    "source_chunk": 3,
+    "start": 23.395,
+    "end": 23.745,
+    "padding_seconds": 0.08,
+    "method": "contextual excerpt: independent ASR timestamp at complete token boundaries",
+    "display_text": "儿女",
+    "spoken_text": "儿女",
+    "pinyin": "érnǚ",
+    "timing_confidence": 0.8299,
+    "context_text": "父母尊重儿女的选择，并不意味着放弃必要的引导。",
+    "context_character_range": [
+      4,
+      6
+    ],
+    "source_rms": 0.380977,
+    "file": "audio/level5-natural/item5-0042-word.mp3",
+    "sha256": "1890bf9fba1ba23a37f5740e4ab9eb25fcb58742e318a46d8986e61054887800"
+  },
+  "failed_control_attempt": {
+    "request": {
+      "text": "儿女。",
+      "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+      "language": "zh",
+      "speed": 0.85,
+      "withTimestamps": true,
+      "pronunciationDictionary": {
+        "儿女": "ér nǚ"
+      }
+    },
+    "error": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"error\": true, \"message\": \"Request validation failed\", \"status_code\": 400, \"retryable\": false, \"error_code\": \"invalid_parameter\", \"doc_url\": \"https://developers.heygen.com/docs/error-codes#invalid-parameter\", \"param\": \"pronunciation_dictionary\"}"
+        }
+      ],
+      "structuredContent": {
+        "error": true,
+        "message": "Request validation failed",
+        "status_code": 400,
+        "retryable": false,
+        "error_code": "INVALID_ARGUMENT",
+        "doc_url": "https://developers.heygen.com/docs/error-codes#invalid-parameter",
+        "param": "pronunciation_dictionary"
+      },
+      "isError": true
+    },
+    "selected_for_publication": false
+  }
+}
