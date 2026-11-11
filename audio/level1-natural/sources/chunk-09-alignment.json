@@ -1,0 +1,1898 @@
+{
+  "chunk": 9,
+  "duration_seconds": 43.60975,
+  "units": [
+    {
+      "no": 161,
+      "kind": "word",
+      "display_text": "课",
+      "spoken_text": "课。",
+      "pinyin": "kè",
+      "characters": [
+        {
+          "frame_start": 12,
+          "frame_end": 13,
+          "confidence": 0.9,
+          "char": "课",
+          "start": 0.240146,
+          "end": 0.260158
+        }
+      ],
+      "token_start": 0.240146,
+      "token_end": 0.260158,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 0.6604,
+      "rms": 0.158643
+    },
+    {
+      "no": 161,
+      "kind": "example",
+      "display_text": "今天有汉语课。",
+      "spoken_text": "今天有汉语课。",
+      "pinyin": "jīntiān yǒu Hànyǔ kè.",
+      "characters": [
+        {
+          "frame_start": 53,
+          "frame_end": 55,
+          "confidence": 0.9766,
+          "char": "今",
+          "start": 1.060643,
+          "end": 1.100667
+        },
+        {
+          "frame_start": 60,
+          "frame_end": 61,
+          "confidence": 0.9936,
+          "char": "天",
+          "start": 1.200728,
+          "end": 1.22074
+        },
+        {
+          "frame_start": 66,
+          "frame_end": 67,
+          "confidence": 0.9994,
+          "char": "有",
+          "start": 1.320801,
+          "end": 1.340813
+        },
+        {
+          "frame_start": 72,
+          "frame_end": 73,
+          "confidence": 0.8619,
+          "char": "汉",
+          "start": 1.440874,
+          "end": 1.460886
+        },
+        {
+          "frame_start": 82,
+          "frame_end": 83,
+          "confidence": 0.971,
+          "char": "语",
+          "start": 1.640995,
+          "end": 1.661007
+        },
+        {
+          "frame_start": 90,
+          "frame_end": 91,
+          "confidence": 0.9067,
+          "char": "课",
+          "start": 1.801092,
+          "end": 1.821104
+        }
+      ],
+      "token_start": 1.060643,
+      "token_end": 1.821104,
+      "independent_asr_coverage": 1.0,
+      "start": 0.6604,
+      "end": 2.151305,
+      "rms": 0.247358
+    },
+    {
+      "no": 162,
+      "kind": "word",
+      "display_text": "上班",
+      "spoken_text": "上班。",
+      "pinyin": "shàngbān",
+      "characters": [
+        {
+          "frame_start": 124,
+          "frame_end": 125,
+          "confidence": 0.996,
+          "char": "上",
+          "start": 2.481505,
+          "end": 2.501517
+        },
+        {
+          "frame_start": 134,
+          "frame_end": 135,
+          "confidence": 0.9995,
+          "char": "班",
+          "start": 2.681626,
+          "end": 2.701638
+        }
+      ],
+      "token_start": 2.481505,
+      "token_end": 2.701638,
+      "independent_asr_coverage": 1.0,
+      "start": 2.151305,
+      "end": 3.051851,
+      "rms": 0.189041
+    },
+    {
+      "no": 162,
+      "kind": "example",
+      "display_text": "我八点上班。",
+      "spoken_text": "我八点上班。",
+      "pinyin": "wǒ bā diǎn shàngbān.",
+      "characters": [
+        {
+          "frame_start": 170,
+          "frame_end": 171,
+          "confidence": 0.9969,
+          "char": "我",
+          "start": 3.402063,
+          "end": 3.422075
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.9731,
+          "char": "八",
+          "start": 3.522136,
+          "end": 3.542148
+        },
+        {
+          "frame_start": 184,
+          "frame_end": 185,
+          "confidence": 0.9715,
+          "char": "点",
+          "start": 3.682233,
+          "end": 3.702245
+        },
+        {
+          "frame_start": 192,
+          "frame_end": 193,
+          "confidence": 0.9993,
+          "char": "上",
+          "start": 3.84233,
+          "end": 3.862342
+        },
+        {
+          "frame_start": 201,
+          "frame_end": 203,
+          "confidence": 0.8169,
+          "char": "班",
+          "start": 4.022439,
+          "end": 4.062464
+        }
+      ],
+      "token_start": 3.402063,
+      "token_end": 4.062464,
+      "independent_asr_coverage": 1.0,
+      "start": 3.051851,
+      "end": 4.392664,
+      "rms": 0.171495
+    },
+    {
+      "no": 163,
+      "kind": "word",
+      "display_text": "下班",
+      "spoken_text": "下班。",
+      "pinyin": "xiàbān",
+      "characters": [
+        {
+          "frame_start": 236,
+          "frame_end": 237,
+          "confidence": 0.9465,
+          "char": "下",
+          "start": 4.722864,
+          "end": 4.742876
+        },
+        {
+          "frame_start": 247,
+          "frame_end": 248,
+          "confidence": 0.9986,
+          "char": "班",
+          "start": 4.942998,
+          "end": 4.96301
+        }
+      ],
+      "token_start": 4.722864,
+      "token_end": 4.96301,
+      "independent_asr_coverage": 1.0,
+      "start": 4.392664,
+      "end": 5.253186,
+      "rms": 0.136164
+    },
+    {
+      "no": 163,
+      "kind": "example",
+      "display_text": "我下午六点下班。",
+      "spoken_text": "我下午六点下班。",
+      "pinyin": "wǒ xiàwǔ liù diǎn xiàbān.",
+      "characters": [
+        {
+          "frame_start": 277,
+          "frame_end": 279,
+          "confidence": 0.9435,
+          "char": "我",
+          "start": 5.543362,
+          "end": 5.583386
+        },
+        {
+          "frame_start": 283,
+          "frame_end": 285,
+          "confidence": 0.9202,
+          "char": "下",
+          "start": 5.663434,
+          "end": 5.703459
+        },
+        {
+          "frame_start": 292,
+          "frame_end": 293,
+          "confidence": 0.9998,
+          "char": "午",
+          "start": 5.843544,
+          "end": 5.863556
+        },
+        {
+          "frame_start": 298,
+          "frame_end": 299,
+          "confidence": 0.9997,
+          "char": "六",
+          "start": 5.963617,
+          "end": 5.983629
+        },
+        {
+          "frame_start": 307,
+          "frame_end": 308,
+          "confidence": 0.9615,
+          "char": "点",
+          "start": 6.143726,
+          "end": 6.163738
+        },
+        {
+          "frame_start": 315,
+          "frame_end": 316,
+          "confidence": 0.9659,
+          "char": "下",
+          "start": 6.303823,
+          "end": 6.323835
+        },
+        {
+          "frame_start": 325,
+          "frame_end": 326,
+          "confidence": 0.9992,
+          "char": "班",
+          "start": 6.503944,
+          "end": 6.523956
+        }
+      ],
+      "token_start": 5.543362,
+      "token_end": 6.523956,
+      "independent_asr_coverage": 1.0,
+      "start": 5.253186,
+      "end": 6.838927,
+      "rms": 0.225311
+    },
+    {
+      "no": 164,
+      "kind": "word",
+      "display_text": "工作",
+      "spoken_text": "工作。",
+      "pinyin": "gōngzuò",
+      "characters": [
+        {
+          "frame_start": 127,
+          "frame_end": 128,
+          "confidence": 0.8631,
+          "char": "工",
+          "start": 7.153898,
+          "end": 7.173921
+        },
+        {
+          "frame_start": 138,
+          "frame_end": 139,
+          "confidence": 0.9993,
+          "char": "作",
+          "start": 7.374149,
+          "end": 7.394172
+        }
+      ],
+      "token_start": 7.153898,
+      "token_end": 7.394172,
+      "independent_asr_coverage": 1.0,
+      "start": 6.838927,
+      "end": 7.704526,
+      "rms": 0.281755
+    },
+    {
+      "no": 164,
+      "kind": "example",
+      "display_text": "我白天工作。",
+      "spoken_text": "我白天工作。",
+      "pinyin": "wǒ báitiān gōngzuò.",
+      "characters": [
+        {
+          "frame_start": 170,
+          "frame_end": 171,
+          "confidence": 0.9976,
+          "char": "我",
+          "start": 8.01488,
+          "end": 8.034902
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.9991,
+          "char": "白",
+          "start": 8.135017,
+          "end": 8.155039
+        },
+        {
+          "frame_start": 183,
+          "frame_end": 185,
+          "confidence": 0.7187,
+          "char": "天",
+          "start": 8.275176,
+          "end": 8.315222
+        },
+        {
+          "frame_start": 193,
+          "frame_end": 194,
+          "confidence": 0.9778,
+          "char": "工",
+          "start": 8.475405,
+          "end": 8.495427
+        },
+        {
+          "frame_start": 202,
+          "frame_end": 204,
+          "confidence": 0.9274,
+          "char": "作",
+          "start": 8.65561,
+          "end": 8.695656
+        }
+      ],
+      "token_start": 8.01488,
+      "token_end": 8.695656,
+      "independent_asr_coverage": 1.0,
+      "start": 7.704526,
+      "end": 9.046055,
+      "rms": 0.216376
+    },
+    {
+      "no": 165,
+      "kind": "word",
+      "display_text": "公司",
+      "spoken_text": "公司。",
+      "pinyin": "gōngsī",
+      "characters": [
+        {
+          "frame_start": 239,
+          "frame_end": 240,
+          "confidence": 0.3873,
+          "char": "公",
+          "start": 9.396454,
+          "end": 9.416477
+        },
+        {
+          "frame_start": 251,
+          "frame_end": 252,
+          "confidence": 0.998,
+          "char": "司",
+          "start": 9.636728,
+          "end": 9.656751
+        }
+      ],
+      "token_start": 9.396454,
+      "token_end": 9.656751,
+      "independent_asr_coverage": 1.0,
+      "start": 9.046055,
+      "end": 9.957093,
+      "rms": 0.256068
+    },
+    {
+      "no": 165,
+      "kind": "example",
+      "display_text": "我在公司工作。",
+      "spoken_text": "我在公司工作。",
+      "pinyin": "wǒ zài gōngsī gōngzuò.",
+      "characters": [
+        {
+          "frame_start": 282,
+          "frame_end": 284,
+          "confidence": 0.9989,
+          "char": "我",
+          "start": 10.257436,
+          "end": 10.297481
+        },
+        {
+          "frame_start": 287,
+          "frame_end": 289,
+          "confidence": 0.863,
+          "char": "在",
+          "start": 10.35755,
+          "end": 10.397595
+        },
+        {
+          "frame_start": 294,
+          "frame_end": 295,
+          "confidence": 0.9954,
+          "char": "公",
+          "start": 10.49771,
+          "end": 10.517732
+        },
+        {
+          "frame_start": 304,
+          "frame_end": 305,
+          "confidence": 0.999,
+          "char": "司",
+          "start": 10.697938,
+          "end": 10.717961
+        },
+        {
+          "frame_start": 310,
+          "frame_end": 311,
+          "confidence": 0.8127,
+          "char": "工",
+          "start": 10.818075,
+          "end": 10.838098
+        },
+        {
+          "frame_start": 319,
+          "frame_end": 320,
+          "confidence": 0.9948,
+          "char": "作",
+          "start": 10.99828,
+          "end": 11.018303
+        }
+      ],
+      "token_start": 10.257436,
+      "token_end": 11.018303,
+      "independent_asr_coverage": 1.0,
+      "start": 9.957093,
+      "end": 11.308634,
+      "rms": 0.216976
+    },
+    {
+      "no": 166,
+      "kind": "word",
+      "display_text": "忙",
+      "spoken_text": "忙。",
+      "pinyin": "máng",
+      "characters": [
+        {
+          "frame_start": 349,
+          "frame_end": 351,
+          "confidence": 0.3572,
+          "char": "忙",
+          "start": 11.598965,
+          "end": 11.63901
+        }
+      ],
+      "token_start": 11.598965,
+      "token_end": 11.63901,
+      "independent_asr_coverage": 1.0,
+      "start": 11.308634,
+      "end": 12.087,
+      "rms": 0.184697
+    },
+    {
+      "no": 166,
+      "kind": "example",
+      "display_text": "我今天很忙。",
+      "spoken_text": "我今天很忙。",
+      "pinyin": "wǒ jīntiān hěn máng.",
+      "characters": [
+        {
+          "frame_start": 377,
+          "frame_end": 379,
+          "confidence": 0.9228,
+          "char": "我",
+          "start": 12.159604,
+          "end": 12.199649
+        },
+        {
+          "frame_start": 383,
+          "frame_end": 384,
+          "confidence": 0.9992,
+          "char": "今",
+          "start": 12.279741,
+          "end": 12.299763
+        },
+        {
+          "frame_start": 389,
+          "frame_end": 390,
+          "confidence": 0.9982,
+          "char": "天",
+          "start": 12.399878,
+          "end": 12.4199
+        },
+        {
+          "frame_start": 396,
+          "frame_end": 397,
+          "confidence": 0.9969,
+          "char": "很",
+          "start": 12.540037,
+          "end": 12.56006
+        },
+        {
+          "frame_start": 403,
+          "frame_end": 405,
+          "confidence": 0.3379,
+          "char": "忙",
+          "start": 12.680197,
+          "end": 12.720243
+        }
+      ],
+      "token_start": 12.159604,
+      "token_end": 12.720243,
+      "independent_asr_coverage": 1.0,
+      "start": 12.087,
+      "end": 13.05572,
+      "rms": 0.263263
+    },
+    {
+      "no": 167,
+      "kind": "word",
+      "display_text": "休息",
+      "spoken_text": "休息。",
+      "pinyin": "xiūxi",
+      "characters": [
+        {
+          "frame_start": 106,
+          "frame_end": 107,
+          "confidence": 0.9954,
+          "char": "休",
+          "start": 13.391198,
+          "end": 13.411238
+        },
+        {
+          "frame_start": 119,
+          "frame_end": 120,
+          "confidence": 0.9378,
+          "char": "息",
+          "start": 13.651713,
+          "end": 13.671752
+        }
+      ],
+      "token_start": 13.391198,
+      "token_end": 13.671752,
+      "independent_asr_coverage": 1.0,
+      "start": 13.05572,
+      "end": 14.022445,
+      "rms": 0.135684
+    },
+    {
+      "no": 167,
+      "kind": "example",
+      "display_text": "星期天我在家休息。",
+      "spoken_text": "星期天我在家休息。",
+      "pinyin": "xīngqītiān wǒ zài jiā xiūxi.",
+      "characters": [
+        {
+          "frame_start": 155,
+          "frame_end": 156,
+          "confidence": 0.7787,
+          "char": "星",
+          "start": 14.373139,
+          "end": 14.393178
+        },
+        {
+          "frame_start": 162,
+          "frame_end": 163,
+          "confidence": 0.0548,
+          "char": "期",
+          "start": 14.513416,
+          "end": 14.533455
+        },
+        {
+          "frame_start": 168,
+          "frame_end": 169,
+          "confidence": 0.9989,
+          "char": "天",
+          "start": 14.633653,
+          "end": 14.653693
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.9999,
+          "char": "我",
+          "start": 14.79397,
+          "end": 14.81401
+        },
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.8568,
+          "char": "在",
+          "start": 14.914208,
+          "end": 14.934248
+        },
+        {
+          "frame_start": 188,
+          "frame_end": 189,
+          "confidence": 0.9972,
+          "char": "家",
+          "start": 15.034446,
+          "end": 15.054485
+        },
+        {
+          "frame_start": 196,
+          "frame_end": 197,
+          "confidence": 0.9939,
+          "char": "休",
+          "start": 15.194762,
+          "end": 15.214802
+        },
+        {
+          "frame_start": 208,
+          "frame_end": 209,
+          "confidence": 0.9876,
+          "char": "息",
+          "start": 15.435238,
+          "end": 15.455277
+        }
+      ],
+      "token_start": 14.373139,
+      "token_end": 15.455277,
+      "independent_asr_coverage": 1.0,
+      "start": 14.022445,
+      "end": 15.665693,
+      "rms": 0.247568
+    },
+    {
+      "no": 168,
+      "kind": "word",
+      "display_text": "医生",
+      "spoken_text": "医生。",
+      "pinyin": "yīshēng",
+      "characters": [
+        {
+          "frame_start": 230,
+          "frame_end": 231,
+          "confidence": 0.4281,
+          "char": "医",
+          "start": 15.876109,
+          "end": 15.896149
+        },
+        {
+          "frame_start": 240,
+          "frame_end": 241,
+          "confidence": 0.8573,
+          "char": "生",
+          "start": 16.076505,
+          "end": 16.096545
+        }
+      ],
+      "token_start": 15.876109,
+      "token_end": 16.096545,
+      "independent_asr_coverage": 1.0,
+      "start": 15.665693,
+      "end": 16.507357,
+      "rms": 0.220272
+    },
+    {
+      "no": 168,
+      "kind": "example",
+      "display_text": "她是医生。",
+      "spoken_text": "她是医生。",
+      "pinyin": "tā shì yīshēng.",
+      "characters": [
+        {
+          "frame_start": 282,
+          "frame_end": 283,
+          "confidence": 0.4353,
+          "char": "她",
+          "start": 16.918168,
+          "end": 16.938208
+        },
+        {
+          "frame_start": 292,
+          "frame_end": 293,
+          "confidence": 0.9995,
+          "char": "是",
+          "start": 17.118564,
+          "end": 17.138604
+        },
+        {
+          "frame_start": 298,
+          "frame_end": 299,
+          "confidence": 0.0847,
+          "char": "医",
+          "start": 17.238802,
+          "end": 17.258842
+        },
+        {
+          "frame_start": 306,
+          "frame_end": 307,
+          "confidence": 0.6198,
+          "char": "生",
+          "start": 17.399119,
+          "end": 17.419158
+        }
+      ],
+      "token_start": 16.918168,
+      "token_end": 17.419158,
+      "independent_asr_coverage": 1.0,
+      "start": 16.507357,
+      "end": 17.789891,
+      "rms": 0.136488
+    },
+    {
+      "no": 169,
+      "kind": "word",
+      "display_text": "起床",
+      "spoken_text": "起床。",
+      "pinyin": "qǐchuáng",
+      "characters": [
+        {
+          "frame_start": 344,
+          "frame_end": 345,
+          "confidence": 0.9979,
+          "char": "起",
+          "start": 18.160624,
+          "end": 18.180663
+        },
+        {
+          "frame_start": 352,
+          "frame_end": 353,
+          "confidence": 0.9994,
+          "char": "床",
+          "start": 18.320941,
+          "end": 18.34098
+        }
+      ],
+      "token_start": 18.160624,
+      "token_end": 18.34098,
+      "independent_asr_coverage": 1.0,
+      "start": 17.789891,
+      "end": 18.711713,
+      "rms": 0.123914
+    },
+    {
+      "no": 169,
+      "kind": "example",
+      "display_text": "我每天七点起床。",
+      "spoken_text": "我每天七点起床。",
+      "pinyin": "wǒ měitiān qī diǎn qǐchuáng.",
+      "characters": [
+        {
+          "frame_start": 390,
+          "frame_end": 391,
+          "confidence": 1.0,
+          "char": "我",
+          "start": 19.082446,
+          "end": 19.102485
+        },
+        {
+          "frame_start": 396,
+          "frame_end": 397,
+          "confidence": 0.9997,
+          "char": "每",
+          "start": 19.202683,
+          "end": 19.222723
+        },
+        {
+          "frame_start": 404,
+          "frame_end": 405,
+          "confidence": 0.9996,
+          "char": "天",
+          "start": 19.363,
+          "end": 19.38304
+        },
+        {
+          "frame_start": 416,
+          "frame_end": 417,
+          "confidence": 0.7745,
+          "char": "七",
+          "start": 19.603475,
+          "end": 19.623515
+        },
+        {
+          "frame_start": 424,
+          "frame_end": 425,
+          "confidence": 0.9921,
+          "char": "点",
+          "start": 19.763792,
+          "end": 19.783832
+        },
+        {
+          "frame_start": 434,
+          "frame_end": 435,
+          "confidence": 0.9985,
+          "char": "起",
+          "start": 19.964188,
+          "end": 19.984228
+        },
+        {
+          "frame_start": 442,
+          "frame_end": 443,
+          "confidence": 0.9997,
+          "char": "床",
+          "start": 20.124505,
+          "end": 20.144545
+        }
+      ],
+      "token_start": 19.082446,
+      "token_end": 20.144545,
+      "independent_asr_coverage": 1.0,
+      "start": 18.711713,
+      "end": 20.426929,
+      "rms": 0.2546
+    },
+    {
+      "no": 170,
+      "kind": "word",
+      "display_text": "睡",
+      "spoken_text": "睡。",
+      "pinyin": "shuì",
+      "characters": [
+        {
+          "frame_start": 137,
+          "frame_end": 138,
+          "confidence": 0.9998,
+          "char": "睡",
+          "start": 20.709312,
+          "end": 20.729329
+        }
+      ],
+      "token_start": 20.709312,
+      "token_end": 20.729329,
+      "independent_asr_coverage": 1.0,
+      "start": 20.426929,
+      "end": 21.069616,
+      "rms": 0.154272
+    },
+    {
+      "no": 170,
+      "kind": "example",
+      "display_text": "孩子睡了。",
+      "spoken_text": "孩子睡了。",
+      "pinyin": "háizi shuì le.",
+      "characters": [
+        {
+          "frame_start": 172,
+          "frame_end": 173,
+          "confidence": 0.9989,
+          "char": "孩",
+          "start": 21.409903,
+          "end": 21.42992
+        },
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.9975,
+          "char": "子",
+          "start": 21.610072,
+          "end": 21.630089
+        },
+        {
+          "frame_start": 188,
+          "frame_end": 189,
+          "confidence": 0.9999,
+          "char": "睡",
+          "start": 21.730173,
+          "end": 21.75019
+        },
+        {
+          "frame_start": 198,
+          "frame_end": 199,
+          "confidence": 0.9979,
+          "char": "了",
+          "start": 21.930342,
+          "end": 21.950359
+        }
+      ],
+      "token_start": 21.409903,
+      "token_end": 21.950359,
+      "independent_asr_coverage": 1.0,
+      "start": 21.069616,
+      "end": 22.280637,
+      "rms": 0.16557
+    },
+    {
+      "no": 171,
+      "kind": "word",
+      "display_text": "睡觉",
+      "spoken_text": "睡觉。",
+      "pinyin": "shuìjiào",
+      "characters": [
+        {
+          "frame_start": 232,
+          "frame_end": 233,
+          "confidence": 1.0,
+          "char": "睡",
+          "start": 22.610916,
+          "end": 22.630932
+        },
+        {
+          "frame_start": 241,
+          "frame_end": 242,
+          "confidence": 0.9999,
+          "char": "觉",
+          "start": 22.791068,
+          "end": 22.811084
+        }
+      ],
+      "token_start": 22.610916,
+      "token_end": 22.811084,
+      "independent_asr_coverage": 1.0,
+      "start": 22.280637,
+      "end": 23.061295,
+      "rms": 0.172514
+    },
+    {
+      "no": 171,
+      "kind": "example",
+      "display_text": "我晚上十点睡觉。",
+      "spoken_text": "我晚上十点睡觉。",
+      "pinyin": "wǒ wǎnshang shí diǎn shuìjiào.",
+      "characters": [
+        {
+          "frame_start": 267,
+          "frame_end": 268,
+          "confidence": 0.9999,
+          "char": "我",
+          "start": 23.311506,
+          "end": 23.331523
+        },
+        {
+          "frame_start": 272,
+          "frame_end": 273,
+          "confidence": 0.9999,
+          "char": "晚",
+          "start": 23.411591,
+          "end": 23.431608
+        },
+        {
+          "frame_start": 279,
+          "frame_end": 280,
+          "confidence": 0.9997,
+          "char": "上",
+          "start": 23.551709,
+          "end": 23.571726
+        },
+        {
+          "frame_start": 288,
+          "frame_end": 289,
+          "confidence": 0.9898,
+          "char": "十",
+          "start": 23.731861,
+          "end": 23.751878
+        },
+        {
+          "frame_start": 296,
+          "frame_end": 297,
+          "confidence": 0.9985,
+          "char": "点",
+          "start": 23.891996,
+          "end": 23.912013
+        },
+        {
+          "frame_start": 304,
+          "frame_end": 305,
+          "confidence": 0.9999,
+          "char": "睡",
+          "start": 24.052131,
+          "end": 24.072148
+        },
+        {
+          "frame_start": 312,
+          "frame_end": 313,
+          "confidence": 0.9998,
+          "char": "觉",
+          "start": 24.212266,
+          "end": 24.232283
+        }
+      ],
+      "token_start": 23.311506,
+      "token_end": 24.232283,
+      "independent_asr_coverage": 1.0,
+      "start": 23.061295,
+      "end": 24.512519,
+      "rms": 0.240661
+    },
+    {
+      "no": 172,
+      "kind": "word",
+      "display_text": "做",
+      "spoken_text": "做。",
+      "pinyin": "zuò",
+      "characters": [
+        {
+          "frame_start": 341,
+          "frame_end": 342,
+          "confidence": 0.9861,
+          "char": "做",
+          "start": 24.792755,
+          "end": 24.812772
+        }
+      ],
+      "token_start": 24.792755,
+      "token_end": 24.812772,
+      "independent_asr_coverage": 1.0,
+      "start": 24.512519,
+      "end": 25.203101,
+      "rms": 0.13975
+    },
+    {
+      "no": 172,
+      "kind": "example",
+      "display_text": "你在做什么？",
+      "spoken_text": "你在做什么？",
+      "pinyin": "nǐ zài zuò shénme?",
+      "characters": [
+        {
+          "frame_start": 381,
+          "frame_end": 382,
+          "confidence": 0.9857,
+          "char": "你",
+          "start": 25.59343,
+          "end": 25.613447
+        },
+        {
+          "frame_start": 386,
+          "frame_end": 387,
+          "confidence": 0.8877,
+          "char": "在",
+          "start": 25.693515,
+          "end": 25.713532
+        },
+        {
+          "frame_start": 392,
+          "frame_end": 393,
+          "confidence": 0.9931,
+          "char": "做",
+          "start": 25.813616,
+          "end": 25.833633
+        },
+        {
+          "frame_start": 399,
+          "frame_end": 400,
+          "confidence": 1.0,
+          "char": "什",
+          "start": 25.953734,
+          "end": 25.973751
+        },
+        {
+          "frame_start": 404,
+          "frame_end": 405,
+          "confidence": 0.9998,
+          "char": "么",
+          "start": 26.053819,
+          "end": 26.073835
+        }
+      ],
+      "token_start": 25.59343,
+      "token_end": 26.073835,
+      "independent_asr_coverage": 1.0,
+      "start": 25.203101,
+      "end": 26.372849,
+      "rms": 0.189118
+    },
+    {
+      "no": 173,
+      "kind": "word",
+      "display_text": "做饭",
+      "spoken_text": "做饭。",
+      "pinyin": "zuòfàn",
+      "characters": [
+        {
+          "frame_start": 106,
+          "frame_end": 107,
+          "confidence": 0.943,
+          "char": "做",
+          "start": 26.671863,
+          "end": 26.6919
+        },
+        {
+          "frame_start": 114,
+          "frame_end": 115,
+          "confidence": 0.9637,
+          "char": "饭",
+          "start": 26.832155,
+          "end": 26.852191
+        }
+      ],
+      "token_start": 26.671863,
+      "token_end": 26.852191,
+      "independent_asr_coverage": 1.0,
+      "start": 26.372849,
+      "end": 27.072592,
+      "rms": 0.146274
+    },
+    {
+      "no": 173,
+      "kind": "example",
+      "display_text": "妈妈正在做饭。",
+      "spoken_text": "妈妈正在做饭。",
+      "pinyin": "māma zhèngzài zuòfàn.",
+      "characters": [
+        {
+          "frame_start": 137,
+          "frame_end": 138,
+          "confidence": 0.9987,
+          "char": "妈",
+          "start": 27.292993,
+          "end": 27.31303
+        },
+        {
+          "frame_start": 144,
+          "frame_end": 146,
+          "confidence": 0.7931,
+          "char": "妈",
+          "start": 27.433248,
+          "end": 27.473321
+        },
+        {
+          "frame_start": 150,
+          "frame_end": 151,
+          "confidence": 0.6195,
+          "char": "正",
+          "start": 27.553467,
+          "end": 27.573503
+        },
+        {
+          "frame_start": 157,
+          "frame_end": 158,
+          "confidence": 0.9894,
+          "char": "在",
+          "start": 27.693722,
+          "end": 27.713759
+        },
+        {
+          "frame_start": 163,
+          "frame_end": 164,
+          "confidence": 0.9662,
+          "char": "做",
+          "start": 27.813941,
+          "end": 27.833977
+        },
+        {
+          "frame_start": 173,
+          "frame_end": 174,
+          "confidence": 0.8858,
+          "char": "饭",
+          "start": 28.014305,
+          "end": 28.034342
+        }
+      ],
+      "token_start": 27.292993,
+      "token_end": 28.034342,
+      "independent_asr_coverage": 1.0,
+      "start": 27.072592,
+      "end": 28.334888,
+      "rms": 0.234691
+    },
+    {
+      "no": 174,
+      "kind": "word",
+      "display_text": "吃",
+      "spoken_text": "吃。",
+      "pinyin": "chī",
+      "characters": [
+        {
+          "frame_start": 204,
+          "frame_end": 205,
+          "confidence": 0.9665,
+          "char": "吃",
+          "start": 28.635435,
+          "end": 28.655472
+        }
+      ],
+      "token_start": 28.635435,
+      "token_end": 28.655472,
+      "independent_asr_coverage": 1.0,
+      "start": 28.334888,
+      "end": 29.076237,
+      "rms": 0.114462
+    },
+    {
+      "no": 174,
+      "kind": "example",
+      "display_text": "我喜欢吃米饭。",
+      "spoken_text": "我喜欢吃米饭。",
+      "pinyin": "wǒ xǐhuan chī mǐfàn.",
+      "characters": [
+        {
+          "frame_start": 247,
+          "frame_end": 248,
+          "confidence": 0.999,
+          "char": "我",
+          "start": 29.497002,
+          "end": 29.517039
+        },
+        {
+          "frame_start": 253,
+          "frame_end": 254,
+          "confidence": 0.9999,
+          "char": "喜",
+          "start": 29.617221,
+          "end": 29.637257
+        },
+        {
+          "frame_start": 258,
+          "frame_end": 260,
+          "confidence": 0.9928,
+          "char": "欢",
+          "start": 29.717403,
+          "end": 29.757476
+        },
+        {
+          "frame_start": 267,
+          "frame_end": 268,
+          "confidence": 0.9757,
+          "char": "吃",
+          "start": 29.897731,
+          "end": 29.917768
+        },
+        {
+          "frame_start": 274,
+          "frame_end": 275,
+          "confidence": 0.9242,
+          "char": "米",
+          "start": 30.037986,
+          "end": 30.058023
+        },
+        {
+          "frame_start": 283,
+          "frame_end": 284,
+          "confidence": 0.8675,
+          "char": "饭",
+          "start": 30.218314,
+          "end": 30.238351
+        }
+      ],
+      "token_start": 29.497002,
+      "token_end": 30.238351,
+      "independent_asr_coverage": 1.0,
+      "start": 29.076237,
+      "end": 30.518861,
+      "rms": 0.224734
+    },
+    {
+      "no": 175,
+      "kind": "word",
+      "display_text": "喝",
+      "spoken_text": "喝。",
+      "pinyin": "hē",
+      "characters": [
+        {
+          "frame_start": 312,
+          "frame_end": 313,
+          "confidence": 0.0642,
+          "char": "喝",
+          "start": 30.799371,
+          "end": 30.819408
+        }
+      ],
+      "token_start": 30.799371,
+      "token_end": 30.819408,
+      "independent_asr_coverage": 1.0,
+      "start": 30.518861,
+      "end": 31.170046,
+      "rms": 0.143342
+    },
+    {
+      "no": 175,
+      "kind": "example",
+      "display_text": "我想喝水。",
+      "spoken_text": "我想喝水。",
+      "pinyin": "wǒ xiǎng hē shuǐ.",
+      "characters": [
+        {
+          "frame_start": 348,
+          "frame_end": 350,
+          "confidence": 0.904,
+          "char": "我",
+          "start": 31.520683,
+          "end": 31.560756
+        },
+        {
+          "frame_start": 354,
+          "frame_end": 355,
+          "confidence": 0.6119,
+          "char": "想",
+          "start": 31.640902,
+          "end": 31.660938
+        },
+        {
+          "frame_start": 362,
+          "frame_end": 363,
+          "confidence": 0.9408,
+          "char": "喝",
+          "start": 31.801194,
+          "end": 31.82123
+        },
+        {
+          "frame_start": 373,
+          "frame_end": 374,
+          "confidence": 0.997,
+          "char": "水",
+          "start": 32.021595,
+          "end": 32.041631
+        }
+      ],
+      "token_start": 31.520683,
+      "token_end": 32.041631,
+      "independent_asr_coverage": 1.0,
+      "start": 31.170046,
+      "end": 32.368595,
+      "rms": 0.178473
+    },
+    {
+      "no": 176,
+      "kind": "word",
+      "display_text": "饭",
+      "spoken_text": "饭。",
+      "pinyin": "fàn",
+      "characters": [
+        {
+          "frame_start": 117,
+          "frame_end": 118,
+          "confidence": 0.9775,
+          "char": "饭",
+          "start": 32.695559,
+          "end": 32.715606
+        }
+      ],
+      "token_start": 32.695559,
+      "token_end": 32.715606,
+      "independent_asr_coverage": 1.0,
+      "start": 32.368595,
+      "end": 32.9662,
+      "rms": 0.121947
+    },
+    {
+      "no": 176,
+      "kind": "example",
+      "display_text": "我们吃饭吧。",
+      "spoken_text": "我们吃饭吧。",
+      "pinyin": "wǒmen chīfàn ba.",
+      "characters": [
+        {
+          "frame_start": 143,
+          "frame_end": 144,
+          "confidence": 0.9998,
+          "char": "我",
+          "start": 33.216794,
+          "end": 33.236842
+        },
+        {
+          "frame_start": 147,
+          "frame_end": 148,
+          "confidence": 0.9992,
+          "char": "们",
+          "start": 33.296984,
+          "end": 33.317032
+        },
+        {
+          "frame_start": 153,
+          "frame_end": 154,
+          "confidence": 0.9998,
+          "char": "吃",
+          "start": 33.417269,
+          "end": 33.437317
+        },
+        {
+          "frame_start": 162,
+          "frame_end": 163,
+          "confidence": 0.9991,
+          "char": "饭",
+          "start": 33.597697,
+          "end": 33.617744
+        },
+        {
+          "frame_start": 170,
+          "frame_end": 171,
+          "confidence": 0.9972,
+          "char": "吧",
+          "start": 33.758077,
+          "end": 33.778124
+        }
+      ],
+      "token_start": 33.216794,
+      "token_end": 33.778124,
+      "independent_asr_coverage": 1.0,
+      "start": 32.9662,
+      "end": 33.998647,
+      "rms": 0.235977
+    },
+    {
+      "no": 177,
+      "kind": "word",
+      "display_text": "早饭",
+      "spoken_text": "早饭。",
+      "pinyin": "zǎofàn",
+      "characters": [
+        {
+          "frame_start": 193,
+          "frame_end": 194,
+          "confidence": 0.9891,
+          "char": "早",
+          "start": 34.21917,
+          "end": 34.239217
+        },
+        {
+          "frame_start": 204,
+          "frame_end": 205,
+          "confidence": 0.9967,
+          "char": "饭",
+          "start": 34.439692,
+          "end": 34.45974
+        }
+      ],
+      "token_start": 34.21917,
+      "token_end": 34.45974,
+      "independent_asr_coverage": 1.0,
+      "start": 33.998647,
+      "end": 34.670239,
+      "rms": 0.162734
+    },
+    {
+      "no": 177,
+      "kind": "example",
+      "display_text": "我七点吃早饭。",
+      "spoken_text": "我七点吃早饭。",
+      "pinyin": "wǒ qī diǎn chī zǎofàn.",
+      "characters": [
+        {
+          "frame_start": 226,
+          "frame_end": 227,
+          "confidence": 0.9996,
+          "char": "我",
+          "start": 34.880738,
+          "end": 34.900785
+        },
+        {
+          "frame_start": 233,
+          "frame_end": 234,
+          "confidence": 0.0015,
+          "char": "七",
+          "start": 35.02107,
+          "end": 35.041118
+        },
+        {
+          "frame_start": 240,
+          "frame_end": 241,
+          "confidence": 0.9979,
+          "char": "点",
+          "start": 35.161403,
+          "end": 35.18145
+        },
+        {
+          "frame_start": 248,
+          "frame_end": 249,
+          "confidence": 0.9962,
+          "char": "吃",
+          "start": 35.321783,
+          "end": 35.34183
+        },
+        {
+          "frame_start": 254,
+          "frame_end": 255,
+          "confidence": 0.9757,
+          "char": "早",
+          "start": 35.442068,
+          "end": 35.462115
+        },
+        {
+          "frame_start": 264,
+          "frame_end": 265,
+          "confidence": 0.9955,
+          "char": "饭",
+          "start": 35.642543,
+          "end": 35.66259
+        }
+      ],
+      "token_start": 34.880738,
+      "token_end": 35.66259,
+      "independent_asr_coverage": 1.0,
+      "start": 34.670239,
+      "end": 35.883113,
+      "rms": 0.178391
+    },
+    {
+      "no": 178,
+      "kind": "word",
+      "display_text": "午饭",
+      "spoken_text": "午饭。",
+      "pinyin": "wǔfàn",
+      "characters": [
+        {
+          "frame_start": 287,
+          "frame_end": 288,
+          "confidence": 0.0558,
+          "char": "午",
+          "start": 36.103636,
+          "end": 36.123683
+        },
+        {
+          "frame_start": 296,
+          "frame_end": 297,
+          "confidence": 0.9931,
+          "char": "饭",
+          "start": 36.284063,
+          "end": 36.304111
+        }
+      ],
+      "token_start": 36.103636,
+      "token_end": 36.304111,
+      "independent_asr_coverage": 1.0,
+      "start": 35.883113,
+      "end": 36.644919,
+      "rms": 0.125484
+    },
+    {
+      "no": 178,
+      "kind": "example",
+      "display_text": "我十二点吃午饭。",
+      "spoken_text": "我十二点吃午饭。",
+      "pinyin": "wǒ shí'èr diǎn chī wǔfàn.",
+      "characters": [
+        {
+          "frame_start": 331,
+          "frame_end": 332,
+          "confidence": 0.9995,
+          "char": "我",
+          "start": 36.985726,
+          "end": 37.005774
+        },
+        {
+          "frame_start": 337,
+          "frame_end": 338,
+          "confidence": 0.9998,
+          "char": "十",
+          "start": 37.106011,
+          "end": 37.126059
+        },
+        {
+          "frame_start": 344,
+          "frame_end": 345,
+          "confidence": 0.9999,
+          "char": "二",
+          "start": 37.246344,
+          "end": 37.266391
+        },
+        {
+          "frame_start": 351,
+          "frame_end": 352,
+          "confidence": 0.9964,
+          "char": "点",
+          "start": 37.386676,
+          "end": 37.406724
+        },
+        {
+          "frame_start": 360,
+          "frame_end": 361,
+          "confidence": 0.9999,
+          "char": "吃",
+          "start": 37.567104,
+          "end": 37.587152
+        },
+        {
+          "frame_start": 367,
+          "frame_end": 368,
+          "confidence": 0.1685,
+          "char": "午",
+          "start": 37.707437,
+          "end": 37.727484
+        },
+        {
+          "frame_start": 376,
+          "frame_end": 377,
+          "confidence": 0.9937,
+          "char": "饭",
+          "start": 37.887864,
+          "end": 37.907912
+        }
+      ],
+      "token_start": 36.985726,
+      "token_end": 37.907912,
+      "independent_asr_coverage": 1.0,
+      "start": 36.644919,
+      "end": 38.133514,
+      "rms": 0.207962
+    },
+    {
+      "no": 179,
+      "kind": "word",
+      "display_text": "晚饭",
+      "spoken_text": "晚饭。",
+      "pinyin": "wǎnfàn",
+      "characters": [
+        {
+          "frame_start": 126,
+          "frame_end": 127,
+          "confidence": 0.9989,
+          "char": "晚",
+          "start": 38.359115,
+          "end": 38.379155
+        },
+        {
+          "frame_start": 138,
+          "frame_end": 139,
+          "confidence": 0.9983,
+          "char": "饭",
+          "start": 38.599602,
+          "end": 38.619642
+        }
+      ],
+      "token_start": 38.359115,
+      "token_end": 38.619642,
+      "independent_asr_coverage": 1.0,
+      "start": 38.133514,
+      "end": 38.970353,
+      "rms": 0.129739
+    },
+    {
+      "no": 179,
+      "kind": "example",
+      "display_text": "我们一起吃晚饭吧。",
+      "spoken_text": "我们一起吃晚饭吧。",
+      "pinyin": "wǒmen yìqǐ chī wǎnfàn ba.",
+      "characters": [
+        {
+          "frame_start": 174,
+          "frame_end": 175,
+          "confidence": 0.9999,
+          "char": "我",
+          "start": 39.321063,
+          "end": 39.341104
+        },
+        {
+          "frame_start": 177,
+          "frame_end": 179,
+          "confidence": 0.9009,
+          "char": "们",
+          "start": 39.381185,
+          "end": 39.421266
+        },
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.9943,
+          "char": "一",
+          "start": 39.481388,
+          "end": 39.501428
+        },
+        {
+          "frame_start": 188,
+          "frame_end": 189,
+          "confidence": 0.9984,
+          "char": "起",
+          "start": 39.601631,
+          "end": 39.621672
+        },
+        {
+          "frame_start": 194,
+          "frame_end": 195,
+          "confidence": 0.9999,
+          "char": "吃",
+          "start": 39.721875,
+          "end": 39.741916
+        },
+        {
+          "frame_start": 200,
+          "frame_end": 201,
+          "confidence": 0.9894,
+          "char": "晚",
+          "start": 39.842119,
+          "end": 39.862159
+        },
+        {
+          "frame_start": 209,
+          "frame_end": 210,
+          "confidence": 0.9983,
+          "char": "饭",
+          "start": 40.022484,
+          "end": 40.042524
+        },
+        {
+          "frame_start": 218,
+          "frame_end": 219,
+          "confidence": 0.9997,
+          "char": "吧",
+          "start": 40.202849,
+          "end": 40.22289
+        }
+      ],
+      "token_start": 39.321063,
+      "token_end": 40.22289,
+      "independent_asr_coverage": 1.0,
+      "start": 38.970353,
+      "end": 40.483418,
+      "rms": 0.241274
+    },
+    {
+      "no": 180,
+      "kind": "word",
+      "display_text": "米饭",
+      "spoken_text": "米饭。",
+      "pinyin": "mǐfàn",
+      "characters": [
+        {
+          "frame_start": 245,
+          "frame_end": 246,
+          "confidence": 0.556,
+          "char": "米",
+          "start": 40.743945,
+          "end": 40.763986
+        },
+        {
+          "frame_start": 257,
+          "frame_end": 258,
+          "confidence": 0.9936,
+          "char": "饭",
+          "start": 40.984432,
+          "end": 41.004473
+        }
+      ],
+      "token_start": 40.743945,
+      "token_end": 41.004473,
+      "independent_asr_coverage": 1.0,
+      "start": 40.483418,
+      "end": 41.345163,
+      "rms": 0.146979
+    },
+    {
+      "no": 180,
+      "kind": "example",
+      "display_text": "我中午吃米饭。",
+      "spoken_text": "我中午吃米饭。",
+      "pinyin": "wǒ zhōngwǔ chī mǐfàn.",
+      "characters": [
+        {
+          "frame_start": 292,
+          "frame_end": 293,
+          "confidence": 0.9994,
+          "char": "我",
+          "start": 41.685853,
+          "end": 41.705894
+        },
+        {
+          "frame_start": 298,
+          "frame_end": 299,
+          "confidence": 0.2445,
+          "char": "中",
+          "start": 41.806097,
+          "end": 41.826137
+        },
+        {
+          "frame_start": 306,
+          "frame_end": 307,
+          "confidence": 0.992,
+          "char": "午",
+          "start": 41.966421,
+          "end": 41.986462
+        },
+        {
+          "frame_start": 314,
+          "frame_end": 315,
+          "confidence": 0.9998,
+          "char": "吃",
+          "start": 42.126746,
+          "end": 42.146787
+        },
+        {
+          "frame_start": 320,
+          "frame_end": 322,
+          "confidence": 0.799,
+          "char": "米",
+          "start": 42.24699,
+          "end": 42.287071
+        },
+        {
+          "frame_start": 330,
+          "frame_end": 331,
+          "confidence": 0.9878,
+          "char": "饭",
+          "start": 42.447396,
+          "end": 42.467436
+        }
+      ],
+      "token_start": 41.685853,
+      "token_end": 42.467436,
+      "independent_asr_coverage": 1.0,
+      "start": 41.345163,
+      "end": 42.768045,
+      "rms": 0.208179
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 361,
+          "frame_end": 362,
+          "confidence": 0.9986,
+          "char": "好",
+          "start": 43.068654,
+          "end": 43.088695
+        },
+        {
+          "frame_start": 369,
+          "frame_end": 370,
+          "confidence": 0.9924,
+          "char": "的",
+          "start": 43.228979,
+          "end": 43.249019
+        }
+      ],
+      "token_start": 43.068654,
+      "token_end": 43.249019,
+      "independent_asr_coverage": 1.0,
+      "start": 42.768045,
+      "end": 43.60975,
+      "rms": 0.125274
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 1.0,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 6,
+      "start": 0,
+      "end": 8.245,
+      "greedy_transcript": "课 今天有汉语课 上 班  我八 点上 班 下 班 我下午六点下班  工作 我白",
+      "oov": []
+    },
+    {
+      "first": 5,
+      "last": 12,
+      "start": 4.611000000000001,
+      "end": 14.262,
+      "greedy_transcript": "下 班我下午六 点下班 工作我白 天工作司我在公司工作芒忙 我今 天很芒忙 休",
+      "oov": []
+    },
+    {
+      "first": 11,
+      "last": 18,
+      "start": 11.267000000000001,
+      "end": 21.386999999999997,
+      "greedy_transcript": "忙 我今天很忙 休息星几天我在家休息一生 他是一生 起床 我每 天七点起床 睡",
+      "oov": []
+    },
+    {
+      "first": 17,
+      "last": 24,
+      "start": 17.967,
+      "end": 27.455,
+      "greedy_transcript": "起床 我每天七点起床睡孩子睡了睡觉我晚上十点睡觉做你在做什么做饭妈妈",
+      "oov": []
+    },
+    {
+      "first": 23,
+      "last": 30,
+      "start": 24.548,
+      "end": 33.344,
+      "greedy_transcript": "做 你 在做什么 做饭 妈妈正在做饭 C吃  我喜欢C吃米饭   我 想 喝水 饭  我们",
+      "oov": []
+    },
+    {
+      "first": 29,
+      "last": 36,
+      "start": 30.349999999999998,
+      "end": 39.211,
+      "greedy_transcript": "呵我想喝水饭我们吃饭吧早饭我起点吃早饭五饭 我十二点吃五饭晚饭",
+      "oov": []
+    },
+    {
+      "first": 35,
+      "last": 40,
+      "start": 35.833999999999996,
+      "end": 43.60975,
+      "greedy_transcript": "五饭 我十二 点吃五饭晚饭 我们一起吃晚饭吧米饭 我钟午C吃米饭 好 的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}
