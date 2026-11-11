@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-11",
+  "level": 1,
+  "reference_voice_level": 4,
+  "voice_id": "6c364011f30747c9a0a89eec3787cadc",
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "requested_speed": 0.85,
+  "entries": 300,
+  "word_clips": 300,
+  "example_clips": 300,
+  "native_sources_preserved_losslessly": 35,
+  "native_source_minutes": 10.925,
+  "decoded_mp3_files": 600,
+  "source_rebuild_byte_identical_files": 600,
+  "leading_padding_seconds": 0.16,
+  "trailing_padding_seconds": 0.35,
+  "decoded_duration_min": 0.770583,
+  "decoded_duration_max": 2.392708,
+  "decoded_peak_max": 0.974184,
+  "content_and_order": "Original 300-entry DATA copied unchanged; visible hanzi, pinyin, meanings, examples and translations preserved.",
+  "speech_only_homophones": {
+    "26": "位",
+    "77": "知",
+    "281": "兜",
+    "282": "孩",
+    "102": "编"
+  },
+  "neutral_context_words": [
+    277,
+    278,
+    285,
+    286,
+    287,
+    288
+  ],
+  "individual_utterance_corrections": 16,
+  "greedy_neutral_onset_review": [
+    {
+      "no": 278,
+      "donor": "老师们。",
+      "donor_greedy": "老师们",
+      "onset_options": [
+        {
+          "start": 0.40254,
+          "margin": 0.08,
+          "greedy": "之们",
+          "score": 0
+        },
+        {
+          "start": 0.42254,
+          "margin": 0.06,
+          "greedy": "们",
+          "score": 100
+        },
+        {
+          "start": 0.44254,
+          "margin": 0.04,
+          "greedy": "他们",
+          "score": 0
+        },
+        {
+          "start": 0.46254,
+          "margin": 0.02,
+          "greedy": "们",
+          "score": 100
+        }
+      ],
+      "selected": {
+        "start": 0.42254,
+        "margin": 0.06,
+        "greedy": "们",
+        "score": 100
+      },
+      "expected_text_used_for_greedy": false
+    },
+    {
+      "no": 285,
+      "donor": "吃了。",
+      "donor_greedy": "吃了",
+      "onset_options": [
+        {
+          "start": 0.28963,
+          "margin": 0.08,
+          "greedy": "了",
+          "score": 100
+        },
+        {
+          "start": 0.30963,
+          "margin": 0.06,
+          "greedy": "朗",
+          "score": 0
+        },
+        {
+          "start": 0.32963,
+          "margin": 0.04,
+          "greedy": "朗",
+          "score": 0
+        },
+        {
+          "start": 0.34963,
+          "margin": 0.02,
+          "greedy": "",
+          "score": 0
+        }
+      ],
+      "selected": {
+        "start": 0.28963,
+        "margin": 0.08,
+        "greedy": "了",
+        "score": 100
+      },
+      "expected_text_used_for_greedy": false
+    },
+    {
+      "no": 287,
+      "donor": "谁呢？",
+      "donor_greedy": "谁呢",
+      "onset_options": [
+        {
+          "start": 0.249412,
+          "margin": 0.08,
+          "greedy": "尼呢",
+          "score": 0
+        },
+        {
+          "start": 0.269412,
+          "margin": 0.06,
+          "greedy": "呢",
+          "score": 100
+        },
+        {
+          "start": 0.289412,
+          "margin": 0.04,
+          "greedy": "那",
+          "score": 0
+        },
+        {
+          "start": 0.309412,
+          "margin": 0.02,
+          "greedy": "那",
+          "score": 0
+        }
+      ],
+      "selected": {
+        "start": 0.269412,
+        "margin": 0.06,
+        "greedy": "呢",
+        "score": 100
+      },
+      "expected_text_used_for_greedy": false
+    },
+    {
+      "no": 288,
+      "donor": "说吧。",
+      "donor_greedy": "说吧",
+      "onset_options": [
+        {
+          "start": 0.26463,
+          "margin": 0.08,
+          "greedy": "说吧",
+          "score": 0
+        },
+        {
+          "start": 0.28463,
+          "margin": 0.06,
+          "greedy": "吧",
+          "score": 100
+        },
+        {
+          "start": 0.30463,
+          "margin": 0.04,
+          "greedy": "巴",
+          "score": 90
+        },
+        {
+          "start": 0.32463,
+          "margin": 0.02,
+          "greedy": "巴",
+          "score": 90
+        }
+      ],
+      "selected": {
+        "start": 0.28463,
+        "margin": 0.06,
+        "greedy": "吧",
+        "score": 100
+      },
+      "expected_text_used_for_greedy": false
+    }
+  ],
+  "browser": {
+    "decoded_clips": 600,
+    "actual_completed_plays": 7,
+    "repeat_pause_resume_and_start300": "passed",
+    "mobile_desktop_layout": "passed",
+    "grade1_pdf_link": "preserved",
+    "javascript_errors": []
+  },
+  "unit_tests_passed": 4,
+  "full_direct_listening": false,
+  "limitations": "Automatic ASR, waveform and browser checks do not certify all tones or subjective naturalness."
+}
