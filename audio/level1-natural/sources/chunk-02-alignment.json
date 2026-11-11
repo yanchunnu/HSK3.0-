@@ -1,0 +1,2033 @@
+{
+  "chunk": 2,
+  "duration_seconds": 43.49670833333333,
+  "units": [
+    {
+      "no": 21,
+      "kind": "word",
+      "display_text": "男",
+      "spoken_text": "男。",
+      "pinyin": "nán",
+      "characters": [
+        {
+          "frame_start": 14,
+          "frame_end": 15,
+          "confidence": 0.9691,
+          "char": "男",
+          "start": 0.280252,
+          "end": 0.30027
+        }
+      ],
+      "token_start": 0.280252,
+      "token_end": 0.30027,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 0.677,
+      "rms": 0.179184
+    },
+    {
+      "no": 21,
+      "kind": "example",
+      "display_text": "他是男老师。",
+      "spoken_text": "他是男老师。",
+      "pinyin": "tā shì nán lǎoshī.",
+      "characters": [
+        {
+          "frame_start": 49,
+          "frame_end": 50,
+          "confidence": 0.1592,
+          "char": "他",
+          "start": 0.980883,
+          "end": 1.000901
+        },
+        {
+          "frame_start": 56,
+          "frame_end": 57,
+          "confidence": 0.9614,
+          "char": "是",
+          "start": 1.121009,
+          "end": 1.141027
+        },
+        {
+          "frame_start": 61,
+          "frame_end": 63,
+          "confidence": 0.8742,
+          "char": "男",
+          "start": 1.221099,
+          "end": 1.261135
+        },
+        {
+          "frame_start": 70,
+          "frame_end": 72,
+          "confidence": 0.8607,
+          "char": "老",
+          "start": 1.401261,
+          "end": 1.441297
+        },
+        {
+          "frame_start": 82,
+          "frame_end": 83,
+          "confidence": 0.8933,
+          "char": "师",
+          "start": 1.641477,
+          "end": 1.661495
+        }
+      ],
+      "token_start": 0.980883,
+      "token_end": 1.661495,
+      "independent_asr_coverage": 1.0,
+      "start": 0.677,
+      "end": 1.971774,
+      "rms": 0.159681
+    },
+    {
+      "no": 22,
+      "kind": "word",
+      "display_text": "女",
+      "spoken_text": "女。",
+      "pinyin": "nǚ",
+      "characters": [
+        {
+          "frame_start": 114,
+          "frame_end": 115,
+          "confidence": 0.9841,
+          "char": "女",
+          "start": 2.282054,
+          "end": 2.302072
+        }
+      ],
+      "token_start": 2.282054,
+      "token_end": 2.302072,
+      "independent_asr_coverage": 1.0,
+      "start": 1.971774,
+      "end": 2.657,
+      "rms": 0.122036
+    },
+    {
+      "no": 22,
+      "kind": "example",
+      "display_text": "她是女老师。",
+      "spoken_text": "她是女老师。",
+      "pinyin": "tā shì nǚ lǎoshī.",
+      "characters": [
+        {
+          "frame_start": 146,
+          "frame_end": 147,
+          "confidence": 0.6871,
+          "char": "她",
+          "start": 2.922631,
+          "end": 2.942649
+        },
+        {
+          "frame_start": 153,
+          "frame_end": 154,
+          "confidence": 0.9564,
+          "char": "是",
+          "start": 3.062757,
+          "end": 3.082775
+        },
+        {
+          "frame_start": 159,
+          "frame_end": 160,
+          "confidence": 0.9945,
+          "char": "女",
+          "start": 3.182865,
+          "end": 3.202883
+        },
+        {
+          "frame_start": 169,
+          "frame_end": 170,
+          "confidence": 0.9699,
+          "char": "老",
+          "start": 3.383045,
+          "end": 3.403063
+        },
+        {
+          "frame_start": 180,
+          "frame_end": 181,
+          "confidence": 0.9273,
+          "char": "师",
+          "start": 3.603243,
+          "end": 3.623261
+        }
+      ],
+      "token_start": 2.922631,
+      "token_end": 3.623261,
+      "independent_asr_coverage": 1.0,
+      "start": 2.657,
+      "end": 4.003603,
+      "rms": 0.1742
+    },
+    {
+      "no": 23,
+      "kind": "word",
+      "display_text": "大家",
+      "spoken_text": "大家。",
+      "pinyin": "dàjiā",
+      "characters": [
+        {
+          "frame_start": 219,
+          "frame_end": 220,
+          "confidence": 0.574,
+          "char": "大",
+          "start": 4.383946,
+          "end": 4.403964
+        },
+        {
+          "frame_start": 225,
+          "frame_end": 227,
+          "confidence": 0.9732,
+          "char": "家",
+          "start": 4.504054,
+          "end": 4.54409
+        }
+      ],
+      "token_start": 4.383946,
+      "token_end": 4.54409,
+      "independent_asr_coverage": 1.0,
+      "start": 4.003603,
+      "end": 4.794315,
+      "rms": 0.164101
+    },
+    {
+      "no": 23,
+      "kind": "example",
+      "display_text": "大家好！",
+      "spoken_text": "大家好！",
+      "pinyin": "dàjiā hǎo!",
+      "characters": [
+        {
+          "frame_start": 252,
+          "frame_end": 253,
+          "confidence": 0.9599,
+          "char": "大",
+          "start": 5.044541,
+          "end": 5.064559
+        },
+        {
+          "frame_start": 256,
+          "frame_end": 258,
+          "confidence": 0.9105,
+          "char": "家",
+          "start": 5.124613,
+          "end": 5.164649
+        },
+        {
+          "frame_start": 264,
+          "frame_end": 265,
+          "confidence": 0.0116,
+          "char": "好",
+          "start": 5.284757,
+          "end": 5.304775
+        }
+      ],
+      "token_start": 5.044541,
+      "token_end": 5.304775,
+      "independent_asr_coverage": 1.0,
+      "start": 4.794315,
+      "end": 5.436451,
+      "rms": 0.19002
+    },
+    {
+      "no": 24,
+      "kind": "word",
+      "display_text": "女士",
+      "spoken_text": "女士。",
+      "pinyin": "nǚshì",
+      "characters": [
+        {
+          "frame_start": 67,
+          "frame_end": 68,
+          "confidence": 0.9996,
+          "char": "女",
+          "start": 5.568127,
+          "end": 5.588144
+        },
+        {
+          "frame_start": 76,
+          "frame_end": 77,
+          "confidence": 0.7877,
+          "char": "士",
+          "start": 5.748279,
+          "end": 5.768296
+        }
+      ],
+      "token_start": 5.568127,
+      "token_end": 5.768296,
+      "independent_asr_coverage": 1.0,
+      "start": 5.436451,
+      "end": 6.028514,
+      "rms": 0.239453
+    },
+    {
+      "no": 24,
+      "kind": "example",
+      "display_text": "王女士是老师。",
+      "spoken_text": "王女士是老师。",
+      "pinyin": "wáng nǚshì shì lǎoshī.",
+      "characters": [
+        {
+          "frame_start": 103,
+          "frame_end": 105,
+          "confidence": 0.7618,
+          "char": "王",
+          "start": 6.288733,
+          "end": 6.328767
+        },
+        {
+          "frame_start": 113,
+          "frame_end": 114,
+          "confidence": 0.9995,
+          "char": "女",
+          "start": 6.488901,
+          "end": 6.508918
+        },
+        {
+          "frame_start": 120,
+          "frame_end": 121,
+          "confidence": 0.0686,
+          "char": "士",
+          "start": 6.629019,
+          "end": 6.649036
+        },
+        {
+          "frame_start": 126,
+          "frame_end": 127,
+          "confidence": 0.1491,
+          "char": "是",
+          "start": 6.74912,
+          "end": 6.769137
+        },
+        {
+          "frame_start": 132,
+          "frame_end": 133,
+          "confidence": 0.9875,
+          "char": "老",
+          "start": 6.869221,
+          "end": 6.889238
+        },
+        {
+          "frame_start": 142,
+          "frame_end": 143,
+          "confidence": 0.9377,
+          "char": "师",
+          "start": 7.069389,
+          "end": 7.089406
+        }
+      ],
+      "token_start": 6.288733,
+      "token_end": 7.089406,
+      "independent_asr_coverage": 1.0,
+      "start": 6.028514,
+      "end": 7.449709,
+      "rms": 0.233673
+    },
+    {
+      "no": 25,
+      "kind": "word",
+      "display_text": "人",
+      "spoken_text": "人。",
+      "pinyin": "rén",
+      "characters": [
+        {
+          "frame_start": 179,
+          "frame_end": 180,
+          "confidence": 0.8502,
+          "char": "人",
+          "start": 7.810012,
+          "end": 7.830029
+        }
+      ],
+      "token_start": 7.810012,
+      "token_end": 7.830029,
+      "independent_asr_coverage": 1.0,
+      "start": 7.449709,
+      "end": 8.220357,
+      "rms": 0.180038
+    },
+    {
+      "no": 25,
+      "kind": "example",
+      "display_text": "这里有很多人。",
+      "spoken_text": "这里有很多人。",
+      "pinyin": "zhèlǐ yǒu hěn duō rén.",
+      "characters": [
+        {
+          "frame_start": 219,
+          "frame_end": 220,
+          "confidence": 0.934,
+          "char": "这",
+          "start": 8.610685,
+          "end": 8.630702
+        },
+        {
+          "frame_start": 224,
+          "frame_end": 225,
+          "confidence": 0.9033,
+          "char": "里",
+          "start": 8.710769,
+          "end": 8.730786
+        },
+        {
+          "frame_start": 229,
+          "frame_end": 230,
+          "confidence": 0.7805,
+          "char": "有",
+          "start": 8.810853,
+          "end": 8.83087
+        },
+        {
+          "frame_start": 235,
+          "frame_end": 236,
+          "confidence": 0.9954,
+          "char": "很",
+          "start": 8.930954,
+          "end": 8.950971
+        },
+        {
+          "frame_start": 245,
+          "frame_end": 246,
+          "confidence": 0.9999,
+          "char": "多",
+          "start": 9.131123,
+          "end": 9.151139
+        },
+        {
+          "frame_start": 254,
+          "frame_end": 255,
+          "confidence": 0.9993,
+          "char": "人",
+          "start": 9.311274,
+          "end": 9.331291
+        }
+      ],
+      "token_start": 8.610685,
+      "token_end": 9.331291,
+      "independent_asr_coverage": 1.0,
+      "start": 8.220357,
+      "end": 9.641552,
+      "rms": 0.262862
+    },
+    {
+      "no": 26,
+      "kind": "word",
+      "display_text": "喂",
+      "spoken_text": "位。",
+      "pinyin": "wèi",
+      "pronunciation_adaptation": {
+        "display": "喂",
+        "speech_only_homophone": "位",
+        "target_pinyin": "wèi"
+      },
+      "characters": [
+        {
+          "frame_start": 286,
+          "frame_end": 287,
+          "confidence": 0.0001,
+          "char": "位",
+          "start": 9.951812,
+          "end": 9.971829
+        }
+      ],
+      "token_start": 9.951812,
+      "token_end": 9.971829,
+      "independent_asr_coverage": 1.0,
+      "start": 9.641552,
+      "end": 9.971829,
+      "rms": 0.030542
+    },
+    {
+      "no": 26,
+      "kind": "example",
+      "display_text": "喂，你好！",
+      "spoken_text": "喂，你好！",
+      "pinyin": "wèi, nǐ hǎo!",
+      "characters": [
+        {
+          "frame_start": 287,
+          "frame_end": 288,
+          "confidence": 0.0005,
+          "char": "喂",
+          "start": 9.971829,
+          "end": 9.991846
+        },
+        {
+          "frame_start": 347,
+          "frame_end": 348,
+          "confidence": 0.9778,
+          "char": "你",
+          "start": 11.172839,
+          "end": 11.192856
+        },
+        {
+          "frame_start": 353,
+          "frame_end": 355,
+          "confidence": 0.9892,
+          "char": "好",
+          "start": 11.29294,
+          "end": 11.332974
+        }
+      ],
+      "token_start": 9.971829,
+      "token_end": 11.332974,
+      "independent_asr_coverage": 1.0,
+      "start": 9.971829,
+      "end": 11.416403,
+      "rms": 0.209193
+    },
+    {
+      "no": 27,
+      "kind": "word",
+      "display_text": "先生",
+      "spoken_text": "先生。",
+      "pinyin": "xiānsheng",
+      "characters": [
+        {
+          "frame_start": 84,
+          "frame_end": 85,
+          "confidence": 0.9981,
+          "char": "先",
+          "start": 11.499831,
+          "end": 11.519865
+        },
+        {
+          "frame_start": 94,
+          "frame_end": 95,
+          "confidence": 0.6187,
+          "char": "生",
+          "start": 11.700169,
+          "end": 11.720202
+        }
+      ],
+      "token_start": 11.499831,
+      "token_end": 11.720202,
+      "independent_asr_coverage": 1.0,
+      "start": 11.416403,
+      "end": 12.000674,
+      "rms": 0.157885
+    },
+    {
+      "no": 27,
+      "kind": "example",
+      "display_text": "王先生是老师。",
+      "spoken_text": "王先生是老师。",
+      "pinyin": "wáng xiānsheng shì lǎoshī.",
+      "characters": [
+        {
+          "frame_start": 123,
+          "frame_end": 124,
+          "confidence": 0.9855,
+          "char": "王",
+          "start": 12.281146,
+          "end": 12.30118
+        },
+        {
+          "frame_start": 132,
+          "frame_end": 133,
+          "confidence": 0.9976,
+          "char": "先",
+          "start": 12.461449,
+          "end": 12.481483
+        },
+        {
+          "frame_start": 140,
+          "frame_end": 141,
+          "confidence": 0.0061,
+          "char": "生",
+          "start": 12.621719,
+          "end": 12.641753
+        },
+        {
+          "frame_start": 147,
+          "frame_end": 148,
+          "confidence": 0.5775,
+          "char": "是",
+          "start": 12.761955,
+          "end": 12.781989
+        },
+        {
+          "frame_start": 153,
+          "frame_end": 154,
+          "confidence": 0.9994,
+          "char": "老",
+          "start": 12.882157,
+          "end": 12.902191
+        },
+        {
+          "frame_start": 163,
+          "frame_end": 164,
+          "confidence": 0.9972,
+          "char": "师",
+          "start": 13.082494,
+          "end": 13.102528
+        }
+      ],
+      "token_start": 12.281146,
+      "token_end": 13.102528,
+      "independent_asr_coverage": 1.0,
+      "start": 12.000674,
+      "end": 13.372983,
+      "rms": 0.239853
+    },
+    {
+      "no": 28,
+      "kind": "word",
+      "display_text": "爸爸",
+      "spoken_text": "爸爸。",
+      "pinyin": "bàba",
+      "characters": [
+        {
+          "frame_start": 191,
+          "frame_end": 192,
+          "confidence": 0.9961,
+          "char": "爸",
+          "start": 13.643438,
+          "end": 13.663472
+        },
+        {
+          "frame_start": 199,
+          "frame_end": 200,
+          "confidence": 0.9945,
+          "char": "爸",
+          "start": 13.803708,
+          "end": 13.823742
+        }
+      ],
+      "token_start": 13.643438,
+      "token_end": 13.823742,
+      "independent_asr_coverage": 1.0,
+      "start": 13.372983,
+      "end": 14.154298,
+      "rms": 0.087968
+    },
+    {
+      "no": 28,
+      "kind": "example",
+      "display_text": "我爸爸在公司工作。",
+      "spoken_text": "我爸爸在公司工作。",
+      "pinyin": "wǒ bàba zài gōngsī gōngzuò.",
+      "characters": [
+        {
+          "frame_start": 233,
+          "frame_end": 234,
+          "confidence": 0.9996,
+          "char": "我",
+          "start": 14.484854,
+          "end": 14.504888
+        },
+        {
+          "frame_start": 238,
+          "frame_end": 239,
+          "confidence": 0.9996,
+          "char": "爸",
+          "start": 14.585022,
+          "end": 14.605056
+        },
+        {
+          "frame_start": 245,
+          "frame_end": 246,
+          "confidence": 0.9996,
+          "char": "爸",
+          "start": 14.725258,
+          "end": 14.745292
+        },
+        {
+          "frame_start": 250,
+          "frame_end": 251,
+          "confidence": 0.9958,
+          "char": "在",
+          "start": 14.825427,
+          "end": 14.845461
+        },
+        {
+          "frame_start": 256,
+          "frame_end": 257,
+          "confidence": 0.9995,
+          "char": "公",
+          "start": 14.945629,
+          "end": 14.965663
+        },
+        {
+          "frame_start": 266,
+          "frame_end": 267,
+          "confidence": 0.9997,
+          "char": "司",
+          "start": 15.145966,
+          "end": 15.166
+        },
+        {
+          "frame_start": 272,
+          "frame_end": 273,
+          "confidence": 0.9968,
+          "char": "工",
+          "start": 15.266169,
+          "end": 15.286202
+        },
+        {
+          "frame_start": 281,
+          "frame_end": 282,
+          "confidence": 0.9987,
+          "char": "作",
+          "start": 15.446472,
+          "end": 15.466506
+        }
+      ],
+      "token_start": 14.484854,
+      "token_end": 15.466506,
+      "independent_asr_coverage": 1.0,
+      "start": 14.154298,
+      "end": 15.807079,
+      "rms": 0.215355
+    },
+    {
+      "no": 29,
+      "kind": "word",
+      "display_text": "妈妈",
+      "spoken_text": "妈妈。",
+      "pinyin": "māma",
+      "characters": [
+        {
+          "frame_start": 316,
+          "frame_end": 317,
+          "confidence": 0.9984,
+          "char": "妈",
+          "start": 16.147652,
+          "end": 16.167685
+        },
+        {
+          "frame_start": 325,
+          "frame_end": 326,
+          "confidence": 0.9994,
+          "char": "妈",
+          "start": 16.327955,
+          "end": 16.347989
+        }
+      ],
+      "token_start": 16.147652,
+      "token_end": 16.347989,
+      "independent_asr_coverage": 1.0,
+      "start": 15.807079,
+      "end": 16.588393,
+      "rms": 0.23877
+    },
+    {
+      "no": 29,
+      "kind": "example",
+      "display_text": "我妈妈会做饭。",
+      "spoken_text": "我妈妈会做饭。",
+      "pinyin": "wǒ māma huì zuòfàn.",
+      "characters": [
+        {
+          "frame_start": 350,
+          "frame_end": 351,
+          "confidence": 0.9999,
+          "char": "我",
+          "start": 16.828798,
+          "end": 16.848831
+        },
+        {
+          "frame_start": 355,
+          "frame_end": 356,
+          "confidence": 0.9997,
+          "char": "妈",
+          "start": 16.928966,
+          "end": 16.949
+        },
+        {
+          "frame_start": 362,
+          "frame_end": 363,
+          "confidence": 0.9999,
+          "char": "妈",
+          "start": 17.069202,
+          "end": 17.089236
+        },
+        {
+          "frame_start": 369,
+          "frame_end": 370,
+          "confidence": 0.9986,
+          "char": "会",
+          "start": 17.209438,
+          "end": 17.229472
+        },
+        {
+          "frame_start": 375,
+          "frame_end": 376,
+          "confidence": 0.9985,
+          "char": "做",
+          "start": 17.32964,
+          "end": 17.349674
+        },
+        {
+          "frame_start": 385,
+          "frame_end": 386,
+          "confidence": 0.9516,
+          "char": "饭",
+          "start": 17.529978,
+          "end": 17.550011
+        }
+      ],
+      "token_start": 16.828798,
+      "token_end": 17.550011,
+      "independent_asr_coverage": 1.0,
+      "start": 16.588393,
+      "end": 17.74587,
+      "rms": 0.233885
+    },
+    {
+      "no": 30,
+      "kind": "word",
+      "display_text": "哥哥",
+      "spoken_text": "哥哥。",
+      "pinyin": "gēge",
+      "characters": [
+        {
+          "frame_start": 110,
+          "frame_end": 111,
+          "confidence": 0.995,
+          "char": "哥",
+          "start": 17.941729,
+          "end": 17.961763
+        },
+        {
+          "frame_start": 118,
+          "frame_end": 119,
+          "confidence": 0.9895,
+          "char": "哥",
+          "start": 18.102,
+          "end": 18.122034
+        }
+      ],
+      "token_start": 17.941729,
+      "token_end": 18.122034,
+      "independent_asr_coverage": 1.0,
+      "start": 17.74587,
+      "end": 18.432559,
+      "rms": 0.082073
+    },
+    {
+      "no": 30,
+      "kind": "example",
+      "display_text": "我哥哥在公司工作。",
+      "spoken_text": "我哥哥在公司工作。",
+      "pinyin": "wǒ gēge zài gōngsī gōngzuò.",
+      "characters": [
+        {
+          "frame_start": 150,
+          "frame_end": 151,
+          "confidence": 0.999,
+          "char": "我",
+          "start": 18.743085,
+          "end": 18.763119
+        },
+        {
+          "frame_start": 157,
+          "frame_end": 158,
+          "confidence": 0.9996,
+          "char": "哥",
+          "start": 18.883322,
+          "end": 18.903356
+        },
+        {
+          "frame_start": 164,
+          "frame_end": 165,
+          "confidence": 0.9992,
+          "char": "哥",
+          "start": 19.023559,
+          "end": 19.043593
+        },
+        {
+          "frame_start": 169,
+          "frame_end": 170,
+          "confidence": 0.9967,
+          "char": "在",
+          "start": 19.123729,
+          "end": 19.143763
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.9867,
+          "char": "公",
+          "start": 19.263966,
+          "end": 19.284
+        },
+        {
+          "frame_start": 185,
+          "frame_end": 186,
+          "confidence": 0.9974,
+          "char": "司",
+          "start": 19.444271,
+          "end": 19.464305
+        },
+        {
+          "frame_start": 190,
+          "frame_end": 191,
+          "confidence": 0.9917,
+          "char": "工",
+          "start": 19.544441,
+          "end": 19.564475
+        },
+        {
+          "frame_start": 200,
+          "frame_end": 201,
+          "confidence": 0.9995,
+          "char": "作",
+          "start": 19.74478,
+          "end": 19.764814
+        }
+      ],
+      "token_start": 18.743085,
+      "token_end": 19.764814,
+      "independent_asr_coverage": 1.0,
+      "start": 18.432559,
+      "end": 19.985187,
+      "rms": 0.209331
+    },
+    {
+      "no": 31,
+      "kind": "word",
+      "display_text": "姐姐",
+      "spoken_text": "姐姐。",
+      "pinyin": "jiějie",
+      "characters": [
+        {
+          "frame_start": 223,
+          "frame_end": 224,
+          "confidence": 0.9917,
+          "char": "姐",
+          "start": 20.205559,
+          "end": 20.225593
+        },
+        {
+          "frame_start": 232,
+          "frame_end": 233,
+          "confidence": 0.9976,
+          "char": "姐",
+          "start": 20.385864,
+          "end": 20.405898
+        }
+      ],
+      "token_start": 20.205559,
+      "token_end": 20.405898,
+      "independent_asr_coverage": 1.0,
+      "start": 19.985187,
+      "end": 20.69639,
+      "rms": 0.126546
+    },
+    {
+      "no": 31,
+      "kind": "example",
+      "display_text": "我姐姐是老师。",
+      "spoken_text": "我姐姐是老师。",
+      "pinyin": "wǒ jiějie shì lǎoshī.",
+      "characters": [
+        {
+          "frame_start": 262,
+          "frame_end": 263,
+          "confidence": 0.9996,
+          "char": "我",
+          "start": 20.986881,
+          "end": 21.006915
+        },
+        {
+          "frame_start": 268,
+          "frame_end": 270,
+          "confidence": 0.979,
+          "char": "姐",
+          "start": 21.107085,
+          "end": 21.147153
+        },
+        {
+          "frame_start": 275,
+          "frame_end": 277,
+          "confidence": 0.9876,
+          "char": "姐",
+          "start": 21.247322,
+          "end": 21.28739
+        },
+        {
+          "frame_start": 282,
+          "frame_end": 283,
+          "confidence": 0.9963,
+          "char": "是",
+          "start": 21.387559,
+          "end": 21.407593
+        },
+        {
+          "frame_start": 287,
+          "frame_end": 288,
+          "confidence": 0.9991,
+          "char": "老",
+          "start": 21.487729,
+          "end": 21.507763
+        },
+        {
+          "frame_start": 298,
+          "frame_end": 299,
+          "confidence": 0.9916,
+          "char": "师",
+          "start": 21.708102,
+          "end": 21.728136
+        }
+      ],
+      "token_start": 20.986881,
+      "token_end": 21.728136,
+      "independent_asr_coverage": 1.0,
+      "start": 20.69639,
+      "end": 22.068712,
+      "rms": 0.206875
+    },
+    {
+      "no": 32,
+      "kind": "word",
+      "display_text": "弟弟",
+      "spoken_text": "弟弟。",
+      "pinyin": "dìdi",
+      "characters": [
+        {
+          "frame_start": 333,
+          "frame_end": 334,
+          "confidence": 0.9975,
+          "char": "弟",
+          "start": 22.409288,
+          "end": 22.429322
+        },
+        {
+          "frame_start": 342,
+          "frame_end": 343,
+          "confidence": 0.9931,
+          "char": "弟",
+          "start": 22.589593,
+          "end": 22.609627
+        }
+      ],
+      "token_start": 22.409288,
+      "token_end": 22.609627,
+      "independent_asr_coverage": 1.0,
+      "start": 22.068712,
+      "end": 22.850034,
+      "rms": 0.197243
+    },
+    {
+      "no": 32,
+      "kind": "example",
+      "display_text": "我弟弟是学生。",
+      "spoken_text": "我弟弟是学生。",
+      "pinyin": "wǒ dìdi shì xuéshēng.",
+      "characters": [
+        {
+          "frame_start": 367,
+          "frame_end": 369,
+          "confidence": 0.8089,
+          "char": "我",
+          "start": 23.090441,
+          "end": 23.130508
+        },
+        {
+          "frame_start": 375,
+          "frame_end": 376,
+          "confidence": 0.9998,
+          "char": "弟",
+          "start": 23.250712,
+          "end": 23.270746
+        },
+        {
+          "frame_start": 381,
+          "frame_end": 382,
+          "confidence": 0.9985,
+          "char": "弟",
+          "start": 23.370915,
+          "end": 23.390949
+        },
+        {
+          "frame_start": 386,
+          "frame_end": 387,
+          "confidence": 0.9865,
+          "char": "是",
+          "start": 23.471085,
+          "end": 23.491119
+        },
+        {
+          "frame_start": 393,
+          "frame_end": 394,
+          "confidence": 0.9989,
+          "char": "学",
+          "start": 23.611322,
+          "end": 23.631356
+        },
+        {
+          "frame_start": 402,
+          "frame_end": 403,
+          "confidence": 0.9993,
+          "char": "生",
+          "start": 23.791627,
+          "end": 23.811661
+        }
+      ],
+      "token_start": 23.090441,
+      "token_end": 23.811661,
+      "independent_asr_coverage": 1.0,
+      "start": 22.850034,
+      "end": 24.072256,
+      "rms": 0.204101
+    },
+    {
+      "no": 33,
+      "kind": "word",
+      "display_text": "妹妹",
+      "spoken_text": "妹妹。",
+      "pinyin": "mèimei",
+      "characters": [
+        {
+          "frame_start": 115,
+          "frame_end": 117,
+          "confidence": 0.9033,
+          "char": "妹",
+          "start": 24.332851,
+          "end": 24.372901
+        },
+        {
+          "frame_start": 126,
+          "frame_end": 128,
+          "confidence": 0.9948,
+          "char": "妹",
+          "start": 24.553124,
+          "end": 24.593174
+        }
+      ],
+      "token_start": 24.332851,
+      "token_end": 24.593174,
+      "independent_asr_coverage": 1.0,
+      "start": 24.072256,
+      "end": 24.873521,
+      "rms": 0.207077
+    },
+    {
+      "no": 33,
+      "kind": "example",
+      "display_text": "我妹妹是学生。",
+      "spoken_text": "我妹妹是学生。",
+      "pinyin": "wǒ mèimei shì xuéshēng.",
+      "characters": [
+        {
+          "frame_start": 156,
+          "frame_end": 158,
+          "confidence": 0.854,
+          "char": "我",
+          "start": 25.153868,
+          "end": 25.193917
+        },
+        {
+          "frame_start": 162,
+          "frame_end": 163,
+          "confidence": 0.9993,
+          "char": "妹",
+          "start": 25.274017,
+          "end": 25.294041
+        },
+        {
+          "frame_start": 170,
+          "frame_end": 171,
+          "confidence": 0.9987,
+          "char": "妹",
+          "start": 25.434215,
+          "end": 25.45424
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.5489,
+          "char": "是",
+          "start": 25.554364,
+          "end": 25.574388
+        },
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.9927,
+          "char": "学",
+          "start": 25.674512,
+          "end": 25.694537
+        },
+        {
+          "frame_start": 191,
+          "frame_end": 192,
+          "confidence": 0.9999,
+          "char": "生",
+          "start": 25.854736,
+          "end": 25.87476
+        }
+      ],
+      "token_start": 25.153868,
+      "token_end": 25.87476,
+      "independent_asr_coverage": 1.0,
+      "start": 24.873521,
+      "end": 26.097,
+      "rms": 0.267809
+    },
+    {
+      "no": 34,
+      "kind": "word",
+      "display_text": "儿子",
+      "spoken_text": "儿子。",
+      "pinyin": "érzi",
+      "characters": [
+        {
+          "frame_start": 214,
+          "frame_end": 215,
+          "confidence": 0.9991,
+          "char": "儿",
+          "start": 26.315306,
+          "end": 26.335331
+        },
+        {
+          "frame_start": 225,
+          "frame_end": 226,
+          "confidence": 0.9965,
+          "char": "子",
+          "start": 26.535579,
+          "end": 26.555603
+        }
+      ],
+      "token_start": 26.315306,
+      "token_end": 26.555603,
+      "independent_asr_coverage": 1.0,
+      "start": 26.097,
+      "end": 26.825938,
+      "rms": 0.07991
+    },
+    {
+      "no": 34,
+      "kind": "example",
+      "display_text": "我儿子是小学生。",
+      "spoken_text": "我儿子是小学生。",
+      "pinyin": "wǒ érzi shì xiǎoxuéshēng.",
+      "characters": [
+        {
+          "frame_start": 253,
+          "frame_end": 254,
+          "confidence": 0.9909,
+          "char": "我",
+          "start": 27.096273,
+          "end": 27.116298
+        },
+        {
+          "frame_start": 259,
+          "frame_end": 260,
+          "confidence": 0.9956,
+          "char": "儿",
+          "start": 27.216421,
+          "end": 27.236446
+        },
+        {
+          "frame_start": 267,
+          "frame_end": 268,
+          "confidence": 0.9442,
+          "char": "子",
+          "start": 27.37662,
+          "end": 27.396645
+        },
+        {
+          "frame_start": 271,
+          "frame_end": 273,
+          "confidence": 0.9502,
+          "char": "是",
+          "start": 27.456719,
+          "end": 27.496769
+        },
+        {
+          "frame_start": 277,
+          "frame_end": 279,
+          "confidence": 0.9922,
+          "char": "小",
+          "start": 27.576868,
+          "end": 27.616917
+        },
+        {
+          "frame_start": 286,
+          "frame_end": 288,
+          "confidence": 0.9826,
+          "char": "学",
+          "start": 27.757091,
+          "end": 27.79714
+        },
+        {
+          "frame_start": 295,
+          "frame_end": 296,
+          "confidence": 0.9998,
+          "char": "生",
+          "start": 27.937314,
+          "end": 27.957339
+        }
+      ],
+      "token_start": 27.096273,
+      "token_end": 27.957339,
+      "independent_asr_coverage": 1.0,
+      "start": 26.825938,
+      "end": 28.227674,
+      "rms": 0.206043
+    },
+    {
+      "no": 35,
+      "kind": "word",
+      "display_text": "女儿",
+      "spoken_text": "女儿。",
+      "pinyin": "nǚ'ér",
+      "characters": [
+        {
+          "frame_start": 323,
+          "frame_end": 324,
+          "confidence": 0.9998,
+          "char": "女",
+          "start": 28.498008,
+          "end": 28.518033
+        },
+        {
+          "frame_start": 335,
+          "frame_end": 336,
+          "confidence": 0.9995,
+          "char": "儿",
+          "start": 28.738306,
+          "end": 28.758331
+        }
+      ],
+      "token_start": 28.498008,
+      "token_end": 28.758331,
+      "independent_asr_coverage": 1.0,
+      "start": 28.227674,
+      "end": 29.04869,
+      "rms": 0.168127
+    },
+    {
+      "no": 35,
+      "kind": "example",
+      "display_text": "她女儿五岁了。",
+      "spoken_text": "她女儿五岁了。",
+      "pinyin": "tā nǚ'ér wǔ suì le.",
+      "characters": [
+        {
+          "frame_start": 365,
+          "frame_end": 366,
+          "confidence": 0.2932,
+          "char": "她",
+          "start": 29.33905,
+          "end": 29.359074
+        },
+        {
+          "frame_start": 372,
+          "frame_end": 374,
+          "confidence": 0.9473,
+          "char": "女",
+          "start": 29.479223,
+          "end": 29.519273
+        },
+        {
+          "frame_start": 379,
+          "frame_end": 380,
+          "confidence": 0.941,
+          "char": "儿",
+          "start": 29.619397,
+          "end": 29.639421
+        },
+        {
+          "frame_start": 384,
+          "frame_end": 386,
+          "confidence": 0.4341,
+          "char": "五",
+          "start": 29.719521,
+          "end": 29.75957
+        },
+        {
+          "frame_start": 395,
+          "frame_end": 396,
+          "confidence": 0.9783,
+          "char": "岁",
+          "start": 29.939793,
+          "end": 29.959818
+        },
+        {
+          "frame_start": 407,
+          "frame_end": 408,
+          "confidence": 0.9944,
+          "char": "了",
+          "start": 30.180091,
+          "end": 30.200116
+        }
+      ],
+      "token_start": 29.33905,
+      "token_end": 30.200116,
+      "independent_asr_coverage": 1.0,
+      "start": 29.04869,
+      "end": 30.513879,
+      "rms": 0.242586
+    },
+    {
+      "no": 36,
+      "kind": "word",
+      "display_text": "家人",
+      "spoken_text": "家人。",
+      "pinyin": "jiārén",
+      "characters": [
+        {
+          "frame_start": 126,
+          "frame_end": 127,
+          "confidence": 0.9754,
+          "char": "家",
+          "start": 30.827642,
+          "end": 30.847687
+        },
+        {
+          "frame_start": 139,
+          "frame_end": 140,
+          "confidence": 0.9992,
+          "char": "人",
+          "start": 31.088224,
+          "end": 31.108269
+        }
+      ],
+      "token_start": 30.827642,
+      "token_end": 31.108269,
+      "independent_asr_coverage": 1.0,
+      "start": 30.513879,
+      "end": 31.418963,
+      "rms": 0.177839
+    },
+    {
+      "no": 36,
+      "kind": "example",
+      "display_text": "我的家人都很好。",
+      "spoken_text": "我的家人都很好。",
+      "pinyin": "wǒ de jiārén dōu hěn hǎo.",
+      "characters": [
+        {
+          "frame_start": 171,
+          "frame_end": 172,
+          "confidence": 0.9999,
+          "char": "我",
+          "start": 31.729657,
+          "end": 31.749701
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.9932,
+          "char": "的",
+          "start": 31.829881,
+          "end": 31.849925
+        },
+        {
+          "frame_start": 181,
+          "frame_end": 182,
+          "confidence": 0.9997,
+          "char": "家",
+          "start": 31.930104,
+          "end": 31.950149
+        },
+        {
+          "frame_start": 190,
+          "frame_end": 191,
+          "confidence": 0.9998,
+          "char": "人",
+          "start": 32.110507,
+          "end": 32.130552
+        },
+        {
+          "frame_start": 198,
+          "frame_end": 199,
+          "confidence": 0.9997,
+          "char": "都",
+          "start": 32.270866,
+          "end": 32.29091
+        },
+        {
+          "frame_start": 206,
+          "frame_end": 207,
+          "confidence": 0.9998,
+          "char": "很",
+          "start": 32.431224,
+          "end": 32.451269
+        },
+        {
+          "frame_start": 215,
+          "frame_end": 216,
+          "confidence": 0.9996,
+          "char": "好",
+          "start": 32.611627,
+          "end": 32.631672
+        }
+      ],
+      "token_start": 31.729657,
+      "token_end": 32.631672,
+      "independent_asr_coverage": 1.0,
+      "start": 31.418963,
+      "end": 32.962411,
+      "rms": 0.236976
+    },
+    {
+      "no": 37,
+      "kind": "word",
+      "display_text": "男朋友",
+      "spoken_text": "男朋友。",
+      "pinyin": "nánpéngyou",
+      "characters": [
+        {
+          "frame_start": 249,
+          "frame_end": 250,
+          "confidence": 0.9992,
+          "char": "男",
+          "start": 33.293149,
+          "end": 33.313194
+        },
+        {
+          "frame_start": 258,
+          "frame_end": 259,
+          "confidence": 0.9969,
+          "char": "朋",
+          "start": 33.473552,
+          "end": 33.493597
+        },
+        {
+          "frame_start": 269,
+          "frame_end": 270,
+          "confidence": 0.9993,
+          "char": "友",
+          "start": 33.694045,
+          "end": 33.71409
+        }
+      ],
+      "token_start": 33.293149,
+      "token_end": 33.71409,
+      "independent_asr_coverage": 1.0,
+      "start": 32.962411,
+      "end": 33.974672,
+      "rms": 0.169497
+    },
+    {
+      "no": 37,
+      "kind": "example",
+      "display_text": "他是我的男朋友。",
+      "spoken_text": "他是我的男朋友。",
+      "pinyin": "tā shì wǒ de nánpéngyou.",
+      "characters": [
+        {
+          "frame_start": 296,
+          "frame_end": 297,
+          "confidence": 0.5132,
+          "char": "他",
+          "start": 34.235254,
+          "end": 34.255299
+        },
+        {
+          "frame_start": 302,
+          "frame_end": 304,
+          "confidence": 0.9451,
+          "char": "是",
+          "start": 34.355522,
+          "end": 34.395612
+        },
+        {
+          "frame_start": 307,
+          "frame_end": 309,
+          "confidence": 0.8274,
+          "char": "我",
+          "start": 34.455746,
+          "end": 34.495836
+        },
+        {
+          "frame_start": 312,
+          "frame_end": 314,
+          "confidence": 0.9399,
+          "char": "的",
+          "start": 34.55597,
+          "end": 34.59606
+        },
+        {
+          "frame_start": 317,
+          "frame_end": 318,
+          "confidence": 0.9995,
+          "char": "男",
+          "start": 34.656194,
+          "end": 34.676239
+        },
+        {
+          "frame_start": 326,
+          "frame_end": 328,
+          "confidence": 0.9654,
+          "char": "朋",
+          "start": 34.836597,
+          "end": 34.876687
+        },
+        {
+          "frame_start": 339,
+          "frame_end": 340,
+          "confidence": 0.9997,
+          "char": "友",
+          "start": 35.097179,
+          "end": 35.117224
+        }
+      ],
+      "token_start": 34.235254,
+      "token_end": 35.117224,
+      "independent_asr_coverage": 1.0,
+      "start": 33.974672,
+      "end": 35.427918,
+      "rms": 0.204969
+    },
+    {
+      "no": 38,
+      "kind": "word",
+      "display_text": "女朋友",
+      "spoken_text": "女朋友。",
+      "pinyin": "nǚpéngyou",
+      "characters": [
+        {
+          "frame_start": 371,
+          "frame_end": 372,
+          "confidence": 0.9983,
+          "char": "女",
+          "start": 35.738612,
+          "end": 35.758657
+        },
+        {
+          "frame_start": 380,
+          "frame_end": 382,
+          "confidence": 0.9729,
+          "char": "朋",
+          "start": 35.919015,
+          "end": 35.959104
+        },
+        {
+          "frame_start": 393,
+          "frame_end": 394,
+          "confidence": 0.9998,
+          "char": "友",
+          "start": 36.179597,
+          "end": 36.199642
+        }
+      ],
+      "token_start": 35.738612,
+      "token_end": 36.199642,
+      "independent_asr_coverage": 1.0,
+      "start": 35.427918,
+      "end": 36.460224,
+      "rms": 0.165159
+    },
+    {
+      "no": 38,
+      "kind": "example",
+      "display_text": "她是我的女朋友。",
+      "spoken_text": "她是我的女朋友。",
+      "pinyin": "tā shì wǒ de nǚpéngyou.",
+      "characters": [
+        {
+          "frame_start": 420,
+          "frame_end": 421,
+          "confidence": 0.4508,
+          "char": "她",
+          "start": 36.720806,
+          "end": 36.740851
+        },
+        {
+          "frame_start": 427,
+          "frame_end": 428,
+          "confidence": 0.9978,
+          "char": "是",
+          "start": 36.861119,
+          "end": 36.881164
+        },
+        {
+          "frame_start": 432,
+          "frame_end": 434,
+          "confidence": 0.8766,
+          "char": "我",
+          "start": 36.961343,
+          "end": 37.001433
+        },
+        {
+          "frame_start": 438,
+          "frame_end": 439,
+          "confidence": 0.9966,
+          "char": "的",
+          "start": 37.081612,
+          "end": 37.101657
+        },
+        {
+          "frame_start": 443,
+          "frame_end": 445,
+          "confidence": 0.758,
+          "char": "女",
+          "start": 37.181836,
+          "end": 37.221925
+        },
+        {
+          "frame_start": 454,
+          "frame_end": 455,
+          "confidence": 0.9844,
+          "char": "朋",
+          "start": 37.402328,
+          "end": 37.422373
+        },
+        {
+          "frame_start": 468,
+          "frame_end": 469,
+          "confidence": 0.9996,
+          "char": "友",
+          "start": 37.682955,
+          "end": 37.703
+        }
+      ],
+      "token_start": 36.720806,
+      "token_end": 37.703,
+      "independent_asr_coverage": 1.0,
+      "start": 36.460224,
+      "end": 37.91687,
+      "rms": 0.253299
+    },
+    {
+      "no": 39,
+      "kind": "word",
+      "display_text": "朋友",
+      "spoken_text": "朋友。",
+      "pinyin": "péngyou",
+      "characters": [
+        {
+          "frame_start": 123,
+          "frame_end": 125,
+          "confidence": 0.9491,
+          "char": "朋",
+          "start": 38.130739,
+          "end": 38.170784
+        },
+        {
+          "frame_start": 136,
+          "frame_end": 139,
+          "confidence": 0.9664,
+          "char": "友",
+          "start": 38.391029,
+          "end": 38.451096
+        }
+      ],
+      "token_start": 38.130739,
+      "token_end": 38.451096,
+      "independent_asr_coverage": 1.0,
+      "start": 37.91687,
+      "end": 38.741419,
+      "rms": 0.069308
+    },
+    {
+      "no": 39,
+      "kind": "example",
+      "display_text": "他是我的好朋友。",
+      "spoken_text": "他是我的好朋友。",
+      "pinyin": "tā shì wǒ de hǎo péngyou.",
+      "characters": [
+        {
+          "frame_start": 168,
+          "frame_end": 169,
+          "confidence": 0.2529,
+          "char": "他",
+          "start": 39.031742,
+          "end": 39.051764
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 178,
+          "confidence": 0.9813,
+          "char": "是",
+          "start": 39.19192,
+          "end": 39.231964
+        },
+        {
+          "frame_start": 181,
+          "frame_end": 183,
+          "confidence": 0.9955,
+          "char": "我",
+          "start": 39.292031,
+          "end": 39.332076
+        },
+        {
+          "frame_start": 187,
+          "frame_end": 188,
+          "confidence": 0.9918,
+          "char": "的",
+          "start": 39.412165,
+          "end": 39.432187
+        },
+        {
+          "frame_start": 193,
+          "frame_end": 195,
+          "confidence": 0.8644,
+          "char": "好",
+          "start": 39.532298,
+          "end": 39.572343
+        },
+        {
+          "frame_start": 204,
+          "frame_end": 206,
+          "confidence": 0.9917,
+          "char": "朋",
+          "start": 39.752543,
+          "end": 39.792588
+        },
+        {
+          "frame_start": 217,
+          "frame_end": 218,
+          "confidence": 0.997,
+          "char": "友",
+          "start": 40.012833,
+          "end": 40.032855
+        }
+      ],
+      "token_start": 39.031742,
+      "token_end": 40.032855,
+      "independent_asr_coverage": 1.0,
+      "start": 38.741419,
+      "end": 40.243089,
+      "rms": 0.196567
+    },
+    {
+      "no": 40,
+      "kind": "word",
+      "display_text": "小朋友",
+      "spoken_text": "小朋友。",
+      "pinyin": "xiǎopéngyou",
+      "characters": [
+        {
+          "frame_start": 239,
+          "frame_end": 241,
+          "confidence": 0.7252,
+          "char": "小",
+          "start": 40.453323,
+          "end": 40.493368
+        },
+        {
+          "frame_start": 248,
+          "frame_end": 250,
+          "confidence": 0.9865,
+          "char": "朋",
+          "start": 40.633523,
+          "end": 40.673568
+        },
+        {
+          "frame_start": 258,
+          "frame_end": 260,
+          "confidence": 0.9811,
+          "char": "友",
+          "start": 40.833746,
+          "end": 40.873791
+        }
+      ],
+      "token_start": 40.453323,
+      "token_end": 40.873791,
+      "independent_asr_coverage": 1.0,
+      "start": 40.243089,
+      "end": 41.234191,
+      "rms": 0.101444
+    },
+    {
+      "no": 40,
+      "kind": "example",
+      "display_text": "小朋友们在玩。",
+      "spoken_text": "小朋友们在玩。",
+      "pinyin": "xiǎopéngyoumen zài wán.",
+      "characters": [
+        {
+          "frame_start": 296,
+          "frame_end": 297,
+          "confidence": 0.8057,
+          "char": "小",
+          "start": 41.594592,
+          "end": 41.614615
+        },
+        {
+          "frame_start": 303,
+          "frame_end": 305,
+          "confidence": 0.9729,
+          "char": "朋",
+          "start": 41.734748,
+          "end": 41.774793
+        },
+        {
+          "frame_start": 311,
+          "frame_end": 312,
+          "confidence": 0.9408,
+          "char": "友",
+          "start": 41.894927,
+          "end": 41.914949
+        },
+        {
+          "frame_start": 316,
+          "frame_end": 317,
+          "confidence": 0.9703,
+          "char": "们",
+          "start": 41.995038,
+          "end": 42.01506
+        },
+        {
+          "frame_start": 322,
+          "frame_end": 323,
+          "confidence": 0.7005,
+          "char": "在",
+          "start": 42.115172,
+          "end": 42.135194
+        },
+        {
+          "frame_start": 329,
+          "frame_end": 330,
+          "confidence": 0.0618,
+          "char": "玩",
+          "start": 42.255327,
+          "end": 42.27535
+        }
+      ],
+      "token_start": 41.594592,
+      "token_end": 42.27535,
+      "independent_asr_coverage": 1.0,
+      "start": 41.234191,
+      "end": 42.645762,
+      "rms": 0.278766
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 367,
+          "frame_end": 368,
+          "confidence": 0.9297,
+          "char": "好",
+          "start": 43.016174,
+          "end": 43.036196
+        },
+        {
+          "frame_start": 376,
+          "frame_end": 377,
+          "confidence": 0.945,
+          "char": "的",
+          "start": 43.196374,
+          "end": 43.216397
+        }
+      ],
+      "token_start": 43.016174,
+      "token_end": 43.216397,
+      "independent_asr_coverage": 1.0,
+      "start": 42.645762,
+      "end": 43.496708,
+      "rms": 0.126208
+    }
+  ],
+  "alerts": [
+    {
+      "left": [
+        23,
+        "example"
+      ],
+      "right": [
+        24,
+        "word"
+      ],
+      "reason": "no measured quiet boundary",
+      "ctc": [
+        5.304775,
+        5.568127
+      ]
+    },
+    {
+      "left": [
+        26,
+        "word"
+      ],
+      "right": [
+        26,
+        "example"
+      ],
+      "reason": "no measured quiet boundary",
+      "ctc": [
+        9.971829,
+        9.971829
+      ]
+    },
+    {
+      "left": [
+        26,
+        "example"
+      ],
+      "right": [
+        27,
+        "word"
+      ],
+      "reason": "no measured quiet boundary",
+      "ctc": [
+        11.332974,
+        11.499831
+      ]
+    }
+  ],
+  "transcript_match_ratio": 1.0,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 6,
+      "start": 0,
+      "end": 6.666,
+      "greedy_transcript": "男 她 是 男 老 师女  她 是 女 老 师 大 家 大 家  女 王 女",
+      "oov": []
+    },
+    {
+      "first": 5,
+      "last": 12,
+      "start": 4.227,
+      "end": 12.554,
+      "greedy_transcript": "大 家大家 好女士王 女 事实 老师 人这里有很多人为你 好先生 王先",
+      "oov": [
+        "喂"
+      ]
+    },
+    {
+      "first": 11,
+      "last": 18,
+      "start": 9.817,
+      "end": 18.732,
+      "greedy_transcript": "维维你好先生王先圣是老师爸爸我爸爸在公司工作妈妈我妈妈会做饭哥哥",
+      "oov": [
+        "喂"
+      ]
+    },
+    {
+      "first": 17,
+      "last": 24,
+      "start": 15.738000000000001,
+      "end": 25.194,
+      "greedy_transcript": "妈妈我妈妈会做饭 哥哥 我哥哥在公司工作姐姐我姐姐是老师弟 弟我弟弟是学生 妹妹我",
+      "oov": []
+    },
+    {
+      "first": 23,
+      "last": 30,
+      "start": 22.029999999999998,
+      "end": 31.721999999999998,
+      "greedy_transcript": "弟 弟我弟 弟 是学生 妹妹我 妹妹是学生儿子 我儿 子 是小学生 女儿 他女儿 武五岁了家 人",
+      "oov": []
+    },
+    {
+      "first": 29,
+      "last": 36,
+      "start": 28.302,
+      "end": 39.046,
+      "greedy_transcript": "女儿 她女儿武岁 了  家人 我的家人都很好 男 朋友他 是我 的男 朋友 女 朋友他是我的女朋友 朋 友",
+      "oov": []
+    },
+    {
+      "first": 35,
+      "last": 40,
+      "start": 35.668,
+      "end": 43.49670833333333,
+      "greedy_transcript": "女 朋友 她 是 我 的 女 朋 友 朋 友 她 是 我 的 好 朋 友  小 朋 友    小 朋友 们 在 娃儿 好 的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}

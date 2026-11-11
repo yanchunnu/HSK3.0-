@@ -1,0 +1,1834 @@
+{
+  "chunk": 5,
+  "duration_seconds": 41.78508333333333,
+  "units": [
+    {
+      "no": 81,
+      "kind": "word",
+      "display_text": "这个",
+      "spoken_text": "这个。",
+      "pinyin": "zhège",
+      "characters": [
+        {
+          "frame_start": 18,
+          "frame_end": 20,
+          "confidence": 0.7468,
+          "char": "这",
+          "start": 0.360831,
+          "end": 0.400923
+        },
+        {
+          "frame_start": 29,
+          "frame_end": 30,
+          "confidence": 0.6393,
+          "char": "个",
+          "start": 0.581338,
+          "end": 0.601385
+        }
+      ],
+      "token_start": 0.360831,
+      "token_end": 0.601385,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 0.932146,
+      "rms": 0.146141
+    },
+    {
+      "no": 81,
+      "kind": "example",
+      "display_text": "这个很好吃。",
+      "spoken_text": "这个很好吃。",
+      "pinyin": "zhège hěn hǎochī.",
+      "characters": [
+        {
+          "frame_start": 63,
+          "frame_end": 65,
+          "confidence": 0.9387,
+          "char": "这",
+          "start": 1.262908,
+          "end": 1.303
+        },
+        {
+          "frame_start": 69,
+          "frame_end": 70,
+          "confidence": 0.3042,
+          "char": "个",
+          "start": 1.383185,
+          "end": 1.403231
+        },
+        {
+          "frame_start": 73,
+          "frame_end": 74,
+          "confidence": 0.967,
+          "char": "很",
+          "start": 1.463369,
+          "end": 1.483415
+        },
+        {
+          "frame_start": 80,
+          "frame_end": 82,
+          "confidence": 0.9274,
+          "char": "好",
+          "start": 1.603692,
+          "end": 1.643785
+        },
+        {
+          "frame_start": 91,
+          "frame_end": 92,
+          "confidence": 0.9909,
+          "char": "吃",
+          "start": 1.8242,
+          "end": 1.844246
+        }
+      ],
+      "token_start": 1.262908,
+      "token_end": 1.844246,
+      "independent_asr_coverage": 1.0,
+      "start": 0.932146,
+      "end": 2.104846,
+      "rms": 0.169499
+    },
+    {
+      "no": 82,
+      "kind": "word",
+      "display_text": "那个",
+      "spoken_text": "那个。",
+      "pinyin": "nàge",
+      "characters": [
+        {
+          "frame_start": 118,
+          "frame_end": 119,
+          "confidence": 0.1568,
+          "char": "那",
+          "start": 2.365446,
+          "end": 2.385492
+        },
+        {
+          "frame_start": 127,
+          "frame_end": 128,
+          "confidence": 0.0394,
+          "char": "个",
+          "start": 2.545862,
+          "end": 2.565908
+        }
+      ],
+      "token_start": 2.365446,
+      "token_end": 2.565908,
+      "independent_asr_coverage": 1.0,
+      "start": 2.104846,
+      "end": 2.916716,
+      "rms": 0.195656
+    },
+    {
+      "no": 82,
+      "kind": "example",
+      "display_text": "那个是我的杯子。",
+      "spoken_text": "那个是我的杯子。",
+      "pinyin": "nàge shì wǒ de bēizi.",
+      "characters": [
+        {
+          "frame_start": 163,
+          "frame_end": 164,
+          "confidence": 0.6241,
+          "char": "那",
+          "start": 3.267523,
+          "end": 3.287569
+        },
+        {
+          "frame_start": 168,
+          "frame_end": 169,
+          "confidence": 0.1591,
+          "char": "个",
+          "start": 3.367754,
+          "end": 3.3878
+        },
+        {
+          "frame_start": 172,
+          "frame_end": 173,
+          "confidence": 0.9122,
+          "char": "是",
+          "start": 3.447938,
+          "end": 3.467985
+        },
+        {
+          "frame_start": 177,
+          "frame_end": 179,
+          "confidence": 0.8702,
+          "char": "我",
+          "start": 3.548169,
+          "end": 3.588262
+        },
+        {
+          "frame_start": 183,
+          "frame_end": 184,
+          "confidence": 0.9607,
+          "char": "的",
+          "start": 3.668446,
+          "end": 3.688492
+        },
+        {
+          "frame_start": 189,
+          "frame_end": 190,
+          "confidence": 0.1384,
+          "char": "杯",
+          "start": 3.788723,
+          "end": 3.808769
+        },
+        {
+          "frame_start": 200,
+          "frame_end": 201,
+          "confidence": 0.9864,
+          "char": "子",
+          "start": 4.009231,
+          "end": 4.029277
+        }
+      ],
+      "token_start": 3.267523,
+      "token_end": 4.029277,
+      "independent_asr_coverage": 1.0,
+      "start": 2.916716,
+      "end": 4.370062,
+      "rms": 0.239147
+    },
+    {
+      "no": 83,
+      "kind": "word",
+      "display_text": "哪个",
+      "spoken_text": "哪个。",
+      "pinyin": "nǎge",
+      "characters": [
+        {
+          "frame_start": 235,
+          "frame_end": 236,
+          "confidence": 0.0628,
+          "char": "哪",
+          "start": 4.710846,
+          "end": 4.730892
+        },
+        {
+          "frame_start": 243,
+          "frame_end": 244,
+          "confidence": 0.045,
+          "char": "个",
+          "start": 4.871215,
+          "end": 4.891262
+        }
+      ],
+      "token_start": 4.710846,
+      "token_end": 4.891262,
+      "independent_asr_coverage": 1.0,
+      "start": 4.370062,
+      "end": 5.191954,
+      "rms": 0.144677
+    },
+    {
+      "no": 83,
+      "kind": "example",
+      "display_text": "你喜欢哪个？",
+      "spoken_text": "你喜欢哪个？",
+      "pinyin": "nǐ xǐhuan nǎge?",
+      "characters": [
+        {
+          "frame_start": 274,
+          "frame_end": 276,
+          "confidence": 0.8377,
+          "char": "你",
+          "start": 5.492646,
+          "end": 5.532738
+        },
+        {
+          "frame_start": 281,
+          "frame_end": 282,
+          "confidence": 0.9968,
+          "char": "喜",
+          "start": 5.632969,
+          "end": 5.653015
+        },
+        {
+          "frame_start": 286,
+          "frame_end": 288,
+          "confidence": 0.965,
+          "char": "欢",
+          "start": 5.7332,
+          "end": 5.773292
+        },
+        {
+          "frame_start": 294,
+          "frame_end": 295,
+          "confidence": 0.0284,
+          "char": "哪",
+          "start": 5.893569,
+          "end": 5.913615
+        },
+        {
+          "frame_start": 302,
+          "frame_end": 303,
+          "confidence": 0.0253,
+          "char": "个",
+          "start": 6.053938,
+          "end": 6.073985
+        }
+      ],
+      "token_start": 5.492646,
+      "token_end": 6.073985,
+      "independent_asr_coverage": 1.0,
+      "start": 5.191954,
+      "end": 6.40351,
+      "rms": 0.215602
+    },
+    {
+      "no": 84,
+      "kind": "word",
+      "display_text": "这些",
+      "spoken_text": "这些。",
+      "pinyin": "zhèxiē",
+      "characters": [
+        {
+          "frame_start": 106,
+          "frame_end": 107,
+          "confidence": 0.7705,
+          "char": "这",
+          "start": 6.733034,
+          "end": 6.753053
+        },
+        {
+          "frame_start": 116,
+          "frame_end": 117,
+          "confidence": 0.6043,
+          "char": "些",
+          "start": 6.933226,
+          "end": 6.953245
+        }
+      ],
+      "token_start": 6.733034,
+      "token_end": 6.953245,
+      "independent_asr_coverage": 1.0,
+      "start": 6.40351,
+      "end": 7.3236,
+      "rms": 0.152884
+    },
+    {
+      "no": 84,
+      "kind": "example",
+      "display_text": "这些都是我的书。",
+      "spoken_text": "这些都是我的书。",
+      "pinyin": "zhèxiē dōu shì wǒ de shū.",
+      "characters": [
+        {
+          "frame_start": 154,
+          "frame_end": 155,
+          "confidence": 0.9969,
+          "char": "这",
+          "start": 7.693955,
+          "end": 7.713974
+        },
+        {
+          "frame_start": 158,
+          "frame_end": 161,
+          "confidence": 0.8992,
+          "char": "些",
+          "start": 7.774032,
+          "end": 7.83409
+        },
+        {
+          "frame_start": 165,
+          "frame_end": 166,
+          "confidence": 0.9988,
+          "char": "都",
+          "start": 7.914166,
+          "end": 7.934186
+        },
+        {
+          "frame_start": 172,
+          "frame_end": 173,
+          "confidence": 0.9793,
+          "char": "是",
+          "start": 8.054301,
+          "end": 8.07432
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.9968,
+          "char": "我",
+          "start": 8.134377,
+          "end": 8.154397
+        },
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.9641,
+          "char": "的",
+          "start": 8.254493,
+          "end": 8.274512
+        },
+        {
+          "frame_start": 189,
+          "frame_end": 190,
+          "confidence": 0.8633,
+          "char": "书",
+          "start": 8.394627,
+          "end": 8.414646
+        }
+      ],
+      "token_start": 7.693955,
+      "token_end": 8.414646,
+      "independent_asr_coverage": 1.0,
+      "start": 7.3236,
+      "end": 8.744962,
+      "rms": 0.245994
+    },
+    {
+      "no": 85,
+      "kind": "word",
+      "display_text": "那些",
+      "spoken_text": "那些。",
+      "pinyin": "nàxiē",
+      "characters": [
+        {
+          "frame_start": 223,
+          "frame_end": 224,
+          "confidence": 0.008,
+          "char": "那",
+          "start": 9.075279,
+          "end": 9.095299
+        },
+        {
+          "frame_start": 234,
+          "frame_end": 235,
+          "confidence": 0.3292,
+          "char": "些",
+          "start": 9.29549,
+          "end": 9.31551
+        }
+      ],
+      "token_start": 9.075279,
+      "token_end": 9.31551,
+      "independent_asr_coverage": 1.0,
+      "start": 8.744962,
+      "end": 9.725903,
+      "rms": 0.181803
+    },
+    {
+      "no": 85,
+      "kind": "example",
+      "display_text": "那些都是我的书。",
+      "spoken_text": "那些都是我的书。",
+      "pinyin": "nàxiē dōu shì wǒ de shū.",
+      "characters": [
+        {
+          "frame_start": 276,
+          "frame_end": 277,
+          "confidence": 0.084,
+          "char": "那",
+          "start": 10.136296,
+          "end": 10.156316
+        },
+        {
+          "frame_start": 282,
+          "frame_end": 284,
+          "confidence": 0.621,
+          "char": "些",
+          "start": 10.256412,
+          "end": 10.29645
+        },
+        {
+          "frame_start": 289,
+          "frame_end": 290,
+          "confidence": 0.9996,
+          "char": "都",
+          "start": 10.396546,
+          "end": 10.416565
+        },
+        {
+          "frame_start": 297,
+          "frame_end": 298,
+          "confidence": 0.9975,
+          "char": "是",
+          "start": 10.556699,
+          "end": 10.576719
+        },
+        {
+          "frame_start": 302,
+          "frame_end": 303,
+          "confidence": 0.9954,
+          "char": "我",
+          "start": 10.656795,
+          "end": 10.676814
+        },
+        {
+          "frame_start": 308,
+          "frame_end": 309,
+          "confidence": 0.9841,
+          "char": "的",
+          "start": 10.77691,
+          "end": 10.79693
+        },
+        {
+          "frame_start": 314,
+          "frame_end": 315,
+          "confidence": 0.7269,
+          "char": "书",
+          "start": 10.897026,
+          "end": 10.917045
+        }
+      ],
+      "token_start": 10.136296,
+      "token_end": 10.917045,
+      "independent_asr_coverage": 1.0,
+      "start": 9.725903,
+      "end": 11.152,
+      "rms": 0.247026
+    },
+    {
+      "no": 86,
+      "kind": "word",
+      "display_text": "哪些",
+      "spoken_text": "哪些。",
+      "pinyin": "nǎxiē",
+      "characters": [
+        {
+          "frame_start": 338,
+          "frame_end": 339,
+          "confidence": 0.0892,
+          "char": "哪",
+          "start": 11.377486,
+          "end": 11.397505
+        },
+        {
+          "frame_start": 349,
+          "frame_end": 350,
+          "confidence": 0.9006,
+          "char": "些",
+          "start": 11.597697,
+          "end": 11.617716
+        }
+      ],
+      "token_start": 11.377486,
+      "token_end": 11.617716,
+      "independent_asr_coverage": 1.0,
+      "start": 11.152,
+      "end": 11.867956,
+      "rms": 0.144347
+    },
+    {
+      "no": 86,
+      "kind": "example",
+      "display_text": "你喜欢哪些？",
+      "spoken_text": "你喜欢哪些？",
+      "pinyin": "nǐ xǐhuan nǎxiē?",
+      "characters": [
+        {
+          "frame_start": 375,
+          "frame_end": 376,
+          "confidence": 0.9805,
+          "char": "你",
+          "start": 12.118196,
+          "end": 12.138215
+        },
+        {
+          "frame_start": 381,
+          "frame_end": 383,
+          "confidence": 0.9202,
+          "char": "喜",
+          "start": 12.238311,
+          "end": 12.27835
+        },
+        {
+          "frame_start": 387,
+          "frame_end": 390,
+          "confidence": 0.8296,
+          "char": "欢",
+          "start": 12.358426,
+          "end": 12.418484
+        },
+        {
+          "frame_start": 394,
+          "frame_end": 395,
+          "confidence": 0.4048,
+          "char": "哪",
+          "start": 12.498561,
+          "end": 12.51858
+        },
+        {
+          "frame_start": 402,
+          "frame_end": 404,
+          "confidence": 0.7029,
+          "char": "些",
+          "start": 12.658714,
+          "end": 12.698753
+        }
+      ],
+      "token_start": 12.118196,
+      "token_end": 12.698753,
+      "independent_asr_coverage": 1.0,
+      "start": 11.867956,
+      "end": 12.972717,
+      "rms": 0.226808
+    },
+    {
+      "no": 87,
+      "kind": "word",
+      "display_text": "这里",
+      "spoken_text": "这里。",
+      "pinyin": "zhèlǐ",
+      "characters": [
+        {
+          "frame_start": 103,
+          "frame_end": 104,
+          "confidence": 0.9472,
+          "char": "这",
+          "start": 13.246682,
+          "end": 13.266727
+        },
+        {
+          "frame_start": 110,
+          "frame_end": 111,
+          "confidence": 0.9759,
+          "char": "里",
+          "start": 13.387,
+          "end": 13.407045
+        }
+      ],
+      "token_start": 13.246682,
+      "token_end": 13.407045,
+      "independent_asr_coverage": 1.0,
+      "start": 12.972717,
+      "end": 13.838023,
+      "rms": 0.094509
+    },
+    {
+      "no": 87,
+      "kind": "example",
+      "display_text": "我住在这里。",
+      "spoken_text": "我住在这里。",
+      "pinyin": "wǒ zhù zài zhèlǐ.",
+      "characters": [
+        {
+          "frame_start": 154,
+          "frame_end": 155,
+          "confidence": 0.8521,
+          "char": "我",
+          "start": 14.269,
+          "end": 14.289045
+        },
+        {
+          "frame_start": 161,
+          "frame_end": 162,
+          "confidence": 0.4884,
+          "char": "住",
+          "start": 14.409318,
+          "end": 14.429364
+        },
+        {
+          "frame_start": 167,
+          "frame_end": 169,
+          "confidence": 0.6445,
+          "char": "在",
+          "start": 14.529591,
+          "end": 14.569682
+        },
+        {
+          "frame_start": 174,
+          "frame_end": 175,
+          "confidence": 0.8576,
+          "char": "这",
+          "start": 14.669909,
+          "end": 14.689955
+        },
+        {
+          "frame_start": 181,
+          "frame_end": 182,
+          "confidence": 0.977,
+          "char": "里",
+          "start": 14.810227,
+          "end": 14.830273
+        }
+      ],
+      "token_start": 14.269,
+      "token_end": 14.830273,
+      "independent_asr_coverage": 1.0,
+      "start": 13.838023,
+      "end": 15.100886,
+      "rms": 0.183699
+    },
+    {
+      "no": 88,
+      "kind": "word",
+      "display_text": "那里",
+      "spoken_text": "那里。",
+      "pinyin": "nàlǐ",
+      "characters": [
+        {
+          "frame_start": 209,
+          "frame_end": 210,
+          "confidence": 0.0263,
+          "char": "那",
+          "start": 15.3715,
+          "end": 15.391545
+        },
+        {
+          "frame_start": 222,
+          "frame_end": 223,
+          "confidence": 0.9714,
+          "char": "里",
+          "start": 15.632091,
+          "end": 15.652136
+        }
+      ],
+      "token_start": 15.3715,
+      "token_end": 15.652136,
+      "independent_asr_coverage": 1.0,
+      "start": 15.100886,
+      "end": 15.882659,
+      "rms": 0.208559
+    },
+    {
+      "no": 88,
+      "kind": "example",
+      "display_text": "我朋友在那里。",
+      "spoken_text": "我朋友在那里。",
+      "pinyin": "wǒ péngyou zài nàlǐ.",
+      "characters": [
+        {
+          "frame_start": 246,
+          "frame_end": 248,
+          "confidence": 0.7071,
+          "char": "我",
+          "start": 16.113182,
+          "end": 16.153273
+        },
+        {
+          "frame_start": 253,
+          "frame_end": 254,
+          "confidence": 0.9897,
+          "char": "朋",
+          "start": 16.2535,
+          "end": 16.273545
+        },
+        {
+          "frame_start": 263,
+          "frame_end": 264,
+          "confidence": 0.9968,
+          "char": "友",
+          "start": 16.453955,
+          "end": 16.474
+        },
+        {
+          "frame_start": 269,
+          "frame_end": 270,
+          "confidence": 0.9687,
+          "char": "在",
+          "start": 16.574227,
+          "end": 16.594273
+        },
+        {
+          "frame_start": 275,
+          "frame_end": 276,
+          "confidence": 0.0805,
+          "char": "那",
+          "start": 16.6945,
+          "end": 16.714545
+        },
+        {
+          "frame_start": 284,
+          "frame_end": 285,
+          "confidence": 0.9932,
+          "char": "里",
+          "start": 16.874909,
+          "end": 16.894955
+        }
+      ],
+      "token_start": 16.113182,
+      "token_end": 16.894955,
+      "independent_asr_coverage": 1.0,
+      "start": 15.882659,
+      "end": 17.225705,
+      "rms": 0.2013
+    },
+    {
+      "no": 89,
+      "kind": "word",
+      "display_text": "哪里",
+      "spoken_text": "哪里。",
+      "pinyin": "nǎlǐ",
+      "characters": [
+        {
+          "frame_start": 318,
+          "frame_end": 319,
+          "confidence": 0.7894,
+          "char": "哪",
+          "start": 17.556455,
+          "end": 17.5765
+        },
+        {
+          "frame_start": 328,
+          "frame_end": 329,
+          "confidence": 0.9917,
+          "char": "里",
+          "start": 17.756909,
+          "end": 17.776955
+        }
+      ],
+      "token_start": 17.556455,
+      "token_end": 17.776955,
+      "independent_asr_coverage": 1.0,
+      "start": 17.225705,
+      "end": 18.19791,
+      "rms": 0.175709
+    },
+    {
+      "no": 89,
+      "kind": "example",
+      "display_text": "你住在哪里？",
+      "spoken_text": "你住在哪里？",
+      "pinyin": "nǐ zhù zài nǎlǐ?",
+      "characters": [
+        {
+          "frame_start": 371,
+          "frame_end": 372,
+          "confidence": 0.9791,
+          "char": "你",
+          "start": 18.618864,
+          "end": 18.638909
+        },
+        {
+          "frame_start": 378,
+          "frame_end": 379,
+          "confidence": 0.7758,
+          "char": "住",
+          "start": 18.759182,
+          "end": 18.779227
+        },
+        {
+          "frame_start": 384,
+          "frame_end": 385,
+          "confidence": 0.9468,
+          "char": "在",
+          "start": 18.879455,
+          "end": 18.8995
+        },
+        {
+          "frame_start": 390,
+          "frame_end": 391,
+          "confidence": 0.2199,
+          "char": "哪",
+          "start": 18.999727,
+          "end": 19.019773
+        },
+        {
+          "frame_start": 399,
+          "frame_end": 401,
+          "confidence": 0.9817,
+          "char": "里",
+          "start": 19.180136,
+          "end": 19.220227
+        }
+      ],
+      "token_start": 18.618864,
+      "token_end": 19.220227,
+      "independent_asr_coverage": 1.0,
+      "start": 18.19791,
+      "end": 19.457597,
+      "rms": 0.258533
+    },
+    {
+      "no": 90,
+      "kind": "word",
+      "display_text": "这儿",
+      "spoken_text": "这儿。",
+      "pinyin": "zhèr",
+      "characters": [
+        {
+          "frame_start": 110,
+          "frame_end": 111,
+          "confidence": 0.7931,
+          "char": "这",
+          "start": 19.694966,
+          "end": 19.714993
+        },
+        {
+          "frame_start": 118,
+          "frame_end": 119,
+          "confidence": 0.9142,
+          "char": "儿",
+          "start": 19.855181,
+          "end": 19.875208
+        }
+      ],
+      "token_start": 19.694966,
+      "token_end": 19.875208,
+      "independent_asr_coverage": 1.0,
+      "start": 19.457597,
+      "end": 20.185626,
+      "rms": 0.162483
+    },
+    {
+      "no": 90,
+      "kind": "example",
+      "display_text": "请坐这儿。",
+      "spoken_text": "请坐这儿。",
+      "pinyin": "qǐng zuò zhèr.",
+      "characters": [
+        {
+          "frame_start": 150,
+          "frame_end": 151,
+          "confidence": 0.9973,
+          "char": "请",
+          "start": 20.496044,
+          "end": 20.516071
+        },
+        {
+          "frame_start": 157,
+          "frame_end": 158,
+          "confidence": 0.1682,
+          "char": "坐",
+          "start": 20.636233,
+          "end": 20.65626
+        },
+        {
+          "frame_start": 165,
+          "frame_end": 166,
+          "confidence": 0.3613,
+          "char": "这",
+          "start": 20.796449,
+          "end": 20.816475
+        },
+        {
+          "frame_start": 172,
+          "frame_end": 173,
+          "confidence": 0.8865,
+          "char": "儿",
+          "start": 20.936637,
+          "end": 20.956664
+        }
+      ],
+      "token_start": 20.496044,
+      "token_end": 20.956664,
+      "independent_asr_coverage": 1.0,
+      "start": 20.185626,
+      "end": 21.14692,
+      "rms": 0.181312
+    },
+    {
+      "no": 91,
+      "kind": "word",
+      "display_text": "那儿",
+      "spoken_text": "那儿。",
+      "pinyin": "nàr",
+      "characters": [
+        {
+          "frame_start": 192,
+          "frame_end": 193,
+          "confidence": 0.6602,
+          "char": "那",
+          "start": 21.337176,
+          "end": 21.357203
+        },
+        {
+          "frame_start": 199,
+          "frame_end": 200,
+          "confidence": 0.0,
+          "char": "儿",
+          "start": 21.477365,
+          "end": 21.497392
+        }
+      ],
+      "token_start": 21.337176,
+      "token_end": 21.497392,
+      "independent_asr_coverage": 1.0,
+      "start": 21.14692,
+      "end": 21.787783,
+      "rms": 0.22148
+    },
+    {
+      "no": 91,
+      "kind": "example",
+      "display_text": "学校在那儿。",
+      "spoken_text": "学校在那儿。",
+      "pinyin": "xuéxiào zài nàr.",
+      "characters": [
+        {
+          "frame_start": 229,
+          "frame_end": 230,
+          "confidence": 0.9998,
+          "char": "学",
+          "start": 22.078174,
+          "end": 22.098201
+        },
+        {
+          "frame_start": 237,
+          "frame_end": 238,
+          "confidence": 0.9992,
+          "char": "校",
+          "start": 22.23839,
+          "end": 22.258417
+        },
+        {
+          "frame_start": 245,
+          "frame_end": 246,
+          "confidence": 0.9997,
+          "char": "在",
+          "start": 22.398605,
+          "end": 22.418632
+        },
+        {
+          "frame_start": 251,
+          "frame_end": 252,
+          "confidence": 0.5967,
+          "char": "那",
+          "start": 22.518767,
+          "end": 22.538794
+        },
+        {
+          "frame_start": 259,
+          "frame_end": 260,
+          "confidence": 0.5348,
+          "char": "儿",
+          "start": 22.678983,
+          "end": 22.69901
+        }
+      ],
+      "token_start": 22.078174,
+      "token_end": 22.69901,
+      "independent_asr_coverage": 1.0,
+      "start": 21.787783,
+      "end": 22.989401,
+      "rms": 0.169332
+    },
+    {
+      "no": 92,
+      "kind": "word",
+      "display_text": "哪儿",
+      "spoken_text": "哪儿。",
+      "pinyin": "nǎr",
+      "characters": [
+        {
+          "frame_start": 289,
+          "frame_end": 290,
+          "confidence": 0.9264,
+          "char": "哪",
+          "start": 23.279792,
+          "end": 23.299819
+        },
+        {
+          "frame_start": 297,
+          "frame_end": 298,
+          "confidence": 0.5138,
+          "char": "儿",
+          "start": 23.440007,
+          "end": 23.460034
+        }
+      ],
+      "token_start": 23.279792,
+      "token_end": 23.460034,
+      "independent_asr_coverage": 1.0,
+      "start": 22.989401,
+      "end": 23.770452,
+      "rms": 0.134551
+    },
+    {
+      "no": 92,
+      "kind": "example",
+      "display_text": "你去哪儿？",
+      "spoken_text": "你去哪儿？",
+      "pinyin": "nǐ qù nǎr?",
+      "characters": [
+        {
+          "frame_start": 329,
+          "frame_end": 330,
+          "confidence": 0.7908,
+          "char": "你",
+          "start": 24.08087,
+          "end": 24.100897
+        },
+        {
+          "frame_start": 336,
+          "frame_end": 337,
+          "confidence": 0.9951,
+          "char": "去",
+          "start": 24.221059,
+          "end": 24.241086
+        },
+        {
+          "frame_start": 342,
+          "frame_end": 343,
+          "confidence": 0.9788,
+          "char": "哪",
+          "start": 24.341221,
+          "end": 24.361248
+        },
+        {
+          "frame_start": 348,
+          "frame_end": 349,
+          "confidence": 0.0799,
+          "char": "儿",
+          "start": 24.461382,
+          "end": 24.481409
+        }
+      ],
+      "token_start": 24.08087,
+      "token_end": 24.481409,
+      "independent_asr_coverage": 1.0,
+      "start": 23.770452,
+      "end": 24.680029,
+      "rms": 0.176076
+    },
+    {
+      "no": 93,
+      "kind": "word",
+      "display_text": "这边",
+      "spoken_text": "这边。",
+      "pinyin": "zhèbiān",
+      "characters": [
+        {
+          "frame_start": 91,
+          "frame_end": 92,
+          "confidence": 1.0,
+          "char": "这",
+          "start": 24.87865,
+          "end": 24.898701
+        },
+        {
+          "frame_start": 98,
+          "frame_end": 99,
+          "confidence": 0.9773,
+          "char": "边",
+          "start": 25.019007,
+          "end": 25.039058
+        }
+      ],
+      "token_start": 24.87865,
+      "token_end": 25.039058,
+      "independent_asr_coverage": 1.0,
+      "start": 24.680029,
+      "end": 25.359876,
+      "rms": 0.167708
+    },
+    {
+      "no": 93,
+      "kind": "example",
+      "display_text": "请来这边。",
+      "spoken_text": "请来这边。",
+      "pinyin": "qǐng lái zhèbiān.",
+      "characters": [
+        {
+          "frame_start": 131,
+          "frame_end": 132,
+          "confidence": 0.9497,
+          "char": "请",
+          "start": 25.680693,
+          "end": 25.700745
+        },
+        {
+          "frame_start": 138,
+          "frame_end": 139,
+          "confidence": 0.9973,
+          "char": "来",
+          "start": 25.821051,
+          "end": 25.841102
+        },
+        {
+          "frame_start": 145,
+          "frame_end": 146,
+          "confidence": 1.0,
+          "char": "这",
+          "start": 25.961409,
+          "end": 25.98146
+        },
+        {
+          "frame_start": 153,
+          "frame_end": 154,
+          "confidence": 0.9875,
+          "char": "边",
+          "start": 26.121818,
+          "end": 26.141869
+        }
+      ],
+      "token_start": 25.680693,
+      "token_end": 26.141869,
+      "independent_asr_coverage": 1.0,
+      "start": 25.359876,
+      "end": 26.402533,
+      "rms": 0.169155
+    },
+    {
+      "no": 94,
+      "kind": "word",
+      "display_text": "那边",
+      "spoken_text": "那边。",
+      "pinyin": "nàbiān",
+      "characters": [
+        {
+          "frame_start": 180,
+          "frame_end": 181,
+          "confidence": 0.7132,
+          "char": "那",
+          "start": 26.663197,
+          "end": 26.683248
+        },
+        {
+          "frame_start": 189,
+          "frame_end": 190,
+          "confidence": 0.9846,
+          "char": "边",
+          "start": 26.843657,
+          "end": 26.863708
+        }
+      ],
+      "token_start": 26.663197,
+      "token_end": 26.863708,
+      "independent_asr_coverage": 1.0,
+      "start": 26.402533,
+      "end": 27.214602,
+      "rms": 0.159776
+    },
+    {
+      "no": 94,
+      "kind": "example",
+      "display_text": "学校在那边。",
+      "spoken_text": "学校在那边。",
+      "pinyin": "xuéxiào zài nàbiān.",
+      "characters": [
+        {
+          "frame_start": 225,
+          "frame_end": 226,
+          "confidence": 0.9998,
+          "char": "学",
+          "start": 27.565496,
+          "end": 27.585547
+        },
+        {
+          "frame_start": 231,
+          "frame_end": 232,
+          "confidence": 0.9969,
+          "char": "校",
+          "start": 27.685803,
+          "end": 27.705854
+        },
+        {
+          "frame_start": 238,
+          "frame_end": 239,
+          "confidence": 0.9991,
+          "char": "在",
+          "start": 27.826161,
+          "end": 27.846212
+        },
+        {
+          "frame_start": 244,
+          "frame_end": 245,
+          "confidence": 0.9263,
+          "char": "那",
+          "start": 27.946467,
+          "end": 27.966518
+        },
+        {
+          "frame_start": 252,
+          "frame_end": 253,
+          "confidence": 0.9882,
+          "char": "边",
+          "start": 28.106876,
+          "end": 28.126927
+        }
+      ],
+      "token_start": 27.565496,
+      "token_end": 28.126927,
+      "independent_asr_coverage": 1.0,
+      "start": 27.214602,
+      "end": 28.407643,
+      "rms": 0.210646
+    },
+    {
+      "no": 95,
+      "kind": "word",
+      "display_text": "上",
+      "spoken_text": "上。",
+      "pinyin": "shàng",
+      "characters": [
+        {
+          "frame_start": 281,
+          "frame_end": 282,
+          "confidence": 0.9873,
+          "char": "上",
+          "start": 28.688358,
+          "end": 28.708409
+        }
+      ],
+      "token_start": 28.688358,
+      "token_end": 28.708409,
+      "independent_asr_coverage": 1.0,
+      "start": 28.407643,
+      "end": 29.019201,
+      "rms": 0.128479
+    },
+    {
+      "no": 95,
+      "kind": "example",
+      "display_text": "书在桌子上。",
+      "spoken_text": "书在桌子上。",
+      "pinyin": "shū zài zhuōzi shàng.",
+      "characters": [
+        {
+          "frame_start": 313,
+          "frame_end": 314,
+          "confidence": 0.3987,
+          "char": "书",
+          "start": 29.329993,
+          "end": 29.350044
+        },
+        {
+          "frame_start": 321,
+          "frame_end": 322,
+          "confidence": 0.9999,
+          "char": "在",
+          "start": 29.490401,
+          "end": 29.510453
+        },
+        {
+          "frame_start": 329,
+          "frame_end": 330,
+          "confidence": 0.6518,
+          "char": "桌",
+          "start": 29.65081,
+          "end": 29.670861
+        },
+        {
+          "frame_start": 339,
+          "frame_end": 340,
+          "confidence": 0.9995,
+          "char": "子",
+          "start": 29.851321,
+          "end": 29.871372
+        },
+        {
+          "frame_start": 344,
+          "frame_end": 345,
+          "confidence": 0.9365,
+          "char": "上",
+          "start": 29.951577,
+          "end": 29.971628
+        }
+      ],
+      "token_start": 29.329993,
+      "token_end": 29.971628,
+      "independent_asr_coverage": 1.0,
+      "start": 29.019201,
+      "end": 30.276995,
+      "rms": 0.197718
+    },
+    {
+      "no": 96,
+      "kind": "word",
+      "display_text": "下",
+      "spoken_text": "下。",
+      "pinyin": "xià",
+      "characters": [
+        {
+          "frame_start": 116,
+          "frame_end": 117,
+          "confidence": 0.336,
+          "char": "下",
+          "start": 30.582362,
+          "end": 30.602391
+        }
+      ],
+      "token_start": 30.582362,
+      "token_end": 30.602391,
+      "independent_asr_coverage": 1.0,
+      "start": 30.276995,
+      "end": 30.892812,
+      "rms": 0.119741
+    },
+    {
+      "no": 96,
+      "kind": "example",
+      "display_text": "猫在桌子下。",
+      "spoken_text": "猫在桌子下。",
+      "pinyin": "māo zài zhuōzi xià.",
+      "characters": [
+        {
+          "frame_start": 146,
+          "frame_end": 147,
+          "confidence": 0.9958,
+          "char": "猫",
+          "start": 31.183232,
+          "end": 31.203261
+        },
+        {
+          "frame_start": 158,
+          "frame_end": 159,
+          "confidence": 0.8124,
+          "char": "在",
+          "start": 31.42358,
+          "end": 31.443609
+        },
+        {
+          "frame_start": 165,
+          "frame_end": 166,
+          "confidence": 0.8964,
+          "char": "桌",
+          "start": 31.563783,
+          "end": 31.583812
+        },
+        {
+          "frame_start": 174,
+          "frame_end": 175,
+          "confidence": 0.9861,
+          "char": "子",
+          "start": 31.744043,
+          "end": 31.764072
+        },
+        {
+          "frame_start": 178,
+          "frame_end": 179,
+          "confidence": 0.8464,
+          "char": "下",
+          "start": 31.824159,
+          "end": 31.844188
+        }
+      ],
+      "token_start": 31.183232,
+      "token_end": 31.844188,
+      "independent_asr_coverage": 1.0,
+      "start": 30.892812,
+      "end": 32.154637,
+      "rms": 0.186709
+    },
+    {
+      "no": 97,
+      "kind": "word",
+      "display_text": "前",
+      "spoken_text": "前。",
+      "pinyin": "qián",
+      "characters": [
+        {
+          "frame_start": 210,
+          "frame_end": 211,
+          "confidence": 0.1339,
+          "char": "前",
+          "start": 32.465087,
+          "end": 32.485116
+        }
+      ],
+      "token_start": 32.465087,
+      "token_end": 32.485116,
+      "independent_asr_coverage": 1.0,
+      "start": 32.154637,
+      "end": 32.965812,
+      "rms": 0.164107
+    },
+    {
+      "no": 97,
+      "kind": "example",
+      "display_text": "学校前边有一个商店。",
+      "spoken_text": "学校前边有一个商店。",
+      "pinyin": "xuéxiào qiánbian yǒu yí ge shāngdiàn.",
+      "characters": [
+        {
+          "frame_start": 259,
+          "frame_end": 260,
+          "confidence": 0.9995,
+          "char": "学",
+          "start": 33.446507,
+          "end": 33.466536
+        },
+        {
+          "frame_start": 264,
+          "frame_end": 265,
+          "confidence": 0.9938,
+          "char": "校",
+          "start": 33.546652,
+          "end": 33.566681
+        },
+        {
+          "frame_start": 272,
+          "frame_end": 273,
+          "confidence": 0.8056,
+          "char": "前",
+          "start": 33.706884,
+          "end": 33.726913
+        },
+        {
+          "frame_start": 280,
+          "frame_end": 282,
+          "confidence": 0.9688,
+          "char": "边",
+          "start": 33.867116,
+          "end": 33.907174
+        },
+        {
+          "frame_start": 290,
+          "frame_end": 291,
+          "confidence": 0.9979,
+          "char": "有",
+          "start": 34.067406,
+          "end": 34.087435
+        },
+        {
+          "frame_start": 296,
+          "frame_end": 297,
+          "confidence": 0.9997,
+          "char": "一",
+          "start": 34.18758,
+          "end": 34.207609
+        },
+        {
+          "frame_start": 299,
+          "frame_end": 300,
+          "confidence": 0.987,
+          "char": "个",
+          "start": 34.247667,
+          "end": 34.267696
+        },
+        {
+          "frame_start": 304,
+          "frame_end": 305,
+          "confidence": 0.9881,
+          "char": "商",
+          "start": 34.347812,
+          "end": 34.367841
+        },
+        {
+          "frame_start": 314,
+          "frame_end": 316,
+          "confidence": 0.7943,
+          "char": "店",
+          "start": 34.548101,
+          "end": 34.588159
+        }
+      ],
+      "token_start": 33.446507,
+      "token_end": 34.588159,
+      "independent_asr_coverage": 1.0,
+      "start": 32.965812,
+      "end": 34.848536,
+      "rms": 0.27161
+    },
+    {
+      "no": 98,
+      "kind": "word",
+      "display_text": "后",
+      "spoken_text": "后。",
+      "pinyin": "hòu",
+      "characters": [
+        {
+          "frame_start": 342,
+          "frame_end": 343,
+          "confidence": 0.6823,
+          "char": "后",
+          "start": 35.108913,
+          "end": 35.128942
+        }
+      ],
+      "token_start": 35.108913,
+      "token_end": 35.128942,
+      "independent_asr_coverage": 1.0,
+      "start": 34.848536,
+      "end": 35.489464,
+      "rms": 0.160928
+    },
+    {
+      "no": 98,
+      "kind": "example",
+      "display_text": "下班后我回家。",
+      "spoken_text": "下班后我回家。",
+      "pinyin": "xiàbān hòu wǒ huí jiā.",
+      "characters": [
+        {
+          "frame_start": 379,
+          "frame_end": 380,
+          "confidence": 0.6369,
+          "char": "下",
+          "start": 35.849986,
+          "end": 35.870014
+        },
+        {
+          "frame_start": 386,
+          "frame_end": 387,
+          "confidence": 0.9989,
+          "char": "班",
+          "start": 35.990188,
+          "end": 36.010217
+        },
+        {
+          "frame_start": 395,
+          "frame_end": 396,
+          "confidence": 0.8265,
+          "char": "后",
+          "start": 36.170449,
+          "end": 36.190478
+        },
+        {
+          "frame_start": 402,
+          "frame_end": 403,
+          "confidence": 0.9987,
+          "char": "我",
+          "start": 36.310652,
+          "end": 36.330681
+        },
+        {
+          "frame_start": 408,
+          "frame_end": 410,
+          "confidence": 0.9367,
+          "char": "回",
+          "start": 36.430826,
+          "end": 36.470884
+        },
+        {
+          "frame_start": 416,
+          "frame_end": 417,
+          "confidence": 1.0,
+          "char": "家",
+          "start": 36.591058,
+          "end": 36.611087
+        }
+      ],
+      "token_start": 35.849986,
+      "token_end": 36.611087,
+      "independent_asr_coverage": 1.0,
+      "start": 35.489464,
+      "end": 36.950508,
+      "rms": 0.211298
+    },
+    {
+      "no": 99,
+      "kind": "word",
+      "display_text": "里",
+      "spoken_text": "里。",
+      "pinyin": "lǐ",
+      "characters": [
+        {
+          "frame_start": 132,
+          "frame_end": 133,
+          "confidence": 0.7854,
+          "char": "里",
+          "start": 37.28993,
+          "end": 37.309997
+        }
+      ],
+      "token_start": 37.28993,
+      "token_end": 37.309997,
+      "independent_asr_coverage": 1.0,
+      "start": 36.950508,
+      "end": 37.661181,
+      "rms": 0.120125
+    },
+    {
+      "no": 99,
+      "kind": "example",
+      "display_text": "杯子里有水。",
+      "spoken_text": "杯子里有水。",
+      "pinyin": "bēizi lǐ yǒu shuǐ.",
+      "characters": [
+        {
+          "frame_start": 168,
+          "frame_end": 169,
+          "confidence": 0.2035,
+          "char": "杯",
+          "start": 38.012365,
+          "end": 38.032433
+        },
+        {
+          "frame_start": 177,
+          "frame_end": 178,
+          "confidence": 0.9376,
+          "char": "子",
+          "start": 38.192974,
+          "end": 38.213042
+        },
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.9925,
+          "char": "里",
+          "start": 38.293312,
+          "end": 38.31338
+        },
+        {
+          "frame_start": 186,
+          "frame_end": 187,
+          "confidence": 0.715,
+          "char": "有",
+          "start": 38.373583,
+          "end": 38.393651
+        },
+        {
+          "frame_start": 198,
+          "frame_end": 199,
+          "confidence": 0.996,
+          "char": "水",
+          "start": 38.614395,
+          "end": 38.634462
+        }
+      ],
+      "token_start": 38.012365,
+      "token_end": 38.634462,
+      "independent_asr_coverage": 1.0,
+      "start": 37.661181,
+      "end": 38.905375,
+      "rms": 0.200818
+    },
+    {
+      "no": 100,
+      "kind": "word",
+      "display_text": "外",
+      "spoken_text": "外。",
+      "pinyin": "wài",
+      "characters": [
+        {
+          "frame_start": 226,
+          "frame_end": 227,
+          "confidence": 0.9917,
+          "char": "外",
+          "start": 39.176289,
+          "end": 39.196357
+        }
+      ],
+      "token_start": 39.176289,
+      "token_end": 39.196357,
+      "independent_asr_coverage": 1.0,
+      "start": 38.905375,
+      "end": 39.688014,
+      "rms": 0.137211
+    },
+    {
+      "no": 100,
+      "kind": "example",
+      "display_text": "他在门外。",
+      "spoken_text": "他在门外。",
+      "pinyin": "tā zài mén wài.",
+      "characters": [
+        {
+          "frame_start": 276,
+          "frame_end": 277,
+          "confidence": 0.7873,
+          "char": "他",
+          "start": 40.179671,
+          "end": 40.199739
+        },
+        {
+          "frame_start": 283,
+          "frame_end": 284,
+          "confidence": 0.9783,
+          "char": "在",
+          "start": 40.320145,
+          "end": 40.340213
+        },
+        {
+          "frame_start": 289,
+          "frame_end": 290,
+          "confidence": 0.7753,
+          "char": "门",
+          "start": 40.440551,
+          "end": 40.460618
+        },
+        {
+          "frame_start": 300,
+          "frame_end": 301,
+          "confidence": 0.9968,
+          "char": "外",
+          "start": 40.661295,
+          "end": 40.681363
+        }
+      ],
+      "token_start": 40.179671,
+      "token_end": 40.681363,
+      "independent_asr_coverage": 1.0,
+      "start": 39.688014,
+      "end": 41.002445,
+      "rms": 0.139888
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 333,
+          "frame_end": 334,
+          "confidence": 0.9994,
+          "char": "好",
+          "start": 41.323527,
+          "end": 41.343595
+        },
+        {
+          "frame_start": 344,
+          "frame_end": 345,
+          "confidence": 0.96,
+          "char": "的",
+          "start": 41.544272,
+          "end": 41.564339
+        }
+      ],
+      "token_start": 41.323527,
+      "token_end": 41.564339,
+      "independent_asr_coverage": 1.0,
+      "start": 41.002445,
+      "end": 41.785083,
+      "rms": 0.121739
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 1.0,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 6,
+      "start": 0,
+      "end": 7.8180000000000005,
+      "greedy_transcript": "这 个  这  很 好 C吃 内 G   那  S是 我 的 Ē 子 Ě G  你 喜 欢 Ě G     这",
+      "oov": []
+    },
+    {
+      "first": 5,
+      "last": 12,
+      "start": 4.611000000000001,
+      "end": 14.0,
+      "greedy_transcript": "Ě 个  你 喜 欢 Ě 个 这 些 这 些 都是我 的书内  内 I些 都 是 我 的 书  些 你 喜 欢 哪 些 这 里",
+      "oov": []
+    },
+    {
+      "first": 11,
+      "last": 18,
+      "start": 11.182,
+      "end": 20.442999999999998,
+      "greedy_transcript": "哪 些 你 喜 欢  些 这 里   我  在 这 里  里  我 朋 友 在  里  哪 里 你 住 在 里",
+      "oov": []
+    },
+    {
+      "first": 17,
+      "last": 24,
+      "start": 17.491999999999997,
+      "end": 25.663,
+      "greedy_transcript": "哪里你住在哪里这儿请作之儿那学校在那儿哪儿  你去哪这边",
+      "oov": []
+    },
+    {
+      "first": 23,
+      "last": 30,
+      "start": 23.054,
+      "end": 31.294999999999998,
+      "greedy_transcript": "哪儿你去 哪这 边请来这边那边儿学校在那边上  书在桌子上吓  猫",
+      "oov": []
+    },
+    {
+      "first": 29,
+      "last": 36,
+      "start": 28.259,
+      "end": 37.933,
+      "greedy_transcript": "上 书 在桌子上  下猫在桌子下  钱 学校 前边有一个商店 后 下 班 后 我回家 里",
+      "oov": []
+    },
+    {
+      "first": 35,
+      "last": 40,
+      "start": 34.641,
+      "end": 41.78508333333333,
+      "greedy_transcript": "后下 班 后我回家里杯子里有水外  他 在门外 好 的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}
