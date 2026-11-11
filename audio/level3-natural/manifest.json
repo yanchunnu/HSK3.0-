@@ -408,6 +408,39 @@
       "sha256": "b3697dcdcc8f70371a59f2ff522c43160734abb8e73d14e9c04a5f1430ded314",
       "requested_engine": "saved default",
       "returned_engine": null
+    },
+    {
+      "chunk": 41,
+      "file": "audio/level3-natural/sources/tone46-47-20261111-41.flac",
+      "duration_seconds": 1.0338095238095237,
+      "metadata": "audio/level3-natural/sources/tone46-47-20261111-41.json",
+      "script": "audio/level3-natural/sources/tone46-47-20261111-41.txt",
+      "sha256": "098265b068a26aee78a42d35f9935af6184c3bf2bc3e3f8c2c92e8e7fff98dca",
+      "original_native_sha256": "06d071802691b0f4d6509eff65285407ff06ef5ab836292b1268a52ead1d98b3",
+      "decoded_pcm_sha256": "6d88d0b54cce3a6cd6fe701a70dd9364829426adffe35580ce68416621ba1a63",
+      "archive_format": "flac (lossless)"
+    },
+    {
+      "chunk": 42,
+      "file": "audio/level3-natural/sources/tone46-47-20261111-42.flac",
+      "duration_seconds": 0.976281179138322,
+      "metadata": "audio/level3-natural/sources/tone46-47-20261111-42.json",
+      "script": "audio/level3-natural/sources/tone46-47-20261111-42.txt",
+      "sha256": "b880ff34d233ceb5d863fc98986e470f22a54a572bf60bd8d15a21f637bbea26",
+      "original_native_sha256": "adeac46d1a633c54786034a98caa0bc006cd23291aaed1b0b60afe9634087d7e",
+      "decoded_pcm_sha256": "c2a861b3715b20c0e499934d120fef628aba72f4a5281516dd6624f2f84f8ac5",
+      "archive_format": "flac (lossless)"
+    },
+    {
+      "chunk": 43,
+      "file": "audio/level3-natural/sources/tone46-47-20261111-43.flac",
+      "duration_seconds": 2.6756916099773242,
+      "metadata": "audio/level3-natural/sources/tone46-47-20261111-43.json",
+      "script": "audio/level3-natural/sources/tone46-47-20261111-43.txt",
+      "sha256": "6cc670aba3c67f47aa8f5d38b2a455d6fd8b28089df0999d65f556ff863af5ef",
+      "original_native_sha256": "48eff5c76de2a311dbb77b6c017b38368818d68d476154300c4975327471baf5",
+      "decoded_pcm_sha256": "7d8e7af4fc2bc7edd7edbe4880a5970e82ed17659220b51a2aadea95468ba1fa",
+      "archive_format": "flac (lossless)"
     }
   ],
   "reference_sources": [
@@ -1905,38 +1938,35 @@
       "no": 46,
       "kind": "word",
       "display_text": "喂",
-      "spoken_text": "喂",
-      "pinyin": "wèi",
+      "spoken_text": "围",
+      "pinyin": "wéi",
       "file": "audio/level3-natural/item3-0046-word.mp3",
-      "source_group": "erhua",
-      "source_chunk": 1,
-      "start": 31.63,
-      "end": 32.155,
-      "padding_seconds": 0.08,
-      "method": "contextual character-level excerpt",
+      "source_group": "natural",
+      "source_chunk": 41,
+      "start": 0,
+      "end": 0.65,
+      "padding_seconds": 0.16,
+      "trailing_padding_seconds": 0.35,
+      "method": "standalone pronunciation correction; complete main utterance cut in following waveform silence",
       "reused": false,
-      "context_text": "喂，你到哪儿了？我在门口。",
-      "context_character_range": [
-        0,
-        1
-      ],
-      "sha256": "6e3805c85ea33d3418795e54ca4521387fbc8ad4733a6325c39caeb69fb3a757"
+      "sha256": "3e0b4defb8fac25676d2396553a597bf9cc40f6a0f0ec0295f1be80495c9f69d"
     },
     {
       "no": 46,
       "kind": "example",
       "display_text": "喂，你到哪儿了？我在门口。",
-      "spoken_text": "喂，你到哪儿了？我在门口。",
-      "pinyin": "Wèi, nǐ dào nǎr le? wǒ zài ménkǒu.",
-      "file": "audio/level3-erhua/item3-0046-example.mp3",
-      "source_group": "erhua",
-      "source_chunk": 1,
-      "start": 31.63,
-      "end": 34.49,
-      "padding_seconds": 0,
-      "sha256": "a58848c952f4a0877a902417f5da70a37083917789baff5ea0cba578df2e554a",
-      "method": "retained original reference voice",
-      "reused": true
+      "spoken_text": "围，你到哪儿了？我在门口。",
+      "pinyin": "Wéi, nǐ dào nǎr le? wǒ zài ménkǒu.",
+      "file": "audio/level3-natural/item3-0046-example.mp3",
+      "source_group": "natural",
+      "source_chunk": 43,
+      "start": 0,
+      "end": 2.3,
+      "padding_seconds": 0.16,
+      "trailing_padding_seconds": 0.35,
+      "method": "standalone pronunciation correction; complete main utterance cut in following waveform silence",
+      "reused": false,
+      "sha256": "7afa31d6e296dca4a3eaa8a35a5eac25a1bd6754581ed2ff783938b3c6d13032"
     },
     {
       "no": 47,
@@ -1946,13 +1976,14 @@
       "pinyin": "wèi",
       "file": "audio/level3-natural/item3-0047-word.mp3",
       "source_group": "natural",
-      "source_chunk": 2,
-      "start": 44.1425,
-      "end": 44.76,
-      "padding_seconds": 0,
-      "method": "exact-text alignment and waveform boundary",
+      "source_chunk": 42,
+      "start": 0,
+      "end": 0.53,
+      "padding_seconds": 0.16,
+      "trailing_padding_seconds": 0.35,
+      "method": "standalone pronunciation correction; complete main utterance cut in following waveform silence",
       "reused": false,
-      "sha256": "3d673a0b7493b70f6fd7eead40e50127a5b516b66e8129fdb7d100617543b301"
+      "sha256": "05a130a55e1229cbde851394f088b2ecd930c8f443c50153b4ad307ab7350aac"
     },
     {
       "no": 47,
@@ -32606,6 +32637,37 @@
     "direct_listening": "unavailable in this execution environment",
     "alignment": "Independent Mandarin transcription plus exact-text forced alignment; low-energy boundaries chosen from the original waveform. Context excerpts distinguish polyphonic characters and neutral-tone particles.",
     "limitations": "Automatic transcription/alignment does not certify pronunciation or listening quality.",
-    "no_post_generation_time_stretch": true
+    "no_post_generation_time_stretch": true,
+    "targeted_updates": [
+      {
+        "date": "2026-11-11",
+        "items": [
+          {
+            "no": 46,
+            "pinyin": "wéi",
+            "tone": 2,
+            "updated": [
+              "word",
+              "example"
+            ]
+          },
+          {
+            "no": 47,
+            "pinyin": "wèi",
+            "tone": 4,
+            "updated": [
+              "word"
+            ]
+          }
+        ],
+        "source_chunks": [
+          41,
+          42,
+          43
+        ],
+        "homophone_adaptation": "围 → 喂 (wéi); declared to the user before generation.",
+        "direct_listening": false
+      }
+    ]
   }
 }

@@ -1,0 +1,193 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "围，你到哪儿了？我在门口。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=f70f2a29db48476d987beb985b6ff950.wav",
+    "duration": 2.6756916099773242,
+    "original_characters": [
+      {
+        "text": "围",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "，",
+        "start_time": 0.469,
+        "end_time": 0.768
+      },
+      {
+        "text": "你",
+        "start_time": 0.768,
+        "end_time": 0.896
+      },
+      {
+        "text": "到",
+        "start_time": 0.896,
+        "end_time": 1.024
+      },
+      {
+        "text": "哪",
+        "start_time": 1.024,
+        "end_time": 1.195
+      },
+      {
+        "text": "儿",
+        "start_time": 1.195,
+        "end_time": 1.237
+      },
+      {
+        "text": "了",
+        "start_time": 1.237,
+        "end_time": 1.408
+      },
+      {
+        "text": "？",
+        "start_time": 1.408,
+        "end_time": 1.707
+      },
+      {
+        "text": "我",
+        "start_time": 1.707,
+        "end_time": 1.792
+      },
+      {
+        "text": "在",
+        "start_time": 1.792,
+        "end_time": 1.92
+      },
+      {
+        "text": "门",
+        "start_time": 1.92,
+        "end_time": 2.048
+      },
+      {
+        "text": "口",
+        "start_time": 2.048,
+        "end_time": 2.304
+      },
+      {
+        "text": "。",
+        "start_time": 2.304,
+        "end_time": 2.517
+      }
+    ],
+    "original_words": [
+      {
+        "text": "围",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "你",
+        "start_time": 0.768,
+        "end_time": 0.896
+      },
+      {
+        "text": "到",
+        "start_time": 0.896,
+        "end_time": 1.024
+      },
+      {
+        "text": "哪",
+        "start_time": 1.024,
+        "end_time": 1.195
+      },
+      {
+        "text": "儿",
+        "start_time": 1.195,
+        "end_time": 1.237
+      },
+      {
+        "text": "了",
+        "start_time": 1.237,
+        "end_time": 1.408
+      },
+      {
+        "text": "我",
+        "start_time": 1.707,
+        "end_time": 1.792
+      },
+      {
+        "text": "在",
+        "start_time": 1.792,
+        "end_time": 1.92
+      },
+      {
+        "text": "门",
+        "start_time": 1.92,
+        "end_time": 2.048
+      },
+      {
+        "text": "口",
+        "start_time": 2.048,
+        "end_time": 2.304
+      }
+    ]
+  },
+  "source": {
+    "chunk": 43,
+    "file": "audio/level3-natural/sources/tone46-47-20261111-43.flac",
+    "duration_seconds": 2.6756916099773242,
+    "metadata": "audio/level3-natural/sources/tone46-47-20261111-43.json",
+    "script": "audio/level3-natural/sources/tone46-47-20261111-43.txt",
+    "sha256": "6cc670aba3c67f47aa8f5d38b2a455d6fd8b28089df0999d65f556ff863af5ef",
+    "original_native_sha256": "48eff5c76de2a311dbb77b6c017b38368818d68d476154300c4975327471baf5",
+    "decoded_pcm_sha256": "7d8e7af4fc2bc7edd7edbe4880a5970e82ed17659220b51a2aadea95468ba1fa",
+    "archive_format": "flac (lossless)"
+  },
+  "previous_clip": {
+    "no": 46,
+    "kind": "example",
+    "display_text": "喂，你到哪儿了？我在门口。",
+    "spoken_text": "喂，你到哪儿了？我在门口。",
+    "pinyin": "Wèi, nǐ dào nǎr le? wǒ zài ménkǒu.",
+    "file": "audio/level3-erhua/item3-0046-example.mp3",
+    "source_group": "erhua",
+    "source_chunk": 1,
+    "start": 31.63,
+    "end": 34.49,
+    "padding_seconds": 0,
+    "sha256": "a58848c952f4a0877a902417f5da70a37083917789baff5ea0cba578df2e554a",
+    "method": "retained original reference voice",
+    "reused": true
+  },
+  "edit_mapping": {
+    "start": 0,
+    "end": 2.3,
+    "leading_padding_seconds": 0.16,
+    "trailing_padding_seconds": 0.35,
+    "reason": "Preserve complete main utterance, cut in measured following silence, exclude detached source-end echo; no speed or pitch modification."
+  },
+  "pronunciation_adaptation": {
+    "displayed_character": "喂",
+    "submitted_character": "围",
+    "intended_pinyin": "wéi",
+    "purpose": "Homophone ensures requested second tone without changing displayed word or meaning."
+  },
+  "independent_transcription": [
+    {
+      "file": "final-43.mp3",
+      "model": "base",
+      "transcript": "喂,你到哪了,我在门口",
+      "duration_seconds": 2.81,
+      "peak": 0.8320742845535278,
+      "rms": 0.15287505090236664,
+      "expected_text_prompt": false
+    },
+    {
+      "file": "final-43.mp3",
+      "model": "small",
+      "transcript": "喂,你到哪儿了?我在门口。",
+      "duration_seconds": 2.81,
+      "peak": 0.8320742845535278,
+      "rms": 0.15287505090236664,
+      "expected_text_prompt": false
+    }
+  ],
+  "direct_listening": false
+}

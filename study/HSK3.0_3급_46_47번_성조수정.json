@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-11",
+  "level": 3,
+  "requested_corrections": {
+    "46": "wéi (2성)",
+    "47": "wèi (4성)"
+  },
+  "changed_clips": 3,
+  "other_clips_unchanged": 1997,
+  "data_changes": [
+    "46 word pinyin: wèi → wéi",
+    "46 example pinyin: Wèi → Wéi"
+  ],
+  "tone_measurements": {
+    "46_word": {
+      "pinyin": "wéi",
+      "tone": 2,
+      "early_f0_hz": 153.47,
+      "late_f0_hz": 250.44,
+      "semitone_change": 8.48,
+      "direction": "rising",
+      "file_duration_seconds": 1.16,
+      "sha256": "3e0b4defb8fac25676d2396553a597bf9cc40f6a0f0ec0295f1be80495c9f69d",
+      "source_rebuild_byte_identical": true
+    },
+    "47_word": {
+      "pinyin": "wèi",
+      "tone": 4,
+      "early_f0_hz": 170.15,
+      "late_f0_hz": 140.69,
+      "semitone_change": -3.29,
+      "direction": "falling",
+      "file_duration_seconds": 1.04,
+      "sha256": "05a130a55e1229cbde851394f088b2ecd930c8f443c50153b4ad307ab7350aac",
+      "source_rebuild_byte_identical": true
+    },
+    "46_example": {
+      "pinyin": "Wéi, nǐ dào nǎr le? wǒ zài ménkǒu.",
+      "tone": 2,
+      "early_f0_hz": 154.71,
+      "late_f0_hz": 298.18,
+      "semitone_change": 11.36,
+      "direction": "rising",
+      "file_duration_seconds": 2.81,
+      "sha256": "7afa31d6e296dca4a3eaa8a35a5eac25a1bd6754581ed2ff783938b3c6d13032",
+      "source_rebuild_byte_identical": true
+    }
+  },
+  "measurement_method": "Praat autocorrelation pitch, 100–500Hz, 5ms step; first/last quartiles of the voiced target syllable in the actual final MP3.",
+  "homophone_adaptation": "Display 喂, submit 围 for requested wéi in word and example. Same phonemes and target tone.",
+  "source_archives": "Three lossless FLACs, original request/result, editing maps; prior recordings retained.",
+  "independent_transcriptions": [
+    {
+      "file": "final-41.mp3",
+      "model": "base",
+      "transcript": "喂",
+      "duration_seconds": 1.16,
+      "peak": 0.8605408668518066,
+      "rms": 0.13924665749073029,
+      "expected_text_prompt": false
+    },
+    {
+      "file": "final-42.mp3",
+      "model": "base",
+      "transcript": "喂",
+      "duration_seconds": 1.04,
+      "peak": 0.9226000308990479,
+      "rms": 0.09177514910697937,
+      "expected_text_prompt": false
+    },
+    {
+      "file": "final-43.mp3",
+      "model": "base",
+      "transcript": "喂,你到哪了,我在门口",
+      "duration_seconds": 2.81,
+      "peak": 0.8320742845535278,
+      "rms": 0.15287505090236664,
+      "expected_text_prompt": false
+    },
+    {
+      "file": "final-41.mp3",
+      "model": "small",
+      "transcript": "喂?",
+      "duration_seconds": 1.16,
+      "peak": 0.8605408668518066,
+      "rms": 0.13924665749073029,
+      "expected_text_prompt": false
+    },
+    {
+      "file": "final-42.mp3",
+      "model": "small",
+      "transcript": "喂!",
+      "duration_seconds": 1.04,
+      "peak": 0.9226000308990479,
+      "rms": 0.09177514910697937,
+      "expected_text_prompt": false
+    },
+    {
+      "file": "final-43.mp3",
+      "model": "small",
+      "transcript": "喂,你到哪儿了?我在门口。",
+      "duration_seconds": 2.81,
+      "peak": 0.8320742845535278,
+      "rms": 0.15287505090236664,
+      "expected_text_prompt": false
+    }
+  ],
+  "direct_listening": false,
+  "limitations": "Measured pitch direction and transcription support the requested tone contrast; not a full expert listening review.",
+  "browser_playback": {
+    "changed_clips_played_to_completion": 3,
+    "pinyin_display": "46 wéi / 47 wèi",
+    "cache_busting_urls": "passed",
+    "javascript_errors": []
+  }
+}

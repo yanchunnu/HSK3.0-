@@ -2,6 +2,7 @@
 Run: CHROMIUM_PATH=/usr/bin/chromium python -m unittest discover -s tests -v
 These tests validate playback controls and text routing, not audible pronunciation.
 """
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -69,7 +70,8 @@ class PlaybackTests(unittest.TestCase):
    path=ROOT/clip['file']
    self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),clip['sha256'])
    route=self.page.evaluate('(c)=>fixedAudio(c.no,c.kind)',clip)
-   self.assertEqual(route,clip['file'])
+   expected_route='audio/level3-natural/item3-0046-example.mp3' if clip['no']==46 and clip['kind']=='example' else clip['file']
+   self.assertEqual(route.split('?')[0],expected_route)
   self.assertFalse('level3-erhua' in self.ev('fixedAudio(57,"word")'))
   self.assertFalse('level3-erhua' in self.ev('fixedAudio(58,"word")'))
   self.assertTrue(self.ev('fixedAudio(750,"word").includes("0750-word.mp3")'))
@@ -84,11 +86,23 @@ class PlaybackTests(unittest.TestCase):
    field='word' if clip['kind']=='word' else 'example'
    self.assertEqual(clip['display_text'],rows[clip['no']][field])
    self.assertEqual(hashlib.sha256((ROOT/clip['file']).read_bytes()).hexdigest(),clip['sha256'])
-   self.assertEqual(self.page.evaluate('(c)=>fixedAudio(c.no,c.kind)',clip),clip['file'])
+   self.assertEqual(self.page.evaluate('(c)=>fixedAudio(c.no,c.kind)',clip).split('?')[0],clip['file'])
   for n in [10,11]:
    clip=next(c for c in manifest['clips'] if c['no']==n and c['kind']=='example')
    self.assertTrue(clip['reused'])
    self.assertTrue(clip['file'].startswith('audio/level3-erhua/'))
+ def test_requested_tones_46_47(self):
+  self.assertEqual(self.ev('DATA[45].word'),'喂');self.assertEqual(self.ev('DATA[45].pinyin'),'wéi')
+  self.assertTrue(self.ev('DATA[45].examplePinyin.startsWith("Wéi,")'))
+  self.assertEqual(self.ev('DATA[46].pinyin'),'wèi')
+  report=json.loads((ROOT/'study/HSK3.0_3급_46_47번_성조수정.json').read_text())
+  for key,positive in [('46_word',True),('46_example',True),('47_word',False)]:
+   measurement=report['tone_measurements'][key]
+   no,kind=key.split('_');path=ROOT/f'audio/level3-natural/item3-{int(no):04d}-{kind}.mp3'
+   self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),measurement['sha256'])
+   self.assertGreater(measurement['semitone_change'],3) if positive else self.assertLess(measurement['semitone_change'],-2)
+  for no,kind in [(46,'word'),(46,'example'),(47,'word')]:
+   route=self.page.evaluate('([n,k])=>fixedAudio(n,k)',[no,kind]);self.assertIn('v=20261111-tones46-47',route)
  def test_mandarin_voice_selection(self):
   for voices,expected in [([{'lang':'zh-HK'}],None),([{'lang':'zh-TW'},{'lang':'zh_CN'}],'zh_CN'),([{'lang':'cmn-Hans-CN'}],'cmn-Hans-CN')]:
    self.page.evaluate('(v)=>window.__voices=v',voices)

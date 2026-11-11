@@ -32,8 +32,9 @@ def rebuild():
                        str(decoded[clip['source_group'], clip['source_chunk']]),
                        '-ar', '24000', '-ac', '1']
             padding = clip['padding_seconds']
-            if padding:
-                command += ['-af', f'adelay={round(padding*1000)}:all=1,apad=pad_dur={padding}']
+            tail = clip.get('trailing_padding_seconds', padding)
+            if padding or tail:
+                command += ['-af', f'adelay={round(padding*1000)}:all=1,apad=pad_dur={tail}']
             command += ['-c:a', 'libmp3lame', '-b:a', '64000', str(ROOT / clip['file'])]
             subprocess.run(command, check=True)
         with ThreadPoolExecutor(max_workers=4) as pool:

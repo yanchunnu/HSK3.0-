@@ -1,0 +1,92 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "位。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=21e4baf36d624dc08b8f01afd00ed562.wav",
+    "duration": 0.976281179138322,
+    "original_characters": [
+      {
+        "text": "位",
+        "start_time": 0.341,
+        "end_time": 0.469
+      },
+      {
+        "text": "。",
+        "start_time": 0.469,
+        "end_time": 0.768
+      }
+    ],
+    "original_words": [
+      {
+        "text": "位",
+        "start_time": 0.341,
+        "end_time": 0.469
+      }
+    ]
+  },
+  "source": {
+    "chunk": 42,
+    "file": "audio/level3-natural/sources/tone46-47-20261111-42.flac",
+    "duration_seconds": 0.976281179138322,
+    "metadata": "audio/level3-natural/sources/tone46-47-20261111-42.json",
+    "script": "audio/level3-natural/sources/tone46-47-20261111-42.txt",
+    "sha256": "b880ff34d233ceb5d863fc98986e470f22a54a572bf60bd8d15a21f637bbea26",
+    "original_native_sha256": "adeac46d1a633c54786034a98caa0bc006cd23291aaed1b0b60afe9634087d7e",
+    "decoded_pcm_sha256": "c2a861b3715b20c0e499934d120fef628aba72f4a5281516dd6624f2f84f8ac5",
+    "archive_format": "flac (lossless)"
+  },
+  "previous_clip": {
+    "no": 47,
+    "kind": "word",
+    "display_text": "位",
+    "spoken_text": "位",
+    "pinyin": "wèi",
+    "file": "audio/level3-natural/item3-0047-word.mp3",
+    "source_group": "natural",
+    "source_chunk": 2,
+    "start": 44.1425,
+    "end": 44.76,
+    "padding_seconds": 0,
+    "method": "exact-text alignment and waveform boundary",
+    "reused": false,
+    "sha256": "3d673a0b7493b70f6fd7eead40e50127a5b516b66e8129fdb7d100617543b301"
+  },
+  "edit_mapping": {
+    "start": 0,
+    "end": 0.53,
+    "leading_padding_seconds": 0.16,
+    "trailing_padding_seconds": 0.35,
+    "reason": "Preserve complete main utterance, cut in measured following silence, exclude detached source-end echo; no speed or pitch modification."
+  },
+  "pronunciation_adaptation": {
+    "displayed_character": "位",
+    "intended_pinyin": "wèi",
+    "purpose": "Explicit fourth-tone standalone reading."
+  },
+  "independent_transcription": [
+    {
+      "file": "final-42.mp3",
+      "model": "base",
+      "transcript": "喂",
+      "duration_seconds": 1.04,
+      "peak": 0.9226000308990479,
+      "rms": 0.09177514910697937,
+      "expected_text_prompt": false
+    },
+    {
+      "file": "final-42.mp3",
+      "model": "small",
+      "transcript": "喂!",
+      "duration_seconds": 1.04,
+      "peak": 0.9226000308990479,
+      "rms": 0.09177514910697937,
+      "expected_text_prompt": false
+    }
+  ],
+  "direct_listening": false
+}

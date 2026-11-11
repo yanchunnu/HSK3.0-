@@ -1,0 +1,98 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "围。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=55a599b7f9cd4ee8a001496f08d6b447.wav",
+    "duration": 1.0338095238095237,
+    "original_characters": [
+      {
+        "text": "围",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "。",
+        "start_time": 0.469,
+        "end_time": 0.896
+      }
+    ],
+    "original_words": [
+      {
+        "text": "围",
+        "start_time": 0.256,
+        "end_time": 0.469
+      }
+    ]
+  },
+  "source": {
+    "chunk": 41,
+    "file": "audio/level3-natural/sources/tone46-47-20261111-41.flac",
+    "duration_seconds": 1.0338095238095237,
+    "metadata": "audio/level3-natural/sources/tone46-47-20261111-41.json",
+    "script": "audio/level3-natural/sources/tone46-47-20261111-41.txt",
+    "sha256": "098265b068a26aee78a42d35f9935af6184c3bf2bc3e3f8c2c92e8e7fff98dca",
+    "original_native_sha256": "06d071802691b0f4d6509eff65285407ff06ef5ab836292b1268a52ead1d98b3",
+    "decoded_pcm_sha256": "6d88d0b54cce3a6cd6fe701a70dd9364829426adffe35580ce68416621ba1a63",
+    "archive_format": "flac (lossless)"
+  },
+  "previous_clip": {
+    "no": 46,
+    "kind": "word",
+    "display_text": "喂",
+    "spoken_text": "喂",
+    "pinyin": "wèi",
+    "file": "audio/level3-natural/item3-0046-word.mp3",
+    "source_group": "erhua",
+    "source_chunk": 1,
+    "start": 31.63,
+    "end": 32.155,
+    "padding_seconds": 0.08,
+    "method": "contextual character-level excerpt",
+    "reused": false,
+    "context_text": "喂，你到哪儿了？我在门口。",
+    "context_character_range": [
+      0,
+      1
+    ],
+    "sha256": "6e3805c85ea33d3418795e54ca4521387fbc8ad4733a6325c39caeb69fb3a757"
+  },
+  "edit_mapping": {
+    "start": 0,
+    "end": 0.65,
+    "leading_padding_seconds": 0.16,
+    "trailing_padding_seconds": 0.35,
+    "reason": "Preserve complete main utterance, cut in measured following silence, exclude detached source-end echo; no speed or pitch modification."
+  },
+  "pronunciation_adaptation": {
+    "displayed_character": "喂",
+    "submitted_character": "围",
+    "intended_pinyin": "wéi",
+    "purpose": "Homophone ensures requested second tone without changing displayed word or meaning."
+  },
+  "independent_transcription": [
+    {
+      "file": "final-41.mp3",
+      "model": "base",
+      "transcript": "喂",
+      "duration_seconds": 1.16,
+      "peak": 0.8605408668518066,
+      "rms": 0.13924665749073029,
+      "expected_text_prompt": false
+    },
+    {
+      "file": "final-41.mp3",
+      "model": "small",
+      "transcript": "喂?",
+      "duration_seconds": 1.16,
+      "peak": 0.8605408668518066,
+      "rms": 0.13924665749073029,
+      "expected_text_prompt": false
+    }
+  ],
+  "direct_listening": false
+}
