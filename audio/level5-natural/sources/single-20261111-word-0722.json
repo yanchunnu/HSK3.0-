@@ -1,0 +1,46 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "浇。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=606ee14690114b8193a901230bedfba2.wav",
+    "duration": 1.1036961451247165,
+    "original_characters": [
+      {
+        "text": "浇",
+        "start_time": 0.299,
+        "end_time": 0.555
+      },
+      {
+        "text": "。",
+        "start_time": 0.555,
+        "end_time": 0.896
+      }
+    ],
+    "original_words": [
+      {
+        "text": "浇",
+        "start_time": 0.299,
+        "end_time": 0.555
+      }
+    ]
+  },
+  "source": {
+    "chunk": 111,
+    "file": "audio/level5-natural/sources/single-20261111-word-0722.flac",
+    "sha256": "85823a540fc216f55b23fac57687137fdaa626b9bc5d436528d80bd511468ea3",
+    "duration_seconds": 1.1036961451247165,
+    "script": "audio/level5-natural/sources/single-20261111-word-0722.txt",
+    "metadata": "audio/level5-natural/sources/single-20261111-word-0722.json",
+    "original_native_sha256": "55593786153beec8b809bf54e7d6ad8287ba385317fc988166d2099dc17b8a54",
+    "decoded_pcm_sha256": "91290ad32ee67eaefe42bf37593fe22b3f60759d249557e5452f9f47c95c8589",
+    "archive_format": "flac (lossless)",
+    "purpose": "Single-word request to separate words with no measurable silence in the earlier batch"
+  },
+  "edit": "Complete native utterance retained, with 160ms leading and 350ms trailing padding; no timing-based speech cut.",
+  "direct_listening": false
+}

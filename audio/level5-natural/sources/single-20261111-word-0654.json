@@ -1,0 +1,46 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "登。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=8e3232c62abc4a6a9ca9fd04bcfeff04.wav",
+    "duration": 1.601859410430839,
+    "original_characters": [
+      {
+        "text": "登",
+        "start_time": 0.299,
+        "end_time": 0.469
+      },
+      {
+        "text": "。",
+        "start_time": 0.469,
+        "end_time": 1.408
+      }
+    ],
+    "original_words": [
+      {
+        "text": "登",
+        "start_time": 0.299,
+        "end_time": 0.469
+      }
+    ]
+  },
+  "source": {
+    "chunk": 110,
+    "file": "audio/level5-natural/sources/single-20261111-word-0654.flac",
+    "sha256": "b6e0469ea811f99753f5ab81637fd81d892da60a448ecc74b3889b6ab8a9f10a",
+    "duration_seconds": 1.601859410430839,
+    "script": "audio/level5-natural/sources/single-20261111-word-0654.txt",
+    "metadata": "audio/level5-natural/sources/single-20261111-word-0654.json",
+    "original_native_sha256": "3f6476a97a442ceff896d932e2b8a6f29e1b9f93d0dc846bff0071d4c281a93f",
+    "decoded_pcm_sha256": "7260f2db1e9757df3b4ed48ea8c2e531e4c71fd539e86b387132209de1e7813e",
+    "archive_format": "flac (lossless)",
+    "purpose": "Single-word request to separate words with no measurable silence in the earlier batch"
+  },
+  "edit": "Complete native utterance retained, with 160ms leading and 350ms trailing padding; no timing-based speech cut.",
+  "direct_listening": false
+}

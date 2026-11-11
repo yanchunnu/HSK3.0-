@@ -1,0 +1,477 @@
+{
+  "chunk": 1,
+  "source_chunk": 95,
+  "duration": 16.54175,
+  "units": [
+    {
+      "no": 1,
+      "kind": "word",
+      "text": "唉。",
+      "characters": [
+        {
+          "frame_start": 15,
+          "frame_end": 16,
+          "confidence": 0.0001,
+          "char": "唉",
+          "start": 0.300394975786925,
+          "end": 0.3204213075060533
+        }
+      ],
+      "token_start": 0.300394975786925,
+      "token_end": 0.3204213075060533,
+      "start": 0,
+      "end": 0.60079,
+      "rms": 0.057007
+    },
+    {
+      "no": 2,
+      "kind": "word",
+      "text": "哎。",
+      "characters": [
+        {
+          "frame_start": 44,
+          "frame_end": 45,
+          "confidence": 0.0009,
+          "char": "哎",
+          "start": 0.8811585956416466,
+          "end": 0.9011849273607749
+        }
+      ],
+      "token_start": 0.8811585956416466,
+      "token_end": 0.9011849273607749,
+      "start": 0.60079,
+      "end": 1.411856,
+      "rms": 0.068892
+    },
+    {
+      "no": 7,
+      "kind": "word",
+      "text": "哈。",
+      "characters": [
+        {
+          "frame_start": 96,
+          "frame_end": 97,
+          "confidence": 0.8853,
+          "char": "哈",
+          "start": 1.9225278450363197,
+          "end": 1.9425541767554482
+        }
+      ],
+      "token_start": 1.9225278450363197,
+      "token_end": 1.9425541767554482,
+      "start": 1.411856,
+      "end": 2.383133,
+      "rms": 0.13502
+    },
+    {
+      "no": 8,
+      "kind": "word",
+      "text": "哦。",
+      "characters": [
+        {
+          "frame_start": 141,
+          "frame_end": 142,
+          "confidence": 0.0135,
+          "char": "哦",
+          "start": 2.8237127723970947,
+          "end": 2.843739104116223
+        }
+      ],
+      "token_start": 2.8237127723970947,
+      "token_end": 2.843739104116223,
+      "start": 2.383133,
+      "end": 3.25,
+      "rms": 0.216101
+    },
+    {
+      "no": 10,
+      "kind": "word",
+      "text": "呀。",
+      "characters": [
+        {
+          "frame_start": 181,
+          "frame_end": 182,
+          "confidence": 0.0009,
+          "char": "呀",
+          "start": 3.624766041162228,
+          "end": 3.6447923728813563
+        }
+      ],
+      "token_start": 3.624766041162228,
+      "token_end": 3.6447923728813563,
+      "start": 3.25,
+      "end": 4.025,
+      "rms": 0.129132
+    },
+    {
+      "no": 12,
+      "kind": "word",
+      "text": "迎。",
+      "characters": [
+        {
+          "frame_start": 219,
+          "frame_end": 220,
+          "confidence": 0.0005,
+          "char": "迎",
+          "start": 4.385766646489104,
+          "end": 4.405792978208233
+        }
+      ],
+      "token_start": 4.385766646489104,
+      "token_end": 4.405792978208233,
+      "start": 4.025,
+      "end": 4.836359,
+      "rms": 0.196973
+    },
+    {
+      "no": 17,
+      "kind": "word",
+      "text": "伙。",
+      "characters": [
+        {
+          "frame_start": 263,
+          "frame_end": 264,
+          "confidence": 0.0002,
+          "char": "伙",
+          "start": 5.2669252421307515,
+          "end": 5.28695157384988
+        }
+      ],
+      "token_start": 5.2669252421307515,
+      "token_end": 5.28695157384988,
+      "start": 4.836359,
+      "end": 5.66,
+      "rms": 0.13928
+    },
+    {
+      "no": 32,
+      "kind": "word",
+      "text": "代。",
+      "characters": [
+        {
+          "frame_start": 299,
+          "frame_end": 300,
+          "confidence": 0.0343,
+          "char": "代",
+          "start": 5.987873184019371,
+          "end": 6.007899515738499
+        }
+      ],
+      "token_start": 5.987873184019371,
+      "token_end": 6.007899515738499,
+      "start": 5.66,
+      "end": 6.348347,
+      "rms": 0.154135
+    },
+    {
+      "no": 43,
+      "kind": "word",
+      "text": "福。",
+      "characters": [
+        {
+          "frame_start": 334,
+          "frame_end": 335,
+          "confidence": 0.004,
+          "char": "福",
+          "start": 6.688794794188863,
+          "end": 6.708821125907991
+        }
+      ],
+      "token_start": 6.688794794188863,
+      "token_end": 6.708821125907991,
+      "start": 6.348347,
+      "end": 7.069295,
+      "rms": 0.131605
+    },
+    {
+      "no": 64,
+      "kind": "pronunciation_anchor",
+      "text": "相处。",
+      "characters": [
+        {
+          "frame_start": 371,
+          "frame_end": 372,
+          "confidence": 0.9286,
+          "char": "相",
+          "start": 7.429769067796611,
+          "end": 7.4497953995157395
+        },
+        {
+          "frame_start": 386,
+          "frame_end": 387,
+          "confidence": 0.174,
+          "char": "处",
+          "start": 7.730164043583536,
+          "end": 7.750190375302664
+        }
+      ],
+      "token_start": 7.429769067796611,
+      "token_end": 7.750190375302664,
+      "start": 7.069295,
+      "end": 8.010533,
+      "rms": 0.148766
+    },
+    {
+      "no": 64,
+      "kind": "word",
+      "text": "处。",
+      "characters": [
+        {
+          "frame_start": 413,
+          "frame_end": 414,
+          "confidence": 0.8547,
+          "char": "处",
+          "start": 8.270875,
+          "end": 8.290901331719128
+        }
+      ],
+      "token_start": 8.270875,
+      "token_end": 8.290901331719128,
+      "start": 8.010533,
+      "end": 8.601309,
+      "rms": 0.173916
+    },
+    {
+      "no": 74,
+      "kind": "word",
+      "text": "亲。",
+      "characters": [
+        {
+          "frame_start": 445,
+          "frame_end": 446,
+          "confidence": 0.8827,
+          "char": "亲",
+          "start": 8.911717615012108,
+          "end": 8.931743946731237
+        }
+      ],
+      "token_start": 8.911717615012108,
+      "token_end": 8.931743946731237,
+      "start": 8.601309,
+      "end": 9.352297,
+      "rms": 0.240695
+    },
+    {
+      "no": 91,
+      "kind": "word",
+      "text": "类。",
+      "characters": [
+        {
+          "frame_start": 488,
+          "frame_end": 489,
+          "confidence": 0.6564,
+          "char": "类",
+          "start": 9.772849878934625,
+          "end": 9.792876210653754
+        }
+      ],
+      "token_start": 9.772849878934625,
+      "token_end": 9.792876210653754,
+      "start": 9.352297,
+      "end": 10.163363,
+      "rms": 0.228181
+    },
+    {
+      "no": 93,
+      "kind": "word",
+      "text": "量。",
+      "characters": [
+        {
+          "frame_start": 526,
+          "frame_end": 527,
+          "confidence": 0.0458,
+          "char": "量",
+          "start": 10.533850484261503,
+          "end": 10.553876815980631
+        }
+      ],
+      "token_start": 10.533850484261503,
+      "token_end": 10.553876815980631,
+      "start": 10.163363,
+      "end": 10.914351,
+      "rms": 0.213043
+    },
+    {
+      "no": 97,
+      "kind": "pronunciation_anchor",
+      "text": "数一数。",
+      "characters": [
+        {
+          "frame_start": 563,
+          "frame_end": 564,
+          "confidence": 0.0,
+          "char": "数",
+          "start": 11.27482475786925,
+          "end": 11.294851089588379
+        },
+        {
+          "frame_start": 574,
+          "frame_end": 575,
+          "confidence": 0.9169,
+          "char": "一",
+          "start": 11.495114406779662,
+          "end": 11.51514073849879
+        },
+        {
+          "frame_start": 582,
+          "frame_end": 583,
+          "confidence": 0.0,
+          "char": "数",
+          "start": 11.65532506053269,
+          "end": 11.675351392251818
+        }
+      ],
+      "token_start": 11.27482475786925,
+      "token_end": 11.675351392251818,
+      "start": 10.914351,
+      "end": 11.98576,
+      "rms": 0.171755
+    },
+    {
+      "no": 97,
+      "kind": "word",
+      "text": "数。",
+      "characters": [
+        {
+          "frame_start": 614,
+          "frame_end": 615,
+          "confidence": 0.0,
+          "char": "数",
+          "start": 12.296167675544796,
+          "end": 12.316194007263924
+        }
+      ],
+      "token_start": 12.296167675544796,
+      "token_end": 12.316194007263924,
+      "start": 11.98576,
+      "end": 12.596563,
+      "rms": 0.075903
+    },
+    {
+      "no": 100,
+      "kind": "word",
+      "text": "亿。",
+      "characters": [
+        {
+          "frame_start": 643,
+          "frame_end": 644,
+          "confidence": 0.0004,
+          "char": "亿",
+          "start": 12.876931295399517,
+          "end": 12.896957627118645
+        }
+      ],
+      "token_start": 12.876931295399517,
+      "token_end": 12.896957627118645,
+      "start": 12.596563,
+      "end": 13.217379,
+      "rms": 0.23212
+    },
+    {
+      "no": 101,
+      "kind": "word",
+      "text": "占。",
+      "characters": [
+        {
+          "frame_start": 676,
+          "frame_end": 677,
+          "confidence": 0.1371,
+          "char": "占",
+          "start": 13.537800242130752,
+          "end": 13.55782657384988
+        }
+      ],
+      "token_start": 13.537800242130752,
+      "token_end": 13.55782657384988,
+      "start": 13.217379,
+      "end": 13.898274,
+      "rms": 0.186263
+    },
+    {
+      "no": 106,
+      "kind": "word",
+      "text": "册。",
+      "characters": [
+        {
+          "frame_start": 711,
+          "frame_end": 712,
+          "confidence": 0.0156,
+          "char": "册",
+          "start": 14.238721852300243,
+          "end": 14.258748184019371
+        }
+      ],
+      "token_start": 14.238721852300243,
+      "token_end": 14.258748184019371,
+      "start": 13.898274,
+      "end": 14.579169,
+      "rms": 0.157057
+    },
+    {
+      "no": 108,
+      "kind": "word",
+      "text": "称。",
+      "characters": [
+        {
+          "frame_start": 744,
+          "frame_end": 745,
+          "confidence": 0.9991,
+          "char": "称",
+          "start": 14.899590799031479,
+          "end": 14.919617130750607
+        }
+      ],
+      "token_start": 14.899590799031479,
+      "token_end": 14.919617130750607,
+      "start": 14.579169,
+      "end": 15.270078,
+      "rms": 0.224468
+    },
+    {
+      "no": 109,
+      "kind": "word",
+      "text": "度。",
+      "characters": [
+        {
+          "frame_start": 780,
+          "frame_end": 781,
+          "confidence": 0.0331,
+          "char": "度",
+          "start": 15.620538740920098,
+          "end": 15.640565072639227
+        }
+      ],
+      "token_start": 15.620538740920098,
+      "token_end": 15.640565072639227,
+      "start": 15.270078,
+      "end": 15.930947,
+      "rms": 0.229899
+    },
+    {
+      "no": 110,
+      "kind": "word",
+      "text": "吨。",
+      "characters": [
+        {
+          "frame_start": 810,
+          "frame_end": 811,
+          "confidence": 0.0231,
+          "char": "吨",
+          "start": 16.221328692493948,
+          "end": 16.241355024213078
+        }
+      ],
+      "token_start": 16.221328692493948,
+      "token_end": 16.241355024213078,
+      "start": 15.930947,
+      "end": 16.54175,
+      "rms": 0.339345
+    }
+  ],
+  "alerts": [],
+  "greedy_transcript": "爱爱哈偶雅<unk>活带蝠相楚处亲类亮属一属属异<unk>彻称杜敦",
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "alignment_uses_expected_text": true,
+  "independent_asr_uses_prompt": false
+}

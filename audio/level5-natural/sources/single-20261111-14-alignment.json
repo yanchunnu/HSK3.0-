@@ -1,0 +1,190 @@
+{
+  "chunk": 14,
+  "source_chunk": 108,
+  "duration": 6.101291666666667,
+  "units": [
+    {
+      "no": 1593,
+      "kind": "word",
+      "text": "至。",
+      "characters": [
+        {
+          "frame_start": 6,
+          "frame_end": 7,
+          "confidence": 0.113,
+          "char": "至",
+          "start": 0.1204202302631579,
+          "end": 0.14049026864035088
+        }
+      ],
+      "token_start": 0.1204202302631579,
+      "token_end": 0.14049026864035088,
+      "start": 0,
+      "end": 0.451576,
+      "rms": 0.176866
+    },
+    {
+      "no": 1594,
+      "kind": "word",
+      "text": "化。",
+      "characters": [
+        {
+          "frame_start": 38,
+          "frame_end": 39,
+          "confidence": 0.0111,
+          "char": "化",
+          "start": 0.7626614583333333,
+          "end": 0.7827314967105263
+        }
+      ],
+      "token_start": 0.7626614583333333,
+      "token_end": 0.7827314967105263,
+      "start": 0.451576,
+      "end": 1.164062,
+      "rms": 0.124029
+    },
+    {
+      "no": 1595,
+      "kind": "word",
+      "text": "式。",
+      "characters": [
+        {
+          "frame_start": 77,
+          "frame_end": 78,
+          "confidence": 0.0001,
+          "char": "式",
+          "start": 1.5453929550438597,
+          "end": 1.5654629934210527
+        }
+      ],
+      "token_start": 1.5453929550438597,
+      "token_end": 1.5654629934210527,
+      "start": 1.164062,
+      "end": 1.886584,
+      "rms": 0.125236
+    },
+    {
+      "no": 1597,
+      "kind": "word",
+      "text": "所。",
+      "characters": [
+        {
+          "frame_start": 110,
+          "frame_end": 111,
+          "confidence": 0.2282,
+          "char": "所",
+          "start": 2.207704221491228,
+          "end": 2.227774259868421
+        }
+      ],
+      "token_start": 2.207704221491228,
+      "token_end": 2.227774259868421,
+      "start": 1.886584,
+      "end": 2.61914,
+      "rms": 0.065573
+    },
+    {
+      "no": 1598,
+      "kind": "pronunciation_anchor",
+      "text": "石头。",
+      "characters": [
+        {
+          "frame_start": 150,
+          "frame_end": 151,
+          "confidence": 0.9594,
+          "char": "石",
+          "start": 3.0105057565789477,
+          "end": 3.0305757949561407
+        },
+        {
+          "frame_start": 161,
+          "frame_end": 162,
+          "confidence": 0.9993,
+          "char": "头",
+          "start": 3.2312761787280704,
+          "end": 3.2513462171052634
+        }
+      ],
+      "token_start": 3.0105057565789477,
+      "token_end": 3.2513462171052634,
+      "start": 2.61914,
+      "end": 3.562432,
+      "rms": 0.128776
+    },
+    {
+      "no": 1598,
+      "kind": "word",
+      "text": "头。",
+      "characters": [
+        {
+          "frame_start": 193,
+          "frame_end": 194,
+          "confidence": 0.9993,
+          "char": "头",
+          "start": 3.873517406798246,
+          "end": 3.893587445175439
+        }
+      ],
+      "token_start": 3.873517406798246,
+      "token_end": 3.893587445175439,
+      "start": 3.562432,
+      "end": 4.305023,
+      "rms": 0.151271
+    },
+    {
+      "no": 1599,
+      "kind": "word",
+      "text": "原。",
+      "characters": [
+        {
+          "frame_start": 235,
+          "frame_end": 236,
+          "confidence": 0.0159,
+          "char": "原",
+          "start": 4.716459018640351,
+          "end": 4.7365290570175445
+        }
+      ],
+      "token_start": 4.716459018640351,
+      "token_end": 4.7365290570175445,
+      "start": 4.305023,
+      "end": 5.047615,
+      "rms": 0.17645
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "text": "好的。",
+      "characters": [
+        {
+          "frame_start": 267,
+          "frame_end": 268,
+          "confidence": 0.9996,
+          "char": "好",
+          "start": 5.3587002467105265,
+          "end": 5.37877028508772
+        },
+        {
+          "frame_start": 276,
+          "frame_end": 278,
+          "confidence": 0.8567,
+          "char": "的",
+          "start": 5.539330592105263,
+          "end": 5.579470668859649
+        }
+      ],
+      "token_start": 5.3587002467105265,
+      "token_end": 5.579470668859649,
+      "start": 5.047615,
+      "end": 6.101292,
+      "rms": 0.123057
+    }
+  ],
+  "alerts": [],
+  "greedy_transcript": "致话是石头头好 的",
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "alignment_uses_expected_text": true,
+  "independent_asr_uses_prompt": false,
+  "ctc_oov_characters": []
+}

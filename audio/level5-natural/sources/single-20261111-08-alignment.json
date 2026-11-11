@@ -1,0 +1,478 @@
+{
+  "chunk": 8,
+  "source_chunk": 102,
+  "duration": 13.779958333333333,
+  "units": [
+    {
+      "no": 1014,
+      "kind": "word",
+      "text": "挡。",
+      "characters": [
+        {
+          "frame_start": 18,
+          "frame_end": 19,
+          "confidence": 0.1458,
+          "char": "挡",
+          "start": 0.3605221656976744,
+          "end": 0.38055117490310075
+        }
+      ],
+      "token_start": 0.3605221656976744,
+      "token_end": 0.38055117490310075,
+      "start": 0,
+      "end": 0.791146,
+      "rms": 0.095858
+    },
+    {
+      "no": 1017,
+      "kind": "word",
+      "text": "堵。",
+      "characters": [
+        {
+          "frame_start": 60,
+          "frame_end": 61,
+          "confidence": 0.0254,
+          "char": "堵",
+          "start": 1.2017405523255813,
+          "end": 1.2217695615310078
+        }
+      ],
+      "token_start": 1.2017405523255813,
+      "token_end": 1.2217695615310078,
+      "start": 0.791146,
+      "end": 1.532219,
+      "rms": 0.060809
+    },
+    {
+      "no": 1018,
+      "kind": "word",
+      "text": "堆。",
+      "characters": [
+        {
+          "frame_start": 92,
+          "frame_end": 93,
+          "confidence": 0.9992,
+          "char": "堆",
+          "start": 1.8426688468992247,
+          "end": 1.8626978561046512
+        }
+      ],
+      "token_start": 1.8426688468992247,
+      "token_end": 1.8626978561046512,
+      "start": 1.532219,
+      "end": 2.11306,
+      "rms": 0.291993
+    },
+    {
+      "no": 1019,
+      "kind": "word",
+      "text": "躲。",
+      "characters": [
+        {
+          "frame_start": 118,
+          "frame_end": 119,
+          "confidence": 0.6183,
+          "char": "躲",
+          "start": 2.36342308624031,
+          "end": 2.3834520954457363
+        }
+      ],
+      "token_start": 2.36342308624031,
+      "token_end": 2.3834520954457363,
+      "start": 2.11306,
+      "end": 2.663858,
+      "rms": 0.097311
+    },
+    {
+      "no": 1020,
+      "kind": "word",
+      "text": "翻。",
+      "characters": [
+        {
+          "frame_start": 147,
+          "frame_end": 148,
+          "confidence": 0.4896,
+          "char": "翻",
+          "start": 2.9442643531976747,
+          "end": 2.964293362403101
+        }
+      ],
+      "token_start": 2.9442643531976747,
+      "token_end": 2.964293362403101,
+      "start": 2.663858,
+      "end": 3.244699,
+      "rms": 0.237344
+    },
+    {
+      "no": 1021,
+      "kind": "word",
+      "text": "扶。",
+      "characters": [
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.0138,
+          "char": "扶",
+          "start": 3.525105620155039,
+          "end": 3.545134629360465
+        }
+      ],
+      "token_start": 3.525105620155039,
+      "token_end": 3.545134629360465,
+      "start": 3.244699,
+      "end": 3.835555,
+      "rms": 0.121429
+    },
+    {
+      "no": 1022,
+      "kind": "word",
+      "text": "盖。",
+      "characters": [
+        {
+          "frame_start": 206,
+          "frame_end": 207,
+          "confidence": 0.7299,
+          "char": "盖",
+          "start": 4.125975896317829,
+          "end": 4.146004905523256
+        }
+      ],
+      "token_start": 4.125975896317829,
+      "token_end": 4.146004905523256,
+      "start": 3.835555,
+      "end": 4.41,
+      "rms": 0.148746
+    },
+    {
+      "no": 1023,
+      "kind": "word",
+      "text": "滚。",
+      "characters": [
+        {
+          "frame_start": 230,
+          "frame_end": 231,
+          "confidence": 0.9982,
+          "char": "滚",
+          "start": 4.6066721172480625,
+          "end": 4.626701126453488
+        }
+      ],
+      "token_start": 4.6066721172480625,
+      "token_end": 4.626701126453488,
+      "start": 4.41,
+      "end": 4.897093,
+      "rms": 0.096845
+    },
+    {
+      "no": 1024,
+      "kind": "word",
+      "text": "挥。",
+      "characters": [
+        {
+          "frame_start": 258,
+          "frame_end": 259,
+          "confidence": 0.0001,
+          "char": "挥",
+          "start": 5.167484375,
+          "end": 5.187513384205427
+        }
+      ],
+      "token_start": 5.167484375,
+      "token_end": 5.187513384205427,
+      "start": 4.897093,
+      "end": 5.487949,
+      "rms": 0.24498
+    },
+    {
+      "no": 1025,
+      "kind": "pronunciation_anchor",
+      "text": "系鞋带。",
+      "characters": [
+        {
+          "frame_start": 289,
+          "frame_end": 290,
+          "confidence": 0.0443,
+          "char": "系",
+          "start": 5.7883836603682175,
+          "end": 5.808412669573643
+        },
+        {
+          "frame_start": 296,
+          "frame_end": 297,
+          "confidence": 0.0329,
+          "char": "鞋",
+          "start": 5.928586724806202,
+          "end": 5.948615734011628
+        },
+        {
+          "frame_start": 305,
+          "frame_end": 306,
+          "confidence": 0.8628,
+          "char": "带",
+          "start": 6.108847807655039,
+          "end": 6.1288768168604655
+        }
+      ],
+      "token_start": 5.7883836603682175,
+      "token_end": 6.1288768168604655,
+      "start": 5.487949,
+      "end": 6.35921,
+      "rms": 0.213715
+    },
+    {
+      "no": 1025,
+      "kind": "word",
+      "text": "系。",
+      "characters": [
+        {
+          "frame_start": 329,
+          "frame_end": 330,
+          "confidence": 0.3518,
+          "char": "系",
+          "start": 6.589544028585271,
+          "end": 6.609573037790698
+        }
+      ],
+      "token_start": 6.589544028585271,
+      "token_end": 6.609573037790698,
+      "start": 6.35921,
+      "end": 6.899994,
+      "rms": 0.25197
+    },
+    {
+      "no": 1026,
+      "kind": "word",
+      "text": "挤。",
+      "characters": [
+        {
+          "frame_start": 359,
+          "frame_end": 360,
+          "confidence": 0.0003,
+          "char": "挤",
+          "start": 7.190414304748062,
+          "end": 7.210443313953489
+        }
+      ],
+      "token_start": 7.190414304748062,
+      "token_end": 7.210443313953489,
+      "start": 6.899994,
+      "end": 7.62,
+      "rms": 0.177317
+    },
+    {
+      "no": 1027,
+      "kind": "word",
+      "text": "捡。",
+      "characters": [
+        {
+          "frame_start": 397,
+          "frame_end": 398,
+          "confidence": 0.0358,
+          "char": "捡",
+          "start": 7.951516654554264,
+          "end": 7.97154566375969
+        }
+      ],
+      "token_start": 7.951516654554264,
+      "token_end": 7.97154566375969,
+      "start": 7.62,
+      "end": 8.44,
+      "rms": 0.196226
+    },
+    {
+      "no": 1028,
+      "kind": "word",
+      "text": "剪。",
+      "characters": [
+        {
+          "frame_start": 436,
+          "frame_end": 437,
+          "confidence": 0.0309,
+          "char": "剪",
+          "start": 8.73264801356589,
+          "end": 8.752677022771318
+        }
+      ],
+      "token_start": 8.73264801356589,
+      "token_end": 8.752677022771318,
+      "start": 8.44,
+      "end": 9.225,
+      "rms": 0.214481
+    },
+    {
+      "no": 1030,
+      "kind": "word",
+      "text": "结。",
+      "characters": [
+        {
+          "frame_start": 475,
+          "frame_end": 476,
+          "confidence": 0.0712,
+          "char": "结",
+          "start": 9.51377937257752,
+          "end": 9.533808381782945
+        }
+      ],
+      "token_start": 9.51377937257752,
+      "token_end": 9.533808381782945,
+      "start": 9.225,
+      "end": 9.875,
+      "rms": 0.203694
+    },
+    {
+      "no": 1032,
+      "kind": "word",
+      "text": "领。",
+      "characters": [
+        {
+          "frame_start": 506,
+          "frame_end": 507,
+          "confidence": 0.8099,
+          "char": "领",
+          "start": 10.134678657945736,
+          "end": 10.154707667151163
+        }
+      ],
+      "token_start": 10.134678657945736,
+      "token_end": 10.154707667151163,
+      "start": 9.875,
+      "end": 10.44,
+      "rms": 0.155297
+    },
+    {
+      "no": 1033,
+      "kind": "word",
+      "text": "摸。",
+      "characters": [
+        {
+          "frame_start": 529,
+          "frame_end": 530,
+          "confidence": 0.9654,
+          "char": "摸",
+          "start": 10.595345869670544,
+          "end": 10.615374878875969
+        }
+      ],
+      "token_start": 10.595345869670544,
+      "token_end": 10.615374878875969,
+      "start": 10.44,
+      "end": 10.91,
+      "rms": 0.374659
+    },
+    {
+      "no": 1034,
+      "kind": "word",
+      "text": "碰。",
+      "characters": [
+        {
+          "frame_start": 558,
+          "frame_end": 559,
+          "confidence": 0.8601,
+          "char": "碰",
+          "start": 11.176187136627908,
+          "end": 11.196216145833333
+        }
+      ],
+      "token_start": 11.176187136627908,
+      "token_end": 11.196216145833333,
+      "start": 10.91,
+      "end": 11.49,
+      "rms": 0.230125
+    },
+    {
+      "no": 1035,
+      "kind": "word",
+      "text": "拼。",
+      "characters": [
+        {
+          "frame_start": 584,
+          "frame_end": 585,
+          "confidence": 0.8864,
+          "char": "拼",
+          "start": 11.696941375968992,
+          "end": 11.716970385174418
+        }
+      ],
+      "token_start": 11.696941375968992,
+      "token_end": 11.716970385174418,
+      "start": 11.49,
+      "end": 12.005,
+      "rms": 0.26372
+    },
+    {
+      "no": 1036,
+      "kind": "word",
+      "text": "抢。",
+      "characters": [
+        {
+          "frame_start": 612,
+          "frame_end": 613,
+          "confidence": 0.0064,
+          "char": "抢",
+          "start": 12.257753633720931,
+          "end": 12.277782642926356
+        }
+      ],
+      "token_start": 12.257753633720931,
+      "token_end": 12.277782642926356,
+      "start": 12.005,
+      "end": 12.745,
+      "rms": 0.159774
+    },
+    {
+      "no": 1037,
+      "kind": "word",
+      "text": "洒。",
+      "characters": [
+        {
+          "frame_start": 647,
+          "frame_end": 648,
+          "confidence": 0.0019,
+          "char": "洒",
+          "start": 12.958768955910854,
+          "end": 12.978797965116279
+        }
+      ],
+      "token_start": 12.958768955910854,
+      "token_end": 12.978797965116279,
+      "start": 12.745,
+      "end": 13.305,
+      "rms": 0.134201
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "text": "好的。",
+      "characters": [
+        {
+          "frame_start": 670,
+          "frame_end": 671,
+          "confidence": 0.9961,
+          "char": "好",
+          "start": 13.41943616763566,
+          "end": 13.439465176841086
+        },
+        {
+          "frame_start": 677,
+          "frame_end": 679,
+          "confidence": 0.8643,
+          "char": "的",
+          "start": 13.559639232073643,
+          "end": 13.599697250484496
+        }
+      ],
+      "token_start": 13.41943616763566,
+      "token_end": 13.599697250484496,
+      "start": 13.305,
+      "end": 13.779958,
+      "rms": 0.178821
+    }
+  ],
+  "alerts": [],
+  "greedy_transcript": "党  <unk>堆躲翻 福盖滚辉细 谢邪带细及简简节领摸碰 拼强撒 好 的",
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "alignment_uses_expected_text": true,
+  "independent_asr_uses_prompt": false,
+  "ctc_oov_characters": []
+}

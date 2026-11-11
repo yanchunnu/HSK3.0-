@@ -160,8 +160,9 @@ function playQueue(entries, label) {
     document.querySelectorAll('.play').forEach(b => b.disabled = false);
     showStatus(message);
   };
-  const scheduleNext = () => {
-    state.nextTimer = setTimeout(() => { state.nextTimer = null; next(); }, 350);
+  const scheduleNext = item => {
+    const gap = item.kind === 'word' && [...item.text].length === 1 ? 850 : 350;
+    state.nextTimer = setTimeout(() => { state.nextTimer = null; next(); }, gap);
   };
   const next = async () => {
     if (runId !== state.runId) return;
@@ -187,7 +188,7 @@ function playQueue(entries, label) {
         if (runId !== state.runId || state.currentAudio !== audio) return;
         state.currentAudio = null;
         done++;
-        scheduleNext();
+        scheduleNext(item);
       };
       audio.onerror = () => {
         if (runId !== state.runId || state.currentAudio !== audio) return;
@@ -204,7 +205,7 @@ function playQueue(entries, label) {
   };
   next();
 }
-const AUDIO_REVISION = "20261110-word42-approved";
+const AUDIO_REVISION = "20261111-single-character-full";
 const FIXED_AUDIO = Object.fromEntries(DATA.map(x => [x.no, {word:`audio/level5-natural/item5-${String(x.no).padStart(4,"0")}-word.mp3?v=${AUDIO_REVISION}`,example:`audio/level5-natural/item5-${String(x.no).padStart(4,"0")}-example.mp3?v=${AUDIO_REVISION}`}]));
 function fixedAudio(no, kind) { return FIXED_AUDIO[no]?.[kind] || null; }
 function repeatEntries(text, repeat, progress, audio=null, no=null, kind=null) {

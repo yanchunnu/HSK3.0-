@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-11",
+  "level": 5,
+  "single_character_words_replaced": 266,
+  "unchanged_other_clips": 2934,
+  "voice_id": "6c364011f30747c9a0a89eec3787cadc",
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "native_sources_retained": 18,
+  "file_duration_min_seconds": 0.8508,
+  "file_duration_max_seconds": 2.1119,
+  "leading_padding_seconds": 0.16,
+  "trailing_padding_seconds": 0.35,
+  "player_gap_after_single_character_seconds": 0.85,
+  "wait_for_audio_ended": true,
+  "decoded_all_266": true,
+  "source_rebuild_byte_identical": 266,
+  "waveform_silence_boundaries": "Complete utterances bounded in measured quiet intervals; four unseparated batch words replaced with individual whole takes.",
+  "neutral_suffix_exception": {
+    "no": 1598,
+    "word": "头",
+    "pinyin": "tou",
+    "anchor": "石头",
+    "full_onset_checked_with_independent_asr": true
+  },
+  "original_sources_unchanged": 94,
+  "human_full_listening": "not performed; automatic checks do not certify tones or naturalness",
+  "browser_playback": {
+    "all_266_decoded": true,
+    "real_audio_ended_at_full_duration": true,
+    "measured_gap_ms": 851.6,
+    "pause_resume_repeat_stop": "passed",
+    "mobile_layout": "passed",
+    "javascript_errors": []
+  }
+}

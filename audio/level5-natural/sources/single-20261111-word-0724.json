@@ -1,0 +1,46 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "盆。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=c550aa59973c46a7833d95608360170c.wav",
+    "duration": 0.7741496598639456,
+    "original_characters": [
+      {
+        "text": "盆",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "。",
+        "start_time": 0.469,
+        "end_time": 0.725
+      }
+    ],
+    "original_words": [
+      {
+        "text": "盆",
+        "start_time": 0.256,
+        "end_time": 0.469
+      }
+    ]
+  },
+  "source": {
+    "chunk": 112,
+    "file": "audio/level5-natural/sources/single-20261111-word-0724.flac",
+    "sha256": "f52ba605005d7c2c6a55e23203cf6428a336c382564da0af90f8bafa4ef393c0",
+    "duration_seconds": 0.7741496598639456,
+    "script": "audio/level5-natural/sources/single-20261111-word-0724.txt",
+    "metadata": "audio/level5-natural/sources/single-20261111-word-0724.json",
+    "original_native_sha256": "c92eecfb88da128c97da4cabe67c5258507c9df45f656dff2cd1efa73e6162da",
+    "decoded_pcm_sha256": "52a28dedf51de96f17eaa39fdf5c86a369fe401cdfc8a1926ecd527b7679ad9b",
+    "archive_format": "flac (lossless)",
+    "purpose": "Single-word request to separate words with no measurable silence in the earlier batch"
+  },
+  "edit": "Complete native utterance retained, with 160ms leading and 350ms trailing padding; no timing-based speech cut.",
+  "direct_listening": false
+}

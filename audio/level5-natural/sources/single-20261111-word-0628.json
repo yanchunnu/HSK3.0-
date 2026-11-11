@@ -1,0 +1,46 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "产。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=d269d2bafb824a8cbba3e2ece09c4759.wav",
+    "duration": 0.976077097505669,
+    "original_characters": [
+      {
+        "text": "产",
+        "start_time": 0.299,
+        "end_time": 0.597
+      },
+      {
+        "text": "。",
+        "start_time": 0.597,
+        "end_time": 0.896
+      }
+    ],
+    "original_words": [
+      {
+        "text": "产",
+        "start_time": 0.299,
+        "end_time": 0.597
+      }
+    ]
+  },
+  "source": {
+    "chunk": 109,
+    "file": "audio/level5-natural/sources/single-20261111-word-0628.flac",
+    "sha256": "cb9815b9427a64b819a55570a6a4ddf7b142a5adb8c3c861e79f857460ebbbae",
+    "duration_seconds": 0.976077097505669,
+    "script": "audio/level5-natural/sources/single-20261111-word-0628.txt",
+    "metadata": "audio/level5-natural/sources/single-20261111-word-0628.json",
+    "original_native_sha256": "cc9b574ac11afffb8dd6eda3bc358639a8b9357b324f3adf728a94e7680c1f22",
+    "decoded_pcm_sha256": "39a60eef08e5cbedc747a3ff0c2983bd92995295ad7ed5314ec83c70cdb947d6",
+    "archive_format": "flac (lossless)",
+    "purpose": "Single-word request to separate words with no measurable silence in the earlier batch"
+  },
+  "edit": "Complete native utterance retained, with 160ms leading and 350ms trailing padding; no timing-based speech cut.",
+  "direct_listening": false
+}

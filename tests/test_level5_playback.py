@@ -35,6 +35,16 @@ class Level5Tests(unittest.TestCase):
   self.ev('playQueue([{no:1,audio:fixedAudio(1,"word")}],"old");playQueue([{no:2,audio:fixedAudio(2,"word")}],"new")');self.ev('window.__audios[0].onended();window.__audios[0].onerror()');self.assertTrue(self.ev('state.currentAudio.src.split("?")[0].endsWith("0002-word.mp3")'))
   self.ev('state.currentAudio.onerror()');self.assertFalse(self.ev('state.speaking'));self.assertIn('2번',self.page.locator('#status').inner_text());self.assertEqual(self.ev('window.__utterances.length'),0)
   self.ev('playQueue([{no:3,audio:fixedAudio(3,"word")}],"stop");stopPlayback()');self.assertFalse(self.ev('state.speaking'));self.assertTrue(self.page.locator('.play').first.is_enabled())
+ def test_single_character_waits_for_audio_end_and_has_longer_gap(self):
+  self.ev('playQueue([{no:32,kind:"word",text:"代",audio:fixedAudio(32,"word")},{no:43,kind:"word",text:"福",audio:fixedAudio(43,"word")}],"single")')
+  self.page.wait_for_timeout(500);self.assertEqual(self.ev('window.__audios.length'),1)
+  self.ev('state.currentAudio.onended()');self.page.wait_for_timeout(500)
+  self.assertEqual(self.ev('window.__audios.length'),1)
+  self.page.wait_for_function('window.__audios.length===2',timeout=2000)
+  self.ev('stopPlayback()')
+ def test_stop_cancels_single_character_gap(self):
+  self.ev('playQueue([{no:32,kind:"word",text:"代",audio:fixedAudio(32,"word")},{no:43,kind:"word",text:"福",audio:fixedAudio(43,"word")}],"single");state.currentAudio.onended();stopPlayback()')
+  self.page.wait_for_timeout(1100);self.assertEqual(self.ev('window.__audios.length'),1);self.assertFalse(self.ev('state.speaking'))
  def test_annotated_headword_spoken_text(self):
   self.assertEqual(self.ev('wordSpeechText({word:"本2"})'),"本")
   self.assertEqual(self.ev('wordSpeechText({word:"要不（然）"})'),"要不然")
