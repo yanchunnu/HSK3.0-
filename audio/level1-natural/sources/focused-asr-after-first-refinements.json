@@ -1,0 +1,82 @@
+[
+  {
+    "no": 12,
+    "kind": "word",
+    "expected": "你好",
+    "transcript": "你好",
+    "phonetic_ratio": 1.0,
+    "sha256": "a9136d0d21a3d22532fe5b62abd7bfd7df85771d0655133ba9ec7ae4f92a178a",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 102,
+    "kind": "word",
+    "expected": "边",
+    "transcript": "編",
+    "phonetic_ratio": 1.0,
+    "sha256": "0aea47dd242b2fd58461ab590b2c07e99f254909227bbe1be3124819eff8ac70",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 277,
+    "kind": "word",
+    "expected": "的",
+    "transcript": "的",
+    "phonetic_ratio": 1.0,
+    "sha256": "c8e5b6f884fafdb5235d398b054c98138705093f28fbb14bb8a36026be7e5b86",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 278,
+    "kind": "word",
+    "expected": "们",
+    "transcript": "完",
+    "phonetic_ratio": 0.0,
+    "sha256": "7e702239fca707396936659583cfcb5b5362f3a92a36d03be6d947d48b178a02",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 285,
+    "kind": "word",
+    "expected": "了",
+    "transcript": "好啦",
+    "phonetic_ratio": 0.0,
+    "sha256": "5132f70f86af47e6d018d9db9a971172fc16b0a01d399ae65998f8fe8e8769e3",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 286,
+    "kind": "word",
+    "expected": "吗",
+    "transcript": "嘛?",
+    "phonetic_ratio": 1.0,
+    "sha256": "e4ca013c334d468031614fb312346995ca9667658f244945600520d15dcb42b8",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 287,
+    "kind": "word",
+    "expected": "呢",
+    "transcript": "呐?",
+    "phonetic_ratio": 0.0,
+    "sha256": "f67483255ce89e0ae12bd427056367588238b96d73b4e762ed8c14bb1c60460b",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 288,
+    "kind": "word",
+    "expected": "吧",
+    "transcript": "好吧",
+    "phonetic_ratio": 0.667,
+    "sha256": "9927749835c540cfeb3b3762fed5d5720f59641adbdc8c05644f0d09478dff64",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  }
+]

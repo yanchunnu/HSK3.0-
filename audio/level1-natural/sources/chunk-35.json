@@ -1,0 +1,93 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "说吧。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=344f13469dc84c62be444e437ba40f10.wav",
+    "duration": 0.9622675736961451,
+    "original_characters": [
+      {
+        "text": "说",
+        "start_time": 0.299,
+        "end_time": 0.555
+      },
+      {
+        "text": "吧",
+        "start_time": 0.555,
+        "end_time": 0.683
+      },
+      {
+        "text": "。",
+        "start_time": 0.683,
+        "end_time": 0.853
+      }
+    ],
+    "original_words": [
+      {
+        "text": "说",
+        "start_time": 0.299,
+        "end_time": 0.555
+      },
+      {
+        "text": "吧",
+        "start_time": 0.555,
+        "end_time": 0.683
+      }
+    ]
+  },
+  "source": {
+    "chunk": 35,
+    "file": "audio/level1-natural/sources/chunk-35.flac",
+    "sha256": "6ff055ac4d22b3ff9a153f5bcd0a7792487c085aff4790fa7be359768226bfb1",
+    "duration_seconds": 0.9622675736961451,
+    "script": "audio/level1-natural/sources/chunk-35.txt",
+    "metadata": "audio/level1-natural/sources/chunk-35.json",
+    "original_native_sha256": "3e250490fc1341b4179f19d5ca97970b0751a232b215784891acbca1e91e0377",
+    "decoded_pcm_sha256": "9178afd5b7e62c5d1a290701000ed677b2b701f1424f089b279fd12e95b67def",
+    "archive_format": "flac (lossless)",
+    "purpose": "Clear neutral-suffix pronunciation donor"
+  },
+  "onset_review": {
+    "no": 288,
+    "donor": "说吧。",
+    "donor_greedy": "说吧",
+    "onset_options": [
+      {
+        "start": 0.26463,
+        "margin": 0.08,
+        "greedy": "说吧",
+        "score": 0
+      },
+      {
+        "start": 0.28463,
+        "margin": 0.06,
+        "greedy": "吧",
+        "score": 100
+      },
+      {
+        "start": 0.30463,
+        "margin": 0.04,
+        "greedy": "巴",
+        "score": 90
+      },
+      {
+        "start": 0.32463,
+        "margin": 0.02,
+        "greedy": "巴",
+        "score": 90
+      }
+    ],
+    "selected": {
+      "start": 0.28463,
+      "margin": 0.06,
+      "greedy": "吧",
+      "score": 100
+    },
+    "expected_text_used_for_greedy": false
+  },
+  "direct_listening": false
+}

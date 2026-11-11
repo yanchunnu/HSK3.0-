@@ -1,0 +1,332 @@
+[
+  {
+    "no": 12,
+    "kind": "word",
+    "expected": "你好",
+    "transcript": "保,你好。",
+    "phonetic_ratio": 0.8,
+    "sha256": "d46f3a7bd3108b48165aced98c654c75a35442c6d8155a66da55b591391c5382",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 23,
+    "kind": "example",
+    "expected": "大家好！",
+    "transcript": "大家好",
+    "phonetic_ratio": 1.0,
+    "sha256": "bc3741feae3288e39962436eb1262bbd775bf5fed00b01cd0118a39868189ff5",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 24,
+    "kind": "word",
+    "expected": "女士",
+    "transcript": "女士",
+    "phonetic_ratio": 1.0,
+    "sha256": "f57490e2cf125b5fe33e59418bf45eff1e3e47d76f4a5ae61cef2e941c4b6e46",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 26,
+    "kind": "word",
+    "expected": "喂",
+    "transcript": "喂",
+    "phonetic_ratio": 1.0,
+    "sha256": "d1cbcc1ceae3868451bf5c149d396aefcc3dc4b0d00ff385e3d2b2fc04629529",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 26,
+    "kind": "example",
+    "expected": "喂，你好！",
+    "transcript": "喂!你好!",
+    "phonetic_ratio": 1.0,
+    "sha256": "052a3ec51278864f45e1c278fe292310a001cdfdd12fc2c2a77badd063536d84",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 27,
+    "kind": "word",
+    "expected": "先生",
+    "transcript": "先生",
+    "phonetic_ratio": 1.0,
+    "sha256": "926600c1b4912012adf9984ce2c66bc8bfebae3b8d3969b1dde2942058af851a",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 63,
+    "kind": "word",
+    "expected": "一点儿",
+    "transcript": "1.",
+    "phonetic_ratio": 0.0,
+    "sha256": "be1a5f88938ebec420b1e629c0e2f0c94bd9ef0d5f02c13c103b39e6a051fd8b",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 79,
+    "kind": "word",
+    "expected": "那",
+    "transcript": "呐…",
+    "phonetic_ratio": 1.0,
+    "sha256": "4c626c05f76c6b444956f1e1a0434e358f595d3f29d97a50f896b6b031a60587",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 90,
+    "kind": "word",
+    "expected": "这儿",
+    "transcript": "这儿",
+    "phonetic_ratio": 1.0,
+    "sha256": "701a33e0414605a233bcf4572acbf5070e5ab63d5ca4db57bff211a39166cd6e",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 91,
+    "kind": "word",
+    "expected": "那儿",
+    "transcript": "那兒",
+    "phonetic_ratio": 1.0,
+    "sha256": "f05467483962c9bdcef81c989df61299d9841708543ef1134610edaea901bcc3",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 92,
+    "kind": "word",
+    "expected": "哪儿",
+    "transcript": "哪儿?",
+    "phonetic_ratio": 1.0,
+    "sha256": "45aaf388e2b4f649f33d17b1dd2f455f9978e05fc14e554520e24784d0b0070e",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 101,
+    "kind": "word",
+    "expected": "外边",
+    "transcript": "外边。",
+    "phonetic_ratio": 1.0,
+    "sha256": "fdb1eecc54f74265024906016fa18a21e68e3990ff52e9bcc33f155bacfe128c",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 102,
+    "kind": "word",
+    "expected": "边",
+    "transcript": "餵",
+    "phonetic_ratio": 0.0,
+    "sha256": "fca8d558ccbc9660feaf5f4d523879aac5077b484812ecb3ff10bbfee97a1653",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 103,
+    "kind": "word",
+    "expected": "谁",
+    "transcript": "誰?",
+    "phonetic_ratio": 1.0,
+    "sha256": "b7f0a0940ae34b7cd04b9aef8ed7abfcafd85165a590f64e192ea0faa95612a3",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 126,
+    "kind": "example",
+    "expected": "今天是九月十八日。",
+    "transcript": "今天是9月18日",
+    "phonetic_ratio": 0.769,
+    "sha256": "fbb9eed36532f02cf7455463ad83ea3264e7c85c701d4bd6a0e60937322a6eb5",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 127,
+    "kind": "word",
+    "expected": "号",
+    "transcript": "好",
+    "phonetic_ratio": 1.0,
+    "sha256": "07312547d9bdf971ead45920484642d9d45a163359e9d18bff79a2f4c2257fe3",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 149,
+    "kind": "example",
+    "expected": "这是一本汉语书。",
+    "transcript": "这是一本汉语书",
+    "phonetic_ratio": 1.0,
+    "sha256": "eb198611c91664173bb321df7135bab157118c84cc403cd0a5318a97d5886e92",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 150,
+    "kind": "word",
+    "expected": "书店",
+    "transcript": "熟电。",
+    "phonetic_ratio": 1.0,
+    "sha256": "dae156165cfe2784ad0ad296a22e0a6079fbef8a083e5ca94e97ca972eb8c99a",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 150,
+    "kind": "example",
+    "expected": "我去书店买书。",
+    "transcript": "我去書店買書。",
+    "phonetic_ratio": 1.0,
+    "sha256": "e472b89a947d38a3cc17f66c85d4d4207005101964719f601a479f4ea4c358f3",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 151,
+    "kind": "word",
+    "expected": "汉语",
+    "transcript": "汉语",
+    "phonetic_ratio": 1.0,
+    "sha256": "fded17228105388fd47eb1b5d4b2b7d440c6f37572e265da0932926319ca13bf",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 151,
+    "kind": "example",
+    "expected": "我学习汉语。",
+    "transcript": "我學習漢語",
+    "phonetic_ratio": 1.0,
+    "sha256": "05fb9a60a1c9a39bf8fa8372193cbe5ff8a85cf4c3065b31cb36f973f40f89b5",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 182,
+    "kind": "word",
+    "expected": "面条儿",
+    "transcript": "麵條",
+    "phonetic_ratio": 0.8,
+    "sha256": "ec6dfcfcf4a47fb5c9e7c441f80309429dba119b8c34c40974c643ba4166d28e",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 248,
+    "kind": "word",
+    "expected": "好玩儿",
+    "transcript": "好玩?",
+    "phonetic_ratio": 0.8,
+    "sha256": "b4df34538622a4fb4a3824e0f153294e8a43784abefd96da49e19a4829771a74",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 277,
+    "kind": "word",
+    "expected": "的",
+    "transcript": "答",
+    "phonetic_ratio": 0.0,
+    "sha256": "b21234d93b742594289a7d5bdeb9b87833449895f5607581dca30ab6fe824b8e",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 278,
+    "kind": "word",
+    "expected": "们",
+    "transcript": "我們",
+    "phonetic_ratio": 0.667,
+    "sha256": "521dd2cf0a820169b28ed510a8dfb6d46d07ec2d1746de0044691ce0c9f24e9e",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 282,
+    "kind": "word",
+    "expected": "还",
+    "transcript": "嗨!",
+    "phonetic_ratio": 1.0,
+    "sha256": "f567c3e47adb48ad3a17a2a43567d31102c7c02c168e6624c91f84f6d391048d",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 285,
+    "kind": "word",
+    "expected": "了",
+    "transcript": "好了",
+    "phonetic_ratio": 0.667,
+    "sha256": "4fdd9a7588c9e2b7fa3ae75d1c0bd734b1cd8cebeeb07ef66e63995416490c2b",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 286,
+    "kind": "word",
+    "expected": "吗",
+    "transcript": "好嗎?",
+    "phonetic_ratio": 0.667,
+    "sha256": "0ee2f2dff7893c5462f5f562df407dfd4c576c182f5222fb7ddf17ad256d71ec",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 287,
+    "kind": "word",
+    "expected": "呢",
+    "transcript": "你呢?",
+    "phonetic_ratio": 0.667,
+    "sha256": "ef2dc3baf39d7ae099aa0da45f0fb14e1b9d84eaee0f5fa3450c9ca33a3c0907",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 288,
+    "kind": "word",
+    "expected": "吧",
+    "transcript": "对吧",
+    "phonetic_ratio": 0.667,
+    "sha256": "ed8427fc3c8b4689aa73f30fa62c643a009a8e44f9e99b8c4b35640d0f1bae02",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 290,
+    "kind": "word",
+    "expected": "非常",
+    "transcript": "非常",
+    "phonetic_ratio": 1.0,
+    "sha256": "db0bd6f01e7ab3ea78d48ebe71c123e688ad7e88ffeb13b2ded04b82a346e57d",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 290,
+    "kind": "example",
+    "expected": "我非常高兴。",
+    "transcript": "我非常高興",
+    "phonetic_ratio": 1.0,
+    "sha256": "714b079a0ed4f4dca9d77c0bacef85a54c8089ddc94cbbcddd967c3a002b31a6",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  },
+  {
+    "no": 299,
+    "kind": "word",
+    "expected": "有(一)点儿",
+    "transcript": "有一点",
+    "phonetic_ratio": 0.857,
+    "sha256": "7a34f6fcd224820709160b9ca4e0896527757b5ba867c69979321d6724bf913c",
+    "model": "faster-whisper small int8",
+    "expected_text_prompt": false
+  }
+]

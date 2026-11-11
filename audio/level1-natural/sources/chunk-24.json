@@ -1,0 +1,58 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "书店。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=f86680772c0240e19689c44317e4fa5f.wav",
+    "duration": 1.1466213151927438,
+    "original_characters": [
+      {
+        "text": "书",
+        "start_time": 0.256,
+        "end_time": 0.512
+      },
+      {
+        "text": "店",
+        "start_time": 0.512,
+        "end_time": 0.725
+      },
+      {
+        "text": "。",
+        "start_time": 0.725,
+        "end_time": 0.939
+      }
+    ],
+    "original_words": [
+      {
+        "text": "书",
+        "start_time": 0.256,
+        "end_time": 0.512
+      },
+      {
+        "text": "店",
+        "start_time": 0.512,
+        "end_time": 0.725
+      }
+    ]
+  },
+  "source": {
+    "chunk": 24,
+    "file": "audio/level1-natural/sources/chunk-24.flac",
+    "sha256": "58b08fdfddfc18c5ec097b679f8192a051f882524b2be5406af690a10f2cc023",
+    "duration_seconds": 1.1466213151927438,
+    "script": "audio/level1-natural/sources/chunk-24.txt",
+    "metadata": "audio/level1-natural/sources/chunk-24.json",
+    "original_native_sha256": "8e4787e8f4d224bad9b84ea8e7235b6808170571710a758b7dc06c4c46706021",
+    "decoded_pcm_sha256": "cc68589dcf6ce1c837299775986a59c204e2ae075e2ffa15bf1863c6305bbe4c",
+    "archive_format": "flac (lossless)",
+    "purpose": "separate correction of an omitted or unseparated utterance"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

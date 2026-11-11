@@ -1,0 +1,48 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "编。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=79e16678f1d24820ba93862f2fe094e1.wav",
+    "duration": 0.7320634920634921,
+    "original_characters": [
+      {
+        "text": "编",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "。",
+        "start_time": 0.469,
+        "end_time": 0.725
+      }
+    ],
+    "original_words": [
+      {
+        "text": "编",
+        "start_time": 0.256,
+        "end_time": 0.469
+      }
+    ]
+  },
+  "source": {
+    "chunk": 31,
+    "file": "audio/level1-natural/sources/chunk-31.flac",
+    "sha256": "03464466b04bde8be7b045700a95a4c28eb9dda6c1357450da23550bdb431b0e",
+    "duration_seconds": 0.7320634920634921,
+    "script": "audio/level1-natural/sources/chunk-31.txt",
+    "metadata": "audio/level1-natural/sources/chunk-31.json",
+    "original_native_sha256": "55b2ed25cedaf59fca29448f088138f07ab059266f2cd7a13f274a21317c4208",
+    "decoded_pcm_sha256": "a290f101f323cbc1bdea3f5bbf64c57def33112b4b8becb032fcf7fc8c03efff",
+    "archive_format": "flac (lossless)",
+    "purpose": "Focused correction after final-clip transcription review"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

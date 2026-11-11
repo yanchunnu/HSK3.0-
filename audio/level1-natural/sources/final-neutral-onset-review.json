@@ -1,0 +1,154 @@
+[
+  {
+    "no": 278,
+    "donor": "老师们。",
+    "donor_greedy": "老师们",
+    "onset_options": [
+      {
+        "start": 0.40254,
+        "margin": 0.08,
+        "greedy": "之们",
+        "score": 0
+      },
+      {
+        "start": 0.42254,
+        "margin": 0.06,
+        "greedy": "们",
+        "score": 100
+      },
+      {
+        "start": 0.44254,
+        "margin": 0.04,
+        "greedy": "他们",
+        "score": 0
+      },
+      {
+        "start": 0.46254,
+        "margin": 0.02,
+        "greedy": "们",
+        "score": 100
+      }
+    ],
+    "selected": {
+      "start": 0.42254,
+      "margin": 0.06,
+      "greedy": "们",
+      "score": 100
+    },
+    "expected_text_used_for_greedy": false
+  },
+  {
+    "no": 285,
+    "donor": "吃了。",
+    "donor_greedy": "吃了",
+    "onset_options": [
+      {
+        "start": 0.28963,
+        "margin": 0.08,
+        "greedy": "了",
+        "score": 100
+      },
+      {
+        "start": 0.30963,
+        "margin": 0.06,
+        "greedy": "朗",
+        "score": 0
+      },
+      {
+        "start": 0.32963,
+        "margin": 0.04,
+        "greedy": "朗",
+        "score": 0
+      },
+      {
+        "start": 0.34963,
+        "margin": 0.02,
+        "greedy": "",
+        "score": 0
+      }
+    ],
+    "selected": {
+      "start": 0.28963,
+      "margin": 0.08,
+      "greedy": "了",
+      "score": 100
+    },
+    "expected_text_used_for_greedy": false
+  },
+  {
+    "no": 287,
+    "donor": "谁呢？",
+    "donor_greedy": "谁呢",
+    "onset_options": [
+      {
+        "start": 0.249412,
+        "margin": 0.08,
+        "greedy": "尼呢",
+        "score": 0
+      },
+      {
+        "start": 0.269412,
+        "margin": 0.06,
+        "greedy": "呢",
+        "score": 100
+      },
+      {
+        "start": 0.289412,
+        "margin": 0.04,
+        "greedy": "那",
+        "score": 0
+      },
+      {
+        "start": 0.309412,
+        "margin": 0.02,
+        "greedy": "那",
+        "score": 0
+      }
+    ],
+    "selected": {
+      "start": 0.269412,
+      "margin": 0.06,
+      "greedy": "呢",
+      "score": 100
+    },
+    "expected_text_used_for_greedy": false
+  },
+  {
+    "no": 288,
+    "donor": "说吧。",
+    "donor_greedy": "说吧",
+    "onset_options": [
+      {
+        "start": 0.26463,
+        "margin": 0.08,
+        "greedy": "说吧",
+        "score": 0
+      },
+      {
+        "start": 0.28463,
+        "margin": 0.06,
+        "greedy": "吧",
+        "score": 100
+      },
+      {
+        "start": 0.30463,
+        "margin": 0.04,
+        "greedy": "巴",
+        "score": 90
+      },
+      {
+        "start": 0.32463,
+        "margin": 0.02,
+        "greedy": "巴",
+        "score": 90
+      }
+    ],
+    "selected": {
+      "start": 0.28463,
+      "margin": 0.06,
+      "greedy": "吧",
+      "score": 100
+    },
+    "expected_text_used_for_greedy": false
+  }
+]

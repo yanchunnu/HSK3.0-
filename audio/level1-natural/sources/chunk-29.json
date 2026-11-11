@@ -1,0 +1,88 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "我非常高兴。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=110d889782ab4bbca8f88114c732d575.wav",
+    "duration": 1.4791383219954648,
+    "original_characters": [
+      {
+        "text": "我",
+        "start_time": 0.213,
+        "end_time": 0.427
+      },
+      {
+        "text": "非",
+        "start_time": 0.427,
+        "end_time": 0.683
+      },
+      {
+        "text": "常",
+        "start_time": 0.683,
+        "end_time": 0.853
+      },
+      {
+        "text": "高",
+        "start_time": 0.853,
+        "end_time": 1.067
+      },
+      {
+        "text": "兴",
+        "start_time": 1.067,
+        "end_time": 1.237
+      },
+      {
+        "text": "。",
+        "start_time": 1.237,
+        "end_time": 1.451
+      }
+    ],
+    "original_words": [
+      {
+        "text": "我",
+        "start_time": 0.213,
+        "end_time": 0.427
+      },
+      {
+        "text": "非",
+        "start_time": 0.427,
+        "end_time": 0.683
+      },
+      {
+        "text": "常",
+        "start_time": 0.683,
+        "end_time": 0.853
+      },
+      {
+        "text": "高",
+        "start_time": 0.853,
+        "end_time": 1.067
+      },
+      {
+        "text": "兴",
+        "start_time": 1.067,
+        "end_time": 1.237
+      }
+    ]
+  },
+  "source": {
+    "chunk": 29,
+    "file": "audio/level1-natural/sources/chunk-29.flac",
+    "sha256": "ad38d62e46e19b2a9007a04dd32d7515f9e20538a8eb1c19a542118e5b86f769",
+    "duration_seconds": 1.4791383219954648,
+    "script": "audio/level1-natural/sources/chunk-29.txt",
+    "metadata": "audio/level1-natural/sources/chunk-29.json",
+    "original_native_sha256": "c0d654dcc5abf375a178109488c53ca6de3ab12b1b9cf5f8ac3e16bf76d594ff",
+    "decoded_pcm_sha256": "0b260ed21584946e2c4c4a8360d46c8de7c4e49e6a62a951cb56f02f46da33b2",
+    "archive_format": "flac (lossless)",
+    "purpose": "separate correction of an omitted or unseparated utterance"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

@@ -1,0 +1,98 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "我去书店买书。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=19d02af426304efb9ab7b3ba7fb83a3a.wav",
+    "duration": 1.596485260770975,
+    "original_characters": [
+      {
+        "text": "我",
+        "start_time": 0.213,
+        "end_time": 0.427
+      },
+      {
+        "text": "去",
+        "start_time": 0.427,
+        "end_time": 0.555
+      },
+      {
+        "text": "书",
+        "start_time": 0.555,
+        "end_time": 0.725
+      },
+      {
+        "text": "店",
+        "start_time": 0.725,
+        "end_time": 0.896
+      },
+      {
+        "text": "买",
+        "start_time": 0.896,
+        "end_time": 1.024
+      },
+      {
+        "text": "书",
+        "start_time": 1.024,
+        "end_time": 1.28
+      },
+      {
+        "text": "。",
+        "start_time": 1.28,
+        "end_time": 1.536
+      }
+    ],
+    "original_words": [
+      {
+        "text": "我",
+        "start_time": 0.213,
+        "end_time": 0.427
+      },
+      {
+        "text": "去",
+        "start_time": 0.427,
+        "end_time": 0.555
+      },
+      {
+        "text": "书",
+        "start_time": 0.555,
+        "end_time": 0.725
+      },
+      {
+        "text": "店",
+        "start_time": 0.725,
+        "end_time": 0.896
+      },
+      {
+        "text": "买",
+        "start_time": 0.896,
+        "end_time": 1.024
+      },
+      {
+        "text": "书",
+        "start_time": 1.024,
+        "end_time": 1.28
+      }
+    ]
+  },
+  "source": {
+    "chunk": 25,
+    "file": "audio/level1-natural/sources/chunk-25.flac",
+    "sha256": "e474d98cdd8e0c776999ff471b898f7c39c007584752d0b71acba4e2ffcc04b4",
+    "duration_seconds": 1.596485260770975,
+    "script": "audio/level1-natural/sources/chunk-25.txt",
+    "metadata": "audio/level1-natural/sources/chunk-25.json",
+    "original_native_sha256": "46fdc1c6ec6005e9b5b3aa7867484ef8c9c33b838a97a7bed036d4bf6ef3e6fb",
+    "decoded_pcm_sha256": "55eabba7833fa7957ed63f72f22908593203dca4d9a06b4752f3d963c6b2f56d",
+    "archive_format": "flac (lossless)",
+    "purpose": "separate correction of an omitted or unseparated utterance"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

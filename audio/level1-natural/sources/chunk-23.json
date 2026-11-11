@@ -1,0 +1,108 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "这是一本汉语书。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=05a586fe2c5a400b9210144ebe2829b9.wav",
+    "duration": 1.6703174603174604,
+    "original_characters": [
+      {
+        "text": "这",
+        "start_time": 0.256,
+        "end_time": 0.427
+      },
+      {
+        "text": "是",
+        "start_time": 0.427,
+        "end_time": 0.555
+      },
+      {
+        "text": "一",
+        "start_time": 0.555,
+        "end_time": 0.64
+      },
+      {
+        "text": "本",
+        "start_time": 0.64,
+        "end_time": 0.768
+      },
+      {
+        "text": "汉",
+        "start_time": 0.768,
+        "end_time": 0.981
+      },
+      {
+        "text": "语",
+        "start_time": 0.981,
+        "end_time": 1.109
+      },
+      {
+        "text": "书",
+        "start_time": 1.109,
+        "end_time": 1.365
+      },
+      {
+        "text": "。",
+        "start_time": 1.365,
+        "end_time": 1.664
+      }
+    ],
+    "original_words": [
+      {
+        "text": "这",
+        "start_time": 0.256,
+        "end_time": 0.427
+      },
+      {
+        "text": "是",
+        "start_time": 0.427,
+        "end_time": 0.555
+      },
+      {
+        "text": "一",
+        "start_time": 0.555,
+        "end_time": 0.64
+      },
+      {
+        "text": "本",
+        "start_time": 0.64,
+        "end_time": 0.768
+      },
+      {
+        "text": "汉",
+        "start_time": 0.768,
+        "end_time": 0.981
+      },
+      {
+        "text": "语",
+        "start_time": 0.981,
+        "end_time": 1.109
+      },
+      {
+        "text": "书",
+        "start_time": 1.109,
+        "end_time": 1.365
+      }
+    ]
+  },
+  "source": {
+    "chunk": 23,
+    "file": "audio/level1-natural/sources/chunk-23.flac",
+    "sha256": "7ff2a79f693bbec6593088eb424e3503141eaed90e2e92d6a21389f91f7057d1",
+    "duration_seconds": 1.6703174603174604,
+    "script": "audio/level1-natural/sources/chunk-23.txt",
+    "metadata": "audio/level1-natural/sources/chunk-23.json",
+    "original_native_sha256": "0b1e207e7f5ea90cea943de8668917d33a4721998fef23b7abb975fab26bbd79",
+    "decoded_pcm_sha256": "b1a4cc21e52d4658a9a26ffbe00ff794195b6b1deefec18b429489c6824a751d",
+    "archive_format": "flac (lossless)",
+    "purpose": "separate correction of an omitted or unseparated utterance"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

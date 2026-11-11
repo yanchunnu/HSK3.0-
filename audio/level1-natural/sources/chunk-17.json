@@ -1,0 +1,58 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "女士。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=5a0f0eac35b6466fb051dacff93c6008.wav",
+    "duration": 1.0645578231292516,
+    "original_characters": [
+      {
+        "text": "女",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "士",
+        "start_time": 0.469,
+        "end_time": 0.768
+      },
+      {
+        "text": "。",
+        "start_time": 0.768,
+        "end_time": 0.981
+      }
+    ],
+    "original_words": [
+      {
+        "text": "女",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "士",
+        "start_time": 0.469,
+        "end_time": 0.768
+      }
+    ]
+  },
+  "source": {
+    "chunk": 17,
+    "file": "audio/level1-natural/sources/chunk-17.flac",
+    "sha256": "0840d6cd8e8289b46b8bdc447c3f59fac76f4e06684dbfc16efc9a63be4e01d4",
+    "duration_seconds": 1.0645578231292516,
+    "script": "audio/level1-natural/sources/chunk-17.txt",
+    "metadata": "audio/level1-natural/sources/chunk-17.json",
+    "original_native_sha256": "dcf370c78cb6ec00d8a524af7cb621ff259a633ad5ce6b83969f709b453f8352",
+    "decoded_pcm_sha256": "8172f9e79cc29c144ac0ef1501ebff90368116b7c1033ba2fb6e4c1d4653a4ec",
+    "archive_format": "flac (lossless)",
+    "purpose": "separate correction of an omitted or unseparated utterance"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

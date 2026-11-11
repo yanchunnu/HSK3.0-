@@ -1,0 +1,118 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "今天是九月十八日。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=c04b34c85f014b049a464eccc76fed92.wav",
+    "duration": 1.9154875283446713,
+    "original_characters": [
+      {
+        "text": "今",
+        "start_time": 0.299,
+        "end_time": 0.469
+      },
+      {
+        "text": "天",
+        "start_time": 0.469,
+        "end_time": 0.64
+      },
+      {
+        "text": "是",
+        "start_time": 0.64,
+        "end_time": 0.725
+      },
+      {
+        "text": "九",
+        "start_time": 0.725,
+        "end_time": 0.896
+      },
+      {
+        "text": "月",
+        "start_time": 0.896,
+        "end_time": 1.067
+      },
+      {
+        "text": "十",
+        "start_time": 1.067,
+        "end_time": 1.237
+      },
+      {
+        "text": "八",
+        "start_time": 1.237,
+        "end_time": 1.451
+      },
+      {
+        "text": "日",
+        "start_time": 1.451,
+        "end_time": 1.621
+      },
+      {
+        "text": "。",
+        "start_time": 1.621,
+        "end_time": 1.877
+      }
+    ],
+    "original_words": [
+      {
+        "text": "今",
+        "start_time": 0.299,
+        "end_time": 0.469
+      },
+      {
+        "text": "天",
+        "start_time": 0.469,
+        "end_time": 0.64
+      },
+      {
+        "text": "是",
+        "start_time": 0.64,
+        "end_time": 0.725
+      },
+      {
+        "text": "九",
+        "start_time": 0.725,
+        "end_time": 0.896
+      },
+      {
+        "text": "月",
+        "start_time": 0.896,
+        "end_time": 1.067
+      },
+      {
+        "text": "十",
+        "start_time": 1.067,
+        "end_time": 1.237
+      },
+      {
+        "text": "八",
+        "start_time": 1.237,
+        "end_time": 1.451
+      },
+      {
+        "text": "日",
+        "start_time": 1.451,
+        "end_time": 1.621
+      }
+    ]
+  },
+  "source": {
+    "chunk": 21,
+    "file": "audio/level1-natural/sources/chunk-21.flac",
+    "sha256": "77bb90b61d3e5b280e41d844da6a898d9ddb5edfed91fb81400b535c065daf9e",
+    "duration_seconds": 1.9154875283446713,
+    "script": "audio/level1-natural/sources/chunk-21.txt",
+    "metadata": "audio/level1-natural/sources/chunk-21.json",
+    "original_native_sha256": "cc2deaf203f03b674cccde8774346f992e413eceb1a50f6b846ef6987a90465c",
+    "decoded_pcm_sha256": "918a53855f5e971ead4a0a35f04e062482470d1a6827a75f7aa6a38f31632dbb",
+    "archive_format": "flac (lossless)",
+    "purpose": "separate correction of an omitted or unseparated utterance"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

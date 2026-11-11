@@ -1,0 +1,93 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "吃了。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=ed818fcc7e2c4280afa1997e1d055c82.wav",
+    "duration": 1.036734693877551,
+    "original_characters": [
+      {
+        "text": "吃",
+        "start_time": 0.256,
+        "end_time": 0.555
+      },
+      {
+        "text": "了",
+        "start_time": 0.555,
+        "end_time": 0.683
+      },
+      {
+        "text": "。",
+        "start_time": 0.683,
+        "end_time": 0.896
+      }
+    ],
+    "original_words": [
+      {
+        "text": "吃",
+        "start_time": 0.256,
+        "end_time": 0.555
+      },
+      {
+        "text": "了",
+        "start_time": 0.555,
+        "end_time": 0.683
+      }
+    ]
+  },
+  "source": {
+    "chunk": 33,
+    "file": "audio/level1-natural/sources/chunk-33.flac",
+    "sha256": "59cb0de98b6d09bf82fbfb6591f05b9f4cc6780d4b46280e3c193ad5d8ebd773",
+    "duration_seconds": 1.036734693877551,
+    "script": "audio/level1-natural/sources/chunk-33.txt",
+    "metadata": "audio/level1-natural/sources/chunk-33.json",
+    "original_native_sha256": "4282ffd5ce5b8262e99cafc0c46c084010c23069085486f0f6e29cfb4c357baf",
+    "decoded_pcm_sha256": "a5775d0290d310afb011fda0d605503b63e3662032b84e3826362b7154da01f2",
+    "archive_format": "flac (lossless)",
+    "purpose": "Clear neutral-suffix pronunciation donor"
+  },
+  "onset_review": {
+    "no": 285,
+    "donor": "吃了。",
+    "donor_greedy": "吃了",
+    "onset_options": [
+      {
+        "start": 0.28963,
+        "margin": 0.08,
+        "greedy": "了",
+        "score": 100
+      },
+      {
+        "start": 0.30963,
+        "margin": 0.06,
+        "greedy": "朗",
+        "score": 0
+      },
+      {
+        "start": 0.32963,
+        "margin": 0.04,
+        "greedy": "朗",
+        "score": 0
+      },
+      {
+        "start": 0.34963,
+        "margin": 0.02,
+        "greedy": "",
+        "score": 0
+      }
+    ],
+    "selected": {
+      "start": 0.28963,
+      "margin": 0.08,
+      "greedy": "了",
+      "score": 100
+    },
+    "expected_text_used_for_greedy": false
+  },
+  "direct_listening": false
+}

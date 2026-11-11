@@ -1,0 +1,73 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "位，你好！"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=d0477dbb87364d1a96037410f87bf59e.wav",
+    "duration": 1.5309750566893423,
+    "original_characters": [
+      {
+        "text": "位",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "，",
+        "start_time": 0.469,
+        "end_time": 0.725
+      },
+      {
+        "text": "你",
+        "start_time": 0.725,
+        "end_time": 0.853
+      },
+      {
+        "text": "好",
+        "start_time": 0.853,
+        "end_time": 1.067
+      },
+      {
+        "text": "！",
+        "start_time": 1.067,
+        "end_time": 1.323
+      }
+    ],
+    "original_words": [
+      {
+        "text": "位",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "你",
+        "start_time": 0.725,
+        "end_time": 0.853
+      },
+      {
+        "text": "好",
+        "start_time": 0.853,
+        "end_time": 1.067
+      }
+    ]
+  },
+  "source": {
+    "chunk": 19,
+    "file": "audio/level1-natural/sources/chunk-19.flac",
+    "sha256": "ee79921b1976a170337011bb250e8d2dda43df2c0116a27ecbc69bb268e9e0e6",
+    "duration_seconds": 1.5309750566893423,
+    "script": "audio/level1-natural/sources/chunk-19.txt",
+    "metadata": "audio/level1-natural/sources/chunk-19.json",
+    "original_native_sha256": "fea83f4f4d9a26ce458ee749749a8681b5b666f542b051c3d421b2d761abf1bb",
+    "decoded_pcm_sha256": "f28427cd6c923a9848945610d5c4b06a8baa42a833d0da0691c848183b205052",
+    "archive_format": "flac (lossless)",
+    "purpose": "separate correction of an omitted or unseparated utterance"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

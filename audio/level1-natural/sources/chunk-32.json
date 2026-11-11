@@ -1,0 +1,103 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "老师们。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=c387312e26fe419685f6daaa4eab418c.wav",
+    "duration": 1.1443083900226758,
+    "original_characters": [
+      {
+        "text": "老",
+        "start_time": 0.256,
+        "end_time": 0.512
+      },
+      {
+        "text": "师",
+        "start_time": 0.512,
+        "end_time": 0.725
+      },
+      {
+        "text": "们",
+        "start_time": 0.725,
+        "end_time": 0.853
+      },
+      {
+        "text": "。",
+        "start_time": 0.853,
+        "end_time": 1.024
+      }
+    ],
+    "original_words": [
+      {
+        "text": "老",
+        "start_time": 0.256,
+        "end_time": 0.512
+      },
+      {
+        "text": "师",
+        "start_time": 0.512,
+        "end_time": 0.725
+      },
+      {
+        "text": "们",
+        "start_time": 0.725,
+        "end_time": 0.853
+      }
+    ]
+  },
+  "source": {
+    "chunk": 32,
+    "file": "audio/level1-natural/sources/chunk-32.flac",
+    "sha256": "f5e1219e47a4c9899b62c1163b9cef9eb4f68af1ce75427d61e4a8f876cdca6a",
+    "duration_seconds": 1.1443083900226758,
+    "script": "audio/level1-natural/sources/chunk-32.txt",
+    "metadata": "audio/level1-natural/sources/chunk-32.json",
+    "original_native_sha256": "04e4124acf5d5a93b74451d576f5d47a098fa66fc9c0fd50313c9cbbb19007d0",
+    "decoded_pcm_sha256": "d4f1e6998183f4d42dd085f7ad367d2ba0a83a9019a699ab276722e089bd3cc5",
+    "archive_format": "flac (lossless)",
+    "purpose": "Clear neutral-suffix pronunciation donor"
+  },
+  "onset_review": {
+    "no": 278,
+    "donor": "老师们。",
+    "donor_greedy": "老师们",
+    "onset_options": [
+      {
+        "start": 0.40254,
+        "margin": 0.08,
+        "greedy": "之们",
+        "score": 0
+      },
+      {
+        "start": 0.42254,
+        "margin": 0.06,
+        "greedy": "们",
+        "score": 100
+      },
+      {
+        "start": 0.44254,
+        "margin": 0.04,
+        "greedy": "他们",
+        "score": 0
+      },
+      {
+        "start": 0.46254,
+        "margin": 0.02,
+        "greedy": "们",
+        "score": 100
+      }
+    ],
+    "selected": {
+      "start": 0.42254,
+      "margin": 0.06,
+      "greedy": "们",
+      "score": 100
+    },
+    "expected_text_used_for_greedy": false
+  },
+  "direct_listening": false
+}

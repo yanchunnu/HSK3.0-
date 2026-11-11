@@ -1,0 +1,93 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "谁呢？"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=69bffc8fd46748d6b8c71d4c936c250a.wav",
+    "duration": 0.8156689342403628,
+    "original_characters": [
+      {
+        "text": "谁",
+        "start_time": 0.256,
+        "end_time": 0.512
+      },
+      {
+        "text": "呢",
+        "start_time": 0.512,
+        "end_time": 0.683
+      },
+      {
+        "text": "？",
+        "start_time": 0.683,
+        "end_time": 0.811
+      }
+    ],
+    "original_words": [
+      {
+        "text": "谁",
+        "start_time": 0.256,
+        "end_time": 0.512
+      },
+      {
+        "text": "呢",
+        "start_time": 0.512,
+        "end_time": 0.683
+      }
+    ]
+  },
+  "source": {
+    "chunk": 34,
+    "file": "audio/level1-natural/sources/chunk-34.flac",
+    "sha256": "e5f2d9bdba6d885f93b385a0e93275afa523f359cd88e7def55a91646932541b",
+    "duration_seconds": 0.8156689342403628,
+    "script": "audio/level1-natural/sources/chunk-34.txt",
+    "metadata": "audio/level1-natural/sources/chunk-34.json",
+    "original_native_sha256": "1bdd3f8959f98226a259c0bd69474d40bc6d5c429f579da621585ea94bcf6bad",
+    "decoded_pcm_sha256": "14c61d68a0cba936c3203cb0880085693e2320d1130badbd52f9fa5ee95b28ee",
+    "archive_format": "flac (lossless)",
+    "purpose": "Clear neutral-suffix pronunciation donor"
+  },
+  "onset_review": {
+    "no": 287,
+    "donor": "谁呢？",
+    "donor_greedy": "谁呢",
+    "onset_options": [
+      {
+        "start": 0.249412,
+        "margin": 0.08,
+        "greedy": "尼呢",
+        "score": 0
+      },
+      {
+        "start": 0.269412,
+        "margin": 0.06,
+        "greedy": "呢",
+        "score": 100
+      },
+      {
+        "start": 0.289412,
+        "margin": 0.04,
+        "greedy": "那",
+        "score": 0
+      },
+      {
+        "start": 0.309412,
+        "margin": 0.02,
+        "greedy": "那",
+        "score": 0
+      }
+    ],
+    "selected": {
+      "start": 0.269412,
+      "margin": 0.06,
+      "greedy": "呢",
+      "score": 100
+    },
+    "expected_text_used_for_greedy": false
+  },
+  "direct_listening": false
+}

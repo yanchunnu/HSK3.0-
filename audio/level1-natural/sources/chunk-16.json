@@ -1,0 +1,68 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "大家好！"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=0033983117d6427f8525c6116fc1649f.wav",
+    "duration": 1.0210204081632652,
+    "original_characters": [
+      {
+        "text": "大",
+        "start_time": 0.299,
+        "end_time": 0.427
+      },
+      {
+        "text": "家",
+        "start_time": 0.427,
+        "end_time": 0.555
+      },
+      {
+        "text": "好",
+        "start_time": 0.555,
+        "end_time": 0.725
+      },
+      {
+        "text": "！",
+        "start_time": 0.725,
+        "end_time": 0.896
+      }
+    ],
+    "original_words": [
+      {
+        "text": "大",
+        "start_time": 0.299,
+        "end_time": 0.427
+      },
+      {
+        "text": "家",
+        "start_time": 0.427,
+        "end_time": 0.555
+      },
+      {
+        "text": "好",
+        "start_time": 0.555,
+        "end_time": 0.725
+      }
+    ]
+  },
+  "source": {
+    "chunk": 16,
+    "file": "audio/level1-natural/sources/chunk-16.flac",
+    "sha256": "f7167b572c498bdea4420a48c0ef3cda849b884c9b851534f609e2c846dac46a",
+    "duration_seconds": 1.0210204081632652,
+    "script": "audio/level1-natural/sources/chunk-16.txt",
+    "metadata": "audio/level1-natural/sources/chunk-16.json",
+    "original_native_sha256": "668cc7d3252e876186d6cbefea972da963c32ae5e0a28e6fe9be1c168f3f689f",
+    "decoded_pcm_sha256": "8ef35ccc7f74790b379ab3b9660a7b2528476853ba6e91ce3e6ec5845953e492",
+    "archive_format": "flac (lossless)",
+    "purpose": "separate correction of an omitted or unseparated utterance"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

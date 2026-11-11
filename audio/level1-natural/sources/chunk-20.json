@@ -1,0 +1,58 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "先生。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=0ba58c12a0ee4f05be12f1567671ceee.wav",
+    "duration": 0.9286167800453514,
+    "original_characters": [
+      {
+        "text": "先",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "生",
+        "start_time": 0.469,
+        "end_time": 0.683
+      },
+      {
+        "text": "。",
+        "start_time": 0.683,
+        "end_time": 0.896
+      }
+    ],
+    "original_words": [
+      {
+        "text": "先",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "生",
+        "start_time": 0.469,
+        "end_time": 0.683
+      }
+    ]
+  },
+  "source": {
+    "chunk": 20,
+    "file": "audio/level1-natural/sources/chunk-20.flac",
+    "sha256": "8821f6d50ed11aa8e0e0a41311f539f4e0a531d2021514d49b2e667b93c566fd",
+    "duration_seconds": 0.9286167800453514,
+    "script": "audio/level1-natural/sources/chunk-20.txt",
+    "metadata": "audio/level1-natural/sources/chunk-20.json",
+    "original_native_sha256": "0d6acc9afd3aff14576a72c50b43cd6eb6d1b7f46eb413c121857b8a3867712a",
+    "decoded_pcm_sha256": "c34857c6b543949bc46e2a6310300258e3e58b7ffd0fc41c6a41ef09bbf9a221",
+    "archive_format": "flac (lossless)",
+    "purpose": "separate correction of an omitted or unseparated utterance"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

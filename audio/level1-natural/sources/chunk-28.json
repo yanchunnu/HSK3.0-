@@ -1,0 +1,58 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "非常。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=8b21689f3e6e431abe2017504d9ef6cf.wav",
+    "duration": 0.8583673469387755,
+    "original_characters": [
+      {
+        "text": "非",
+        "start_time": 0.213,
+        "end_time": 0.469
+      },
+      {
+        "text": "常",
+        "start_time": 0.469,
+        "end_time": 0.683
+      },
+      {
+        "text": "。",
+        "start_time": 0.683,
+        "end_time": 0.853
+      }
+    ],
+    "original_words": [
+      {
+        "text": "非",
+        "start_time": 0.213,
+        "end_time": 0.469
+      },
+      {
+        "text": "常",
+        "start_time": 0.469,
+        "end_time": 0.683
+      }
+    ]
+  },
+  "source": {
+    "chunk": 28,
+    "file": "audio/level1-natural/sources/chunk-28.flac",
+    "sha256": "e6e618b0914503f068e8e0605bd02c118cecc1dffe8208fde8febec759ed6bdc",
+    "duration_seconds": 0.8583673469387755,
+    "script": "audio/level1-natural/sources/chunk-28.txt",
+    "metadata": "audio/level1-natural/sources/chunk-28.json",
+    "original_native_sha256": "b805735dee8e12d8c7e42cfe1cd66f32e54e0e65b0a7ab68977fec0266137b92",
+    "decoded_pcm_sha256": "e989a67bf62bcddf7c50849b4feab90c1e6942cfa2016fd5c52f1f4732124fa8",
+    "archive_format": "flac (lossless)",
+    "purpose": "separate correction of an omitted or unseparated utterance"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

@@ -1,0 +1,88 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "我学习汉语。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=2e2e47bdfed34097aae1a75883545031.wav",
+    "duration": 1.4553968253968255,
+    "original_characters": [
+      {
+        "text": "我",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "学",
+        "start_time": 0.469,
+        "end_time": 0.64
+      },
+      {
+        "text": "习",
+        "start_time": 0.64,
+        "end_time": 0.768
+      },
+      {
+        "text": "汉",
+        "start_time": 0.768,
+        "end_time": 0.939
+      },
+      {
+        "text": "语",
+        "start_time": 0.939,
+        "end_time": 1.109
+      },
+      {
+        "text": "。",
+        "start_time": 1.109,
+        "end_time": 1.323
+      }
+    ],
+    "original_words": [
+      {
+        "text": "我",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "学",
+        "start_time": 0.469,
+        "end_time": 0.64
+      },
+      {
+        "text": "习",
+        "start_time": 0.64,
+        "end_time": 0.768
+      },
+      {
+        "text": "汉",
+        "start_time": 0.768,
+        "end_time": 0.939
+      },
+      {
+        "text": "语",
+        "start_time": 0.939,
+        "end_time": 1.109
+      }
+    ]
+  },
+  "source": {
+    "chunk": 27,
+    "file": "audio/level1-natural/sources/chunk-27.flac",
+    "sha256": "11b36113f013989bf42a6e24c67f62c5d98d8f62a9bf80d65415ee665f12c90e",
+    "duration_seconds": 1.4553968253968255,
+    "script": "audio/level1-natural/sources/chunk-27.txt",
+    "metadata": "audio/level1-natural/sources/chunk-27.json",
+    "original_native_sha256": "89d806c3069e0903d60668b58d2107f760517c0ccacae91d227184b34edb4a95",
+    "decoded_pcm_sha256": "86335e38e5ba6803c4e423dc0413f0703b5b1c2f9294d93537bb0c9082cbcbcb",
+    "archive_format": "flac (lossless)",
+    "purpose": "separate correction of an omitted or unseparated utterance"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

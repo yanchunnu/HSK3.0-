@@ -1,0 +1,58 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "汉语。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=16af8054b8d04ee9bbc9d8081c728717.wav",
+    "duration": 0.8582766439909297,
+    "original_characters": [
+      {
+        "text": "汉",
+        "start_time": 0.213,
+        "end_time": 0.469
+      },
+      {
+        "text": "语",
+        "start_time": 0.469,
+        "end_time": 0.683
+      },
+      {
+        "text": "。",
+        "start_time": 0.683,
+        "end_time": 0.853
+      }
+    ],
+    "original_words": [
+      {
+        "text": "汉",
+        "start_time": 0.213,
+        "end_time": 0.469
+      },
+      {
+        "text": "语",
+        "start_time": 0.469,
+        "end_time": 0.683
+      }
+    ]
+  },
+  "source": {
+    "chunk": 26,
+    "file": "audio/level1-natural/sources/chunk-26.flac",
+    "sha256": "f7b563bf0ee84b81241e38abd640e196b65e00907ef813e6a00134fbdbef5b26",
+    "duration_seconds": 0.8582766439909297,
+    "script": "audio/level1-natural/sources/chunk-26.txt",
+    "metadata": "audio/level1-natural/sources/chunk-26.json",
+    "original_native_sha256": "e44814a4599720f2f50a9de6a0f85582615236446c5a721042b6f9d138ce8f5b",
+    "decoded_pcm_sha256": "34f77fb492caf04b97dd892d69f8c6e9c3bbd836aa20193dc953cdf103218af0",
+    "archive_format": "flac (lossless)",
+    "purpose": "separate correction of an omitted or unseparated utterance"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}
