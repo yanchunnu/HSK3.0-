@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-11",
+  "no": 16,
+  "word": "大爷",
+  "pinyin": "dàye",
+  "meaning": "어르신(나이 든 남성의 존칭)",
+  "change": "Context excerpt replaced with complete standalone word.",
+  "final_duration_seconds": 1.16,
+  "source_chunk": 113,
+  "clip_sha256": "3887e88d2d9dfc6740d13f6260bfe772c19515d20b3113b9d5ff376b2983704d",
+  "independent_transcriptions": [
+    {
+      "file": "final.mp3",
+      "model": "base",
+      "transcript": "大爷",
+      "duration_seconds": 1.16,
+      "peak": 0.9251492023468018,
+      "rms": 0.16038131713867188,
+      "expected_text_prompt": false
+    },
+    {
+      "file": "final.mp3",
+      "model": "small",
+      "transcript": "大爷",
+      "duration_seconds": 1.16,
+      "peak": 0.9251492023468018,
+      "rms": 0.16038131713867188,
+      "expected_text_prompt": false
+    }
+  ],
+  "full_native_pcm_preserved_losslessly": true,
+  "example_unchanged": true,
+  "other_clips_unchanged": 3199,
+  "direct_listening": false,
+  "cache_revision": "20261111-word16-daye",
+  "local_browser_full_playback": true,
+  "source_rebuild_byte_identical": true,
+  "content_and_source_integrity_test": "passed"
+}

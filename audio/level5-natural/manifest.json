@@ -1355,6 +1355,18 @@
       "decoded_pcm_sha256": "52a28dedf51de96f17eaa39fdf5c86a369fe401cdfc8a1926ecd527b7679ad9b",
       "archive_format": "flac (lossless)",
       "purpose": "Single-word request to separate words with no measurable silence in the earlier batch"
+    },
+    {
+      "chunk": 113,
+      "file": "audio/level5-natural/sources/word16-20261111.flac",
+      "sha256": "aca5d8db00c4d685c50263726610892322dff6744e6950c972c61942f864ae14",
+      "duration_seconds": 1.0454875283446712,
+      "script": "audio/level5-natural/sources/word16-20261111.txt",
+      "metadata": "audio/level5-natural/sources/word16-20261111.json",
+      "original_native_sha256": "9ecba56593720736e1d36a2b5899b6c2222ab28dc8e9936ff3b3271e8417d9d8",
+      "decoded_pcm_sha256": "e1a321af1d0cf394b75ff7bd1b5623e57393cefddcb6a7c8f61117aefd2ec7f5",
+      "archive_format": "flac (lossless)",
+      "purpose": "Complete standalone 大爷 dàye, replacing a sentence excerpt with preceding syllable contamination"
     }
   ],
   "clips": [
@@ -1823,23 +1835,18 @@
     {
       "no": 16,
       "kind": "word",
-      "source_chunk": 1,
-      "start": 62.915,
-      "end": 63.225,
-      "padding_seconds": 0.08,
-      "method": "contextual excerpt: independent ASR timestamp at complete token boundaries",
+      "source_chunk": 113,
+      "start": 0,
+      "end": 0.65,
+      "padding_seconds": 0.16,
+      "trailing_padding_seconds": 0.35,
+      "method": "standalone complete word; cut in measured silence after both syllables",
       "display_text": "大爷",
       "spoken_text": "大爷",
       "pinyin": "dàye",
-      "timing_confidence": 0.8639,
-      "context_text": "邻居大爷退休后，主动承担了小区的绿化维护。",
-      "context_character_range": [
-        2,
-        4
-      ],
-      "source_rms": 0.333527,
+      "source_rms": 0.225013,
       "file": "audio/level5-natural/item5-0016-word.mp3",
-      "sha256": "1aa11a77949327bd86105bdbcbbe7ea60d9fca09cbdf489d4065e826d3b8ae6e"
+      "sha256": "3887e88d2d9dfc6740d13f6260bfe772c19515d20b3113b9d5ff376b2983704d"
     },
     {
       "no": 16,
@@ -50051,6 +50058,22 @@
           722,
           724
         ]
+      },
+      {
+        "date": "2026-11-11",
+        "no": 16,
+        "kind": "word",
+        "word": "大爷",
+        "pinyin": "dàye",
+        "source_chunk": 113,
+        "sha256": "3887e88d2d9dfc6740d13f6260bfe772c19515d20b3113b9d5ff376b2983704d",
+        "independent_transcription_models": [
+          "faster-whisper base int8",
+          "faster-whisper small int8"
+        ],
+        "transcription": "大爷",
+        "metadata": "audio/level5-natural/sources/word16-20261111.json",
+        "direct_listening": false
       }
     ]
   }

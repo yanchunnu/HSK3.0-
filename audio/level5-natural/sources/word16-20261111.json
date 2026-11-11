@@ -1,0 +1,106 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "大爷。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=f531e490c1e844e2926b25b2afd973da.wav",
+    "duration": 1.0454875283446712,
+    "original_characters": [
+      {
+        "text": "大",
+        "start_time": 0.256,
+        "end_time": 0.427
+      },
+      {
+        "text": "爷",
+        "start_time": 0.427,
+        "end_time": 0.597
+      },
+      {
+        "text": "。",
+        "start_time": 0.597,
+        "end_time": 0.853
+      }
+    ],
+    "original_words": [
+      {
+        "text": "大",
+        "start_time": 0.256,
+        "end_time": 0.427
+      },
+      {
+        "text": "爷",
+        "start_time": 0.427,
+        "end_time": 0.597
+      }
+    ]
+  },
+  "source": {
+    "chunk": 113,
+    "file": "audio/level5-natural/sources/word16-20261111.flac",
+    "sha256": "aca5d8db00c4d685c50263726610892322dff6744e6950c972c61942f864ae14",
+    "duration_seconds": 1.0454875283446712,
+    "script": "audio/level5-natural/sources/word16-20261111.txt",
+    "metadata": "audio/level5-natural/sources/word16-20261111.json",
+    "original_native_sha256": "9ecba56593720736e1d36a2b5899b6c2222ab28dc8e9936ff3b3271e8417d9d8",
+    "decoded_pcm_sha256": "e1a321af1d0cf394b75ff7bd1b5623e57393cefddcb6a7c8f61117aefd2ec7f5",
+    "archive_format": "flac (lossless)",
+    "purpose": "Complete standalone 大爷 dàye, replacing a sentence excerpt with preceding syllable contamination"
+  },
+  "previous_clip": {
+    "no": 16,
+    "kind": "word",
+    "source_chunk": 1,
+    "start": 62.915,
+    "end": 63.225,
+    "padding_seconds": 0.08,
+    "method": "contextual excerpt: independent ASR timestamp at complete token boundaries",
+    "display_text": "大爷",
+    "spoken_text": "大爷",
+    "pinyin": "dàye",
+    "timing_confidence": 0.8639,
+    "context_text": "邻居大爷退休后，主动承担了小区的绿化维护。",
+    "context_character_range": [
+      2,
+      4
+    ],
+    "source_rms": 0.333527,
+    "file": "audio/level5-natural/item5-0016-word.mp3",
+    "sha256": "1aa11a77949327bd86105bdbcbbe7ea60d9fca09cbdf489d4065e826d3b8ae6e"
+  },
+  "edit_mapping": {
+    "start": 0,
+    "end": 0.65,
+    "leading_padding_seconds": 0.16,
+    "trailing_padding_seconds": 0.35,
+    "reason": "Retain complete main word at 0.04–0.445s and cut in the following silence; exclude detached source-end repetition at 0.815–1.046s. No speed or pitch processing."
+  },
+  "pronunciation_note": "大爷 dàye: dà fourth tone, ye neutral tone, respectful address for an elderly man. No tone or lexical changes.",
+  "independent_final_transcription": [
+    {
+      "file": "final.mp3",
+      "model": "base",
+      "transcript": "大爷",
+      "duration_seconds": 1.16,
+      "peak": 0.9251492023468018,
+      "rms": 0.16038131713867188,
+      "expected_text_prompt": false
+    },
+    {
+      "file": "final.mp3",
+      "model": "small",
+      "transcript": "大爷",
+      "duration_seconds": 1.16,
+      "peak": 0.9251492023468018,
+      "rms": 0.16038131713867188,
+      "expected_text_prompt": false
+    }
+  ],
+  "expected_text_prompt": false,
+  "direct_listening": false,
+  "limitations": "Unprompted transcription checks both syllables and does not certify tone or naturalness."
+}
