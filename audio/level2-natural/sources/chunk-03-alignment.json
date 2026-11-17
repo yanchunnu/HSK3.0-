@@ -1,0 +1,1398 @@
+{
+  "chunk": 3,
+  "duration_seconds": 28.463333333333335,
+  "units": [
+    {
+      "no": 147,
+      "kind": "example",
+      "display_text": "请等一会儿。",
+      "pinyin": "qǐng děng yíhuìr.",
+      "spoken_text": "请等一会儿。",
+      "characters": [
+        {
+          "frame_start": 12,
+          "frame_end": 13,
+          "confidence": 0.973,
+          "char": "请",
+          "start": 0.240426,
+          "end": 0.260462
+        },
+        {
+          "frame_start": 19,
+          "frame_end": 21,
+          "confidence": 0.9648,
+          "char": "等",
+          "start": 0.380675,
+          "end": 0.420746
+        },
+        {
+          "frame_start": 25,
+          "frame_end": 27,
+          "confidence": 0.969,
+          "char": "一",
+          "start": 0.500888,
+          "end": 0.540959
+        },
+        {
+          "frame_start": 31,
+          "frame_end": 33,
+          "confidence": 0.9762,
+          "char": "会",
+          "start": 0.621101,
+          "end": 0.661172
+        },
+        {
+          "frame_start": 36,
+          "frame_end": 37,
+          "confidence": 0.2145,
+          "char": "儿",
+          "start": 0.721279,
+          "end": 0.741314
+        }
+      ],
+      "token_start": 0.240426,
+      "token_end": 0.741314,
+      "independent_asr_coverage": 0.8,
+      "start": 0,
+      "end": 1.051864,
+      "rms": 0.187343
+    },
+    {
+      "no": 163,
+      "kind": "example",
+      "display_text": "下周我去北京。",
+      "pinyin": "xià zhōu wǒ qù Běijīng.",
+      "spoken_text": "下周我去北京。",
+      "characters": [
+        {
+          "frame_start": 68,
+          "frame_end": 70,
+          "confidence": 0.4532,
+          "char": "下",
+          "start": 1.362415,
+          "end": 1.402486
+        },
+        {
+          "frame_start": 78,
+          "frame_end": 79,
+          "confidence": 0.8621,
+          "char": "周",
+          "start": 1.56277,
+          "end": 1.582806
+        },
+        {
+          "frame_start": 84,
+          "frame_end": 85,
+          "confidence": 0.9947,
+          "char": "我",
+          "start": 1.682983,
+          "end": 1.703019
+        },
+        {
+          "frame_start": 90,
+          "frame_end": 91,
+          "confidence": 0.9983,
+          "char": "去",
+          "start": 1.803196,
+          "end": 1.823232
+        },
+        {
+          "frame_start": 96,
+          "frame_end": 97,
+          "confidence": 0.9969,
+          "char": "北",
+          "start": 1.923409,
+          "end": 1.943445
+        },
+        {
+          "frame_start": 104,
+          "frame_end": 106,
+          "confidence": 0.6599,
+          "char": "京",
+          "start": 2.083693,
+          "end": 2.123764
+        }
+      ],
+      "token_start": 1.362415,
+      "token_end": 2.123764,
+      "independent_asr_coverage": 1.0,
+      "start": 1.051864,
+      "end": 2.424297,
+      "rms": 0.220694
+    },
+    {
+      "no": 166,
+      "kind": "example",
+      "display_text": "我小时候喜欢画画。",
+      "pinyin": "wǒ xiǎoshíhou xǐhuan huà huà.",
+      "spoken_text": "我小时候喜欢画画。",
+      "characters": [
+        {
+          "frame_start": 136,
+          "frame_end": 138,
+          "confidence": 0.9936,
+          "char": "我",
+          "start": 2.72483,
+          "end": 2.764901
+        },
+        {
+          "frame_start": 142,
+          "frame_end": 144,
+          "confidence": 0.9917,
+          "char": "小",
+          "start": 2.845043,
+          "end": 2.885114
+        },
+        {
+          "frame_start": 151,
+          "frame_end": 153,
+          "confidence": 0.9958,
+          "char": "时",
+          "start": 3.025363,
+          "end": 3.065434
+        },
+        {
+          "frame_start": 157,
+          "frame_end": 158,
+          "confidence": 0.999,
+          "char": "候",
+          "start": 3.145576,
+          "end": 3.165611
+        },
+        {
+          "frame_start": 163,
+          "frame_end": 165,
+          "confidence": 0.9982,
+          "char": "喜",
+          "start": 3.265789,
+          "end": 3.30586
+        },
+        {
+          "frame_start": 168,
+          "frame_end": 170,
+          "confidence": 0.9995,
+          "char": "欢",
+          "start": 3.365966,
+          "end": 3.406037
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.0038,
+          "char": "画",
+          "start": 3.52625,
+          "end": 3.546286
+        },
+        {
+          "frame_start": 186,
+          "frame_end": 187,
+          "confidence": 0.0045,
+          "char": "画",
+          "start": 3.726606,
+          "end": 3.746641
+        }
+      ],
+      "token_start": 2.72483,
+      "token_end": 3.746641,
+      "independent_asr_coverage": 1.0,
+      "start": 2.424297,
+      "end": 4.027138,
+      "rms": 0.192594
+    },
+    {
+      "no": 171,
+      "kind": "example",
+      "display_text": "我小时候喜欢唱歌。",
+      "pinyin": "wǒ xiǎoshíhou xǐhuan chànggē.",
+      "spoken_text": "我小时候喜欢唱歌。",
+      "characters": [
+        {
+          "frame_start": 215,
+          "frame_end": 217,
+          "confidence": 0.785,
+          "char": "我",
+          "start": 4.307636,
+          "end": 4.347707
+        },
+        {
+          "frame_start": 221,
+          "frame_end": 223,
+          "confidence": 0.9897,
+          "char": "小",
+          "start": 4.427849,
+          "end": 4.46792
+        },
+        {
+          "frame_start": 229,
+          "frame_end": 231,
+          "confidence": 0.9936,
+          "char": "时",
+          "start": 4.588133,
+          "end": 4.628204
+        },
+        {
+          "frame_start": 235,
+          "frame_end": 236,
+          "confidence": 0.992,
+          "char": "候",
+          "start": 4.708346,
+          "end": 4.728381
+        },
+        {
+          "frame_start": 240,
+          "frame_end": 241,
+          "confidence": 0.9999,
+          "char": "喜",
+          "start": 4.808523,
+          "end": 4.828559
+        },
+        {
+          "frame_start": 244,
+          "frame_end": 246,
+          "confidence": 0.9999,
+          "char": "欢",
+          "start": 4.888665,
+          "end": 4.928736
+        },
+        {
+          "frame_start": 251,
+          "frame_end": 253,
+          "confidence": 0.8208,
+          "char": "唱",
+          "start": 5.028914,
+          "end": 5.068985
+        },
+        {
+          "frame_start": 263,
+          "frame_end": 264,
+          "confidence": 0.9662,
+          "char": "歌",
+          "start": 5.26934,
+          "end": 5.289376
+        }
+      ],
+      "token_start": 4.307636,
+      "token_end": 5.289376,
+      "independent_asr_coverage": 1.0,
+      "start": 4.027138,
+      "end": 5.589908,
+      "rms": 0.215531
+    },
+    {
+      "no": 172,
+      "kind": "example",
+      "display_text": "我从小喜欢运动。",
+      "pinyin": "wǒ cóngxiǎo xǐhuan yùndòng.",
+      "spoken_text": "我从小喜欢运动。",
+      "characters": [
+        {
+          "frame_start": 294,
+          "frame_end": 296,
+          "confidence": 0.9868,
+          "char": "我",
+          "start": 5.890441,
+          "end": 5.930512
+        },
+        {
+          "frame_start": 301,
+          "frame_end": 302,
+          "confidence": 0.9995,
+          "char": "从",
+          "start": 6.03069,
+          "end": 6.050725
+        },
+        {
+          "frame_start": 310,
+          "frame_end": 312,
+          "confidence": 0.9217,
+          "char": "小",
+          "start": 6.211009,
+          "end": 6.25108
+        },
+        {
+          "frame_start": 319,
+          "frame_end": 320,
+          "confidence": 1.0,
+          "char": "喜",
+          "start": 6.391329,
+          "end": 6.411364
+        },
+        {
+          "frame_start": 324,
+          "frame_end": 326,
+          "confidence": 0.9994,
+          "char": "欢",
+          "start": 6.491507,
+          "end": 6.531578
+        },
+        {
+          "frame_start": 330,
+          "frame_end": 331,
+          "confidence": 0.9951,
+          "char": "运",
+          "start": 6.61172,
+          "end": 6.631755
+        },
+        {
+          "frame_start": 340,
+          "frame_end": 342,
+          "confidence": 0.9951,
+          "char": "动",
+          "start": 6.812075,
+          "end": 6.852146
+        }
+      ],
+      "token_start": 5.890441,
+      "token_end": 6.852146,
+      "independent_asr_coverage": 1.0,
+      "start": 5.589908,
+      "end": 7.132643,
+      "rms": 0.239681
+    },
+    {
+      "no": 182,
+      "kind": "example",
+      "display_text": "我经常去图书馆。",
+      "pinyin": "wǒ jīngcháng qù túshūguǎn.",
+      "spoken_text": "我经常去图书馆。",
+      "characters": [
+        {
+          "frame_start": 370,
+          "frame_end": 371,
+          "confidence": 0.9979,
+          "char": "我",
+          "start": 7.41314,
+          "end": 7.433176
+        },
+        {
+          "frame_start": 376,
+          "frame_end": 377,
+          "confidence": 0.9968,
+          "char": "经",
+          "start": 7.533353,
+          "end": 7.553389
+        },
+        {
+          "frame_start": 383,
+          "frame_end": 385,
+          "confidence": 0.9443,
+          "char": "常",
+          "start": 7.673602,
+          "end": 7.713673
+        },
+        {
+          "frame_start": 391,
+          "frame_end": 393,
+          "confidence": 0.9984,
+          "char": "去",
+          "start": 7.833886,
+          "end": 7.873957
+        },
+        {
+          "frame_start": 397,
+          "frame_end": 399,
+          "confidence": 0.935,
+          "char": "图",
+          "start": 7.954099,
+          "end": 7.99417
+        },
+        {
+          "frame_start": 406,
+          "frame_end": 407,
+          "confidence": 0.9957,
+          "char": "书",
+          "start": 8.134419,
+          "end": 8.154454
+        },
+        {
+          "frame_start": 413,
+          "frame_end": 415,
+          "confidence": 0.4355,
+          "char": "馆",
+          "start": 8.274667,
+          "end": 8.314738
+        }
+      ],
+      "token_start": 7.41314,
+      "token_end": 8.314738,
+      "independent_asr_coverage": 1.0,
+      "start": 7.132643,
+      "end": 8.612725,
+      "rms": 0.221312
+    },
+    {
+      "no": 183,
+      "kind": "example",
+      "display_text": "我有时候坐公交车。",
+      "pinyin": "wǒ yǒushíhou zuò gōngjiāochē.",
+      "spoken_text": "我有时候坐公交车。",
+      "characters": [
+        {
+          "frame_start": 121,
+          "frame_end": 122,
+          "confidence": 0.997,
+          "char": "我",
+          "start": 8.910713,
+          "end": 8.930727
+        },
+        {
+          "frame_start": 126,
+          "frame_end": 127,
+          "confidence": 0.9916,
+          "char": "有",
+          "start": 9.010784,
+          "end": 9.030798
+        },
+        {
+          "frame_start": 132,
+          "frame_end": 134,
+          "confidence": 0.9944,
+          "char": "时",
+          "start": 9.130869,
+          "end": 9.170897
+        },
+        {
+          "frame_start": 137,
+          "frame_end": 139,
+          "confidence": 0.914,
+          "char": "候",
+          "start": 9.23094,
+          "end": 9.270968
+        },
+        {
+          "frame_start": 144,
+          "frame_end": 145,
+          "confidence": 0.023,
+          "char": "坐",
+          "start": 9.371039,
+          "end": 9.391053
+        },
+        {
+          "frame_start": 150,
+          "frame_end": 152,
+          "confidence": 0.8744,
+          "char": "公",
+          "start": 9.491124,
+          "end": 9.531152
+        },
+        {
+          "frame_start": 158,
+          "frame_end": 159,
+          "confidence": 0.9405,
+          "char": "交",
+          "start": 9.651237,
+          "end": 9.671251
+        },
+        {
+          "frame_start": 167,
+          "frame_end": 169,
+          "confidence": 0.9975,
+          "char": "车",
+          "start": 9.831365,
+          "end": 9.871393
+        }
+      ],
+      "token_start": 8.910713,
+      "token_end": 9.871393,
+      "independent_asr_coverage": 1.0,
+      "start": 8.612725,
+      "end": 10.211633,
+      "rms": 0.278947
+    },
+    {
+      "no": 184,
+      "kind": "example",
+      "display_text": "我已经吃饭了。",
+      "pinyin": "wǒ yǐjīng chīfàn le.",
+      "spoken_text": "我已经吃饭了。",
+      "characters": [
+        {
+          "frame_start": 203,
+          "frame_end": 205,
+          "confidence": 0.8107,
+          "char": "我",
+          "start": 10.551874,
+          "end": 10.591903
+        },
+        {
+          "frame_start": 208,
+          "frame_end": 209,
+          "confidence": 0.9997,
+          "char": "已",
+          "start": 10.651945,
+          "end": 10.671959
+        },
+        {
+          "frame_start": 212,
+          "frame_end": 213,
+          "confidence": 0.9983,
+          "char": "经",
+          "start": 10.732002,
+          "end": 10.752016
+        },
+        {
+          "frame_start": 220,
+          "frame_end": 221,
+          "confidence": 0.992,
+          "char": "吃",
+          "start": 10.892115,
+          "end": 10.912129
+        },
+        {
+          "frame_start": 229,
+          "frame_end": 230,
+          "confidence": 0.9863,
+          "char": "饭",
+          "start": 11.072242,
+          "end": 11.092257
+        },
+        {
+          "frame_start": 238,
+          "frame_end": 240,
+          "confidence": 0.8798,
+          "char": "了",
+          "start": 11.25237,
+          "end": 11.292398
+        }
+      ],
+      "token_start": 10.551874,
+      "token_end": 11.292398,
+      "independent_asr_coverage": 1.0,
+      "start": 10.211633,
+      "end": 11.452511,
+      "rms": 0.246766
+    },
+    {
+      "no": 185,
+      "kind": "example",
+      "display_text": "我正看书呢。",
+      "pinyin": "wǒ zhèng kàn shū ne.",
+      "spoken_text": "我正看书呢。",
+      "characters": [
+        {
+          "frame_start": 256,
+          "frame_end": 258,
+          "confidence": 0.7955,
+          "char": "我",
+          "start": 11.612625,
+          "end": 11.652653
+        },
+        {
+          "frame_start": 262,
+          "frame_end": 263,
+          "confidence": 0.005,
+          "char": "正",
+          "start": 11.73271,
+          "end": 11.752724
+        },
+        {
+          "frame_start": 268,
+          "frame_end": 270,
+          "confidence": 0.9826,
+          "char": "看",
+          "start": 11.852795,
+          "end": 11.892823
+        },
+        {
+          "frame_start": 278,
+          "frame_end": 279,
+          "confidence": 0.9533,
+          "char": "书",
+          "start": 12.052936,
+          "end": 12.07295
+        },
+        {
+          "frame_start": 288,
+          "frame_end": 289,
+          "confidence": 0.9988,
+          "char": "呢",
+          "start": 12.253078,
+          "end": 12.273092
+        }
+      ],
+      "token_start": 11.612625,
+      "token_end": 12.273092,
+      "independent_asr_coverage": 1.0,
+      "start": 11.452511,
+      "end": 12.473233,
+      "rms": 0.218878
+    },
+    {
+      "no": 186,
+      "kind": "example",
+      "display_text": "我马上就来。",
+      "pinyin": "wǒ mǎshàng jiù lái.",
+      "spoken_text": "我马上就来。",
+      "characters": [
+        {
+          "frame_start": 309,
+          "frame_end": 311,
+          "confidence": 0.9515,
+          "char": "我",
+          "start": 12.673375,
+          "end": 12.713404
+        },
+        {
+          "frame_start": 314,
+          "frame_end": 315,
+          "confidence": 0.9723,
+          "char": "马",
+          "start": 12.773446,
+          "end": 12.79346
+        },
+        {
+          "frame_start": 321,
+          "frame_end": 323,
+          "confidence": 0.7916,
+          "char": "上",
+          "start": 12.913545,
+          "end": 12.953573
+        },
+        {
+          "frame_start": 328,
+          "frame_end": 331,
+          "confidence": 0.9016,
+          "char": "就",
+          "start": 13.053644,
+          "end": 13.113687
+        },
+        {
+          "frame_start": 334,
+          "frame_end": 336,
+          "confidence": 0.6209,
+          "char": "来",
+          "start": 13.173729,
+          "end": 13.213758
+        }
+      ],
+      "token_start": 12.673375,
+      "token_end": 13.213758,
+      "independent_asr_coverage": 1.0,
+      "start": 12.473233,
+      "end": 13.604034,
+      "rms": 0.238587
+    },
+    {
+      "no": 187,
+      "kind": "example",
+      "display_text": "快要下雨了。",
+      "pinyin": "kuàiyào xià yǔ le.",
+      "spoken_text": "快要下雨了。",
+      "characters": [
+        {
+          "frame_start": 375,
+          "frame_end": 377,
+          "confidence": 0.7948,
+          "char": "快",
+          "start": 13.99431,
+          "end": 14.034338
+        },
+        {
+          "frame_start": 380,
+          "frame_end": 381,
+          "confidence": 0.6725,
+          "char": "要",
+          "start": 14.094381,
+          "end": 14.114395
+        },
+        {
+          "frame_start": 386,
+          "frame_end": 387,
+          "confidence": 0.8072,
+          "char": "下",
+          "start": 14.214465,
+          "end": 14.23448
+        },
+        {
+          "frame_start": 395,
+          "frame_end": 396,
+          "confidence": 0.8425,
+          "char": "雨",
+          "start": 14.394593,
+          "end": 14.414607
+        },
+        {
+          "frame_start": 403,
+          "frame_end": 404,
+          "confidence": 0.9957,
+          "char": "了",
+          "start": 14.554706,
+          "end": 14.57472
+        }
+      ],
+      "token_start": 13.99431,
+      "token_end": 14.57472,
+      "independent_asr_coverage": 1.0,
+      "start": 13.604034,
+      "end": 14.784869,
+      "rms": 0.182319
+    },
+    {
+      "no": 188,
+      "kind": "example",
+      "display_text": "我们开始上课吧。",
+      "pinyin": "wǒmen kāishǐ shàngkè ba.",
+      "spoken_text": "我们开始上课吧。",
+      "characters": [
+        {
+          "frame_start": 425,
+          "frame_end": 426,
+          "confidence": 0.9996,
+          "char": "我",
+          "start": 14.995018,
+          "end": 15.015032
+        },
+        {
+          "frame_start": 428,
+          "frame_end": 430,
+          "confidence": 0.9979,
+          "char": "们",
+          "start": 15.05506,
+          "end": 15.095088
+        },
+        {
+          "frame_start": 433,
+          "frame_end": 434,
+          "confidence": 0.9988,
+          "char": "开",
+          "start": 15.155131,
+          "end": 15.175145
+        },
+        {
+          "frame_start": 439,
+          "frame_end": 440,
+          "confidence": 0.9978,
+          "char": "始",
+          "start": 15.275216,
+          "end": 15.29523
+        },
+        {
+          "frame_start": 443,
+          "frame_end": 445,
+          "confidence": 0.864,
+          "char": "上",
+          "start": 15.355273,
+          "end": 15.395301
+        },
+        {
+          "frame_start": 451,
+          "frame_end": 453,
+          "confidence": 0.6304,
+          "char": "课",
+          "start": 15.515386,
+          "end": 15.555414
+        },
+        {
+          "frame_start": 460,
+          "frame_end": 461,
+          "confidence": 0.9989,
+          "char": "吧",
+          "start": 15.695513,
+          "end": 15.715527
+        }
+      ],
+      "token_start": 14.995018,
+      "token_end": 15.715527,
+      "independent_asr_coverage": 1.0,
+      "start": 14.784869,
+      "end": 16.033092,
+      "rms": 0.173047
+    },
+    {
+      "no": 189,
+      "kind": "example",
+      "display_text": "今天是我的生日。",
+      "pinyin": "jīntiān shì wǒ de shēngrì.",
+      "spoken_text": "今天是我的生日。",
+      "characters": [
+        {
+          "frame_start": 122,
+          "frame_end": 123,
+          "confidence": 0.9988,
+          "char": "今",
+          "start": 16.350656,
+          "end": 16.370678
+        },
+        {
+          "frame_start": 128,
+          "frame_end": 129,
+          "confidence": 0.9938,
+          "char": "天",
+          "start": 16.470787,
+          "end": 16.490809
+        },
+        {
+          "frame_start": 135,
+          "frame_end": 137,
+          "confidence": 0.9612,
+          "char": "是",
+          "start": 16.610939,
+          "end": 16.650983
+        },
+        {
+          "frame_start": 140,
+          "frame_end": 142,
+          "confidence": 0.9981,
+          "char": "我",
+          "start": 16.711048,
+          "end": 16.751092
+        },
+        {
+          "frame_start": 145,
+          "frame_end": 146,
+          "confidence": 0.9988,
+          "char": "的",
+          "start": 16.811157,
+          "end": 16.831179
+        },
+        {
+          "frame_start": 149,
+          "frame_end": 150,
+          "confidence": 0.9629,
+          "char": "生",
+          "start": 16.891244,
+          "end": 16.911266
+        },
+        {
+          "frame_start": 159,
+          "frame_end": 162,
+          "confidence": 0.9721,
+          "char": "日",
+          "start": 17.091462,
+          "end": 17.151527
+        }
+      ],
+      "token_start": 16.350656,
+      "token_end": 17.151527,
+      "independent_asr_coverage": 1.0,
+      "start": 16.033092,
+      "end": 17.481887,
+      "rms": 0.307314
+    },
+    {
+      "no": 190,
+      "kind": "example",
+      "display_text": "我回家过年。",
+      "pinyin": "wǒ huí jiā guònián.",
+      "spoken_text": "我回家过年。",
+      "characters": [
+        {
+          "frame_start": 195,
+          "frame_end": 196,
+          "confidence": 0.9985,
+          "char": "我",
+          "start": 17.812246,
+          "end": 17.832267
+        },
+        {
+          "frame_start": 200,
+          "frame_end": 202,
+          "confidence": 0.9972,
+          "char": "回",
+          "start": 17.912355,
+          "end": 17.952398
+        },
+        {
+          "frame_start": 206,
+          "frame_end": 207,
+          "confidence": 0.9998,
+          "char": "家",
+          "start": 18.032485,
+          "end": 18.052507
+        },
+        {
+          "frame_start": 214,
+          "frame_end": 216,
+          "confidence": 0.98,
+          "char": "过",
+          "start": 18.192659,
+          "end": 18.232703
+        },
+        {
+          "frame_start": 221,
+          "frame_end": 223,
+          "confidence": 0.9767,
+          "char": "年",
+          "start": 18.332812,
+          "end": 18.372855
+        }
+      ],
+      "token_start": 17.812246,
+      "token_end": 18.372855,
+      "independent_asr_coverage": 1.0,
+      "start": 17.481887,
+      "end": 18.713226,
+      "rms": 0.200051
+    },
+    {
+      "no": 194,
+      "kind": "example",
+      "display_text": "我哥哥在高中上学。",
+      "pinyin": "wǒ gēge zài gāozhōng shàngxué.",
+      "spoken_text": "我哥哥在高中上学。",
+      "characters": [
+        {
+          "frame_start": 257,
+          "frame_end": 258,
+          "confidence": 0.9991,
+          "char": "我",
+          "start": 19.053596,
+          "end": 19.073617
+        },
+        {
+          "frame_start": 263,
+          "frame_end": 264,
+          "confidence": 0.9973,
+          "char": "哥",
+          "start": 19.173726,
+          "end": 19.193748
+        },
+        {
+          "frame_start": 269,
+          "frame_end": 271,
+          "confidence": 0.892,
+          "char": "哥",
+          "start": 19.293857,
+          "end": 19.3339
+        },
+        {
+          "frame_start": 275,
+          "frame_end": 276,
+          "confidence": 0.9956,
+          "char": "在",
+          "start": 19.413988,
+          "end": 19.434009
+        },
+        {
+          "frame_start": 281,
+          "frame_end": 282,
+          "confidence": 0.9997,
+          "char": "高",
+          "start": 19.534118,
+          "end": 19.55414
+        },
+        {
+          "frame_start": 288,
+          "frame_end": 289,
+          "confidence": 0.9978,
+          "char": "中",
+          "start": 19.674271,
+          "end": 19.694292
+        },
+        {
+          "frame_start": 295,
+          "frame_end": 296,
+          "confidence": 0.9565,
+          "char": "上",
+          "start": 19.814423,
+          "end": 19.834445
+        },
+        {
+          "frame_start": 304,
+          "frame_end": 307,
+          "confidence": 0.859,
+          "char": "学",
+          "start": 19.994619,
+          "end": 20.054684
+        }
+      ],
+      "token_start": 19.053596,
+      "token_end": 20.054684,
+      "independent_asr_coverage": 1.0,
+      "start": 18.713226,
+      "end": 20.405065,
+      "rms": 0.229007
+    },
+    {
+      "no": 196,
+      "kind": "example",
+      "display_text": "我们班有十个人。",
+      "pinyin": "wǒmen bān yǒu shí ge rén.",
+      "spoken_text": "我们班有十个人。",
+      "characters": [
+        {
+          "frame_start": 342,
+          "frame_end": 343,
+          "confidence": 0.9999,
+          "char": "我",
+          "start": 20.755446,
+          "end": 20.775468
+        },
+        {
+          "frame_start": 346,
+          "frame_end": 348,
+          "confidence": 0.9715,
+          "char": "们",
+          "start": 20.835533,
+          "end": 20.875577
+        },
+        {
+          "frame_start": 352,
+          "frame_end": 354,
+          "confidence": 0.8896,
+          "char": "班",
+          "start": 20.955664,
+          "end": 20.995708
+        },
+        {
+          "frame_start": 359,
+          "frame_end": 360,
+          "confidence": 0.987,
+          "char": "有",
+          "start": 21.095816,
+          "end": 21.115838
+        },
+        {
+          "frame_start": 368,
+          "frame_end": 369,
+          "confidence": 0.7799,
+          "char": "十",
+          "start": 21.276012,
+          "end": 21.296034
+        },
+        {
+          "frame_start": 378,
+          "frame_end": 379,
+          "confidence": 0.9995,
+          "char": "个",
+          "start": 21.47623,
+          "end": 21.496252
+        },
+        {
+          "frame_start": 383,
+          "frame_end": 384,
+          "confidence": 0.9966,
+          "char": "人",
+          "start": 21.576339,
+          "end": 21.596361
+        }
+      ],
+      "token_start": 20.755446,
+      "token_end": 21.596361,
+      "independent_asr_coverage": 1.0,
+      "start": 20.405065,
+      "end": 21.846633,
+      "rms": 0.268929
+    },
+    {
+      "no": 197,
+      "kind": "example",
+      "display_text": "学生们在教室里。",
+      "pinyin": "xuéshēngmen zài jiàoshì lǐ.",
+      "spoken_text": "学生们在教室里。",
+      "characters": [
+        {
+          "frame_start": 409,
+          "frame_end": 412,
+          "confidence": 0.7874,
+          "char": "学",
+          "start": 22.096905,
+          "end": 22.15697
+        },
+        {
+          "frame_start": 417,
+          "frame_end": 419,
+          "confidence": 0.9142,
+          "char": "生",
+          "start": 22.257079,
+          "end": 22.297123
+        },
+        {
+          "frame_start": 423,
+          "frame_end": 424,
+          "confidence": 0.9933,
+          "char": "们",
+          "start": 22.37721,
+          "end": 22.397232
+        },
+        {
+          "frame_start": 429,
+          "frame_end": 430,
+          "confidence": 0.9927,
+          "char": "在",
+          "start": 22.497341,
+          "end": 22.517362
+        },
+        {
+          "frame_start": 434,
+          "frame_end": 437,
+          "confidence": 0.968,
+          "char": "教",
+          "start": 22.597449,
+          "end": 22.657515
+        },
+        {
+          "frame_start": 445,
+          "frame_end": 446,
+          "confidence": 0.7391,
+          "char": "室",
+          "start": 22.817689,
+          "end": 22.837711
+        },
+        {
+          "frame_start": 454,
+          "frame_end": 455,
+          "confidence": 0.8821,
+          "char": "里",
+          "start": 22.997885,
+          "end": 23.017907
+        }
+      ],
+      "token_start": 22.096905,
+      "token_end": 23.017907,
+      "independent_asr_coverage": 1.0,
+      "start": 21.846633,
+      "end": 23.50844,
+      "rms": 0.204422
+    },
+    {
+      "no": 204,
+      "kind": "example",
+      "display_text": "明天学校开学。",
+      "pinyin": "míngtiān xuéxiào kāixué.",
+      "spoken_text": "明天学校开学。",
+      "characters": [
+        {
+          "frame_start": 504,
+          "frame_end": 506,
+          "confidence": 0.9998,
+          "char": "明",
+          "start": 23.998974,
+          "end": 24.039017
+        },
+        {
+          "frame_start": 511,
+          "frame_end": 513,
+          "confidence": 0.7424,
+          "char": "天",
+          "start": 24.139126,
+          "end": 24.17917
+        },
+        {
+          "frame_start": 518,
+          "frame_end": 521,
+          "confidence": 0.8901,
+          "char": "学",
+          "start": 24.279278,
+          "end": 24.339344
+        },
+        {
+          "frame_start": 525,
+          "frame_end": 527,
+          "confidence": 0.998,
+          "char": "校",
+          "start": 24.419431,
+          "end": 24.459474
+        },
+        {
+          "frame_start": 534,
+          "frame_end": 535,
+          "confidence": 0.9999,
+          "char": "开",
+          "start": 24.599627,
+          "end": 24.619649
+        },
+        {
+          "frame_start": 542,
+          "frame_end": 545,
+          "confidence": 0.9103,
+          "char": "学",
+          "start": 24.759801,
+          "end": 24.819866
+        }
+      ],
+      "token_start": 23.998974,
+      "token_end": 24.819866,
+      "independent_asr_coverage": 1.0,
+      "start": 23.50844,
+      "end": 25.079245,
+      "rms": 0.235815
+    },
+    {
+      "no": 208,
+      "kind": "example",
+      "display_text": "我明天考汉语。",
+      "pinyin": "wǒ míngtiān kǎo Hànyǔ.",
+      "spoken_text": "我明天考汉语。",
+      "characters": [
+        {
+          "frame_start": 120,
+          "frame_end": 121,
+          "confidence": 0.9999,
+          "char": "我",
+          "start": 25.338623,
+          "end": 25.358653
+        },
+        {
+          "frame_start": 125,
+          "frame_end": 126,
+          "confidence": 0.9998,
+          "char": "明",
+          "start": 25.438774,
+          "end": 25.458804
+        },
+        {
+          "frame_start": 132,
+          "frame_end": 133,
+          "confidence": 0.9996,
+          "char": "天",
+          "start": 25.578986,
+          "end": 25.599016
+        },
+        {
+          "frame_start": 140,
+          "frame_end": 141,
+          "confidence": 0.9995,
+          "char": "考",
+          "start": 25.739227,
+          "end": 25.759257
+        },
+        {
+          "frame_start": 148,
+          "frame_end": 149,
+          "confidence": 0.9445,
+          "char": "汉",
+          "start": 25.899469,
+          "end": 25.919499
+        },
+        {
+          "frame_start": 159,
+          "frame_end": 160,
+          "confidence": 0.9898,
+          "char": "语",
+          "start": 26.119801,
+          "end": 26.139831
+        }
+      ],
+      "token_start": 25.338623,
+      "token_end": 26.139831,
+      "independent_asr_coverage": 1.0,
+      "start": 25.079245,
+      "end": 26.360163,
+      "rms": 0.230407
+    },
+    {
+      "no": 209,
+      "kind": "example",
+      "display_text": "明天有考试。",
+      "pinyin": "míngtiān yǒu kǎoshì.",
+      "spoken_text": "明天有考试。",
+      "characters": [
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.9996,
+          "char": "明",
+          "start": 26.580495,
+          "end": 26.600525
+        },
+        {
+          "frame_start": 189,
+          "frame_end": 190,
+          "confidence": 0.9993,
+          "char": "天",
+          "start": 26.720707,
+          "end": 26.740737
+        },
+        {
+          "frame_start": 195,
+          "frame_end": 196,
+          "confidence": 0.9994,
+          "char": "有",
+          "start": 26.840888,
+          "end": 26.860918
+        },
+        {
+          "frame_start": 201,
+          "frame_end": 202,
+          "confidence": 0.9997,
+          "char": "考",
+          "start": 26.961069,
+          "end": 26.981099
+        },
+        {
+          "frame_start": 213,
+          "frame_end": 214,
+          "confidence": 0.9996,
+          "char": "试",
+          "start": 27.201431,
+          "end": 27.221461
+        }
+      ],
+      "token_start": 26.580495,
+      "token_end": 27.221461,
+      "independent_asr_coverage": 1.0,
+      "start": 26.360163,
+      "end": 27.59202,
+      "rms": 0.160145
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 251,
+          "frame_end": 252,
+          "confidence": 0.9996,
+          "char": "好",
+          "start": 27.962579,
+          "end": 27.982609
+        },
+        {
+          "frame_start": 261,
+          "frame_end": 262,
+          "confidence": 0.9956,
+          "char": "的",
+          "start": 28.16288,
+          "end": 28.182911
+        }
+      ],
+      "token_start": 27.962579,
+      "token_end": 28.182911,
+      "independent_asr_coverage": 1.0,
+      "start": 27.59202,
+      "end": 28.463333,
+      "rms": 0.121932
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 0.9961,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 6,
+      "start": 0,
+      "end": 10.719000000000001,
+      "greedy_transcript": "请 等 一 会  下夏 周 我 去北京 我小 时候喜 欢 话话 我 小时候喜欢 唱 歌 我从 小喜 欢运动 我 经常 去 图书馆管我有时候做公交 C车   我已",
+      "oov": []
+    },
+    {
+      "first": 5,
+      "last": 12,
+      "start": 6.489000000000001,
+      "end": 17.796999999999997,
+      "greedy_transcript": "运动 我 经 C常 去 图书 馆  我 有 时候 做公交 C车   我已经 C吃 饭 了  我 真 看 C书 呢 我 马上 就 L来  快要 下 雨 了 我们 开 始上 课 吧 今 天 是 我 的 生 日",
+      "oov": []
+    },
+    {
+      "first": 11,
+      "last": 18,
+      "start": 13.908,
+      "end": 26.782,
+      "greedy_transcript": "快要 下 雨 了 我们 开始上 课 吧  今 天是我的生 日我回家 过 年 我 哥哥 在 高中上学 我们 班 有十 个 人 学生 们在教 室 里 明 天学校 开学我明 天 考 汉 语明 天",
+      "oov": []
+    },
+    {
+      "first": 17,
+      "last": 20,
+      "start": 22.935,
+      "end": 28.463333333333335,
+      "greedy_transcript": "里明天学校开学我明天考汉语明天有考试好的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}

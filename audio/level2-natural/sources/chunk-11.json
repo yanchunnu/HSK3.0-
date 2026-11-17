@@ -1,0 +1,207 @@
+{
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "她个子很高。\n\n我们一起学习吧。\n\n好的。"
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=674815ec187e4b77823eaaf24fc8a76e.wav",
+    "duration": 3.860861678004535,
+    "original_characters": [
+      {
+        "text": "她",
+        "start_time": 0.299,
+        "end_time": 0.469
+      },
+      {
+        "text": "个",
+        "start_time": 0.469,
+        "end_time": 0.64
+      },
+      {
+        "text": "子",
+        "start_time": 0.64,
+        "end_time": 0.725
+      },
+      {
+        "text": "很",
+        "start_time": 0.725,
+        "end_time": 0.896
+      },
+      {
+        "text": "高",
+        "start_time": 0.896,
+        "end_time": 1.109
+      },
+      {
+        "text": "。",
+        "start_time": 1.109,
+        "end_time": 1.493
+      },
+      {
+        "text": "\n",
+        "start_time": 1.493,
+        "end_time": 1.515
+      },
+      {
+        "text": "\n",
+        "start_time": 1.515,
+        "end_time": 1.536
+      },
+      {
+        "text": "我",
+        "start_time": 1.536,
+        "end_time": 1.707
+      },
+      {
+        "text": "们",
+        "start_time": 1.707,
+        "end_time": 1.792
+      },
+      {
+        "text": "一",
+        "start_time": 1.792,
+        "end_time": 1.877
+      },
+      {
+        "text": "起",
+        "start_time": 1.877,
+        "end_time": 2.048
+      },
+      {
+        "text": "学",
+        "start_time": 2.048,
+        "end_time": 2.219
+      },
+      {
+        "text": "习",
+        "start_time": 2.219,
+        "end_time": 2.432
+      },
+      {
+        "text": "吧",
+        "start_time": 2.432,
+        "end_time": 2.56
+      },
+      {
+        "text": "。",
+        "start_time": 2.56,
+        "end_time": 3.115
+      },
+      {
+        "text": "\n",
+        "start_time": 3.115,
+        "end_time": 3.136
+      },
+      {
+        "text": "\n",
+        "start_time": 3.136,
+        "end_time": 3.157
+      },
+      {
+        "text": "好",
+        "start_time": 3.157,
+        "end_time": 3.328
+      },
+      {
+        "text": "的",
+        "start_time": 3.328,
+        "end_time": 3.456
+      },
+      {
+        "text": "。",
+        "start_time": 3.456,
+        "end_time": 3.755
+      }
+    ],
+    "original_words": [
+      {
+        "text": "她",
+        "start_time": 0.299,
+        "end_time": 0.469
+      },
+      {
+        "text": "个",
+        "start_time": 0.469,
+        "end_time": 0.64
+      },
+      {
+        "text": "子",
+        "start_time": 0.64,
+        "end_time": 0.725
+      },
+      {
+        "text": "很",
+        "start_time": 0.725,
+        "end_time": 0.896
+      },
+      {
+        "text": "高",
+        "start_time": 0.896,
+        "end_time": 1.109
+      },
+      {
+        "text": "我",
+        "start_time": 1.536,
+        "end_time": 1.707
+      },
+      {
+        "text": "们",
+        "start_time": 1.707,
+        "end_time": 1.792
+      },
+      {
+        "text": "一",
+        "start_time": 1.792,
+        "end_time": 1.877
+      },
+      {
+        "text": "起",
+        "start_time": 1.877,
+        "end_time": 2.048
+      },
+      {
+        "text": "学",
+        "start_time": 2.048,
+        "end_time": 2.219
+      },
+      {
+        "text": "习",
+        "start_time": 2.219,
+        "end_time": 2.432
+      },
+      {
+        "text": "吧",
+        "start_time": 2.432,
+        "end_time": 2.56
+      },
+      {
+        "text": "好",
+        "start_time": 3.157,
+        "end_time": 3.328
+      },
+      {
+        "text": "的",
+        "start_time": 3.328,
+        "end_time": 3.456
+      }
+    ]
+  },
+  "source": {
+    "chunk": 11,
+    "file": "audio/level2-natural/sources/chunk-11.flac",
+    "metadata": "audio/level2-natural/sources/chunk-11.json",
+    "script": "audio/level2-natural/sources/chunk-11.txt",
+    "sha256": "04294aef2660137f6308a36d2b0a2f06e6e4e33846b17538e28ce0e81fa9cf04",
+    "duration_seconds": 3.860861678004535,
+    "original_native_sha256": "944f84be59c70b8273838926e54edf5e9595a5f5f0e66b6bedd7d3e7e53ed1df",
+    "decoded_pcm_sha256": "2a67e15f41976cfacdfe2a6c7b7eb5f72a78e1adf33d7d0f4a78b4469abef8b9",
+    "archive_format": "flac (lossless)"
+  },
+  "model_requested": null,
+  "model_returned": null,
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "direct_listening": false
+}

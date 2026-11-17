@@ -1,0 +1,1350 @@
+{
+  "chunk": 5,
+  "duration_seconds": 27.541625,
+  "units": [
+    {
+      "no": 274,
+      "kind": "example",
+      "display_text": "我想点一杯奶茶。",
+      "pinyin": "wǒ xiǎng diǎn yì bēi nǎichá.",
+      "spoken_text": "我想点一杯奶茶。",
+      "characters": [
+        {
+          "frame_start": 15,
+          "frame_end": 17,
+          "confidence": 0.9778,
+          "char": "我",
+          "start": 0.300661,
+          "end": 0.340749
+        },
+        {
+          "frame_start": 20,
+          "frame_end": 21,
+          "confidence": 0.9955,
+          "char": "想",
+          "start": 0.400881,
+          "end": 0.420925
+        },
+        {
+          "frame_start": 28,
+          "frame_end": 29,
+          "confidence": 0.6583,
+          "char": "点",
+          "start": 0.561234,
+          "end": 0.581278
+        },
+        {
+          "frame_start": 34,
+          "frame_end": 35,
+          "confidence": 0.163,
+          "char": "一",
+          "start": 0.681498,
+          "end": 0.701542
+        },
+        {
+          "frame_start": 38,
+          "frame_end": 40,
+          "confidence": 0.8313,
+          "char": "杯",
+          "start": 0.761674,
+          "end": 0.801762
+        },
+        {
+          "frame_start": 45,
+          "frame_end": 46,
+          "confidence": 0.9417,
+          "char": "奶",
+          "start": 0.901983,
+          "end": 0.922027
+        },
+        {
+          "frame_start": 54,
+          "frame_end": 55,
+          "confidence": 0.0345,
+          "char": "茶",
+          "start": 1.082379,
+          "end": 1.102423
+        }
+      ],
+      "token_start": 0.300661,
+      "token_end": 1.102423,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 1.443172,
+      "rms": 0.208177
+    },
+    {
+      "no": 278,
+      "kind": "example",
+      "display_text": "我花了十块钱。",
+      "pinyin": "wǒ huā le shí kuài qián.",
+      "spoken_text": "我花了十块钱。",
+      "characters": [
+        {
+          "frame_start": 89,
+          "frame_end": 90,
+          "confidence": 0.7131,
+          "char": "我",
+          "start": 1.783921,
+          "end": 1.803966
+        },
+        {
+          "frame_start": 96,
+          "frame_end": 97,
+          "confidence": 0.9079,
+          "char": "花",
+          "start": 1.92423,
+          "end": 1.944274
+        },
+        {
+          "frame_start": 102,
+          "frame_end": 103,
+          "confidence": 0.9909,
+          "char": "了",
+          "start": 2.044494,
+          "end": 2.064538
+        },
+        {
+          "frame_start": 107,
+          "frame_end": 108,
+          "confidence": 0.0635,
+          "char": "十",
+          "start": 2.144715,
+          "end": 2.164759
+        },
+        {
+          "frame_start": 115,
+          "frame_end": 117,
+          "confidence": 0.6537,
+          "char": "块",
+          "start": 2.305067,
+          "end": 2.345155
+        },
+        {
+          "frame_start": 123,
+          "frame_end": 126,
+          "confidence": 0.6146,
+          "char": "钱",
+          "start": 2.46542,
+          "end": 2.525552
+        }
+      ],
+      "token_start": 1.783921,
+      "token_end": 2.525552,
+      "independent_asr_coverage": 1.0,
+      "start": 1.443172,
+      "end": 2.886345,
+      "rms": 0.148471
+    },
+    {
+      "no": 284,
+      "kind": "example",
+      "display_text": "我去商场买衣服。",
+      "pinyin": "wǒ qù shāngchǎng mǎi yīfu.",
+      "spoken_text": "我去商场买衣服。",
+      "characters": [
+        {
+          "frame_start": 162,
+          "frame_end": 163,
+          "confidence": 0.9946,
+          "char": "我",
+          "start": 3.247138,
+          "end": 3.267182
+        },
+        {
+          "frame_start": 167,
+          "frame_end": 169,
+          "confidence": 0.9966,
+          "char": "去",
+          "start": 3.347358,
+          "end": 3.387446
+        },
+        {
+          "frame_start": 172,
+          "frame_end": 175,
+          "confidence": 0.3379,
+          "char": "商",
+          "start": 3.447579,
+          "end": 3.507711
+        },
+        {
+          "frame_start": 180,
+          "frame_end": 181,
+          "confidence": 0.0138,
+          "char": "场",
+          "start": 3.607931,
+          "end": 3.627975
+        },
+        {
+          "frame_start": 188,
+          "frame_end": 189,
+          "confidence": 0.953,
+          "char": "买",
+          "start": 3.768284,
+          "end": 3.788328
+        },
+        {
+          "frame_start": 195,
+          "frame_end": 196,
+          "confidence": 0.8399,
+          "char": "衣",
+          "start": 3.908592,
+          "end": 3.928636
+        },
+        {
+          "frame_start": 208,
+          "frame_end": 209,
+          "confidence": 0.95,
+          "char": "服",
+          "start": 4.169165,
+          "end": 4.189209
+        }
+      ],
+      "token_start": 3.247138,
+      "token_end": 4.189209,
+      "independent_asr_coverage": 1.0,
+      "start": 2.886345,
+      "end": 4.529958,
+      "rms": 0.223864
+    },
+    {
+      "no": 286,
+      "kind": "example",
+      "display_text": "这是我的包。",
+      "pinyin": "zhè shì wǒ de bāo.",
+      "spoken_text": "这是我的包。",
+      "characters": [
+        {
+          "frame_start": 243,
+          "frame_end": 245,
+          "confidence": 0.9704,
+          "char": "这",
+          "start": 4.870707,
+          "end": 4.910795
+        },
+        {
+          "frame_start": 248,
+          "frame_end": 250,
+          "confidence": 0.9953,
+          "char": "是",
+          "start": 4.970927,
+          "end": 5.011015
+        },
+        {
+          "frame_start": 253,
+          "frame_end": 255,
+          "confidence": 0.9813,
+          "char": "我",
+          "start": 5.071148,
+          "end": 5.111236
+        },
+        {
+          "frame_start": 259,
+          "frame_end": 260,
+          "confidence": 0.9908,
+          "char": "的",
+          "start": 5.191412,
+          "end": 5.211456
+        },
+        {
+          "frame_start": 265,
+          "frame_end": 266,
+          "confidence": 0.9923,
+          "char": "包",
+          "start": 5.311676,
+          "end": 5.33172
+        }
+      ],
+      "token_start": 4.870707,
+      "token_end": 5.33172,
+      "independent_asr_coverage": 1.0,
+      "start": 4.529958,
+      "end": 5.662447,
+      "rms": 0.186754
+    },
+    {
+      "no": 288,
+      "kind": "example",
+      "display_text": "这条裤子很漂亮。",
+      "pinyin": "zhè tiáo kùzi hěn piàoliang.",
+      "spoken_text": "这条裤子很漂亮。",
+      "characters": [
+        {
+          "frame_start": 299,
+          "frame_end": 301,
+          "confidence": 0.9881,
+          "char": "这",
+          "start": 5.993174,
+          "end": 6.033262
+        },
+        {
+          "frame_start": 304,
+          "frame_end": 306,
+          "confidence": 0.954,
+          "char": "条",
+          "start": 6.093395,
+          "end": 6.133483
+        },
+        {
+          "frame_start": 313,
+          "frame_end": 314,
+          "confidence": 0.6189,
+          "char": "裤",
+          "start": 6.273791,
+          "end": 6.293835
+        },
+        {
+          "frame_start": 320,
+          "frame_end": 321,
+          "confidence": 0.0443,
+          "char": "子",
+          "start": 6.4141,
+          "end": 6.434144
+        },
+        {
+          "frame_start": 325,
+          "frame_end": 326,
+          "confidence": 0.9477,
+          "char": "很",
+          "start": 6.51432,
+          "end": 6.534364
+        },
+        {
+          "frame_start": 334,
+          "frame_end": 337,
+          "confidence": 0.0643,
+          "char": "漂",
+          "start": 6.694716,
+          "end": 6.754849
+        },
+        {
+          "frame_start": 348,
+          "frame_end": 349,
+          "confidence": 0.1455,
+          "char": "亮",
+          "start": 6.975333,
+          "end": 6.995377
+        }
+      ],
+      "token_start": 5.993174,
+      "token_end": 6.995377,
+      "independent_asr_coverage": 1.0,
+      "start": 5.662447,
+      "end": 7.265972,
+      "rms": 0.169517
+    },
+    {
+      "no": 289,
+      "kind": "example",
+      "display_text": "这是我的手表。",
+      "pinyin": "zhè shì wǒ de shǒubiǎo.",
+      "spoken_text": "这是我的手表。",
+      "characters": [
+        {
+          "frame_start": 376,
+          "frame_end": 378,
+          "confidence": 0.9335,
+          "char": "这",
+          "start": 7.536567,
+          "end": 7.576655
+        },
+        {
+          "frame_start": 381,
+          "frame_end": 383,
+          "confidence": 0.9881,
+          "char": "是",
+          "start": 7.636787,
+          "end": 7.676875
+        },
+        {
+          "frame_start": 385,
+          "frame_end": 387,
+          "confidence": 0.7307,
+          "char": "我",
+          "start": 7.716964,
+          "end": 7.757052
+        },
+        {
+          "frame_start": 390,
+          "frame_end": 391,
+          "confidence": 0.9612,
+          "char": "的",
+          "start": 7.817184,
+          "end": 7.837228
+        },
+        {
+          "frame_start": 396,
+          "frame_end": 397,
+          "confidence": 0.3096,
+          "char": "手",
+          "start": 7.937448,
+          "end": 7.957492
+        },
+        {
+          "frame_start": 407,
+          "frame_end": 409,
+          "confidence": 0.9015,
+          "char": "表",
+          "start": 8.157933,
+          "end": 8.198021
+        }
+      ],
+      "token_start": 7.536567,
+      "token_end": 8.198021,
+      "independent_asr_coverage": 1.0,
+      "start": 7.265972,
+      "end": 8.540859,
+      "rms": 0.195061
+    },
+    {
+      "no": 290,
+      "kind": "example",
+      "display_text": "我买了两张票。",
+      "pinyin": "wǒ mǎi le liǎng zhāng piào.",
+      "spoken_text": "我买了两张票。",
+      "characters": [
+        {
+          "frame_start": 109,
+          "frame_end": 110,
+          "confidence": 0.9996,
+          "char": "我",
+          "start": 8.883697,
+          "end": 8.903713
+        },
+        {
+          "frame_start": 114,
+          "frame_end": 116,
+          "confidence": 0.9409,
+          "char": "买",
+          "start": 8.983775,
+          "end": 9.023806
+        },
+        {
+          "frame_start": 121,
+          "frame_end": 122,
+          "confidence": 0.9961,
+          "char": "了",
+          "start": 9.123884,
+          "end": 9.1439
+        },
+        {
+          "frame_start": 126,
+          "frame_end": 127,
+          "confidence": 0.9973,
+          "char": "两",
+          "start": 9.223962,
+          "end": 9.243978
+        },
+        {
+          "frame_start": 135,
+          "frame_end": 136,
+          "confidence": 0.586,
+          "char": "张",
+          "start": 9.404102,
+          "end": 9.424118
+        },
+        {
+          "frame_start": 144,
+          "frame_end": 146,
+          "confidence": 0.9644,
+          "char": "票",
+          "start": 9.584242,
+          "end": 9.624273
+        }
+      ],
+      "token_start": 8.883697,
+      "token_end": 9.624273,
+      "independent_asr_coverage": 1.0,
+      "start": 8.540859,
+      "end": 9.894483,
+      "rms": 0.284753
+    },
+    {
+      "no": 291,
+      "kind": "example",
+      "display_text": "我买了两张门票。",
+      "pinyin": "wǒ mǎi le liǎng zhāng ménpiào.",
+      "spoken_text": "我买了两张门票。",
+      "characters": [
+        {
+          "frame_start": 173,
+          "frame_end": 175,
+          "confidence": 0.8545,
+          "char": "我",
+          "start": 10.164694,
+          "end": 10.204725
+        },
+        {
+          "frame_start": 178,
+          "frame_end": 180,
+          "confidence": 0.9965,
+          "char": "买",
+          "start": 10.264772,
+          "end": 10.304803
+        },
+        {
+          "frame_start": 184,
+          "frame_end": 186,
+          "confidence": 0.9141,
+          "char": "了",
+          "start": 10.384865,
+          "end": 10.424896
+        },
+        {
+          "frame_start": 189,
+          "frame_end": 190,
+          "confidence": 0.9967,
+          "char": "两",
+          "start": 10.484943,
+          "end": 10.504958
+        },
+        {
+          "frame_start": 197,
+          "frame_end": 198,
+          "confidence": 0.4861,
+          "char": "张",
+          "start": 10.645067,
+          "end": 10.665083
+        },
+        {
+          "frame_start": 204,
+          "frame_end": 205,
+          "confidence": 0.9965,
+          "char": "门",
+          "start": 10.785176,
+          "end": 10.805192
+        },
+        {
+          "frame_start": 212,
+          "frame_end": 215,
+          "confidence": 0.8486,
+          "char": "票",
+          "start": 10.945301,
+          "end": 11.005348
+        }
+      ],
+      "token_start": 10.164694,
+      "token_end": 11.005348,
+      "independent_asr_coverage": 1.0,
+      "start": 9.894483,
+      "end": 11.285566,
+      "rms": 0.250905
+    },
+    {
+      "no": 292,
+      "kind": "example",
+      "display_text": "我喜欢白色。",
+      "pinyin": "wǒ xǐhuan báisè.",
+      "spoken_text": "我喜欢白色。",
+      "characters": [
+        {
+          "frame_start": 243,
+          "frame_end": 244,
+          "confidence": 0.9842,
+          "char": "我",
+          "start": 11.565784,
+          "end": 11.585799
+        },
+        {
+          "frame_start": 249,
+          "frame_end": 250,
+          "confidence": 0.9999,
+          "char": "喜",
+          "start": 11.685877,
+          "end": 11.705893
+        },
+        {
+          "frame_start": 254,
+          "frame_end": 256,
+          "confidence": 0.9994,
+          "char": "欢",
+          "start": 11.785955,
+          "end": 11.825986
+        },
+        {
+          "frame_start": 262,
+          "frame_end": 264,
+          "confidence": 0.8926,
+          "char": "白",
+          "start": 11.94608,
+          "end": 11.986111
+        },
+        {
+          "frame_start": 275,
+          "frame_end": 276,
+          "confidence": 0.9926,
+          "char": "色",
+          "start": 12.206282,
+          "end": 12.226298
+        }
+      ],
+      "token_start": 11.565784,
+      "token_end": 12.226298,
+      "independent_asr_coverage": 1.0,
+      "start": 11.285566,
+      "end": 12.436462,
+      "rms": 0.142818
+    },
+    {
+      "no": 293,
+      "kind": "example",
+      "display_text": "我喜欢黑色。",
+      "pinyin": "wǒ xǐhuan hēisè.",
+      "spoken_text": "我喜欢黑色。",
+      "characters": [
+        {
+          "frame_start": 297,
+          "frame_end": 299,
+          "confidence": 0.8725,
+          "char": "我",
+          "start": 12.646625,
+          "end": 12.686656
+        },
+        {
+          "frame_start": 303,
+          "frame_end": 304,
+          "confidence": 0.9999,
+          "char": "喜",
+          "start": 12.766718,
+          "end": 12.786734
+        },
+        {
+          "frame_start": 307,
+          "frame_end": 310,
+          "confidence": 0.955,
+          "char": "欢",
+          "start": 12.84678,
+          "end": 12.906827
+        },
+        {
+          "frame_start": 315,
+          "frame_end": 316,
+          "confidence": 0.9988,
+          "char": "黑",
+          "start": 13.006905,
+          "end": 13.02692
+        },
+        {
+          "frame_start": 328,
+          "frame_end": 329,
+          "confidence": 0.9825,
+          "char": "色",
+          "start": 13.267107,
+          "end": 13.287123
+        }
+      ],
+      "token_start": 12.646625,
+      "token_end": 13.287123,
+      "independent_asr_coverage": 1.0,
+      "start": 12.436462,
+      "end": 13.657411,
+      "rms": 0.181318
+    },
+    {
+      "no": 294,
+      "kind": "example",
+      "display_text": "这件衣服是红色的。",
+      "pinyin": "zhè jiàn yīfu shì hóngsè de.",
+      "spoken_text": "这件衣服是红色的。",
+      "characters": [
+        {
+          "frame_start": 366,
+          "frame_end": 367,
+          "confidence": 0.9943,
+          "char": "这",
+          "start": 14.027699,
+          "end": 14.047715
+        },
+        {
+          "frame_start": 370,
+          "frame_end": 372,
+          "confidence": 0.6809,
+          "char": "件",
+          "start": 14.107761,
+          "end": 14.147792
+        },
+        {
+          "frame_start": 377,
+          "frame_end": 378,
+          "confidence": 0.9451,
+          "char": "衣",
+          "start": 14.24787,
+          "end": 14.267886
+        },
+        {
+          "frame_start": 384,
+          "frame_end": 385,
+          "confidence": 0.8413,
+          "char": "服",
+          "start": 14.387979,
+          "end": 14.407995
+        },
+        {
+          "frame_start": 388,
+          "frame_end": 390,
+          "confidence": 0.8855,
+          "char": "是",
+          "start": 14.468042,
+          "end": 14.508073
+        },
+        {
+          "frame_start": 394,
+          "frame_end": 395,
+          "confidence": 0.9817,
+          "char": "红",
+          "start": 14.588135,
+          "end": 14.608151
+        },
+        {
+          "frame_start": 407,
+          "frame_end": 408,
+          "confidence": 0.9919,
+          "char": "色",
+          "start": 14.848337,
+          "end": 14.868353
+        },
+        {
+          "frame_start": 417,
+          "frame_end": 418,
+          "confidence": 0.9134,
+          "char": "的",
+          "start": 15.048493,
+          "end": 15.068509
+        }
+      ],
+      "token_start": 14.027699,
+      "token_end": 15.068509,
+      "independent_asr_coverage": 1.0,
+      "start": 13.657411,
+      "end": 15.298688,
+      "rms": 0.246402
+    },
+    {
+      "no": 295,
+      "kind": "example",
+      "display_text": "这件衣服是绿色的。",
+      "pinyin": "zhè jiàn yīfu shì lǜsè de.",
+      "spoken_text": "这件衣服是绿色的。",
+      "characters": [
+        {
+          "frame_start": 441,
+          "frame_end": 443,
+          "confidence": 0.7514,
+          "char": "这",
+          "start": 15.528867,
+          "end": 15.568898
+        },
+        {
+          "frame_start": 446,
+          "frame_end": 448,
+          "confidence": 0.6402,
+          "char": "件",
+          "start": 15.628945,
+          "end": 15.668976
+        },
+        {
+          "frame_start": 453,
+          "frame_end": 454,
+          "confidence": 0.9231,
+          "char": "衣",
+          "start": 15.769054,
+          "end": 15.789069
+        },
+        {
+          "frame_start": 461,
+          "frame_end": 462,
+          "confidence": 0.3373,
+          "char": "服",
+          "start": 15.929178,
+          "end": 15.949194
+        },
+        {
+          "frame_start": 465,
+          "frame_end": 466,
+          "confidence": 0.9917,
+          "char": "是",
+          "start": 16.00924,
+          "end": 16.029256
+        },
+        {
+          "frame_start": 472,
+          "frame_end": 473,
+          "confidence": 0.9929,
+          "char": "绿",
+          "start": 16.149349,
+          "end": 16.169365
+        },
+        {
+          "frame_start": 483,
+          "frame_end": 484,
+          "confidence": 0.9913,
+          "char": "色",
+          "start": 16.369521,
+          "end": 16.389536
+        },
+        {
+          "frame_start": 492,
+          "frame_end": 493,
+          "confidence": 0.9796,
+          "char": "的",
+          "start": 16.549661,
+          "end": 16.569676
+        }
+      ],
+      "token_start": 15.528867,
+      "token_end": 16.569676,
+      "independent_asr_coverage": 1.0,
+      "start": 15.298688,
+      "end": 16.750814,
+      "rms": 0.28146
+    },
+    {
+      "no": 296,
+      "kind": "example",
+      "display_text": "你喜欢什么颜色？",
+      "pinyin": "nǐ xǐhuan shénme yánsè?",
+      "spoken_text": "你喜欢什么颜色？",
+      "characters": [
+        {
+          "frame_start": 121,
+          "frame_end": 122,
+          "confidence": 0.9962,
+          "char": "你",
+          "start": 16.931952,
+          "end": 16.951968
+        },
+        {
+          "frame_start": 126,
+          "frame_end": 127,
+          "confidence": 0.9996,
+          "char": "喜",
+          "start": 17.032032,
+          "end": 17.052048
+        },
+        {
+          "frame_start": 130,
+          "frame_end": 133,
+          "confidence": 0.9017,
+          "char": "欢",
+          "start": 17.112097,
+          "end": 17.172145
+        },
+        {
+          "frame_start": 137,
+          "frame_end": 139,
+          "confidence": 0.7709,
+          "char": "什",
+          "start": 17.25221,
+          "end": 17.292242
+        },
+        {
+          "frame_start": 141,
+          "frame_end": 144,
+          "confidence": 0.734,
+          "char": "么",
+          "start": 17.332274,
+          "end": 17.392323
+        },
+        {
+          "frame_start": 147,
+          "frame_end": 148,
+          "confidence": 0.7747,
+          "char": "颜",
+          "start": 17.452371,
+          "end": 17.472387
+        },
+        {
+          "frame_start": 156,
+          "frame_end": 157,
+          "confidence": 0.9926,
+          "char": "色",
+          "start": 17.632516,
+          "end": 17.652532
+        }
+      ],
+      "token_start": 16.931952,
+      "token_end": 17.652532,
+      "independent_asr_coverage": 1.0,
+      "start": 16.750814,
+      "end": 18.032839,
+      "rms": 0.201151
+    },
+    {
+      "no": 297,
+      "kind": "example",
+      "display_text": "这些花很漂亮。",
+      "pinyin": "zhèxiē huā hěn piàoliang.",
+      "spoken_text": "这些花很漂亮。",
+      "characters": [
+        {
+          "frame_start": 195,
+          "frame_end": 198,
+          "confidence": 0.6303,
+          "char": "这",
+          "start": 18.413145,
+          "end": 18.473194
+        },
+        {
+          "frame_start": 202,
+          "frame_end": 204,
+          "confidence": 0.7137,
+          "char": "些",
+          "start": 18.553258,
+          "end": 18.59329
+        },
+        {
+          "frame_start": 209,
+          "frame_end": 210,
+          "confidence": 0.4263,
+          "char": "花",
+          "start": 18.693371,
+          "end": 18.713387
+        },
+        {
+          "frame_start": 216,
+          "frame_end": 217,
+          "confidence": 0.8614,
+          "char": "很",
+          "start": 18.833484,
+          "end": 18.8535
+        },
+        {
+          "frame_start": 223,
+          "frame_end": 225,
+          "confidence": 0.0742,
+          "char": "漂",
+          "start": 18.973597,
+          "end": 19.013629
+        },
+        {
+          "frame_start": 237,
+          "frame_end": 238,
+          "confidence": 0.2581,
+          "char": "亮",
+          "start": 19.253823,
+          "end": 19.273839
+        }
+      ],
+      "token_start": 18.413145,
+      "token_end": 19.273839,
+      "independent_asr_coverage": 1.0,
+      "start": 18.032839,
+      "end": 19.534048,
+      "rms": 0.161803
+    },
+    {
+      "no": 304,
+      "kind": "example",
+      "display_text": "我的手机坏了。",
+      "pinyin": "wǒ de shǒujī huài le.",
+      "spoken_text": "我的手机坏了。",
+      "characters": [
+        {
+          "frame_start": 264,
+          "frame_end": 265,
+          "confidence": 0.9602,
+          "char": "我",
+          "start": 19.794258,
+          "end": 19.814274
+        },
+        {
+          "frame_start": 268,
+          "frame_end": 269,
+          "confidence": 0.4463,
+          "char": "的",
+          "start": 19.874323,
+          "end": 19.894339
+        },
+        {
+          "frame_start": 273,
+          "frame_end": 274,
+          "confidence": 0.4517,
+          "char": "手",
+          "start": 19.974403,
+          "end": 19.994419
+        },
+        {
+          "frame_start": 280,
+          "frame_end": 281,
+          "confidence": 0.7583,
+          "char": "机",
+          "start": 20.114516,
+          "end": 20.134532
+        },
+        {
+          "frame_start": 289,
+          "frame_end": 290,
+          "confidence": 0.437,
+          "char": "坏",
+          "start": 20.294661,
+          "end": 20.314677
+        },
+        {
+          "frame_start": 299,
+          "frame_end": 301,
+          "confidence": 0.8998,
+          "char": "了",
+          "start": 20.494823,
+          "end": 20.534855
+        }
+      ],
+      "token_start": 19.794258,
+      "token_end": 20.534855,
+      "independent_asr_coverage": 1.0,
+      "start": 19.534048,
+      "end": 20.795065,
+      "rms": 0.187847
+    },
+    {
+      "no": 305,
+      "kind": "example",
+      "display_text": "我想去外国旅游。",
+      "pinyin": "wǒ xiǎng qù wàiguó lǚyóu.",
+      "spoken_text": "我想去外国旅游。",
+      "characters": [
+        {
+          "frame_start": 327,
+          "frame_end": 329,
+          "confidence": 0.7887,
+          "char": "我",
+          "start": 21.055274,
+          "end": 21.095306
+        },
+        {
+          "frame_start": 331,
+          "frame_end": 333,
+          "confidence": 0.9533,
+          "char": "想",
+          "start": 21.135339,
+          "end": 21.175371
+        },
+        {
+          "frame_start": 338,
+          "frame_end": 339,
+          "confidence": 0.9972,
+          "char": "去",
+          "start": 21.275452,
+          "end": 21.295468
+        },
+        {
+          "frame_start": 343,
+          "frame_end": 345,
+          "confidence": 0.8223,
+          "char": "外",
+          "start": 21.375532,
+          "end": 21.415565
+        },
+        {
+          "frame_start": 351,
+          "frame_end": 352,
+          "confidence": 0.7969,
+          "char": "国",
+          "start": 21.535661,
+          "end": 21.555677
+        },
+        {
+          "frame_start": 357,
+          "frame_end": 358,
+          "confidence": 0.7922,
+          "char": "旅",
+          "start": 21.655758,
+          "end": 21.675774
+        },
+        {
+          "frame_start": 365,
+          "frame_end": 366,
+          "confidence": 0.2792,
+          "char": "游",
+          "start": 21.815887,
+          "end": 21.835903
+        }
+      ],
+      "token_start": 21.055274,
+      "token_end": 21.835903,
+      "independent_asr_coverage": 1.0,
+      "start": 20.795065,
+      "end": 22.106121,
+      "rms": 0.24075
+    },
+    {
+      "no": 310,
+      "kind": "example",
+      "display_text": "他出门了。",
+      "pinyin": "tā chūmén le.",
+      "spoken_text": "他出门了。",
+      "characters": [
+        {
+          "frame_start": 393,
+          "frame_end": 394,
+          "confidence": 0.1663,
+          "char": "他",
+          "start": 22.376339,
+          "end": 22.396355
+        },
+        {
+          "frame_start": 398,
+          "frame_end": 401,
+          "confidence": 0.3639,
+          "char": "出",
+          "start": 22.476419,
+          "end": 22.536468
+        },
+        {
+          "frame_start": 406,
+          "frame_end": 407,
+          "confidence": 0.9956,
+          "char": "门",
+          "start": 22.636548,
+          "end": 22.656565
+        },
+        {
+          "frame_start": 415,
+          "frame_end": 417,
+          "confidence": 0.8445,
+          "char": "了",
+          "start": 22.816694,
+          "end": 22.856726
+        }
+      ],
+      "token_start": 22.376339,
+      "token_end": 22.856726,
+      "independent_asr_coverage": 1.0,
+      "start": 22.106121,
+      "end": 23.086911,
+      "rms": 0.192403
+    },
+    {
+      "no": 311,
+      "kind": "example",
+      "display_text": "请出来一下。",
+      "pinyin": "qǐng chūlái yíxià.",
+      "spoken_text": "请出来一下。",
+      "characters": [
+        {
+          "frame_start": 440,
+          "frame_end": 441,
+          "confidence": 0.9959,
+          "char": "请",
+          "start": 23.317097,
+          "end": 23.337113
+        },
+        {
+          "frame_start": 446,
+          "frame_end": 449,
+          "confidence": 0.5461,
+          "char": "出",
+          "start": 23.437194,
+          "end": 23.497242
+        },
+        {
+          "frame_start": 454,
+          "frame_end": 456,
+          "confidence": 0.7432,
+          "char": "来",
+          "start": 23.597323,
+          "end": 23.637355
+        },
+        {
+          "frame_start": 459,
+          "frame_end": 461,
+          "confidence": 0.6717,
+          "char": "一",
+          "start": 23.697403,
+          "end": 23.737435
+        },
+        {
+          "frame_start": 464,
+          "frame_end": 467,
+          "confidence": 0.8257,
+          "char": "下",
+          "start": 23.797484,
+          "end": 23.857532
+        }
+      ],
+      "token_start": 23.317097,
+      "token_end": 23.857532,
+      "independent_asr_coverage": 1.0,
+      "start": 23.086911,
+      "end": 24.192842,
+      "rms": 0.173828
+    },
+    {
+      "no": 312,
+      "kind": "example",
+      "display_text": "我想出去玩。",
+      "pinyin": "wǒ xiǎng chūqù wán.",
+      "spoken_text": "我想出去玩。",
+      "characters": [
+        {
+          "frame_start": 113,
+          "frame_end": 114,
+          "confidence": 0.5914,
+          "char": "我",
+          "start": 24.528151,
+          "end": 24.54824
+        },
+        {
+          "frame_start": 119,
+          "frame_end": 120,
+          "confidence": 0.6313,
+          "char": "想",
+          "start": 24.64869,
+          "end": 24.668779
+        },
+        {
+          "frame_start": 124,
+          "frame_end": 127,
+          "confidence": 0.5333,
+          "char": "出",
+          "start": 24.749139,
+          "end": 24.809408
+        },
+        {
+          "frame_start": 131,
+          "frame_end": 133,
+          "confidence": 0.9126,
+          "char": "去",
+          "start": 24.889768,
+          "end": 24.929947
+        },
+        {
+          "frame_start": 137,
+          "frame_end": 138,
+          "confidence": 0.2586,
+          "char": "玩",
+          "start": 25.010307,
+          "end": 25.030396
+        }
+      ],
+      "token_start": 24.528151,
+      "token_end": 25.030396,
+      "independent_asr_coverage": 1.0,
+      "start": 24.192842,
+      "end": 25.361878,
+      "rms": 0.168398
+    },
+    {
+      "no": 313,
+      "kind": "example",
+      "display_text": "我八点出门。",
+      "pinyin": "wǒ bā diǎn chūmén.",
+      "spoken_text": "我八点出门。",
+      "characters": [
+        {
+          "frame_start": 171,
+          "frame_end": 172,
+          "confidence": 0.0757,
+          "char": "我",
+          "start": 25.693361,
+          "end": 25.713451
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.397,
+          "char": "八",
+          "start": 25.79381,
+          "end": 25.8139
+        },
+        {
+          "frame_start": 185,
+          "frame_end": 186,
+          "confidence": 0.276,
+          "char": "点",
+          "start": 25.974618,
+          "end": 25.994708
+        },
+        {
+          "frame_start": 191,
+          "frame_end": 194,
+          "confidence": 0.6447,
+          "char": "出",
+          "start": 26.095157,
+          "end": 26.155427
+        },
+        {
+          "frame_start": 199,
+          "frame_end": 201,
+          "confidence": 0.8828,
+          "char": "门",
+          "start": 26.255876,
+          "end": 26.296056
+        }
+      ],
+      "token_start": 25.693361,
+      "token_end": 26.296056,
+      "independent_asr_coverage": 1.0,
+      "start": 25.361878,
+      "end": 26.607448,
+      "rms": 0.16805
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 232,
+          "frame_end": 233,
+          "confidence": 0.9469,
+          "char": "好",
+          "start": 26.91884,
+          "end": 26.93893
+        },
+        {
+          "frame_start": 240,
+          "frame_end": 242,
+          "confidence": 0.3554,
+          "char": "的",
+          "start": 27.079559,
+          "end": 27.119739
+        }
+      ],
+      "token_start": 26.91884,
+      "token_end": 27.119739,
+      "independent_asr_coverage": 1.0,
+      "start": 26.607448,
+      "end": 27.541625,
+      "rms": 0.11364
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 1.0,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 6,
+      "start": 0,
+      "end": 10.463000000000001,
+      "greedy_transcript": "我 想 点 意 杯 奶 C查  我 花 了 石 块 钱 我去 张商 C 买 衣 服  这 是 我 的 包 这 条  裤  很 票 L两  这 是 我 的 S首 表  我 买 了 两 张 票 我 买 了",
+      "oov": []
+    },
+    {
+      "first": 5,
+      "last": 12,
+      "start": 6.702,
+      "end": 18.270999999999997,
+      "greedy_transcript": "票 亮 这 是 我 的 手 表  我 买 了 两 张 票 我 买 了两 章 门 票  我 喜 欢 白 色 我 喜欢 黑 色 这 件 衣服 是 红色 的 这 件 衣服是 绿 色 的 你 喜 欢 什 么 颜 色",
+      "oov": []
+    },
+    {
+      "first": 11,
+      "last": 18,
+      "start": 14.51,
+      "end": 25.679,
+      "greedy_transcript": "红色 的 这 J见 意 服 是 绿 色 的  你 喜欢 什么 颜 色 这这 些  很 票 I 我 D 首 机 坏 了  我 想 去 外 国旅  她 C出 门 了  请 C出 来 一 下 我 想 C出 去 玩",
+      "oov": []
+    },
+    {
+      "first": 17,
+      "last": 20,
+      "start": 22.258,
+      "end": 27.541625,
+      "greedy_transcript": "C出 门 了O 请C出 来 一 下 W我 XI想 C出 去 娃  Ǒ B八  C出 门 好 D的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}

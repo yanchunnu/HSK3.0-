@@ -1,0 +1,1302 @@
+{
+  "chunk": 9,
+  "duration_seconds": 28.115,
+  "units": [
+    {
+      "no": 402,
+      "kind": "example",
+      "display_text": "我晚上上网。",
+      "pinyin": "wǒ wǎnshang shàngwǎng.",
+      "spoken_text": "我晚上上网。",
+      "characters": [
+        {
+          "frame_start": 13,
+          "frame_end": 14,
+          "confidence": 0.9984,
+          "char": "我",
+          "start": 0.260128,
+          "end": 0.280138
+        },
+        {
+          "frame_start": 19,
+          "frame_end": 20,
+          "confidence": 0.9998,
+          "char": "晚",
+          "start": 0.380187,
+          "end": 0.400197
+        },
+        {
+          "frame_start": 26,
+          "frame_end": 28,
+          "confidence": 0.9881,
+          "char": "上",
+          "start": 0.520256,
+          "end": 0.560276
+        },
+        {
+          "frame_start": 34,
+          "frame_end": 36,
+          "confidence": 0.9506,
+          "char": "上",
+          "start": 0.680335,
+          "end": 0.720354
+        },
+        {
+          "frame_start": 43,
+          "frame_end": 45,
+          "confidence": 0.9948,
+          "char": "网",
+          "start": 0.860423,
+          "end": 0.900443
+        }
+      ],
+      "token_start": 0.260128,
+      "token_end": 0.900443,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 1.250615,
+      "rms": 0.192542
+    },
+    {
+      "no": 403,
+      "kind": "example",
+      "display_text": "我在网上买东西。",
+      "pinyin": "wǒ zài wǎngshàng mǎi dōngxi.",
+      "spoken_text": "我在网上买东西。",
+      "characters": [
+        {
+          "frame_start": 80,
+          "frame_end": 81,
+          "confidence": 0.999,
+          "char": "我",
+          "start": 1.600787,
+          "end": 1.620797
+        },
+        {
+          "frame_start": 84,
+          "frame_end": 86,
+          "confidence": 0.9107,
+          "char": "在",
+          "start": 1.680827,
+          "end": 1.720846
+        },
+        {
+          "frame_start": 89,
+          "frame_end": 91,
+          "confidence": 0.9293,
+          "char": "网",
+          "start": 1.780876,
+          "end": 1.820896
+        },
+        {
+          "frame_start": 96,
+          "frame_end": 98,
+          "confidence": 0.8167,
+          "char": "上",
+          "start": 1.920945,
+          "end": 1.960965
+        },
+        {
+          "frame_start": 102,
+          "frame_end": 104,
+          "confidence": 0.9072,
+          "char": "买",
+          "start": 2.041004,
+          "end": 2.081024
+        },
+        {
+          "frame_start": 111,
+          "frame_end": 112,
+          "confidence": 0.944,
+          "char": "东",
+          "start": 2.221093,
+          "end": 2.241102
+        },
+        {
+          "frame_start": 122,
+          "frame_end": 123,
+          "confidence": 0.8946,
+          "char": "西",
+          "start": 2.441201,
+          "end": 2.461211
+        }
+      ],
+      "token_start": 1.600787,
+      "token_end": 2.461211,
+      "independent_asr_coverage": 1.0,
+      "start": 1.250615,
+      "end": 2.791373,
+      "rms": 0.224326
+    },
+    {
+      "no": 411,
+      "kind": "example",
+      "display_text": "这首歌很好听。",
+      "pinyin": "zhè shǒu gē hěn hǎotīng.",
+      "spoken_text": "这首歌很好听。",
+      "characters": [
+        {
+          "frame_start": 156,
+          "frame_end": 157,
+          "confidence": 0.9897,
+          "char": "这",
+          "start": 3.121535,
+          "end": 3.141545
+        },
+        {
+          "frame_start": 161,
+          "frame_end": 163,
+          "confidence": 0.5289,
+          "char": "首",
+          "start": 3.221585,
+          "end": 3.261604
+        },
+        {
+          "frame_start": 169,
+          "frame_end": 170,
+          "confidence": 0.1469,
+          "char": "歌",
+          "start": 3.381663,
+          "end": 3.401673
+        },
+        {
+          "frame_start": 175,
+          "frame_end": 176,
+          "confidence": 0.9939,
+          "char": "很",
+          "start": 3.501722,
+          "end": 3.521732
+        },
+        {
+          "frame_start": 185,
+          "frame_end": 187,
+          "confidence": 0.9022,
+          "char": "好",
+          "start": 3.701821,
+          "end": 3.741841
+        },
+        {
+          "frame_start": 194,
+          "frame_end": 196,
+          "confidence": 0.6268,
+          "char": "听",
+          "start": 3.881909,
+          "end": 3.921929
+        }
+      ],
+      "token_start": 3.121535,
+      "token_end": 3.921929,
+      "independent_asr_coverage": 1.0,
+      "start": 2.791373,
+      "end": 4.342136,
+      "rms": 0.196582
+    },
+    {
+      "no": 412,
+      "kind": "example",
+      "display_text": "树上有一只鸟。",
+      "pinyin": "shù shàng yǒu yì zhī niǎo.",
+      "spoken_text": "树上有一只鸟。",
+      "characters": [
+        {
+          "frame_start": 238,
+          "frame_end": 239,
+          "confidence": 0.6055,
+          "char": "树",
+          "start": 4.762343,
+          "end": 4.782352
+        },
+        {
+          "frame_start": 246,
+          "frame_end": 247,
+          "confidence": 0.9203,
+          "char": "上",
+          "start": 4.922421,
+          "end": 4.942431
+        },
+        {
+          "frame_start": 253,
+          "frame_end": 255,
+          "confidence": 0.8329,
+          "char": "有",
+          "start": 5.06249,
+          "end": 5.10251
+        },
+        {
+          "frame_start": 258,
+          "frame_end": 260,
+          "confidence": 0.7568,
+          "char": "一",
+          "start": 5.162539,
+          "end": 5.202559
+        },
+        {
+          "frame_start": 264,
+          "frame_end": 265,
+          "confidence": 0.8175,
+          "char": "只",
+          "start": 5.282598,
+          "end": 5.302608
+        },
+        {
+          "frame_start": 272,
+          "frame_end": 273,
+          "confidence": 0.9861,
+          "char": "鸟",
+          "start": 5.442677,
+          "end": 5.462687
+        }
+      ],
+      "token_start": 4.762343,
+      "token_end": 5.462687,
+      "independent_asr_coverage": 1.0,
+      "start": 4.342136,
+      "end": 5.832869,
+      "rms": 0.233952
+    },
+    {
+      "no": 413,
+      "kind": "example",
+      "display_text": "请站起来。",
+      "pinyin": "qǐng zhàn qǐlái.",
+      "spoken_text": "请站起来。",
+      "characters": [
+        {
+          "frame_start": 310,
+          "frame_end": 311,
+          "confidence": 0.9899,
+          "char": "请",
+          "start": 6.203051,
+          "end": 6.223061
+        },
+        {
+          "frame_start": 319,
+          "frame_end": 320,
+          "confidence": 0.597,
+          "char": "站",
+          "start": 6.38314,
+          "end": 6.40315
+        },
+        {
+          "frame_start": 329,
+          "frame_end": 331,
+          "confidence": 0.9698,
+          "char": "起",
+          "start": 6.583238,
+          "end": 6.623258
+        },
+        {
+          "frame_start": 335,
+          "frame_end": 336,
+          "confidence": 0.9997,
+          "char": "来",
+          "start": 6.703297,
+          "end": 6.723307
+        }
+      ],
+      "token_start": 6.203051,
+      "token_end": 6.723307,
+      "independent_asr_coverage": 1.0,
+      "start": 5.832869,
+      "end": 7.023454,
+      "rms": 0.14295
+    },
+    {
+      "no": 414,
+      "kind": "example",
+      "display_text": "请站起来。",
+      "pinyin": "qǐng zhàn qǐlái.",
+      "spoken_text": "请站起来。",
+      "characters": [
+        {
+          "frame_start": 366,
+          "frame_end": 367,
+          "confidence": 0.9939,
+          "char": "请",
+          "start": 7.323602,
+          "end": 7.343612
+        },
+        {
+          "frame_start": 375,
+          "frame_end": 377,
+          "confidence": 0.5664,
+          "char": "站",
+          "start": 7.503691,
+          "end": 7.543711
+        },
+        {
+          "frame_start": 386,
+          "frame_end": 387,
+          "confidence": 0.9985,
+          "char": "起",
+          "start": 7.723799,
+          "end": 7.743809
+        },
+        {
+          "frame_start": 392,
+          "frame_end": 393,
+          "confidence": 0.9997,
+          "char": "来",
+          "start": 7.843858,
+          "end": 7.863868
+        }
+      ],
+      "token_start": 7.323602,
+      "token_end": 7.863868,
+      "independent_asr_coverage": 1.0,
+      "start": 7.023454,
+      "end": 8.186405,
+      "rms": 0.140551
+    },
+    {
+      "no": 415,
+      "kind": "example",
+      "display_text": "请拿走你的书。",
+      "pinyin": "qǐng ná zǒu nǐ de shū.",
+      "spoken_text": "请拿走你的书。",
+      "characters": [
+        {
+          "frame_start": 103,
+          "frame_end": 105,
+          "confidence": 0.9851,
+          "char": "请",
+          "start": 8.508943,
+          "end": 8.549
+        },
+        {
+          "frame_start": 111,
+          "frame_end": 112,
+          "confidence": 0.995,
+          "char": "拿",
+          "start": 8.669171,
+          "end": 8.6892
+        },
+        {
+          "frame_start": 120,
+          "frame_end": 122,
+          "confidence": 0.7712,
+          "char": "走",
+          "start": 8.849429,
+          "end": 8.889486
+        },
+        {
+          "frame_start": 127,
+          "frame_end": 129,
+          "confidence": 0.9837,
+          "char": "你",
+          "start": 8.989629,
+          "end": 9.029686
+        },
+        {
+          "frame_start": 133,
+          "frame_end": 134,
+          "confidence": 0.9801,
+          "char": "的",
+          "start": 9.1098,
+          "end": 9.129829
+        },
+        {
+          "frame_start": 140,
+          "frame_end": 141,
+          "confidence": 0.854,
+          "char": "书",
+          "start": 9.25,
+          "end": 9.270029
+        }
+      ],
+      "token_start": 8.508943,
+      "token_end": 9.270029,
+      "independent_asr_coverage": 1.0,
+      "start": 8.186405,
+      "end": 9.6706,
+      "rms": 0.226659
+    },
+    {
+      "no": 416,
+      "kind": "example",
+      "display_text": "请告诉我你的名字。",
+      "pinyin": "qǐng gàosu wǒ nǐ de míngzi.",
+      "spoken_text": "请告诉我你的名字。",
+      "characters": [
+        {
+          "frame_start": 181,
+          "frame_end": 182,
+          "confidence": 0.9986,
+          "char": "请",
+          "start": 10.071171,
+          "end": 10.0912
+        },
+        {
+          "frame_start": 190,
+          "frame_end": 191,
+          "confidence": 0.9994,
+          "char": "告",
+          "start": 10.251429,
+          "end": 10.271457
+        },
+        {
+          "frame_start": 199,
+          "frame_end": 200,
+          "confidence": 0.9918,
+          "char": "诉",
+          "start": 10.431686,
+          "end": 10.451714
+        },
+        {
+          "frame_start": 203,
+          "frame_end": 204,
+          "confidence": 0.9997,
+          "char": "我",
+          "start": 10.5118,
+          "end": 10.531829
+        },
+        {
+          "frame_start": 209,
+          "frame_end": 211,
+          "confidence": 0.8468,
+          "char": "你",
+          "start": 10.631971,
+          "end": 10.672029
+        },
+        {
+          "frame_start": 215,
+          "frame_end": 216,
+          "confidence": 0.9502,
+          "char": "的",
+          "start": 10.752143,
+          "end": 10.772171
+        },
+        {
+          "frame_start": 218,
+          "frame_end": 220,
+          "confidence": 0.9784,
+          "char": "名",
+          "start": 10.812229,
+          "end": 10.852286
+        },
+        {
+          "frame_start": 233,
+          "frame_end": 234,
+          "confidence": 0.9894,
+          "char": "字",
+          "start": 11.112657,
+          "end": 11.132686
+        }
+      ],
+      "token_start": 10.071171,
+      "token_end": 11.132686,
+      "independent_asr_coverage": 1.0,
+      "start": 9.6706,
+      "end": 11.433114,
+      "rms": 0.238224
+    },
+    {
+      "no": 417,
+      "kind": "example",
+      "display_text": "我介绍一下自己。",
+      "pinyin": "wǒ jièshào yíxià zìjǐ.",
+      "spoken_text": "我介绍一下自己。",
+      "characters": [
+        {
+          "frame_start": 264,
+          "frame_end": 266,
+          "confidence": 0.8794,
+          "char": "我",
+          "start": 11.733543,
+          "end": 11.7736
+        },
+        {
+          "frame_start": 270,
+          "frame_end": 272,
+          "confidence": 0.8414,
+          "char": "介",
+          "start": 11.853714,
+          "end": 11.893771
+        },
+        {
+          "frame_start": 278,
+          "frame_end": 279,
+          "confidence": 0.998,
+          "char": "绍",
+          "start": 12.013943,
+          "end": 12.033971
+        },
+        {
+          "frame_start": 285,
+          "frame_end": 286,
+          "confidence": 0.9996,
+          "char": "一",
+          "start": 12.154143,
+          "end": 12.174171
+        },
+        {
+          "frame_start": 288,
+          "frame_end": 289,
+          "confidence": 0.9982,
+          "char": "下",
+          "start": 12.214229,
+          "end": 12.234257
+        },
+        {
+          "frame_start": 297,
+          "frame_end": 298,
+          "confidence": 0.9955,
+          "char": "自",
+          "start": 12.394486,
+          "end": 12.414514
+        },
+        {
+          "frame_start": 304,
+          "frame_end": 305,
+          "confidence": 0.9991,
+          "char": "己",
+          "start": 12.534686,
+          "end": 12.554714
+        }
+      ],
+      "token_start": 11.733543,
+      "token_end": 12.554714,
+      "independent_asr_coverage": 1.0,
+      "start": 11.433114,
+      "end": 12.835114,
+      "rms": 0.164565
+    },
+    {
+      "no": 418,
+      "kind": "example",
+      "display_text": "她高兴地笑了。",
+      "pinyin": "tā gāoxìng de xiào le.",
+      "spoken_text": "她高兴地笑了。",
+      "characters": [
+        {
+          "frame_start": 333,
+          "frame_end": 334,
+          "confidence": 0.2984,
+          "char": "她",
+          "start": 13.115514,
+          "end": 13.135543
+        },
+        {
+          "frame_start": 339,
+          "frame_end": 340,
+          "confidence": 0.9954,
+          "char": "高",
+          "start": 13.235686,
+          "end": 13.255714
+        },
+        {
+          "frame_start": 347,
+          "frame_end": 348,
+          "confidence": 0.9942,
+          "char": "兴",
+          "start": 13.395914,
+          "end": 13.415943
+        },
+        {
+          "frame_start": 354,
+          "frame_end": 355,
+          "confidence": 0.0096,
+          "char": "地",
+          "start": 13.536114,
+          "end": 13.556143
+        },
+        {
+          "frame_start": 359,
+          "frame_end": 360,
+          "confidence": 0.9079,
+          "char": "笑",
+          "start": 13.636257,
+          "end": 13.656286
+        },
+        {
+          "frame_start": 372,
+          "frame_end": 373,
+          "confidence": 0.99,
+          "char": "了",
+          "start": 13.896629,
+          "end": 13.916657
+        }
+      ],
+      "token_start": 13.115514,
+      "token_end": 13.916657,
+      "independent_asr_coverage": 0.833,
+      "start": 12.835114,
+      "end": 14.146985,
+      "rms": 0.201742
+    },
+    {
+      "no": 419,
+      "kind": "example",
+      "display_text": "请帮我一下。",
+      "pinyin": "qǐng bāng wǒ yíxià.",
+      "spoken_text": "请帮我一下。",
+      "characters": [
+        {
+          "frame_start": 396,
+          "frame_end": 398,
+          "confidence": 0.9878,
+          "char": "请",
+          "start": 14.377314,
+          "end": 14.417371
+        },
+        {
+          "frame_start": 403,
+          "frame_end": 405,
+          "confidence": 0.8996,
+          "char": "帮",
+          "start": 14.517514,
+          "end": 14.557571
+        },
+        {
+          "frame_start": 412,
+          "frame_end": 413,
+          "confidence": 0.9952,
+          "char": "我",
+          "start": 14.697771,
+          "end": 14.7178
+        },
+        {
+          "frame_start": 417,
+          "frame_end": 418,
+          "confidence": 0.9809,
+          "char": "一",
+          "start": 14.797914,
+          "end": 14.817943
+        },
+        {
+          "frame_start": 421,
+          "frame_end": 423,
+          "confidence": 0.903,
+          "char": "下",
+          "start": 14.878029,
+          "end": 14.918086
+        }
+      ],
+      "token_start": 14.377314,
+      "token_end": 14.918086,
+      "independent_asr_coverage": 1.0,
+      "start": 14.146985,
+      "end": 15.158428,
+      "rms": 0.240277
+    },
+    {
+      "no": 420,
+      "kind": "example",
+      "display_text": "谢谢你帮忙。",
+      "pinyin": "xièxie nǐ bāngmáng.",
+      "spoken_text": "谢谢你帮忙。",
+      "characters": [
+        {
+          "frame_start": 447,
+          "frame_end": 449,
+          "confidence": 0.9606,
+          "char": "谢",
+          "start": 15.398771,
+          "end": 15.438829
+        },
+        {
+          "frame_start": 453,
+          "frame_end": 455,
+          "confidence": 0.9251,
+          "char": "谢",
+          "start": 15.518943,
+          "end": 15.559
+        },
+        {
+          "frame_start": 459,
+          "frame_end": 460,
+          "confidence": 0.9959,
+          "char": "你",
+          "start": 15.639114,
+          "end": 15.659143
+        },
+        {
+          "frame_start": 465,
+          "frame_end": 466,
+          "confidence": 0.9967,
+          "char": "帮",
+          "start": 15.759286,
+          "end": 15.779314
+        },
+        {
+          "frame_start": 472,
+          "frame_end": 473,
+          "confidence": 0.9986,
+          "char": "忙",
+          "start": 15.899486,
+          "end": 15.919514
+        }
+      ],
+      "token_start": 15.398771,
+      "token_end": 15.919514,
+      "independent_asr_coverage": 1.0,
+      "start": 15.158428,
+      "end": 16.224317,
+      "rms": 0.211536
+    },
+    {
+      "no": 421,
+      "kind": "example",
+      "display_text": "请等我一下。",
+      "pinyin": "qǐng děng wǒ yíxià.",
+      "spoken_text": "请等我一下。",
+      "characters": [
+        {
+          "frame_start": 110,
+          "frame_end": 111,
+          "confidence": 0.9959,
+          "char": "请",
+          "start": 16.529119,
+          "end": 16.549129
+        },
+        {
+          "frame_start": 117,
+          "frame_end": 118,
+          "confidence": 0.5873,
+          "char": "等",
+          "start": 16.66919,
+          "end": 16.6892
+        },
+        {
+          "frame_start": 123,
+          "frame_end": 125,
+          "confidence": 0.5613,
+          "char": "我",
+          "start": 16.789251,
+          "end": 16.829271
+        },
+        {
+          "frame_start": 130,
+          "frame_end": 131,
+          "confidence": 0.7683,
+          "char": "一",
+          "start": 16.929322,
+          "end": 16.949332
+        },
+        {
+          "frame_start": 135,
+          "frame_end": 136,
+          "confidence": 0.9878,
+          "char": "下",
+          "start": 17.029373,
+          "end": 17.049383
+        }
+      ],
+      "token_start": 16.529119,
+      "token_end": 17.049383,
+      "independent_asr_coverage": 1.0,
+      "start": 16.224317,
+      "end": 17.2795,
+      "rms": 0.237159
+    },
+    {
+      "no": 422,
+      "kind": "example",
+      "display_text": "请不要动。",
+      "pinyin": "qǐng búyào dòng.",
+      "spoken_text": "请不要动。",
+      "characters": [
+        {
+          "frame_start": 159,
+          "frame_end": 160,
+          "confidence": 0.997,
+          "char": "请",
+          "start": 17.509617,
+          "end": 17.529627
+        },
+        {
+          "frame_start": 167,
+          "frame_end": 168,
+          "confidence": 0.9982,
+          "char": "不",
+          "start": 17.669698,
+          "end": 17.689708
+        },
+        {
+          "frame_start": 171,
+          "frame_end": 172,
+          "confidence": 0.3516,
+          "char": "要",
+          "start": 17.749739,
+          "end": 17.769749
+        },
+        {
+          "frame_start": 178,
+          "frame_end": 179,
+          "confidence": 0.8419,
+          "char": "动",
+          "start": 17.88981,
+          "end": 17.90982
+        }
+      ],
+      "token_start": 17.509617,
+      "token_end": 17.90982,
+      "independent_asr_coverage": 1.0,
+      "start": 17.2795,
+      "end": 18.149942,
+      "rms": 0.149251
+    },
+    {
+      "no": 423,
+      "kind": "example",
+      "display_text": "请让我看看。",
+      "pinyin": "qǐng ràng wǒ kànkan.",
+      "spoken_text": "请让我看看。",
+      "characters": [
+        {
+          "frame_start": 203,
+          "frame_end": 204,
+          "confidence": 0.9681,
+          "char": "请",
+          "start": 18.390064,
+          "end": 18.410075
+        },
+        {
+          "frame_start": 209,
+          "frame_end": 210,
+          "confidence": 0.8562,
+          "char": "让",
+          "start": 18.510125,
+          "end": 18.530136
+        },
+        {
+          "frame_start": 214,
+          "frame_end": 216,
+          "confidence": 0.9578,
+          "char": "我",
+          "start": 18.610176,
+          "end": 18.650197
+        },
+        {
+          "frame_start": 220,
+          "frame_end": 221,
+          "confidence": 0.9991,
+          "char": "看",
+          "start": 18.730237,
+          "end": 18.750247
+        },
+        {
+          "frame_start": 231,
+          "frame_end": 232,
+          "confidence": 0.9969,
+          "char": "看",
+          "start": 18.950349,
+          "end": 18.970359
+        }
+      ],
+      "token_start": 18.390064,
+      "token_end": 18.970359,
+      "independent_asr_coverage": 1.0,
+      "start": 18.149942,
+      "end": 19.240496,
+      "rms": 0.236964
+    },
+    {
+      "no": 424,
+      "kind": "example",
+      "display_text": "我送你一本书。",
+      "pinyin": "wǒ sòng nǐ yì běn shū.",
+      "spoken_text": "我送你一本书。",
+      "characters": [
+        {
+          "frame_start": 259,
+          "frame_end": 260,
+          "confidence": 0.8833,
+          "char": "我",
+          "start": 19.510634,
+          "end": 19.530644
+        },
+        {
+          "frame_start": 264,
+          "frame_end": 265,
+          "confidence": 0.8928,
+          "char": "送",
+          "start": 19.610685,
+          "end": 19.630695
+        },
+        {
+          "frame_start": 271,
+          "frame_end": 273,
+          "confidence": 0.7357,
+          "char": "你",
+          "start": 19.750756,
+          "end": 19.790776
+        },
+        {
+          "frame_start": 275,
+          "frame_end": 276,
+          "confidence": 0.0031,
+          "char": "一",
+          "start": 19.830797,
+          "end": 19.850807
+        },
+        {
+          "frame_start": 280,
+          "frame_end": 281,
+          "confidence": 0.9873,
+          "char": "本",
+          "start": 19.930847,
+          "end": 19.950858
+        },
+        {
+          "frame_start": 288,
+          "frame_end": 289,
+          "confidence": 0.8447,
+          "char": "书",
+          "start": 20.090929,
+          "end": 20.110939
+        }
+      ],
+      "token_start": 19.510634,
+      "token_end": 20.110939,
+      "independent_asr_coverage": 1.0,
+      "start": 19.240496,
+      "end": 20.451112,
+      "rms": 0.248823
+    },
+    {
+      "no": 435,
+      "kind": "example",
+      "display_text": "我希望明天是晴天。",
+      "pinyin": "wǒ xīwàng míngtiān shì qíngtiān.",
+      "spoken_text": "我希望明天是晴天。",
+      "characters": [
+        {
+          "frame_start": 323,
+          "frame_end": 324,
+          "confidence": 0.6331,
+          "char": "我",
+          "start": 20.791285,
+          "end": 20.811295
+        },
+        {
+          "frame_start": 329,
+          "frame_end": 330,
+          "confidence": 0.992,
+          "char": "希",
+          "start": 20.911346,
+          "end": 20.931356
+        },
+        {
+          "frame_start": 334,
+          "frame_end": 335,
+          "confidence": 0.9232,
+          "char": "望",
+          "start": 21.011397,
+          "end": 21.031407
+        },
+        {
+          "frame_start": 342,
+          "frame_end": 344,
+          "confidence": 0.9369,
+          "char": "明",
+          "start": 21.171478,
+          "end": 21.211498
+        },
+        {
+          "frame_start": 353,
+          "frame_end": 354,
+          "confidence": 0.9943,
+          "char": "天",
+          "start": 21.39159,
+          "end": 21.4116
+        },
+        {
+          "frame_start": 365,
+          "frame_end": 366,
+          "confidence": 0.9889,
+          "char": "是",
+          "start": 21.631712,
+          "end": 21.651722
+        },
+        {
+          "frame_start": 373,
+          "frame_end": 374,
+          "confidence": 0.5064,
+          "char": "晴",
+          "start": 21.791793,
+          "end": 21.811803
+        },
+        {
+          "frame_start": 386,
+          "frame_end": 387,
+          "confidence": 0.994,
+          "char": "天",
+          "start": 22.051925,
+          "end": 22.071936
+        }
+      ],
+      "token_start": 20.791285,
+      "token_end": 22.071936,
+      "independent_asr_coverage": 1.0,
+      "start": 20.451112,
+      "end": 22.402104,
+      "rms": 0.219027
+    },
+    {
+      "no": 436,
+      "kind": "example",
+      "display_text": "我忘了他的名字。",
+      "pinyin": "wǒ wàng le tā de míngzi.",
+      "spoken_text": "我忘了他的名字。",
+      "characters": [
+        {
+          "frame_start": 420,
+          "frame_end": 422,
+          "confidence": 0.984,
+          "char": "我",
+          "start": 22.732271,
+          "end": 22.772292
+        },
+        {
+          "frame_start": 426,
+          "frame_end": 427,
+          "confidence": 0.6477,
+          "char": "忘",
+          "start": 22.852332,
+          "end": 22.872342
+        },
+        {
+          "frame_start": 433,
+          "frame_end": 435,
+          "confidence": 0.8623,
+          "char": "了",
+          "start": 22.992403,
+          "end": 23.032424
+        },
+        {
+          "frame_start": 438,
+          "frame_end": 439,
+          "confidence": 0.5969,
+          "char": "他",
+          "start": 23.092454,
+          "end": 23.112464
+        },
+        {
+          "frame_start": 444,
+          "frame_end": 445,
+          "confidence": 0.9806,
+          "char": "的",
+          "start": 23.212515,
+          "end": 23.232525
+        },
+        {
+          "frame_start": 447,
+          "frame_end": 450,
+          "confidence": 0.8563,
+          "char": "名",
+          "start": 23.272546,
+          "end": 23.332576
+        },
+        {
+          "frame_start": 461,
+          "frame_end": 462,
+          "confidence": 0.9323,
+          "char": "字",
+          "start": 23.552688,
+          "end": 23.572698
+        }
+      ],
+      "token_start": 22.732271,
+      "token_end": 23.572698,
+      "independent_asr_coverage": 1.0,
+      "start": 22.402104,
+      "end": 23.968,
+      "rms": 0.129452
+    },
+    {
+      "no": 443,
+      "kind": "example",
+      "display_text": "那么，我们开始吧。",
+      "pinyin": "nàme, wǒmen kāishǐ ba.",
+      "spoken_text": "那么，我们开始吧。",
+      "characters": [
+        {
+          "frame_start": 143,
+          "frame_end": 144,
+          "confidence": 0.0514,
+          "char": "那",
+          "start": 24.510542,
+          "end": 24.530567
+        },
+        {
+          "frame_start": 148,
+          "frame_end": 149,
+          "confidence": 0.0594,
+          "char": "么",
+          "start": 24.610666,
+          "end": 24.63069
+        },
+        {
+          "frame_start": 171,
+          "frame_end": 172,
+          "confidence": 0.9995,
+          "char": "我",
+          "start": 25.071235,
+          "end": 25.09126
+        },
+        {
+          "frame_start": 175,
+          "frame_end": 176,
+          "confidence": 0.9998,
+          "char": "们",
+          "start": 25.151334,
+          "end": 25.171359
+        },
+        {
+          "frame_start": 179,
+          "frame_end": 181,
+          "confidence": 0.9806,
+          "char": "开",
+          "start": 25.231433,
+          "end": 25.271483
+        },
+        {
+          "frame_start": 188,
+          "frame_end": 189,
+          "confidence": 0.9987,
+          "char": "始",
+          "start": 25.411656,
+          "end": 25.431681
+        },
+        {
+          "frame_start": 194,
+          "frame_end": 195,
+          "confidence": 0.9947,
+          "char": "吧",
+          "start": 25.531805,
+          "end": 25.55183
+        }
+      ],
+      "token_start": 24.510542,
+      "token_end": 25.55183,
+      "independent_asr_coverage": 1.0,
+      "start": 23.968,
+      "end": 25.892251,
+      "rms": 0.177367
+    },
+    {
+      "no": 446,
+      "kind": "example",
+      "display_text": "这条路很长。",
+      "pinyin": "zhè tiáo lù hěn cháng.",
+      "spoken_text": "这条路很长。",
+      "characters": [
+        {
+          "frame_start": 229,
+          "frame_end": 230,
+          "confidence": 0.9969,
+          "char": "这",
+          "start": 26.232672,
+          "end": 26.252697
+        },
+        {
+          "frame_start": 234,
+          "frame_end": 235,
+          "confidence": 0.9988,
+          "char": "条",
+          "start": 26.332796,
+          "end": 26.35282
+        },
+        {
+          "frame_start": 241,
+          "frame_end": 242,
+          "confidence": 0.912,
+          "char": "路",
+          "start": 26.472969,
+          "end": 26.492994
+        },
+        {
+          "frame_start": 247,
+          "frame_end": 248,
+          "confidence": 0.2381,
+          "char": "很",
+          "start": 26.593118,
+          "end": 26.613142
+        },
+        {
+          "frame_start": 255,
+          "frame_end": 256,
+          "confidence": 0.3737,
+          "char": "长",
+          "start": 26.753316,
+          "end": 26.773341
+        }
+      ],
+      "token_start": 26.232672,
+      "token_end": 26.773341,
+      "independent_asr_coverage": 1.0,
+      "start": 25.892251,
+      "end": 27.193861,
+      "rms": 0.166418
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 298,
+          "frame_end": 299,
+          "confidence": 0.9865,
+          "char": "好",
+          "start": 27.614381,
+          "end": 27.634406
+        },
+        {
+          "frame_start": 306,
+          "frame_end": 307,
+          "confidence": 0.7637,
+          "char": "的",
+          "start": 27.774579,
+          "end": 27.794604
+        }
+      ],
+      "token_start": 27.614381,
+      "token_end": 27.794604,
+      "independent_asr_coverage": 1.0,
+      "start": 27.193861,
+      "end": 28.115,
+      "rms": 0.096352
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 0.9915,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 6,
+      "start": 0,
+      "end": 10.165000000000001,
+      "greedy_transcript": "我晚上上 网   我在网上 买 东西这 手首 哥 很 好 听 树 上有 一 只 鸟  请站起来 请站 起来 请 拿 走你 的书  请",
+      "oov": []
+    },
+    {
+      "first": 5,
+      "last": 12,
+      "start": 6.446000000000001,
+      "end": 17.662,
+      "greedy_transcript": "起来请站 起来 请 拿 走你的书请告诉我你的名字 我 介绍一下自己 他高兴 的 笑 了  请帮 我一下谢谢你帮忙  请等 我一下 请",
+      "oov": []
+    },
+    {
+      "first": 11,
+      "last": 18,
+      "start": 14.328000000000001,
+      "end": 26.134,
+      "greedy_transcript": "请帮 我 一 下谢 谢 你 帮 忙  请等 我一 下 请 不  D动 请 让 我 看 看 我 送 你本 书 我 希 望 明 天 是 晴 天 我忘 了 他 的 名字  呢 吗我们 开 始 吧",
+      "oov": []
+    },
+    {
+      "first": 17,
+      "last": 20,
+      "start": 21.647,
+      "end": 28.115,
+      "greedy_transcript": "是 晴 天 我忘 了 她 的 名字   吗我们开始 吧 这 条 路 C  好 的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}

@@ -1,0 +1,1294 @@
+{
+  "chunk": 7,
+  "duration_seconds": 28.498166666666666,
+  "units": [
+    {
+      "no": 340,
+      "kind": "example",
+      "display_text": "这条路很长。",
+      "pinyin": "zhè tiáo lù hěn cháng.",
+      "spoken_text": "这条路很长。",
+      "characters": [
+        {
+          "frame_start": 15,
+          "frame_end": 16,
+          "confidence": 0.9991,
+          "char": "这",
+          "start": 0.300242,
+          "end": 0.320258
+        },
+        {
+          "frame_start": 20,
+          "frame_end": 22,
+          "confidence": 0.9995,
+          "char": "条",
+          "start": 0.400322,
+          "end": 0.440354
+        },
+        {
+          "frame_start": 28,
+          "frame_end": 29,
+          "confidence": 0.8359,
+          "char": "路",
+          "start": 0.560451,
+          "end": 0.580467
+        },
+        {
+          "frame_start": 35,
+          "frame_end": 36,
+          "confidence": 0.9983,
+          "char": "很",
+          "start": 0.700564,
+          "end": 0.72058
+        },
+        {
+          "frame_start": 46,
+          "frame_end": 47,
+          "confidence": 0.9632,
+          "char": "长",
+          "start": 0.920741,
+          "end": 0.940757
+        }
+      ],
+      "token_start": 0.300242,
+      "token_end": 0.940757,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 1.411135,
+      "rms": 0.184427
+    },
+    {
+      "no": 341,
+      "kind": "example",
+      "display_text": "我在路上看见他了。",
+      "pinyin": "wǒ zài lùshang kànjiàn tā le.",
+      "spoken_text": "我在路上看见他了。",
+      "characters": [
+        {
+          "frame_start": 94,
+          "frame_end": 96,
+          "confidence": 0.774,
+          "char": "我",
+          "start": 1.881513,
+          "end": 1.921546
+        },
+        {
+          "frame_start": 100,
+          "frame_end": 101,
+          "confidence": 0.9986,
+          "char": "在",
+          "start": 2.00161,
+          "end": 2.021626
+        },
+        {
+          "frame_start": 106,
+          "frame_end": 107,
+          "confidence": 0.435,
+          "char": "路",
+          "start": 2.121707,
+          "end": 2.141723
+        },
+        {
+          "frame_start": 112,
+          "frame_end": 113,
+          "confidence": 0.9932,
+          "char": "上",
+          "start": 2.241803,
+          "end": 2.261819
+        },
+        {
+          "frame_start": 119,
+          "frame_end": 121,
+          "confidence": 0.9582,
+          "char": "看",
+          "start": 2.381916,
+          "end": 2.421948
+        },
+        {
+          "frame_start": 128,
+          "frame_end": 129,
+          "confidence": 0.9978,
+          "char": "见",
+          "start": 2.562061,
+          "end": 2.582077
+        },
+        {
+          "frame_start": 135,
+          "frame_end": 136,
+          "confidence": 0.7143,
+          "char": "他",
+          "start": 2.702174,
+          "end": 2.72219
+        },
+        {
+          "frame_start": 145,
+          "frame_end": 146,
+          "confidence": 0.9987,
+          "char": "了",
+          "start": 2.902335,
+          "end": 2.922351
+        }
+      ],
+      "token_start": 1.881513,
+      "token_end": 2.922351,
+      "independent_asr_coverage": 1.0,
+      "start": 1.411135,
+      "end": 3.28264,
+      "rms": 0.199241
+    },
+    {
+      "no": 342,
+      "kind": "example",
+      "display_text": "我喜欢去中国旅游。",
+      "pinyin": "wǒ xǐhuan qù Zhōngguó lǚyóu.",
+      "spoken_text": "我喜欢去中国旅游。",
+      "characters": [
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.9996,
+          "char": "我",
+          "start": 3.64293,
+          "end": 3.662946
+        },
+        {
+          "frame_start": 189,
+          "frame_end": 190,
+          "confidence": 1.0,
+          "char": "喜",
+          "start": 3.783043,
+          "end": 3.803059
+        },
+        {
+          "frame_start": 194,
+          "frame_end": 196,
+          "confidence": 0.9998,
+          "char": "欢",
+          "start": 3.883123,
+          "end": 3.923156
+        },
+        {
+          "frame_start": 200,
+          "frame_end": 202,
+          "confidence": 0.9798,
+          "char": "去",
+          "start": 4.00322,
+          "end": 4.043252
+        },
+        {
+          "frame_start": 207,
+          "frame_end": 208,
+          "confidence": 0.9983,
+          "char": "中",
+          "start": 4.143333,
+          "end": 4.163349
+        },
+        {
+          "frame_start": 215,
+          "frame_end": 216,
+          "confidence": 0.998,
+          "char": "国",
+          "start": 4.303462,
+          "end": 4.323478
+        },
+        {
+          "frame_start": 222,
+          "frame_end": 223,
+          "confidence": 0.9967,
+          "char": "旅",
+          "start": 4.443574,
+          "end": 4.46359
+        },
+        {
+          "frame_start": 229,
+          "frame_end": 230,
+          "confidence": 0.9264,
+          "char": "游",
+          "start": 4.583687,
+          "end": 4.603703
+        }
+      ],
+      "token_start": 3.64293,
+      "token_end": 4.603703,
+      "independent_asr_coverage": 1.0,
+      "start": 3.28264,
+      "end": 4.963993,
+      "rms": 0.24242
+    },
+    {
+      "no": 343,
+      "kind": "example",
+      "display_text": "我住在这家酒店。",
+      "pinyin": "wǒ zhù zài zhè jiā jiǔdiàn.",
+      "spoken_text": "我住在这家酒店。",
+      "characters": [
+        {
+          "frame_start": 266,
+          "frame_end": 268,
+          "confidence": 0.9437,
+          "char": "我",
+          "start": 5.324283,
+          "end": 5.364315
+        },
+        {
+          "frame_start": 273,
+          "frame_end": 274,
+          "confidence": 0.9744,
+          "char": "住",
+          "start": 5.464395,
+          "end": 5.484411
+        },
+        {
+          "frame_start": 279,
+          "frame_end": 280,
+          "confidence": 0.9932,
+          "char": "在",
+          "start": 5.584492,
+          "end": 5.604508
+        },
+        {
+          "frame_start": 285,
+          "frame_end": 286,
+          "confidence": 0.9976,
+          "char": "这",
+          "start": 5.704589,
+          "end": 5.724605
+        },
+        {
+          "frame_start": 290,
+          "frame_end": 291,
+          "confidence": 0.9959,
+          "char": "家",
+          "start": 5.804669,
+          "end": 5.824685
+        },
+        {
+          "frame_start": 299,
+          "frame_end": 300,
+          "confidence": 0.9993,
+          "char": "酒",
+          "start": 5.984814,
+          "end": 6.00483
+        },
+        {
+          "frame_start": 308,
+          "frame_end": 309,
+          "confidence": 0.9952,
+          "char": "店",
+          "start": 6.164959,
+          "end": 6.184975
+        }
+      ],
+      "token_start": 5.324283,
+      "token_end": 6.184975,
+      "independent_asr_coverage": 1.0,
+      "start": 4.963993,
+      "end": 6.51524,
+      "rms": 0.171208
+    },
+    {
+      "no": 345,
+      "kind": "example",
+      "display_text": "我过马路。",
+      "pinyin": "wǒ guò mǎlù.",
+      "spoken_text": "我过马路。",
+      "characters": [
+        {
+          "frame_start": 342,
+          "frame_end": 343,
+          "confidence": 0.993,
+          "char": "我",
+          "start": 6.845506,
+          "end": 6.865522
+        },
+        {
+          "frame_start": 348,
+          "frame_end": 349,
+          "confidence": 0.9995,
+          "char": "过",
+          "start": 6.965603,
+          "end": 6.985619
+        },
+        {
+          "frame_start": 354,
+          "frame_end": 355,
+          "confidence": 0.8364,
+          "char": "马",
+          "start": 7.085699,
+          "end": 7.105716
+        },
+        {
+          "frame_start": 365,
+          "frame_end": 366,
+          "confidence": 0.4286,
+          "char": "路",
+          "start": 7.305877,
+          "end": 7.325893
+        }
+      ],
+      "token_start": 6.845506,
+      "token_end": 7.325893,
+      "independent_asr_coverage": 1.0,
+      "start": 6.51524,
+      "end": 7.706198,
+      "rms": 0.221614
+    },
+    {
+      "no": 346,
+      "kind": "example",
+      "display_text": "我明年想出国。",
+      "pinyin": "wǒ míngnián xiǎng chūguó.",
+      "spoken_text": "我明年想出国。",
+      "characters": [
+        {
+          "frame_start": 404,
+          "frame_end": 406,
+          "confidence": 0.8184,
+          "char": "我",
+          "start": 8.086504,
+          "end": 8.126537
+        },
+        {
+          "frame_start": 409,
+          "frame_end": 410,
+          "confidence": 0.9984,
+          "char": "明",
+          "start": 8.186585,
+          "end": 8.206601
+        },
+        {
+          "frame_start": 416,
+          "frame_end": 417,
+          "confidence": 0.999,
+          "char": "年",
+          "start": 8.326698,
+          "end": 8.346714
+        },
+        {
+          "frame_start": 424,
+          "frame_end": 425,
+          "confidence": 0.998,
+          "char": "想",
+          "start": 8.486826,
+          "end": 8.506843
+        },
+        {
+          "frame_start": 434,
+          "frame_end": 435,
+          "confidence": 0.9533,
+          "char": "出",
+          "start": 8.686987,
+          "end": 8.707004
+        },
+        {
+          "frame_start": 443,
+          "frame_end": 444,
+          "confidence": 0.7399,
+          "char": "国",
+          "start": 8.867132,
+          "end": 8.887148
+        }
+      ],
+      "token_start": 8.086504,
+      "token_end": 8.887148,
+      "independent_asr_coverage": 1.0,
+      "start": 7.706198,
+      "end": 9.189716,
+      "rms": 0.277581
+    },
+    {
+      "no": 348,
+      "kind": "example",
+      "display_text": "房间里有一张床。",
+      "pinyin": "fángjiān lǐ yǒu yì zhāng chuáng.",
+      "spoken_text": "房间里有一张床。",
+      "characters": [
+        {
+          "frame_start": 118,
+          "frame_end": 119,
+          "confidence": 0.9907,
+          "char": "房",
+          "start": 9.492283,
+          "end": 9.512311
+        },
+        {
+          "frame_start": 126,
+          "frame_end": 127,
+          "confidence": 0.5819,
+          "char": "间",
+          "start": 9.652506,
+          "end": 9.672534
+        },
+        {
+          "frame_start": 133,
+          "frame_end": 134,
+          "confidence": 0.9989,
+          "char": "里",
+          "start": 9.792701,
+          "end": 9.812729
+        },
+        {
+          "frame_start": 138,
+          "frame_end": 139,
+          "confidence": 0.9488,
+          "char": "有",
+          "start": 9.89284,
+          "end": 9.912868
+        },
+        {
+          "frame_start": 144,
+          "frame_end": 145,
+          "confidence": 0.9991,
+          "char": "一",
+          "start": 10.013007,
+          "end": 10.033035
+        },
+        {
+          "frame_start": 147,
+          "frame_end": 148,
+          "confidence": 0.9933,
+          "char": "张",
+          "start": 10.07309,
+          "end": 10.093118
+        },
+        {
+          "frame_start": 159,
+          "frame_end": 160,
+          "confidence": 0.9188,
+          "char": "床",
+          "start": 10.313424,
+          "end": 10.333452
+        }
+      ],
+      "token_start": 9.492283,
+      "token_end": 10.333452,
+      "independent_asr_coverage": 1.0,
+      "start": 9.189716,
+      "end": 10.713981,
+      "rms": 0.266179
+    },
+    {
+      "no": 349,
+      "kind": "example",
+      "display_text": "我住在三楼。",
+      "pinyin": "wǒ zhù zài sān lóu.",
+      "spoken_text": "我住在三楼。",
+      "characters": [
+        {
+          "frame_start": 198,
+          "frame_end": 200,
+          "confidence": 0.8279,
+          "char": "我",
+          "start": 11.09451,
+          "end": 11.134565
+        },
+        {
+          "frame_start": 205,
+          "frame_end": 207,
+          "confidence": 0.9632,
+          "char": "住",
+          "start": 11.234704,
+          "end": 11.27476
+        },
+        {
+          "frame_start": 211,
+          "frame_end": 213,
+          "confidence": 0.9877,
+          "char": "在",
+          "start": 11.354871,
+          "end": 11.394927
+        },
+        {
+          "frame_start": 219,
+          "frame_end": 220,
+          "confidence": 0.9991,
+          "char": "三",
+          "start": 11.515094,
+          "end": 11.535122
+        },
+        {
+          "frame_start": 231,
+          "frame_end": 232,
+          "confidence": 0.9952,
+          "char": "楼",
+          "start": 11.755428,
+          "end": 11.775456
+        }
+      ],
+      "token_start": 11.09451,
+      "token_end": 11.775456,
+      "independent_asr_coverage": 1.0,
+      "start": 10.713981,
+      "end": 12.095901,
+      "rms": 0.218672
+    },
+    {
+      "no": 350,
+      "kind": "example",
+      "display_text": "请关门。",
+      "pinyin": "qǐng guān mén.",
+      "spoken_text": "请关门。",
+      "characters": [
+        {
+          "frame_start": 264,
+          "frame_end": 265,
+          "confidence": 0.9956,
+          "char": "请",
+          "start": 12.416346,
+          "end": 12.436374
+        },
+        {
+          "frame_start": 273,
+          "frame_end": 274,
+          "confidence": 0.6969,
+          "char": "关",
+          "start": 12.596597,
+          "end": 12.616624
+        },
+        {
+          "frame_start": 280,
+          "frame_end": 282,
+          "confidence": 0.9974,
+          "char": "门",
+          "start": 12.736791,
+          "end": 12.776847
+        }
+      ],
+      "token_start": 12.416346,
+      "token_end": 12.776847,
+      "independent_asr_coverage": 1.0,
+      "start": 12.095901,
+      "end": 13.057237,
+      "rms": 0.248221
+    },
+    {
+      "no": 351,
+      "kind": "example",
+      "display_text": "请打开门。",
+      "pinyin": "qǐng dǎkāi mén.",
+      "spoken_text": "请打开门。",
+      "characters": [
+        {
+          "frame_start": 310,
+          "frame_end": 311,
+          "confidence": 0.9977,
+          "char": "请",
+          "start": 13.337626,
+          "end": 13.357654
+        },
+        {
+          "frame_start": 319,
+          "frame_end": 320,
+          "confidence": 0.9999,
+          "char": "打",
+          "start": 13.517877,
+          "end": 13.537904
+        },
+        {
+          "frame_start": 326,
+          "frame_end": 327,
+          "confidence": 0.9998,
+          "char": "开",
+          "start": 13.658071,
+          "end": 13.678099
+        },
+        {
+          "frame_start": 334,
+          "frame_end": 335,
+          "confidence": 0.9992,
+          "char": "门",
+          "start": 13.818294,
+          "end": 13.838322
+        }
+      ],
+      "token_start": 13.337626,
+      "token_end": 13.838322,
+      "independent_asr_coverage": 1.0,
+      "start": 13.057237,
+      "end": 14.329003,
+      "rms": 0.17777
+    },
+    {
+      "no": 352,
+      "kind": "example",
+      "display_text": "洗手间在哪儿？",
+      "pinyin": "xǐshǒujiān zài nǎr?",
+      "spoken_text": "洗手间在哪儿？",
+      "characters": [
+        {
+          "frame_start": 384,
+          "frame_end": 385,
+          "confidence": 0.4329,
+          "char": "洗",
+          "start": 14.819685,
+          "end": 14.839713
+        },
+        {
+          "frame_start": 390,
+          "frame_end": 391,
+          "confidence": 0.9058,
+          "char": "手",
+          "start": 14.939852,
+          "end": 14.95988
+        },
+        {
+          "frame_start": 397,
+          "frame_end": 398,
+          "confidence": 0.5025,
+          "char": "间",
+          "start": 15.080047,
+          "end": 15.100075
+        },
+        {
+          "frame_start": 404,
+          "frame_end": 405,
+          "confidence": 0.9716,
+          "char": "在",
+          "start": 15.220242,
+          "end": 15.24027
+        },
+        {
+          "frame_start": 411,
+          "frame_end": 412,
+          "confidence": 0.9961,
+          "char": "哪",
+          "start": 15.360437,
+          "end": 15.380464
+        },
+        {
+          "frame_start": 418,
+          "frame_end": 419,
+          "confidence": 0.3375,
+          "char": "儿",
+          "start": 15.500631,
+          "end": 15.520659
+        }
+      ],
+      "token_start": 14.819685,
+      "token_end": 15.520659,
+      "independent_asr_coverage": 0.833,
+      "start": 14.329003,
+      "end": 15.740965,
+      "rms": 0.210445
+    },
+    {
+      "no": 361,
+      "kind": "example",
+      "display_text": "我去买药。",
+      "pinyin": "wǒ qù mǎi yào.",
+      "spoken_text": "我去买药。",
+      "characters": [
+        {
+          "frame_start": 441,
+          "frame_end": 442,
+          "confidence": 0.9985,
+          "char": "我",
+          "start": 15.961271,
+          "end": 15.981299
+        },
+        {
+          "frame_start": 446,
+          "frame_end": 448,
+          "confidence": 0.9412,
+          "char": "去",
+          "start": 16.06141,
+          "end": 16.101466
+        },
+        {
+          "frame_start": 451,
+          "frame_end": 453,
+          "confidence": 0.9764,
+          "char": "买",
+          "start": 16.16155,
+          "end": 16.201605
+        },
+        {
+          "frame_start": 460,
+          "frame_end": 461,
+          "confidence": 0.9887,
+          "char": "药",
+          "start": 16.3418,
+          "end": 16.361828
+        }
+      ],
+      "token_start": 15.961271,
+      "token_end": 16.361828,
+      "independent_asr_coverage": 1.0,
+      "start": 15.740965,
+      "end": 16.694882,
+      "rms": 0.170278
+    },
+    {
+      "no": 362,
+      "kind": "example",
+      "display_text": "药店在医院旁边。",
+      "pinyin": "yàodiàn zài yīyuàn pángbiān.",
+      "spoken_text": "药店在医院旁边。",
+      "characters": [
+        {
+          "frame_start": 107,
+          "frame_end": 109,
+          "confidence": 0.5956,
+          "char": "药",
+          "start": 17.027936,
+          "end": 17.06801
+        },
+        {
+          "frame_start": 116,
+          "frame_end": 117,
+          "confidence": 0.9304,
+          "char": "店",
+          "start": 17.208268,
+          "end": 17.228304
+        },
+        {
+          "frame_start": 123,
+          "frame_end": 125,
+          "confidence": 0.9364,
+          "char": "在",
+          "start": 17.348525,
+          "end": 17.388599
+        },
+        {
+          "frame_start": 129,
+          "frame_end": 130,
+          "confidence": 0.997,
+          "char": "医",
+          "start": 17.468746,
+          "end": 17.488783
+        },
+        {
+          "frame_start": 134,
+          "frame_end": 135,
+          "confidence": 0.9324,
+          "char": "院",
+          "start": 17.56893,
+          "end": 17.588967
+        },
+        {
+          "frame_start": 143,
+          "frame_end": 144,
+          "confidence": 0.9066,
+          "char": "旁",
+          "start": 17.749261,
+          "end": 17.769298
+        },
+        {
+          "frame_start": 154,
+          "frame_end": 156,
+          "confidence": 0.979,
+          "char": "边",
+          "start": 17.969666,
+          "end": 18.009739
+        }
+      ],
+      "token_start": 17.027936,
+      "token_end": 18.009739,
+      "independent_asr_coverage": 1.0,
+      "start": 16.694882,
+      "end": 18.290254,
+      "rms": 0.290199
+    },
+    {
+      "no": 363,
+      "kind": "example",
+      "display_text": "你的身体怎么样？",
+      "pinyin": "nǐ de shēntǐ zěnmeyàng?",
+      "spoken_text": "你的身体怎么样？",
+      "characters": [
+        {
+          "frame_start": 184,
+          "frame_end": 186,
+          "confidence": 0.9662,
+          "char": "你",
+          "start": 18.570769,
+          "end": 18.610843
+        },
+        {
+          "frame_start": 189,
+          "frame_end": 190,
+          "confidence": 0.9917,
+          "char": "的",
+          "start": 18.670953,
+          "end": 18.69099
+        },
+        {
+          "frame_start": 194,
+          "frame_end": 196,
+          "confidence": 0.9983,
+          "char": "身",
+          "start": 18.771137,
+          "end": 18.811211
+        },
+        {
+          "frame_start": 203,
+          "frame_end": 205,
+          "confidence": 0.7436,
+          "char": "体",
+          "start": 18.951468,
+          "end": 18.991542
+        },
+        {
+          "frame_start": 210,
+          "frame_end": 212,
+          "confidence": 0.9011,
+          "char": "怎",
+          "start": 19.091726,
+          "end": 19.131799
+        },
+        {
+          "frame_start": 214,
+          "frame_end": 216,
+          "confidence": 0.9766,
+          "char": "么",
+          "start": 19.171873,
+          "end": 19.211946
+        },
+        {
+          "frame_start": 218,
+          "frame_end": 220,
+          "confidence": 0.6435,
+          "char": "样",
+          "start": 19.25202,
+          "end": 19.292094
+        }
+      ],
+      "token_start": 18.570769,
+      "token_end": 19.292094,
+      "independent_asr_coverage": 1.0,
+      "start": 18.290254,
+      "end": 19.552572,
+      "rms": 0.143707
+    },
+    {
+      "no": 364,
+      "kind": "example",
+      "display_text": "我的手很冷。",
+      "pinyin": "wǒ de shǒu hěn lěng.",
+      "spoken_text": "我的手很冷。",
+      "characters": [
+        {
+          "frame_start": 246,
+          "frame_end": 248,
+          "confidence": 0.9676,
+          "char": "我",
+          "start": 19.81305,
+          "end": 19.853124
+        },
+        {
+          "frame_start": 251,
+          "frame_end": 252,
+          "confidence": 0.9854,
+          "char": "的",
+          "start": 19.913234,
+          "end": 19.933271
+        },
+        {
+          "frame_start": 257,
+          "frame_end": 258,
+          "confidence": 0.424,
+          "char": "手",
+          "start": 20.033455,
+          "end": 20.053492
+        },
+        {
+          "frame_start": 264,
+          "frame_end": 265,
+          "confidence": 0.464,
+          "char": "很",
+          "start": 20.173712,
+          "end": 20.193749
+        },
+        {
+          "frame_start": 276,
+          "frame_end": 277,
+          "confidence": 0.8532,
+          "char": "冷",
+          "start": 20.414154,
+          "end": 20.434191
+        }
+      ],
+      "token_start": 19.81305,
+      "token_end": 20.434191,
+      "independent_asr_coverage": 1.0,
+      "start": 19.552572,
+      "end": 20.724725,
+      "rms": 0.151847
+    },
+    {
+      "no": 365,
+      "kind": "example",
+      "display_text": "我的头有点儿疼。",
+      "pinyin": "wǒ de tóu yǒudiǎnr téng.",
+      "spoken_text": "我的头有点儿疼。",
+      "characters": [
+        {
+          "frame_start": 306,
+          "frame_end": 307,
+          "confidence": 0.9941,
+          "char": "我",
+          "start": 21.015258,
+          "end": 21.035294
+        },
+        {
+          "frame_start": 311,
+          "frame_end": 313,
+          "confidence": 0.7533,
+          "char": "的",
+          "start": 21.115441,
+          "end": 21.155515
+        },
+        {
+          "frame_start": 317,
+          "frame_end": 319,
+          "confidence": 0.8988,
+          "char": "头",
+          "start": 21.235662,
+          "end": 21.275736
+        },
+        {
+          "frame_start": 331,
+          "frame_end": 332,
+          "confidence": 0.3524,
+          "char": "有",
+          "start": 21.516177,
+          "end": 21.536214
+        },
+        {
+          "frame_start": 337,
+          "frame_end": 339,
+          "confidence": 0.8908,
+          "char": "点",
+          "start": 21.636398,
+          "end": 21.676472
+        },
+        {
+          "frame_start": 341,
+          "frame_end": 342,
+          "confidence": 0.021,
+          "char": "儿",
+          "start": 21.716545,
+          "end": 21.736582
+        },
+        {
+          "frame_start": 347,
+          "frame_end": 348,
+          "confidence": 0.6938,
+          "char": "疼",
+          "start": 21.836766,
+          "end": 21.856803
+        }
+      ],
+      "token_start": 21.015258,
+      "token_end": 21.856803,
+      "independent_asr_coverage": 0.857,
+      "start": 20.724725,
+      "end": 22.227483,
+      "rms": 0.202542
+    },
+    {
+      "no": 366,
+      "kind": "example",
+      "display_text": "她的眼睛很大。",
+      "pinyin": "tā de yǎnjing hěn dà.",
+      "spoken_text": "她的眼睛很大。",
+      "characters": [
+        {
+          "frame_start": 385,
+          "frame_end": 386,
+          "confidence": 0.3093,
+          "char": "她",
+          "start": 22.598164,
+          "end": 22.618201
+        },
+        {
+          "frame_start": 390,
+          "frame_end": 392,
+          "confidence": 0.9274,
+          "char": "的",
+          "start": 22.698348,
+          "end": 22.738421
+        },
+        {
+          "frame_start": 395,
+          "frame_end": 396,
+          "confidence": 0.9847,
+          "char": "眼",
+          "start": 22.798532,
+          "end": 22.818569
+        },
+        {
+          "frame_start": 403,
+          "frame_end": 404,
+          "confidence": 0.9603,
+          "char": "睛",
+          "start": 22.958826,
+          "end": 22.978863
+        },
+        {
+          "frame_start": 410,
+          "frame_end": 412,
+          "confidence": 0.8477,
+          "char": "很",
+          "start": 23.099084,
+          "end": 23.139157
+        },
+        {
+          "frame_start": 422,
+          "frame_end": 423,
+          "confidence": 0.9856,
+          "char": "大",
+          "start": 23.339525,
+          "end": 23.359562
+        }
+      ],
+      "token_start": 22.598164,
+      "token_end": 23.359562,
+      "independent_asr_coverage": 1.0,
+      "start": 22.227483,
+      "end": 23.640077,
+      "rms": 0.166185
+    },
+    {
+      "no": 367,
+      "kind": "example",
+      "display_text": "我的头很疼。",
+      "pinyin": "wǒ de tóu hěn téng.",
+      "spoken_text": "我的头很疼。",
+      "characters": [
+        {
+          "frame_start": 451,
+          "frame_end": 452,
+          "confidence": 0.9945,
+          "char": "我",
+          "start": 23.920592,
+          "end": 23.940629
+        },
+        {
+          "frame_start": 456,
+          "frame_end": 457,
+          "confidence": 0.9779,
+          "char": "的",
+          "start": 24.020776,
+          "end": 24.040813
+        },
+        {
+          "frame_start": 462,
+          "frame_end": 463,
+          "confidence": 0.9958,
+          "char": "头",
+          "start": 24.140997,
+          "end": 24.161033
+        },
+        {
+          "frame_start": 475,
+          "frame_end": 476,
+          "confidence": 0.9702,
+          "char": "很",
+          "start": 24.401475,
+          "end": 24.421512
+        },
+        {
+          "frame_start": 484,
+          "frame_end": 485,
+          "confidence": 0.9114,
+          "char": "疼",
+          "start": 24.581806,
+          "end": 24.601843
+        }
+      ],
+      "token_start": 23.920592,
+      "token_end": 24.601843,
+      "independent_asr_coverage": 1.0,
+      "start": 23.640077,
+      "end": 24.976919,
+      "rms": 0.110534
+    },
+    {
+      "no": 368,
+      "kind": "example",
+      "display_text": "这张床很舒服。",
+      "pinyin": "zhè zhāng chuáng hěn shūfu.",
+      "spoken_text": "这张床很舒服。",
+      "characters": [
+        {
+          "frame_start": 127,
+          "frame_end": 128,
+          "confidence": 0.9995,
+          "char": "这",
+          "start": 25.351994,
+          "end": 25.372033
+        },
+        {
+          "frame_start": 132,
+          "frame_end": 133,
+          "confidence": 0.9968,
+          "char": "张",
+          "start": 25.45219,
+          "end": 25.472229
+        },
+        {
+          "frame_start": 142,
+          "frame_end": 143,
+          "confidence": 0.9456,
+          "char": "床",
+          "start": 25.652583,
+          "end": 25.672623
+        },
+        {
+          "frame_start": 150,
+          "frame_end": 151,
+          "confidence": 0.9983,
+          "char": "很",
+          "start": 25.812898,
+          "end": 25.832937
+        },
+        {
+          "frame_start": 159,
+          "frame_end": 160,
+          "confidence": 0.3394,
+          "char": "舒",
+          "start": 25.993252,
+          "end": 26.013291
+        },
+        {
+          "frame_start": 173,
+          "frame_end": 174,
+          "confidence": 0.9978,
+          "char": "服",
+          "start": 26.273802,
+          "end": 26.293842
+        }
+      ],
+      "token_start": 25.351994,
+      "token_end": 26.293842,
+      "independent_asr_coverage": 1.0,
+      "start": 24.976919,
+      "end": 26.524294,
+      "rms": 0.218798
+    },
+    {
+      "no": 369,
+      "kind": "example",
+      "display_text": "我今天很累。",
+      "pinyin": "wǒ jīntiān hěn lèi.",
+      "spoken_text": "我今天很累。",
+      "characters": [
+        {
+          "frame_start": 197,
+          "frame_end": 198,
+          "confidence": 0.9996,
+          "char": "我",
+          "start": 26.754746,
+          "end": 26.774785
+        },
+        {
+          "frame_start": 203,
+          "frame_end": 204,
+          "confidence": 0.996,
+          "char": "今",
+          "start": 26.874982,
+          "end": 26.895021
+        },
+        {
+          "frame_start": 209,
+          "frame_end": 210,
+          "confidence": 0.992,
+          "char": "天",
+          "start": 26.995218,
+          "end": 27.015257
+        },
+        {
+          "frame_start": 216,
+          "frame_end": 217,
+          "confidence": 0.9997,
+          "char": "很",
+          "start": 27.135493,
+          "end": 27.155532
+        },
+        {
+          "frame_start": 226,
+          "frame_end": 227,
+          "confidence": 0.8322,
+          "char": "累",
+          "start": 27.335886,
+          "end": 27.355925
+        }
+      ],
+      "token_start": 26.754746,
+      "token_end": 27.355925,
+      "independent_asr_coverage": 1.0,
+      "start": 26.524294,
+      "end": 27.666534,
+      "rms": 0.146201
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 258,
+          "frame_end": 259,
+          "confidence": 0.9996,
+          "char": "好",
+          "start": 27.977144,
+          "end": 27.997184
+        },
+        {
+          "frame_start": 268,
+          "frame_end": 269,
+          "confidence": 0.9576,
+          "char": "的",
+          "start": 28.177538,
+          "end": 28.197577
+        }
+      ],
+      "token_start": 27.977144,
+      "token_end": 28.197577,
+      "independent_asr_coverage": 1.0,
+      "start": 27.666534,
+      "end": 28.498167,
+      "rms": 0.071811
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 0.9914,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 6,
+      "start": 0,
+      "end": 11.189,
+      "greedy_transcript": "这 条路 很长  我在路上 看见 他 了  我喜欢去中国旅游 我住在这家 酒 店  我过 马路  我明年想出国房间里有一张C床   我",
+      "oov": []
+    },
+    {
+      "first": 5,
+      "last": 12,
+      "start": 7.1290000000000004,
+      "end": 18.645,
+      "greedy_transcript": "路我明年想出国房间里有一张床 我住在三楼请关门请打开门 洗手间在哪我去买药药 店在医院旁边你",
+      "oov": []
+    },
+    {
+      "first": 11,
+      "last": 18,
+      "start": 14.884,
+      "end": 26.866,
+      "greedy_transcript": "Z首 J尖 在 哪我 去 买 药  要药 D店 在 医院 旁 边 你 的 身 体 怎么 样  我 的 手 很 冷 我 的 头 友 点 疼 他 的 眼睛 很 大 我 的 头 很 疼 这 张 C床 很 输 服  我",
+      "oov": []
+    },
+    {
+      "first": 17,
+      "last": 20,
+      "start": 22.807,
+      "end": 28.498166666666666,
+      "greedy_transcript": "睛很大我的头很疼 这张床很输服我今天很累好 的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}

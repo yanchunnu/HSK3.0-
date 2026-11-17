@@ -1,0 +1,176 @@
+{
+  "chunk": 11,
+  "duration_seconds": 3.860875,
+  "units": [
+    {
+      "no": 499,
+      "kind": "example",
+      "display_text": "她个子很高。",
+      "pinyin": "tā gèzi hěn gāo.",
+      "spoken_text": "她个子很高。",
+      "characters": [
+        {
+          "frame_start": 6,
+          "frame_end": 7,
+          "confidence": 0.2838,
+          "char": "她",
+          "start": 0.120652,
+          "end": 0.140761
+        },
+        {
+          "frame_start": 13,
+          "frame_end": 14,
+          "confidence": 0.269,
+          "char": "个",
+          "start": 0.261413,
+          "end": 0.281522
+        },
+        {
+          "frame_start": 21,
+          "frame_end": 22,
+          "confidence": 0.0603,
+          "char": "子",
+          "start": 0.422283,
+          "end": 0.442392
+        },
+        {
+          "frame_start": 25,
+          "frame_end": 26,
+          "confidence": 0.9968,
+          "char": "很",
+          "start": 0.502718,
+          "end": 0.522827
+        },
+        {
+          "frame_start": 37,
+          "frame_end": 38,
+          "confidence": 0.9554,
+          "char": "高",
+          "start": 0.744023,
+          "end": 0.764132
+        }
+      ],
+      "token_start": 0.120652,
+      "token_end": 0.764132,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 1.055709,
+      "rms": 0.225943
+    },
+    {
+      "no": 500,
+      "kind": "example",
+      "display_text": "我们一起学习吧。",
+      "pinyin": "wǒmen yìqǐ xuéxí ba.",
+      "spoken_text": "我们一起学习吧。",
+      "characters": [
+        {
+          "frame_start": 67,
+          "frame_end": 69,
+          "confidence": 0.983,
+          "char": "我",
+          "start": 1.347285,
+          "end": 1.387502
+        },
+        {
+          "frame_start": 72,
+          "frame_end": 74,
+          "confidence": 0.894,
+          "char": "们",
+          "start": 1.447828,
+          "end": 1.488046
+        },
+        {
+          "frame_start": 77,
+          "frame_end": 78,
+          "confidence": 0.9748,
+          "char": "一",
+          "start": 1.548372,
+          "end": 1.56848
+        },
+        {
+          "frame_start": 84,
+          "frame_end": 86,
+          "confidence": 0.9707,
+          "char": "起",
+          "start": 1.689133,
+          "end": 1.72935
+        },
+        {
+          "frame_start": 91,
+          "frame_end": 92,
+          "confidence": 0.9991,
+          "char": "学",
+          "start": 1.829894,
+          "end": 1.850003
+        },
+        {
+          "frame_start": 102,
+          "frame_end": 103,
+          "confidence": 0.9958,
+          "char": "习",
+          "start": 2.05109,
+          "end": 2.071199
+        },
+        {
+          "frame_start": 109,
+          "frame_end": 110,
+          "confidence": 0.9995,
+          "char": "吧",
+          "start": 2.191851,
+          "end": 2.21196
+        }
+      ],
+      "token_start": 1.347285,
+      "token_end": 2.21196,
+      "independent_asr_coverage": 1.0,
+      "start": 1.055709,
+      "end": 2.573917,
+      "rms": 0.1974
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 146,
+          "frame_end": 147,
+          "confidence": 0.9996,
+          "char": "好",
+          "start": 2.935874,
+          "end": 2.955982
+        },
+        {
+          "frame_start": 156,
+          "frame_end": 157,
+          "confidence": 0.9477,
+          "char": "的",
+          "start": 3.136961,
+          "end": 3.15707
+        }
+      ],
+      "token_start": 2.935874,
+      "token_end": 3.15707,
+      "independent_asr_coverage": 1.0,
+      "start": 2.573917,
+      "end": 3.860875,
+      "rms": 0.104337
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 0.9655,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 2,
+      "start": 0,
+      "end": 3.860875,
+      "greedy_transcript": "他 各很高 我们一 起学习 吧 好 的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}

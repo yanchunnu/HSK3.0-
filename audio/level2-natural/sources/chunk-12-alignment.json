@@ -1,0 +1,191 @@
+{
+  "chunk": 12,
+  "duration_seconds": 3.39075,
+  "units": [
+    {
+      "no": 185,
+      "kind": "example",
+      "display_text": "我正看书呢。",
+      "spoken_text": "我正看书呢。",
+      "pinyin": "wǒ zhèng kàn shū ne.",
+      "characters": [
+        {
+          "frame_start": 5,
+          "frame_end": 6,
+          "confidence": 0.9718,
+          "char": "我",
+          "start": 0.100318,
+          "end": 0.120382
+        },
+        {
+          "frame_start": 10,
+          "frame_end": 11,
+          "confidence": 0.3399,
+          "char": "正",
+          "start": 0.200636,
+          "end": 0.2207
+        },
+        {
+          "frame_start": 16,
+          "frame_end": 18,
+          "confidence": 0.9538,
+          "char": "看",
+          "start": 0.321018,
+          "end": 0.361145
+        },
+        {
+          "frame_start": 25,
+          "frame_end": 26,
+          "confidence": 0.929,
+          "char": "书",
+          "start": 0.50159,
+          "end": 0.521654
+        },
+        {
+          "frame_start": 34,
+          "frame_end": 36,
+          "confidence": 0.8223,
+          "char": "呢",
+          "start": 0.682163,
+          "end": 0.72229
+        }
+      ],
+      "token_start": 0.100318,
+      "token_end": 0.72229,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 0.872767,
+      "rms": 0.25792
+    },
+    {
+      "no": 314,
+      "kind": "example",
+      "display_text": "请进！",
+      "spoken_text": "请进！",
+      "pinyin": "qǐng jìn!",
+      "characters": [
+        {
+          "frame_start": 51,
+          "frame_end": 53,
+          "confidence": 0.2335,
+          "char": "请",
+          "start": 1.023244,
+          "end": 1.063371
+        },
+        {
+          "frame_start": 59,
+          "frame_end": 60,
+          "confidence": 0.0517,
+          "char": "进",
+          "start": 1.183753,
+          "end": 1.203817
+        }
+      ],
+      "token_start": 1.023244,
+      "token_end": 1.203817,
+      "independent_asr_coverage": 1.0,
+      "start": 0.872767,
+      "end": 1.414484,
+      "rms": 0.22964
+    },
+    {
+      "no": 377,
+      "kind": "example",
+      "display_text": "外边下雪了。",
+      "spoken_text": "外边下雪了。",
+      "pinyin": "wàibian xià xuě le.",
+      "characters": [
+        {
+          "frame_start": 81,
+          "frame_end": 85,
+          "confidence": 0.8489,
+          "char": "外",
+          "start": 1.625152,
+          "end": 1.705407
+        },
+        {
+          "frame_start": 88,
+          "frame_end": 90,
+          "confidence": 0.9095,
+          "char": "边",
+          "start": 1.765598,
+          "end": 1.805725
+        },
+        {
+          "frame_start": 95,
+          "frame_end": 96,
+          "confidence": 0.6611,
+          "char": "下",
+          "start": 1.906043,
+          "end": 1.926107
+        },
+        {
+          "frame_start": 102,
+          "frame_end": 104,
+          "confidence": 0.9771,
+          "char": "雪",
+          "start": 2.046488,
+          "end": 2.086615
+        },
+        {
+          "frame_start": 112,
+          "frame_end": 113,
+          "confidence": 0.7152,
+          "char": "了",
+          "start": 2.247124,
+          "end": 2.267188
+        }
+      ],
+      "token_start": 1.625152,
+      "token_end": 2.267188,
+      "independent_asr_coverage": 1.0,
+      "start": 1.414484,
+      "end": 2.507951,
+      "rms": 0.206383
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 137,
+          "frame_end": 138,
+          "confidence": 0.9337,
+          "char": "好",
+          "start": 2.748714,
+          "end": 2.768778
+        },
+        {
+          "frame_start": 145,
+          "frame_end": 146,
+          "confidence": 0.2565,
+          "char": "的",
+          "start": 2.909223,
+          "end": 2.929287
+        }
+      ],
+      "token_start": 2.748714,
+      "token_end": 2.929287,
+      "independent_asr_coverage": 1.0,
+      "start": 2.507951,
+      "end": 3.39075,
+      "rms": 0.114132
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 1.0,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 3,
+      "start": 0,
+      "end": 3.39075,
+      "greedy_transcript": "我 Z正 看 书 呢  Q情 见  外边下 雪 了  好 D的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}
