@@ -202,7 +202,7 @@ function playQueue(entries, label) {
   };
   next();
 }
-const AUDIO_REVISION = "20261117-word26-tone2";
+const AUDIO_REVISION = "20261117-word26-tone2-review600";
 const FIXED_AUDIO = Object.fromEntries(DATA.map(x => [x.no, {word:`audio/level1-natural/item1-${String(x.no).padStart(4,"0")}-word.mp3?v=${AUDIO_REVISION}`,example:`audio/level1-natural/item1-${String(x.no).padStart(4,"0")}-example.mp3?v=${AUDIO_REVISION}`} ]));
 function fixedAudio(no, kind) { return FIXED_AUDIO[no]?.[kind] || null; }
 

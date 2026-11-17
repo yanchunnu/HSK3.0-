@@ -452,6 +452,30 @@
       "decoded_pcm_sha256": "2da391c56753544d14c931748c82689ed6845560728cbc7ba084a4dd0ce90e7d",
       "archive_format": "flac (lossless)",
       "purpose": "Grade 1 item 26 example, first syllable changed to second tone"
+    },
+    {
+      "chunk": 38,
+      "file": "audio/level3-natural/sources/chunk-35.mp3",
+      "duration_seconds": 72.504,
+      "metadata": "audio/level3-natural/sources/chunk-35.json",
+      "script": "audio/level3-natural/sources/chunk-35.txt",
+      "sha256": "4a5da2c4ce5d69904ac53f27ec01885ff6ed2b955c390e989c4149657afe2223",
+      "requested_engine": "saved default",
+      "returned_engine": null,
+      "reused_from": "audio/level3-natural/sources/chunk-35.mp3",
+      "purpose": "Same-voice more stable falling-tone recording for grade 1 item 266 要"
+    },
+    {
+      "chunk": 39,
+      "file": "audio/level3-natural/sources/chunk-40.mp3",
+      "duration_seconds": 68.088,
+      "metadata": "audio/level3-natural/sources/chunk-40.json",
+      "script": "audio/level3-natural/sources/chunk-40.txt",
+      "sha256": "b3697dcdcc8f70371a59f2ff522c43160734abb8e73d14e9c04a5f1430ded314",
+      "requested_engine": "saved default",
+      "returned_engine": null,
+      "reused_from": "audio/level3-natural/sources/chunk-40.mp3",
+      "purpose": "Same-voice more stable falling-tone recording for grade 1 item 297 太"
     }
   ],
   "clips": [
@@ -1210,12 +1234,21 @@
       "file": "audio/level1-natural/item1-0023-example.mp3",
       "source_chunk": 16,
       "start": 0,
-      "end": 1.021042,
+      "end": 0.865,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "separate complete utterance; trimmed only in measured trailing silence",
-      "source_rms": 0.181149,
-      "sha256": "bc3741feae3288e39962436eb1262bbd775bf5fed00b01cd0118a39868189ff5"
+      "method": "complete 大家好 retained; removed detached repeated 大 after measured trailing silence",
+      "source_rms": 0.169465,
+      "sha256": "24f3038c45c50e9c8ea805de4b24b3ec593c044dbd4703cbc323454932965e8d",
+      "recheck_20261117": {
+        "removed_source_interval": [
+          0.865,
+          1.021042
+        ],
+        "reason": "Independent unconstrained CTC identifies an extra 大 at .919–.939s after complete 大家好; cut in preceding quiet interval.",
+        "original_clip_sha256": "bc3741feae3288e39962436eb1262bbd775bf5fed00b01cd0118a39868189ff5",
+        "direct_listening": false
+      }
     },
     {
       "no": 24,
@@ -7006,13 +7039,22 @@
       "pinyin": "piányi",
       "file": "audio/level1-natural/item1-0197-word.mp3",
       "source_chunk": 10,
-      "start": 33.16,
+      "start": 33.96,
       "end": 34.60396,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "complete standalone utterance bounded in measured source silence",
-      "source_rms": 0.211686,
-      "sha256": "708fb5ada6dd675fb24a805a32773ba0a280f45d5759ce10e5212963df2f12f4"
+      "method": "complete second 便宜 retained; remove first duplicate reading, starting in measured 0.38s inter-word silence",
+      "source_rms": 0.24259,
+      "sha256": "a702b4691eb9de003174e6146e3ec4c59259b8dff3d83c7343f9908a091b168e",
+      "recheck_20261117": {
+        "removed_source_interval": [
+          33.16,
+          33.96
+        ],
+        "reason": "Source CTC identifies two complete 便宜 readings. Retain second complete word, independently recognized as 便宜 by both CTC and Whisper, and cut in preceding 0.38s silence.",
+        "original_clip_sha256": "708fb5ada6dd675fb24a805a32773ba0a280f45d5759ce10e5212963df2f12f4",
+        "direct_listening": false
+      }
     },
     {
       "no": 197,
@@ -9302,18 +9344,24 @@
       "no": 266,
       "kind": "word",
       "display_text": "要",
-      "spoken_text": "要。",
+      "spoken_text": "要",
       "pinyin": "yào",
       "file": "audio/level1-natural/item1-0266-word.mp3",
-      "source_chunk": 14,
-      "start": 10.12,
-      "end": 10.598,
+      "source_chunk": 38,
+      "start": 15.5475,
+      "end": 15.985,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "complete standalone utterance bounded in measured source silence",
-      "source_rms": 0.215796,
-      "gain_db": -0.724243,
-      "sha256": "cbc02981f9101cc4d2c3dc59a62df8e38159b77b521af60ba284a6e06156283b"
+      "method": "same-voice existing complete falling-tone word; 160ms lead and 350ms tail padding added",
+      "source_rms": 0.090518,
+      "gain_db": 0.0,
+      "sha256": "c306e7e30af1bce95d32fcfc36180d96fe2e31ee68b6f417f8f534d484188578",
+      "reused_from_clip": "audio/level3-natural/item3-0858-word.mp3",
+      "recheck_20261117": {
+        "reason": "Use same-voice existing take with more stable falling-tone measurement and independent correct phonetic recognition; no new synthesis or pitch/time transformation.",
+        "original_clip_sha256": "cbc02981f9101cc4d2c3dc59a62df8e38159b77b521af60ba284a6e06156283b",
+        "direct_listening": false
+      }
     },
     {
       "no": 266,
@@ -10533,17 +10581,24 @@
       "no": 297,
       "kind": "word",
       "display_text": "太",
-      "spoken_text": "太。",
+      "spoken_text": "太",
       "pinyin": "tài",
       "file": "audio/level1-natural/item1-0297-word.mp3",
-      "source_chunk": 15,
-      "start": 30.037475,
-      "end": 31.032,
+      "source_chunk": 39,
+      "start": 39.74,
+      "end": 40.4225,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "complete standalone utterance bounded in measured source silence",
-      "source_rms": 0.064898,
-      "sha256": "1d4238140d52fc4b22ffd6e0dd6b2ad447bab7ffb46dd32bfda39e15182057e8"
+      "method": "same-voice existing complete falling-tone word; 160ms lead and 350ms tail padding added",
+      "source_rms": 0.112956,
+      "sha256": "c5beb7844fb30eefcd642c29af5033566b0e3277c521ec1668d8a603c7eb8248",
+      "gain_db": 0.0,
+      "reused_from_clip": "audio/level3-natural/item3-0989-word.mp3",
+      "recheck_20261117": {
+        "reason": "Use same-voice existing take with more stable falling-tone measurement and independent correct phonetic recognition; no new synthesis or pitch/time transformation.",
+        "original_clip_sha256": "1d4238140d52fc4b22ffd6e0dd6b2ad447bab7ffb46dd32bfda39e15182057e8",
+        "direct_listening": false
+      }
     },
     {
       "no": 297,
@@ -10759,6 +10814,35 @@
         "example_source": 37,
         "displayed_character": "喂",
         "speech_only_character": "围",
+        "direct_listening": false
+      },
+      {
+        "date": "2026-11-17",
+        "no": 23,
+        "kind": "example",
+        "reason": "Removed detached repeated opening syllable following complete 大家好.",
+        "audit": "study/HSK3.0_1급_전체음원_재점검.json",
+        "direct_listening": false
+      },
+      {
+        "date": "2026-11-17",
+        "no": 197,
+        "kind": "word",
+        "reason": "Removed duplicate full 便宜 utterance inside word file, retaining one complete reading.",
+        "direct_listening": false
+      },
+      {
+        "date": "2026-11-17",
+        "no": 266,
+        "kind": "word",
+        "reason": "Same-voice clearer falling-tone recording reused with complete syllable and padding.",
+        "direct_listening": false
+      },
+      {
+        "date": "2026-11-17",
+        "no": 297,
+        "kind": "word",
+        "reason": "Same-voice clearer falling-tone recording reused with complete syllable and padding.",
         "direct_listening": false
       }
     ]
