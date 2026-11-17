@@ -140,6 +140,54 @@
       "original_native_sha256": "ee63e67a5bd5543b916a4a51406b9b113e0e1321ffe94a32f4fad3fd49771d61",
       "decoded_pcm_sha256": "e0c18e0f5f907a06514cf8cf2016f11959673fffff95daaca5c5097a79430d5e",
       "archive_format": "flac (lossless)"
+    },
+    {
+      "chunk": 13,
+      "file": "audio/level2-natural/sources/chunk-13.flac",
+      "metadata": "audio/level2-natural/sources/chunk-13.json",
+      "script": "audio/level2-natural/sources/chunk-13.txt",
+      "sha256": "83c726d0a66bc2f7f20a00b757a66bdba325330cc4870e3bfb8100d2a4616e62",
+      "duration_seconds": 3.0208163265306123,
+      "original_native_sha256": "a1080e286edbd6073bd78f86d4826b281640024c5364a17c053e7d63b7af5277",
+      "decoded_pcm_sha256": "18ac5900ae1a58ddf2eb1a5947eb9b7239102188bc72ecf702cf9e74ba150885",
+      "archive_format": "flac (lossless)",
+      "purpose": "Complete-word and natural-context clarification during full grade-2 recheck"
+    },
+    {
+      "chunk": 14,
+      "file": "audio/level2-natural/sources/chunk-14.flac",
+      "metadata": "audio/level2-natural/sources/chunk-14.json",
+      "script": "audio/level2-natural/sources/chunk-14.txt",
+      "sha256": "e0a1dee423e8fb5cf9fe50e4f0b87fdce05a6bc458c3a7ecaf71e4e5a6775b9f",
+      "duration_seconds": 5.253492063492064,
+      "original_native_sha256": "d1bfed072e6a4f4f16a71aade777f3924caea66791e80d175dd8e322ad124d81",
+      "decoded_pcm_sha256": "5682b9850a019ff31311cbfe57405a8ae60878b78336c6e5da5328b3fe2000d2",
+      "archive_format": "flac (lossless)",
+      "purpose": "Complete-word and natural-context clarification during full grade-2 recheck"
+    },
+    {
+      "chunk": 15,
+      "file": "audio/level3-natural/sources/chunk-35.mp3",
+      "duration_seconds": 72.504,
+      "metadata": "audio/level3-natural/sources/chunk-35.json",
+      "script": "audio/level3-natural/sources/chunk-35.txt",
+      "sha256": "4a5da2c4ce5d69904ac53f27ec01885ff6ed2b955c390e989c4149657afe2223",
+      "requested_engine": "saved default",
+      "returned_engine": null,
+      "purpose": "Restore complete 那么 trailing sound from retained same-voice original",
+      "reused_from": "audio/level3-natural/sources/chunk-35.mp3"
+    },
+    {
+      "chunk": 16,
+      "file": "audio/level2-natural/sources/chunk-16.flac",
+      "metadata": "audio/level2-natural/sources/chunk-16.json",
+      "script": "audio/level2-natural/sources/chunk-16.txt",
+      "sha256": "5c464b42ef9cb13f55949517f7306071bb85e795eca0b34c4dd5a6854d9d7ea0",
+      "duration_seconds": 5.253061224489796,
+      "original_native_sha256": "e24d074e02e187248d0b9b32dc7fdebe6c5b9655347ca2f54f5775cc2a7a27e7",
+      "decoded_pcm_sha256": "762d2777fe83383dd0a79ccdaa48ff5404a437fcfdf606bbd89d15ccb8eb3a22",
+      "archive_format": "flac (lossless)",
+      "purpose": "Additional isolated pronunciation candidates; only clearer readings selected"
     }
   ],
   "clips": [
@@ -3066,27 +3114,31 @@
       "sha256": "07ce968c5d245d2a2c51b6d1a2e2e7999c55236647ddd83f017326247b33d9a4"
     },
     {
+      "display_text": "间",
+      "spoken_text": "肩。",
+      "pinyin": "jiān",
+      "source_chunk": 14,
+      "method": "new complete natural utterance bounded in measured source silence",
+      "pronunciation_adaptation": {
+        "display": "间",
+        "speech_only_homophone": "肩",
+        "target_pinyin": "jiān"
+      },
       "no": 82,
       "kind": "word",
-      "display_text": "间",
-      "pinyin": "jiān",
-      "file": "audio/level2-natural/item2-0082-word.mp3",
-      "spoken_text": "间",
-      "source_clip": "audio/level3-natural/item3-0118-word.mp3",
-      "source_sha256": "d39649df1820dabb920550041cf598c48bc9bdbe5406cff92cfc98c28f106bb9",
-      "source_manifest": "audio/level3-natural/manifest.json",
-      "source_no": 118,
-      "added_leading_padding_seconds": 0.08,
-      "added_trailing_padding_seconds": 0.27,
+      "start": 0.085,
+      "end": 0.575,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text complete clip reused with additional leading/trailing silence",
-      "sha256": "e60c84e6de442fe5492ecdc178a71ff66ffcc9b361548174cf0a9a4dff58eca5",
-      "context_text": "这间教室比我们班的大。",
-      "context_character_range": [
-        1,
-        2
-      ]
+      "sha256": "e14dc9ec8afc296b3e6bed43453ab5acb87b5cc98b9333fa793397465c203313",
+      "source_rms": 0.251699,
+      "file": "audio/level2-natural/item2-0082-word.mp3",
+      "recheck_20261117": {
+        "previous_sha256": "e60c84e6de442fe5492ecdc178a71ff66ffcc9b361548174cf0a9a4dff58eca5",
+        "review": "Unprompted final-clip ASR plus source CTC/waveform and known pronunciation context; no pitch or speed transformation.",
+        "direct_listening": false
+      },
+      "source_description": "complete utterance"
     },
     {
       "no": 82,
@@ -4736,17 +4788,27 @@
       "display_text": "近",
       "pinyin": "jìn",
       "file": "audio/level2-natural/item2-0128-word.mp3",
-      "spoken_text": "近",
-      "source_clip": "audio/level3-natural/item3-0182-word.mp3",
-      "source_sha256": "773a523e239e7ff53bd805fba81ce4c5cdd6a628abcc54999c3dcdda484f2726",
+      "spoken_text": "进",
+      "source_clip": "audio/level3-natural/item3-0539-word.mp3",
+      "source_sha256": "6b408a273e7dff2bd74400aa704c29eab37c101579f7944014d969ed2c2ae053",
       "source_manifest": "audio/level3-natural/manifest.json",
-      "source_no": 182,
+      "source_no": 539,
       "added_leading_padding_seconds": 0.16,
       "added_trailing_padding_seconds": 0.35,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text complete clip reused with additional leading/trailing silence",
-      "sha256": "d6aeaee98b2a9e662488550ee5ec551c9d844fe7a686daecf9ec5dd244902332"
+      "method": "complete same-voice jìn recording reused via same-sound 进",
+      "sha256": "41de5401bfbf1ec116df6616f671941dbff00d76122402177cabc0484fc024bc",
+      "pronunciation_adaptation": {
+        "display": "近",
+        "speech_only_homophone": "进",
+        "target_pinyin": "jìn"
+      },
+      "recheck_20261117": {
+        "previous_sha256": "d6aeaee98b2a9e662488550ee5ec551c9d844fe7a686daecf9ec5dd244902332",
+        "direct_listening": false,
+        "review": "Known same-sound jìn, same voice ID; isolated Whisper recognizes the donor as 进."
+      }
     },
     {
       "no": 128,
@@ -6033,18 +6095,21 @@
       "kind": "word",
       "display_text": "时候",
       "pinyin": "shíhou",
-      "file": "audio/level2-natural/item2-0164-word.mp3",
       "spoken_text": "时候。",
-      "source_clip": "audio/level1-natural/item1-0131-word.mp3",
-      "source_sha256": "7bdf0d2b409f16635af4c3d6fcca19e4dc2ec3fa8dfeca9450ca162e6566f5ad",
-      "source_manifest": "audio/level1-natural/manifest.json",
-      "source_no": 131,
-      "added_leading_padding_seconds": 0,
-      "added_trailing_padding_seconds": 0,
+      "source_chunk": 16,
+      "start": 1.175,
+      "end": 1.811796,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text clip reused byte-identically",
-      "sha256": "7bdf0d2b409f16635af4c3d6fcca19e4dc2ec3fa8dfeca9450ca162e6566f5ad"
+      "sha256": "a6a84ccd04752294876ac25ab66421f15fee45a7cce691413ba80b4f815e8dce",
+      "source_rms": 0.157309,
+      "method": "complete separately recorded same-voice word, bounded in measured silence",
+      "file": "audio/level2-natural/item2-0164-word.mp3",
+      "recheck_20261117": {
+        "previous_sha256": "7bdf0d2b409f16635af4c3d6fcca19e4dc2ec3fa8dfeca9450ca162e6566f5ad",
+        "direct_listening": false,
+        "review": "Independent final-clip Whisper and phonetic CTC match; complete standalone same-voice utterance replaces ambiguous older take."
+      }
     },
     {
       "no": 164,
@@ -6860,18 +6925,21 @@
       "kind": "word",
       "display_text": "快要",
       "pinyin": "kuàiyào",
-      "file": "audio/level2-natural/item2-0187-word.mp3",
-      "spoken_text": "快要",
-      "source_clip": "audio/level3-natural/item3-0293-word.mp3",
-      "source_sha256": "fe78e431134fdcb2c3d0ef2f2af52f1a31edb8ccff4e25bcc2fb1c3e58fac76f",
-      "source_manifest": "audio/level3-natural/manifest.json",
-      "source_no": 293,
-      "added_leading_padding_seconds": 0.16,
-      "added_trailing_padding_seconds": 0.35,
+      "spoken_text": "快要。",
+      "source_chunk": 16,
+      "start": 1.925,
+      "end": 2.51,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text complete clip reused with additional leading/trailing silence",
-      "sha256": "ec152066b1f52c5e471f47b09fc9c03618efc7e0483dd894ec9100779ac9ccc2"
+      "sha256": "8677d473db7a90e340ca086b9a773ffdb34b2f5570a1551b4d3fb9c92523d794",
+      "source_rms": 0.127927,
+      "method": "complete separately recorded same-voice word, bounded in measured silence",
+      "file": "audio/level2-natural/item2-0187-word.mp3",
+      "recheck_20261117": {
+        "previous_sha256": "ec152066b1f52c5e471f47b09fc9c03618efc7e0483dd894ec9100779ac9ccc2",
+        "direct_listening": false,
+        "review": "Independent final-clip Whisper and phonetic CTC match; complete standalone same-voice utterance replaces ambiguous older take."
+      }
     },
     {
       "no": 187,
@@ -7827,27 +7895,32 @@
       "sha256": "a0424c2e13f55788432865e566f4bda3b4a5450caae0453f736cb84ce9a72006"
     },
     {
+      "display_text": "教",
+      "spoken_text": "浇。",
+      "pinyin": "jiāo",
+      "source_chunk": 14,
+      "method": "new complete natural utterance bounded in measured source silence",
+      "pronunciation_adaptation": {
+        "display": "教",
+        "speech_only_homophone": "浇",
+        "target_pinyin": "jiāo"
+      },
       "no": 214,
       "kind": "word",
-      "display_text": "教",
-      "pinyin": "jiāo",
-      "file": "audio/level2-natural/item2-0214-word.mp3",
-      "spoken_text": "教",
-      "source_clip": "audio/level3-natural/item3-0346-word.mp3",
-      "source_sha256": "1d63db82ce562bd3d29fede6c366b51d38efa253e39afea2236909d60eb4f38f",
-      "source_manifest": "audio/level3-natural/manifest.json",
-      "source_no": 346,
-      "added_leading_padding_seconds": 0.08,
-      "added_trailing_padding_seconds": 0.27,
+      "start": 0.825,
+      "end": 1.252,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text complete clip reused with additional leading/trailing silence",
-      "sha256": "49205e5d9a7260d3568a11d32e764f22410529f04e91b3a9f9886a825d401094",
-      "context_text": "老师正在教我们怎么写这个字。",
-      "context_character_range": [
-        4,
-        5
-      ]
+      "sha256": "4f8785aaed16e1c469eaa84fe89ee65c751a065b6ead0d9d4f64cd196692337a",
+      "source_rms": 0.284372,
+      "gain_db": -0.724243,
+      "file": "audio/level2-natural/item2-0214-word.mp3",
+      "recheck_20261117": {
+        "previous_sha256": "49205e5d9a7260d3568a11d32e764f22410529f04e91b3a9f9886a825d401094",
+        "review": "Unprompted final-clip ASR plus source CTC/waveform and known pronunciation context; no pitch or speed transformation.",
+        "direct_listening": false
+      },
+      "source_description": "complete utterance"
     },
     {
       "no": 214,
@@ -11442,21 +11515,26 @@
       "sha256": "41de5401bfbf1ec116df6616f671941dbff00d76122402177cabc0484fc024bc"
     },
     {
+      "display_text": "请进！",
+      "spoken_text": "请进。",
+      "pinyin": "qǐng jìn!",
+      "source_chunk": 13,
+      "method": "new complete natural utterance bounded in measured source silence",
       "no": 314,
       "kind": "example",
-      "display_text": "请进！",
-      "spoken_text": "请进！",
-      "pinyin": "qǐng jìn!",
-      "file": "audio/level2-natural/item2-0314-example.mp3",
-      "source_chunk": 12,
-      "start": 0.91,
-      "end": 1.414484,
+      "start": 0,
+      "end": 0.54,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "complete newly generated example bounded in measured source silence; independently transcribed and character aligned",
-      "source_rms": 0.237967,
-      "independent_source_asr_coverage": 1.0,
-      "sha256": "2e77d5c30d7464cf9020294b5876c97a2f1d0980721bfcb04b8ed09b684afbe1"
+      "sha256": "1051b3946902648653d4240444f810ebb35e1c3ba694ce8a8b339a9fcf71aa74",
+      "source_rms": 0.190894,
+      "file": "audio/level2-natural/item2-0314-example.mp3",
+      "recheck_20261117": {
+        "previous_sha256": "2e77d5c30d7464cf9020294b5876c97a2f1d0980721bfcb04b8ed09b684afbe1",
+        "review": "Unprompted final-clip ASR plus source CTC/waveform and known pronunciation context; no pitch or speed transformation.",
+        "direct_listening": false
+      },
+      "source_description": "complete utterance"
     },
     {
       "no": 315,
@@ -12498,18 +12576,26 @@
       "kind": "word",
       "display_text": "住",
       "pinyin": "zhù",
-      "file": "audio/level2-natural/item2-0344-word.mp3",
-      "spoken_text": "住。",
-      "source_clip": "audio/level1-natural/item1-0219-word.mp3",
-      "source_sha256": "4f4f752e82f42473b3117c689c597ae66617c865e4984fff03fa97c09d5e61ad",
-      "source_manifest": "audio/level1-natural/manifest.json",
-      "source_no": 219,
-      "added_leading_padding_seconds": 0,
-      "added_trailing_padding_seconds": 0,
+      "spoken_text": "祝。",
+      "source_chunk": 16,
+      "start": 2.77,
+      "end": 3.19,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text clip reused byte-identically",
-      "sha256": "4f4f752e82f42473b3117c689c597ae66617c865e4984fff03fa97c09d5e61ad"
+      "sha256": "58dd76d50693040a26f86ef1fd61f4a60eba8acaa40f90db27c6900f273f9ec0",
+      "source_rms": 0.142201,
+      "method": "complete separately recorded same-voice word, bounded in measured silence",
+      "pronunciation_adaptation": {
+        "display": "住",
+        "speech_only_homophone": "祝",
+        "target_pinyin": "zhù"
+      },
+      "file": "audio/level2-natural/item2-0344-word.mp3",
+      "recheck_20261117": {
+        "previous_sha256": "4f4f752e82f42473b3117c689c597ae66617c865e4984fff03fa97c09d5e61ad",
+        "direct_listening": false,
+        "review": "Independent final-clip Whisper and phonetic CTC match; complete standalone same-voice utterance replaces ambiguous older take."
+      }
     },
     {
       "no": 344,
@@ -12530,27 +12616,27 @@
       "sha256": "36da3d3580ce142be747617ca855e84cfcff5b6edf5001453f1185b9bed5448c"
     },
     {
+      "display_text": "过",
+      "spoken_text": "过。",
+      "pinyin": "guò",
+      "source_chunk": 14,
+      "method": "new complete natural utterance bounded in measured source silence",
       "no": 345,
       "kind": "word",
-      "display_text": "过",
-      "pinyin": "guò",
-      "file": "audio/level2-natural/item2-0345-word.mp3",
-      "spoken_text": "过",
-      "source_clip": "audio/level3-natural/item3-0591-word.mp3",
-      "source_sha256": "7beb4c297a53af3162e697e775e9716f318ee37ce297c8a3507368c809f5ec7d",
-      "source_manifest": "audio/level3-natural/manifest.json",
-      "source_no": 591,
-      "added_leading_padding_seconds": 0.08,
-      "added_trailing_padding_seconds": 0.27,
+      "start": 1.375,
+      "end": 1.714406,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text complete clip reused with additional leading/trailing silence",
-      "sha256": "2b1b60804ab836b6bbccc36c64e33aa1f9edd8703f9da94677225f729464ef34",
-      "context_text": "这条河没有桥，我们怎么过？",
-      "context_character_range": [
-        11,
-        12
-      ]
+      "sha256": "18e281021122d6810922a5a74a7d5b1f92470b9fbf9f2273ab049e4227c4b49f",
+      "source_rms": 0.206145,
+      "gain_db": -0.719205,
+      "file": "audio/level2-natural/item2-0345-word.mp3",
+      "recheck_20261117": {
+        "previous_sha256": "2b1b60804ab836b6bbccc36c64e33aa1f9edd8703f9da94677225f729464ef34",
+        "review": "Unprompted final-clip ASR plus source CTC/waveform and known pronunciation context; no pitch or speed transformation.",
+        "direct_listening": false
+      },
+      "source_description": "complete utterance"
     },
     {
       "no": 345,
@@ -16054,22 +16140,26 @@
       "sha256": "756e3f4e57cee40eb12e3ea80b02a0cc38894412e29eebd25edd9ba82ce9762f"
     },
     {
+      "display_text": "那么",
+      "spoken_text": "那么",
+      "pinyin": "nàme",
+      "source_chunk": 15,
+      "method": "restore original complete trailing syllable and decay; extend end from 53.08s into measured quiet at 53.36s",
       "no": 443,
       "kind": "word",
-      "display_text": "那么",
-      "pinyin": "nàme",
-      "file": "audio/level2-natural/item2-0443-word.mp3",
-      "spoken_text": "那么",
-      "source_clip": "audio/level3-natural/item3-0870-word.mp3",
-      "source_sha256": "73291de68d3c4adcc072bc415c12abf2a7ff34eccb77ee1c8d16b357e61e5b13",
-      "source_manifest": "audio/level3-natural/manifest.json",
-      "source_no": 870,
-      "added_leading_padding_seconds": 0.16,
-      "added_trailing_padding_seconds": 0.35,
+      "start": 52.37,
+      "end": 53.36,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text complete clip reused with additional leading/trailing silence",
-      "sha256": "57786102895b4adf19c001385d25d310b59ecea3de3fcb6ac6c6eb7f5981350a"
+      "sha256": "74804b0d7d55fe9c5e9eaa12da40fcc25f728a07a4915c2fb3e108754857aadc",
+      "source_rms": 0.19193,
+      "file": "audio/level2-natural/item2-0443-word.mp3",
+      "recheck_20261117": {
+        "previous_sha256": "57786102895b4adf19c001385d25d310b59ecea3de3fcb6ac6c6eb7f5981350a",
+        "review": "Unprompted final-clip ASR plus source CTC/waveform and known pronunciation context; no pitch or speed transformation.",
+        "direct_listening": false
+      },
+      "source_description": "complete utterance"
     },
     {
       "no": 443,
@@ -16162,27 +16252,31 @@
       "sha256": "7bc7c4151b3929c3302603a3f2039c991373142c413312287362e57550b08e62"
     },
     {
+      "display_text": "长",
+      "spoken_text": "常。",
+      "pinyin": "cháng",
+      "source_chunk": 14,
+      "method": "new complete natural utterance bounded in measured source silence",
+      "pronunciation_adaptation": {
+        "display": "长",
+        "speech_only_homophone": "常",
+        "target_pinyin": "cháng"
+      },
       "no": 446,
       "kind": "word",
-      "display_text": "长",
-      "pinyin": "cháng",
-      "file": "audio/level2-natural/item2-0446-word.mp3",
-      "spoken_text": "长",
-      "source_clip": "audio/level3-natural/item3-0874-word.mp3",
-      "source_sha256": "db9a3d6476093d9ad58a68bd95161d5d31cb535d2bb6a9cc2383598826515e0b",
-      "source_manifest": "audio/level3-natural/manifest.json",
-      "source_no": 874,
-      "added_leading_padding_seconds": 0.08,
-      "added_trailing_padding_seconds": 0.27,
+      "start": 1.835,
+      "end": 2.267,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text complete clip reused with additional leading/trailing silence",
-      "sha256": "613ac38129539a4158ab292e7e40bfb0368d24424cd1f70f8cd13d1628088ef0",
-      "context_text": "这条路比那条长，我们换一条吧。",
-      "context_character_range": [
-        6,
-        7
-      ]
+      "sha256": "e6be09a9cb3da5c22bc4bec4ad35973f612eb3dc2e254869bcfad7c1b3e2df8a",
+      "source_rms": 0.118305,
+      "file": "audio/level2-natural/item2-0446-word.mp3",
+      "recheck_20261117": {
+        "previous_sha256": "613ac38129539a4158ab292e7e40bfb0368d24424cd1f70f8cd13d1628088ef0",
+        "review": "Unprompted final-clip ASR plus source CTC/waveform and known pronunciation context; no pitch or speed transformation.",
+        "direct_listening": false
+      },
+      "source_description": "complete utterance"
     },
     {
       "no": 446,
@@ -16926,22 +17020,33 @@
       "display_text": "得",
       "pinyin": "de",
       "file": "audio/level2-natural/item2-0467-word.mp3",
-      "spoken_text": "得",
-      "source_clip": "audio/level3-natural/item3-0925-word.mp3",
-      "source_sha256": "ef9f62ee15d74f5cb9945d0caa03d0cd53e119a10e231fe00098dfecdd8e6474",
-      "source_manifest": "audio/level3-natural/manifest.json",
-      "source_no": 925,
-      "added_leading_padding_seconds": 0.08,
-      "added_trailing_padding_seconds": 0.27,
+      "spoken_text": "我的。",
+      "source_clip": "audio/level1-natural/item1-0277-word.mp3",
+      "source_sha256": "c8e5b6f884fafdb5235d398b054c98138705093f28fbb14bb8a36026be7e5b86",
+      "source_manifest": "audio/level1-natural/manifest.json",
+      "source_no": 277,
+      "added_leading_padding_seconds": 0,
+      "added_trailing_padding_seconds": 0,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text complete clip reused with additional leading/trailing silence",
-      "sha256": "f5f8634967176515e31a4fbfb372eb819ff9d710782573703614afcecde974f7",
-      "context_text": "他今天来得很早，比老师还早。",
+      "method": "same neutral de syllable in the same voice; complete 的 suffix reused for 得/地",
+      "sha256": "c8e5b6f884fafdb5235d398b054c98138705093f28fbb14bb8a36026be7e5b86",
+      "context_text": "我的。",
       "context_character_range": [
-        4,
-        5
-      ]
+        1,
+        2
+      ],
+      "pronunciation_adaptation": {
+        "display": "得",
+        "speech_only_homophone": "的",
+        "target_pinyin": "de",
+        "neutral": true
+      },
+      "recheck_20261117": {
+        "previous_sha256": "f5f8634967176515e31a4fbfb372eb819ff9d710782573703614afcecde974f7",
+        "source_neutral_context": "我的。",
+        "direct_listening": false
+      }
     },
     {
       "no": 467,
@@ -16967,22 +17072,33 @@
       "display_text": "地",
       "pinyin": "de",
       "file": "audio/level2-natural/item2-0468-word.mp3",
-      "spoken_text": "地",
-      "source_clip": "audio/level3-natural/item3-0928-word.mp3",
-      "source_sha256": "f6aee7b9623a223ee7fb8a3f2c7e91cd8b16924d20c2894a5eab593de8e67330",
-      "source_manifest": "audio/level3-natural/manifest.json",
-      "source_no": 928,
-      "added_leading_padding_seconds": 0.08,
-      "added_trailing_padding_seconds": 0.27,
+      "spoken_text": "我的。",
+      "source_clip": "audio/level1-natural/item1-0277-word.mp3",
+      "source_sha256": "c8e5b6f884fafdb5235d398b054c98138705093f28fbb14bb8a36026be7e5b86",
+      "source_manifest": "audio/level1-natural/manifest.json",
+      "source_no": 277,
+      "added_leading_padding_seconds": 0,
+      "added_trailing_padding_seconds": 0,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text complete clip reused with additional leading/trailing silence",
-      "sha256": "082726fea96572ad681fffe430e8194ec105c9f176431a435cdab8f087999dcf",
-      "context_text": "孩子高兴地把礼物打开了。",
+      "method": "same neutral de syllable in the same voice; complete 的 suffix reused for 得/地",
+      "sha256": "c8e5b6f884fafdb5235d398b054c98138705093f28fbb14bb8a36026be7e5b86",
+      "context_text": "我的。",
       "context_character_range": [
-        4,
-        5
-      ]
+        1,
+        2
+      ],
+      "pronunciation_adaptation": {
+        "display": "地",
+        "speech_only_homophone": "的",
+        "target_pinyin": "de",
+        "neutral": true
+      },
+      "recheck_20261117": {
+        "previous_sha256": "082726fea96572ad681fffe430e8194ec105c9f176431a435cdab8f087999dcf",
+        "source_neutral_context": "我的。",
+        "direct_listening": false
+      }
     },
     {
       "no": 468,
@@ -17003,27 +17119,32 @@
       "sha256": "9ce95846300b541bc4eae2f8fcd8884688832c7e1c7bc451fecb82d289317539"
     },
     {
+      "display_text": "过",
+      "spoken_text": "去过。",
+      "pinyin": "guo",
+      "source_chunk": 14,
+      "method": "new complete natural utterance bounded in measured source silence",
+      "context_text": "去过。",
+      "context_character_range": [
+        1,
+        2
+      ],
+      "onset_margin_seconds": 0.02,
       "no": 469,
       "kind": "word",
-      "display_text": "过",
-      "pinyin": "guo",
-      "file": "audio/level2-natural/item2-0469-word.mp3",
-      "spoken_text": "过",
-      "source_clip": "audio/level3-natural/item3-0929-word.mp3",
-      "source_sha256": "130726935ba8c6c484122f428986032ef5f47ddef9f54bd1cb4180d9575dbdc8",
-      "source_manifest": "audio/level3-natural/manifest.json",
-      "source_no": 929,
-      "added_leading_padding_seconds": 0.08,
-      "added_trailing_padding_seconds": 0.27,
+      "start": 2.727059,
+      "end": 3.055,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text complete clip reused with additional leading/trailing silence",
-      "sha256": "5b9b62a11c651ce76e1ff945bc3c3a4a1238f6ba38e1f1a6bbb4de09fb0f10ea",
-      "context_text": "你以前去过这家电影院吗？",
-      "context_character_range": [
-        4,
-        5
-      ]
+      "sha256": "1c07483a97d8b7c9e402539e0a44aefcab617a0b42745de18c9c77e59ae7e645",
+      "source_rms": 0.061104,
+      "file": "audio/level2-natural/item2-0469-word.mp3",
+      "recheck_20261117": {
+        "previous_sha256": "5b9b62a11c651ce76e1ff945bc3c3a4a1238f6ba38e1f1a6bbb4de09fb0f10ea",
+        "review": "Unprompted final-clip ASR plus source CTC/waveform and known pronunciation context; no pitch or speed transformation.",
+        "direct_listening": false
+      },
+      "source_description": "separately recorded short phrase"
     },
     {
       "no": 469,
@@ -17048,23 +17169,28 @@
       "kind": "word",
       "display_text": "着",
       "pinyin": "zhe",
-      "file": "audio/level2-natural/item2-0470-word.mp3",
-      "spoken_text": "着",
-      "source_clip": "audio/level3-natural/item3-0930-word.mp3",
-      "source_sha256": "7be0b64c759365de9c567ac86dc1e2b0036fcbffc837d7c47e013672d540d331",
-      "source_manifest": "audio/level3-natural/manifest.json",
-      "source_no": 930,
-      "added_leading_padding_seconds": 0.08,
-      "added_trailing_padding_seconds": 0.27,
-      "padding_seconds": 0.16,
-      "trailing_padding_seconds": 0.35,
-      "method": "same-voice exact-text complete clip reused with additional leading/trailing silence",
-      "sha256": "5b16c0aad4081f7f392a66e2118e48bc019d2232c30894d74b9c94ef64c28406",
-      "context_text": "门开着，可是里面没有人。",
+      "spoken_text": "门开着。",
+      "source_chunk": 10,
+      "context_text": "门开着。",
       "context_character_range": [
         2,
         3
-      ]
+      ],
+      "start": 27.234417,
+      "end": 27.494896,
+      "padding_seconds": 0.16,
+      "trailing_padding_seconds": 0.35,
+      "sha256": "e003795525dd8e0dfec2701c39c803af44a8f792b48872c2a700753a4f40665c",
+      "onset_margin_seconds": 0.02,
+      "source_rms": 0.062289,
+      "method": "Complete final neutral zhe from separately recorded 门开着, with terminal vowel and natural decay retained",
+      "file": "audio/level2-natural/item2-0470-word.mp3",
+      "recheck_20261117": {
+        "previous_sha256": "5b16c0aad4081f7f392a66e2118e48bc019d2232c30894d74b9c94ef64c28406",
+        "review": "Unprompted final-clip ASR plus source CTC/waveform and known pronunciation context; no pitch or speed transformation.",
+        "direct_listening": false
+      },
+      "source_description": "separately recorded short phrase"
     },
     {
       "no": 470,
@@ -18211,8 +18337,8 @@
   ],
   "review": {
     "direct_listening": false,
-    "new_clips": 202,
-    "existing_same_voice_clips": 798,
+    "new_clips": 211,
+    "existing_same_voice_clips": 788,
     "method": "Exact-text and tone-marked-pinyin reuse; new examples independently transcribed, CTC character aligned and cut in measured silence; final file and real browser playback checks.",
     "limitations": "Automatic transcription, alignment and playback cannot certify every tone, neutral tone, erhua or naturalness.",
     "post_generation_pitch_or_speed_transformations": false,
@@ -18226,7 +18352,33 @@
         "no": 314,
         "kind": "example",
         "text": "请进！",
-        "reason": "Whole-source Whisper recognizes 请进, while unconstrained individual short-clip CTC/Whisper give 勤见/请见; human listening needed. This is not a confirmed mispronunciation."
+        "reason": "New natural-context recording: individual Whisper recognizes 请进; CTC still gives 请见. Better source alignment confidence, but final human pronunciation/listening review remains necessary."
+      }
+    ],
+    "initial_creation_counts": {
+      "new_examples": 202,
+      "reused_clips": 798
+    },
+    "resegmented_existing_raw_source_clips": 1,
+    "full_recheck_20261117": {
+      "clips": 1000,
+      "changed_files": 14,
+      "full_clip_ctc_without_expected_prompt": true,
+      "direct_listening": false,
+      "report": "study/HSK3.0_2급_전체음원_재점검.json"
+    },
+    "additional_candidates_not_applied": [
+      {
+        "no": 70,
+        "reason": "Alternative isolated recording did not improve independent recognition reliably; original retained for human followup."
+      },
+      {
+        "no": 369,
+        "reason": "Alternative isolated recording did not improve independent recognition reliably; original retained for human followup."
+      },
+      {
+        "no": 376,
+        "reason": "Alternative isolated recording did not improve independent recognition reliably; original retained for human followup."
       }
     ]
   }

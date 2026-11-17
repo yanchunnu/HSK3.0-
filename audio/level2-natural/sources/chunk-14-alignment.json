@@ -1,0 +1,237 @@
+{
+  "chunk": 14,
+  "duration_seconds": 5.2535,
+  "units": [
+    {
+      "no": 82,
+      "kind": "word",
+      "display_text": "间",
+      "pinyin": "jiān",
+      "spoken_text": "肩。",
+      "pronunciation_adaptation": {
+        "display": "间",
+        "speech_only_homophone": "肩",
+        "target_pinyin": "jiān"
+      },
+      "characters": [
+        {
+          "frame_start": 9,
+          "frame_end": 10,
+          "confidence": 0.0441,
+          "char": "肩",
+          "start": 0.180464,
+          "end": 0.200515
+        }
+      ],
+      "token_start": 0.180464,
+      "token_end": 0.200515,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 0.581494,
+      "rms": 0.231048
+    },
+    {
+      "no": 214,
+      "kind": "word",
+      "display_text": "教",
+      "pinyin": "jiāo",
+      "spoken_text": "浇。",
+      "pronunciation_adaptation": {
+        "display": "教",
+        "speech_only_homophone": "浇",
+        "target_pinyin": "jiāo"
+      },
+      "characters": [
+        {
+          "frame_start": 48,
+          "frame_end": 49,
+          "confidence": 0.0012,
+          "char": "浇",
+          "start": 0.962473,
+          "end": 0.982525
+        }
+      ],
+      "token_start": 0.962473,
+      "token_end": 0.982525,
+      "independent_asr_coverage": 1.0,
+      "start": 0.581494,
+      "end": 1.252,
+      "rms": 0.226928
+    },
+    {
+      "no": 345,
+      "kind": "word",
+      "display_text": "过",
+      "pinyin": "guò",
+      "spoken_text": "过。",
+      "characters": [
+        {
+          "frame_start": 73,
+          "frame_end": 74,
+          "confidence": 0.9999,
+          "char": "过",
+          "start": 1.463761,
+          "end": 1.483813
+        }
+      ],
+      "token_start": 1.463761,
+      "token_end": 1.483813,
+      "independent_asr_coverage": 1.0,
+      "start": 1.252,
+      "end": 1.714406,
+      "rms": 0.176611
+    },
+    {
+      "no": 446,
+      "kind": "word",
+      "display_text": "长",
+      "pinyin": "cháng",
+      "spoken_text": "常。",
+      "pronunciation_adaptation": {
+        "display": "长",
+        "speech_only_homophone": "常",
+        "target_pinyin": "cháng"
+      },
+      "characters": [
+        {
+          "frame_start": 97,
+          "frame_end": 98,
+          "confidence": 0.0111,
+          "char": "常",
+          "start": 1.944998,
+          "end": 1.96505
+        }
+      ],
+      "token_start": 1.944998,
+      "token_end": 1.96505,
+      "independent_asr_coverage": 1.0,
+      "start": 1.714406,
+      "end": 2.267,
+      "rms": 0.1046
+    },
+    {
+      "no": 469,
+      "kind": "word",
+      "display_text": "过",
+      "pinyin": "guo",
+      "spoken_text": "去过。",
+      "context_text": "去过。",
+      "context_character_range": [
+        1,
+        2
+      ],
+      "characters": [
+        {
+          "frame_start": 128,
+          "frame_end": 129,
+          "confidence": 0.9995,
+          "char": "去",
+          "start": 2.566595,
+          "end": 2.586647
+        },
+        {
+          "frame_start": 137,
+          "frame_end": 138,
+          "confidence": 0.9937,
+          "char": "过",
+          "start": 2.747059,
+          "end": 2.767111
+        }
+      ],
+      "token_start": 2.566595,
+      "token_end": 2.767111,
+      "independent_asr_coverage": 1.0,
+      "start": 2.267,
+      "end": 3.208245,
+      "rms": 0.118875
+    },
+    {
+      "no": 470,
+      "kind": "word",
+      "display_text": "着",
+      "pinyin": "zhe",
+      "spoken_text": "开着。",
+      "context_text": "开着。",
+      "context_character_range": [
+        1,
+        2
+      ],
+      "characters": [
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.9969,
+          "char": "开",
+          "start": 3.649378,
+          "end": 3.669429
+        },
+        {
+          "frame_start": 192,
+          "frame_end": 194,
+          "confidence": 0.911,
+          "char": "着",
+          "start": 3.849893,
+          "end": 3.889996
+        }
+      ],
+      "token_start": 3.649378,
+      "token_end": 3.889996,
+      "independent_asr_coverage": 1.0,
+      "start": 3.208245,
+      "end": 4.16059,
+      "rms": 0.126249
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 74,
+          "frame_end": 75,
+          "confidence": 0.9998,
+          "char": "好",
+          "start": 4.431183,
+          "end": 4.451239
+        },
+        {
+          "frame_start": 84,
+          "frame_end": 85,
+          "confidence": 0.9946,
+          "char": "的",
+          "start": 4.631748,
+          "end": 4.651804
+        }
+      ],
+      "token_start": 4.431183,
+      "token_end": 4.651804,
+      "independent_asr_coverage": 1.0,
+      "start": 4.16059,
+      "end": 5.2535,
+      "rms": 0.132056
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 1.0,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 6,
+      "start": 0,
+      "end": 5.2535,
+      "greedy_transcript": "兼交过长去过 开着好 的",
+      "oov": []
+    },
+    {
+      "first": 5,
+      "last": 6,
+      "start": 2.947,
+      "end": 5.2535,
+      "greedy_transcript": "开着好的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}

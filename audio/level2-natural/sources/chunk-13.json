@@ -1,0 +1,158 @@
+{
+  "source": {
+    "chunk": 13,
+    "file": "audio/level2-natural/sources/chunk-13.flac",
+    "metadata": "audio/level2-natural/sources/chunk-13.json",
+    "script": "audio/level2-natural/sources/chunk-13.txt",
+    "sha256": "83c726d0a66bc2f7f20a00b757a66bdba325330cc4870e3bfb8100d2a4616e62",
+    "duration_seconds": 3.0208163265306123,
+    "original_native_sha256": "a1080e286edbd6073bd78f86d4826b281640024c5364a17c053e7d63b7af5277",
+    "decoded_pcm_sha256": "18ac5900ae1a58ddf2eb1a5947eb9b7239102188bc72ecf702cf9e74ba150885",
+    "archive_format": "flac (lossless)",
+    "purpose": "Complete-word and natural-context clarification during full grade-2 recheck"
+  },
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "text": "请进。我们正在等你。\n\n好的。",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true
+  },
+  "returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=d8465e6d9e924f7faf76d193363de105.wav",
+    "duration": 3.0208163265306123,
+    "original_characters": [
+      {
+        "text": "请",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "进",
+        "start_time": 0.469,
+        "end_time": 0.64
+      },
+      {
+        "text": "。",
+        "start_time": 0.64,
+        "end_time": 1.152
+      },
+      {
+        "text": "我",
+        "start_time": 1.152,
+        "end_time": 1.28
+      },
+      {
+        "text": "们",
+        "start_time": 1.28,
+        "end_time": 1.365
+      },
+      {
+        "text": "正",
+        "start_time": 1.365,
+        "end_time": 1.493
+      },
+      {
+        "text": "在",
+        "start_time": 1.493,
+        "end_time": 1.664
+      },
+      {
+        "text": "等",
+        "start_time": 1.664,
+        "end_time": 1.835
+      },
+      {
+        "text": "你",
+        "start_time": 1.835,
+        "end_time": 2.005
+      },
+      {
+        "text": "。",
+        "start_time": 2.005,
+        "end_time": 2.389
+      },
+      {
+        "text": "\n",
+        "start_time": 2.389,
+        "end_time": 2.411
+      },
+      {
+        "text": "\n",
+        "start_time": 2.411,
+        "end_time": 2.432
+      },
+      {
+        "text": "好",
+        "start_time": 2.432,
+        "end_time": 2.603
+      },
+      {
+        "text": "的",
+        "start_time": 2.603,
+        "end_time": 2.731
+      },
+      {
+        "text": "。",
+        "start_time": 2.731,
+        "end_time": 2.859
+      }
+    ],
+    "original_words": [
+      {
+        "text": "请",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "进",
+        "start_time": 0.469,
+        "end_time": 0.64
+      },
+      {
+        "text": "我",
+        "start_time": 1.152,
+        "end_time": 1.28
+      },
+      {
+        "text": "们",
+        "start_time": 1.28,
+        "end_time": 1.365
+      },
+      {
+        "text": "正",
+        "start_time": 1.365,
+        "end_time": 1.493
+      },
+      {
+        "text": "在",
+        "start_time": 1.493,
+        "end_time": 1.664
+      },
+      {
+        "text": "等",
+        "start_time": 1.664,
+        "end_time": 1.835
+      },
+      {
+        "text": "你",
+        "start_time": 1.835,
+        "end_time": 2.005
+      },
+      {
+        "text": "好",
+        "start_time": 2.432,
+        "end_time": 2.603
+      },
+      {
+        "text": "的",
+        "start_time": 2.603,
+        "end_time": 2.731
+      }
+    ]
+  },
+  "voice_name": "Shuxian - Clear & Trustworthy",
+  "model_requested": null,
+  "model_returned": null,
+  "direct_listening": false
+}

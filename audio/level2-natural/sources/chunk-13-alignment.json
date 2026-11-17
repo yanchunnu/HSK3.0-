@@ -1,0 +1,142 @@
+{
+  "chunk": 13,
+  "duration_seconds": 3.0208333333333335,
+  "units": [
+    {
+      "no": 314,
+      "kind": "example",
+      "display_text": "请进！",
+      "spoken_text": "请进。",
+      "pinyin": "qǐng jìn!",
+      "characters": [
+        {
+          "frame_start": 3,
+          "frame_end": 4,
+          "confidence": 0.9757,
+          "char": "请",
+          "start": 0.060417,
+          "end": 0.080556
+        },
+        {
+          "frame_start": 12,
+          "frame_end": 13,
+          "confidence": 0.7787,
+          "char": "进",
+          "start": 0.241667,
+          "end": 0.261806
+        }
+      ],
+      "token_start": 0.060417,
+      "token_end": 0.261806,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 0.624306,
+      "rms": 0.17754
+    },
+    {
+      "no": null,
+      "kind": "context_guard",
+      "spoken_text": "我们正在等你。",
+      "characters": [
+        {
+          "frame_start": 49,
+          "frame_end": 51,
+          "confidence": 0.9839,
+          "char": "我",
+          "start": 0.986806,
+          "end": 1.027083
+        },
+        {
+          "frame_start": 53,
+          "frame_end": 55,
+          "confidence": 0.8256,
+          "char": "们",
+          "start": 1.067361,
+          "end": 1.107639
+        },
+        {
+          "frame_start": 57,
+          "frame_end": 59,
+          "confidence": 0.9464,
+          "char": "正",
+          "start": 1.147917,
+          "end": 1.188194
+        },
+        {
+          "frame_start": 64,
+          "frame_end": 65,
+          "confidence": 0.9983,
+          "char": "在",
+          "start": 1.288889,
+          "end": 1.309028
+        },
+        {
+          "frame_start": 72,
+          "frame_end": 73,
+          "confidence": 0.9984,
+          "char": "等",
+          "start": 1.45,
+          "end": 1.470139
+        },
+        {
+          "frame_start": 81,
+          "frame_end": 83,
+          "confidence": 0.9891,
+          "char": "你",
+          "start": 1.63125,
+          "end": 1.671528
+        }
+      ],
+      "token_start": 0.986806,
+      "token_end": 1.671528,
+      "independent_asr_coverage": 1.0,
+      "start": 0.624306,
+      "end": 1.933334,
+      "rms": 0.258385
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 109,
+          "frame_end": 111,
+          "confidence": 0.7693,
+          "char": "好",
+          "start": 2.195139,
+          "end": 2.235417
+        },
+        {
+          "frame_start": 117,
+          "frame_end": 119,
+          "confidence": 0.9499,
+          "char": "的",
+          "start": 2.35625,
+          "end": 2.396528
+        }
+      ],
+      "token_start": 2.195139,
+      "token_end": 2.396528,
+      "independent_asr_coverage": 1.0,
+      "start": 1.933334,
+      "end": 3.020833,
+      "rms": 0.114016
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 1.0,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 2,
+      "start": 0,
+      "end": 3.0208333333333335,
+      "greedy_transcript": "请进我们正在等你好 的 请",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}
