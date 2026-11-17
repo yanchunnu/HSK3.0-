@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-17",
+  "changes": {
+    "no": 26,
+    "word": "喂",
+    "word_pinyin": "wéi",
+    "example_pinyin": "wéi, nǐ hǎo!",
+    "meaning": "여보세요",
+    "note": "(이 글자의 표준 발음은 4성입니다.)",
+    "note_position": "under meaning, wrapped across two lines inside the existing row",
+    "existing_pinyin_already_second_tone": true
+  },
+  "checks": {
+    "covered_pages": 15,
+    "body_pages": 14,
+    "page_size": "A4 landscape 841.89 × 595.276 pt",
+    "words": 300,
+    "words_per_full_body_page": 22,
+    "last_body_page_words": 14,
+    "existing_font_faces_and_sizes_preserved": true,
+    "note_font": "MalgunGothic",
+    "note_font_size_pt": 7.9,
+    "cover_and_qr_render_unchanged": true,
+    "cover_audio_url": "https://yanchunnu.github.io/HSK3.0-/",
+    "unchanged_covered_pages_pixel_identical_at_144dpi": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "changed_pixel_bounds_pt_on_page3": [
+      157.5,
+      130.5,
+      223.0,
+      153.5
+    ],
+    "all_changes_inside_word26_meaning_cell": true,
+    "covered_body_pages_pixel_identical_to_body_pdf": true
+  },
+  "files": [
+    {
+      "file": "HSK3.0_1급단어장_표지포함.pdf",
+      "sha256": "6b1ee26966c72af87b18a7dcd9bbf323d2874fb3725fdc2496312af597ced6d7",
+      "bytes": 499567
+    },
+    {
+      "file": "HSK3.0_1급_300단어_의미별.pdf",
+      "sha256": "5209b60b5778bcff5fbbd2f93743cf76fad1c77cec6c863eb79d38f6902ac6b9",
+      "bytes": 433241
+    }
+  ]
+}
