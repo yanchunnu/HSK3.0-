@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-17",
+  "level": 1,
+  "no": 26,
+  "word": "喂",
+  "pinyin": "wéi",
+  "tone": 2,
+  "example": "喂，你好！",
+  "example_pinyin": "wéi, nǐ hǎo!",
+  "corrected_clips": 2,
+  "unchanged_other_clips": 598,
+  "word_uses_existing_same_voice_verified_recording": true,
+  "example_newly_synthesized": true,
+  "speech_only_homophone": "围",
+  "tone_measurements": {
+    "word": {
+      "pinyin": "wéi",
+      "first_syllable_tone": 2,
+      "early_f0_hz": 153.47,
+      "late_f0_hz": 250.44,
+      "semitone_change": 8.48,
+      "direction": "rising",
+      "file_duration_seconds": 1.16,
+      "sha256": "3e0b4defb8fac25676d2396553a597bf9cc40f6a0f0ec0295f1be80495c9f69d",
+      "source_rebuild_byte_identical": true
+    },
+    "example": {
+      "pinyin": "wéi, nǐ hǎo!",
+      "first_syllable_tone": 2,
+      "early_f0_hz": 164.73,
+      "late_f0_hz": 251.44,
+      "semitone_change": 7.32,
+      "direction": "rising",
+      "file_duration_seconds": 1.745,
+      "sha256": "1ea77caea29b2fe529a087af690c9f47e5ca39f5c4552213249b108274c72707",
+      "source_rebuild_byte_identical": true
+    }
+  },
+  "measurement_method": "Praat autocorrelation, 100–500Hz, 5ms step; first and last quartiles of voiced frames of the opening syllable in final MP3.",
+  "data_changes": [
+    [
+      26,
+      "pinyin"
+    ],
+    [
+      26,
+      "examplePinyin"
+    ]
+  ],
+  "direct_listening": false,
+  "limitations": "Pitch direction is measured; this is not an expert listening certification.",
+  "browser_playback": {
+    "corrected_clips_played_to_completion": 2,
+    "visible_pinyin": "wéi",
+    "fresh_audio_urls": true,
+    "pdf_link_preserved": true,
+    "javascript_errors": []
+  },
+  "independent_example_transcription": {
+    "transcript": "喂,你好。",
+    "expected_text_prompt": false,
+    "model": "faster-whisper small int8"
+  },
+  "targeted_unit_tests_passed": 2
+}

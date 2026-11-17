@@ -1,0 +1,85 @@
+{
+  "source": {
+    "chunk": 36,
+    "file": "audio/level1-natural/sources/word26-tone2-20261117.flac",
+    "duration_seconds": 1.0338095238095237,
+    "metadata": "audio/level1-natural/sources/word26-tone2-20261117.json",
+    "script": "audio/level1-natural/sources/word26-tone2-20261117.txt",
+    "sha256": "098265b068a26aee78a42d35f9935af6184c3bf2bc3e3f8c2c92e8e7fff98dca",
+    "original_native_sha256": "06d071802691b0f4d6509eff65285407ff06ef5ab836292b1268a52ead1d98b3",
+    "decoded_pcm_sha256": "6d88d0b54cce3a6cd6fe701a70dd9364829426adffe35580ce68416621ba1a63",
+    "archive_format": "flac (lossless)",
+    "reused_from": "audio/level3-natural/sources/tone46-47-20261111-41.flac",
+    "purpose": "Accepted same-voice rising-tone wéi recording, reused for grade 1 item 26"
+  },
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true,
+    "text": "围。"
+  },
+  "original_returned": {
+    "audio_url": "https://resource2.heygen.ai/text_to_speech/3038c196c0e34c88ae877cc934fb6d31/6c364011f30747c9a0a89eec3787cadc/id=55a599b7f9cd4ee8a001496f08d6b447.wav",
+    "duration": 1.0338095238095237,
+    "original_characters": [
+      {
+        "text": "围",
+        "start_time": 0.256,
+        "end_time": 0.469
+      },
+      {
+        "text": "。",
+        "start_time": 0.469,
+        "end_time": 0.896
+      }
+    ],
+    "original_words": [
+      {
+        "text": "围",
+        "start_time": 0.256,
+        "end_time": 0.469
+      }
+    ]
+  },
+  "reused_clip": {
+    "no": 46,
+    "kind": "word",
+    "display_text": "喂",
+    "spoken_text": "围",
+    "pinyin": "wéi",
+    "file": "audio/level3-natural/item3-0046-word.mp3",
+    "source_group": "natural",
+    "source_chunk": 41,
+    "start": 0,
+    "end": 0.65,
+    "padding_seconds": 0.16,
+    "trailing_padding_seconds": 0.35,
+    "method": "standalone pronunciation correction; complete main utterance cut in following waveform silence",
+    "reused": false,
+    "sha256": "3e0b4defb8fac25676d2396553a597bf9cc40f6a0f0ec0295f1be80495c9f69d"
+  },
+  "previous_clip": {
+    "no": 26,
+    "kind": "word",
+    "display_text": "喂",
+    "spoken_text": "位。",
+    "pinyin": "wèi",
+    "file": "audio/level1-natural/item1-0026-word.mp3",
+    "source_chunk": 18,
+    "start": 0,
+    "end": 0.46,
+    "padding_seconds": 0.16,
+    "trailing_padding_seconds": 0.35,
+    "method": "separate complete utterance; trimmed only in measured trailing silence",
+    "source_rms": 0.14535,
+    "pronunciation_adaptation": {
+      "display": "喂",
+      "speech_only_homophone": "位",
+      "target_pinyin": "wèi"
+    },
+    "sha256": "d1cbcc1ceae3868451bf5c149d396aefcc3dc4b0d00ff385e3d2b2fc04629529"
+  },
+  "pronunciation": "wéi: rising second tone; same voice ID as grade 4.",
+  "direct_listening": false
+}

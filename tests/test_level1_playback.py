@@ -30,6 +30,12 @@ class Level1Tests(unittest.TestCase):
  def test_error_stop_and_stale_callbacks(self):
   self.ev('playQueue([{no:1,audio:fixedAudio(1,"word")}],"old");playQueue([{no:2,audio:fixedAudio(2,"word")}],"new");window.__audios[0].onended();window.__audios[0].onerror()');self.assertTrue(self.ev('state.currentAudio.src.includes("0002-word.mp3")'));self.ev('state.currentAudio.onerror()');self.assertFalse(self.ev('state.speaking'));self.assertTrue(self.page.locator('#pauseResume').is_disabled());self.assertIn('2번',self.page.locator('#status').inner_text())
   self.ev('playQueue([{no:1,audio:fixedAudio(1,"word")},{no:2,audio:fixedAudio(2,"word")}],"stop");state.currentAudio.onended();stopPlayback()');self.page.wait_for_timeout(500);self.assertEqual(self.ev('window.__audios.length'),3)
+ def test_word26_second_tone(self):
+  self.assertEqual(self.ev('DATA[25].word'),'喂');self.assertEqual(self.ev('DATA[25].pinyin'),'wéi');self.assertTrue(self.ev('DATA[25].examplePinyin.startsWith("wéi,")'))
+  saved=json.loads((ROOT/'study/HSK3.0_1급_300단어_학습데이터.json').read_text());self.assertEqual(saved[25],self.ev('DATA[25]'))
+  report=json.loads((ROOT/'study/HSK3.0_1급_26번_성조수정.json').read_text())
+  for kind in ['word','example']:
+   evidence=report['tone_measurements'][kind];self.assertGreater(evidence['semitone_change'],3);self.assertEqual(hashlib.sha256((ROOT/f'audio/level1-natural/item1-0026-{kind}.mp3').read_bytes()).hexdigest(),evidence['sha256']);self.assertIn('20261117-word26-tone2',self.page.evaluate('(kind)=>fixedAudio(26,kind)',kind))
  def test_annotations_start_number_and_visibility(self):
   self.assertEqual(self.ev('wordSpeechText(DATA[272])'),'没有');self.assertEqual(self.ev('wordSpeechText(DATA[298])'),'有一点儿');self.page.locator('#startNo').fill('299.5');self.ev('selectedItems()');self.assertEqual(self.page.locator('#startNo').input_value(),'299')
   self.page.locator('#search').fill('一点儿');self.assertGreater(self.page.locator('article.card').count(),0)

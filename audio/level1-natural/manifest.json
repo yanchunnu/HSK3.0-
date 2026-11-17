@@ -427,6 +427,31 @@
       "decoded_pcm_sha256": "9178afd5b7e62c5d1a290701000ed677b2b701f1424f089b279fd12e95b67def",
       "archive_format": "flac (lossless)",
       "purpose": "Clear neutral-suffix pronunciation donor"
+    },
+    {
+      "chunk": 36,
+      "file": "audio/level1-natural/sources/word26-tone2-20261117.flac",
+      "duration_seconds": 1.0338095238095237,
+      "metadata": "audio/level1-natural/sources/word26-tone2-20261117.json",
+      "script": "audio/level1-natural/sources/word26-tone2-20261117.txt",
+      "sha256": "098265b068a26aee78a42d35f9935af6184c3bf2bc3e3f8c2c92e8e7fff98dca",
+      "original_native_sha256": "06d071802691b0f4d6509eff65285407ff06ef5ab836292b1268a52ead1d98b3",
+      "decoded_pcm_sha256": "6d88d0b54cce3a6cd6fe701a70dd9364829426adffe35580ce68416621ba1a63",
+      "archive_format": "flac (lossless)",
+      "reused_from": "audio/level3-natural/sources/tone46-47-20261111-41.flac",
+      "purpose": "Accepted same-voice rising-tone wéi recording, reused for grade 1 item 26"
+    },
+    {
+      "chunk": 37,
+      "file": "audio/level1-natural/sources/example26-tone2-20261117.flac",
+      "duration_seconds": 1.639750566893424,
+      "metadata": "audio/level1-natural/sources/example26-tone2-20261117.json",
+      "script": "audio/level1-natural/sources/example26-tone2-20261117.txt",
+      "sha256": "0d9035aed6ad8a1276e49c6e280868ad9fdc0b9c28fe0d3ac8888faf1307c5e8",
+      "original_native_sha256": "029afc30d51bbd656690e82edf500deeedd22210a929ce053ddaa5f396351b73",
+      "decoded_pcm_sha256": "2da391c56753544d14c931748c82689ed6845560728cbc7ba084a4dd0ce90e7d",
+      "archive_format": "flac (lossless)",
+      "purpose": "Grade 1 item 26 example, first syllable changed to second tone"
     }
   ],
   "clips": [
@@ -1263,44 +1288,44 @@
       "no": 26,
       "kind": "word",
       "display_text": "喂",
-      "spoken_text": "位。",
-      "pinyin": "wèi",
+      "spoken_text": "围。",
+      "pinyin": "wéi",
       "file": "audio/level1-natural/item1-0026-word.mp3",
-      "source_chunk": 18,
+      "source_chunk": 36,
       "start": 0,
-      "end": 0.46,
+      "end": 0.65,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "separate complete utterance; trimmed only in measured trailing silence",
-      "source_rms": 0.14535,
+      "method": "same-voice verified second-tone utterance reused from grade 3 item 46",
+      "sha256": "3e0b4defb8fac25676d2396553a597bf9cc40f6a0f0ec0295f1be80495c9f69d",
       "pronunciation_adaptation": {
         "display": "喂",
-        "speech_only_homophone": "位",
-        "target_pinyin": "wèi"
+        "speech_only_homophone": "围",
+        "target_pinyin": "wéi"
       },
-      "sha256": "d1cbcc1ceae3868451bf5c149d396aefcc3dc4b0d00ff385e3d2b2fc04629529"
+      "reused_from_clip": "audio/level3-natural/item3-0046-word.mp3"
     },
     {
       "no": 26,
       "kind": "example",
       "display_text": "喂，你好！",
-      "spoken_text": "位，你好！",
-      "pinyin": "wèi, nǐ hǎo!",
+      "spoken_text": "围，你好！",
+      "pinyin": "wéi, nǐ hǎo!",
       "file": "audio/level1-natural/item1-0026-example.mp3",
-      "source_chunk": 19,
+      "source_chunk": 37,
       "start": 0,
-      "end": 1.065,
+      "end": 1.235,
       "padding_seconds": 0.16,
       "trailing_padding_seconds": 0.35,
-      "method": "separate complete utterance; trimmed only in measured trailing silence",
-      "source_rms": 0.240705,
+      "method": "complete new example with rising-tone opening, trimmed in measured following silence",
+      "source_rms": 0.194559,
       "pronunciation_adaptation": {
         "display": "喂",
-        "speech_only_homophone": "位",
-        "target_pinyin": "wèi"
+        "speech_only_homophone": "围",
+        "target_pinyin": "wéi"
       },
-      "gain_db": -0.723978,
-      "sha256": "052a3ec51278864f45e1c278fe292310a001cdfdd12fc2c2a77badd063536d84"
+      "sha256": "1ea77caea29b2fe529a087af690c9f47e5ca39f5c4552213249b108274c72707",
+      "gain_db": -0.663329
     },
     {
       "no": 27,
@@ -10643,7 +10668,7 @@
     "method": "Independent Mandarin ASR, Chinese CTC character alignment, measured quiet boundaries, complete-word waveform checks and real browser playback.",
     "limitations": "Automatic transcription and alignment do not certify every pronunciation or listening naturalness.",
     "homophones": {
-      "26": "位",
+      "26": "围",
       "77": "知",
       "281": "兜",
       "282": "孩",
@@ -10723,6 +10748,19 @@
         102,
         "word"
       ]
+    ],
+    "targeted_updates": [
+      {
+        "date": "2026-11-17",
+        "no": 26,
+        "pinyin": "wéi",
+        "tone": 2,
+        "word_source": 36,
+        "example_source": 37,
+        "displayed_character": "喂",
+        "speech_only_character": "围",
+        "direct_listening": false
+      }
     ]
   }
 }
