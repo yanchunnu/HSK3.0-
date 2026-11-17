@@ -1,0 +1,181 @@
+{
+  "chunk": 50,
+  "duration_seconds": 4.154,
+  "units": [
+    {
+      "no": 411,
+      "kind": "example",
+      "display_text": "司机说，下车别忘了拿包。",
+      "spoken_text": "司机说，下车别忘了拿包。",
+      "pinyin": "Sījī shuō, xiàchē bié wàng le ná bāo.",
+      "characters": [
+        {
+          "frame_start": 4,
+          "frame_end": 5,
+          "confidence": 0.7676,
+          "char": "司",
+          "start": 0.080271,
+          "end": 0.100338
+        },
+        {
+          "frame_start": 11,
+          "frame_end": 12,
+          "confidence": 0.5891,
+          "char": "机",
+          "start": 0.220744,
+          "end": 0.240812
+        },
+        {
+          "frame_start": 18,
+          "frame_end": 19,
+          "confidence": 0.9996,
+          "char": "说",
+          "start": 0.361217,
+          "end": 0.381285
+        },
+        {
+          "frame_start": 45,
+          "frame_end": 46,
+          "confidence": 0.7762,
+          "char": "下",
+          "start": 0.903043,
+          "end": 0.923111
+        },
+        {
+          "frame_start": 55,
+          "frame_end": 56,
+          "confidence": 0.9998,
+          "char": "车",
+          "start": 1.10372,
+          "end": 1.123787
+        },
+        {
+          "frame_start": 63,
+          "frame_end": 64,
+          "confidence": 0.9377,
+          "char": "别",
+          "start": 1.264261,
+          "end": 1.284329
+        },
+        {
+          "frame_start": 69,
+          "frame_end": 70,
+          "confidence": 0.9918,
+          "char": "忘",
+          "start": 1.384667,
+          "end": 1.404734
+        },
+        {
+          "frame_start": 76,
+          "frame_end": 77,
+          "confidence": 0.9993,
+          "char": "了",
+          "start": 1.52514,
+          "end": 1.545208
+        },
+        {
+          "frame_start": 80,
+          "frame_end": 81,
+          "confidence": 0.9934,
+          "char": "拿",
+          "start": 1.605411,
+          "end": 1.625478
+        },
+        {
+          "frame_start": 90,
+          "frame_end": 91,
+          "confidence": 0.8958,
+          "char": "包",
+          "start": 1.806087,
+          "end": 1.826155
+        }
+      ],
+      "token_start": 0.080271,
+      "token_end": 1.826155,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 2.137203,
+      "rms": 0.234119
+    },
+    {
+      "no": 860,
+      "kind": "word",
+      "display_text": "得",
+      "spoken_text": "非得。",
+      "pinyin": "děi",
+      "context_text": "非得。",
+      "context_character_range": [
+        1,
+        2
+      ],
+      "characters": [
+        {
+          "frame_start": 122,
+          "frame_end": 123,
+          "confidence": 0.0598,
+          "char": "非",
+          "start": 2.448251,
+          "end": 2.468319
+        },
+        {
+          "frame_start": 131,
+          "frame_end": 132,
+          "confidence": 0.865,
+          "char": "得",
+          "start": 2.62886,
+          "end": 2.648928
+        }
+      ],
+      "token_start": 2.448251,
+      "token_end": 2.648928,
+      "independent_asr_coverage": 1.0,
+      "start": 2.137203,
+      "end": 3.000112,
+      "rms": 0.174349
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 167,
+          "frame_end": 168,
+          "confidence": 0.9998,
+          "char": "好",
+          "start": 3.351295,
+          "end": 3.371362
+        },
+        {
+          "frame_start": 177,
+          "frame_end": 178,
+          "confidence": 0.981,
+          "char": "的",
+          "start": 3.551971,
+          "end": 3.572039
+        }
+      ],
+      "token_start": 3.351295,
+      "token_end": 3.572039,
+      "independent_asr_coverage": 1.0,
+      "start": 3.000112,
+      "end": 4.154,
+      "rms": 0.095478
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 1.0,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 2,
+      "start": 0,
+      "end": 4.154,
+      "greedy_transcript": "司机说下C车别忘了拿包飞 得 好 的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}

@@ -1,0 +1,43 @@
+{
+  "chunk": 49,
+  "clips": [
+    {
+      "no": 980,
+      "kind": "word",
+      "display_text": "更",
+      "pinyin": "gèng",
+      "spoken_text": "更快。",
+      "context_text": "更快。",
+      "context_character_range": [
+        0,
+        1
+      ]
+    }
+  ],
+  "utterances": [
+    {
+      "no": 980,
+      "kind": "word",
+      "display_text": "更",
+      "pinyin": "gèng",
+      "spoken_text": "更快。",
+      "context_text": "更快。",
+      "context_character_range": [
+        0,
+        1
+      ]
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。"
+    }
+  ],
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "text": "更快。\n\n好的。",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true
+  }
+}

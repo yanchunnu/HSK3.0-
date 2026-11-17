@@ -86,11 +86,19 @@ class PlaybackTests(unittest.TestCase):
    field='word' if clip['kind']=='word' else 'example'
    self.assertEqual(clip['display_text'],rows[clip['no']][field])
    self.assertEqual(hashlib.sha256((ROOT/clip['file']).read_bytes()).hexdigest(),clip['sha256'])
+   if 'source_clip' in clip:self.assertEqual(hashlib.sha256((ROOT/clip['source_clip']).read_bytes()).hexdigest(),clip['source_sha256'])
    self.assertEqual(self.page.evaluate('(c)=>fixedAudio(c.no,c.kind)',clip).split('?')[0],clip['file'])
   for n in [10,11]:
    clip=next(c for c in manifest['clips'] if c['no']==n and c['kind']=='example')
    self.assertTrue(clip['reused'])
    self.assertTrue(clip['file'].startswith('audio/level3-erhua/'))
+ def test_single_character_words_have_time_before_next_clip(self):
+  self.queue([{'no':991,'kind':'word','audio':'first.mp3'},{'no':230,'kind':'word','audio':'second.mp3'}])
+  self.ev('window.__audios[0].onended()')
+  self.page.wait_for_timeout(500)
+  self.assertEqual(self.ev('window.__audios.length'),1)
+  self.page.wait_for_function('window.__audios.length===2',timeout=2000)
+  self.assertEqual(self.ev('state.currentAudio.src'),'second.mp3')
  def test_requested_tones_46_47(self):
   self.assertEqual(self.ev('DATA[45].word'),'喂');self.assertEqual(self.ev('DATA[45].pinyin'),'wéi')
   self.assertTrue(self.ev('DATA[45].examplePinyin.startsWith("Wéi,")'))

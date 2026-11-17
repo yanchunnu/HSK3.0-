@@ -1,0 +1,95 @@
+{
+  "chunk": 48,
+  "clips": [
+    {
+      "no": 116,
+      "kind": "word",
+      "display_text": "公斤",
+      "pinyin": "gōngjīn",
+      "spoken_text": "公斤。"
+    },
+    {
+      "no": 420,
+      "kind": "word",
+      "display_text": "渴",
+      "pinyin": "kě",
+      "spoken_text": "口渴。",
+      "context_text": "口渴。",
+      "context_character_range": [
+        1,
+        2
+      ]
+    },
+    {
+      "no": 519,
+      "kind": "word",
+      "display_text": "动物园",
+      "pinyin": "dòngwùyuán",
+      "spoken_text": "动物园。"
+    },
+    {
+      "no": 794,
+      "kind": "word",
+      "display_text": "照",
+      "pinyin": "zhào",
+      "spoken_text": "兆。",
+      "pronunciation_adaptation": {
+        "display": "照",
+        "speech_only_homophone": "兆",
+        "target_pinyin": "zhào"
+      }
+    }
+  ],
+  "utterances": [
+    {
+      "no": 116,
+      "kind": "word",
+      "display_text": "公斤",
+      "pinyin": "gōngjīn",
+      "spoken_text": "公斤。"
+    },
+    {
+      "no": 420,
+      "kind": "word",
+      "display_text": "渴",
+      "pinyin": "kě",
+      "spoken_text": "口渴。",
+      "context_text": "口渴。",
+      "context_character_range": [
+        1,
+        2
+      ]
+    },
+    {
+      "no": 519,
+      "kind": "word",
+      "display_text": "动物园",
+      "pinyin": "dòngwùyuán",
+      "spoken_text": "动物园。"
+    },
+    {
+      "no": 794,
+      "kind": "word",
+      "display_text": "照",
+      "pinyin": "zhào",
+      "spoken_text": "兆。",
+      "pronunciation_adaptation": {
+        "display": "照",
+        "speech_only_homophone": "兆",
+        "target_pinyin": "zhào"
+      }
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。"
+    }
+  ],
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "text": "公斤。\n\n口渴。\n\n动物园。\n\n兆。\n\n好的。",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true
+  }
+}

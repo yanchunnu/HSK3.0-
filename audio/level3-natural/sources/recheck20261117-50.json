@@ -1,0 +1,57 @@
+{
+  "chunk": 50,
+  "clips": [
+    {
+      "no": 411,
+      "kind": "example",
+      "display_text": "司机说，下车别忘了拿包。",
+      "spoken_text": "司机说，下车别忘了拿包。",
+      "pinyin": "Sījī shuō, xiàchē bié wàng le ná bāo."
+    },
+    {
+      "no": 860,
+      "kind": "word",
+      "display_text": "得",
+      "spoken_text": "非得。",
+      "pinyin": "děi",
+      "context_text": "非得。",
+      "context_character_range": [
+        1,
+        2
+      ]
+    }
+  ],
+  "utterances": [
+    {
+      "no": 411,
+      "kind": "example",
+      "display_text": "司机说，下车别忘了拿包。",
+      "spoken_text": "司机说，下车别忘了拿包。",
+      "pinyin": "Sījī shuō, xiàchē bié wàng le ná bāo."
+    },
+    {
+      "no": 860,
+      "kind": "word",
+      "display_text": "得",
+      "spoken_text": "非得。",
+      "pinyin": "děi",
+      "context_text": "非得。",
+      "context_character_range": [
+        1,
+        2
+      ]
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。"
+    }
+  ],
+  "request": {
+    "voiceId": "6c364011f30747c9a0a89eec3787cadc",
+    "text": "司机说，下车别忘了拿包。\n\n非得。\n\n好的。",
+    "language": "zh",
+    "speed": 0.85,
+    "withTimestamps": true
+  }
+}

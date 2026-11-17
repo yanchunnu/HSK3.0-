@@ -1,0 +1,184 @@
+{
+  "chunk": 48,
+  "duration_seconds": 3.589,
+  "units": [
+    {
+      "no": 116,
+      "kind": "word",
+      "display_text": "公斤",
+      "pinyin": "gōngjīn",
+      "spoken_text": "公斤。",
+      "characters": [
+        {
+          "frame_start": 7,
+          "frame_end": 8,
+          "confidence": 0.4627,
+          "char": "公",
+          "start": 0.140352,
+          "end": 0.160402
+        },
+        {
+          "frame_start": 17,
+          "frame_end": 18,
+          "confidence": 0.0013,
+          "char": "斤",
+          "start": 0.340855,
+          "end": 0.360905
+        }
+      ],
+      "token_start": 0.140352,
+      "token_end": 0.360905,
+      "independent_asr_coverage": 0.5,
+      "start": 0,
+      "end": 0.621559,
+      "rms": 0.337737
+    },
+    {
+      "no": 420,
+      "kind": "word",
+      "display_text": "渴",
+      "pinyin": "kě",
+      "spoken_text": "口渴。",
+      "context_text": "口渴。",
+      "context_character_range": [
+        1,
+        2
+      ],
+      "characters": [
+        {
+          "frame_start": 44,
+          "frame_end": 45,
+          "confidence": 0.9964,
+          "char": "口",
+          "start": 0.882212,
+          "end": 0.902263
+        },
+        {
+          "frame_start": 57,
+          "frame_end": 58,
+          "confidence": 0.0972,
+          "char": "渴",
+          "start": 1.142866,
+          "end": 1.162916
+        }
+      ],
+      "token_start": 0.882212,
+      "token_end": 1.162916,
+      "independent_asr_coverage": 1.0,
+      "start": 0.621559,
+      "end": 1.413544,
+      "rms": 0.149862
+    },
+    {
+      "no": 519,
+      "kind": "word",
+      "display_text": "动物园",
+      "pinyin": "dòngwùyuán",
+      "spoken_text": "动物园。",
+      "characters": [
+        {
+          "frame_start": 83,
+          "frame_end": 84,
+          "confidence": 0.9993,
+          "char": "动",
+          "start": 1.664173,
+          "end": 1.684223
+        },
+        {
+          "frame_start": 89,
+          "frame_end": 90,
+          "confidence": 0.9988,
+          "char": "物",
+          "start": 1.784475,
+          "end": 1.804525
+        },
+        {
+          "frame_start": 96,
+          "frame_end": 97,
+          "confidence": 0.8381,
+          "char": "园",
+          "start": 1.924827,
+          "end": 1.944877
+        }
+      ],
+      "token_start": 1.664173,
+      "token_end": 1.944877,
+      "independent_asr_coverage": 1.0,
+      "start": 1.413544,
+      "end": 2.192,
+      "rms": 0.24773
+    },
+    {
+      "no": 794,
+      "kind": "word",
+      "display_text": "照",
+      "pinyin": "zhào",
+      "spoken_text": "兆。",
+      "pronunciation_adaptation": {
+        "display": "照",
+        "speech_only_homophone": "兆",
+        "target_pinyin": "zhào"
+      },
+      "characters": [
+        {
+          "frame_start": 119,
+          "frame_end": 120,
+          "confidence": 0.0028,
+          "char": "兆",
+          "start": 2.385983,
+          "end": 2.406034
+        }
+      ],
+      "token_start": 2.385983,
+      "token_end": 2.406034,
+      "independent_asr_coverage": 1.0,
+      "start": 2.192,
+      "end": 2.616561,
+      "rms": 0.165096
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 141,
+          "frame_end": 142,
+          "confidence": 0.9996,
+          "char": "好",
+          "start": 2.827089,
+          "end": 2.84714
+        },
+        {
+          "frame_start": 150,
+          "frame_end": 151,
+          "confidence": 0.9929,
+          "char": "的",
+          "start": 3.007542,
+          "end": 3.027592
+        }
+      ],
+      "token_start": 2.827089,
+      "token_end": 3.027592,
+      "independent_asr_coverage": 1.0,
+      "start": 2.616561,
+      "end": 3.589,
+      "rms": 0.100615
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 0.9,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 4,
+      "start": 0,
+      "end": 3.589,
+      "greedy_transcript": "公军口可动物园照 好 的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}
