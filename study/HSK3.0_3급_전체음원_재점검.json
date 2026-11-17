@@ -6,6 +6,8 @@
   "voice_name": "Shuxian - Clear & Trustworthy",
   "requested_speed": 0.85,
   "checks": {
+    "playback_regression_tests_passed": 19,
+    "grade2_byte_identical_rebuild_files": 1000,
     "baseline_individually_transcribed": 2000,
     "final_file_hash_source_duration_energy_headroom_checks": 2000,
     "updated_audio_files": 632,
@@ -5444,10 +5446,96 @@
     "javascript_errors": []
   },
   "public_playback": {
-    "status": "pending publication verification"
+    "revision": "20261117-level3-review2000",
+    "real_completed_plays": [
+      {
+        "src": "audio/level3-natural/item3-0046-word.mp3?v=20261111-tones46-47",
+        "duration": 1.16,
+        "currentTime": 1.16
+      },
+      {
+        "src": "audio/level3-natural/item3-0046-example.mp3?v=20261111-tones46-47",
+        "duration": 2.81,
+        "currentTime": 2.81
+      },
+      {
+        "src": "audio/level3-natural/item3-0047-word.mp3?v=20261111-tones46-47",
+        "duration": 1.04,
+        "currentTime": 1.04
+      },
+      {
+        "src": "audio/level3-natural/item3-0079-word.mp3?v=20261117-level3-review2000",
+        "duration": 0.963,
+        "currentTime": 0.963
+      },
+      {
+        "src": "audio/level3-natural/item3-0127-word.mp3?v=20261117-level3-review2000",
+        "duration": 1.107,
+        "currentTime": 1.107
+      },
+      {
+        "src": "audio/level3-natural/item3-0411-example.mp3?v=20261117-level3-review2000",
+        "duration": 2.64,
+        "currentTime": 2.64
+      },
+      {
+        "src": "audio/level3-natural/item3-0412-word.mp3?v=20261117-level3-review2000",
+        "duration": 1,
+        "currentTime": 1
+      },
+      {
+        "src": "audio/level3-natural/item3-0420-word.mp3?v=20261117-level3-review2000",
+        "duration": 0.860667,
+        "currentTime": 0.860667
+      },
+      {
+        "src": "audio/level3-natural/item3-0519-word.mp3?v=20261117-level3-review2000",
+        "duration": 1.137,
+        "currentTime": 1.137
+      },
+      {
+        "src": "audio/level3-natural/item3-0769-word.mp3?v=20261117-level3-review2000",
+        "duration": 1.042,
+        "currentTime": 1.042
+      },
+      {
+        "src": "audio/level3-natural/item3-0793-word.mp3?v=20261117-level3-review2000",
+        "duration": 0.902,
+        "currentTime": 0.902
+      },
+      {
+        "src": "audio/level3-natural/item3-0857-word.mp3?v=20261117-level3-review2000",
+        "duration": 1.153958,
+        "currentTime": 1.153958
+      },
+      {
+        "src": "audio/level3-natural/item3-0961-word.mp3?v=20261117-level3-review2000",
+        "duration": 1.059542,
+        "currentTime": 1.059542
+      },
+      {
+        "src": "audio/level3-natural/item3-0980-word.mp3?v=20261117-level3-review2000",
+        "duration": 0.6905,
+        "currentTime": 0.6905
+      },
+      {
+        "src": "audio/level3-natural/item3-0991-word.mp3?v=20261117-level3-review2000",
+        "duration": 0.995458,
+        "currentTime": 0.995458
+      },
+      {
+        "src": "audio/level3-erhua/item3-1000-example.mp3?v=20261117-level3-review2000",
+        "duration": 2.45,
+        "currentTime": 2.45
+      }
+    ],
+    "javascript_errors": [],
+    "without_device_tts": true,
+    "grade2_review_and_grade3_pdf_links_preserved": true
   },
   "public_file_checks": {
-    "status": "pending"
+    "total": 2000,
+    "matching": 2000
   },
   "clips": [
     {
