@@ -136,7 +136,7 @@
         "decoded": true
       }
     ],
-    "pdf_sha256": "2441738a1d0daf8c56268ae48e905cfbd2c5677b564e8f4784db1587bbfc8e3b",
+    "pdf_sha256": "f019d7f0ab52374c031d70a06072090f762f1dab947bfcb761eeb6cc8c788671",
     "reference_pdf": "uploaded HSK3.0_5급단어장.pdf, 74 pages",
     "source_workbook_sha256": "6662274433a5c2981b339b0a74d6a80054dff2f59ac32df8190fcd2247f0330b",
     "full_cover_qr_scans_by_dpi": {
@@ -150,7 +150,9 @@
         "https://yanchunnu.github.io/HSK3.0-/level5.html",
         "https://yanchunnu.github.io/HSK3.0-/level4.html"
       ]
-    }
+    },
+    "original_blue_cover_pdf_sha256": "2441738a1d0daf8c56268ae48e905cfbd2c5677b564e8f4784db1587bbfc8e3b",
+    "cover_color": "navy #1E2F5B"
   },
   "content_review": {
     "source_entries_retained": 1800,
@@ -1181,13 +1183,15 @@
       "file": "HSK3.0_6급단어장_표지포함.pdf",
       "http": 200,
       "bytes": 5540292,
-      "sha256_match": true
+      "sha256_match": null,
+      "status": "navy cover publication verification pending"
     },
     {
       "file": "HSK3.0_6급단어장_표지.pdf",
       "http": 200,
       "bytes": 303169,
-      "sha256_match": true
+      "sha256_match": null,
+      "status": "navy cover publication verification pending"
     },
     {
       "file": "study/HSK3.0_6급_1800단어_유형별_예문_병음_해석.xlsx",
@@ -54508,5 +54512,27 @@
       "expected_text_supplied": false
     }
   ],
-  "verified_asset_commit": "d2c20dae2fe89d8b53c669d1a649025b10cb4710"
+  "verified_asset_commit": "d2c20dae2fe89d8b53c669d1a649025b10cb4710",
+  "cover_update": {
+    "date": "2026-11-18",
+    "cover_color": "navy",
+    "main_color_hex": "#1E2F5B",
+    "dark_accent_hex": "#13213F",
+    "left_panel_text": "near-white for contrast",
+    "total_pages": 83,
+    "body_pages_preserved_pixel_for_pixel": 82,
+    "body_text_and_font_sizes_preserved": true,
+    "cover_text_sizes_and_links_preserved": true,
+    "bookmarks_preserved": 15,
+    "qr_codes_decoded_at_150dpi": [
+      "https://yanchunnu.github.io/HSK3.0-/level4.html",
+      "https://yanchunnu.github.io/HSK3.0-/level5.html",
+      "https://yanchunnu.github.io/HSK3.0-/level6.html"
+    ],
+    "grade5_pdfs_unchanged": true,
+    "grade6_audio_manifest_and_bilingual_data_unchanged": true,
+    "previous_pdf_sha256": "2441738a1d0daf8c56268ae48e905cfbd2c5677b564e8f4784db1587bbfc8e3b",
+    "pdf_sha256": "f019d7f0ab52374c031d70a06072090f762f1dab947bfcb761eeb6cc8c788671",
+    "cover_pdf_sha256": "b933a9d5f3d8a469949dd46178c9deceda0a57af30b7f6d4eb52e15f208af7f2"
+  }
 }
