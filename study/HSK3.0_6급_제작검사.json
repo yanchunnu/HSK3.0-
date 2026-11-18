@@ -1182,16 +1182,14 @@
     {
       "file": "HSK3.0_6급단어장_표지포함.pdf",
       "http": 200,
-      "bytes": 5540292,
-      "sha256_match": null,
-      "status": "navy cover publication verification pending"
+      "bytes": 5540358,
+      "sha256_match": true
     },
     {
       "file": "HSK3.0_6급단어장_표지.pdf",
       "http": 200,
-      "bytes": 303169,
-      "sha256_match": null,
-      "status": "navy cover publication verification pending"
+      "bytes": 303203,
+      "sha256_match": true
     },
     {
       "file": "study/HSK3.0_6급_1800단어_유형별_예문_병음_해석.xlsx",
@@ -54533,6 +54531,20 @@
     "grade6_audio_manifest_and_bilingual_data_unchanged": true,
     "previous_pdf_sha256": "2441738a1d0daf8c56268ae48e905cfbd2c5677b564e8f4784db1587bbfc8e3b",
     "pdf_sha256": "f019d7f0ab52374c031d70a06072090f762f1dab947bfcb761eeb6cc8c788671",
-    "cover_pdf_sha256": "b933a9d5f3d8a469949dd46178c9deceda0a57af30b7f6d4eb52e15f208af7f2"
+    "cover_pdf_sha256": "b933a9d5f3d8a469949dd46178c9deceda0a57af30b7f6d4eb52e15f208af7f2",
+    "public_pdf_verification": [
+      {
+        "file": "HSK3.0_6급단어장_표지포함.pdf",
+        "http": 200,
+        "bytes": 5540358,
+        "sha256_match": true
+      },
+      {
+        "file": "HSK3.0_6급단어장_표지.pdf",
+        "http": 200,
+        "bytes": 303203,
+        "sha256_match": true
+      }
+    ]
   }
 }
