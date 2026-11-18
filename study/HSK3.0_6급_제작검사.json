@@ -138,7 +138,19 @@
     ],
     "pdf_sha256": "2441738a1d0daf8c56268ae48e905cfbd2c5677b564e8f4784db1587bbfc8e3b",
     "reference_pdf": "uploaded HSK3.0_5급단어장.pdf, 74 pages",
-    "source_workbook_sha256": "6662274433a5c2981b339b0a74d6a80054dff2f59ac32df8190fcd2247f0330b"
+    "source_workbook_sha256": "6662274433a5c2981b339b0a74d6a80054dff2f59ac32df8190fcd2247f0330b",
+    "full_cover_qr_scans_by_dpi": {
+      "150": [
+        "https://yanchunnu.github.io/HSK3.0-/level6.html",
+        "https://yanchunnu.github.io/HSK3.0-/level5.html",
+        "https://yanchunnu.github.io/HSK3.0-/level4.html"
+      ],
+      "300": [
+        "https://yanchunnu.github.io/HSK3.0-/level6.html",
+        "https://yanchunnu.github.io/HSK3.0-/level5.html",
+        "https://yanchunnu.github.io/HSK3.0-/level4.html"
+      ]
+    }
   },
   "content_review": {
     "source_entries_retained": 1800,
@@ -1163,11 +1175,120 @@
     "grade6_pdf_and_grade5_4_review_links": "preserved",
     "javascript_errors": []
   },
+  "browser_regression_tests_passed": 7,
+  "public_documents": [
+    {
+      "file": "HSK3.0_6급단어장_표지포함.pdf",
+      "http": 200,
+      "bytes": 5540292,
+      "sha256_match": true
+    },
+    {
+      "file": "HSK3.0_6급단어장_표지.pdf",
+      "http": 200,
+      "bytes": 303169,
+      "sha256_match": true
+    },
+    {
+      "file": "study/HSK3.0_6급_1800단어_유형별_예문_병음_해석.xlsx",
+      "http": 200,
+      "bytes": 393666,
+      "sha256_match": true
+    },
+    {
+      "file": "study/HSK3.0_6급_1800단어_학습데이터.json",
+      "http": 200,
+      "bytes": 751159,
+      "sha256_match": true
+    },
+    {
+      "file": "study/HSK3.0_6급_음원_QR코드.png",
+      "http": 200,
+      "bytes": 8961,
+      "sha256_match": true
+    }
+  ],
   "public_playback": {
-    "status": "not yet checked"
+    "revision": "20261118-level6-3600",
+    "real_completed_plays": [
+      {
+        "src": "audio/level6-natural/item6-0001-word.mp3?v=20261118-level6-3600",
+        "duration": 1.13,
+        "currentTime": 1.13
+      },
+      {
+        "src": "audio/level6-natural/item6-0096-word.mp3?v=20261118-level6-3600",
+        "duration": 1.14,
+        "currentTime": 1.14
+      },
+      {
+        "src": "audio/level6-natural/item6-0109-word.mp3?v=20261118-level6-3600",
+        "duration": 0.95,
+        "currentTime": 0.95
+      },
+      {
+        "src": "audio/level6-natural/item6-0275-word.mp3?v=20261118-level6-3600",
+        "duration": 1.033958,
+        "currentTime": 1.033958
+      },
+      {
+        "src": "audio/level6-natural/item6-0610-word.mp3?v=20261118-level6-3600",
+        "duration": 1.105958,
+        "currentTime": 1.105958
+      },
+      {
+        "src": "audio/level6-natural/item6-0746-example.mp3?v=20261118-level6-3600",
+        "duration": 4.061333,
+        "currentTime": 4.061333
+      },
+      {
+        "src": "audio/level6-natural/item6-0984-word.mp3?v=20261118-level6-3600",
+        "duration": 1.06075,
+        "currentTime": 1.06075
+      },
+      {
+        "src": "audio/level6-natural/item6-1308-example.mp3?v=20261118-level6-3600",
+        "duration": 3.0585,
+        "currentTime": 3.0585
+      },
+      {
+        "src": "audio/level6-natural/item6-1432-word.mp3?v=20261118-level6-3600",
+        "duration": 1.016333,
+        "currentTime": 1.016333
+      },
+      {
+        "src": "audio/level6-natural/item6-1433-word.mp3?v=20261118-level6-3600",
+        "duration": 0.955042,
+        "currentTime": 0.955042
+      },
+      {
+        "src": "audio/level6-natural/item6-1452-word.mp3?v=20261118-level6-3600",
+        "duration": 0.93,
+        "currentTime": 0.93
+      },
+      {
+        "src": "audio/level6-natural/item6-1507-word.mp3?v=20261118-level6-3600",
+        "duration": 1.075,
+        "currentTime": 1.075
+      },
+      {
+        "src": "audio/level6-natural/item6-1800-word.mp3?v=20261118-level6-3600",
+        "duration": 1.2,
+        "currentTime": 1.2
+      },
+      {
+        "src": "audio/level6-natural/item6-1800-example.mp3?v=20261118-level6-3600",
+        "duration": 2.995,
+        "currentTime": 2.995
+      }
+    ],
+    "javascript_errors": [],
+    "without_device_tts": true,
+    "grade5_4_review_and_grade6_pdf_links_preserved": true
   },
   "public_files": {
-    "status": "pending publication"
+    "checked": 3600,
+    "matching": 3600
   },
   "file_metrics": [
     {
@@ -54386,5 +54507,6 @@
       "whisper_phonetic_ratio": 1.0,
       "expected_text_supplied": false
     }
-  ]
+  ],
+  "verified_asset_commit": "d2c20dae2fe89d8b53c669d1a649025b10cb4710"
 }
