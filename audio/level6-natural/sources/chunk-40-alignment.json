@@ -1,0 +1,5063 @@
+{
+  "chunk": 40,
+  "duration_seconds": 118.151875,
+  "units": [
+    {
+      "no": 1192,
+      "sourceNo": 4140,
+      "kind": "example",
+      "display_text": "停电以后，整个房间陷入了黑暗。",
+      "spoken_text": "停电以后，整个房间陷入了黑暗。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 12,
+          "frame_end": 13,
+          "confidence": 0.407,
+          "char": "停",
+          "start": 0.240341,
+          "end": 0.26037
+        },
+        {
+          "frame_start": 20,
+          "frame_end": 21,
+          "confidence": 0.5559,
+          "char": "电",
+          "start": 0.400569,
+          "end": 0.420597
+        },
+        {
+          "frame_start": 27,
+          "frame_end": 28,
+          "confidence": 0.9943,
+          "char": "以",
+          "start": 0.540768,
+          "end": 0.560797
+        },
+        {
+          "frame_start": 35,
+          "frame_end": 36,
+          "confidence": 0.9985,
+          "char": "后",
+          "start": 0.700996,
+          "end": 0.721024
+        },
+        {
+          "frame_start": 57,
+          "frame_end": 59,
+          "confidence": 0.9228,
+          "char": "整",
+          "start": 1.141622,
+          "end": 1.181679
+        },
+        {
+          "frame_start": 67,
+          "frame_end": 69,
+          "confidence": 0.9909,
+          "char": "个",
+          "start": 1.341906,
+          "end": 1.381963
+        },
+        {
+          "frame_start": 75,
+          "frame_end": 76,
+          "confidence": 0.9961,
+          "char": "房",
+          "start": 1.502134,
+          "end": 1.522162
+        },
+        {
+          "frame_start": 84,
+          "frame_end": 85,
+          "confidence": 0.9789,
+          "char": "间",
+          "start": 1.68239,
+          "end": 1.702418
+        },
+        {
+          "frame_start": 93,
+          "frame_end": 95,
+          "confidence": 0.2258,
+          "char": "陷",
+          "start": 1.862646,
+          "end": 1.902703
+        },
+        {
+          "frame_start": 102,
+          "frame_end": 103,
+          "confidence": 0.9914,
+          "char": "入",
+          "start": 2.042902,
+          "end": 2.06293
+        },
+        {
+          "frame_start": 107,
+          "frame_end": 109,
+          "confidence": 0.9937,
+          "char": "了",
+          "start": 2.143044,
+          "end": 2.183101
+        },
+        {
+          "frame_start": 113,
+          "frame_end": 114,
+          "confidence": 0.9998,
+          "char": "黑",
+          "start": 2.263215,
+          "end": 2.283243
+        },
+        {
+          "frame_start": 122,
+          "frame_end": 123,
+          "confidence": 0.4112,
+          "char": "暗",
+          "start": 2.443471,
+          "end": 2.463499
+        }
+      ],
+      "token_start": 0.240341,
+      "token_end": 2.463499,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 2.763926,
+      "rms": 0.201693
+    },
+    {
+      "no": 1193,
+      "sourceNo": 4141,
+      "kind": "word",
+      "display_text": "恨",
+      "pinyin": "hèn",
+      "spoken_text": "恨。",
+      "characters": [
+        {
+          "frame_start": 153,
+          "frame_end": 154,
+          "confidence": 0.7956,
+          "char": "恨",
+          "start": 3.064353,
+          "end": 3.084381
+        }
+      ],
+      "token_start": 3.064353,
+      "token_end": 3.084381,
+      "independent_asr_coverage": 1.0,
+      "start": 2.763926,
+      "end": 3.454908,
+      "rms": 0.108864
+    },
+    {
+      "no": 1193,
+      "sourceNo": 4141,
+      "kind": "example",
+      "display_text": "虽然他做错了事，我并不恨他。",
+      "spoken_text": "虽然他做错了事，我并不恨他。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 191,
+          "frame_end": 192,
+          "confidence": 0.9988,
+          "char": "虽",
+          "start": 3.825434,
+          "end": 3.845462
+        },
+        {
+          "frame_start": 196,
+          "frame_end": 197,
+          "confidence": 0.9852,
+          "char": "然",
+          "start": 3.925576,
+          "end": 3.945605
+        },
+        {
+          "frame_start": 203,
+          "frame_end": 204,
+          "confidence": 0.6806,
+          "char": "他",
+          "start": 4.065775,
+          "end": 4.085804
+        },
+        {
+          "frame_start": 210,
+          "frame_end": 211,
+          "confidence": 0.8988,
+          "char": "做",
+          "start": 4.205974,
+          "end": 4.226003
+        },
+        {
+          "frame_start": 219,
+          "frame_end": 220,
+          "confidence": 0.9887,
+          "char": "错",
+          "start": 4.38623,
+          "end": 4.406259
+        },
+        {
+          "frame_start": 225,
+          "frame_end": 226,
+          "confidence": 0.9933,
+          "char": "了",
+          "start": 4.506401,
+          "end": 4.52643
+        },
+        {
+          "frame_start": 233,
+          "frame_end": 234,
+          "confidence": 0.0159,
+          "char": "事",
+          "start": 4.666629,
+          "end": 4.686657
+        },
+        {
+          "frame_start": 257,
+          "frame_end": 258,
+          "confidence": 0.9994,
+          "char": "我",
+          "start": 5.147312,
+          "end": 5.16734
+        },
+        {
+          "frame_start": 264,
+          "frame_end": 265,
+          "confidence": 0.9928,
+          "char": "并",
+          "start": 5.287511,
+          "end": 5.307539
+        },
+        {
+          "frame_start": 272,
+          "frame_end": 273,
+          "confidence": 1.0,
+          "char": "不",
+          "start": 5.447738,
+          "end": 5.467767
+        },
+        {
+          "frame_start": 277,
+          "frame_end": 278,
+          "confidence": 0.1472,
+          "char": "恨",
+          "start": 5.547881,
+          "end": 5.567909
+        },
+        {
+          "frame_start": 287,
+          "frame_end": 288,
+          "confidence": 0.8421,
+          "char": "他",
+          "start": 5.748165,
+          "end": 5.768193
+        }
+      ],
+      "token_start": 3.825434,
+      "token_end": 5.768193,
+      "independent_asr_coverage": 1.0,
+      "start": 3.454908,
+      "end": 6.058606,
+      "rms": 0.213849
+    },
+    {
+      "no": 1194,
+      "sourceNo": 4142,
+      "kind": "word",
+      "display_text": "狠",
+      "pinyin": "hěn",
+      "spoken_text": "狠。",
+      "characters": [
+        {
+          "frame_start": 317,
+          "frame_end": 318,
+          "confidence": 0.5301,
+          "char": "狠",
+          "start": 6.349018,
+          "end": 6.369047
+        }
+      ],
+      "token_start": 6.349018,
+      "token_end": 6.369047,
+      "independent_asr_coverage": 1.0,
+      "start": 6.058606,
+      "end": 6.729559,
+      "rms": 0.035913
+    },
+    {
+      "no": 1194,
+      "sourceNo": 4142,
+      "kind": "example",
+      "display_text": "他狠下心来，卖掉了自己心爱的摩托车。",
+      "spoken_text": "他狠下心来，卖掉了自己心爱的摩托车。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 354,
+          "frame_end": 355,
+          "confidence": 0.7843,
+          "char": "他",
+          "start": 7.090071,
+          "end": 7.1101
+        },
+        {
+          "frame_start": 361,
+          "frame_end": 362,
+          "confidence": 0.0008,
+          "char": "狠",
+          "start": 7.23027,
+          "end": 7.250299
+        },
+        {
+          "frame_start": 370,
+          "frame_end": 371,
+          "confidence": 0.8629,
+          "char": "下",
+          "start": 7.410526,
+          "end": 7.430555
+        },
+        {
+          "frame_start": 379,
+          "frame_end": 380,
+          "confidence": 0.9607,
+          "char": "心",
+          "start": 7.590782,
+          "end": 7.610811
+        },
+        {
+          "frame_start": 389,
+          "frame_end": 390,
+          "confidence": 0.9985,
+          "char": "来",
+          "start": 7.791067,
+          "end": 7.811095
+        },
+        {
+          "frame_start": 410,
+          "frame_end": 411,
+          "confidence": 0.7259,
+          "char": "卖",
+          "start": 8.211664,
+          "end": 8.231693
+        },
+        {
+          "frame_start": 420,
+          "frame_end": 421,
+          "confidence": 0.9937,
+          "char": "掉",
+          "start": 8.411949,
+          "end": 8.431977
+        },
+        {
+          "frame_start": 426,
+          "frame_end": 428,
+          "confidence": 0.9481,
+          "char": "了",
+          "start": 8.532119,
+          "end": 8.572176
+        },
+        {
+          "frame_start": 433,
+          "frame_end": 434,
+          "confidence": 0.9954,
+          "char": "自",
+          "start": 8.672319,
+          "end": 8.692347
+        },
+        {
+          "frame_start": 438,
+          "frame_end": 439,
+          "confidence": 0.9984,
+          "char": "己",
+          "start": 8.772461,
+          "end": 8.792489
+        },
+        {
+          "frame_start": 445,
+          "frame_end": 446,
+          "confidence": 0.7535,
+          "char": "心",
+          "start": 8.91266,
+          "end": 8.932688
+        },
+        {
+          "frame_start": 453,
+          "frame_end": 454,
+          "confidence": 0.9938,
+          "char": "爱",
+          "start": 9.072888,
+          "end": 9.092916
+        },
+        {
+          "frame_start": 460,
+          "frame_end": 461,
+          "confidence": 0.9911,
+          "char": "的",
+          "start": 9.213087,
+          "end": 9.233115
+        },
+        {
+          "frame_start": 464,
+          "frame_end": 465,
+          "confidence": 0.9746,
+          "char": "摩",
+          "start": 9.293201,
+          "end": 9.313229
+        },
+        {
+          "frame_start": 472,
+          "frame_end": 473,
+          "confidence": 0.593,
+          "char": "托",
+          "start": 9.453428,
+          "end": 9.473457
+        },
+        {
+          "frame_start": 479,
+          "frame_end": 481,
+          "confidence": 0.9997,
+          "char": "车",
+          "start": 9.593627,
+          "end": 9.633684
+        }
+      ],
+      "token_start": 7.090071,
+      "token_end": 9.633684,
+      "independent_asr_coverage": 1.0,
+      "start": 6.729559,
+      "end": 10.014225,
+      "rms": 0.193029
+    },
+    {
+      "no": 1195,
+      "sourceNo": 4144,
+      "kind": "word",
+      "display_text": "衡量",
+      "pinyin": "héngliáng",
+      "spoken_text": "衡量。",
+      "characters": [
+        {
+          "frame_start": 519,
+          "frame_end": 520,
+          "confidence": 0.3323,
+          "char": "衡",
+          "start": 10.394765,
+          "end": 10.414794
+        },
+        {
+          "frame_start": 532,
+          "frame_end": 533,
+          "confidence": 0.018,
+          "char": "量",
+          "start": 10.655135,
+          "end": 10.675164
+        }
+      ],
+      "token_start": 10.394765,
+      "token_end": 10.675164,
+      "independent_asr_coverage": 1.0,
+      "start": 10.014225,
+      "end": 10.977858,
+      "rms": 0.177781
+    },
+    {
+      "no": 1195,
+      "sourceNo": 4144,
+      "kind": "example",
+      "display_text": "我们做决定之前要衡量利弊得失。",
+      "spoken_text": "我们做决定之前要衡量利弊得失。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 88,
+          "frame_end": 89,
+          "confidence": 0.9999,
+          "char": "我",
+          "start": 11.280551,
+          "end": 11.30058
+        },
+        {
+          "frame_start": 92,
+          "frame_end": 94,
+          "confidence": 0.9995,
+          "char": "们",
+          "start": 11.360667,
+          "end": 11.400725
+        },
+        {
+          "frame_start": 98,
+          "frame_end": 99,
+          "confidence": 0.2862,
+          "char": "做",
+          "start": 11.480841,
+          "end": 11.50087
+        },
+        {
+          "frame_start": 105,
+          "frame_end": 106,
+          "confidence": 0.9662,
+          "char": "决",
+          "start": 11.621043,
+          "end": 11.641072
+        },
+        {
+          "frame_start": 111,
+          "frame_end": 113,
+          "confidence": 0.9953,
+          "char": "定",
+          "start": 11.741217,
+          "end": 11.781275
+        },
+        {
+          "frame_start": 119,
+          "frame_end": 120,
+          "confidence": 0.9999,
+          "char": "之",
+          "start": 11.901449,
+          "end": 11.921478
+        },
+        {
+          "frame_start": 127,
+          "frame_end": 128,
+          "confidence": 0.999,
+          "char": "前",
+          "start": 12.061681,
+          "end": 12.08171
+        },
+        {
+          "frame_start": 139,
+          "frame_end": 140,
+          "confidence": 0.9999,
+          "char": "要",
+          "start": 12.302029,
+          "end": 12.322058
+        },
+        {
+          "frame_start": 148,
+          "frame_end": 149,
+          "confidence": 0.6841,
+          "char": "衡",
+          "start": 12.48229,
+          "end": 12.502319
+        },
+        {
+          "frame_start": 157,
+          "frame_end": 158,
+          "confidence": 0.061,
+          "char": "量",
+          "start": 12.662551,
+          "end": 12.68258
+        },
+        {
+          "frame_start": 167,
+          "frame_end": 168,
+          "confidence": 0.145,
+          "char": "利",
+          "start": 12.862841,
+          "end": 12.88287
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.0039,
+          "char": "弊",
+          "start": 13.043101,
+          "end": 13.06313
+        },
+        {
+          "frame_start": 183,
+          "frame_end": 184,
+          "confidence": 0.9588,
+          "char": "得",
+          "start": 13.183304,
+          "end": 13.203333
+        },
+        {
+          "frame_start": 193,
+          "frame_end": 194,
+          "confidence": 0.0203,
+          "char": "失",
+          "start": 13.383594,
+          "end": 13.403623
+        }
+      ],
+      "token_start": 11.280551,
+      "token_end": 13.403623,
+      "independent_asr_coverage": 1.0,
+      "start": 10.977858,
+      "end": 13.704058,
+      "rms": 0.262411
+    },
+    {
+      "no": 1196,
+      "sourceNo": 4145,
+      "kind": "word",
+      "display_text": "痕迹",
+      "pinyin": "hénjì",
+      "spoken_text": "痕迹。",
+      "characters": [
+        {
+          "frame_start": 224,
+          "frame_end": 226,
+          "confidence": 0.6943,
+          "char": "痕",
+          "start": 14.004493,
+          "end": 14.044551
+        },
+        {
+          "frame_start": 240,
+          "frame_end": 241,
+          "confidence": 0.5853,
+          "char": "迹",
+          "start": 14.324957,
+          "end": 14.344986
+        }
+      ],
+      "token_start": 14.004493,
+      "token_end": 14.344986,
+      "independent_asr_coverage": 0.5,
+      "start": 13.704058,
+      "end": 14.745566,
+      "rms": 0.114361
+    },
+    {
+      "no": 1196,
+      "sourceNo": 4145,
+      "kind": "example",
+      "display_text": "岁月在这堵老墙上留下了痕迹。",
+      "spoken_text": "岁月在这堵老墙上留下了痕迹。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 281,
+          "frame_end": 282,
+          "confidence": 0.7716,
+          "char": "岁",
+          "start": 15.146145,
+          "end": 15.166174
+        },
+        {
+          "frame_start": 288,
+          "frame_end": 289,
+          "confidence": 0.6476,
+          "char": "月",
+          "start": 15.286348,
+          "end": 15.306377
+        },
+        {
+          "frame_start": 296,
+          "frame_end": 297,
+          "confidence": 0.9999,
+          "char": "在",
+          "start": 15.44658,
+          "end": 15.466609
+        },
+        {
+          "frame_start": 302,
+          "frame_end": 303,
+          "confidence": 0.9999,
+          "char": "这",
+          "start": 15.566754,
+          "end": 15.586783
+        },
+        {
+          "frame_start": 307,
+          "frame_end": 308,
+          "confidence": 0.024,
+          "char": "堵",
+          "start": 15.666899,
+          "end": 15.686928
+        },
+        {
+          "frame_start": 313,
+          "frame_end": 314,
+          "confidence": 0.9995,
+          "char": "老",
+          "start": 15.787072,
+          "end": 15.807101
+        },
+        {
+          "frame_start": 323,
+          "frame_end": 324,
+          "confidence": 0.316,
+          "char": "墙",
+          "start": 15.987362,
+          "end": 16.007391
+        },
+        {
+          "frame_start": 334,
+          "frame_end": 335,
+          "confidence": 0.9996,
+          "char": "上",
+          "start": 16.207681,
+          "end": 16.22771
+        },
+        {
+          "frame_start": 342,
+          "frame_end": 343,
+          "confidence": 0.8388,
+          "char": "留",
+          "start": 16.367913,
+          "end": 16.387942
+        },
+        {
+          "frame_start": 350,
+          "frame_end": 351,
+          "confidence": 0.996,
+          "char": "下",
+          "start": 16.528145,
+          "end": 16.548174
+        },
+        {
+          "frame_start": 357,
+          "frame_end": 358,
+          "confidence": 0.9997,
+          "char": "了",
+          "start": 16.668348,
+          "end": 16.688377
+        },
+        {
+          "frame_start": 361,
+          "frame_end": 362,
+          "confidence": 0.9604,
+          "char": "痕",
+          "start": 16.748464,
+          "end": 16.768493
+        },
+        {
+          "frame_start": 374,
+          "frame_end": 375,
+          "confidence": 0.8444,
+          "char": "迹",
+          "start": 17.008841,
+          "end": 17.02887
+        }
+      ],
+      "token_start": 15.146145,
+      "token_end": 17.02887,
+      "independent_asr_coverage": 0.923,
+      "start": 14.745566,
+      "end": 17.249189,
+      "rms": 0.223168
+    },
+    {
+      "no": 1197,
+      "sourceNo": 4154,
+      "kind": "word",
+      "display_text": "后退",
+      "pinyin": "hòutuì",
+      "spoken_text": "后退。",
+      "characters": [
+        {
+          "frame_start": 397,
+          "frame_end": 398,
+          "confidence": 0.9727,
+          "char": "后",
+          "start": 17.469507,
+          "end": 17.489536
+        },
+        {
+          "frame_start": 407,
+          "frame_end": 408,
+          "confidence": 0.9819,
+          "char": "退",
+          "start": 17.669797,
+          "end": 17.689826
+        }
+      ],
+      "token_start": 17.469507,
+      "token_end": 17.689826,
+      "independent_asr_coverage": 1.0,
+      "start": 17.249189,
+      "end": 18.030319,
+      "rms": 0.112298
+    },
+    {
+      "no": 1197,
+      "sourceNo": 4154,
+      "kind": "example",
+      "display_text": "遇到危险时，大家应该主动后退。",
+      "spoken_text": "遇到危险时，大家应该主动后退。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 442,
+          "frame_end": 443,
+          "confidence": 0.9774,
+          "char": "遇",
+          "start": 18.370812,
+          "end": 18.390841
+        },
+        {
+          "frame_start": 447,
+          "frame_end": 448,
+          "confidence": 0.9902,
+          "char": "到",
+          "start": 18.470957,
+          "end": 18.490986
+        },
+        {
+          "frame_start": 453,
+          "frame_end": 454,
+          "confidence": 0.4679,
+          "char": "危",
+          "start": 18.59113,
+          "end": 18.611159
+        },
+        {
+          "frame_start": 462,
+          "frame_end": 463,
+          "confidence": 0.8753,
+          "char": "险",
+          "start": 18.771391,
+          "end": 18.79142
+        },
+        {
+          "frame_start": 473,
+          "frame_end": 474,
+          "confidence": 0.9963,
+          "char": "时",
+          "start": 18.99171,
+          "end": 19.011739
+        },
+        {
+          "frame_start": 500,
+          "frame_end": 501,
+          "confidence": 0.9925,
+          "char": "大",
+          "start": 19.532493,
+          "end": 19.552522
+        },
+        {
+          "frame_start": 505,
+          "frame_end": 506,
+          "confidence": 0.9959,
+          "char": "家",
+          "start": 19.632638,
+          "end": 19.652667
+        },
+        {
+          "frame_start": 512,
+          "frame_end": 513,
+          "confidence": 0.9999,
+          "char": "应",
+          "start": 19.772841,
+          "end": 19.79287
+        },
+        {
+          "frame_start": 517,
+          "frame_end": 518,
+          "confidence": 1.0,
+          "char": "该",
+          "start": 19.872986,
+          "end": 19.893014
+        },
+        {
+          "frame_start": 525,
+          "frame_end": 526,
+          "confidence": 0.9947,
+          "char": "主",
+          "start": 20.033217,
+          "end": 20.053246
+        },
+        {
+          "frame_start": 534,
+          "frame_end": 535,
+          "confidence": 0.9912,
+          "char": "动",
+          "start": 20.213478,
+          "end": 20.233507
+        },
+        {
+          "frame_start": 543,
+          "frame_end": 544,
+          "confidence": 0.7998,
+          "char": "后",
+          "start": 20.393739,
+          "end": 20.413768
+        },
+        {
+          "frame_start": 552,
+          "frame_end": 553,
+          "confidence": 0.9807,
+          "char": "退",
+          "start": 20.574,
+          "end": 20.594029
+        }
+      ],
+      "token_start": 18.370812,
+      "token_end": 20.594029,
+      "independent_asr_coverage": 1.0,
+      "start": 18.030319,
+      "end": 20.884449,
+      "rms": 0.249039
+    },
+    {
+      "no": 1198,
+      "sourceNo": 4158,
+      "kind": "word",
+      "display_text": "划",
+      "pinyin": "huà",
+      "spoken_text": "划。",
+      "characters": [
+        {
+          "frame_start": 582,
+          "frame_end": 583,
+          "confidence": 0.0002,
+          "char": "划",
+          "start": 21.17487,
+          "end": 21.194899
+        }
+      ],
+      "token_start": 21.17487,
+      "token_end": 21.194899,
+      "independent_asr_coverage": 1.0,
+      "start": 20.884449,
+      "end": 21.561264,
+      "rms": 0.108734
+    },
+    {
+      "no": 1198,
+      "sourceNo": 4158,
+      "kind": "example",
+      "display_text": "他随手拿起刀在木板上划了一道线。",
+      "spoken_text": "他随手拿起刀在木板上划了一道线。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 94,
+          "frame_end": 95,
+          "confidence": 0.5153,
+          "char": "他",
+          "start": 21.927629,
+          "end": 21.947646
+        },
+        {
+          "frame_start": 101,
+          "frame_end": 102,
+          "confidence": 0.825,
+          "char": "随",
+          "start": 22.06775,
+          "end": 22.087767
+        },
+        {
+          "frame_start": 109,
+          "frame_end": 110,
+          "confidence": 0.3716,
+          "char": "手",
+          "start": 22.227889,
+          "end": 22.247906
+        },
+        {
+          "frame_start": 115,
+          "frame_end": 116,
+          "confidence": 0.9639,
+          "char": "拿",
+          "start": 22.347993,
+          "end": 22.36801
+        },
+        {
+          "frame_start": 125,
+          "frame_end": 126,
+          "confidence": 0.9901,
+          "char": "起",
+          "start": 22.548166,
+          "end": 22.568183
+        },
+        {
+          "frame_start": 132,
+          "frame_end": 133,
+          "confidence": 0.9903,
+          "char": "刀",
+          "start": 22.688287,
+          "end": 22.708304
+        },
+        {
+          "frame_start": 146,
+          "frame_end": 147,
+          "confidence": 1.0,
+          "char": "在",
+          "start": 22.96853,
+          "end": 22.988547
+        },
+        {
+          "frame_start": 152,
+          "frame_end": 153,
+          "confidence": 0.5271,
+          "char": "木",
+          "start": 23.088634,
+          "end": 23.108651
+        },
+        {
+          "frame_start": 159,
+          "frame_end": 160,
+          "confidence": 0.7745,
+          "char": "板",
+          "start": 23.228755,
+          "end": 23.248772
+        },
+        {
+          "frame_start": 167,
+          "frame_end": 168,
+          "confidence": 0.9998,
+          "char": "上",
+          "start": 23.388894,
+          "end": 23.408911
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.0,
+          "char": "划",
+          "start": 23.56905,
+          "end": 23.589067
+        },
+        {
+          "frame_start": 184,
+          "frame_end": 185,
+          "confidence": 0.9996,
+          "char": "了",
+          "start": 23.729188,
+          "end": 23.749205
+        },
+        {
+          "frame_start": 188,
+          "frame_end": 189,
+          "confidence": 0.9938,
+          "char": "一",
+          "start": 23.809257,
+          "end": 23.829275
+        },
+        {
+          "frame_start": 192,
+          "frame_end": 193,
+          "confidence": 0.7068,
+          "char": "道",
+          "start": 23.889327,
+          "end": 23.909344
+        },
+        {
+          "frame_start": 201,
+          "frame_end": 202,
+          "confidence": 0.029,
+          "char": "线",
+          "start": 24.069483,
+          "end": 24.0895
+        }
+      ],
+      "token_start": 21.927629,
+      "token_end": 24.0895,
+      "independent_asr_coverage": 1.0,
+      "start": 21.561264,
+      "end": 24.369743,
+      "rms": 0.24128
+    },
+    {
+      "no": 1199,
+      "sourceNo": 4161,
+      "kind": "word",
+      "display_text": "划分",
+      "pinyin": "huàfēn",
+      "spoken_text": "划分。",
+      "characters": [
+        {
+          "frame_start": 230,
+          "frame_end": 231,
+          "confidence": 0.0004,
+          "char": "划",
+          "start": 24.649985,
+          "end": 24.670002
+        },
+        {
+          "frame_start": 243,
+          "frame_end": 244,
+          "confidence": 0.0275,
+          "char": "分",
+          "start": 24.91021,
+          "end": 24.930228
+        }
+      ],
+      "token_start": 24.649985,
+      "token_end": 24.930228,
+      "independent_asr_coverage": 1.0,
+      "start": 24.369743,
+      "end": 25.320566,
+      "rms": 0.157137
+    },
+    {
+      "no": 1199,
+      "sourceNo": 4161,
+      "kind": "example",
+      "display_text": "老师把全班同学划分成了五个小组。",
+      "spoken_text": "老师把全班同学划分成了五个小组。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 283,
+          "frame_end": 284,
+          "confidence": 0.9979,
+          "char": "老",
+          "start": 25.710903,
+          "end": 25.730921
+        },
+        {
+          "frame_start": 290,
+          "frame_end": 291,
+          "confidence": 0.1298,
+          "char": "师",
+          "start": 25.851025,
+          "end": 25.871042
+        },
+        {
+          "frame_start": 295,
+          "frame_end": 296,
+          "confidence": 0.9852,
+          "char": "把",
+          "start": 25.951111,
+          "end": 25.971129
+        },
+        {
+          "frame_start": 302,
+          "frame_end": 303,
+          "confidence": 0.8724,
+          "char": "全",
+          "start": 26.091233,
+          "end": 26.11125
+        },
+        {
+          "frame_start": 310,
+          "frame_end": 311,
+          "confidence": 0.8018,
+          "char": "班",
+          "start": 26.251371,
+          "end": 26.271389
+        },
+        {
+          "frame_start": 319,
+          "frame_end": 320,
+          "confidence": 0.9551,
+          "char": "同",
+          "start": 26.431527,
+          "end": 26.451545
+        },
+        {
+          "frame_start": 329,
+          "frame_end": 330,
+          "confidence": 0.9997,
+          "char": "学",
+          "start": 26.6317,
+          "end": 26.651718
+        },
+        {
+          "frame_start": 341,
+          "frame_end": 342,
+          "confidence": 0.0017,
+          "char": "划",
+          "start": 26.871908,
+          "end": 26.891926
+        },
+        {
+          "frame_start": 349,
+          "frame_end": 350,
+          "confidence": 0.8609,
+          "char": "分",
+          "start": 27.032047,
+          "end": 27.052064
+        },
+        {
+          "frame_start": 356,
+          "frame_end": 357,
+          "confidence": 0.9769,
+          "char": "成",
+          "start": 27.172168,
+          "end": 27.192186
+        },
+        {
+          "frame_start": 362,
+          "frame_end": 363,
+          "confidence": 0.9989,
+          "char": "了",
+          "start": 27.292272,
+          "end": 27.31229
+        },
+        {
+          "frame_start": 367,
+          "frame_end": 368,
+          "confidence": 0.9987,
+          "char": "五",
+          "start": 27.392359,
+          "end": 27.412376
+        },
+        {
+          "frame_start": 374,
+          "frame_end": 375,
+          "confidence": 0.9851,
+          "char": "个",
+          "start": 27.53248,
+          "end": 27.552498
+        },
+        {
+          "frame_start": 380,
+          "frame_end": 381,
+          "confidence": 0.9945,
+          "char": "小",
+          "start": 27.652584,
+          "end": 27.672601
+        },
+        {
+          "frame_start": 393,
+          "frame_end": 394,
+          "confidence": 0.7761,
+          "char": "组",
+          "start": 27.912809,
+          "end": 27.932827
+        }
+      ],
+      "token_start": 25.710903,
+      "token_end": 27.932827,
+      "independent_asr_coverage": 1.0,
+      "start": 25.320566,
+      "end": 28.193052,
+      "rms": 0.243284
+    },
+    {
+      "no": 1200,
+      "sourceNo": 4162,
+      "kind": "word",
+      "display_text": "怀",
+      "pinyin": "huái",
+      "spoken_text": "怀。",
+      "characters": [
+        {
+          "frame_start": 420,
+          "frame_end": 421,
+          "confidence": 0.1882,
+          "char": "怀",
+          "start": 28.453277,
+          "end": 28.473295
+        }
+      ],
+      "token_start": 28.453277,
+      "token_end": 28.473295,
+      "independent_asr_coverage": 0.0,
+      "start": 28.193052,
+      "end": 28.873641,
+      "rms": 0.10218
+    },
+    {
+      "no": 1200,
+      "sourceNo": 4162,
+      "kind": "example",
+      "display_text": "他心里怀着希望，一直努力工作着。",
+      "spoken_text": "他心里怀着希望，一直努力工作着。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 461,
+          "frame_end": 462,
+          "confidence": 0.5446,
+          "char": "他",
+          "start": 29.273988,
+          "end": 29.294005
+        },
+        {
+          "frame_start": 467,
+          "frame_end": 468,
+          "confidence": 0.962,
+          "char": "心",
+          "start": 29.394092,
+          "end": 29.414109
+        },
+        {
+          "frame_start": 474,
+          "frame_end": 475,
+          "confidence": 0.991,
+          "char": "里",
+          "start": 29.534213,
+          "end": 29.55423
+        },
+        {
+          "frame_start": 481,
+          "frame_end": 482,
+          "confidence": 0.9975,
+          "char": "怀",
+          "start": 29.674334,
+          "end": 29.694351
+        },
+        {
+          "frame_start": 488,
+          "frame_end": 489,
+          "confidence": 0.9994,
+          "char": "着",
+          "start": 29.814455,
+          "end": 29.834473
+        },
+        {
+          "frame_start": 496,
+          "frame_end": 497,
+          "confidence": 0.9993,
+          "char": "希",
+          "start": 29.974594,
+          "end": 29.994611
+        },
+        {
+          "frame_start": 505,
+          "frame_end": 506,
+          "confidence": 0.9754,
+          "char": "望",
+          "start": 30.15475,
+          "end": 30.174767
+        },
+        {
+          "frame_start": 524,
+          "frame_end": 525,
+          "confidence": 0.9742,
+          "char": "一",
+          "start": 30.535079,
+          "end": 30.555097
+        },
+        {
+          "frame_start": 531,
+          "frame_end": 532,
+          "confidence": 0.948,
+          "char": "直",
+          "start": 30.6752,
+          "end": 30.695218
+        },
+        {
+          "frame_start": 540,
+          "frame_end": 541,
+          "confidence": 0.9736,
+          "char": "努",
+          "start": 30.855356,
+          "end": 30.875374
+        },
+        {
+          "frame_start": 546,
+          "frame_end": 547,
+          "confidence": 0.9628,
+          "char": "力",
+          "start": 30.97546,
+          "end": 30.995478
+        },
+        {
+          "frame_start": 552,
+          "frame_end": 553,
+          "confidence": 0.9981,
+          "char": "工",
+          "start": 31.095564,
+          "end": 31.115582
+        },
+        {
+          "frame_start": 562,
+          "frame_end": 563,
+          "confidence": 0.9998,
+          "char": "作",
+          "start": 31.295738,
+          "end": 31.315755
+        },
+        {
+          "frame_start": 571,
+          "frame_end": 572,
+          "confidence": 0.9957,
+          "char": "着",
+          "start": 31.475894,
+          "end": 31.495911
+        }
+      ],
+      "token_start": 29.273988,
+      "token_end": 31.495911,
+      "independent_asr_coverage": 0.857,
+      "start": 28.873641,
+      "end": 31.736119,
+      "rms": 0.235001
+    },
+    {
+      "no": 1201,
+      "sourceNo": 4163,
+      "kind": "word",
+      "display_text": "怀念",
+      "pinyin": "huáiniàn",
+      "spoken_text": "怀念。",
+      "characters": [
+        {
+          "frame_start": 596,
+          "frame_end": 597,
+          "confidence": 0.9761,
+          "char": "怀",
+          "start": 31.976327,
+          "end": 31.996344
+        },
+        {
+          "frame_start": 608,
+          "frame_end": 609,
+          "confidence": 0.9966,
+          "char": "念",
+          "start": 32.216535,
+          "end": 32.236552
+        }
+      ],
+      "token_start": 31.976327,
+      "token_end": 32.236552,
+      "independent_asr_coverage": 1.0,
+      "start": 31.736119,
+      "end": 32.53917,
+      "rms": 0.175542
+    },
+    {
+      "no": 1201,
+      "sourceNo": 4163,
+      "kind": "example",
+      "display_text": "离开家乡多年，他常常怀念故乡的味道。",
+      "spoken_text": "离开家乡多年，他常常怀念故乡的味道。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 97,
+          "frame_end": 98,
+          "confidence": 0.81,
+          "char": "离",
+          "start": 32.841788,
+          "end": 32.861806
+        },
+        {
+          "frame_start": 103,
+          "frame_end": 104,
+          "confidence": 0.9905,
+          "char": "开",
+          "start": 32.961899,
+          "end": 32.981917
+        },
+        {
+          "frame_start": 111,
+          "frame_end": 112,
+          "confidence": 0.9953,
+          "char": "家",
+          "start": 33.122046,
+          "end": 33.142065
+        },
+        {
+          "frame_start": 118,
+          "frame_end": 119,
+          "confidence": 0.9168,
+          "char": "乡",
+          "start": 33.262175,
+          "end": 33.282194
+        },
+        {
+          "frame_start": 127,
+          "frame_end": 128,
+          "confidence": 0.9996,
+          "char": "多",
+          "start": 33.442341,
+          "end": 33.462359
+        },
+        {
+          "frame_start": 136,
+          "frame_end": 137,
+          "confidence": 0.9991,
+          "char": "年",
+          "start": 33.622507,
+          "end": 33.642525
+        },
+        {
+          "frame_start": 162,
+          "frame_end": 163,
+          "confidence": 0.4311,
+          "char": "他",
+          "start": 34.142986,
+          "end": 34.163005
+        },
+        {
+          "frame_start": 169,
+          "frame_end": 170,
+          "confidence": 0.7444,
+          "char": "常",
+          "start": 34.283115,
+          "end": 34.303134
+        },
+        {
+          "frame_start": 178,
+          "frame_end": 179,
+          "confidence": 0.93,
+          "char": "常",
+          "start": 34.463281,
+          "end": 34.4833
+        },
+        {
+          "frame_start": 187,
+          "frame_end": 188,
+          "confidence": 0.9975,
+          "char": "怀",
+          "start": 34.643447,
+          "end": 34.663465
+        },
+        {
+          "frame_start": 194,
+          "frame_end": 196,
+          "confidence": 0.9986,
+          "char": "念",
+          "start": 34.783576,
+          "end": 34.823613
+        },
+        {
+          "frame_start": 204,
+          "frame_end": 205,
+          "confidence": 0.3965,
+          "char": "故",
+          "start": 34.98376,
+          "end": 35.003779
+        },
+        {
+          "frame_start": 212,
+          "frame_end": 213,
+          "confidence": 0.6796,
+          "char": "乡",
+          "start": 35.143908,
+          "end": 35.163926
+        },
+        {
+          "frame_start": 222,
+          "frame_end": 223,
+          "confidence": 0.9974,
+          "char": "的",
+          "start": 35.344092,
+          "end": 35.364111
+        },
+        {
+          "frame_start": 226,
+          "frame_end": 227,
+          "confidence": 0.9394,
+          "char": "味",
+          "start": 35.424166,
+          "end": 35.444184
+        },
+        {
+          "frame_start": 235,
+          "frame_end": 236,
+          "confidence": 0.9625,
+          "char": "道",
+          "start": 35.604332,
+          "end": 35.62435
+        }
+      ],
+      "token_start": 32.841788,
+      "token_end": 35.62435,
+      "independent_asr_coverage": 1.0,
+      "start": 32.53917,
+      "end": 35.944645,
+      "rms": 0.235956
+    },
+    {
+      "no": 1202,
+      "sourceNo": 4170,
+      "kind": "word",
+      "display_text": "幻想",
+      "pinyin": "huànxiǎng",
+      "spoken_text": "幻想。",
+      "characters": [
+        {
+          "frame_start": 268,
+          "frame_end": 269,
+          "confidence": 0.7225,
+          "char": "幻",
+          "start": 36.26494,
+          "end": 36.284959
+        },
+        {
+          "frame_start": 279,
+          "frame_end": 280,
+          "confidence": 0.1324,
+          "char": "想",
+          "start": 36.485143,
+          "end": 36.505161
+        }
+      ],
+      "token_start": 36.26494,
+      "token_end": 36.505161,
+      "independent_asr_coverage": 1.0,
+      "start": 35.944645,
+      "end": 36.865493,
+      "rms": 0.101597
+    },
+    {
+      "no": 1202,
+      "sourceNo": 4170,
+      "kind": "example",
+      "display_text": "他常常幻想将来能够环游世界。",
+      "spoken_text": "他常常幻想将来能够环游世界。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 316,
+          "frame_end": 317,
+          "confidence": 0.6133,
+          "char": "他",
+          "start": 37.225825,
+          "end": 37.245843
+        },
+        {
+          "frame_start": 322,
+          "frame_end": 323,
+          "confidence": 0.9239,
+          "char": "常",
+          "start": 37.345935,
+          "end": 37.365954
+        },
+        {
+          "frame_start": 329,
+          "frame_end": 330,
+          "confidence": 0.994,
+          "char": "常",
+          "start": 37.486065,
+          "end": 37.506083
+        },
+        {
+          "frame_start": 338,
+          "frame_end": 339,
+          "confidence": 0.7054,
+          "char": "幻",
+          "start": 37.66623,
+          "end": 37.686249
+        },
+        {
+          "frame_start": 347,
+          "frame_end": 348,
+          "confidence": 0.7658,
+          "char": "想",
+          "start": 37.846396,
+          "end": 37.866415
+        },
+        {
+          "frame_start": 357,
+          "frame_end": 358,
+          "confidence": 0.9987,
+          "char": "将",
+          "start": 38.046581,
+          "end": 38.066599
+        },
+        {
+          "frame_start": 366,
+          "frame_end": 367,
+          "confidence": 0.9999,
+          "char": "来",
+          "start": 38.226747,
+          "end": 38.246765
+        },
+        {
+          "frame_start": 372,
+          "frame_end": 373,
+          "confidence": 0.9986,
+          "char": "能",
+          "start": 38.346857,
+          "end": 38.366876
+        },
+        {
+          "frame_start": 379,
+          "frame_end": 380,
+          "confidence": 0.9981,
+          "char": "够",
+          "start": 38.486986,
+          "end": 38.507005
+        },
+        {
+          "frame_start": 387,
+          "frame_end": 388,
+          "confidence": 0.7871,
+          "char": "环",
+          "start": 38.647134,
+          "end": 38.667152
+        },
+        {
+          "frame_start": 394,
+          "frame_end": 395,
+          "confidence": 0.0077,
+          "char": "游",
+          "start": 38.787263,
+          "end": 38.807281
+        },
+        {
+          "frame_start": 403,
+          "frame_end": 404,
+          "confidence": 0.9992,
+          "char": "世",
+          "start": 38.967429,
+          "end": 38.987447
+        },
+        {
+          "frame_start": 412,
+          "frame_end": 414,
+          "confidence": 0.9845,
+          "char": "界",
+          "start": 39.147594,
+          "end": 39.187631
+        }
+      ],
+      "token_start": 37.225825,
+      "token_end": 39.187631,
+      "independent_asr_coverage": 0.923,
+      "start": 36.865493,
+      "end": 39.507926,
+      "rms": 0.233626
+    },
+    {
+      "no": 1203,
+      "sourceNo": 4171,
+      "kind": "word",
+      "display_text": "还原",
+      "pinyin": "huányuán",
+      "spoken_text": "还原。",
+      "characters": [
+        {
+          "frame_start": 446,
+          "frame_end": 447,
+          "confidence": 0.0492,
+          "char": "还",
+          "start": 39.828221,
+          "end": 39.84824
+        },
+        {
+          "frame_start": 456,
+          "frame_end": 457,
+          "confidence": 0.8484,
+          "char": "原",
+          "start": 40.028406,
+          "end": 40.048424
+        }
+      ],
+      "token_start": 39.828221,
+      "token_end": 40.048424,
+      "independent_asr_coverage": 0.5,
+      "start": 39.507926,
+      "end": 40.408756,
+      "rms": 0.131751
+    },
+    {
+      "no": 1203,
+      "sourceNo": 4171,
+      "kind": "example",
+      "display_text": "请把桌子和椅子还原到原来的位置。",
+      "spoken_text": "请把桌子和椅子还原到原来的位置。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 493,
+          "frame_end": 494,
+          "confidence": 0.3866,
+          "char": "请",
+          "start": 40.769088,
+          "end": 40.789106
+        },
+        {
+          "frame_start": 501,
+          "frame_end": 502,
+          "confidence": 0.9997,
+          "char": "把",
+          "start": 40.929235,
+          "end": 40.949253
+        },
+        {
+          "frame_start": 509,
+          "frame_end": 510,
+          "confidence": 0.8828,
+          "char": "桌",
+          "start": 41.089382,
+          "end": 41.109401
+        },
+        {
+          "frame_start": 521,
+          "frame_end": 522,
+          "confidence": 0.9982,
+          "char": "子",
+          "start": 41.329604,
+          "end": 41.349622
+        },
+        {
+          "frame_start": 525,
+          "frame_end": 527,
+          "confidence": 0.9358,
+          "char": "和",
+          "start": 41.409677,
+          "end": 41.449714
+        },
+        {
+          "frame_start": 533,
+          "frame_end": 534,
+          "confidence": 0.1975,
+          "char": "椅",
+          "start": 41.569825,
+          "end": 41.589843
+        },
+        {
+          "frame_start": 544,
+          "frame_end": 545,
+          "confidence": 0.9466,
+          "char": "子",
+          "start": 41.790028,
+          "end": 41.810046
+        },
+        {
+          "frame_start": 566,
+          "frame_end": 567,
+          "confidence": 0.7522,
+          "char": "还",
+          "start": 42.230433,
+          "end": 42.250452
+        },
+        {
+          "frame_start": 573,
+          "frame_end": 574,
+          "confidence": 0.9236,
+          "char": "原",
+          "start": 42.370562,
+          "end": 42.390581
+        },
+        {
+          "frame_start": 581,
+          "frame_end": 582,
+          "confidence": 0.9989,
+          "char": "到",
+          "start": 42.53071,
+          "end": 42.550728
+        },
+        {
+          "frame_start": 588,
+          "frame_end": 589,
+          "confidence": 0.9502,
+          "char": "原",
+          "start": 42.670839,
+          "end": 42.690857
+        },
+        {
+          "frame_start": 599,
+          "frame_end": 600,
+          "confidence": 0.9988,
+          "char": "来",
+          "start": 42.891041,
+          "end": 42.91106
+        },
+        {
+          "frame_start": 606,
+          "frame_end": 607,
+          "confidence": 0.9972,
+          "char": "的",
+          "start": 43.031171,
+          "end": 43.051189
+        },
+        {
+          "frame_start": 610,
+          "frame_end": 611,
+          "confidence": 0.9975,
+          "char": "位",
+          "start": 43.111244,
+          "end": 43.131263
+        },
+        {
+          "frame_start": 621,
+          "frame_end": 622,
+          "confidence": 0.9946,
+          "char": "置",
+          "start": 43.331447,
+          "end": 43.351465
+        }
+      ],
+      "token_start": 40.769088,
+      "token_end": 43.351465,
+      "independent_asr_coverage": 0.933,
+      "start": 40.408756,
+      "end": 43.631723,
+      "rms": 0.211443
+    },
+    {
+      "no": 1204,
+      "sourceNo": 4180,
+      "kind": "word",
+      "display_text": "回报",
+      "pinyin": "huíbào",
+      "spoken_text": "回报。",
+      "characters": [
+        {
+          "frame_start": 650,
+          "frame_end": 651,
+          "confidence": 0.9987,
+          "char": "回",
+          "start": 43.911982,
+          "end": 43.932
+        },
+        {
+          "frame_start": 661,
+          "frame_end": 662,
+          "confidence": 0.3016,
+          "char": "报",
+          "start": 44.132184,
+          "end": 44.152203
+        }
+      ],
+      "token_start": 43.911982,
+      "token_end": 44.152203,
+      "independent_asr_coverage": 1.0,
+      "start": 43.631723,
+      "end": 44.459944,
+      "rms": 0.102831
+    },
+    {
+      "no": 1204,
+      "sourceNo": 4180,
+      "kind": "example",
+      "display_text": "孩子长大以后，总想回报父母的养育之恩。",
+      "spoken_text": "孩子长大以后，总想回报父母的养育之恩。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 97,
+          "frame_end": 98,
+          "confidence": 0.9994,
+          "char": "孩",
+          "start": 44.767684,
+          "end": 44.787701
+        },
+        {
+          "frame_start": 106,
+          "frame_end": 107,
+          "confidence": 0.9993,
+          "char": "子",
+          "start": 44.94784,
+          "end": 44.967858
+        },
+        {
+          "frame_start": 110,
+          "frame_end": 111,
+          "confidence": 0.9838,
+          "char": "长",
+          "start": 45.02791,
+          "end": 45.047927
+        },
+        {
+          "frame_start": 119,
+          "frame_end": 120,
+          "confidence": 0.9977,
+          "char": "大",
+          "start": 45.208066,
+          "end": 45.228083
+        },
+        {
+          "frame_start": 127,
+          "frame_end": 128,
+          "confidence": 0.9749,
+          "char": "以",
+          "start": 45.368205,
+          "end": 45.388222
+        },
+        {
+          "frame_start": 134,
+          "frame_end": 135,
+          "confidence": 0.997,
+          "char": "后",
+          "start": 45.508326,
+          "end": 45.528344
+        },
+        {
+          "frame_start": 161,
+          "frame_end": 162,
+          "confidence": 0.9985,
+          "char": "总",
+          "start": 46.048795,
+          "end": 46.068812
+        },
+        {
+          "frame_start": 170,
+          "frame_end": 171,
+          "confidence": 0.9767,
+          "char": "想",
+          "start": 46.228951,
+          "end": 46.248969
+        },
+        {
+          "frame_start": 180,
+          "frame_end": 181,
+          "confidence": 0.9993,
+          "char": "回",
+          "start": 46.429125,
+          "end": 46.449142
+        },
+        {
+          "frame_start": 187,
+          "frame_end": 189,
+          "confidence": 0.2764,
+          "char": "报",
+          "start": 46.569247,
+          "end": 46.609281
+        },
+        {
+          "frame_start": 199,
+          "frame_end": 200,
+          "confidence": 0.9009,
+          "char": "父",
+          "start": 46.809455,
+          "end": 46.829472
+        },
+        {
+          "frame_start": 205,
+          "frame_end": 206,
+          "confidence": 0.9954,
+          "char": "母",
+          "start": 46.929559,
+          "end": 46.949576
+        },
+        {
+          "frame_start": 210,
+          "frame_end": 211,
+          "confidence": 0.9946,
+          "char": "的",
+          "start": 47.029646,
+          "end": 47.049663
+        },
+        {
+          "frame_start": 215,
+          "frame_end": 216,
+          "confidence": 0.7312,
+          "char": "养",
+          "start": 47.129733,
+          "end": 47.14975
+        },
+        {
+          "frame_start": 225,
+          "frame_end": 226,
+          "confidence": 0.0215,
+          "char": "育",
+          "start": 47.329906,
+          "end": 47.349924
+        },
+        {
+          "frame_start": 233,
+          "frame_end": 234,
+          "confidence": 0.9782,
+          "char": "之",
+          "start": 47.490045,
+          "end": 47.510062
+        },
+        {
+          "frame_start": 241,
+          "frame_end": 242,
+          "confidence": 0.8007,
+          "char": "恩",
+          "start": 47.650184,
+          "end": 47.670201
+        }
+      ],
+      "token_start": 44.767684,
+      "token_end": 47.670201,
+      "independent_asr_coverage": 1.0,
+      "start": 44.459944,
+      "end": 48.000487,
+      "rms": 0.213863
+    },
+    {
+      "no": 1205,
+      "sourceNo": 4183,
+      "kind": "word",
+      "display_text": "回顾",
+      "pinyin": "huígù",
+      "spoken_text": "回顾。",
+      "characters": [
+        {
+          "frame_start": 275,
+          "frame_end": 276,
+          "confidence": 0.9985,
+          "char": "回",
+          "start": 48.330774,
+          "end": 48.350792
+        },
+        {
+          "frame_start": 286,
+          "frame_end": 287,
+          "confidence": 0.2365,
+          "char": "顾",
+          "start": 48.550965,
+          "end": 48.570983
+        }
+      ],
+      "token_start": 48.330774,
+      "token_end": 48.570983,
+      "independent_asr_coverage": 1.0,
+      "start": 48.000487,
+      "end": 48.911278,
+      "rms": 0.109416
+    },
+    {
+      "no": 1205,
+      "sourceNo": 4183,
+      "kind": "example",
+      "display_text": "趁着假期，让我们一起回顾一下历史。",
+      "spoken_text": "趁着假期，让我们一起回顾一下历史。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 321,
+          "frame_end": 322,
+          "confidence": 0.6095,
+          "char": "趁",
+          "start": 49.251573,
+          "end": 49.27159
+        },
+        {
+          "frame_start": 328,
+          "frame_end": 329,
+          "confidence": 0.9552,
+          "char": "着",
+          "start": 49.391694,
+          "end": 49.411712
+        },
+        {
+          "frame_start": 333,
+          "frame_end": 334,
+          "confidence": 0.097,
+          "char": "假",
+          "start": 49.491781,
+          "end": 49.511799
+        },
+        {
+          "frame_start": 346,
+          "frame_end": 348,
+          "confidence": 0.9258,
+          "char": "期",
+          "start": 49.752007,
+          "end": 49.792042
+        },
+        {
+          "frame_start": 370,
+          "frame_end": 371,
+          "confidence": 0.9992,
+          "char": "让",
+          "start": 50.232424,
+          "end": 50.252441
+        },
+        {
+          "frame_start": 376,
+          "frame_end": 378,
+          "confidence": 0.904,
+          "char": "我",
+          "start": 50.352528,
+          "end": 50.392562
+        },
+        {
+          "frame_start": 380,
+          "frame_end": 381,
+          "confidence": 0.9999,
+          "char": "们",
+          "start": 50.432597,
+          "end": 50.452615
+        },
+        {
+          "frame_start": 384,
+          "frame_end": 385,
+          "confidence": 0.9762,
+          "char": "一",
+          "start": 50.512667,
+          "end": 50.532684
+        },
+        {
+          "frame_start": 393,
+          "frame_end": 394,
+          "confidence": 0.9991,
+          "char": "起",
+          "start": 50.692823,
+          "end": 50.71284
+        },
+        {
+          "frame_start": 402,
+          "frame_end": 403,
+          "confidence": 0.9995,
+          "char": "回",
+          "start": 50.872979,
+          "end": 50.892997
+        },
+        {
+          "frame_start": 411,
+          "frame_end": 412,
+          "confidence": 0.2774,
+          "char": "顾",
+          "start": 51.053135,
+          "end": 51.073153
+        },
+        {
+          "frame_start": 417,
+          "frame_end": 418,
+          "confidence": 0.9971,
+          "char": "一",
+          "start": 51.17324,
+          "end": 51.193257
+        },
+        {
+          "frame_start": 421,
+          "frame_end": 422,
+          "confidence": 0.9949,
+          "char": "下",
+          "start": 51.253309,
+          "end": 51.273326
+        },
+        {
+          "frame_start": 429,
+          "frame_end": 430,
+          "confidence": 0.95,
+          "char": "历",
+          "start": 51.413448,
+          "end": 51.433465
+        },
+        {
+          "frame_start": 439,
+          "frame_end": 440,
+          "confidence": 0.9891,
+          "char": "史",
+          "start": 51.613622,
+          "end": 51.633639
+        }
+      ],
+      "token_start": 49.251573,
+      "token_end": 51.633639,
+      "independent_asr_coverage": 0.933,
+      "start": 48.911278,
+      "end": 51.953917,
+      "rms": 0.234985
+    },
+    {
+      "no": 1206,
+      "sourceNo": 4187,
+      "kind": "word",
+      "display_text": "回头",
+      "pinyin": "huítóu",
+      "spoken_text": "回头。",
+      "characters": [
+        {
+          "frame_start": 472,
+          "frame_end": 474,
+          "confidence": 0.9793,
+          "char": "回",
+          "start": 52.274194,
+          "end": 52.314229
+        },
+        {
+          "frame_start": 484,
+          "frame_end": 485,
+          "confidence": 0.9992,
+          "char": "头",
+          "start": 52.514403,
+          "end": 52.53442
+        }
+      ],
+      "token_start": 52.274194,
+      "token_end": 52.53442,
+      "independent_asr_coverage": 1.0,
+      "start": 51.953917,
+      "end": 52.964793,
+      "rms": 0.095446
+    },
+    {
+      "no": 1206,
+      "sourceNo": 4187,
+      "kind": "example",
+      "display_text": "他突然回头，看了我一眼就走了。",
+      "spoken_text": "他突然回头，看了我一眼就走了。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 528,
+          "frame_end": 529,
+          "confidence": 0.559,
+          "char": "他",
+          "start": 53.395167,
+          "end": 53.415184
+        },
+        {
+          "frame_start": 535,
+          "frame_end": 536,
+          "confidence": 0.9955,
+          "char": "突",
+          "start": 53.535288,
+          "end": 53.555306
+        },
+        {
+          "frame_start": 542,
+          "frame_end": 543,
+          "confidence": 0.9907,
+          "char": "然",
+          "start": 53.67541,
+          "end": 53.695427
+        },
+        {
+          "frame_start": 551,
+          "frame_end": 552,
+          "confidence": 0.9996,
+          "char": "回",
+          "start": 53.855566,
+          "end": 53.875583
+        },
+        {
+          "frame_start": 560,
+          "frame_end": 561,
+          "confidence": 0.9993,
+          "char": "头",
+          "start": 54.035722,
+          "end": 54.05574
+        },
+        {
+          "frame_start": 589,
+          "frame_end": 590,
+          "confidence": 0.9911,
+          "char": "看",
+          "start": 54.616226,
+          "end": 54.636243
+        },
+        {
+          "frame_start": 599,
+          "frame_end": 600,
+          "confidence": 0.9854,
+          "char": "了",
+          "start": 54.816399,
+          "end": 54.836417
+        },
+        {
+          "frame_start": 604,
+          "frame_end": 605,
+          "confidence": 0.253,
+          "char": "我",
+          "start": 54.916486,
+          "end": 54.936503
+        },
+        {
+          "frame_start": 608,
+          "frame_end": 609,
+          "confidence": 0.0909,
+          "char": "一",
+          "start": 54.996556,
+          "end": 55.016573
+        },
+        {
+          "frame_start": 612,
+          "frame_end": 613,
+          "confidence": 0.3588,
+          "char": "眼",
+          "start": 55.076625,
+          "end": 55.096642
+        },
+        {
+          "frame_start": 621,
+          "frame_end": 622,
+          "confidence": 0.9832,
+          "char": "就",
+          "start": 55.256781,
+          "end": 55.276799
+        },
+        {
+          "frame_start": 628,
+          "frame_end": 629,
+          "confidence": 0.9999,
+          "char": "走",
+          "start": 55.396903,
+          "end": 55.41692
+        },
+        {
+          "frame_start": 639,
+          "frame_end": 640,
+          "confidence": 0.9997,
+          "char": "了",
+          "start": 55.617094,
+          "end": 55.637111
+        }
+      ],
+      "token_start": 53.395167,
+      "token_end": 55.637111,
+      "independent_asr_coverage": 1.0,
+      "start": 52.964793,
+      "end": 55.937371,
+      "rms": 0.193781
+    },
+    {
+      "no": 1207,
+      "sourceNo": 4188,
+      "kind": "word",
+      "display_text": "灰心",
+      "pinyin": "huīxīn",
+      "spoken_text": "灰心。",
+      "characters": [
+        {
+          "frame_start": 670,
+          "frame_end": 671,
+          "confidence": 0.2368,
+          "char": "灰",
+          "start": 56.237632,
+          "end": 56.257649
+        },
+        {
+          "frame_start": 681,
+          "frame_end": 682,
+          "confidence": 0.5339,
+          "char": "心",
+          "start": 56.457823,
+          "end": 56.47784
+        }
+      ],
+      "token_start": 56.237632,
+      "token_end": 56.47784,
+      "independent_asr_coverage": 1.0,
+      "start": 55.937371,
+      "end": 56.870969,
+      "rms": 0.19576
+    },
+    {
+      "no": 1207,
+      "sourceNo": 4188,
+      "kind": "example",
+      "display_text": "考试没考好，他有点儿灰心丧气。",
+      "spoken_text": "考试没考好，他有点儿灰心丧气。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 107,
+          "frame_end": 108,
+          "confidence": 0.7737,
+          "char": "考",
+          "start": 57.264098,
+          "end": 57.284118
+        },
+        {
+          "frame_start": 115,
+          "frame_end": 116,
+          "confidence": 0.7896,
+          "char": "试",
+          "start": 57.424255,
+          "end": 57.444275
+        },
+        {
+          "frame_start": 120,
+          "frame_end": 122,
+          "confidence": 0.8242,
+          "char": "没",
+          "start": 57.524353,
+          "end": 57.564392
+        },
+        {
+          "frame_start": 128,
+          "frame_end": 130,
+          "confidence": 0.7929,
+          "char": "考",
+          "start": 57.68451,
+          "end": 57.724549
+        },
+        {
+          "frame_start": 140,
+          "frame_end": 141,
+          "confidence": 0.9994,
+          "char": "好",
+          "start": 57.924745,
+          "end": 57.944765
+        },
+        {
+          "frame_start": 167,
+          "frame_end": 168,
+          "confidence": 0.1357,
+          "char": "他",
+          "start": 58.465275,
+          "end": 58.485294
+        },
+        {
+          "frame_start": 173,
+          "frame_end": 174,
+          "confidence": 0.9993,
+          "char": "有",
+          "start": 58.585392,
+          "end": 58.605412
+        },
+        {
+          "frame_start": 179,
+          "frame_end": 180,
+          "confidence": 0.9996,
+          "char": "点",
+          "start": 58.70551,
+          "end": 58.725529
+        },
+        {
+          "frame_start": 183,
+          "frame_end": 184,
+          "confidence": 0.1038,
+          "char": "儿",
+          "start": 58.785588,
+          "end": 58.805608
+        },
+        {
+          "frame_start": 189,
+          "frame_end": 190,
+          "confidence": 0.8477,
+          "char": "灰",
+          "start": 58.905706,
+          "end": 58.925725
+        },
+        {
+          "frame_start": 196,
+          "frame_end": 197,
+          "confidence": 0.9851,
+          "char": "心",
+          "start": 59.045843,
+          "end": 59.065863
+        },
+        {
+          "frame_start": 205,
+          "frame_end": 206,
+          "confidence": 0.8528,
+          "char": "丧",
+          "start": 59.22602,
+          "end": 59.246039
+        },
+        {
+          "frame_start": 217,
+          "frame_end": 218,
+          "confidence": 0.0645,
+          "char": "气",
+          "start": 59.466255,
+          "end": 59.486275
+        }
+      ],
+      "token_start": 57.264098,
+      "token_end": 59.486275,
+      "independent_asr_coverage": 0.846,
+      "start": 56.870969,
+      "end": 59.776559,
+      "rms": 0.21096
+    },
+    {
+      "no": 1208,
+      "sourceNo": 4189,
+      "kind": "word",
+      "display_text": "忽略",
+      "pinyin": "hūlüè",
+      "spoken_text": "忽略。",
+      "characters": [
+        {
+          "frame_start": 247,
+          "frame_end": 248,
+          "confidence": 0.5888,
+          "char": "忽",
+          "start": 60.066843,
+          "end": 60.086863
+        },
+        {
+          "frame_start": 255,
+          "frame_end": 257,
+          "confidence": 0.3598,
+          "char": "略",
+          "start": 60.227,
+          "end": 60.267039
+        }
+      ],
+      "token_start": 60.066843,
+      "token_end": 60.267039,
+      "independent_asr_coverage": 1.0,
+      "start": 59.776559,
+      "end": 60.587353,
+      "rms": 0.212895
+    },
+    {
+      "no": 1208,
+      "sourceNo": 4189,
+      "kind": "example",
+      "display_text": "我们千万不能忽略这个重要问题。",
+      "spoken_text": "我们千万不能忽略这个重要问题。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 289,
+          "frame_end": 291,
+          "confidence": 0.9842,
+          "char": "我",
+          "start": 60.907667,
+          "end": 60.947706
+        },
+        {
+          "frame_start": 293,
+          "frame_end": 295,
+          "confidence": 0.8995,
+          "char": "们",
+          "start": 60.987745,
+          "end": 61.027784
+        },
+        {
+          "frame_start": 301,
+          "frame_end": 303,
+          "confidence": 0.9771,
+          "char": "千",
+          "start": 61.147902,
+          "end": 61.187941
+        },
+        {
+          "frame_start": 310,
+          "frame_end": 311,
+          "confidence": 0.9978,
+          "char": "万",
+          "start": 61.328078,
+          "end": 61.348098
+        },
+        {
+          "frame_start": 318,
+          "frame_end": 319,
+          "confidence": 1.0,
+          "char": "不",
+          "start": 61.488235,
+          "end": 61.508255
+        },
+        {
+          "frame_start": 322,
+          "frame_end": 323,
+          "confidence": 1.0,
+          "char": "能",
+          "start": 61.568314,
+          "end": 61.588333
+        },
+        {
+          "frame_start": 331,
+          "frame_end": 332,
+          "confidence": 0.8147,
+          "char": "忽",
+          "start": 61.74849,
+          "end": 61.76851
+        },
+        {
+          "frame_start": 337,
+          "frame_end": 338,
+          "confidence": 0.6773,
+          "char": "略",
+          "start": 61.868608,
+          "end": 61.888627
+        },
+        {
+          "frame_start": 344,
+          "frame_end": 345,
+          "confidence": 0.9999,
+          "char": "这",
+          "start": 62.008745,
+          "end": 62.028765
+        },
+        {
+          "frame_start": 349,
+          "frame_end": 350,
+          "confidence": 0.9982,
+          "char": "个",
+          "start": 62.108843,
+          "end": 62.128863
+        },
+        {
+          "frame_start": 353,
+          "frame_end": 354,
+          "confidence": 0.9995,
+          "char": "重",
+          "start": 62.188922,
+          "end": 62.208941
+        },
+        {
+          "frame_start": 360,
+          "frame_end": 361,
+          "confidence": 0.9984,
+          "char": "要",
+          "start": 62.329059,
+          "end": 62.349078
+        },
+        {
+          "frame_start": 366,
+          "frame_end": 367,
+          "confidence": 0.9998,
+          "char": "问",
+          "start": 62.449176,
+          "end": 62.469196
+        },
+        {
+          "frame_start": 375,
+          "frame_end": 377,
+          "confidence": 0.8554,
+          "char": "题",
+          "start": 62.629353,
+          "end": 62.669392
+        }
+      ],
+      "token_start": 60.907667,
+      "token_end": 62.669392,
+      "independent_asr_coverage": 1.0,
+      "start": 60.587353,
+      "end": 62.959677,
+      "rms": 0.230436
+    },
+    {
+      "no": 1209,
+      "sourceNo": 4190,
+      "kind": "word",
+      "display_text": "混",
+      "pinyin": "hùn",
+      "spoken_text": "混。",
+      "characters": [
+        {
+          "frame_start": 406,
+          "frame_end": 407,
+          "confidence": 0.9897,
+          "char": "混",
+          "start": 63.249961,
+          "end": 63.26998
+        }
+      ],
+      "token_start": 63.249961,
+      "token_end": 63.26998,
+      "independent_asr_coverage": 1.0,
+      "start": 62.959677,
+      "end": 63.590294,
+      "rms": 0.19034
+    },
+    {
+      "no": 1209,
+      "sourceNo": 4190,
+      "kind": "example",
+      "display_text": "做饭时千万不要把不同的液体混在一起。",
+      "spoken_text": "做饭时千万不要把不同的液体混在一起。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 439,
+          "frame_end": 440,
+          "confidence": 0.4237,
+          "char": "做",
+          "start": 63.910608,
+          "end": 63.930627
+        },
+        {
+          "frame_start": 447,
+          "frame_end": 448,
+          "confidence": 0.2963,
+          "char": "饭",
+          "start": 64.070765,
+          "end": 64.090784
+        },
+        {
+          "frame_start": 456,
+          "frame_end": 457,
+          "confidence": 0.9933,
+          "char": "时",
+          "start": 64.250941,
+          "end": 64.270961
+        },
+        {
+          "frame_start": 469,
+          "frame_end": 471,
+          "confidence": 0.7997,
+          "char": "千",
+          "start": 64.511196,
+          "end": 64.551235
+        },
+        {
+          "frame_start": 477,
+          "frame_end": 478,
+          "confidence": 0.9983,
+          "char": "万",
+          "start": 64.671353,
+          "end": 64.691373
+        },
+        {
+          "frame_start": 485,
+          "frame_end": 486,
+          "confidence": 0.9996,
+          "char": "不",
+          "start": 64.83151,
+          "end": 64.851529
+        },
+        {
+          "frame_start": 489,
+          "frame_end": 490,
+          "confidence": 0.9986,
+          "char": "要",
+          "start": 64.911588,
+          "end": 64.931608
+        },
+        {
+          "frame_start": 496,
+          "frame_end": 497,
+          "confidence": 0.9962,
+          "char": "把",
+          "start": 65.051725,
+          "end": 65.071745
+        },
+        {
+          "frame_start": 504,
+          "frame_end": 505,
+          "confidence": 0.9997,
+          "char": "不",
+          "start": 65.211882,
+          "end": 65.231902
+        },
+        {
+          "frame_start": 510,
+          "frame_end": 511,
+          "confidence": 0.9971,
+          "char": "同",
+          "start": 65.332,
+          "end": 65.35202
+        },
+        {
+          "frame_start": 518,
+          "frame_end": 519,
+          "confidence": 0.9966,
+          "char": "的",
+          "start": 65.492157,
+          "end": 65.512176
+        },
+        {
+          "frame_start": 522,
+          "frame_end": 524,
+          "confidence": 0.6794,
+          "char": "液",
+          "start": 65.572235,
+          "end": 65.612275
+        },
+        {
+          "frame_start": 532,
+          "frame_end": 533,
+          "confidence": 0.9814,
+          "char": "体",
+          "start": 65.772431,
+          "end": 65.792451
+        },
+        {
+          "frame_start": 539,
+          "frame_end": 541,
+          "confidence": 0.9757,
+          "char": "混",
+          "start": 65.912569,
+          "end": 65.952608
+        },
+        {
+          "frame_start": 547,
+          "frame_end": 549,
+          "confidence": 0.7564,
+          "char": "在",
+          "start": 66.072725,
+          "end": 66.112765
+        },
+        {
+          "frame_start": 555,
+          "frame_end": 556,
+          "confidence": 0.9992,
+          "char": "一",
+          "start": 66.232882,
+          "end": 66.252902
+        },
+        {
+          "frame_start": 563,
+          "frame_end": 564,
+          "confidence": 0.9821,
+          "char": "起",
+          "start": 66.393039,
+          "end": 66.413059
+        }
+      ],
+      "token_start": 63.910608,
+      "token_end": 66.413059,
+      "independent_asr_coverage": 1.0,
+      "start": 63.590294,
+      "end": 66.773412,
+      "rms": 0.228886
+    },
+    {
+      "no": 1210,
+      "sourceNo": 4191,
+      "kind": "word",
+      "display_text": "混合",
+      "pinyin": "hùnhé",
+      "spoken_text": "混合。",
+      "characters": [
+        {
+          "frame_start": 600,
+          "frame_end": 601,
+          "confidence": 0.997,
+          "char": "混",
+          "start": 67.133765,
+          "end": 67.153784
+        },
+        {
+          "frame_start": 610,
+          "frame_end": 611,
+          "confidence": 0.9742,
+          "char": "合",
+          "start": 67.333961,
+          "end": 67.35398
+        }
+      ],
+      "token_start": 67.133765,
+      "token_end": 67.35398,
+      "independent_asr_coverage": 1.0,
+      "start": 66.773412,
+      "end": 67.792043,
+      "rms": 0.177542
+    },
+    {
+      "no": 1210,
+      "sourceNo": 4191,
+      "kind": "example",
+      "display_text": "调色的时候，要把这两种颜色混合均匀。",
+      "spoken_text": "调色的时候，要把这两种颜色混合均匀。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 114,
+          "frame_end": 115,
+          "confidence": 0.5852,
+          "char": "调",
+          "start": 68.230106,
+          "end": 68.250133
+        },
+        {
+          "frame_start": 125,
+          "frame_end": 126,
+          "confidence": 0.9938,
+          "char": "色",
+          "start": 68.450405,
+          "end": 68.470432
+        },
+        {
+          "frame_start": 130,
+          "frame_end": 131,
+          "confidence": 0.9986,
+          "char": "的",
+          "start": 68.550541,
+          "end": 68.570569
+        },
+        {
+          "frame_start": 136,
+          "frame_end": 137,
+          "confidence": 0.9999,
+          "char": "时",
+          "start": 68.670705,
+          "end": 68.690732
+        },
+        {
+          "frame_start": 143,
+          "frame_end": 144,
+          "confidence": 0.9922,
+          "char": "候",
+          "start": 68.810896,
+          "end": 68.830923
+        },
+        {
+          "frame_start": 164,
+          "frame_end": 165,
+          "confidence": 0.9991,
+          "char": "要",
+          "start": 69.231468,
+          "end": 69.251495
+        },
+        {
+          "frame_start": 169,
+          "frame_end": 170,
+          "confidence": 0.9995,
+          "char": "把",
+          "start": 69.331604,
+          "end": 69.351631
+        },
+        {
+          "frame_start": 175,
+          "frame_end": 176,
+          "confidence": 0.9796,
+          "char": "这",
+          "start": 69.451767,
+          "end": 69.471795
+        },
+        {
+          "frame_start": 181,
+          "frame_end": 182,
+          "confidence": 0.9987,
+          "char": "两",
+          "start": 69.571931,
+          "end": 69.591958
+        },
+        {
+          "frame_start": 190,
+          "frame_end": 191,
+          "confidence": 0.9991,
+          "char": "种",
+          "start": 69.752176,
+          "end": 69.772203
+        },
+        {
+          "frame_start": 197,
+          "frame_end": 198,
+          "confidence": 0.9943,
+          "char": "颜",
+          "start": 69.892367,
+          "end": 69.912394
+        },
+        {
+          "frame_start": 207,
+          "frame_end": 208,
+          "confidence": 0.9956,
+          "char": "色",
+          "start": 70.092639,
+          "end": 70.112666
+        },
+        {
+          "frame_start": 217,
+          "frame_end": 218,
+          "confidence": 0.9992,
+          "char": "混",
+          "start": 70.292911,
+          "end": 70.312939
+        },
+        {
+          "frame_start": 225,
+          "frame_end": 226,
+          "confidence": 0.948,
+          "char": "合",
+          "start": 70.453129,
+          "end": 70.473157
+        },
+        {
+          "frame_start": 233,
+          "frame_end": 234,
+          "confidence": 0.995,
+          "char": "均",
+          "start": 70.613347,
+          "end": 70.633375
+        },
+        {
+          "frame_start": 243,
+          "frame_end": 244,
+          "confidence": 0.9989,
+          "char": "匀",
+          "start": 70.81362,
+          "end": 70.833647
+        }
+      ],
+      "token_start": 68.230106,
+      "token_end": 70.833647,
+      "independent_asr_coverage": 1.0,
+      "start": 67.792043,
+      "end": 71.134056,
+      "rms": 0.238076
+    },
+    {
+      "no": 1211,
+      "sourceNo": 4207,
+      "kind": "word",
+      "display_text": "加剧",
+      "pinyin": "jiājù",
+      "spoken_text": "加剧。",
+      "characters": [
+        {
+          "frame_start": 274,
+          "frame_end": 275,
+          "confidence": 0.3512,
+          "char": "加",
+          "start": 71.434464,
+          "end": 71.454491
+        },
+        {
+          "frame_start": 287,
+          "frame_end": 288,
+          "confidence": 0.0629,
+          "char": "剧",
+          "start": 71.694818,
+          "end": 71.714846
+        }
+      ],
+      "token_start": 71.434464,
+      "token_end": 71.714846,
+      "independent_asr_coverage": 1.0,
+      "start": 71.134056,
+      "end": 72.075336,
+      "rms": 0.146333
+    },
+    {
+      "no": 1211,
+      "sourceNo": 4207,
+      "kind": "example",
+      "display_text": "处理不当会加剧矛盾，必须及时沟通。",
+      "spoken_text": "处理不当会加剧矛盾，必须及时沟通。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 324,
+          "frame_end": 325,
+          "confidence": 0.4385,
+          "char": "处",
+          "start": 72.435826,
+          "end": 72.455854
+        },
+        {
+          "frame_start": 330,
+          "frame_end": 331,
+          "confidence": 0.782,
+          "char": "理",
+          "start": 72.55599,
+          "end": 72.576017
+        },
+        {
+          "frame_start": 337,
+          "frame_end": 338,
+          "confidence": 0.9999,
+          "char": "不",
+          "start": 72.69618,
+          "end": 72.716208
+        },
+        {
+          "frame_start": 342,
+          "frame_end": 343,
+          "confidence": 0.3013,
+          "char": "当",
+          "start": 72.796317,
+          "end": 72.816344
+        },
+        {
+          "frame_start": 352,
+          "frame_end": 353,
+          "confidence": 0.9918,
+          "char": "会",
+          "start": 72.996589,
+          "end": 73.016616
+        },
+        {
+          "frame_start": 358,
+          "frame_end": 359,
+          "confidence": 0.6274,
+          "char": "加",
+          "start": 73.116753,
+          "end": 73.13678
+        },
+        {
+          "frame_start": 366,
+          "frame_end": 367,
+          "confidence": 0.0238,
+          "char": "剧",
+          "start": 73.27697,
+          "end": 73.296998
+        },
+        {
+          "frame_start": 371,
+          "frame_end": 372,
+          "confidence": 0.7871,
+          "char": "矛",
+          "start": 73.377107,
+          "end": 73.397134
+        },
+        {
+          "frame_start": 382,
+          "frame_end": 383,
+          "confidence": 0.957,
+          "char": "盾",
+          "start": 73.597406,
+          "end": 73.617434
+        },
+        {
+          "frame_start": 402,
+          "frame_end": 403,
+          "confidence": 0.9947,
+          "char": "必",
+          "start": 73.997951,
+          "end": 74.017978
+        },
+        {
+          "frame_start": 407,
+          "frame_end": 408,
+          "confidence": 0.9547,
+          "char": "须",
+          "start": 74.098087,
+          "end": 74.118115
+        },
+        {
+          "frame_start": 417,
+          "frame_end": 418,
+          "confidence": 0.2121,
+          "char": "及",
+          "start": 74.29836,
+          "end": 74.318387
+        },
+        {
+          "frame_start": 427,
+          "frame_end": 428,
+          "confidence": 0.034,
+          "char": "时",
+          "start": 74.498632,
+          "end": 74.518659
+        },
+        {
+          "frame_start": 434,
+          "frame_end": 435,
+          "confidence": 0.8594,
+          "char": "沟",
+          "start": 74.638823,
+          "end": 74.65885
+        },
+        {
+          "frame_start": 443,
+          "frame_end": 444,
+          "confidence": 0.9892,
+          "char": "通",
+          "start": 74.819068,
+          "end": 74.839095
+        }
+      ],
+      "token_start": 72.435826,
+      "token_end": 74.839095,
+      "independent_asr_coverage": 1.0,
+      "start": 72.075336,
+      "end": 75.259668,
+      "rms": 0.231088
+    },
+    {
+      "no": 1212,
+      "sourceNo": 4215,
+      "kind": "word",
+      "display_text": "鉴定",
+      "pinyin": "jiàndìng",
+      "spoken_text": "鉴定。",
+      "characters": [
+        {
+          "frame_start": 486,
+          "frame_end": 487,
+          "confidence": 0.0313,
+          "char": "鉴",
+          "start": 75.68024,
+          "end": 75.700267
+        },
+        {
+          "frame_start": 498,
+          "frame_end": 499,
+          "confidence": 0.9728,
+          "char": "定",
+          "start": 75.920566,
+          "end": 75.940594
+        }
+      ],
+      "token_start": 75.68024,
+      "token_end": 75.940594,
+      "independent_asr_coverage": 1.0,
+      "start": 75.259668,
+      "end": 76.311098,
+      "rms": 0.205346
+    },
+    {
+      "no": 1212,
+      "sourceNo": 4215,
+      "kind": "example",
+      "display_text": "专家对这幅古画进行了专业鉴定。",
+      "spoken_text": "专家对这幅古画进行了专业鉴定。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 536,
+          "frame_end": 537,
+          "confidence": 0.999,
+          "char": "专",
+          "start": 76.681602,
+          "end": 76.701629
+        },
+        {
+          "frame_start": 543,
+          "frame_end": 544,
+          "confidence": 0.9797,
+          "char": "家",
+          "start": 76.821792,
+          "end": 76.84182
+        },
+        {
+          "frame_start": 551,
+          "frame_end": 552,
+          "confidence": 0.9075,
+          "char": "对",
+          "start": 76.98201,
+          "end": 77.002037
+        },
+        {
+          "frame_start": 557,
+          "frame_end": 558,
+          "confidence": 0.9944,
+          "char": "这",
+          "start": 77.102174,
+          "end": 77.122201
+        },
+        {
+          "frame_start": 564,
+          "frame_end": 565,
+          "confidence": 0.3004,
+          "char": "幅",
+          "start": 77.242364,
+          "end": 77.262392
+        },
+        {
+          "frame_start": 571,
+          "frame_end": 572,
+          "confidence": 0.3388,
+          "char": "古",
+          "start": 77.382555,
+          "end": 77.402582
+        },
+        {
+          "frame_start": 581,
+          "frame_end": 582,
+          "confidence": 0.5074,
+          "char": "画",
+          "start": 77.582827,
+          "end": 77.602855
+        },
+        {
+          "frame_start": 594,
+          "frame_end": 595,
+          "confidence": 0.9997,
+          "char": "进",
+          "start": 77.843182,
+          "end": 77.863209
+        },
+        {
+          "frame_start": 601,
+          "frame_end": 602,
+          "confidence": 0.9986,
+          "char": "行",
+          "start": 77.983372,
+          "end": 78.0034
+        },
+        {
+          "frame_start": 607,
+          "frame_end": 608,
+          "confidence": 0.9999,
+          "char": "了",
+          "start": 78.103536,
+          "end": 78.123563
+        },
+        {
+          "frame_start": 613,
+          "frame_end": 614,
+          "confidence": 0.9992,
+          "char": "专",
+          "start": 78.223699,
+          "end": 78.243726
+        },
+        {
+          "frame_start": 621,
+          "frame_end": 622,
+          "confidence": 0.967,
+          "char": "业",
+          "start": 78.383917,
+          "end": 78.403944
+        },
+        {
+          "frame_start": 629,
+          "frame_end": 630,
+          "confidence": 0.0164,
+          "char": "鉴",
+          "start": 78.544135,
+          "end": 78.564162
+        },
+        {
+          "frame_start": 640,
+          "frame_end": 641,
+          "confidence": 0.9775,
+          "char": "定",
+          "start": 78.764435,
+          "end": 78.784462
+        }
+      ],
+      "token_start": 76.681602,
+      "token_end": 78.784462,
+      "independent_asr_coverage": 1.0,
+      "start": 76.311098,
+      "end": 79.134939,
+      "rms": 0.222546
+    },
+    {
+      "no": 1213,
+      "sourceNo": 4226,
+      "kind": "word",
+      "display_text": "简化",
+      "pinyin": "jiǎnhuà",
+      "spoken_text": "简化。",
+      "characters": [
+        {
+          "frame_start": 676,
+          "frame_end": 677,
+          "confidence": 0.4668,
+          "char": "简",
+          "start": 79.485415,
+          "end": 79.505443
+        },
+        {
+          "frame_start": 688,
+          "frame_end": 689,
+          "confidence": 0.2293,
+          "char": "化",
+          "start": 79.725742,
+          "end": 79.74577
+        }
+      ],
+      "token_start": 79.485415,
+      "token_end": 79.74577,
+      "independent_asr_coverage": 1.0,
+      "start": 79.134939,
+      "end": 80.132799,
+      "rms": 0.145842
+    },
+    {
+      "no": 1213,
+      "sourceNo": 4226,
+      "kind": "example",
+      "display_text": "为了提高效率，我们要简化办事流程。",
+      "spoken_text": "为了提高效率，我们要简化办事流程。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 107,
+          "frame_end": 108,
+          "confidence": 0.9917,
+          "char": "为",
+          "start": 80.519827,
+          "end": 80.539834
+        },
+        {
+          "frame_start": 112,
+          "frame_end": 114,
+          "confidence": 0.9202,
+          "char": "了",
+          "start": 80.619865,
+          "end": 80.659881
+        },
+        {
+          "frame_start": 118,
+          "frame_end": 119,
+          "confidence": 0.9993,
+          "char": "提",
+          "start": 80.739912,
+          "end": 80.759919
+        },
+        {
+          "frame_start": 123,
+          "frame_end": 125,
+          "confidence": 0.855,
+          "char": "高",
+          "start": 80.83995,
+          "end": 80.879966
+        },
+        {
+          "frame_start": 132,
+          "frame_end": 134,
+          "confidence": 0.9464,
+          "char": "效",
+          "start": 81.02002,
+          "end": 81.060035
+        },
+        {
+          "frame_start": 144,
+          "frame_end": 145,
+          "confidence": 0.7879,
+          "char": "率",
+          "start": 81.260113,
+          "end": 81.28012
+        },
+        {
+          "frame_start": 165,
+          "frame_end": 167,
+          "confidence": 0.9976,
+          "char": "我",
+          "start": 81.680275,
+          "end": 81.72029
+        },
+        {
+          "frame_start": 170,
+          "frame_end": 171,
+          "confidence": 0.9617,
+          "char": "们",
+          "start": 81.780313,
+          "end": 81.800321
+        },
+        {
+          "frame_start": 174,
+          "frame_end": 175,
+          "confidence": 0.9988,
+          "char": "要",
+          "start": 81.860344,
+          "end": 81.880352
+        },
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.6365,
+          "char": "简",
+          "start": 82.020406,
+          "end": 82.040414
+        },
+        {
+          "frame_start": 193,
+          "frame_end": 195,
+          "confidence": 0.3837,
+          "char": "化",
+          "start": 82.240491,
+          "end": 82.280507
+        },
+        {
+          "frame_start": 203,
+          "frame_end": 204,
+          "confidence": 0.8125,
+          "char": "办",
+          "start": 82.440568,
+          "end": 82.460576
+        },
+        {
+          "frame_start": 210,
+          "frame_end": 211,
+          "confidence": 0.8503,
+          "char": "事",
+          "start": 82.580623,
+          "end": 82.60063
+        },
+        {
+          "frame_start": 217,
+          "frame_end": 218,
+          "confidence": 0.9484,
+          "char": "流",
+          "start": 82.720677,
+          "end": 82.740684
+        },
+        {
+          "frame_start": 226,
+          "frame_end": 227,
+          "confidence": 0.1771,
+          "char": "程",
+          "start": 82.900746,
+          "end": 82.920754
+        }
+      ],
+      "token_start": 80.519827,
+      "token_end": 82.920754,
+      "independent_asr_coverage": 1.0,
+      "start": 80.132799,
+      "end": 83.280893,
+      "rms": 0.227943
+    },
+    {
+      "no": 1214,
+      "sourceNo": 4232,
+      "kind": "word",
+      "display_text": "减弱",
+      "pinyin": "jiǎnruò",
+      "spoken_text": "减弱。",
+      "characters": [
+        {
+          "frame_start": 263,
+          "frame_end": 264,
+          "confidence": 0.1417,
+          "char": "减",
+          "start": 83.641032,
+          "end": 83.66104
+        },
+        {
+          "frame_start": 274,
+          "frame_end": 275,
+          "confidence": 0.8598,
+          "char": "弱",
+          "start": 83.861117,
+          "end": 83.881125
+        }
+      ],
+      "token_start": 83.641032,
+      "token_end": 83.881125,
+      "independent_asr_coverage": 1.0,
+      "start": 83.280893,
+      "end": 84.23126,
+      "rms": 0.172336
+    },
+    {
+      "no": 1214,
+      "sourceNo": 4232,
+      "kind": "example",
+      "display_text": "随着冷空气逐渐离开，风力也开始减弱。",
+      "spoken_text": "随着冷空气逐渐离开，风力也开始减弱。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 310,
+          "frame_end": 313,
+          "confidence": 0.9123,
+          "char": "随",
+          "start": 84.581395,
+          "end": 84.641418
+        },
+        {
+          "frame_start": 316,
+          "frame_end": 318,
+          "confidence": 0.9909,
+          "char": "着",
+          "start": 84.701442,
+          "end": 84.741457
+        },
+        {
+          "frame_start": 322,
+          "frame_end": 323,
+          "confidence": 0.9959,
+          "char": "冷",
+          "start": 84.821488,
+          "end": 84.841496
+        },
+        {
+          "frame_start": 330,
+          "frame_end": 332,
+          "confidence": 0.9639,
+          "char": "空",
+          "start": 84.98155,
+          "end": 85.021565
+        },
+        {
+          "frame_start": 342,
+          "frame_end": 344,
+          "confidence": 0.6684,
+          "char": "气",
+          "start": 85.221642,
+          "end": 85.261658
+        },
+        {
+          "frame_start": 351,
+          "frame_end": 352,
+          "confidence": 0.9913,
+          "char": "逐",
+          "start": 85.401712,
+          "end": 85.42172
+        },
+        {
+          "frame_start": 357,
+          "frame_end": 359,
+          "confidence": 0.7127,
+          "char": "渐",
+          "start": 85.521758,
+          "end": 85.561774
+        },
+        {
+          "frame_start": 366,
+          "frame_end": 368,
+          "confidence": 0.8802,
+          "char": "离",
+          "start": 85.701828,
+          "end": 85.741843
+        },
+        {
+          "frame_start": 376,
+          "frame_end": 378,
+          "confidence": 0.9047,
+          "char": "开",
+          "start": 85.901905,
+          "end": 85.941921
+        },
+        {
+          "frame_start": 405,
+          "frame_end": 406,
+          "confidence": 0.2034,
+          "char": "风",
+          "start": 86.482129,
+          "end": 86.502137
+        },
+        {
+          "frame_start": 415,
+          "frame_end": 416,
+          "confidence": 0.3616,
+          "char": "力",
+          "start": 86.682206,
+          "end": 86.702214
+        },
+        {
+          "frame_start": 421,
+          "frame_end": 422,
+          "confidence": 0.9973,
+          "char": "也",
+          "start": 86.802253,
+          "end": 86.82226
+        },
+        {
+          "frame_start": 428,
+          "frame_end": 430,
+          "confidence": 0.9994,
+          "char": "开",
+          "start": 86.942307,
+          "end": 86.982322
+        },
+        {
+          "frame_start": 436,
+          "frame_end": 437,
+          "confidence": 0.9983,
+          "char": "始",
+          "start": 87.102369,
+          "end": 87.122376
+        },
+        {
+          "frame_start": 443,
+          "frame_end": 444,
+          "confidence": 0.2254,
+          "char": "减",
+          "start": 87.242423,
+          "end": 87.26243
+        },
+        {
+          "frame_start": 453,
+          "frame_end": 454,
+          "confidence": 0.9074,
+          "char": "弱",
+          "start": 87.4425,
+          "end": 87.462508
+        }
+      ],
+      "token_start": 84.581395,
+      "token_end": 87.462508,
+      "independent_asr_coverage": 1.0,
+      "start": 84.23126,
+      "end": 87.792636,
+      "rms": 0.225181
+    },
+    {
+      "no": 1215,
+      "sourceNo": 4234,
+      "kind": "word",
+      "display_text": "减压",
+      "pinyin": "jiǎnyā",
+      "spoken_text": "减压。",
+      "characters": [
+        {
+          "frame_start": 487,
+          "frame_end": 488,
+          "confidence": 0.0661,
+          "char": "减",
+          "start": 88.122763,
+          "end": 88.14277
+        },
+        {
+          "frame_start": 499,
+          "frame_end": 500,
+          "confidence": 0.815,
+          "char": "压",
+          "start": 88.362855,
+          "end": 88.382863
+        }
+      ],
+      "token_start": 88.122763,
+      "token_end": 88.382863,
+      "independent_asr_coverage": 1.0,
+      "start": 87.792636,
+      "end": 88.702987,
+      "rms": 0.147621
+    },
+    {
+      "no": 1215,
+      "sourceNo": 4234,
+      "kind": "example",
+      "display_text": "适当运动有助于减压，也能改善睡眠质量。",
+      "spoken_text": "适当运动有助于减压，也能改善睡眠质量。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 532,
+          "frame_end": 533,
+          "confidence": 0.0024,
+          "char": "适",
+          "start": 89.02311,
+          "end": 89.043118
+        },
+        {
+          "frame_start": 539,
+          "frame_end": 540,
+          "confidence": 0.8616,
+          "char": "当",
+          "start": 89.163164,
+          "end": 89.183172
+        },
+        {
+          "frame_start": 547,
+          "frame_end": 548,
+          "confidence": 0.9971,
+          "char": "运",
+          "start": 89.323226,
+          "end": 89.343234
+        },
+        {
+          "frame_start": 556,
+          "frame_end": 557,
+          "confidence": 0.9915,
+          "char": "动",
+          "start": 89.503296,
+          "end": 89.523304
+        },
+        {
+          "frame_start": 569,
+          "frame_end": 570,
+          "confidence": 0.9762,
+          "char": "有",
+          "start": 89.763396,
+          "end": 89.783404
+        },
+        {
+          "frame_start": 577,
+          "frame_end": 579,
+          "confidence": 0.6981,
+          "char": "助",
+          "start": 89.923458,
+          "end": 89.963474
+        },
+        {
+          "frame_start": 584,
+          "frame_end": 585,
+          "confidence": 0.5219,
+          "char": "于",
+          "start": 90.063512,
+          "end": 90.08352
+        },
+        {
+          "frame_start": 591,
+          "frame_end": 593,
+          "confidence": 0.0479,
+          "char": "减",
+          "start": 90.203566,
+          "end": 90.243582
+        },
+        {
+          "frame_start": 602,
+          "frame_end": 603,
+          "confidence": 0.9134,
+          "char": "压",
+          "start": 90.423651,
+          "end": 90.443659
+        },
+        {
+          "frame_start": 627,
+          "frame_end": 628,
+          "confidence": 0.9999,
+          "char": "也",
+          "start": 90.923844,
+          "end": 90.943852
+        },
+        {
+          "frame_start": 632,
+          "frame_end": 633,
+          "confidence": 0.9999,
+          "char": "能",
+          "start": 91.023883,
+          "end": 91.043891
+        },
+        {
+          "frame_start": 640,
+          "frame_end": 641,
+          "confidence": 0.9587,
+          "char": "改",
+          "start": 91.183945,
+          "end": 91.203953
+        },
+        {
+          "frame_start": 647,
+          "frame_end": 648,
+          "confidence": 0.9825,
+          "char": "善",
+          "start": 91.323999,
+          "end": 91.344007
+        },
+        {
+          "frame_start": 656,
+          "frame_end": 658,
+          "confidence": 0.827,
+          "char": "睡",
+          "start": 91.504068,
+          "end": 91.544084
+        },
+        {
+          "frame_start": 663,
+          "frame_end": 665,
+          "confidence": 0.5071,
+          "char": "眠",
+          "start": 91.644123,
+          "end": 91.684138
+        },
+        {
+          "frame_start": 673,
+          "frame_end": 674,
+          "confidence": 0.8444,
+          "char": "质",
+          "start": 91.8442,
+          "end": 91.864208
+        },
+        {
+          "frame_start": 680,
+          "frame_end": 682,
+          "confidence": 0.8445,
+          "char": "量",
+          "start": 91.984254,
+          "end": 92.024269
+        }
+      ],
+      "token_start": 89.02311,
+      "token_end": 92.024269,
+      "independent_asr_coverage": 1.0,
+      "start": 88.702987,
+      "end": 92.334389,
+      "rms": 0.245073
+    },
+    {
+      "no": 1216,
+      "sourceNo": 4240,
+      "kind": "word",
+      "display_text": "焦点",
+      "pinyin": "jiāodiǎn",
+      "spoken_text": "焦点。",
+      "characters": [
+        {
+          "frame_start": 713,
+          "frame_end": 714,
+          "confidence": 0.765,
+          "char": "焦",
+          "start": 92.644509,
+          "end": 92.664517
+        },
+        {
+          "frame_start": 725,
+          "frame_end": 726,
+          "confidence": 0.884,
+          "char": "点",
+          "start": 92.884602,
+          "end": 92.904609
+        }
+      ],
+      "token_start": 92.644509,
+      "token_end": 92.904609,
+      "independent_asr_coverage": 1.0,
+      "start": 92.334389,
+      "end": 93.219651,
+      "rms": 0.171805
+    },
+    {
+      "no": 1216,
+      "sourceNo": 4240,
+      "kind": "example",
+      "display_text": "这是最近全社会都在关注的焦点问题。",
+      "spoken_text": "这是最近全社会都在关注的焦点问题。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 97,
+          "frame_end": 98,
+          "confidence": 0.9915,
+          "char": "这",
+          "start": 93.534694,
+          "end": 93.554722
+        },
+        {
+          "frame_start": 101,
+          "frame_end": 103,
+          "confidence": 0.9948,
+          "char": "是",
+          "start": 93.614806,
+          "end": 93.654861
+        },
+        {
+          "frame_start": 108,
+          "frame_end": 109,
+          "confidence": 0.9997,
+          "char": "最",
+          "start": 93.755,
+          "end": 93.775028
+        },
+        {
+          "frame_start": 115,
+          "frame_end": 116,
+          "confidence": 0.9933,
+          "char": "近",
+          "start": 93.895194,
+          "end": 93.915222
+        },
+        {
+          "frame_start": 123,
+          "frame_end": 125,
+          "confidence": 0.9303,
+          "char": "全",
+          "start": 94.055417,
+          "end": 94.095472
+        },
+        {
+          "frame_start": 136,
+          "frame_end": 137,
+          "confidence": 0.983,
+          "char": "社",
+          "start": 94.315778,
+          "end": 94.335806
+        },
+        {
+          "frame_start": 145,
+          "frame_end": 146,
+          "confidence": 0.9915,
+          "char": "会",
+          "start": 94.496028,
+          "end": 94.516056
+        },
+        {
+          "frame_start": 152,
+          "frame_end": 153,
+          "confidence": 0.9995,
+          "char": "都",
+          "start": 94.636222,
+          "end": 94.65625
+        },
+        {
+          "frame_start": 157,
+          "frame_end": 158,
+          "confidence": 0.9999,
+          "char": "在",
+          "start": 94.736361,
+          "end": 94.756389
+        },
+        {
+          "frame_start": 164,
+          "frame_end": 165,
+          "confidence": 0.9627,
+          "char": "关",
+          "start": 94.876556,
+          "end": 94.896583
+        },
+        {
+          "frame_start": 173,
+          "frame_end": 174,
+          "confidence": 0.9829,
+          "char": "注",
+          "start": 95.056806,
+          "end": 95.076833
+        },
+        {
+          "frame_start": 179,
+          "frame_end": 180,
+          "confidence": 0.9818,
+          "char": "的",
+          "start": 95.176972,
+          "end": 95.197
+        },
+        {
+          "frame_start": 184,
+          "frame_end": 185,
+          "confidence": 0.0692,
+          "char": "焦",
+          "start": 95.277111,
+          "end": 95.297139
+        },
+        {
+          "frame_start": 194,
+          "frame_end": 195,
+          "confidence": 0.8922,
+          "char": "点",
+          "start": 95.477389,
+          "end": 95.497417
+        },
+        {
+          "frame_start": 200,
+          "frame_end": 201,
+          "confidence": 0.9999,
+          "char": "问",
+          "start": 95.597556,
+          "end": 95.617583
+        },
+        {
+          "frame_start": 211,
+          "frame_end": 212,
+          "confidence": 0.9999,
+          "char": "题",
+          "start": 95.817861,
+          "end": 95.837889
+        }
+      ],
+      "token_start": 93.534694,
+      "token_end": 95.837889,
+      "independent_asr_coverage": 1.0,
+      "start": 93.219651,
+      "end": 96.118278,
+      "rms": 0.253282
+    },
+    {
+      "no": 1217,
+      "sourceNo": 4242,
+      "kind": "word",
+      "display_text": "焦虑",
+      "pinyin": "jiāolǜ",
+      "spoken_text": "焦虑。",
+      "characters": [
+        {
+          "frame_start": 240,
+          "frame_end": 241,
+          "confidence": 0.3882,
+          "char": "焦",
+          "start": 96.398667,
+          "end": 96.418694
+        },
+        {
+          "frame_start": 253,
+          "frame_end": 254,
+          "confidence": 0.9392,
+          "char": "虑",
+          "start": 96.659028,
+          "end": 96.679056
+        }
+      ],
+      "token_start": 96.398667,
+      "token_end": 96.679056,
+      "independent_asr_coverage": 1.0,
+      "start": 96.118278,
+      "end": 97.029542,
+      "rms": 0.192225
+    },
+    {
+      "no": 1217,
+      "sourceNo": 4242,
+      "kind": "example",
+      "display_text": "考试快到了，他因准备不足而感到焦虑。",
+      "spoken_text": "考试快到了，他因准备不足而感到焦虑。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 289,
+          "frame_end": 290,
+          "confidence": 0.9896,
+          "char": "考",
+          "start": 97.380028,
+          "end": 97.400056
+        },
+        {
+          "frame_start": 298,
+          "frame_end": 299,
+          "confidence": 0.9912,
+          "char": "试",
+          "start": 97.560278,
+          "end": 97.580306
+        },
+        {
+          "frame_start": 305,
+          "frame_end": 306,
+          "confidence": 0.9999,
+          "char": "快",
+          "start": 97.700472,
+          "end": 97.7205
+        },
+        {
+          "frame_start": 313,
+          "frame_end": 314,
+          "confidence": 0.9497,
+          "char": "到",
+          "start": 97.860694,
+          "end": 97.880722
+        },
+        {
+          "frame_start": 324,
+          "frame_end": 325,
+          "confidence": 0.998,
+          "char": "了",
+          "start": 98.081,
+          "end": 98.101028
+        },
+        {
+          "frame_start": 345,
+          "frame_end": 346,
+          "confidence": 0.6686,
+          "char": "他",
+          "start": 98.501583,
+          "end": 98.521611
+        },
+        {
+          "frame_start": 351,
+          "frame_end": 352,
+          "confidence": 0.9501,
+          "char": "因",
+          "start": 98.62175,
+          "end": 98.641778
+        },
+        {
+          "frame_start": 360,
+          "frame_end": 361,
+          "confidence": 0.9808,
+          "char": "准",
+          "start": 98.802,
+          "end": 98.822028
+        },
+        {
+          "frame_start": 368,
+          "frame_end": 369,
+          "confidence": 0.9968,
+          "char": "备",
+          "start": 98.962222,
+          "end": 98.98225
+        },
+        {
+          "frame_start": 376,
+          "frame_end": 377,
+          "confidence": 0.9987,
+          "char": "不",
+          "start": 99.122444,
+          "end": 99.142472
+        },
+        {
+          "frame_start": 385,
+          "frame_end": 386,
+          "confidence": 0.9975,
+          "char": "足",
+          "start": 99.302694,
+          "end": 99.322722
+        },
+        {
+          "frame_start": 400,
+          "frame_end": 401,
+          "confidence": 0.9999,
+          "char": "而",
+          "start": 99.603111,
+          "end": 99.623139
+        },
+        {
+          "frame_start": 406,
+          "frame_end": 407,
+          "confidence": 0.8657,
+          "char": "感",
+          "start": 99.723278,
+          "end": 99.743306
+        },
+        {
+          "frame_start": 413,
+          "frame_end": 414,
+          "confidence": 0.9608,
+          "char": "到",
+          "start": 99.863472,
+          "end": 99.8835
+        },
+        {
+          "frame_start": 419,
+          "frame_end": 421,
+          "confidence": 0.1863,
+          "char": "焦",
+          "start": 99.983639,
+          "end": 100.023694
+        },
+        {
+          "frame_start": 431,
+          "frame_end": 432,
+          "confidence": 0.9709,
+          "char": "虑",
+          "start": 100.223972,
+          "end": 100.244
+        }
+      ],
+      "token_start": 97.380028,
+      "token_end": 100.244,
+      "independent_asr_coverage": 1.0,
+      "start": 97.029542,
+      "end": 100.584472,
+      "rms": 0.205462
+    },
+    {
+      "no": 1218,
+      "sourceNo": 4249,
+      "kind": "word",
+      "display_text": "脚印",
+      "pinyin": "jiǎoyìn",
+      "spoken_text": "脚印。",
+      "characters": [
+        {
+          "frame_start": 466,
+          "frame_end": 467,
+          "confidence": 0.0,
+          "char": "脚",
+          "start": 100.924944,
+          "end": 100.944972
+        },
+        {
+          "frame_start": 479,
+          "frame_end": 480,
+          "confidence": 0.8275,
+          "char": "印",
+          "start": 101.185306,
+          "end": 101.205333
+        }
+      ],
+      "token_start": 100.924944,
+      "token_end": 101.205333,
+      "independent_asr_coverage": 1.0,
+      "start": 100.584472,
+      "end": 101.645944,
+      "rms": 0.182468
+    },
+    {
+      "no": 1218,
+      "sourceNo": 4249,
+      "kind": "example",
+      "display_text": "雪地上清晰地留下了一串脚印。",
+      "spoken_text": "雪地上清晰地留下了一串脚印。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 524,
+          "frame_end": 525,
+          "confidence": 0.3474,
+          "char": "雪",
+          "start": 102.086556,
+          "end": 102.106583
+        },
+        {
+          "frame_start": 532,
+          "frame_end": 533,
+          "confidence": 0.6349,
+          "char": "地",
+          "start": 102.246778,
+          "end": 102.266806
+        },
+        {
+          "frame_start": 540,
+          "frame_end": 541,
+          "confidence": 0.9985,
+          "char": "上",
+          "start": 102.407,
+          "end": 102.427028
+        },
+        {
+          "frame_start": 552,
+          "frame_end": 553,
+          "confidence": 0.743,
+          "char": "清",
+          "start": 102.647333,
+          "end": 102.667361
+        },
+        {
+          "frame_start": 565,
+          "frame_end": 567,
+          "confidence": 0.7036,
+          "char": "晰",
+          "start": 102.907694,
+          "end": 102.94775
+        },
+        {
+          "frame_start": 572,
+          "frame_end": 573,
+          "confidence": 0.0054,
+          "char": "地",
+          "start": 103.047889,
+          "end": 103.067917
+        },
+        {
+          "frame_start": 577,
+          "frame_end": 578,
+          "confidence": 0.7741,
+          "char": "留",
+          "start": 103.148028,
+          "end": 103.168056
+        },
+        {
+          "frame_start": 584,
+          "frame_end": 585,
+          "confidence": 0.9988,
+          "char": "下",
+          "start": 103.288222,
+          "end": 103.30825
+        },
+        {
+          "frame_start": 591,
+          "frame_end": 592,
+          "confidence": 0.9961,
+          "char": "了",
+          "start": 103.428417,
+          "end": 103.448444
+        },
+        {
+          "frame_start": 594,
+          "frame_end": 595,
+          "confidence": 0.8812,
+          "char": "一",
+          "start": 103.4885,
+          "end": 103.508528
+        },
+        {
+          "frame_start": 600,
+          "frame_end": 601,
+          "confidence": 0.5339,
+          "char": "串",
+          "start": 103.608667,
+          "end": 103.628694
+        },
+        {
+          "frame_start": 610,
+          "frame_end": 611,
+          "confidence": 0.1532,
+          "char": "脚",
+          "start": 103.808944,
+          "end": 103.828972
+        },
+        {
+          "frame_start": 620,
+          "frame_end": 621,
+          "confidence": 0.6549,
+          "char": "印",
+          "start": 104.009222,
+          "end": 104.02925
+        }
+      ],
+      "token_start": 102.086556,
+      "token_end": 104.02925,
+      "independent_asr_coverage": 0.923,
+      "start": 101.645944,
+      "end": 104.349694,
+      "rms": 0.221551
+    },
+    {
+      "no": 1219,
+      "sourceNo": 4252,
+      "kind": "word",
+      "display_text": "加以",
+      "pinyin": "jiāyǐ",
+      "spoken_text": "加以。",
+      "characters": [
+        {
+          "frame_start": 653,
+          "frame_end": 654,
+          "confidence": 0.0008,
+          "char": "加",
+          "start": 104.670139,
+          "end": 104.690167
+        },
+        {
+          "frame_start": 667,
+          "frame_end": 668,
+          "confidence": 0.0276,
+          "char": "以",
+          "start": 104.950528,
+          "end": 104.970556
+        }
+      ],
+      "token_start": 104.670139,
+      "token_end": 104.970556,
+      "independent_asr_coverage": 1.0,
+      "start": 104.349694,
+      "end": 105.365735,
+      "rms": 0.1117
+    },
+    {
+      "no": 1219,
+      "sourceNo": 4252,
+      "kind": "example",
+      "display_text": "遇到这类难题，我们都要设法加以解决。",
+      "spoken_text": "遇到这类难题，我们都要设法加以解决。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 108,
+          "frame_end": 109,
+          "confidence": 0.9826,
+          "char": "遇",
+          "start": 105.760913,
+          "end": 105.78093
+        },
+        {
+          "frame_start": 113,
+          "frame_end": 114,
+          "confidence": 0.9625,
+          "char": "到",
+          "start": 105.861001,
+          "end": 105.881019
+        },
+        {
+          "frame_start": 120,
+          "frame_end": 121,
+          "confidence": 0.9996,
+          "char": "这",
+          "start": 106.001125,
+          "end": 106.021143
+        },
+        {
+          "frame_start": 126,
+          "frame_end": 127,
+          "confidence": 0.9903,
+          "char": "类",
+          "start": 106.121231,
+          "end": 106.141249
+        },
+        {
+          "frame_start": 133,
+          "frame_end": 134,
+          "confidence": 0.722,
+          "char": "难",
+          "start": 106.261355,
+          "end": 106.281373
+        },
+        {
+          "frame_start": 145,
+          "frame_end": 146,
+          "confidence": 0.1356,
+          "char": "题",
+          "start": 106.501568,
+          "end": 106.521586
+        },
+        {
+          "frame_start": 168,
+          "frame_end": 169,
+          "confidence": 0.9998,
+          "char": "我",
+          "start": 106.961975,
+          "end": 106.981993
+        },
+        {
+          "frame_start": 172,
+          "frame_end": 173,
+          "confidence": 0.9999,
+          "char": "们",
+          "start": 107.042046,
+          "end": 107.062064
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.999,
+          "char": "都",
+          "start": 107.122117,
+          "end": 107.142135
+        },
+        {
+          "frame_start": 181,
+          "frame_end": 182,
+          "confidence": 0.9988,
+          "char": "要",
+          "start": 107.222205,
+          "end": 107.242223
+        },
+        {
+          "frame_start": 189,
+          "frame_end": 190,
+          "confidence": 0.2316,
+          "char": "设",
+          "start": 107.382347,
+          "end": 107.402365
+        },
+        {
+          "frame_start": 199,
+          "frame_end": 200,
+          "confidence": 0.9979,
+          "char": "法",
+          "start": 107.582524,
+          "end": 107.602542
+        },
+        {
+          "frame_start": 205,
+          "frame_end": 206,
+          "confidence": 0.0351,
+          "char": "加",
+          "start": 107.702631,
+          "end": 107.722648
+        },
+        {
+          "frame_start": 214,
+          "frame_end": 215,
+          "confidence": 0.4132,
+          "char": "以",
+          "start": 107.88279,
+          "end": 107.902808
+        },
+        {
+          "frame_start": 220,
+          "frame_end": 221,
+          "confidence": 0.9997,
+          "char": "解",
+          "start": 108.002896,
+          "end": 108.022914
+        },
+        {
+          "frame_start": 229,
+          "frame_end": 230,
+          "confidence": 0.8597,
+          "char": "决",
+          "start": 108.183056,
+          "end": 108.203073
+        }
+      ],
+      "token_start": 105.760913,
+      "token_end": 108.203073,
+      "independent_asr_coverage": 1.0,
+      "start": 105.365735,
+      "end": 108.523357,
+      "rms": 0.224162
+    },
+    {
+      "no": 1220,
+      "sourceNo": 4254,
+      "kind": "word",
+      "display_text": "加重",
+      "pinyin": "jiāzhòng",
+      "spoken_text": "加重。",
+      "characters": [
+        {
+          "frame_start": 262,
+          "frame_end": 263,
+          "confidence": 0.3102,
+          "char": "加",
+          "start": 108.84364,
+          "end": 108.863658
+        },
+        {
+          "frame_start": 274,
+          "frame_end": 275,
+          "confidence": 0.8146,
+          "char": "重",
+          "start": 109.083852,
+          "end": 109.10387
+        }
+      ],
+      "token_start": 108.84364,
+      "token_end": 109.10387,
+      "independent_asr_coverage": 1.0,
+      "start": 108.523357,
+      "end": 109.374109,
+      "rms": 0.190131
+    },
+    {
+      "no": 1220,
+      "sourceNo": 4254,
+      "kind": "example",
+      "display_text": "经过治疗，他的病情反而有所加重。",
+      "spoken_text": "经过治疗，他的病情反而有所加重。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 302,
+          "frame_end": 303,
+          "confidence": 0.9995,
+          "char": "经",
+          "start": 109.644348,
+          "end": 109.664366
+        },
+        {
+          "frame_start": 310,
+          "frame_end": 311,
+          "confidence": 1.0,
+          "char": "过",
+          "start": 109.80449,
+          "end": 109.824508
+        },
+        {
+          "frame_start": 317,
+          "frame_end": 318,
+          "confidence": 0.994,
+          "char": "治",
+          "start": 109.944614,
+          "end": 109.964632
+        },
+        {
+          "frame_start": 324,
+          "frame_end": 326,
+          "confidence": 0.9328,
+          "char": "疗",
+          "start": 110.084738,
+          "end": 110.124773
+        },
+        {
+          "frame_start": 350,
+          "frame_end": 351,
+          "confidence": 0.777,
+          "char": "他",
+          "start": 110.605198,
+          "end": 110.625216
+        },
+        {
+          "frame_start": 355,
+          "frame_end": 356,
+          "confidence": 0.9953,
+          "char": "的",
+          "start": 110.705287,
+          "end": 110.725305
+        },
+        {
+          "frame_start": 359,
+          "frame_end": 360,
+          "confidence": 0.3198,
+          "char": "病",
+          "start": 110.785358,
+          "end": 110.805376
+        },
+        {
+          "frame_start": 369,
+          "frame_end": 370,
+          "confidence": 0.9592,
+          "char": "情",
+          "start": 110.985535,
+          "end": 111.005553
+        },
+        {
+          "frame_start": 386,
+          "frame_end": 387,
+          "confidence": 0.9913,
+          "char": "反",
+          "start": 111.325836,
+          "end": 111.345854
+        },
+        {
+          "frame_start": 393,
+          "frame_end": 394,
+          "confidence": 0.9977,
+          "char": "而",
+          "start": 111.46596,
+          "end": 111.485978
+        },
+        {
+          "frame_start": 400,
+          "frame_end": 401,
+          "confidence": 0.9945,
+          "char": "有",
+          "start": 111.606084,
+          "end": 111.626102
+        },
+        {
+          "frame_start": 407,
+          "frame_end": 408,
+          "confidence": 0.9874,
+          "char": "所",
+          "start": 111.746208,
+          "end": 111.766226
+        },
+        {
+          "frame_start": 414,
+          "frame_end": 415,
+          "confidence": 0.1294,
+          "char": "加",
+          "start": 111.886332,
+          "end": 111.90635
+        },
+        {
+          "frame_start": 425,
+          "frame_end": 426,
+          "confidence": 0.7787,
+          "char": "重",
+          "start": 112.106527,
+          "end": 112.126544
+        }
+      ],
+      "token_start": 109.644348,
+      "token_end": 112.126544,
+      "independent_asr_coverage": 1.0,
+      "start": 109.374109,
+      "end": 112.406792,
+      "rms": 0.229432
+    },
+    {
+      "no": 1221,
+      "sourceNo": 4255,
+      "kind": "word",
+      "display_text": "击败",
+      "pinyin": "jībài",
+      "spoken_text": "击败。",
+      "characters": [
+        {
+          "frame_start": 454,
+          "frame_end": 455,
+          "confidence": 0.7046,
+          "char": "击",
+          "start": 112.68704,
+          "end": 112.707058
+        },
+        {
+          "frame_start": 462,
+          "frame_end": 463,
+          "confidence": 0.5745,
+          "char": "败",
+          "start": 112.847182,
+          "end": 112.8672
+        }
+      ],
+      "token_start": 112.68704,
+      "token_end": 112.8672,
+      "independent_asr_coverage": 1.0,
+      "start": 112.406792,
+      "end": 113.257545,
+      "rms": 0.192389
+    },
+    {
+      "no": 1221,
+      "sourceNo": 4255,
+      "kind": "example",
+      "display_text": "经过艰苦拼搏，我们终于击败了对手。",
+      "spoken_text": "经过艰苦拼搏，我们终于击败了对手。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 502,
+          "frame_end": 504,
+          "confidence": 0.981,
+          "char": "经",
+          "start": 113.64789,
+          "end": 113.687926
+        },
+        {
+          "frame_start": 510,
+          "frame_end": 511,
+          "confidence": 0.9998,
+          "char": "过",
+          "start": 113.808032,
+          "end": 113.82805
+        },
+        {
+          "frame_start": 516,
+          "frame_end": 517,
+          "confidence": 0.0087,
+          "char": "艰",
+          "start": 113.928138,
+          "end": 113.948156
+        },
+        {
+          "frame_start": 527,
+          "frame_end": 528,
+          "confidence": 0.9724,
+          "char": "苦",
+          "start": 114.148333,
+          "end": 114.168351
+        },
+        {
+          "frame_start": 534,
+          "frame_end": 535,
+          "confidence": 0.4595,
+          "char": "拼",
+          "start": 114.288457,
+          "end": 114.308475
+        },
+        {
+          "frame_start": 545,
+          "frame_end": 546,
+          "confidence": 0.0369,
+          "char": "搏",
+          "start": 114.508652,
+          "end": 114.52867
+        },
+        {
+          "frame_start": 569,
+          "frame_end": 570,
+          "confidence": 0.9995,
+          "char": "我",
+          "start": 114.989077,
+          "end": 115.009095
+        },
+        {
+          "frame_start": 573,
+          "frame_end": 574,
+          "confidence": 0.9999,
+          "char": "们",
+          "start": 115.069148,
+          "end": 115.089165
+        },
+        {
+          "frame_start": 580,
+          "frame_end": 581,
+          "confidence": 0.9953,
+          "char": "终",
+          "start": 115.209272,
+          "end": 115.229289
+        },
+        {
+          "frame_start": 591,
+          "frame_end": 592,
+          "confidence": 0.9906,
+          "char": "于",
+          "start": 115.429466,
+          "end": 115.449484
+        },
+        {
+          "frame_start": 600,
+          "frame_end": 601,
+          "confidence": 0.3482,
+          "char": "击",
+          "start": 115.609626,
+          "end": 115.629644
+        },
+        {
+          "frame_start": 607,
+          "frame_end": 608,
+          "confidence": 0.6795,
+          "char": "败",
+          "start": 115.74975,
+          "end": 115.769768
+        },
+        {
+          "frame_start": 614,
+          "frame_end": 615,
+          "confidence": 0.9988,
+          "char": "了",
+          "start": 115.889874,
+          "end": 115.909892
+        },
+        {
+          "frame_start": 619,
+          "frame_end": 620,
+          "confidence": 0.9986,
+          "char": "对",
+          "start": 115.989962,
+          "end": 116.00998
+        },
+        {
+          "frame_start": 627,
+          "frame_end": 628,
+          "confidence": 0.9328,
+          "char": "手",
+          "start": 116.150104,
+          "end": 116.170122
+        }
+      ],
+      "token_start": 113.64789,
+      "token_end": 116.170122,
+      "independent_asr_coverage": 1.0,
+      "start": 113.257545,
+      "end": 116.580485,
+      "rms": 0.278446
+    },
+    {
+      "no": 1222,
+      "sourceNo": 4262,
+      "kind": "word",
+      "display_text": "结",
+      "pinyin": "jiē",
+      "spoken_text": "街。",
+      "pronunciation_adaptation": {
+        "display": "结",
+        "speech_only_homophone": "街",
+        "target_pinyin": "jiē"
+      },
+      "characters": [
+        {
+          "frame_start": 669,
+          "frame_end": 670,
+          "confidence": 0.1256,
+          "char": "街",
+          "start": 116.990848,
+          "end": 117.010866
+        }
+      ],
+      "token_start": 116.990848,
+      "token_end": 117.010866,
+      "independent_asr_coverage": 1.0,
+      "start": 116.580485,
+      "end": 117.41122,
+      "rms": 0.17896
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 710,
+          "frame_end": 711,
+          "confidence": 0.9991,
+          "char": "好",
+          "start": 117.811574,
+          "end": 117.831592
+        },
+        {
+          "frame_start": 718,
+          "frame_end": 719,
+          "confidence": 0.9256,
+          "char": "的",
+          "start": 117.971716,
+          "end": 117.991733
+        }
+      ],
+      "token_start": 117.811574,
+      "token_end": 117.991733,
+      "independent_asr_coverage": 1.0,
+      "start": 117.41122,
+      "end": 118.151875,
+      "rms": 0.156013
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 0.9768,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 6,
+      "start": 0,
+      "end": 14.08,
+      "greedy_transcript": "听电以 后整个 房间陷线入 了黑案 恨 虽然 他做错了式我并不很 他狠 他很下心来卖掉了自己心爱 的摩托 车  衡 梁 我们做决定之前要 恒 梁 立壁得施",
+      "oov": []
+    },
+    {
+      "first": 5,
+      "last": 12,
+      "start": 9.518,
+      "end": 24.72,
+      "greedy_transcript": "车横梁我们作决定之前要衡梁立壁得诗痕迹岁月在这读老强上留下了痕迹后退遇到危险时大家应该主动后退华 他随手拿起刀在目板上华了一到县华",
+      "oov": []
+    },
+    {
+      "first": 11,
+      "last": 18,
+      "start": 20.046,
+      "end": 36.22,
+      "greedy_transcript": "主动后退华 他随守拿起刀在木板上华了一道县华芬 老氏把全班同学华分成了五个小组他心里怀着希望一直努力工作着怀念离开家乡多年他常常怀念顾乡的味道",
+      "oov": []
+    },
+    {
+      "first": 17,
+      "last": 24,
+      "start": 30.9,
+      "end": 48.275999999999996,
+      "greedy_transcript": "力工作着怀念 离开家乡多年她常常 怀念顾乡的味道幻响 他常常幻想将来能够环油世界怀原 请把桌子和<unk>子还原到原来的位置回抱 孩子长大以后总想回报父母的养域之恩",
+      "oov": [
+        "椅"
+      ]
+    },
+    {
+      "first": 23,
+      "last": 30,
+      "start": 42.826,
+      "end": 60.120999999999995,
+      "greedy_transcript": "来的位置回抱  孩子长大以后总想回抱父母的养郁之恩回故<unk>着嫁期让我们一起回故一下历史回头  他突然回 头看了我演就走了 辉心卡 试没考 好她有点辉心丧弃",
+      "oov": [
+        "趁"
+      ]
+    },
+    {
+      "first": 29,
+      "last": 36,
+      "start": 55.122,
+      "end": 71.45800000000001,
+      "greedy_transcript": "就走了 灰心考 试 没考好它有点灰心丧弃忽略 我们千万不能忽略这个重要问题混 做犯时千万不要把不同的液体混在一 起混 合  调色的时候要把这两种颜色混合均匀",
+      "oov": []
+    },
+    {
+      "first": 35,
+      "last": 42,
+      "start": 65.947,
+      "end": 83.59100000000001,
+      "greedy_transcript": "混在一起混 合  调色的时候要把这两种颜色混合均匀家具除理不档会加具矛盾必须即使 沟通  健定 专家对这幅骨画进行了专业健定 简话为了提高效率我们要简化办事流成",
+      "oov": []
+    },
+    {
+      "first": 41,
+      "last": 48,
+      "start": 78.379,
+      "end": 96.506,
+      "greedy_transcript": "夜见定 简 话 为了 提高 效 率我们要简化话办事流C成 简弱 随着 冷 空 气逐渐离开封 力也开始简弱简压 施 当运动有助 于简压 也能 改善 睡 <unk>质量 焦 点这是 最近全社会都在关注 的交点问题交焦",
+      "oov": [
+        "眠"
+      ]
+    },
+    {
+      "first": 47,
+      "last": 54,
+      "start": 91.592,
+      "end": 108.896,
+      "greedy_transcript": "面质量焦点这是最近全社会都在关注的交点问题交虑考试快到了他因准备不足而感到交虑印 学地上清晰的留下了一串缴印交<unk>遇到这类 男提我们都要社法家一解决",
+      "oov": []
+    },
+    {
+      "first": 53,
+      "last": 60,
+      "start": 103.599,
+      "end": 118.151875,
+      "greedy_transcript": "串缴印佳<unk>遇到这类难提我们都要社法家以解决夹重经过治疗他的并情反而有所家重击败经过监苦拼泊我们终于祭败了对手接   好 的",
+      "oov": [
+        "艰"
+      ]
+    },
+    {
+      "first": 59,
+      "last": 60,
+      "start": 115.912,
+      "end": 118.151875,
+      "greedy_transcript": "对手接好蛋",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}

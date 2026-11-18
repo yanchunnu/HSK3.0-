@@ -1,0 +1,5083 @@
+{
+  "chunk": 21,
+  "duration_seconds": 119.5635,
+  "units": [
+    {
+      "no": 613,
+      "sourceNo": 3925,
+      "kind": "example",
+      "display_text": "他驾驶小船渡过了河。",
+      "spoken_text": "他驾驶小船渡过了河。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 12,
+          "frame_end": 13,
+          "confidence": 0.2536,
+          "char": "他",
+          "start": 0.240151,
+          "end": 0.260164
+        },
+        {
+          "frame_start": 18,
+          "frame_end": 20,
+          "confidence": 0.8112,
+          "char": "驾",
+          "start": 0.360227,
+          "end": 0.400252
+        },
+        {
+          "frame_start": 27,
+          "frame_end": 29,
+          "confidence": 0.1777,
+          "char": "驶",
+          "start": 0.54034,
+          "end": 0.580366
+        },
+        {
+          "frame_start": 34,
+          "frame_end": 36,
+          "confidence": 0.7484,
+          "char": "小",
+          "start": 0.680429,
+          "end": 0.720454
+        },
+        {
+          "frame_start": 45,
+          "frame_end": 47,
+          "confidence": 0.6223,
+          "char": "船",
+          "start": 0.900567,
+          "end": 0.940592
+        },
+        {
+          "frame_start": 57,
+          "frame_end": 59,
+          "confidence": 0.3633,
+          "char": "渡",
+          "start": 1.140718,
+          "end": 1.180744
+        },
+        {
+          "frame_start": 65,
+          "frame_end": 67,
+          "confidence": 0.9999,
+          "char": "过",
+          "start": 1.300819,
+          "end": 1.340845
+        },
+        {
+          "frame_start": 71,
+          "frame_end": 73,
+          "confidence": 0.9828,
+          "char": "了",
+          "start": 1.420895,
+          "end": 1.46092
+        },
+        {
+          "frame_start": 77,
+          "frame_end": 78,
+          "confidence": 0.5945,
+          "char": "河",
+          "start": 1.540971,
+          "end": 1.560983
+        }
+      ],
+      "token_start": 0.240151,
+      "token_end": 1.560983,
+      "independent_asr_coverage": 1.0,
+      "start": 0,
+      "end": 1.857,
+      "rms": 0.192535
+    },
+    {
+      "no": 614,
+      "sourceNo": 4021,
+      "kind": "word",
+      "display_text": "港口",
+      "pinyin": "gǎngkǒu",
+      "spoken_text": "港口。",
+      "characters": [
+        {
+          "frame_start": 105,
+          "frame_end": 106,
+          "confidence": 0.9116,
+          "char": "港",
+          "start": 2.101324,
+          "end": 2.121336
+        },
+        {
+          "frame_start": 117,
+          "frame_end": 119,
+          "confidence": 0.7731,
+          "char": "口",
+          "start": 2.341475,
+          "end": 2.3815
+        }
+      ],
+      "token_start": 2.101324,
+      "token_end": 2.3815,
+      "independent_asr_coverage": 1.0,
+      "start": 1.857,
+      "end": 2.741727,
+      "rms": 0.124873
+    },
+    {
+      "no": 614,
+      "sourceNo": 4021,
+      "kind": "example",
+      "display_text": "轮船正在慢慢驶向港口，准备靠岸。",
+      "spoken_text": "轮船正在慢慢驶向港口，准备靠岸。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 155,
+          "frame_end": 156,
+          "confidence": 0.5812,
+          "char": "轮",
+          "start": 3.101954,
+          "end": 3.121966
+        },
+        {
+          "frame_start": 164,
+          "frame_end": 167,
+          "confidence": 0.7019,
+          "char": "船",
+          "start": 3.282067,
+          "end": 3.342105
+        },
+        {
+          "frame_start": 174,
+          "frame_end": 176,
+          "confidence": 0.7426,
+          "char": "正",
+          "start": 3.482193,
+          "end": 3.522218
+        },
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.9999,
+          "char": "在",
+          "start": 3.642294,
+          "end": 3.662307
+        },
+        {
+          "frame_start": 188,
+          "frame_end": 189,
+          "confidence": 0.906,
+          "char": "慢",
+          "start": 3.76237,
+          "end": 3.782382
+        },
+        {
+          "frame_start": 195,
+          "frame_end": 197,
+          "confidence": 0.8585,
+          "char": "慢",
+          "start": 3.902458,
+          "end": 3.942483
+        },
+        {
+          "frame_start": 205,
+          "frame_end": 206,
+          "confidence": 0.0017,
+          "char": "驶",
+          "start": 4.102584,
+          "end": 4.122597
+        },
+        {
+          "frame_start": 212,
+          "frame_end": 213,
+          "confidence": 0.3771,
+          "char": "向",
+          "start": 4.242672,
+          "end": 4.262685
+        },
+        {
+          "frame_start": 221,
+          "frame_end": 222,
+          "confidence": 0.9695,
+          "char": "港",
+          "start": 4.422786,
+          "end": 4.442798
+        },
+        {
+          "frame_start": 232,
+          "frame_end": 233,
+          "confidence": 0.9991,
+          "char": "口",
+          "start": 4.642924,
+          "end": 4.662937
+        },
+        {
+          "frame_start": 250,
+          "frame_end": 252,
+          "confidence": 0.6794,
+          "char": "准",
+          "start": 5.003151,
+          "end": 5.043176
+        },
+        {
+          "frame_start": 257,
+          "frame_end": 259,
+          "confidence": 0.8482,
+          "char": "备",
+          "start": 5.143239,
+          "end": 5.183265
+        },
+        {
+          "frame_start": 264,
+          "frame_end": 266,
+          "confidence": 0.9112,
+          "char": "靠",
+          "start": 5.283328,
+          "end": 5.323353
+        },
+        {
+          "frame_start": 274,
+          "frame_end": 275,
+          "confidence": 0.3808,
+          "char": "岸",
+          "start": 5.483454,
+          "end": 5.503466
+        }
+      ],
+      "token_start": 3.101954,
+      "token_end": 5.503466,
+      "independent_asr_coverage": 1.0,
+      "start": 2.741727,
+      "end": 5.883705,
+      "rms": 0.227364
+    },
+    {
+      "no": 615,
+      "sourceNo": 4074,
+      "kind": "word",
+      "display_text": "拐弯",
+      "pinyin": "guǎiwān",
+      "spoken_text": "拐弯。",
+      "characters": [
+        {
+          "frame_start": 313,
+          "frame_end": 314,
+          "confidence": 0.9932,
+          "char": "拐",
+          "start": 6.263945,
+          "end": 6.283958
+        },
+        {
+          "frame_start": 321,
+          "frame_end": 323,
+          "confidence": 0.4491,
+          "char": "弯",
+          "start": 6.424046,
+          "end": 6.464071
+        }
+      ],
+      "token_start": 6.263945,
+      "token_end": 6.464071,
+      "independent_asr_coverage": 0.5,
+      "start": 5.883705,
+      "end": 6.824298,
+      "rms": 0.160584
+    },
+    {
+      "no": 615,
+      "sourceNo": 4074,
+      "kind": "example",
+      "display_text": "在路口拐弯处要减速慢行，注意安全。",
+      "spoken_text": "在路口拐弯处要减速慢行，注意安全。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 359,
+          "frame_end": 360,
+          "confidence": 0.9994,
+          "char": "在",
+          "start": 7.184525,
+          "end": 7.204538
+        },
+        {
+          "frame_start": 365,
+          "frame_end": 366,
+          "confidence": 0.0542,
+          "char": "路",
+          "start": 7.304601,
+          "end": 7.324613
+        },
+        {
+          "frame_start": 372,
+          "frame_end": 374,
+          "confidence": 0.9519,
+          "char": "口",
+          "start": 7.444689,
+          "end": 7.484714
+        },
+        {
+          "frame_start": 381,
+          "frame_end": 383,
+          "confidence": 0.898,
+          "char": "拐",
+          "start": 7.624803,
+          "end": 7.664828
+        },
+        {
+          "frame_start": 389,
+          "frame_end": 390,
+          "confidence": 0.6804,
+          "char": "弯",
+          "start": 7.784903,
+          "end": 7.804916
+        },
+        {
+          "frame_start": 400,
+          "frame_end": 401,
+          "confidence": 0.9954,
+          "char": "处",
+          "start": 8.005042,
+          "end": 8.025055
+        },
+        {
+          "frame_start": 411,
+          "frame_end": 412,
+          "confidence": 1.0,
+          "char": "要",
+          "start": 8.225181,
+          "end": 8.245193
+        },
+        {
+          "frame_start": 418,
+          "frame_end": 420,
+          "confidence": 0.0752,
+          "char": "减",
+          "start": 8.365269,
+          "end": 8.405294
+        },
+        {
+          "frame_start": 429,
+          "frame_end": 430,
+          "confidence": 0.7146,
+          "char": "速",
+          "start": 8.585408,
+          "end": 8.60542
+        },
+        {
+          "frame_start": 437,
+          "frame_end": 438,
+          "confidence": 0.658,
+          "char": "慢",
+          "start": 8.745508,
+          "end": 8.765521
+        },
+        {
+          "frame_start": 448,
+          "frame_end": 449,
+          "confidence": 0.1969,
+          "char": "行",
+          "start": 8.965647,
+          "end": 8.98566
+        },
+        {
+          "frame_start": 472,
+          "frame_end": 473,
+          "confidence": 0.08,
+          "char": "注",
+          "start": 9.44595,
+          "end": 9.465962
+        },
+        {
+          "frame_start": 477,
+          "frame_end": 478,
+          "confidence": 0.9291,
+          "char": "意",
+          "start": 9.546013,
+          "end": 9.566025
+        },
+        {
+          "frame_start": 481,
+          "frame_end": 482,
+          "confidence": 0.9925,
+          "char": "安",
+          "start": 9.626063,
+          "end": 9.646076
+        },
+        {
+          "frame_start": 492,
+          "frame_end": 494,
+          "confidence": 0.7169,
+          "char": "全",
+          "start": 9.846202,
+          "end": 9.886227
+        }
+      ],
+      "token_start": 7.184525,
+      "token_end": 9.886227,
+      "independent_asr_coverage": 0.933,
+      "start": 6.824298,
+      "end": 10.236448,
+      "rms": 0.24156
+    },
+    {
+      "no": 616,
+      "sourceNo": 4081,
+      "kind": "word",
+      "display_text": "观光",
+      "pinyin": "guānguāng",
+      "spoken_text": "观光。",
+      "characters": [
+        {
+          "frame_start": 529,
+          "frame_end": 530,
+          "confidence": 0.1389,
+          "char": "观",
+          "start": 10.586668,
+          "end": 10.606681
+        },
+        {
+          "frame_start": 538,
+          "frame_end": 539,
+          "confidence": 0.9804,
+          "char": "光",
+          "start": 10.766782,
+          "end": 10.786794
+        }
+      ],
+      "token_start": 10.586668,
+      "token_end": 10.786794,
+      "independent_asr_coverage": 1.0,
+      "start": 10.236448,
+      "end": 11.107,
+      "rms": 0.254897
+    },
+    {
+      "no": 616,
+      "sourceNo": 4081,
+      "kind": "example",
+      "display_text": "放假的时候，我们一家人去云南观光。",
+      "spoken_text": "放假的时候，我们一家人去云南观光。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 76,
+          "frame_end": 77,
+          "confidence": 0.9964,
+          "char": "放",
+          "start": 11.252549,
+          "end": 11.272569
+        },
+        {
+          "frame_start": 84,
+          "frame_end": 85,
+          "confidence": 0.5302,
+          "char": "假",
+          "start": 11.412712,
+          "end": 11.432732
+        },
+        {
+          "frame_start": 93,
+          "frame_end": 94,
+          "confidence": 0.9723,
+          "char": "的",
+          "start": 11.592896,
+          "end": 11.612916
+        },
+        {
+          "frame_start": 97,
+          "frame_end": 98,
+          "confidence": 0.9999,
+          "char": "时",
+          "start": 11.672977,
+          "end": 11.692997
+        },
+        {
+          "frame_start": 106,
+          "frame_end": 107,
+          "confidence": 0.9914,
+          "char": "候",
+          "start": 11.853161,
+          "end": 11.873181
+        },
+        {
+          "frame_start": 127,
+          "frame_end": 128,
+          "confidence": 0.9998,
+          "char": "我",
+          "start": 12.273589,
+          "end": 12.293609
+        },
+        {
+          "frame_start": 130,
+          "frame_end": 131,
+          "confidence": 0.9995,
+          "char": "们",
+          "start": 12.33365,
+          "end": 12.35367
+        },
+        {
+          "frame_start": 135,
+          "frame_end": 136,
+          "confidence": 0.9902,
+          "char": "一",
+          "start": 12.433752,
+          "end": 12.453772
+        },
+        {
+          "frame_start": 141,
+          "frame_end": 142,
+          "confidence": 0.991,
+          "char": "家",
+          "start": 12.553874,
+          "end": 12.573894
+        },
+        {
+          "frame_start": 150,
+          "frame_end": 151,
+          "confidence": 0.997,
+          "char": "人",
+          "start": 12.734057,
+          "end": 12.754078
+        },
+        {
+          "frame_start": 160,
+          "frame_end": 161,
+          "confidence": 0.9854,
+          "char": "去",
+          "start": 12.934261,
+          "end": 12.954282
+        },
+        {
+          "frame_start": 167,
+          "frame_end": 168,
+          "confidence": 0.9994,
+          "char": "云",
+          "start": 13.074404,
+          "end": 13.094424
+        },
+        {
+          "frame_start": 174,
+          "frame_end": 175,
+          "confidence": 1.0,
+          "char": "南",
+          "start": 13.214546,
+          "end": 13.234567
+        },
+        {
+          "frame_start": 184,
+          "frame_end": 185,
+          "confidence": 0.6907,
+          "char": "观",
+          "start": 13.41475,
+          "end": 13.434771
+        },
+        {
+          "frame_start": 194,
+          "frame_end": 195,
+          "confidence": 0.9816,
+          "char": "光",
+          "start": 13.614954,
+          "end": 13.634975
+        }
+      ],
+      "token_start": 11.252549,
+      "token_end": 13.634975,
+      "independent_asr_coverage": 1.0,
+      "start": 11.107,
+      "end": 13.92527,
+      "rms": 0.257411
+    },
+    {
+      "no": 617,
+      "sourceNo": 4091,
+      "kind": "word",
+      "display_text": "轨道",
+      "pinyin": "guǐdào",
+      "spoken_text": "轨道。",
+      "characters": [
+        {
+          "frame_start": 224,
+          "frame_end": 225,
+          "confidence": 0.9728,
+          "char": "轨",
+          "start": 14.215566,
+          "end": 14.235586
+        },
+        {
+          "frame_start": 232,
+          "frame_end": 233,
+          "confidence": 0.9964,
+          "char": "道",
+          "start": 14.375729,
+          "end": 14.395749
+        }
+      ],
+      "token_start": 14.215566,
+      "token_end": 14.395749,
+      "independent_asr_coverage": 1.0,
+      "start": 13.92527,
+      "end": 14.766126,
+      "rms": 0.124319
+    },
+    {
+      "no": 617,
+      "sourceNo": 4091,
+      "kind": "example",
+      "display_text": "火车沿着固定的轨道平稳地行驶着。",
+      "spoken_text": "火车沿着固定的轨道平稳地行驶着。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 270,
+          "frame_end": 271,
+          "confidence": 0.9935,
+          "char": "火",
+          "start": 15.136503,
+          "end": 15.156524
+        },
+        {
+          "frame_start": 278,
+          "frame_end": 279,
+          "confidence": 0.9999,
+          "char": "车",
+          "start": 15.296666,
+          "end": 15.316687
+        },
+        {
+          "frame_start": 288,
+          "frame_end": 289,
+          "confidence": 0.4545,
+          "char": "沿",
+          "start": 15.49687,
+          "end": 15.51689
+        },
+        {
+          "frame_start": 296,
+          "frame_end": 297,
+          "confidence": 0.9996,
+          "char": "着",
+          "start": 15.657033,
+          "end": 15.677054
+        },
+        {
+          "frame_start": 303,
+          "frame_end": 304,
+          "confidence": 0.9334,
+          "char": "固",
+          "start": 15.797176,
+          "end": 15.817196
+        },
+        {
+          "frame_start": 310,
+          "frame_end": 311,
+          "confidence": 0.9992,
+          "char": "定",
+          "start": 15.937318,
+          "end": 15.957339
+        },
+        {
+          "frame_start": 317,
+          "frame_end": 318,
+          "confidence": 0.9856,
+          "char": "的",
+          "start": 16.077461,
+          "end": 16.097482
+        },
+        {
+          "frame_start": 322,
+          "frame_end": 323,
+          "confidence": 0.9688,
+          "char": "轨",
+          "start": 16.177563,
+          "end": 16.197583
+        },
+        {
+          "frame_start": 331,
+          "frame_end": 332,
+          "confidence": 0.9974,
+          "char": "道",
+          "start": 16.357746,
+          "end": 16.377767
+        },
+        {
+          "frame_start": 346,
+          "frame_end": 347,
+          "confidence": 0.5636,
+          "char": "平",
+          "start": 16.658052,
+          "end": 16.678073
+        },
+        {
+          "frame_start": 358,
+          "frame_end": 359,
+          "confidence": 0.9837,
+          "char": "稳",
+          "start": 16.898297,
+          "end": 16.918317
+        },
+        {
+          "frame_start": 365,
+          "frame_end": 366,
+          "confidence": 0.03,
+          "char": "地",
+          "start": 17.038439,
+          "end": 17.05846
+        },
+        {
+          "frame_start": 370,
+          "frame_end": 371,
+          "confidence": 0.9646,
+          "char": "行",
+          "start": 17.138541,
+          "end": 17.158562
+        },
+        {
+          "frame_start": 381,
+          "frame_end": 382,
+          "confidence": 0.1214,
+          "char": "驶",
+          "start": 17.358766,
+          "end": 17.378786
+        },
+        {
+          "frame_start": 388,
+          "frame_end": 389,
+          "confidence": 0.9982,
+          "char": "着",
+          "start": 17.498908,
+          "end": 17.518929
+        }
+      ],
+      "token_start": 15.136503,
+      "token_end": 17.518929,
+      "independent_asr_coverage": 0.933,
+      "start": 14.766126,
+      "end": 17.829245,
+      "rms": 0.243329
+    },
+    {
+      "no": 618,
+      "sourceNo": 4123,
+      "kind": "word",
+      "display_text": "航空",
+      "pinyin": "hángkōng",
+      "spoken_text": "航空。",
+      "characters": [
+        {
+          "frame_start": 420,
+          "frame_end": 421,
+          "confidence": 0.9651,
+          "char": "航",
+          "start": 18.139561,
+          "end": 18.159581
+        },
+        {
+          "frame_start": 431,
+          "frame_end": 432,
+          "confidence": 0.9996,
+          "char": "空",
+          "start": 18.359785,
+          "end": 18.379805
+        }
+      ],
+      "token_start": 18.139561,
+      "token_end": 18.379805,
+      "independent_asr_coverage": 1.0,
+      "start": 17.829245,
+      "end": 18.65008,
+      "rms": 0.191362
+    },
+    {
+      "no": 618,
+      "sourceNo": 4123,
+      "kind": "example",
+      "display_text": "毕业以后，他一直在航空公司工作。",
+      "spoken_text": "毕业以后，他一直在航空公司工作。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 459,
+          "frame_end": 460,
+          "confidence": 0.9987,
+          "char": "毕",
+          "start": 18.920355,
+          "end": 18.940376
+        },
+        {
+          "frame_start": 464,
+          "frame_end": 465,
+          "confidence": 0.9966,
+          "char": "业",
+          "start": 19.020457,
+          "end": 19.040478
+        },
+        {
+          "frame_start": 471,
+          "frame_end": 472,
+          "confidence": 0.9918,
+          "char": "以",
+          "start": 19.1606,
+          "end": 19.18062
+        },
+        {
+          "frame_start": 479,
+          "frame_end": 480,
+          "confidence": 0.9969,
+          "char": "后",
+          "start": 19.320763,
+          "end": 19.340783
+        },
+        {
+          "frame_start": 501,
+          "frame_end": 502,
+          "confidence": 0.7373,
+          "char": "他",
+          "start": 19.761211,
+          "end": 19.781232
+        },
+        {
+          "frame_start": 508,
+          "frame_end": 509,
+          "confidence": 0.9756,
+          "char": "一",
+          "start": 19.901354,
+          "end": 19.921375
+        },
+        {
+          "frame_start": 515,
+          "frame_end": 516,
+          "confidence": 0.9993,
+          "char": "直",
+          "start": 20.041497,
+          "end": 20.061517
+        },
+        {
+          "frame_start": 521,
+          "frame_end": 522,
+          "confidence": 0.9958,
+          "char": "在",
+          "start": 20.161619,
+          "end": 20.181639
+        },
+        {
+          "frame_start": 528,
+          "frame_end": 529,
+          "confidence": 0.9966,
+          "char": "航",
+          "start": 20.301762,
+          "end": 20.321782
+        },
+        {
+          "frame_start": 537,
+          "frame_end": 538,
+          "confidence": 0.9998,
+          "char": "空",
+          "start": 20.481945,
+          "end": 20.501966
+        },
+        {
+          "frame_start": 543,
+          "frame_end": 544,
+          "confidence": 0.9999,
+          "char": "公",
+          "start": 20.602068,
+          "end": 20.622088
+        },
+        {
+          "frame_start": 552,
+          "frame_end": 553,
+          "confidence": 0.9997,
+          "char": "司",
+          "start": 20.782251,
+          "end": 20.802271
+        },
+        {
+          "frame_start": 558,
+          "frame_end": 559,
+          "confidence": 0.9487,
+          "char": "工",
+          "start": 20.902373,
+          "end": 20.922394
+        },
+        {
+          "frame_start": 569,
+          "frame_end": 570,
+          "confidence": 0.9998,
+          "char": "作",
+          "start": 21.122597,
+          "end": 21.142618
+        }
+      ],
+      "token_start": 18.920355,
+      "token_end": 21.142618,
+      "independent_asr_coverage": 1.0,
+      "start": 18.65008,
+      "end": 21.452934,
+      "rms": 0.239456
+    },
+    {
+      "no": 619,
+      "sourceNo": 4176,
+      "kind": "word",
+      "display_text": "滑行",
+      "pinyin": "huáxíng",
+      "spoken_text": "滑行。",
+      "characters": [
+        {
+          "frame_start": 601,
+          "frame_end": 602,
+          "confidence": 0.7596,
+          "char": "滑",
+          "start": 21.76325,
+          "end": 21.78327
+        },
+        {
+          "frame_start": 612,
+          "frame_end": 613,
+          "confidence": 0.9852,
+          "char": "行",
+          "start": 21.983474,
+          "end": 22.003494
+        }
+      ],
+      "token_start": 21.76325,
+      "token_end": 22.003494,
+      "independent_asr_coverage": 1.0,
+      "start": 21.452934,
+      "end": 22.384554,
+      "rms": 0.129936
+    },
+    {
+      "no": 619,
+      "sourceNo": 4176,
+      "kind": "example",
+      "display_text": "飞机在跑道上缓缓地滑行了一段。",
+      "spoken_text": "飞机在跑道上缓缓地滑行了一段。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 102,
+          "frame_end": 103,
+          "confidence": 0.9744,
+          "char": "飞",
+          "start": 22.765614,
+          "end": 22.78562
+        },
+        {
+          "frame_start": 109,
+          "frame_end": 110,
+          "confidence": 0.9938,
+          "char": "机",
+          "start": 22.905657,
+          "end": 22.925663
+        },
+        {
+          "frame_start": 115,
+          "frame_end": 116,
+          "confidence": 0.995,
+          "char": "在",
+          "start": 23.025693,
+          "end": 23.045699
+        },
+        {
+          "frame_start": 123,
+          "frame_end": 124,
+          "confidence": 0.9935,
+          "char": "跑",
+          "start": 23.185741,
+          "end": 23.205747
+        },
+        {
+          "frame_start": 133,
+          "frame_end": 134,
+          "confidence": 0.9751,
+          "char": "道",
+          "start": 23.385801,
+          "end": 23.405807
+        },
+        {
+          "frame_start": 141,
+          "frame_end": 143,
+          "confidence": 0.8756,
+          "char": "上",
+          "start": 23.545849,
+          "end": 23.585861
+        },
+        {
+          "frame_start": 155,
+          "frame_end": 156,
+          "confidence": 0.1631,
+          "char": "缓",
+          "start": 23.825934,
+          "end": 23.84594
+        },
+        {
+          "frame_start": 165,
+          "frame_end": 166,
+          "confidence": 0.5256,
+          "char": "缓",
+          "start": 24.025994,
+          "end": 24.046
+        },
+        {
+          "frame_start": 171,
+          "frame_end": 172,
+          "confidence": 0.0037,
+          "char": "地",
+          "start": 24.14603,
+          "end": 24.166036
+        },
+        {
+          "frame_start": 177,
+          "frame_end": 178,
+          "confidence": 0.5462,
+          "char": "滑",
+          "start": 24.266066,
+          "end": 24.286072
+        },
+        {
+          "frame_start": 187,
+          "frame_end": 188,
+          "confidence": 0.9967,
+          "char": "行",
+          "start": 24.466127,
+          "end": 24.486133
+        },
+        {
+          "frame_start": 194,
+          "frame_end": 196,
+          "confidence": 0.8917,
+          "char": "了",
+          "start": 24.606169,
+          "end": 24.646181
+        },
+        {
+          "frame_start": 198,
+          "frame_end": 199,
+          "confidence": 0.9999,
+          "char": "一",
+          "start": 24.686193,
+          "end": 24.706199
+        },
+        {
+          "frame_start": 203,
+          "frame_end": 205,
+          "confidence": 0.946,
+          "char": "段",
+          "start": 24.786223,
+          "end": 24.826235
+        }
+      ],
+      "token_start": 22.765614,
+      "token_end": 24.826235,
+      "independent_asr_coverage": 0.929,
+      "start": 22.384554,
+      "end": 25.166338,
+      "rms": 0.198725
+    },
+    {
+      "no": 620,
+      "sourceNo": 4196,
+      "kind": "word",
+      "display_text": "货车",
+      "pinyin": "huòchē",
+      "spoken_text": "货车。",
+      "characters": [
+        {
+          "frame_start": 239,
+          "frame_end": 241,
+          "confidence": 0.6094,
+          "char": "货",
+          "start": 25.50644,
+          "end": 25.546452
+        },
+        {
+          "frame_start": 249,
+          "frame_end": 250,
+          "confidence": 0.9999,
+          "char": "车",
+          "start": 25.7065,
+          "end": 25.726506
+        }
+      ],
+      "token_start": 25.50644,
+      "token_end": 25.726506,
+      "independent_asr_coverage": 1.0,
+      "start": 25.166338,
+      "end": 26.136629,
+      "rms": 0.164129
+    },
+    {
+      "no": 620,
+      "sourceNo": 4196,
+      "kind": "example",
+      "display_text": "一辆装满货物的货车停在了路边。",
+      "spoken_text": "一辆装满货物的货车停在了路边。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 291,
+          "frame_end": 293,
+          "confidence": 0.9996,
+          "char": "一",
+          "start": 26.546753,
+          "end": 26.586765
+        },
+        {
+          "frame_start": 295,
+          "frame_end": 297,
+          "confidence": 0.876,
+          "char": "辆",
+          "start": 26.626777,
+          "end": 26.666789
+        },
+        {
+          "frame_start": 305,
+          "frame_end": 306,
+          "confidence": 0.8454,
+          "char": "装",
+          "start": 26.826837,
+          "end": 26.846843
+        },
+        {
+          "frame_start": 313,
+          "frame_end": 314,
+          "confidence": 0.9721,
+          "char": "满",
+          "start": 26.986886,
+          "end": 27.006892
+        },
+        {
+          "frame_start": 325,
+          "frame_end": 326,
+          "confidence": 0.9993,
+          "char": "货",
+          "start": 27.226958,
+          "end": 27.246964
+        },
+        {
+          "frame_start": 332,
+          "frame_end": 333,
+          "confidence": 0.6222,
+          "char": "物",
+          "start": 27.367,
+          "end": 27.387006
+        },
+        {
+          "frame_start": 338,
+          "frame_end": 339,
+          "confidence": 0.989,
+          "char": "的",
+          "start": 27.487036,
+          "end": 27.507042
+        },
+        {
+          "frame_start": 344,
+          "frame_end": 345,
+          "confidence": 0.9609,
+          "char": "货",
+          "start": 27.607072,
+          "end": 27.627078
+        },
+        {
+          "frame_start": 353,
+          "frame_end": 354,
+          "confidence": 0.9999,
+          "char": "车",
+          "start": 27.787127,
+          "end": 27.807133
+        },
+        {
+          "frame_start": 366,
+          "frame_end": 367,
+          "confidence": 0.9992,
+          "char": "停",
+          "start": 28.047205,
+          "end": 28.067211
+        },
+        {
+          "frame_start": 375,
+          "frame_end": 376,
+          "confidence": 0.9735,
+          "char": "在",
+          "start": 28.227259,
+          "end": 28.247265
+        },
+        {
+          "frame_start": 381,
+          "frame_end": 382,
+          "confidence": 0.9848,
+          "char": "了",
+          "start": 28.347295,
+          "end": 28.367301
+        },
+        {
+          "frame_start": 385,
+          "frame_end": 386,
+          "confidence": 0.9887,
+          "char": "路",
+          "start": 28.427319,
+          "end": 28.447325
+        },
+        {
+          "frame_start": 393,
+          "frame_end": 394,
+          "confidence": 0.885,
+          "char": "边",
+          "start": 28.587367,
+          "end": 28.607373
+        }
+      ],
+      "token_start": 26.546753,
+      "token_end": 28.607373,
+      "independent_asr_coverage": 1.0,
+      "start": 26.136629,
+      "end": 28.947475,
+      "rms": 0.24787
+    },
+    {
+      "no": 621,
+      "sourceNo": 4259,
+      "kind": "word",
+      "display_text": "机动车",
+      "pinyin": "jīdòngchē",
+      "spoken_text": "机动车。",
+      "characters": [
+        {
+          "frame_start": 428,
+          "frame_end": 429,
+          "confidence": 0.0011,
+          "char": "机",
+          "start": 29.287578,
+          "end": 29.307584
+        },
+        {
+          "frame_start": 434,
+          "frame_end": 435,
+          "confidence": 0.8395,
+          "char": "动",
+          "start": 29.407614,
+          "end": 29.42762
+        },
+        {
+          "frame_start": 443,
+          "frame_end": 444,
+          "confidence": 0.9998,
+          "char": "车",
+          "start": 29.587669,
+          "end": 29.607675
+        }
+      ],
+      "token_start": 29.287578,
+      "token_end": 29.607675,
+      "independent_asr_coverage": 1.0,
+      "start": 28.947475,
+      "end": 29.947778,
+      "rms": 0.159914
+    },
+    {
+      "no": 621,
+      "sourceNo": 4259,
+      "kind": "example",
+      "display_text": "开车上路时，机动车必须遵守交通规则。",
+      "spoken_text": "开车上路时，机动车必须遵守交通规则。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 478,
+          "frame_end": 479,
+          "confidence": 0.9997,
+          "char": "开",
+          "start": 30.28788,
+          "end": 30.307886
+        },
+        {
+          "frame_start": 485,
+          "frame_end": 487,
+          "confidence": 0.9686,
+          "char": "车",
+          "start": 30.427922,
+          "end": 30.467934
+        },
+        {
+          "frame_start": 493,
+          "frame_end": 495,
+          "confidence": 0.9806,
+          "char": "上",
+          "start": 30.58797,
+          "end": 30.627982
+        },
+        {
+          "frame_start": 502,
+          "frame_end": 503,
+          "confidence": 0.8488,
+          "char": "路",
+          "start": 30.768024,
+          "end": 30.78803
+        },
+        {
+          "frame_start": 512,
+          "frame_end": 513,
+          "confidence": 0.9496,
+          "char": "时",
+          "start": 30.968084,
+          "end": 30.98809
+        },
+        {
+          "frame_start": 539,
+          "frame_end": 540,
+          "confidence": 0.0126,
+          "char": "机",
+          "start": 31.508247,
+          "end": 31.528253
+        },
+        {
+          "frame_start": 544,
+          "frame_end": 546,
+          "confidence": 0.9638,
+          "char": "动",
+          "start": 31.608277,
+          "end": 31.648289
+        },
+        {
+          "frame_start": 553,
+          "frame_end": 555,
+          "confidence": 0.8252,
+          "char": "车",
+          "start": 31.788331,
+          "end": 31.828343
+        },
+        {
+          "frame_start": 567,
+          "frame_end": 568,
+          "confidence": 0.9949,
+          "char": "必",
+          "start": 32.068416,
+          "end": 32.088422
+        },
+        {
+          "frame_start": 572,
+          "frame_end": 573,
+          "confidence": 0.9957,
+          "char": "须",
+          "start": 32.168446,
+          "end": 32.188452
+        },
+        {
+          "frame_start": 581,
+          "frame_end": 582,
+          "confidence": 0.6619,
+          "char": "遵",
+          "start": 32.3485,
+          "end": 32.368506
+        },
+        {
+          "frame_start": 591,
+          "frame_end": 592,
+          "confidence": 0.2377,
+          "char": "守",
+          "start": 32.54856,
+          "end": 32.568566
+        },
+        {
+          "frame_start": 600,
+          "frame_end": 601,
+          "confidence": 0.9979,
+          "char": "交",
+          "start": 32.728614,
+          "end": 32.74862
+        },
+        {
+          "frame_start": 608,
+          "frame_end": 610,
+          "confidence": 0.9935,
+          "char": "通",
+          "start": 32.888663,
+          "end": 32.928675
+        },
+        {
+          "frame_start": 617,
+          "frame_end": 618,
+          "confidence": 0.9785,
+          "char": "规",
+          "start": 33.068717,
+          "end": 33.088723
+        },
+        {
+          "frame_start": 627,
+          "frame_end": 628,
+          "confidence": 0.9975,
+          "char": "则",
+          "start": 33.268777,
+          "end": 33.288783
+        }
+      ],
+      "token_start": 30.28788,
+      "token_end": 33.288783,
+      "independent_asr_coverage": 1.0,
+      "start": 29.947778,
+      "end": 33.588874,
+      "rms": 0.234719
+    },
+    {
+      "no": 622,
+      "sourceNo": 4380,
+      "kind": "word",
+      "display_text": "客车",
+      "pinyin": "kèchē",
+      "spoken_text": "客车。",
+      "characters": [
+        {
+          "frame_start": 658,
+          "frame_end": 659,
+          "confidence": 0.6962,
+          "char": "客",
+          "start": 33.888964,
+          "end": 33.90897
+        },
+        {
+          "frame_start": 669,
+          "frame_end": 670,
+          "confidence": 0.9999,
+          "char": "车",
+          "start": 34.10903,
+          "end": 34.129036
+        }
+      ],
+      "token_start": 33.888964,
+      "token_end": 34.129036,
+      "independent_asr_coverage": 1.0,
+      "start": 33.588874,
+      "end": 34.367168,
+      "rms": 0.171544
+    },
+    {
+      "no": 622,
+      "sourceNo": 4380,
+      "kind": "example",
+      "display_text": "长途客车已经准时从车站出发。",
+      "spoken_text": "长途客车已经准时从车站出发。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 87,
+          "frame_end": 88,
+          "confidence": 0.9827,
+          "char": "长",
+          "start": 34.6053,
+          "end": 34.625315
+        },
+        {
+          "frame_start": 97,
+          "frame_end": 98,
+          "confidence": 0.3811,
+          "char": "途",
+          "start": 34.80545,
+          "end": 34.825465
+        },
+        {
+          "frame_start": 105,
+          "frame_end": 106,
+          "confidence": 0.8099,
+          "char": "客",
+          "start": 34.965569,
+          "end": 34.985584
+        },
+        {
+          "frame_start": 114,
+          "frame_end": 115,
+          "confidence": 0.9999,
+          "char": "车",
+          "start": 35.145704,
+          "end": 35.165719
+        },
+        {
+          "frame_start": 124,
+          "frame_end": 125,
+          "confidence": 0.9984,
+          "char": "已",
+          "start": 35.345853,
+          "end": 35.365868
+        },
+        {
+          "frame_start": 129,
+          "frame_end": 130,
+          "confidence": 0.9655,
+          "char": "经",
+          "start": 35.445928,
+          "end": 35.465943
+        },
+        {
+          "frame_start": 138,
+          "frame_end": 139,
+          "confidence": 0.9997,
+          "char": "准",
+          "start": 35.626062,
+          "end": 35.646077
+        },
+        {
+          "frame_start": 148,
+          "frame_end": 149,
+          "confidence": 0.1842,
+          "char": "时",
+          "start": 35.826212,
+          "end": 35.846227
+        },
+        {
+          "frame_start": 156,
+          "frame_end": 157,
+          "confidence": 0.9988,
+          "char": "从",
+          "start": 35.986332,
+          "end": 36.006346
+        },
+        {
+          "frame_start": 165,
+          "frame_end": 166,
+          "confidence": 1.0,
+          "char": "车",
+          "start": 36.166466,
+          "end": 36.186481
+        },
+        {
+          "frame_start": 172,
+          "frame_end": 173,
+          "confidence": 0.9997,
+          "char": "站",
+          "start": 36.306571,
+          "end": 36.326586
+        },
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.9882,
+          "char": "出",
+          "start": 36.50672,
+          "end": 36.526735
+        },
+        {
+          "frame_start": 191,
+          "frame_end": 192,
+          "confidence": 0.9993,
+          "char": "发",
+          "start": 36.686855,
+          "end": 36.70687
+        }
+      ],
+      "token_start": 34.6053,
+      "token_end": 36.70687,
+      "independent_asr_coverage": 1.0,
+      "start": 34.367168,
+      "end": 37.007094,
+      "rms": 0.223116
+    },
+    {
+      "no": 623,
+      "sourceNo": 4465,
+      "kind": "word",
+      "display_text": "路程",
+      "pinyin": "lùchéng",
+      "spoken_text": "路程。",
+      "characters": [
+        {
+          "frame_start": 222,
+          "frame_end": 223,
+          "confidence": 0.4246,
+          "char": "路",
+          "start": 37.307318,
+          "end": 37.327333
+        },
+        {
+          "frame_start": 230,
+          "frame_end": 231,
+          "confidence": 0.3692,
+          "char": "程",
+          "start": 37.467437,
+          "end": 37.487452
+        }
+      ],
+      "token_start": 37.307318,
+      "token_end": 37.487452,
+      "independent_asr_coverage": 1.0,
+      "start": 37.007094,
+      "end": 37.907766,
+      "rms": 0.170765
+    },
+    {
+      "no": 623,
+      "sourceNo": 4465,
+      "kind": "example",
+      "display_text": "从这里到火车站的路程比较远。",
+      "spoken_text": "从这里到火车站的路程比较远。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 273,
+          "frame_end": 274,
+          "confidence": 0.9996,
+          "char": "从",
+          "start": 38.32808,
+          "end": 38.348095
+        },
+        {
+          "frame_start": 282,
+          "frame_end": 283,
+          "confidence": 0.997,
+          "char": "这",
+          "start": 38.508215,
+          "end": 38.52823
+        },
+        {
+          "frame_start": 287,
+          "frame_end": 288,
+          "confidence": 0.9367,
+          "char": "里",
+          "start": 38.608289,
+          "end": 38.628304
+        },
+        {
+          "frame_start": 293,
+          "frame_end": 294,
+          "confidence": 0.9852,
+          "char": "到",
+          "start": 38.728379,
+          "end": 38.748394
+        },
+        {
+          "frame_start": 302,
+          "frame_end": 303,
+          "confidence": 0.9986,
+          "char": "火",
+          "start": 38.908514,
+          "end": 38.928529
+        },
+        {
+          "frame_start": 309,
+          "frame_end": 310,
+          "confidence": 0.9999,
+          "char": "车",
+          "start": 39.048618,
+          "end": 39.068633
+        },
+        {
+          "frame_start": 316,
+          "frame_end": 317,
+          "confidence": 0.9999,
+          "char": "站",
+          "start": 39.188723,
+          "end": 39.208738
+        },
+        {
+          "frame_start": 323,
+          "frame_end": 325,
+          "confidence": 0.7933,
+          "char": "的",
+          "start": 39.328827,
+          "end": 39.368857
+        },
+        {
+          "frame_start": 328,
+          "frame_end": 329,
+          "confidence": 0.5377,
+          "char": "路",
+          "start": 39.428902,
+          "end": 39.448917
+        },
+        {
+          "frame_start": 335,
+          "frame_end": 336,
+          "confidence": 0.1162,
+          "char": "程",
+          "start": 39.569007,
+          "end": 39.589022
+        },
+        {
+          "frame_start": 346,
+          "frame_end": 347,
+          "confidence": 0.9888,
+          "char": "比",
+          "start": 39.789171,
+          "end": 39.809186
+        },
+        {
+          "frame_start": 349,
+          "frame_end": 350,
+          "confidence": 0.9069,
+          "char": "较",
+          "start": 39.849216,
+          "end": 39.869231
+        },
+        {
+          "frame_start": 359,
+          "frame_end": 360,
+          "confidence": 0.9213,
+          "char": "远",
+          "start": 40.049365,
+          "end": 40.06938
+        }
+      ],
+      "token_start": 38.32808,
+      "token_end": 40.06938,
+      "independent_asr_coverage": 1.0,
+      "start": 37.907766,
+      "end": 40.419642,
+      "rms": 0.252297
+    },
+    {
+      "no": 624,
+      "sourceNo": 4466,
+      "kind": "word",
+      "display_text": "旅程",
+      "pinyin": "lǚchéng",
+      "spoken_text": "旅程。",
+      "characters": [
+        {
+          "frame_start": 395,
+          "frame_end": 396,
+          "confidence": 0.136,
+          "char": "旅",
+          "start": 40.769904,
+          "end": 40.789918
+        },
+        {
+          "frame_start": 403,
+          "frame_end": 404,
+          "confidence": 0.3113,
+          "char": "程",
+          "start": 40.930023,
+          "end": 40.950038
+        }
+      ],
+      "token_start": 40.769904,
+      "token_end": 40.950038,
+      "independent_asr_coverage": 1.0,
+      "start": 40.419642,
+      "end": 41.310307,
+      "rms": 0.123872
+    },
+    {
+      "no": 624,
+      "sourceNo": 4466,
+      "kind": "example",
+      "display_text": "这次去西藏的旅程令人难忘。",
+      "spoken_text": "这次去西藏的旅程令人难忘。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 440,
+          "frame_end": 442,
+          "confidence": 0.9124,
+          "char": "这",
+          "start": 41.670576,
+          "end": 41.710606
+        },
+        {
+          "frame_start": 448,
+          "frame_end": 449,
+          "confidence": 0.9936,
+          "char": "次",
+          "start": 41.830696,
+          "end": 41.850711
+        },
+        {
+          "frame_start": 454,
+          "frame_end": 455,
+          "confidence": 0.9977,
+          "char": "去",
+          "start": 41.950785,
+          "end": 41.9708
+        },
+        {
+          "frame_start": 461,
+          "frame_end": 462,
+          "confidence": 0.997,
+          "char": "西",
+          "start": 42.09089,
+          "end": 42.110905
+        },
+        {
+          "frame_start": 469,
+          "frame_end": 470,
+          "confidence": 0.9811,
+          "char": "藏",
+          "start": 42.25101,
+          "end": 42.271024
+        },
+        {
+          "frame_start": 477,
+          "frame_end": 478,
+          "confidence": 0.9866,
+          "char": "的",
+          "start": 42.411129,
+          "end": 42.431144
+        },
+        {
+          "frame_start": 481,
+          "frame_end": 482,
+          "confidence": 0.6879,
+          "char": "旅",
+          "start": 42.491189,
+          "end": 42.511204
+        },
+        {
+          "frame_start": 489,
+          "frame_end": 490,
+          "confidence": 0.0553,
+          "char": "程",
+          "start": 42.651308,
+          "end": 42.671323
+        },
+        {
+          "frame_start": 502,
+          "frame_end": 503,
+          "confidence": 0.6556,
+          "char": "令",
+          "start": 42.911503,
+          "end": 42.931518
+        },
+        {
+          "frame_start": 508,
+          "frame_end": 510,
+          "confidence": 0.9687,
+          "char": "人",
+          "start": 43.031592,
+          "end": 43.071622
+        },
+        {
+          "frame_start": 516,
+          "frame_end": 517,
+          "confidence": 0.0611,
+          "char": "难",
+          "start": 43.191712,
+          "end": 43.211727
+        },
+        {
+          "frame_start": 525,
+          "frame_end": 527,
+          "confidence": 0.1741,
+          "char": "忘",
+          "start": 43.371846,
+          "end": 43.411876
+        }
+      ],
+      "token_start": 41.670576,
+      "token_end": 43.411876,
+      "independent_asr_coverage": 1.0,
+      "start": 41.310307,
+      "end": 43.692086,
+      "rms": 0.226097
+    },
+    {
+      "no": 625,
+      "sourceNo": 4468,
+      "kind": "word",
+      "display_text": "路况",
+      "pinyin": "lùkuàng",
+      "spoken_text": "路况。",
+      "characters": [
+        {
+          "frame_start": 555,
+          "frame_end": 556,
+          "confidence": 0.8547,
+          "char": "路",
+          "start": 43.972295,
+          "end": 43.99231
+        },
+        {
+          "frame_start": 563,
+          "frame_end": 564,
+          "confidence": 0.0281,
+          "char": "况",
+          "start": 44.132414,
+          "end": 44.152429
+        }
+      ],
+      "token_start": 43.972295,
+      "token_end": 44.152429,
+      "independent_asr_coverage": 1.0,
+      "start": 43.692086,
+      "end": 44.494516,
+      "rms": 0.194152
+    },
+    {
+      "no": 625,
+      "sourceNo": 4468,
+      "kind": "example",
+      "display_text": "由于修路施工，今天路况不太好。",
+      "spoken_text": "由于修路施工，今天路况不太好。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 94,
+          "frame_end": 95,
+          "confidence": 0.9763,
+          "char": "由",
+          "start": 44.836603,
+          "end": 44.85661
+        },
+        {
+          "frame_start": 100,
+          "frame_end": 101,
+          "confidence": 0.9958,
+          "char": "于",
+          "start": 44.956642,
+          "end": 44.976648
+        },
+        {
+          "frame_start": 106,
+          "frame_end": 107,
+          "confidence": 0.8531,
+          "char": "修",
+          "start": 45.07668,
+          "end": 45.096687
+        },
+        {
+          "frame_start": 115,
+          "frame_end": 116,
+          "confidence": 0.0169,
+          "char": "路",
+          "start": 45.256738,
+          "end": 45.276745
+        },
+        {
+          "frame_start": 123,
+          "frame_end": 124,
+          "confidence": 0.8994,
+          "char": "施",
+          "start": 45.416789,
+          "end": 45.436796
+        },
+        {
+          "frame_start": 132,
+          "frame_end": 133,
+          "confidence": 0.1402,
+          "char": "工",
+          "start": 45.596847,
+          "end": 45.616854
+        },
+        {
+          "frame_start": 155,
+          "frame_end": 156,
+          "confidence": 0.994,
+          "char": "今",
+          "start": 46.056995,
+          "end": 46.077001
+        },
+        {
+          "frame_start": 161,
+          "frame_end": 162,
+          "confidence": 0.9968,
+          "char": "天",
+          "start": 46.177033,
+          "end": 46.19704
+        },
+        {
+          "frame_start": 167,
+          "frame_end": 168,
+          "confidence": 0.3225,
+          "char": "路",
+          "start": 46.297072,
+          "end": 46.317078
+        },
+        {
+          "frame_start": 175,
+          "frame_end": 176,
+          "confidence": 0.0897,
+          "char": "况",
+          "start": 46.457123,
+          "end": 46.47713
+        },
+        {
+          "frame_start": 183,
+          "frame_end": 184,
+          "confidence": 0.9998,
+          "char": "不",
+          "start": 46.617175,
+          "end": 46.637181
+        },
+        {
+          "frame_start": 188,
+          "frame_end": 189,
+          "confidence": 0.9944,
+          "char": "太",
+          "start": 46.717207,
+          "end": 46.737213
+        },
+        {
+          "frame_start": 197,
+          "frame_end": 198,
+          "confidence": 0.9965,
+          "char": "好",
+          "start": 46.897264,
+          "end": 46.917271
+        }
+      ],
+      "token_start": 44.836603,
+      "token_end": 46.917271,
+      "independent_asr_coverage": 1.0,
+      "start": 44.494516,
+      "end": 47.217367,
+      "rms": 0.238295
+    },
+    {
+      "no": 626,
+      "sourceNo": 4469,
+      "kind": "word",
+      "display_text": "路面",
+      "pinyin": "lùmiàn",
+      "spoken_text": "路面。",
+      "characters": [
+        {
+          "frame_start": 228,
+          "frame_end": 229,
+          "confidence": 0.7929,
+          "char": "路",
+          "start": 47.517463,
+          "end": 47.53747
+        },
+        {
+          "frame_start": 236,
+          "frame_end": 237,
+          "confidence": 0.9997,
+          "char": "面",
+          "start": 47.677515,
+          "end": 47.697521
+        }
+      ],
+      "token_start": 47.517463,
+      "token_end": 47.697521,
+      "independent_asr_coverage": 1.0,
+      "start": 47.217367,
+      "end": 47.937598,
+      "rms": 0.259581
+    },
+    {
+      "no": 626,
+      "sourceNo": 4469,
+      "kind": "example",
+      "display_text": "大雨过后，路面变得非常湿滑。",
+      "spoken_text": "大雨过后，路面变得非常湿滑。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 261,
+          "frame_end": 262,
+          "confidence": 0.9992,
+          "char": "大",
+          "start": 48.177675,
+          "end": 48.197682
+        },
+        {
+          "frame_start": 269,
+          "frame_end": 270,
+          "confidence": 0.1768,
+          "char": "雨",
+          "start": 48.337727,
+          "end": 48.357733
+        },
+        {
+          "frame_start": 276,
+          "frame_end": 277,
+          "confidence": 0.9998,
+          "char": "过",
+          "start": 48.477772,
+          "end": 48.497778
+        },
+        {
+          "frame_start": 287,
+          "frame_end": 288,
+          "confidence": 0.9994,
+          "char": "后",
+          "start": 48.697842,
+          "end": 48.717849
+        },
+        {
+          "frame_start": 313,
+          "frame_end": 314,
+          "confidence": 0.7063,
+          "char": "路",
+          "start": 49.218009,
+          "end": 49.238015
+        },
+        {
+          "frame_start": 320,
+          "frame_end": 321,
+          "confidence": 0.9998,
+          "char": "面",
+          "start": 49.358054,
+          "end": 49.37806
+        },
+        {
+          "frame_start": 328,
+          "frame_end": 329,
+          "confidence": 0.9774,
+          "char": "变",
+          "start": 49.518105,
+          "end": 49.538112
+        },
+        {
+          "frame_start": 334,
+          "frame_end": 335,
+          "confidence": 0.4486,
+          "char": "得",
+          "start": 49.638144,
+          "end": 49.65815
+        },
+        {
+          "frame_start": 345,
+          "frame_end": 346,
+          "confidence": 0.9928,
+          "char": "非",
+          "start": 49.858214,
+          "end": 49.878221
+        },
+        {
+          "frame_start": 353,
+          "frame_end": 354,
+          "confidence": 0.9834,
+          "char": "常",
+          "start": 50.018266,
+          "end": 50.038272
+        },
+        {
+          "frame_start": 365,
+          "frame_end": 366,
+          "confidence": 0.3063,
+          "char": "湿",
+          "start": 50.258343,
+          "end": 50.278349
+        },
+        {
+          "frame_start": 377,
+          "frame_end": 378,
+          "confidence": 0.0038,
+          "char": "滑",
+          "start": 50.49842,
+          "end": 50.518426
+        }
+      ],
+      "token_start": 48.177675,
+      "token_end": 50.518426,
+      "independent_asr_coverage": 1.0,
+      "start": 47.937598,
+      "end": 50.798516,
+      "rms": 0.260687
+    },
+    {
+      "no": 627,
+      "sourceNo": 4470,
+      "kind": "word",
+      "display_text": "轮",
+      "pinyin": "lún",
+      "spoken_text": "轮。",
+      "characters": [
+        {
+          "frame_start": 406,
+          "frame_end": 407,
+          "confidence": 0.7383,
+          "char": "轮",
+          "start": 51.078606,
+          "end": 51.098612
+        }
+      ],
+      "token_start": 51.078606,
+      "token_end": 51.098612,
+      "independent_asr_coverage": 1.0,
+      "start": 50.798516,
+      "end": 51.518747,
+      "rms": 0.166654
+    },
+    {
+      "no": 627,
+      "sourceNo": 4470,
+      "kind": "example",
+      "display_text": "车轮飞快地在马路上转动着。",
+      "spoken_text": "车轮飞快地在马路上转动着。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 449,
+          "frame_end": 450,
+          "confidence": 0.9995,
+          "char": "车",
+          "start": 51.938882,
+          "end": 51.958888
+        },
+        {
+          "frame_start": 458,
+          "frame_end": 459,
+          "confidence": 0.8681,
+          "char": "轮",
+          "start": 52.11894,
+          "end": 52.138946
+        },
+        {
+          "frame_start": 471,
+          "frame_end": 472,
+          "confidence": 0.6373,
+          "char": "飞",
+          "start": 52.379023,
+          "end": 52.39903
+        },
+        {
+          "frame_start": 480,
+          "frame_end": 481,
+          "confidence": 0.9586,
+          "char": "快",
+          "start": 52.559081,
+          "end": 52.579087
+        },
+        {
+          "frame_start": 488,
+          "frame_end": 489,
+          "confidence": 0.7499,
+          "char": "地",
+          "start": 52.719132,
+          "end": 52.739139
+        },
+        {
+          "frame_start": 492,
+          "frame_end": 493,
+          "confidence": 0.9983,
+          "char": "在",
+          "start": 52.799158,
+          "end": 52.819164
+        },
+        {
+          "frame_start": 498,
+          "frame_end": 499,
+          "confidence": 0.7874,
+          "char": "马",
+          "start": 52.919196,
+          "end": 52.939203
+        },
+        {
+          "frame_start": 506,
+          "frame_end": 507,
+          "confidence": 0.524,
+          "char": "路",
+          "start": 53.079248,
+          "end": 53.099254
+        },
+        {
+          "frame_start": 513,
+          "frame_end": 514,
+          "confidence": 0.9995,
+          "char": "上",
+          "start": 53.219293,
+          "end": 53.239299
+        },
+        {
+          "frame_start": 522,
+          "frame_end": 523,
+          "confidence": 0.9957,
+          "char": "转",
+          "start": 53.39935,
+          "end": 53.419357
+        },
+        {
+          "frame_start": 533,
+          "frame_end": 534,
+          "confidence": 0.9918,
+          "char": "动",
+          "start": 53.619421,
+          "end": 53.639427
+        },
+        {
+          "frame_start": 543,
+          "frame_end": 544,
+          "confidence": 0.9996,
+          "char": "着",
+          "start": 53.819485,
+          "end": 53.839492
+        }
+      ],
+      "token_start": 51.938882,
+      "token_end": 53.839492,
+      "independent_asr_coverage": 1.0,
+      "start": 51.518747,
+      "end": 54.099576,
+      "rms": 0.197508
+    },
+    {
+      "no": 628,
+      "sourceNo": 4471,
+      "kind": "word",
+      "display_text": "轮船",
+      "pinyin": "lúnchuán",
+      "spoken_text": "轮船。",
+      "characters": [
+        {
+          "frame_start": 570,
+          "frame_end": 571,
+          "confidence": 0.7408,
+          "char": "轮",
+          "start": 54.359659,
+          "end": 54.379665
+        },
+        {
+          "frame_start": 583,
+          "frame_end": 584,
+          "confidence": 0.891,
+          "char": "船",
+          "start": 54.619742,
+          "end": 54.639748
+        }
+      ],
+      "token_start": 54.359659,
+      "token_end": 54.639748,
+      "independent_asr_coverage": 1.0,
+      "start": 54.099576,
+      "end": 54.96582,
+      "rms": 0.183312
+    },
+    {
+      "no": 628,
+      "sourceNo": 4471,
+      "kind": "example",
+      "display_text": "一艘巨大的轮船正缓缓驶入港口。",
+      "spoken_text": "一艘巨大的轮船正缓缓驶入港口。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 95,
+          "frame_end": 96,
+          "confidence": 0.6826,
+          "char": "一",
+          "start": 55.291893,
+          "end": 55.311902
+        },
+        {
+          "frame_start": 102,
+          "frame_end": 103,
+          "confidence": 0.9685,
+          "char": "艘",
+          "start": 55.431959,
+          "end": 55.451968
+        },
+        {
+          "frame_start": 113,
+          "frame_end": 114,
+          "confidence": 0.9223,
+          "char": "巨",
+          "start": 55.652062,
+          "end": 55.672072
+        },
+        {
+          "frame_start": 121,
+          "frame_end": 122,
+          "confidence": 0.9995,
+          "char": "大",
+          "start": 55.812137,
+          "end": 55.832147
+        },
+        {
+          "frame_start": 128,
+          "frame_end": 129,
+          "confidence": 0.9985,
+          "char": "的",
+          "start": 55.952203,
+          "end": 55.972213
+        },
+        {
+          "frame_start": 133,
+          "frame_end": 134,
+          "confidence": 0.8708,
+          "char": "轮",
+          "start": 56.05225,
+          "end": 56.07226
+        },
+        {
+          "frame_start": 145,
+          "frame_end": 146,
+          "confidence": 0.9167,
+          "char": "船",
+          "start": 56.292363,
+          "end": 56.312373
+        },
+        {
+          "frame_start": 164,
+          "frame_end": 165,
+          "confidence": 0.7462,
+          "char": "正",
+          "start": 56.672542,
+          "end": 56.692551
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.0061,
+          "char": "缓",
+          "start": 56.912655,
+          "end": 56.932664
+        },
+        {
+          "frame_start": 187,
+          "frame_end": 188,
+          "confidence": 0.0142,
+          "char": "缓",
+          "start": 57.132758,
+          "end": 57.152767
+        },
+        {
+          "frame_start": 196,
+          "frame_end": 198,
+          "confidence": 0.006,
+          "char": "驶",
+          "start": 57.312843,
+          "end": 57.352861
+        },
+        {
+          "frame_start": 204,
+          "frame_end": 205,
+          "confidence": 0.9999,
+          "char": "入",
+          "start": 57.472918,
+          "end": 57.492927
+        },
+        {
+          "frame_start": 211,
+          "frame_end": 213,
+          "confidence": 0.7986,
+          "char": "港",
+          "start": 57.612984,
+          "end": 57.653002
+        },
+        {
+          "frame_start": 222,
+          "frame_end": 223,
+          "confidence": 0.9753,
+          "char": "口",
+          "start": 57.833087,
+          "end": 57.853096
+        }
+      ],
+      "token_start": 55.291893,
+      "token_end": 57.853096,
+      "independent_asr_coverage": 1.0,
+      "start": 54.96582,
+      "end": 58.193256,
+      "rms": 0.224712
+    },
+    {
+      "no": 629,
+      "sourceNo": 4476,
+      "kind": "word",
+      "display_text": "落地",
+      "pinyin": "luòdì",
+      "spoken_text": "落地。",
+      "characters": [
+        {
+          "frame_start": 257,
+          "frame_end": 259,
+          "confidence": 0.6966,
+          "char": "落",
+          "start": 58.533416,
+          "end": 58.573435
+        },
+        {
+          "frame_start": 267,
+          "frame_end": 268,
+          "confidence": 0.4897,
+          "char": "地",
+          "start": 58.73351,
+          "end": 58.753519
+        }
+      ],
+      "token_start": 58.533416,
+      "token_end": 58.753519,
+      "independent_asr_coverage": 1.0,
+      "start": 58.193256,
+      "end": 59.113688,
+      "rms": 0.093364
+    },
+    {
+      "no": 629,
+      "sourceNo": 4476,
+      "kind": "example",
+      "display_text": "经过颠簸，飞机终于安全落地了。",
+      "spoken_text": "经过颠簸，飞机终于安全落地了。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 304,
+          "frame_end": 305,
+          "confidence": 0.9975,
+          "char": "经",
+          "start": 59.473858,
+          "end": 59.493867
+        },
+        {
+          "frame_start": 310,
+          "frame_end": 311,
+          "confidence": 0.9983,
+          "char": "过",
+          "start": 59.593914,
+          "end": 59.613924
+        },
+        {
+          "frame_start": 317,
+          "frame_end": 318,
+          "confidence": 0.4132,
+          "char": "颠",
+          "start": 59.73398,
+          "end": 59.753989
+        },
+        {
+          "frame_start": 328,
+          "frame_end": 329,
+          "confidence": 0.012,
+          "char": "簸",
+          "start": 59.954083,
+          "end": 59.974093
+        },
+        {
+          "frame_start": 356,
+          "frame_end": 357,
+          "confidence": 0.9208,
+          "char": "飞",
+          "start": 60.514347,
+          "end": 60.534356
+        },
+        {
+          "frame_start": 364,
+          "frame_end": 365,
+          "confidence": 0.834,
+          "char": "机",
+          "start": 60.674422,
+          "end": 60.694431
+        },
+        {
+          "frame_start": 373,
+          "frame_end": 374,
+          "confidence": 0.9689,
+          "char": "终",
+          "start": 60.854506,
+          "end": 60.874516
+        },
+        {
+          "frame_start": 383,
+          "frame_end": 384,
+          "confidence": 0.6759,
+          "char": "于",
+          "start": 61.0546,
+          "end": 61.07461
+        },
+        {
+          "frame_start": 389,
+          "frame_end": 390,
+          "confidence": 0.6853,
+          "char": "安",
+          "start": 61.174657,
+          "end": 61.194666
+        },
+        {
+          "frame_start": 396,
+          "frame_end": 397,
+          "confidence": 0.949,
+          "char": "全",
+          "start": 61.314723,
+          "end": 61.334732
+        },
+        {
+          "frame_start": 404,
+          "frame_end": 405,
+          "confidence": 0.9107,
+          "char": "落",
+          "start": 61.474798,
+          "end": 61.494807
+        },
+        {
+          "frame_start": 414,
+          "frame_end": 415,
+          "confidence": 0.8787,
+          "char": "地",
+          "start": 61.674892,
+          "end": 61.694901
+        },
+        {
+          "frame_start": 423,
+          "frame_end": 424,
+          "confidence": 0.9994,
+          "char": "了",
+          "start": 61.854976,
+          "end": 61.874986
+        }
+      ],
+      "token_start": 59.473858,
+      "token_end": 61.874986,
+      "independent_asr_coverage": 1.0,
+      "start": 59.113688,
+      "end": 62.135108,
+      "rms": 0.244903
+    },
+    {
+      "no": 630,
+      "sourceNo": 4478,
+      "kind": "word",
+      "display_text": "旅途",
+      "pinyin": "lǚtú",
+      "spoken_text": "旅途。",
+      "characters": [
+        {
+          "frame_start": 450,
+          "frame_end": 451,
+          "confidence": 0.1955,
+          "char": "旅",
+          "start": 62.39523,
+          "end": 62.41524
+        },
+        {
+          "frame_start": 461,
+          "frame_end": 462,
+          "confidence": 0.0283,
+          "char": "途",
+          "start": 62.615334,
+          "end": 62.635343
+        }
+      ],
+      "token_start": 62.39523,
+      "token_end": 62.635343,
+      "independent_asr_coverage": 1.0,
+      "start": 62.135108,
+      "end": 63.115568,
+      "rms": 0.089397
+    },
+    {
+      "no": 630,
+      "sourceNo": 4478,
+      "kind": "example",
+      "display_text": "祝你在这次旅途中一切顺利平安。",
+      "spoken_text": "祝你在这次旅途中一切顺利平安。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 510,
+          "frame_end": 511,
+          "confidence": 0.7743,
+          "char": "祝",
+          "start": 63.595794,
+          "end": 63.615804
+        },
+        {
+          "frame_start": 516,
+          "frame_end": 517,
+          "confidence": 0.1276,
+          "char": "你",
+          "start": 63.715851,
+          "end": 63.73586
+        },
+        {
+          "frame_start": 520,
+          "frame_end": 521,
+          "confidence": 0.9907,
+          "char": "在",
+          "start": 63.795888,
+          "end": 63.815898
+        },
+        {
+          "frame_start": 526,
+          "frame_end": 528,
+          "confidence": 0.9993,
+          "char": "这",
+          "start": 63.915945,
+          "end": 63.955964
+        },
+        {
+          "frame_start": 534,
+          "frame_end": 535,
+          "confidence": 0.9999,
+          "char": "次",
+          "start": 64.07602,
+          "end": 64.096029
+        },
+        {
+          "frame_start": 540,
+          "frame_end": 541,
+          "confidence": 0.946,
+          "char": "旅",
+          "start": 64.196076,
+          "end": 64.216086
+        },
+        {
+          "frame_start": 547,
+          "frame_end": 548,
+          "confidence": 0.5585,
+          "char": "途",
+          "start": 64.336142,
+          "end": 64.356152
+        },
+        {
+          "frame_start": 556,
+          "frame_end": 557,
+          "confidence": 0.9969,
+          "char": "中",
+          "start": 64.516227,
+          "end": 64.536236
+        },
+        {
+          "frame_start": 574,
+          "frame_end": 575,
+          "confidence": 0.9916,
+          "char": "一",
+          "start": 64.876396,
+          "end": 64.896405
+        },
+        {
+          "frame_start": 582,
+          "frame_end": 584,
+          "confidence": 0.9845,
+          "char": "切",
+          "start": 65.036471,
+          "end": 65.07649
+        },
+        {
+          "frame_start": 591,
+          "frame_end": 592,
+          "confidence": 0.9787,
+          "char": "顺",
+          "start": 65.216556,
+          "end": 65.236565
+        },
+        {
+          "frame_start": 600,
+          "frame_end": 601,
+          "confidence": 0.8639,
+          "char": "利",
+          "start": 65.39664,
+          "end": 65.41665
+        },
+        {
+          "frame_start": 608,
+          "frame_end": 609,
+          "confidence": 0.9705,
+          "char": "平",
+          "start": 65.556716,
+          "end": 65.576725
+        },
+        {
+          "frame_start": 616,
+          "frame_end": 617,
+          "confidence": 0.9089,
+          "char": "安",
+          "start": 65.716791,
+          "end": 65.7368
+        }
+      ],
+      "token_start": 63.595794,
+      "token_end": 65.7368,
+      "independent_asr_coverage": 1.0,
+      "start": 63.115568,
+      "end": 66.066955,
+      "rms": 0.255063
+    },
+    {
+      "no": 631,
+      "sourceNo": 4494,
+      "kind": "word",
+      "display_text": "码头",
+      "pinyin": "mǎtóu",
+      "spoken_text": "码头。",
+      "characters": [
+        {
+          "frame_start": 650,
+          "frame_end": 651,
+          "confidence": 0.1525,
+          "char": "码",
+          "start": 66.39711,
+          "end": 66.41712
+        },
+        {
+          "frame_start": 660,
+          "frame_end": 661,
+          "confidence": 0.9954,
+          "char": "头",
+          "start": 66.597204,
+          "end": 66.617214
+        }
+      ],
+      "token_start": 66.39711,
+      "token_end": 66.617214,
+      "independent_asr_coverage": 1.0,
+      "start": 66.066955,
+      "end": 66.919824,
+      "rms": 0.096878
+    },
+    {
+      "no": 631,
+      "sourceNo": 4494,
+      "kind": "example",
+      "display_text": "一艘货轮缓缓地靠近了繁忙的码头。",
+      "spoken_text": "一艘货轮缓缓地靠近了繁忙的码头。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 93,
+          "frame_end": 94,
+          "confidence": 0.9495,
+          "char": "一",
+          "start": 67.222434,
+          "end": 67.242449
+        },
+        {
+          "frame_start": 100,
+          "frame_end": 101,
+          "confidence": 0.1278,
+          "char": "艘",
+          "start": 67.362542,
+          "end": 67.382557
+        },
+        {
+          "frame_start": 111,
+          "frame_end": 112,
+          "confidence": 0.0046,
+          "char": "货",
+          "start": 67.582711,
+          "end": 67.602727
+        },
+        {
+          "frame_start": 120,
+          "frame_end": 121,
+          "confidence": 0.1464,
+          "char": "轮",
+          "start": 67.76285,
+          "end": 67.782866
+        },
+        {
+          "frame_start": 138,
+          "frame_end": 139,
+          "confidence": 0.3794,
+          "char": "缓",
+          "start": 68.123128,
+          "end": 68.143143
+        },
+        {
+          "frame_start": 150,
+          "frame_end": 151,
+          "confidence": 0.8375,
+          "char": "缓",
+          "start": 68.363313,
+          "end": 68.383328
+        },
+        {
+          "frame_start": 157,
+          "frame_end": 158,
+          "confidence": 0.0239,
+          "char": "地",
+          "start": 68.503421,
+          "end": 68.523436
+        },
+        {
+          "frame_start": 162,
+          "frame_end": 163,
+          "confidence": 0.9706,
+          "char": "靠",
+          "start": 68.603498,
+          "end": 68.623513
+        },
+        {
+          "frame_start": 172,
+          "frame_end": 173,
+          "confidence": 0.0379,
+          "char": "近",
+          "start": 68.803652,
+          "end": 68.823667
+        },
+        {
+          "frame_start": 179,
+          "frame_end": 180,
+          "confidence": 0.9999,
+          "char": "了",
+          "start": 68.94376,
+          "end": 68.963775
+        },
+        {
+          "frame_start": 186,
+          "frame_end": 189,
+          "confidence": 0.6037,
+          "char": "繁",
+          "start": 69.083868,
+          "end": 69.143914
+        },
+        {
+          "frame_start": 195,
+          "frame_end": 196,
+          "confidence": 0.6653,
+          "char": "忙",
+          "start": 69.264007,
+          "end": 69.284022
+        },
+        {
+          "frame_start": 203,
+          "frame_end": 204,
+          "confidence": 0.9992,
+          "char": "的",
+          "start": 69.42413,
+          "end": 69.444145
+        },
+        {
+          "frame_start": 206,
+          "frame_end": 207,
+          "confidence": 0.3423,
+          "char": "码",
+          "start": 69.484176,
+          "end": 69.504192
+        },
+        {
+          "frame_start": 216,
+          "frame_end": 217,
+          "confidence": 0.9988,
+          "char": "头",
+          "start": 69.68433,
+          "end": 69.704346
+        }
+      ],
+      "token_start": 67.222434,
+      "token_end": 69.704346,
+      "independent_asr_coverage": 0.933,
+      "start": 66.919824,
+      "end": 70.004577,
+      "rms": 0.217058
+    },
+    {
+      "no": 632,
+      "sourceNo": 4535,
+      "kind": "word",
+      "display_text": "摩托车",
+      "pinyin": "mótuōchē",
+      "spoken_text": "摩托车。",
+      "characters": [
+        {
+          "frame_start": 247,
+          "frame_end": 248,
+          "confidence": 0.9846,
+          "char": "摩",
+          "start": 70.304808,
+          "end": 70.324824
+        },
+        {
+          "frame_start": 254,
+          "frame_end": 256,
+          "confidence": 0.7772,
+          "char": "托",
+          "start": 70.444916,
+          "end": 70.484947
+        },
+        {
+          "frame_start": 262,
+          "frame_end": 263,
+          "confidence": 0.9998,
+          "char": "车",
+          "start": 70.60504,
+          "end": 70.625055
+        }
+      ],
+      "token_start": 70.304808,
+      "token_end": 70.625055,
+      "independent_asr_coverage": 1.0,
+      "start": 70.004577,
+      "end": 71.045379,
+      "rms": 0.132163
+    },
+    {
+      "no": 632,
+      "sourceNo": 4535,
+      "kind": "example",
+      "display_text": "他每天骑摩托车往返家和公司之间。",
+      "spoken_text": "他每天骑摩托车往返家和公司之间。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 305,
+          "frame_end": 306,
+          "confidence": 0.771,
+          "char": "他",
+          "start": 71.465703,
+          "end": 71.485718
+        },
+        {
+          "frame_start": 311,
+          "frame_end": 312,
+          "confidence": 0.9994,
+          "char": "每",
+          "start": 71.585795,
+          "end": 71.605811
+        },
+        {
+          "frame_start": 321,
+          "frame_end": 322,
+          "confidence": 0.9985,
+          "char": "天",
+          "start": 71.785949,
+          "end": 71.805965
+        },
+        {
+          "frame_start": 332,
+          "frame_end": 333,
+          "confidence": 0.1044,
+          "char": "骑",
+          "start": 72.006119,
+          "end": 72.026134
+        },
+        {
+          "frame_start": 339,
+          "frame_end": 340,
+          "confidence": 0.9749,
+          "char": "摩",
+          "start": 72.146227,
+          "end": 72.166242
+        },
+        {
+          "frame_start": 345,
+          "frame_end": 347,
+          "confidence": 0.6133,
+          "char": "托",
+          "start": 72.266319,
+          "end": 72.30635
+        },
+        {
+          "frame_start": 353,
+          "frame_end": 354,
+          "confidence": 0.9999,
+          "char": "车",
+          "start": 72.426443,
+          "end": 72.446458
+        },
+        {
+          "frame_start": 362,
+          "frame_end": 364,
+          "confidence": 0.3299,
+          "char": "往",
+          "start": 72.606581,
+          "end": 72.646612
+        },
+        {
+          "frame_start": 374,
+          "frame_end": 375,
+          "confidence": 0.4475,
+          "char": "返",
+          "start": 72.846767,
+          "end": 72.866782
+        },
+        {
+          "frame_start": 382,
+          "frame_end": 383,
+          "confidence": 0.9435,
+          "char": "家",
+          "start": 73.00689,
+          "end": 73.026905
+        },
+        {
+          "frame_start": 391,
+          "frame_end": 392,
+          "confidence": 0.9995,
+          "char": "和",
+          "start": 73.187029,
+          "end": 73.207044
+        },
+        {
+          "frame_start": 397,
+          "frame_end": 398,
+          "confidence": 1.0,
+          "char": "公",
+          "start": 73.307121,
+          "end": 73.327137
+        },
+        {
+          "frame_start": 406,
+          "frame_end": 407,
+          "confidence": 0.9999,
+          "char": "司",
+          "start": 73.48726,
+          "end": 73.507275
+        },
+        {
+          "frame_start": 412,
+          "frame_end": 414,
+          "confidence": 0.9909,
+          "char": "之",
+          "start": 73.607352,
+          "end": 73.647383
+        },
+        {
+          "frame_start": 418,
+          "frame_end": 420,
+          "confidence": 0.8895,
+          "char": "间",
+          "start": 73.727445,
+          "end": 73.767476
+        }
+      ],
+      "token_start": 71.465703,
+      "token_end": 73.767476,
+      "independent_asr_coverage": 1.0,
+      "start": 71.045379,
+      "end": 74.107738,
+      "rms": 0.200602
+    },
+    {
+      "no": 633,
+      "sourceNo": 4628,
+      "kind": "word",
+      "display_text": "桥梁",
+      "pinyin": "qiáoliáng",
+      "spoken_text": "桥梁。",
+      "characters": [
+        {
+          "frame_start": 454,
+          "frame_end": 456,
+          "confidence": 0.5674,
+          "char": "桥",
+          "start": 74.448,
+          "end": 74.488031
+        },
+        {
+          "frame_start": 466,
+          "frame_end": 467,
+          "confidence": 0.7224,
+          "char": "梁",
+          "start": 74.688185,
+          "end": 74.7082
+        }
+      ],
+      "token_start": 74.448,
+      "token_end": 74.7082,
+      "independent_asr_coverage": 1.0,
+      "start": 74.107738,
+      "end": 75.168555,
+      "rms": 0.126812
+    },
+    {
+      "no": 633,
+      "sourceNo": 4628,
+      "kind": "example",
+      "display_text": "这座跨海大桥连接两岸，堪称桥梁奇迹。",
+      "spoken_text": "这座跨海大桥连接两岸，堪称桥梁奇迹。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 513,
+          "frame_end": 514,
+          "confidence": 0.9995,
+          "char": "这",
+          "start": 75.62891,
+          "end": 75.648925
+        },
+        {
+          "frame_start": 518,
+          "frame_end": 519,
+          "confidence": 0.6668,
+          "char": "座",
+          "start": 75.728987,
+          "end": 75.749002
+        },
+        {
+          "frame_start": 528,
+          "frame_end": 529,
+          "confidence": 0.9806,
+          "char": "跨",
+          "start": 75.929141,
+          "end": 75.949156
+        },
+        {
+          "frame_start": 536,
+          "frame_end": 537,
+          "confidence": 0.9994,
+          "char": "海",
+          "start": 76.089264,
+          "end": 76.10928
+        },
+        {
+          "frame_start": 545,
+          "frame_end": 546,
+          "confidence": 0.9994,
+          "char": "大",
+          "start": 76.269403,
+          "end": 76.289419
+        },
+        {
+          "frame_start": 554,
+          "frame_end": 556,
+          "confidence": 0.9872,
+          "char": "桥",
+          "start": 76.449542,
+          "end": 76.489573
+        },
+        {
+          "frame_start": 567,
+          "frame_end": 568,
+          "confidence": 0.9585,
+          "char": "连",
+          "start": 76.709742,
+          "end": 76.729758
+        },
+        {
+          "frame_start": 576,
+          "frame_end": 578,
+          "confidence": 0.9812,
+          "char": "接",
+          "start": 76.889881,
+          "end": 76.929912
+        },
+        {
+          "frame_start": 584,
+          "frame_end": 585,
+          "confidence": 0.9822,
+          "char": "两",
+          "start": 77.050004,
+          "end": 77.07002
+        },
+        {
+          "frame_start": 593,
+          "frame_end": 594,
+          "confidence": 0.8319,
+          "char": "岸",
+          "start": 77.230143,
+          "end": 77.250159
+        },
+        {
+          "frame_start": 615,
+          "frame_end": 616,
+          "confidence": 0.1046,
+          "char": "堪",
+          "start": 77.670482,
+          "end": 77.690498
+        },
+        {
+          "frame_start": 624,
+          "frame_end": 625,
+          "confidence": 0.318,
+          "char": "称",
+          "start": 77.850621,
+          "end": 77.870637
+        },
+        {
+          "frame_start": 634,
+          "frame_end": 637,
+          "confidence": 0.6395,
+          "char": "桥",
+          "start": 78.050775,
+          "end": 78.110822
+        },
+        {
+          "frame_start": 646,
+          "frame_end": 647,
+          "confidence": 0.3671,
+          "char": "梁",
+          "start": 78.29096,
+          "end": 78.310976
+        },
+        {
+          "frame_start": 658,
+          "frame_end": 659,
+          "confidence": 0.2118,
+          "char": "奇",
+          "start": 78.531145,
+          "end": 78.551161
+        },
+        {
+          "frame_start": 668,
+          "frame_end": 669,
+          "confidence": 0.8402,
+          "char": "迹",
+          "start": 78.7313,
+          "end": 78.751315
+        }
+      ],
+      "token_start": 75.62891,
+      "token_end": 78.751315,
+      "independent_asr_coverage": 1.0,
+      "start": 75.168555,
+      "end": 79.08157,
+      "rms": 0.208217
+    },
+    {
+      "no": 634,
+      "sourceNo": 4632,
+      "kind": "word",
+      "display_text": "起点",
+      "pinyin": "qǐdiǎn",
+      "spoken_text": "起点。",
+      "characters": [
+        {
+          "frame_start": 702,
+          "frame_end": 703,
+          "confidence": 0.8703,
+          "char": "起",
+          "start": 79.411824,
+          "end": 79.431839
+        },
+        {
+          "frame_start": 713,
+          "frame_end": 714,
+          "confidence": 0.7384,
+          "char": "点",
+          "start": 79.631993,
+          "end": 79.652009
+        }
+      ],
+      "token_start": 79.411824,
+      "token_end": 79.652009,
+      "independent_asr_coverage": 1.0,
+      "start": 79.08157,
+      "end": 79.987642,
+      "rms": 0.09943
+    },
+    {
+      "no": 634,
+      "sourceNo": 4632,
+      "kind": "example",
+      "display_text": "每一次成功都是从一个小小的起点开始的。",
+      "spoken_text": "每一次成功都是从一个小小的起点开始的。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 100,
+          "frame_end": 101,
+          "confidence": 0.8645,
+          "char": "每",
+          "start": 80.323275,
+          "end": 80.343287
+        },
+        {
+          "frame_start": 108,
+          "frame_end": 109,
+          "confidence": 0.5394,
+          "char": "一",
+          "start": 80.483377,
+          "end": 80.503389
+        },
+        {
+          "frame_start": 114,
+          "frame_end": 115,
+          "confidence": 0.9992,
+          "char": "次",
+          "start": 80.603453,
+          "end": 80.623466
+        },
+        {
+          "frame_start": 119,
+          "frame_end": 120,
+          "confidence": 0.9965,
+          "char": "成",
+          "start": 80.703517,
+          "end": 80.72353
+        },
+        {
+          "frame_start": 130,
+          "frame_end": 131,
+          "confidence": 0.9691,
+          "char": "功",
+          "start": 80.923657,
+          "end": 80.94367
+        },
+        {
+          "frame_start": 144,
+          "frame_end": 145,
+          "confidence": 1.0,
+          "char": "都",
+          "start": 81.203835,
+          "end": 81.223848
+        },
+        {
+          "frame_start": 150,
+          "frame_end": 151,
+          "confidence": 0.9999,
+          "char": "是",
+          "start": 81.323912,
+          "end": 81.343925
+        },
+        {
+          "frame_start": 155,
+          "frame_end": 156,
+          "confidence": 0.9998,
+          "char": "从",
+          "start": 81.423976,
+          "end": 81.443988
+        },
+        {
+          "frame_start": 162,
+          "frame_end": 163,
+          "confidence": 0.9995,
+          "char": "一",
+          "start": 81.564065,
+          "end": 81.584078
+        },
+        {
+          "frame_start": 166,
+          "frame_end": 167,
+          "confidence": 0.9971,
+          "char": "个",
+          "start": 81.644116,
+          "end": 81.664129
+        },
+        {
+          "frame_start": 172,
+          "frame_end": 173,
+          "confidence": 0.9995,
+          "char": "小",
+          "start": 81.764192,
+          "end": 81.784205
+        },
+        {
+          "frame_start": 182,
+          "frame_end": 183,
+          "confidence": 0.9979,
+          "char": "小",
+          "start": 81.96432,
+          "end": 81.984333
+        },
+        {
+          "frame_start": 189,
+          "frame_end": 190,
+          "confidence": 0.9931,
+          "char": "的",
+          "start": 82.104409,
+          "end": 82.124422
+        },
+        {
+          "frame_start": 196,
+          "frame_end": 197,
+          "confidence": 0.9436,
+          "char": "起",
+          "start": 82.244498,
+          "end": 82.264511
+        },
+        {
+          "frame_start": 203,
+          "frame_end": 204,
+          "confidence": 0.9696,
+          "char": "点",
+          "start": 82.384587,
+          "end": 82.4046
+        },
+        {
+          "frame_start": 211,
+          "frame_end": 212,
+          "confidence": 0.9999,
+          "char": "开",
+          "start": 82.544689,
+          "end": 82.564702
+        },
+        {
+          "frame_start": 221,
+          "frame_end": 222,
+          "confidence": 0.9987,
+          "char": "始",
+          "start": 82.744817,
+          "end": 82.76483
+        },
+        {
+          "frame_start": 228,
+          "frame_end": 229,
+          "confidence": 0.9982,
+          "char": "的",
+          "start": 82.884906,
+          "end": 82.904919
+        }
+      ],
+      "token_start": 80.323275,
+      "token_end": 82.904919,
+      "independent_asr_coverage": 1.0,
+      "start": 79.987642,
+      "end": 83.115053,
+      "rms": 0.239293
+    },
+    {
+      "no": 635,
+      "sourceNo": 4704,
+      "kind": "word",
+      "display_text": "人行道",
+      "pinyin": "rénxíngdào",
+      "spoken_text": "人行道。",
+      "characters": [
+        {
+          "frame_start": 250,
+          "frame_end": 251,
+          "confidence": 0.9441,
+          "char": "人",
+          "start": 83.325187,
+          "end": 83.345199
+        },
+        {
+          "frame_start": 259,
+          "frame_end": 260,
+          "confidence": 0.9069,
+          "char": "行",
+          "start": 83.505301,
+          "end": 83.525314
+        },
+        {
+          "frame_start": 268,
+          "frame_end": 269,
+          "confidence": 0.019,
+          "char": "道",
+          "start": 83.685416,
+          "end": 83.705429
+        }
+      ],
+      "token_start": 83.325187,
+      "token_end": 83.705429,
+      "independent_asr_coverage": 1.0,
+      "start": 83.115053,
+      "end": 84.125697,
+      "rms": 0.121784
+    },
+    {
+      "no": 635,
+      "sourceNo": 4704,
+      "kind": "example",
+      "display_text": "过马路的时候一定要走规定的人行道。",
+      "spoken_text": "过马路的时候一定要走规定的人行道。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 311,
+          "frame_end": 312,
+          "confidence": 0.9998,
+          "char": "过",
+          "start": 84.545964,
+          "end": 84.565977
+        },
+        {
+          "frame_start": 316,
+          "frame_end": 317,
+          "confidence": 0.3343,
+          "char": "马",
+          "start": 84.646028,
+          "end": 84.666041
+        },
+        {
+          "frame_start": 324,
+          "frame_end": 325,
+          "confidence": 0.8627,
+          "char": "路",
+          "start": 84.80613,
+          "end": 84.826143
+        },
+        {
+          "frame_start": 330,
+          "frame_end": 331,
+          "confidence": 0.9974,
+          "char": "的",
+          "start": 84.926206,
+          "end": 84.946219
+        },
+        {
+          "frame_start": 336,
+          "frame_end": 337,
+          "confidence": 0.9987,
+          "char": "时",
+          "start": 85.046283,
+          "end": 85.066295
+        },
+        {
+          "frame_start": 344,
+          "frame_end": 345,
+          "confidence": 0.9951,
+          "char": "候",
+          "start": 85.206385,
+          "end": 85.226397
+        },
+        {
+          "frame_start": 358,
+          "frame_end": 359,
+          "confidence": 0.9991,
+          "char": "一",
+          "start": 85.486563,
+          "end": 85.506576
+        },
+        {
+          "frame_start": 363,
+          "frame_end": 364,
+          "confidence": 0.999,
+          "char": "定",
+          "start": 85.586627,
+          "end": 85.60664
+        },
+        {
+          "frame_start": 368,
+          "frame_end": 369,
+          "confidence": 0.9999,
+          "char": "要",
+          "start": 85.686691,
+          "end": 85.706703
+        },
+        {
+          "frame_start": 375,
+          "frame_end": 376,
+          "confidence": 0.9996,
+          "char": "走",
+          "start": 85.82678,
+          "end": 85.846793
+        },
+        {
+          "frame_start": 386,
+          "frame_end": 387,
+          "confidence": 0.9957,
+          "char": "规",
+          "start": 86.04692,
+          "end": 86.066933
+        },
+        {
+          "frame_start": 395,
+          "frame_end": 396,
+          "confidence": 0.9996,
+          "char": "定",
+          "start": 86.227035,
+          "end": 86.247048
+        },
+        {
+          "frame_start": 402,
+          "frame_end": 403,
+          "confidence": 0.9778,
+          "char": "的",
+          "start": 86.367124,
+          "end": 86.387137
+        },
+        {
+          "frame_start": 405,
+          "frame_end": 406,
+          "confidence": 0.997,
+          "char": "人",
+          "start": 86.427162,
+          "end": 86.447175
+        },
+        {
+          "frame_start": 414,
+          "frame_end": 415,
+          "confidence": 0.7978,
+          "char": "行",
+          "start": 86.607277,
+          "end": 86.62729
+        },
+        {
+          "frame_start": 423,
+          "frame_end": 424,
+          "confidence": 0.1905,
+          "char": "道",
+          "start": 86.787392,
+          "end": 86.807404
+        }
+      ],
+      "token_start": 84.545964,
+      "token_end": 86.807404,
+      "independent_asr_coverage": 1.0,
+      "start": 84.125697,
+      "end": 87.217666,
+      "rms": 0.247275
+    },
+    {
+      "no": 636,
+      "sourceNo": 4719,
+      "kind": "word",
+      "display_text": "入境",
+      "pinyin": "rùjìng",
+      "spoken_text": "入境。",
+      "characters": [
+        {
+          "frame_start": 465,
+          "frame_end": 466,
+          "confidence": 0.9993,
+          "char": "入",
+          "start": 87.627927,
+          "end": 87.64794
+        },
+        {
+          "frame_start": 475,
+          "frame_end": 476,
+          "confidence": 0.0866,
+          "char": "境",
+          "start": 87.828054,
+          "end": 87.848067
+        }
+      ],
+      "token_start": 87.627927,
+      "token_end": 87.848067,
+      "independent_asr_coverage": 1.0,
+      "start": 87.217666,
+      "end": 88.188284,
+      "rms": 0.210211
+    },
+    {
+      "no": 636,
+      "sourceNo": 4719,
+      "kind": "example",
+      "display_text": "旅客需要出示护照才能顺利入境。",
+      "spoken_text": "旅客需要出示护照才能顺利入境。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 510,
+          "frame_end": 511,
+          "confidence": 0.0295,
+          "char": "旅",
+          "start": 88.528501,
+          "end": 88.548513
+        },
+        {
+          "frame_start": 519,
+          "frame_end": 520,
+          "confidence": 0.5571,
+          "char": "客",
+          "start": 88.708615,
+          "end": 88.728628
+        },
+        {
+          "frame_start": 526,
+          "frame_end": 527,
+          "confidence": 0.9821,
+          "char": "需",
+          "start": 88.848705,
+          "end": 88.868717
+        },
+        {
+          "frame_start": 533,
+          "frame_end": 534,
+          "confidence": 1.0,
+          "char": "要",
+          "start": 88.988794,
+          "end": 89.008806
+        },
+        {
+          "frame_start": 540,
+          "frame_end": 541,
+          "confidence": 0.9849,
+          "char": "出",
+          "start": 89.128883,
+          "end": 89.148896
+        },
+        {
+          "frame_start": 547,
+          "frame_end": 548,
+          "confidence": 0.1332,
+          "char": "示",
+          "start": 89.268972,
+          "end": 89.288985
+        },
+        {
+          "frame_start": 555,
+          "frame_end": 556,
+          "confidence": 0.3542,
+          "char": "护",
+          "start": 89.429074,
+          "end": 89.449087
+        },
+        {
+          "frame_start": 563,
+          "frame_end": 564,
+          "confidence": 0.9656,
+          "char": "照",
+          "start": 89.589176,
+          "end": 89.609189
+        },
+        {
+          "frame_start": 577,
+          "frame_end": 578,
+          "confidence": 0.9999,
+          "char": "才",
+          "start": 89.869355,
+          "end": 89.889367
+        },
+        {
+          "frame_start": 583,
+          "frame_end": 584,
+          "confidence": 0.9996,
+          "char": "能",
+          "start": 89.989431,
+          "end": 90.009444
+        },
+        {
+          "frame_start": 589,
+          "frame_end": 590,
+          "confidence": 0.9961,
+          "char": "顺",
+          "start": 90.109508,
+          "end": 90.12952
+        },
+        {
+          "frame_start": 597,
+          "frame_end": 598,
+          "confidence": 0.8461,
+          "char": "利",
+          "start": 90.26961,
+          "end": 90.289622
+        },
+        {
+          "frame_start": 603,
+          "frame_end": 604,
+          "confidence": 0.9992,
+          "char": "入",
+          "start": 90.389686,
+          "end": 90.409699
+        },
+        {
+          "frame_start": 612,
+          "frame_end": 613,
+          "confidence": 0.3793,
+          "char": "境",
+          "start": 90.569801,
+          "end": 90.589813
+        }
+      ],
+      "token_start": 88.528501,
+      "token_end": 90.589813,
+      "independent_asr_coverage": 1.0,
+      "start": 88.188284,
+      "end": 91.180189,
+      "rms": 0.201405
+    },
+    {
+      "no": 637,
+      "sourceNo": 4734,
+      "kind": "word",
+      "display_text": "刹车",
+      "pinyin": "shāchē",
+      "spoken_text": "刹车。",
+      "characters": [
+        {
+          "frame_start": 672,
+          "frame_end": 673,
+          "confidence": 0.2771,
+          "char": "刹",
+          "start": 91.770565,
+          "end": 91.790578
+        },
+        {
+          "frame_start": 682,
+          "frame_end": 683,
+          "confidence": 0.9994,
+          "char": "车",
+          "start": 91.970693,
+          "end": 91.990706
+        }
+      ],
+      "token_start": 91.770565,
+      "token_end": 91.990706,
+      "independent_asr_coverage": 1.0,
+      "start": 91.180189,
+      "end": 92.365732,
+      "rms": 0.145165
+    },
+    {
+      "no": 637,
+      "sourceNo": 4734,
+      "kind": "example",
+      "display_text": "司机紧急刹车，避免了一场事故。",
+      "spoken_text": "司机紧急刹车，避免了一场事故。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 103,
+          "frame_end": 104,
+          "confidence": 0.4106,
+          "char": "司",
+          "start": 92.740757,
+          "end": 92.760765
+        },
+        {
+          "frame_start": 112,
+          "frame_end": 113,
+          "confidence": 0.0777,
+          "char": "机",
+          "start": 92.920824,
+          "end": 92.940831
+        },
+        {
+          "frame_start": 119,
+          "frame_end": 120,
+          "confidence": 0.8544,
+          "char": "紧",
+          "start": 93.060875,
+          "end": 93.080882
+        },
+        {
+          "frame_start": 127,
+          "frame_end": 128,
+          "confidence": 0.906,
+          "char": "急",
+          "start": 93.220934,
+          "end": 93.240941
+        },
+        {
+          "frame_start": 135,
+          "frame_end": 136,
+          "confidence": 0.0705,
+          "char": "刹",
+          "start": 93.380993,
+          "end": 93.401
+        },
+        {
+          "frame_start": 146,
+          "frame_end": 147,
+          "confidence": 0.9995,
+          "char": "车",
+          "start": 93.601074,
+          "end": 93.621081
+        },
+        {
+          "frame_start": 169,
+          "frame_end": 170,
+          "confidence": 0.9905,
+          "char": "避",
+          "start": 94.061243,
+          "end": 94.08125
+        },
+        {
+          "frame_start": 175,
+          "frame_end": 176,
+          "confidence": 0.9942,
+          "char": "免",
+          "start": 94.181287,
+          "end": 94.201294
+        },
+        {
+          "frame_start": 183,
+          "frame_end": 184,
+          "confidence": 0.9999,
+          "char": "了",
+          "start": 94.341346,
+          "end": 94.361353
+        },
+        {
+          "frame_start": 187,
+          "frame_end": 188,
+          "confidence": 0.9996,
+          "char": "一",
+          "start": 94.421375,
+          "end": 94.441382
+        },
+        {
+          "frame_start": 192,
+          "frame_end": 193,
+          "confidence": 0.9454,
+          "char": "场",
+          "start": 94.521412,
+          "end": 94.541419
+        },
+        {
+          "frame_start": 203,
+          "frame_end": 204,
+          "confidence": 0.8894,
+          "char": "事",
+          "start": 94.741493,
+          "end": 94.7615
+        },
+        {
+          "frame_start": 213,
+          "frame_end": 214,
+          "confidence": 0.9957,
+          "char": "故",
+          "start": 94.941566,
+          "end": 94.961574
+        }
+      ],
+      "token_start": 92.740757,
+      "token_end": 94.961574,
+      "independent_asr_coverage": 1.0,
+      "start": 92.365732,
+      "end": 95.33171,
+      "rms": 0.198814
+    },
+    {
+      "no": 638,
+      "sourceNo": 4905,
+      "kind": "word",
+      "display_text": "通道",
+      "pinyin": "tōngdào",
+      "spoken_text": "通道。",
+      "characters": [
+        {
+          "frame_start": 251,
+          "frame_end": 252,
+          "confidence": 0.9994,
+          "char": "通",
+          "start": 95.701846,
+          "end": 95.721853
+        },
+        {
+          "frame_start": 261,
+          "frame_end": 262,
+          "confidence": 0.8483,
+          "char": "道",
+          "start": 95.901919,
+          "end": 95.921926
+        }
+      ],
+      "token_start": 95.701846,
+      "token_end": 95.921926,
+      "independent_asr_coverage": 1.0,
+      "start": 95.33171,
+      "end": 96.202029,
+      "rms": 0.21055
+    },
+    {
+      "no": 638,
+      "sourceNo": 4905,
+      "kind": "example",
+      "display_text": "商场里设有专供轮椅通行的无障碍通道。",
+      "spoken_text": "商场里设有专供轮椅通行的无障碍通道。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 290,
+          "frame_end": 291,
+          "confidence": 0.993,
+          "char": "商",
+          "start": 96.482132,
+          "end": 96.50214
+        },
+        {
+          "frame_start": 299,
+          "frame_end": 300,
+          "confidence": 0.0473,
+          "char": "场",
+          "start": 96.662199,
+          "end": 96.682206
+        },
+        {
+          "frame_start": 307,
+          "frame_end": 308,
+          "confidence": 0.6291,
+          "char": "里",
+          "start": 96.822257,
+          "end": 96.842265
+        },
+        {
+          "frame_start": 316,
+          "frame_end": 317,
+          "confidence": 0.8588,
+          "char": "设",
+          "start": 97.002324,
+          "end": 97.022331
+        },
+        {
+          "frame_start": 323,
+          "frame_end": 324,
+          "confidence": 0.9998,
+          "char": "有",
+          "start": 97.142375,
+          "end": 97.162382
+        },
+        {
+          "frame_start": 331,
+          "frame_end": 332,
+          "confidence": 0.9918,
+          "char": "专",
+          "start": 97.302434,
+          "end": 97.322441
+        },
+        {
+          "frame_start": 340,
+          "frame_end": 341,
+          "confidence": 0.0002,
+          "char": "供",
+          "start": 97.4825,
+          "end": 97.502507
+        },
+        {
+          "frame_start": 349,
+          "frame_end": 350,
+          "confidence": 0.8459,
+          "char": "轮",
+          "start": 97.662566,
+          "end": 97.682574
+        },
+        {
+          "frame_start": 356,
+          "frame_end": 357,
+          "confidence": 0.5043,
+          "char": "椅",
+          "start": 97.802618,
+          "end": 97.822625
+        },
+        {
+          "frame_start": 365,
+          "frame_end": 366,
+          "confidence": 0.6572,
+          "char": "通",
+          "start": 97.982684,
+          "end": 98.002691
+        },
+        {
+          "frame_start": 375,
+          "frame_end": 376,
+          "confidence": 0.9994,
+          "char": "行",
+          "start": 98.182757,
+          "end": 98.202765
+        },
+        {
+          "frame_start": 384,
+          "frame_end": 385,
+          "confidence": 0.9979,
+          "char": "的",
+          "start": 98.362824,
+          "end": 98.382831
+        },
+        {
+          "frame_start": 389,
+          "frame_end": 390,
+          "confidence": 0.3551,
+          "char": "无",
+          "start": 98.46286,
+          "end": 98.482868
+        },
+        {
+          "frame_start": 398,
+          "frame_end": 399,
+          "confidence": 0.6659,
+          "char": "障",
+          "start": 98.642926,
+          "end": 98.662934
+        },
+        {
+          "frame_start": 405,
+          "frame_end": 406,
+          "confidence": 0.3741,
+          "char": "碍",
+          "start": 98.782978,
+          "end": 98.802985
+        },
+        {
+          "frame_start": 412,
+          "frame_end": 413,
+          "confidence": 0.9854,
+          "char": "通",
+          "start": 98.923029,
+          "end": 98.943037
+        },
+        {
+          "frame_start": 422,
+          "frame_end": 423,
+          "confidence": 0.983,
+          "char": "道",
+          "start": 99.123103,
+          "end": 99.14311
+        }
+      ],
+      "token_start": 96.482132,
+      "token_end": 99.14311,
+      "independent_asr_coverage": 0.941,
+      "start": 96.202029,
+      "end": 99.433217,
+      "rms": 0.251931
+    },
+    {
+      "no": 639,
+      "sourceNo": 4943,
+      "kind": "word",
+      "display_text": "托运",
+      "pinyin": "tuōyùn",
+      "spoken_text": "托运。",
+      "characters": [
+        {
+          "frame_start": 452,
+          "frame_end": 453,
+          "confidence": 0.4688,
+          "char": "托",
+          "start": 99.723324,
+          "end": 99.743331
+        },
+        {
+          "frame_start": 463,
+          "frame_end": 464,
+          "confidence": 0.9819,
+          "char": "运",
+          "start": 99.943404,
+          "end": 99.963412
+        }
+      ],
+      "token_start": 99.723324,
+      "token_end": 99.963412,
+      "independent_asr_coverage": 1.0,
+      "start": 99.433217,
+      "end": 100.253519,
+      "rms": 0.246876
+    },
+    {
+      "no": 639,
+      "sourceNo": 4943,
+      "kind": "example",
+      "display_text": "出发前，他把行李箱办理了托运。",
+      "spoken_text": "出发前，他把行李箱办理了托运。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 493,
+          "frame_end": 494,
+          "confidence": 0.9463,
+          "char": "出",
+          "start": 100.543625,
+          "end": 100.563632
+        },
+        {
+          "frame_start": 500,
+          "frame_end": 501,
+          "confidence": 0.9992,
+          "char": "发",
+          "start": 100.683676,
+          "end": 100.703684
+        },
+        {
+          "frame_start": 508,
+          "frame_end": 509,
+          "confidence": 0.9508,
+          "char": "前",
+          "start": 100.843735,
+          "end": 100.863743
+        },
+        {
+          "frame_start": 533,
+          "frame_end": 534,
+          "confidence": 0.8365,
+          "char": "他",
+          "start": 101.343919,
+          "end": 101.363926
+        },
+        {
+          "frame_start": 538,
+          "frame_end": 539,
+          "confidence": 0.9962,
+          "char": "把",
+          "start": 101.443956,
+          "end": 101.463963
+        },
+        {
+          "frame_start": 545,
+          "frame_end": 546,
+          "confidence": 0.9895,
+          "char": "行",
+          "start": 101.584007,
+          "end": 101.604015
+        },
+        {
+          "frame_start": 553,
+          "frame_end": 554,
+          "confidence": 0.0047,
+          "char": "李",
+          "start": 101.744066,
+          "end": 101.764074
+        },
+        {
+          "frame_start": 558,
+          "frame_end": 559,
+          "confidence": 0.324,
+          "char": "箱",
+          "start": 101.844103,
+          "end": 101.86411
+        },
+        {
+          "frame_start": 570,
+          "frame_end": 571,
+          "confidence": 0.8937,
+          "char": "办",
+          "start": 102.084191,
+          "end": 102.104199
+        },
+        {
+          "frame_start": 576,
+          "frame_end": 577,
+          "confidence": 0.971,
+          "char": "理",
+          "start": 102.204235,
+          "end": 102.224243
+        },
+        {
+          "frame_start": 582,
+          "frame_end": 583,
+          "confidence": 0.9999,
+          "char": "了",
+          "start": 102.324279,
+          "end": 102.344287
+        },
+        {
+          "frame_start": 588,
+          "frame_end": 589,
+          "confidence": 0.5521,
+          "char": "托",
+          "start": 102.444324,
+          "end": 102.464331
+        },
+        {
+          "frame_start": 598,
+          "frame_end": 599,
+          "confidence": 0.9712,
+          "char": "运",
+          "start": 102.644397,
+          "end": 102.664404
+        }
+      ],
+      "token_start": 100.543625,
+      "token_end": 102.664404,
+      "independent_asr_coverage": 1.0,
+      "start": 100.253519,
+      "end": 102.914496,
+      "rms": 0.225794
+    },
+    {
+      "no": 640,
+      "sourceNo": 5155,
+      "kind": "word",
+      "display_text": "移民",
+      "pinyin": "yímín",
+      "spoken_text": "移民。",
+      "characters": [
+        {
+          "frame_start": 624,
+          "frame_end": 626,
+          "confidence": 0.7922,
+          "char": "移",
+          "start": 103.164588,
+          "end": 103.204603
+        },
+        {
+          "frame_start": 634,
+          "frame_end": 635,
+          "confidence": 0.9499,
+          "char": "民",
+          "start": 103.364662,
+          "end": 103.384669
+        }
+      ],
+      "token_start": 103.164588,
+      "token_end": 103.384669,
+      "independent_asr_coverage": 1.0,
+      "start": 102.914496,
+      "end": 103.772099,
+      "rms": 0.255477
+    },
+    {
+      "no": 640,
+      "sourceNo": 5155,
+      "kind": "example",
+      "display_text": "他年轻时移民到了国外定居生活。",
+      "spoken_text": "他年轻时移民到了国外定居生活。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 99,
+          "frame_end": 100,
+          "confidence": 0.664,
+          "char": "他",
+          "start": 104.159529,
+          "end": 104.179544
+        },
+        {
+          "frame_start": 105,
+          "frame_end": 106,
+          "confidence": 0.9899,
+          "char": "年",
+          "start": 104.279622,
+          "end": 104.299637
+        },
+        {
+          "frame_start": 113,
+          "frame_end": 115,
+          "confidence": 0.7886,
+          "char": "轻",
+          "start": 104.439745,
+          "end": 104.479776
+        },
+        {
+          "frame_start": 125,
+          "frame_end": 126,
+          "confidence": 0.9992,
+          "char": "时",
+          "start": 104.679931,
+          "end": 104.699946
+        },
+        {
+          "frame_start": 139,
+          "frame_end": 140,
+          "confidence": 0.9383,
+          "char": "移",
+          "start": 104.960147,
+          "end": 104.980162
+        },
+        {
+          "frame_start": 145,
+          "frame_end": 146,
+          "confidence": 0.8465,
+          "char": "民",
+          "start": 105.080239,
+          "end": 105.100255
+        },
+        {
+          "frame_start": 152,
+          "frame_end": 153,
+          "confidence": 0.9996,
+          "char": "到",
+          "start": 105.220347,
+          "end": 105.240363
+        },
+        {
+          "frame_start": 158,
+          "frame_end": 159,
+          "confidence": 0.9998,
+          "char": "了",
+          "start": 105.34044,
+          "end": 105.360456
+        },
+        {
+          "frame_start": 165,
+          "frame_end": 166,
+          "confidence": 0.9994,
+          "char": "国",
+          "start": 105.480548,
+          "end": 105.500564
+        },
+        {
+          "frame_start": 171,
+          "frame_end": 172,
+          "confidence": 0.9995,
+          "char": "外",
+          "start": 105.600641,
+          "end": 105.620656
+        },
+        {
+          "frame_start": 180,
+          "frame_end": 181,
+          "confidence": 0.9979,
+          "char": "定",
+          "start": 105.78078,
+          "end": 105.800795
+        },
+        {
+          "frame_start": 188,
+          "frame_end": 189,
+          "confidence": 0.9861,
+          "char": "居",
+          "start": 105.940903,
+          "end": 105.960919
+        },
+        {
+          "frame_start": 196,
+          "frame_end": 197,
+          "confidence": 0.9827,
+          "char": "生",
+          "start": 106.101027,
+          "end": 106.121042
+        },
+        {
+          "frame_start": 208,
+          "frame_end": 209,
+          "confidence": 0.5747,
+          "char": "活",
+          "start": 106.341212,
+          "end": 106.361228
+        }
+      ],
+      "token_start": 104.159529,
+      "token_end": 106.361228,
+      "independent_asr_coverage": 1.0,
+      "start": 103.772099,
+      "end": 106.631437,
+      "rms": 0.239231
+    },
+    {
+      "no": 641,
+      "sourceNo": 5192,
+      "kind": "word",
+      "display_text": "拥挤",
+      "pinyin": "yōngjǐ",
+      "spoken_text": "拥挤。",
+      "characters": [
+        {
+          "frame_start": 236,
+          "frame_end": 237,
+          "confidence": 0.0748,
+          "char": "拥",
+          "start": 106.901645,
+          "end": 106.92166
+        },
+        {
+          "frame_start": 249,
+          "frame_end": 250,
+          "confidence": 0.9134,
+          "char": "挤",
+          "start": 107.161846,
+          "end": 107.181861
+        }
+      ],
+      "token_start": 106.901645,
+      "token_end": 107.181861,
+      "independent_asr_coverage": 1.0,
+      "start": 106.631437,
+      "end": 107.512116,
+      "rms": 0.2186
+    },
+    {
+      "no": 641,
+      "sourceNo": 5192,
+      "kind": "example",
+      "display_text": "上班高峰期，地铁车厢十分拥挤。",
+      "spoken_text": "上班高峰期，地铁车厢十分拥挤。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 283,
+          "frame_end": 284,
+          "confidence": 0.9992,
+          "char": "上",
+          "start": 107.842371,
+          "end": 107.862386
+        },
+        {
+          "frame_start": 291,
+          "frame_end": 292,
+          "confidence": 0.0428,
+          "char": "班",
+          "start": 108.002494,
+          "end": 108.02251
+        },
+        {
+          "frame_start": 298,
+          "frame_end": 300,
+          "confidence": 0.9486,
+          "char": "高",
+          "start": 108.142602,
+          "end": 108.182633
+        },
+        {
+          "frame_start": 307,
+          "frame_end": 308,
+          "confidence": 0.0312,
+          "char": "峰",
+          "start": 108.322741,
+          "end": 108.342757
+        },
+        {
+          "frame_start": 317,
+          "frame_end": 318,
+          "confidence": 0.6224,
+          "char": "期",
+          "start": 108.522896,
+          "end": 108.542911
+        },
+        {
+          "frame_start": 340,
+          "frame_end": 341,
+          "confidence": 0.996,
+          "char": "地",
+          "start": 108.983251,
+          "end": 109.003266
+        },
+        {
+          "frame_start": 346,
+          "frame_end": 348,
+          "confidence": 0.9988,
+          "char": "铁",
+          "start": 109.103344,
+          "end": 109.143375
+        },
+        {
+          "frame_start": 354,
+          "frame_end": 356,
+          "confidence": 0.999,
+          "char": "车",
+          "start": 109.263467,
+          "end": 109.303498
+        },
+        {
+          "frame_start": 362,
+          "frame_end": 364,
+          "confidence": 0.848,
+          "char": "厢",
+          "start": 109.423591,
+          "end": 109.463622
+        },
+        {
+          "frame_start": 374,
+          "frame_end": 375,
+          "confidence": 0.9944,
+          "char": "十",
+          "start": 109.663776,
+          "end": 109.683792
+        },
+        {
+          "frame_start": 384,
+          "frame_end": 385,
+          "confidence": 0.9854,
+          "char": "分",
+          "start": 109.863931,
+          "end": 109.883946
+        },
+        {
+          "frame_start": 390,
+          "frame_end": 391,
+          "confidence": 0.9243,
+          "char": "拥",
+          "start": 109.984023,
+          "end": 110.004039
+        },
+        {
+          "frame_start": 402,
+          "frame_end": 404,
+          "confidence": 0.9204,
+          "char": "挤",
+          "start": 110.224208,
+          "end": 110.264239
+        }
+      ],
+      "token_start": 107.842371,
+      "token_end": 110.264239,
+      "independent_asr_coverage": 1.0,
+      "start": 107.512116,
+      "end": 110.52444,
+      "rms": 0.253456
+    },
+    {
+      "no": 642,
+      "sourceNo": 5229,
+      "kind": "word",
+      "display_text": "晕车",
+      "pinyin": "yùnchē",
+      "spoken_text": "晕车。",
+      "characters": [
+        {
+          "frame_start": 430,
+          "frame_end": 431,
+          "confidence": 0.3302,
+          "char": "晕",
+          "start": 110.784641,
+          "end": 110.804656
+        },
+        {
+          "frame_start": 439,
+          "frame_end": 441,
+          "confidence": 0.8468,
+          "char": "车",
+          "start": 110.96478,
+          "end": 111.004811
+        }
+      ],
+      "token_start": 110.784641,
+      "token_end": 111.004811,
+      "independent_asr_coverage": 1.0,
+      "start": 110.52444,
+      "end": 111.305042,
+      "rms": 0.189814
+    },
+    {
+      "no": 642,
+      "sourceNo": 5229,
+      "kind": "example",
+      "display_text": "他每次坐长途汽车都会晕车。",
+      "spoken_text": "他每次坐长途汽车都会晕车。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 471,
+          "frame_end": 472,
+          "confidence": 0.5899,
+          "char": "他",
+          "start": 111.605274,
+          "end": 111.62529
+        },
+        {
+          "frame_start": 478,
+          "frame_end": 479,
+          "confidence": 0.9985,
+          "char": "每",
+          "start": 111.745382,
+          "end": 111.765398
+        },
+        {
+          "frame_start": 489,
+          "frame_end": 491,
+          "confidence": 0.9922,
+          "char": "次",
+          "start": 111.965552,
+          "end": 112.005583
+        },
+        {
+          "frame_start": 497,
+          "frame_end": 498,
+          "confidence": 0.2914,
+          "char": "坐",
+          "start": 112.125676,
+          "end": 112.145691
+        },
+        {
+          "frame_start": 505,
+          "frame_end": 506,
+          "confidence": 0.9851,
+          "char": "长",
+          "start": 112.285799,
+          "end": 112.305815
+        },
+        {
+          "frame_start": 515,
+          "frame_end": 516,
+          "confidence": 0.7502,
+          "char": "途",
+          "start": 112.485954,
+          "end": 112.505969
+        },
+        {
+          "frame_start": 524,
+          "frame_end": 525,
+          "confidence": 0.9148,
+          "char": "汽",
+          "start": 112.666093,
+          "end": 112.686108
+        },
+        {
+          "frame_start": 532,
+          "frame_end": 533,
+          "confidence": 1.0,
+          "char": "车",
+          "start": 112.826216,
+          "end": 112.846232
+        },
+        {
+          "frame_start": 543,
+          "frame_end": 544,
+          "confidence": 0.9999,
+          "char": "都",
+          "start": 113.046386,
+          "end": 113.066402
+        },
+        {
+          "frame_start": 549,
+          "frame_end": 550,
+          "confidence": 0.9995,
+          "char": "会",
+          "start": 113.166479,
+          "end": 113.186494
+        },
+        {
+          "frame_start": 554,
+          "frame_end": 555,
+          "confidence": 0.1236,
+          "char": "晕",
+          "start": 113.266556,
+          "end": 113.286571
+        },
+        {
+          "frame_start": 564,
+          "frame_end": 567,
+          "confidence": 0.9271,
+          "char": "车",
+          "start": 113.46671,
+          "end": 113.526757
+        }
+      ],
+      "token_start": 111.605274,
+      "token_end": 113.526757,
+      "independent_asr_coverage": 1.0,
+      "start": 111.305042,
+      "end": 113.816981,
+      "rms": 0.200342
+    },
+    {
+      "no": 643,
+      "sourceNo": 5230,
+      "kind": "word",
+      "display_text": "运送",
+      "pinyin": "yùnsòng",
+      "spoken_text": "运送。",
+      "characters": [
+        {
+          "frame_start": 596,
+          "frame_end": 597,
+          "confidence": 0.9053,
+          "char": "运",
+          "start": 114.107205,
+          "end": 114.12722
+        },
+        {
+          "frame_start": 609,
+          "frame_end": 610,
+          "confidence": 0.9734,
+          "char": "送",
+          "start": 114.367405,
+          "end": 114.387421
+        }
+      ],
+      "token_start": 114.107205,
+      "token_end": 114.387421,
+      "independent_asr_coverage": 1.0,
+      "start": 113.816981,
+      "end": 114.772898,
+      "rms": 0.213338
+    },
+    {
+      "no": 643,
+      "sourceNo": 5230,
+      "kind": "example",
+      "display_text": "货车正在运送一批救灾物资。",
+      "spoken_text": "货车正在运送一批救灾物资。",
+      "pinyin": "",
+      "characters": [
+        {
+          "frame_start": 102,
+          "frame_end": 103,
+          "confidence": 0.8593,
+          "char": "货",
+          "start": 115.158376,
+          "end": 115.178399
+        },
+        {
+          "frame_start": 111,
+          "frame_end": 112,
+          "confidence": 0.9999,
+          "char": "车",
+          "start": 115.338585,
+          "end": 115.358609
+        },
+        {
+          "frame_start": 123,
+          "frame_end": 124,
+          "confidence": 0.9921,
+          "char": "正",
+          "start": 115.578865,
+          "end": 115.598888
+        },
+        {
+          "frame_start": 129,
+          "frame_end": 131,
+          "confidence": 0.9911,
+          "char": "在",
+          "start": 115.699005,
+          "end": 115.739051
+        },
+        {
+          "frame_start": 136,
+          "frame_end": 137,
+          "confidence": 0.9987,
+          "char": "运",
+          "start": 115.839168,
+          "end": 115.859191
+        },
+        {
+          "frame_start": 144,
+          "frame_end": 145,
+          "confidence": 0.984,
+          "char": "送",
+          "start": 115.999354,
+          "end": 116.019377
+        },
+        {
+          "frame_start": 152,
+          "frame_end": 153,
+          "confidence": 0.472,
+          "char": "一",
+          "start": 116.15954,
+          "end": 116.179564
+        },
+        {
+          "frame_start": 158,
+          "frame_end": 159,
+          "confidence": 0.8771,
+          "char": "批",
+          "start": 116.27968,
+          "end": 116.299703
+        },
+        {
+          "frame_start": 168,
+          "frame_end": 169,
+          "confidence": 0.5549,
+          "char": "救",
+          "start": 116.479913,
+          "end": 116.499936
+        },
+        {
+          "frame_start": 176,
+          "frame_end": 177,
+          "confidence": 0.0809,
+          "char": "灾",
+          "start": 116.640099,
+          "end": 116.660123
+        },
+        {
+          "frame_start": 185,
+          "frame_end": 186,
+          "confidence": 0.2092,
+          "char": "物",
+          "start": 116.820309,
+          "end": 116.840332
+        },
+        {
+          "frame_start": 196,
+          "frame_end": 197,
+          "confidence": 0.5261,
+          "char": "资",
+          "start": 117.040565,
+          "end": 117.060589
+        }
+      ],
+      "token_start": 115.158376,
+      "token_end": 117.060589,
+      "independent_asr_coverage": 1.0,
+      "start": 114.772898,
+      "end": 117.37095,
+      "rms": 0.254107
+    },
+    {
+      "no": 644,
+      "sourceNo": 5231,
+      "kind": "word",
+      "display_text": "运行",
+      "pinyin": "yùnxíng",
+      "spoken_text": "运行。",
+      "characters": [
+        {
+          "frame_start": 228,
+          "frame_end": 229,
+          "confidence": 0.9756,
+          "char": "运",
+          "start": 117.681311,
+          "end": 117.701334
+        },
+        {
+          "frame_start": 241,
+          "frame_end": 242,
+          "confidence": 0.9991,
+          "char": "行",
+          "start": 117.941613,
+          "end": 117.961637
+        }
+      ],
+      "token_start": 117.681311,
+      "token_end": 117.961637,
+      "independent_asr_coverage": 1.0,
+      "start": 117.37095,
+      "end": 118.402149,
+      "rms": 0.188284
+    },
+    {
+      "no": null,
+      "kind": "end_guard",
+      "spoken_text": "好的。",
+      "characters": [
+        {
+          "frame_start": 286,
+          "frame_end": 287,
+          "confidence": 0.9993,
+          "char": "好",
+          "start": 118.842661,
+          "end": 118.862685
+        },
+        {
+          "frame_start": 296,
+          "frame_end": 297,
+          "confidence": 0.9822,
+          "char": "的",
+          "start": 119.042894,
+          "end": 119.062918
+        }
+      ],
+      "token_start": 118.842661,
+      "token_end": 119.062918,
+      "independent_asr_coverage": 1.0,
+      "start": 118.402149,
+      "end": 119.5635,
+      "rms": 0.102552
+    }
+  ],
+  "alerts": [],
+  "transcript_match_ratio": 0.9839,
+  "ctc_model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "ctc_revision": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "windows": [
+    {
+      "first": 0,
+      "last": 6,
+      "start": 0,
+      "end": 14.289,
+      "greedy_transcript": "它驾 石 小 C船度过 了 河 港 口  轮C船正在慢慢 时 向 港 口准备靠 案 拐弯湾 在入 口 拐弯C处要检简速慢型住意安全 关光 放架假 的时候我们 一 家人去云南关观光 鬼",
+      "oov": []
+    },
+    {
+      "first": 5,
+      "last": 12,
+      "start": 9.731,
+      "end": 25.447,
+      "greedy_transcript": "权观光放假的时候我们一家人去云南观光轨道火车沿着固定的轨道平稳的行使着航空毕业以后他一直在航空公司工作滑行飞机在跑道上环环的滑行了一段",
+      "oov": []
+    },
+    {
+      "first": 11,
+      "last": 18,
+      "start": 20.724999999999998,
+      "end": 37.33,
+      "greedy_transcript": "司工作华行飞机在跑道上环缓的滑行了一段货车 一辆装满货物的货车停在了路边基动车 开车上路时基动车必须遵手交通规则客车长图客车已经准食从车站出发路",
+      "oov": []
+    },
+    {
+      "first": 17,
+      "last": 24,
+      "start": 32.864,
+      "end": 47.595,
+      "greedy_transcript": "同规则客 车长途客车已经准食从车站出发路 城 从这里 到火车站的路城比较远吕城 这次去西藏的旅城令人南旺 路矿 由于修露施宫今天路矿不太好 路",
+      "oov": []
+    },
+    {
+      "first": 23,
+      "last": 30,
+      "start": 42.955999999999996,
+      "end": 58.541,
+      "greedy_transcript": "令人难忘路矿 由于修露施宫今天路<unk>不太好路面大羽过后路面变的非常失话轮车轮飞快地在马路上转动着轮船一艘巨大的轮船正还环使入赶口",
+      "oov": []
+    },
+    {
+      "first": 29,
+      "last": 36,
+      "start": 53.391,
+      "end": 70.41900000000001,
+      "greedy_transcript": "转动着伦船一艘巨大 的轮船正环环使入港口 落 地经过颠博飞机终于安全落地了吕 图 祝尼在这次旅途中一切顺利平安 马 头 伊艘霍伦环缓环的靠进了繁忙的码 头 摩",
+      "oov": [
+        "簸"
+      ]
+    },
+    {
+      "first": 35,
+      "last": 42,
+      "start": 65.361,
+      "end": 83.53500000000001,
+      "greedy_transcript": "礼平安 马头 一座霍仑环缓的靠进了繁忙的马头摩托车 他每天奇摩托车王返家和公司之间桥梁 这一座跨海大桥连接两岸看成桥良旗迹起点每一次成功都是从一个小小的起点开始的人",
+      "oov": []
+    },
+    {
+      "first": 41,
+      "last": 48,
+      "start": 78.322,
+      "end": 95.593,
+      "greedy_transcript": "旗迹起点每一次成功都是从一个小小的起点开始的人行到过马路的时候一定要走规定的人行到入镜吕客需要出是护照才能顺利入境沙车司基紧急<unk>车避免了一场事故",
+      "oov": [
+        "刹",
+        "刹"
+      ]
+    },
+    {
+      "first": 47,
+      "last": 54,
+      "start": 90.68,
+      "end": 107.006,
+      "greedy_transcript": "沙车 斯基紧急沙车避免了一场事故通道商长里设有专共轮<unk>通行的吴障爱通道托运出发前他把行理乡办理了托运移民他年轻时移民到了国外定居生活拥",
+      "oov": [
+        "刹",
+        "刹",
+        "椅"
+      ]
+    },
+    {
+      "first": 53,
+      "last": 60,
+      "start": 102.17800000000001,
+      "end": 117.73,
+      "greedy_transcript": "里了脱运移民他年轻时移民到了国外定居生活<unk>挤上办高风期地铁C车厢十分拥挤运车 他每次做长途汽车都会运车运送货货车正在运送一批救在误资  <unk>",
+      "oov": []
+    },
+    {
+      "first": 59,
+      "last": 62,
+      "start": 113.116,
+      "end": 119.5635,
+      "greedy_transcript": "会运车车运送货车正在运送一批救在务资运行 好 的",
+      "oov": []
+    }
+  ],
+  "direct_listening": false
+}
