@@ -67,6 +67,8 @@
       .toTop { right:10px; bottom:56px; width:44px; height:44px; font-size:19px; }
     }
   </style>
+  <link rel="stylesheet" href="typing-test.css?v=20261124-typing">
+  <script src="typing-test.js?v=20261124-typing"></script>
 </head>
 <body>
 <!-- mobile playback controls v2 -->
@@ -322,6 +324,7 @@ document.getElementById('meaningToggle').addEventListener('click', e => { state.
 document.getElementById('translationToggle').addEventListener('click', e => { state.showTranslation=!state.showTranslation; e.currentTarget.classList.toggle('on',state.showTranslation); e.currentTarget.textContent=state.showTranslation?'해석 보임':'해석 숨김'; render(); });
 
 render();
+if (window.HskTypingTest) HskTypingTest.mount(DATA);
 </script>
 </body>
 </html>
