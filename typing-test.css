@@ -23,6 +23,16 @@ body.typing-test-active #list { display:none !important; }
   color:white; font-size:22px; font-weight:800; cursor:pointer;
 }
 #mic-button:disabled { opacity:.6; cursor:wait; }
+#pronounce-skip {
+  width:100%; min-height:48px; margin-top:8px; border:1px solid #a9c3df; border-radius:12px;
+  background:white; color:#334e68; font-weight:800; cursor:pointer;
+}
+#pronounce-skip:disabled { opacity:.5; cursor:not-allowed; }
+#typing-test .pronounce-fail {
+  margin-top:12px; padding:12px 14px; border-radius:12px; background:#fff1f1; color:#a61b1b; line-height:1.55;
+}
+#typing-test .pronounce-fail p { margin:0; font-weight:800; }
+#fail-pinyin { font-weight:700; }
 #typing-test .try-count, #typing-test .mic-hint { color:#526d82; font-size:14px; line-height:1.55; word-break:keep-all; }
 #typing-test .heard { min-height:1.5em; margin:10px 0 0; font-size:18px; font-weight:800; color:#102a43; }
 #typing-test .prompt.zh { font-family:"Microsoft YaHei","PingFang SC","Noto Sans SC","Noto Sans CJK SC",sans-serif; }

@@ -126,6 +126,28 @@ function testPronunciation() {
   assert.ok(api.pronunciationSupportMessage('unsupported').includes('Safari'));
   assert.ok(api.pronunciationSupportMessage('unsupported').includes('카카오톡'));
   assert.ok(api.pronunciationSupportMessage('insecure').includes('HTTPS'));
+  const nin = {word: '您', pinyin: 'nín', example: '您好。', examplePinyin: 'nín hǎo.'};
+  const dict = {'你': ['ni'], '拧': ['ning'], '宁': ['ning'], '人': ['ren'], '您': ['nin']};
+  const syllables = function (text) { return dict[text] || null; };
+  assert.strictEqual(api.pronunciationLenientMatch(nin, ['你'], 'word', syllables), true);
+  assert.strictEqual(api.pronunciationLenientMatch(nin, ['拧'], 'word', syllables), true);
+  assert.strictEqual(api.pronunciationLenientMatch(nin, ['宁'], 'word', syllables), true);
+  assert.strictEqual(api.pronunciationLenientMatch(nin, ['人'], 'word', syllables), false);
+  assert.strictEqual(api.pronunciationLenientMatch(nin, ['人', '你'], 'word', syllables), true);
+  assert.strictEqual(api.pronunciationLenientMatch({word: '我', pinyin: 'wǒ'}, ['我'], 'word', null), true);
+  assert.strictEqual(api.pronunciationLenientMatch({word: '我', pinyin: 'wǒ'}, ['你'], 'word', syllables), false);
+  const sentence = {example: '你是老师吗？', examplePinyin: 'nǐ shì lǎoshī ma?', pinyin: ''};
+  assert.strictEqual(api.pronunciationLenientMatch(sentence, ['你是老师吗'], 'sentence', function () {
+    return ['ni', 'shi', 'lao', 'shi', 'ma'];
+  }), true);
+  files.forEach(function (name) {
+    readData(name).forEach(function (item) {
+      assert.strictEqual(api.pinyinResidue(item.pinyin), '', name + ' ' + item.no + ' ' + item.pinyin);
+      if (!/\b[A-Z]{2,}\b/.test(item.examplePinyin || '')) {
+        assert.strictEqual(api.pinyinResidue(item.examplePinyin), '', name + ' ex ' + item.no + ' ' + item.examplePinyin);
+      }
+    });
+  });
 }
 
 function testPagesWired() {
