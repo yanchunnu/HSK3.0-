@@ -35,6 +35,7 @@ body.typing-test-active #list { display:none !important; }
 #fail-pinyin { font-weight:700; }
 #typing-test .try-count, #typing-test .mic-hint { color:#526d82; font-size:14px; line-height:1.55; word-break:keep-all; }
 #typing-test .heard { min-height:1.5em; margin:10px 0 0; font-size:18px; font-weight:800; color:#102a43; }
+#typing-test .heard-chars { font-size:0.82em; font-weight:700; color:#526d82; }
 #typing-test .prompt.zh { font-family:"Microsoft YaHei","PingFang SC","Noto Sans SC","Noto Sans CJK SC",sans-serif; }
 #typing-test .test-help, #typing-test .range-note, #typing-test .enter-note, #typing-test .range-preview {
   color:#526d82; font-size:14px; line-height:1.65; word-break:keep-all; overflow-wrap:anywhere;

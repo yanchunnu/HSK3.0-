@@ -251,10 +251,16 @@ class TypingUiTests(unittest.TestCase):
           FakeRecognition.prototype.stop = function () {};
           window.SpeechRecognition = FakeRecognition;
           window.webkitSpeechRecognition = FakeRecognition;
+          const lib = document.getElementById('pinyin-pro-lib');
+          if (lib) lib.remove();
+          window.pinyinPro = {pinyin: function (text) {
+            const table = {"你": ["ni"], "我": ["wo"], "我们": ["wo", "men"], "他": ["ta"], "人": ["ren"], "您": ["nin"], "拧": ["ning"], "宁": ["ning"]};
+            return table[text] || null;
+          }};
         }''')
         self.page.locator('#mode-pronounce').click()
         self.assertIn('성조', self.page.locator('#test-help').inner_text())
-        self.assertIn('느슨', self.page.locator('#test-help').inner_text())
+        self.assertIn('소리가 같으면', self.page.locator('#test-help').inner_text())
         self.page.locator('#range-start').fill('4')
         self.page.locator('#range-end').fill('6')
         preview = self.page.locator('#range-preview').inner_text()
@@ -305,7 +311,7 @@ class TypingUiTests(unittest.TestCase):
         self.assertIn('틀렸습니다', fail)
         self.assertIn('정답: 我', fail)
         self.assertIn('wǒ', fail)
-        self.assertIn('들은 말: 你', fail)
+        self.assertIn('ni (你)', fail)
         self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_fail_pause.png'))
         self.page.wait_for_function("() => document.getElementById('q-meta').textContent === '5번'", timeout=4000)
         self.page.locator('#mic-button').click()
@@ -319,7 +325,7 @@ class TypingUiTests(unittest.TestCase):
         wrong_text = wrong.inner_text()
         self.assertIn('오답 · 4번', wrong_text)
         self.assertIn('정답: 我', wrong_text)
-        self.assertIn('들은 말: 你', wrong_text)
+        self.assertIn('ni (你)', wrong_text)
         self.assertEqual(rgb(self.page, '.result-list li.is-wrong', 'color'), 'rgb(166, 27, 27)')
         self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_result_wrong_red.png'))
         self.page.locator('#mode-listen').click()
@@ -356,7 +362,8 @@ class TypingUiTests(unittest.TestCase):
         self.assertEqual(self.page.locator('#q-prompt').inner_text(), '您')
         self.page.locator('#mic-button').click()
         self.page.wait_for_function("() => document.getElementById('score-fraction').textContent === '1/1'")
-        self.assertIn('들은 말: 人 / 你', self.page.locator('.result-list li.is-right').inner_text())
+        self.assertIn('ren (人)', self.page.locator('.result-list li.is-right').inner_text())
+        self.assertIn('ni (你)', self.page.locator('.result-list li.is-right').inner_text())
         self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_lenient_nin.png'))
 
         bare = self.browser.new_page(viewport={'width': 1280, 'height': 900})
