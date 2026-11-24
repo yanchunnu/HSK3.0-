@@ -1,0 +1,226 @@
+"""Browser checks for the shared typing test. Requires Playwright and Chrome.
+
+CHROMIUM_PATH=/usr/bin/google-chrome python -m unittest tests.test_typing_ui -v
+"""
+import os
+import threading
+from functools import partial
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+from pathlib import Path
+
+import unittest
+from playwright.sync_api import sync_playwright
+
+ROOT = Path(__file__).resolve().parents[1]
+ARTIFACTS = Path(os.environ.get('ARTIFACT_DIR', '/opt/cursor/artifacts'))
+
+
+class QuietHandler(SimpleHTTPRequestHandler):
+    def log_message(self, fmt, *args):
+        return
+
+
+def rgb(page, selector, prop):
+    return page.locator(selector).first.evaluate(
+        '(el, prop) => getComputedStyle(el)[prop]', prop)
+
+
+class TypingUiTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        ARTIFACTS.mkdir(parents=True, exist_ok=True)
+        cls.httpd = ThreadingHTTPServer(('127.0.0.1', 0), partial(QuietHandler, directory=str(ROOT)))
+        cls.port = cls.httpd.server_address[1]
+        cls.thread = threading.Thread(target=cls.httpd.serve_forever, daemon=True)
+        cls.thread.start()
+        cls.pw = sync_playwright().start()
+        cls.browser = cls.pw.chromium.launch(
+            executable_path=os.environ.get('CHROMIUM_PATH', '/usr/bin/google-chrome'),
+            headless=True,
+            args=['--no-sandbox', '--disable-dev-shm-usage'])
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.browser.close()
+        cls.pw.stop()
+        cls.httpd.shutdown()
+        cls.httpd.server_close()
+
+    def setUp(self):
+        self.page = self.browser.new_page(viewport={'width': 1280, 'height': 900})
+        self.errors = []
+        self.page.on('pageerror', lambda error: self.errors.append(str(error)))
+
+    def tearDown(self):
+        self.page.close()
+        self.assertEqual(self.errors, [])
+
+    def url(self, name):
+        return 'http://127.0.0.1:%s/%s' % (self.port, name)
+
+    def open_page(self, name):
+        self.page.goto(self.url(name), wait_until='domcontentloaded', timeout=60000)
+        self.page.wait_for_selector('#mode-word')
+
+    def shot(self, name):
+        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / name))
+
+    def test_level1_word_range_and_red_result(self):
+        self.open_page('index.html')
+        self.assertEqual(self.page.locator('article.card').count(), 300)
+        self.assertTrue(self.page.locator('#playAllWords').is_visible())
+        self.page.locator('#mode-word').click()
+        self.assertTrue(self.page.locator('#search').is_hidden())
+        self.assertTrue(self.page.locator('#list').is_hidden())
+        self.page.locator('#range-start').fill('4')
+        self.page.locator('#range-end').fill('6')
+        preview = self.page.locator('#range-preview').inner_text()
+        self.assertIn('4번', preview)
+        self.assertIn('6번', preview)
+        self.assertIn('3문제', preview)
+        self.page.screenshot(path=str(ARTIFACTS / 'level1_modes_and_range.png'), full_page=False)
+        self.shot('level1_word_range.png')
+        self.page.locator('#test-start').click()
+        self.assertEqual(self.page.locator('#q-meta').inner_text(), '4번')
+        self.assertEqual(self.page.locator('#q-prompt').inner_text(), '나, 저')
+        self.assertNotIn('我', self.page.locator('.question-card').inner_text())
+        self.shot('level1_word_question.png')
+        blocked = self.page.evaluate('''() => {
+          const input = document.getElementById('typing-answer');
+          const before = document.getElementById('q-progress').textContent;
+          input.value = '我';
+          input.dispatchEvent(new CompositionEvent('compositionstart', {bubbles:true}));
+          input.dispatchEvent(new KeyboardEvent('keydown', {key:'Enter', keyCode:229, isComposing:true, bubbles:true, cancelable:true}));
+          input.dispatchEvent(new KeyboardEvent('keyup', {key:'Enter', keyCode:229, isComposing:true, bubbles:true, cancelable:true}));
+          const during = document.getElementById('q-progress').textContent;
+          input.dispatchEvent(new CompositionEvent('compositionend', {bubbles:true, data:'我'}));
+          input.dispatchEvent(new KeyboardEvent('keyup', {key:'Enter', keyCode:13, bubbles:true, cancelable:true}));
+          const justAfter = document.getElementById('q-progress').textContent;
+          return {before, during, justAfter};
+        }''')
+        self.assertEqual(blocked['before'], blocked['during'])
+        self.assertEqual(blocked['before'], blocked['justAfter'])
+        self.page.wait_for_timeout(150)
+        self.page.locator('#typing-answer').fill('我们')
+        self.page.locator('#typing-answer').press('Enter')
+        self.assertEqual(self.page.locator('#last-mark').inner_text(), '틀렸습니다')
+        self.assertEqual(self.page.locator('#q-meta').inner_text(), '5번')
+        self.page.locator('#typing-answer').fill('我们')
+        self.page.locator('#typing-answer').press('Enter')
+        self.assertEqual(self.page.locator('#last-mark').inner_text(), '맞았습니다')
+        self.assertEqual(self.page.locator('#q-prompt').inner_text(), '그, 그 사람')
+        self.page.locator('#typing-answer').fill('他')
+        self.page.locator('#test-submit').click()
+        self.assertEqual(self.page.locator('#score-fraction').inner_text(), '2/3')
+        self.assertEqual(self.page.locator('#score-hundred').inner_text(), '100점 만점에 67점')
+        self.assertIn('4–6', self.page.locator('#score-note').inner_text())
+        wrong = self.page.locator('.result-list li.is-wrong')
+        self.assertEqual(wrong.count(), 1)
+        wrong_text = wrong.inner_text()
+        self.assertIn('오답 · 4번', wrong_text)
+        self.assertIn('정답: 我', wrong_text)
+        self.assertIn('내 답: 我们', wrong_text)
+        self.assertEqual(rgb(self.page, '.result-list li.is-wrong', 'color'), 'rgb(166, 27, 27)')
+        self.assertEqual(rgb(self.page, '.result-list li.is-wrong', 'backgroundColor'), 'rgb(255, 241, 241)')
+        self.assertEqual(self.page.locator('.result-list li.is-right').count(), 2)
+        self.assertEqual(rgb(self.page, '.result-list li.is-right', 'color'), 'rgb(11, 107, 69)')
+        self.shot('level1_word_result_wrong_red.png')
+        self.page.locator('#mode-listen').click()
+        self.assertTrue(self.page.locator('#list').is_visible())
+        self.assertEqual(self.page.locator('article.card').count(), 300)
+        self.assertTrue(self.page.locator('.play').first.is_enabled())
+
+    def test_level2_sentence_range_halfwidth_and_red_result(self):
+        self.open_page('level2.html')
+        self.assertEqual(self.page.locator('article.card').count(), 500)
+        self.page.locator('#mode-sentence').click()
+        self.page.locator('#range-start').fill('1')
+        self.page.locator('#range-end').fill('3')
+        self.assertIn('3문제', self.page.locator('#range-preview').inner_text())
+        self.shot('level2_sentence_range.png')
+        self.page.locator('#test-start').click()
+        self.assertEqual(self.page.locator('#q-prompt').inner_text(), '당신은 선생님인가요?')
+        self.assertNotIn('你是老师吗', self.page.locator('.question-card').inner_text())
+        self.shot('level2_sentence_question.png')
+        self.page.locator('#typing-answer').fill('你 是 老师 吗')
+        self.page.locator('#typing-answer').press('Enter')
+        self.assertEqual(self.page.locator('#last-mark').inner_text(), '맞았습니다')
+        self.page.locator('#typing-answer').fill('您好,请问您找谁')
+        self.page.locator('#typing-answer').press('Enter')
+        self.assertEqual(self.page.locator('#last-mark').inner_text(), '맞았습니다')
+        self.assertEqual(self.page.locator('#q-prompt').inner_text(), '여러분은 모두 학생인가요?')
+        self.page.locator('#typing-answer').fill('不对')
+        self.page.locator('#typing-answer').press('Enter')
+        self.assertEqual(self.page.locator('#score-fraction').inner_text(), '2/3')
+        self.assertEqual(self.page.locator('#score-hundred').inner_text(), '100점 만점에 67점')
+        wrong = self.page.locator('.result-list li.is-wrong')
+        self.assertEqual(wrong.count(), 1)
+        wrong_text = wrong.inner_text()
+        self.assertIn('오답 · 3번', wrong_text)
+        self.assertIn('정답: 你们都是学生吗？', wrong_text)
+        self.assertIn('내 답: 不对', wrong_text)
+        self.assertEqual(rgb(self.page, '.result-list li.is-wrong', 'color'), 'rgb(166, 27, 27)')
+        self.shot('level2_sentence_result_wrong_red.png')
+        self.page.set_viewport_size({'width': 390, 'height': 844})
+        self.page.locator('#test-retry').click()
+        self.page.wait_for_selector('#q-prompt')
+        overflow = self.page.evaluate('() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 1')
+        self.assertTrue(overflow)
+        self.page.screenshot(path=str(ARTIFACTS / 'level2_sentence_question_phone.png'), full_page=False)
+        self.page.locator('#mode-listen').click()
+        self.assertEqual(self.page.locator('article.card').count(), 500)
+
+    def test_skip_message_and_other_levels(self):
+        self.open_page('index.html')
+        self.page.evaluate('''() => {
+          document.getElementById('typing-test').remove();
+          document.querySelector('.mode-switch').remove();
+          document.body.classList.remove('typing-test-active');
+          const copy = DATA.map(item => Object.assign({}, item));
+          copy[0].translation = '';
+          copy[2].translation = '   ';
+          HskTypingTest.mount(copy);
+        }''')
+        self.page.locator('#mode-sentence').click()
+        self.page.locator('#range-start').fill('1')
+        self.page.locator('#range-end').fill('3')
+        message = self.page.locator('#test-message').inner_text()
+        self.assertIn('1번', message)
+        self.assertIn('3번', message)
+        self.assertIn('건너뛰', message)
+        self.assertIn('1문제', self.page.locator('#range-preview').inner_text())
+        self.page.locator('#test-start').click()
+        self.assertEqual(self.page.locator('#q-meta').inner_text(), '2번')
+        self.page.evaluate('''() => {
+          document.getElementById('typing-test').remove();
+          document.querySelector('.mode-switch').remove();
+          document.body.classList.remove('typing-test-active');
+          const copy = DATA.slice(0, 3).map(item => Object.assign({}, item, {translation: ''}));
+          HskTypingTest.mount(copy);
+        }''')
+        self.page.locator('#mode-sentence').click()
+        self.page.locator('#range-start').fill('1')
+        self.page.locator('#range-end').fill('3')
+        self.assertTrue(self.page.locator('#test-start').is_disabled())
+        self.assertIn('시작할 수 없습니다', self.page.locator('#test-message').inner_text())
+
+        fresh = self.browser.new_page()
+        fresh_errors = []
+        fresh.on('pageerror', lambda error: fresh_errors.append(str(error)))
+        for name, count in [('level3.html', 1000), ('level4.html', 1000), ('level5.html', 1600), ('level6.html', 1800)]:
+            fresh.goto(self.url(name), wait_until='domcontentloaded', timeout=60000)
+            fresh.wait_for_selector('#mode-sentence')
+            self.assertEqual(fresh.locator('article.card').count(), count, name)
+            fresh.locator('#mode-word').click()
+            self.assertTrue(fresh.locator('#typing-test').is_visible())
+            self.assertEqual(fresh.locator('#test-title').inner_text(), '단어 시험')
+            fresh.locator('#mode-sentence').click()
+            self.assertEqual(fresh.locator('#test-title').inner_text(), '예문 시험')
+            fresh.locator('#mode-listen').click()
+            self.assertEqual(fresh.locator('article.card').count(), count, name)
+        fresh.close()
+        self.assertEqual(fresh_errors, [])
+
+
+if __name__ == '__main__':
+    unittest.main()
