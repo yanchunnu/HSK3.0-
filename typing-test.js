@@ -352,17 +352,21 @@
     return false;
   }
 
-  function formatHeard(chars, syllables) {
-    const text = String(chars || '').trim();
-    const py = normalizeHeardSyllables(syllables).join(' ');
-    if (py && text) return py + ' (' + text + ')';
-    return py || text;
+  function heardPinyinText(part) {
+    const lists = part.syllableLists || (part.syllables ? [part.syllables] : []);
+    return lists.map(function (list) {
+      return normalizeHeardSyllables(list).join(' ');
+    }).filter(Boolean).filter(function (item, index, all) {
+      return all.indexOf(item) === index;
+    }).join(' / ');
   }
 
   function formatHeardList(parts) {
-    return (parts || []).map(function (part) {
-      return formatHeard(part.chars, part.syllables);
-    }).filter(Boolean).join(' / ');
+    return (parts || []).map(heardPinyinText).filter(Boolean).join(' / ');
+  }
+
+  function storedAnswerPinyin(item, sentence) {
+    return String((sentence ? item.examplePinyin : item.pinyin) || '').trim();
   }
 
   const CN_DIGITS = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
@@ -546,9 +550,9 @@
       '<p class="heard" id="heard"></p>',
       '<div id="pronounce-fail" class="pronounce-fail" hidden>',
       '<p id="fail-title"></p>',
-      '<p id="fail-answer" class="zh" lang="zh-CN"></p>',
-      '<p id="fail-pinyin"></p>',
-      '<p id="fail-heard" class="zh" lang="zh-CN"></p>',
+      '<p id="fail-answer"></p>',
+      '<p id="fail-pinyin" hidden></p>',
+      '<p id="fail-heard"></p>',
       '</div>',
       '<p class="mic-hint" id="mic-hint">마이크 버튼을 누르면 읽기가 시작됩니다. 권한을 물어보면 허용해 주세요. 건너뛰기는 오답으로 남습니다.</p>',
       '</div>',
@@ -750,7 +754,7 @@
 
     function recordPronounce(ok, heardText, skippedByUser) {
       const item = state.queue[state.index];
-      const expected = state.speakKind === 'sentence' ? item.example : displayWord(item);
+      const expected = storedAnswerPinyin(item, state.speakKind === 'sentence');
       state.answers[state.index] = {
         item: item,
         given: heardText,
@@ -779,7 +783,7 @@
             given: '',
             heard: '',
             ok: false,
-            expected: state.speakKind === 'sentence' ? missed.example : displayWord(missed)
+            expected: storedAnswerPinyin(missed, state.speakKind === 'sentence')
           };
         }
       }
@@ -797,35 +801,16 @@
 
     function renderHeardLine(node, parts) {
       node.replaceChildren();
-      node.appendChild(document.createTextNode('들은 말: '));
-      if (!parts || !parts.length) {
-        node.appendChild(document.createTextNode('(알아듣지 못함)'));
-        return;
-      }
-      parts.forEach(function (part, index) {
-        if (index) node.appendChild(document.createTextNode(' / '));
-        const lists = part.syllableLists || (part.syllables ? [part.syllables] : []);
-        const py = lists.map(function (list) {
-          return normalizeHeardSyllables(list).join(' ');
-        }).filter(Boolean).filter(function (item, index, all) {
-          return all.indexOf(item) === index;
-        }).join(' / ');
-        if (py) node.appendChild(document.createTextNode(py + ' '));
-        if (part.chars) {
-          const small = document.createElement('span');
-          small.className = 'heard-chars';
-          small.textContent = '(' + part.chars + ')';
-          node.appendChild(small);
-        }
-      });
+      const text = formatHeardList(parts);
+      node.appendChild(document.createTextNode('들은 말: ' + (text || '(알아듣지 못함)')));
     }
 
     function showMissed(item, heardText) {
       const sentence = state.speakKind === 'sentence';
       ui.failBox.hidden = false;
       ui.failTitle.textContent = '틀렸습니다';
-      ui.failAnswer.textContent = '정답: ' + (sentence ? item.example : displayWord(item));
-      ui.failPinyin.textContent = '병음: ' + (sentence ? (item.examplePinyin || '') : (item.pinyin || ''));
+      ui.failAnswer.textContent = '정답: ' + storedAnswerPinyin(item, sentence);
+      ui.failPinyin.hidden = true;
       if (state.lastHeardParts && state.lastHeardParts.length) renderHeardLine(ui.failHeard, state.lastHeardParts);
       else ui.failHeard.textContent = '들은 말: ' + (heardText || '(알아듣지 못함)');
       ui.mic.disabled = true;
@@ -1255,14 +1240,15 @@
           ? String(row.item.translation || row.item.example || '').trim()
           : row.item.meaning;
         const expected = document.createElement('div');
-        expected.className = 'zh';
-        expected.lang = 'zh-CN';
+        expected.className = state.kind === 'pronounce' ? '' : 'zh';
+        if (state.kind === 'pronounce') expected.removeAttribute('lang');
+        else expected.lang = 'zh-CN';
         expected.textContent = '정답: ' + row.expected;
         li.append(head, prompt, expected);
         if (state.kind === 'pronounce') {
           const heard = document.createElement('div');
-          heard.className = 'zh result-mine';
-          heard.lang = 'zh-CN';
+          heard.className = 'result-mine';
+          heard.removeAttribute('lang');
           if (row.heardParts && row.heardParts.length) renderHeardLine(heard, row.heardParts);
           else heard.textContent = '들은 말: ' + (row.heard || (row.skippedByUser ? '(건너뜀)' : '(알아듣지 못함)'));
           li.appendChild(heard);
