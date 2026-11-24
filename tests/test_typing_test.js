@@ -148,6 +148,28 @@ function testPronunciation() {
     examplePinyin: 'ni hao wo',
     pinyin: ''
   }, ['句子'], 'sentence', function () { return ['ni', 'hao']; }), false);
+  assert.deepStrictEqual(api.expandNumericHanzi('3个'), ['三个']);
+  assert.ok(api.expandNumericHanzi('2').indexOf('二') !== -1);
+  assert.ok(api.expandNumericHanzi('2').indexOf('两') !== -1);
+  assert.ok(api.expandNumericHanzi('1').indexOf('一') !== -1);
+  assert.ok(api.expandNumericHanzi('1').indexOf('幺') !== -1);
+  assert.deepStrictEqual(api.expandNumericHanzi('１０'), ['十']);
+  assert.deepStrictEqual(api.expandNumericHanzi('11'), ['十一']);
+  assert.deepStrictEqual(api.expandNumericHanzi('20'), ['二十']);
+  assert.deepStrictEqual(api.expandNumericHanzi('100'), ['一百']);
+  assert.deepStrictEqual(api.expandNumericHanzi('3.5'), ['三点五']);
+  assert.deepStrictEqual(api.expandNumericHanzi('10%'), ['百分之十']);
+  assert.deepStrictEqual(api.expandNumericHanzi('我有3个朋友'), ['我有三个朋友']);
+  assert.strictEqual(api.pronunciationLenientMatch({word: '三', pinyin: 'sān'}, ['3个'], 'word', function (text) {
+    return text === '三个' ? ['san', 'ge'] : null;
+  }), true);
+  assert.strictEqual(api.pronunciationLenientMatch({word: '一', pinyin: 'yī'}, ['1'], 'word', function (text) {
+    return text === '幺' ? ['yao'] : ['yi'];
+  }), true);
+  assert.strictEqual(api.pronunciationLenientMatch({word: '十', pinyin: 'shí'}, ['10'], 'word', function () { return ['shi']; }), true);
+  assert.strictEqual(api.pronunciationLenientMatch({word: '两', pinyin: 'liǎng'}, ['2'], 'word', function (text) {
+    return text === '两' ? ['liang'] : ['er'];
+  }), true);
   assert.strictEqual(api.pronunciationLenientMatch(nin, ['您您好'], 'word', function () { return ['nin', 'nin']; }), true);
   assert.strictEqual(api.pronunciationLenientMatch(nin, ['你好'], 'word', function () { return ['nin', 'hao']; }), true);
   assert.strictEqual(api.pronunciationLenientMatch(nin, ['你您'], 'word', function () { return ['ni', 'nin']; }), true);

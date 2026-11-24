@@ -94,3 +94,5 @@ body.typing-test-active #list { display:none !important; }
   #typing-test .test-actions { flex-direction:column; }
   #typing-test .test-actions button { width:100%; }
 }
+.credits { width:min(1120px, calc(100% - 24px)); margin:12px auto 28px; color:#829ab1; font-size:12px; line-height:1.55; }
+.credits a { color:#486581; }
