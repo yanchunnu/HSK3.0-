@@ -148,6 +148,12 @@ function testPronunciation() {
     examplePinyin: 'ni hao wo',
     pinyin: ''
   }, ['句子'], 'sentence', function () { return ['ni', 'hao']; }), false);
+  assert.strictEqual(api.pronunciationLenientMatch(nin, ['您您好'], 'word', function () { return ['nin', 'nin']; }), true);
+  assert.strictEqual(api.pronunciationLenientMatch(nin, ['你好'], 'word', function () { return ['nin', 'hao']; }), true);
+  assert.strictEqual(api.pronunciationLenientMatch(nin, ['你您'], 'word', function () { return ['ni', 'nin']; }), true);
+  assert.strictEqual(api.pronunciationLenientMatch({word: '我们', pinyin: 'wǒmen'}, ['我'], 'word', function () { return ['wo']; }), false);
+  assert.strictEqual(api.pronunciationLenientMatch({word: '知', pinyin: 'zhī'}, ['字'], 'word', function () { return ['zi']; }), true);
+  assert.strictEqual(api.pronunciationLenientMatch({word: '知道', pinyin: 'zhīdào'}, ['字到'], 'word', function () { return ['zi', 'dao']; }), false);
   assert.strictEqual(api.pronunciationLenientMatch(nin, ['你'], 'word', syllables), true);
   assert.strictEqual(api.pronunciationLenientMatch(nin, ['拧'], 'word', syllables), true);
   assert.strictEqual(api.pronunciationLenientMatch(nin, ['宁'], 'word', syllables), true);
