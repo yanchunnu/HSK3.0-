@@ -67,7 +67,7 @@ body.typing-test-active #list { display:none !important; }
 #typing-test .prompt { margin:12px 0; color:#102a43; font-size:28px; font-weight:800; line-height:1.45; word-break:keep-all; overflow-wrap:anywhere; }
 #typing-test .prompt.is-sentence { font-size:22px; }
 #typing-test label[for="typing-answer"] { display:block; margin:8px 0 6px; font-weight:800; color:#334e68; }
-#typing-test .last-mark { min-height:1.5em; margin:8px 0; font-weight:800; }
+#typing-test .last-mark { min-height:1.5em; margin:8px 0; font-weight:800; line-height:1.45; overflow-wrap:anywhere; }
 #typing-test .last-mark.is-right { color:#0b6b45; }
 #typing-test .last-mark.is-wrong { color:#a61b1b; }
 #typing-test .score-fraction { margin:0; font-size:40px; font-weight:800; letter-spacing:-.04em; font-variant-numeric:tabular-nums; }

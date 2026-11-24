@@ -369,6 +369,32 @@
     return String((sentence ? item.examplePinyin : item.pinyin) || '').trim();
   }
 
+  function wordAnswerText(item) {
+    const hanzi = displayWord(item);
+    const py = storedAnswerPinyin(item, false);
+    if (hanzi && py) return hanzi + ' ' + py;
+    return hanzi || py;
+  }
+
+  function tonePinyinOf(text) {
+    const api = globalThis.pinyinPro;
+    if (!api || typeof api.pinyin !== 'function') return '';
+    try {
+      const reading = api.pinyin(String(text || ''), {toneType: 'symbol', type: 'string', nonZh: 'removed'});
+      return String(reading || '').trim();
+    } catch (error) {
+      return '';
+    }
+  }
+
+  function typedAnswerText(given) {
+    const text = String(given || '').trim();
+    if (!text) return '(미입력)';
+    const py = tonePinyinOf(text);
+    if (!py) return text;
+    return text + ' ' + py;
+  }
+
   function pronounceAnswerText(item, sentence) {
     const hanzi = sentence
       ? String((item && item.example) || '').trim()
@@ -1181,7 +1207,7 @@
         item: item,
         given: given,
         ok: ok,
-        expected: state.kind === 'word' ? displayWord(item) : item.example
+        expected: state.kind === 'word' ? wordAnswerText(item) : item.example
       };
     }
 
@@ -1197,7 +1223,9 @@
           state.answers[current] = graded;
           if (graded.ok) state.correctCount += 1;
           if (!finishEarly) {
-            ui.lastMark.textContent = graded.ok ? '맞았습니다' : '틀렸습니다';
+            ui.lastMark.textContent = state.kind === 'word'
+              ? (graded.ok ? '맞았습니다' : '틀렸습니다') + ' · 정답: ' + wordAnswerText(item) + ' · 내 답: ' + typedAnswerText(graded.given)
+              : (graded.ok ? '맞았습니다' : '틀렸습니다');
             ui.lastMark.className = 'last-mark ' + (graded.ok ? 'is-right' : 'is-wrong');
           }
         }
@@ -1212,7 +1240,7 @@
               item: state.queue[i],
               given: '',
               ok: false,
-              expected: state.kind === 'word' ? displayWord(state.queue[i]) : state.queue[i].example,
+              expected: state.kind === 'word' ? wordAnswerText(state.queue[i]) : state.queue[i].example,
               skipped: true
             };
           }
@@ -1264,7 +1292,9 @@
           const mine = document.createElement('div');
           mine.className = 'zh result-mine';
           mine.lang = 'zh-CN';
-          mine.textContent = '내 답: ' + (row.given ? row.given : '（입력 없음）');
+          mine.textContent = '내 답: ' + (state.kind === 'word'
+            ? typedAnswerText(row.given)
+            : (row.given ? row.given : '（입력 없음）'));
           li.appendChild(mine);
         }
         ui.resultList.appendChild(li);
