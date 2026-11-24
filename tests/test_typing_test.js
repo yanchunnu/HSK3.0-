@@ -129,6 +129,25 @@ function testPronunciation() {
   const nin = {word: '您', pinyin: 'nín', example: '您好。', examplePinyin: 'nín hǎo.'};
   const dict = {'你': ['ni'], '拧': ['ning'], '宁': ['ning'], '人': ['ren'], '您': ['nin']};
   const syllables = function (text) { return dict[text] || null; };
+  assert.deepStrictEqual(api.segmentPinyin('nín'), ['nin']);
+  assert.deepStrictEqual(api.segmentPinyin('nǐ hǎo'), ['ni', 'hao']);
+  assert.deepStrictEqual(api.segmentPinyin('nu:3'), ['nv']);
+  assert.deepStrictEqual(api.segmentPinyin("nü'er"), ['nv', 'er']);
+  assert.strictEqual(api.pronunciationLenientMatch({word: '我', pinyin: 'wǒ'}, ['窝'], 'word', function () { return ['wo']; }), true);
+  assert.strictEqual(api.pronunciationLenientMatch({word: '我', pinyin: 'wǒ'}, ['你'], 'word', function () { return ['ni']; }), false);
+  assert.strictEqual(api.pronunciationLenientMatch({word: '我', pinyin: 'wǒ'}, ['窝'], 'word', null), false);
+  const longTarget = ['ni', 'hao', 'wo', 'shi', 'xue', 'sheng', 'jin', 'tian', 'qu', 'xue'];
+  const longHeard = longTarget.slice(0, 9);
+  assert.strictEqual(api.pronunciationLenientMatch({
+    example: '你是老师吗？',
+    examplePinyin: longTarget.join(' '),
+    pinyin: ''
+  }, ['句子'], 'sentence', function () { return longHeard; }), true);
+  assert.strictEqual(api.pronunciationLenientMatch({
+    example: '你是老师吗？',
+    examplePinyin: 'ni hao wo',
+    pinyin: ''
+  }, ['句子'], 'sentence', function () { return ['ni', 'hao']; }), false);
   assert.strictEqual(api.pronunciationLenientMatch(nin, ['你'], 'word', syllables), true);
   assert.strictEqual(api.pronunciationLenientMatch(nin, ['拧'], 'word', syllables), true);
   assert.strictEqual(api.pronunciationLenientMatch(nin, ['宁'], 'word', syllables), true);

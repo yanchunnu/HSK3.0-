@@ -220,8 +220,10 @@
   ).split(' '));
 
   function normalizePinyin(value) {
+    // ü, v, and u: are the same vowel. Tone numbers (ni3) are removed later with other non-letters.
+    const prepared = String(value || '').toLowerCase().replace(/u:/g, 'v').replace(/ü/g, 'v');
     let out = '';
-    for (const ch of String(value || '').toLowerCase()) out += TONE_MARKS[ch] || ch;
+    for (const ch of prepared) out += TONE_MARKS[ch] || ch;
     return out;
   }
 
@@ -293,22 +295,74 @@
     return /^\p{Script=Han}$/u.test(normalizePronunciation(value, true));
   }
 
-  function pronunciationLenientMatch(item, transcripts, kind, syllablesOf) {
-    if (pronunciationAnyMatch(item, transcripts, kind)) return true;
-    if (typeof syllablesOf !== 'function') return false;
-    const target = segmentPinyin(kind === 'sentence' ? item.examplePinyin : item.pinyin);
-    if (!target.length) return false;
-    return (transcripts || []).some(function (text) {
-      const heard = syllablesOf(text);
-      if (!heard || !heard.length) return false;
-      const normalized = heard.map(tonelessLetters).filter(Boolean);
-      if (sameSyllables(target, normalized)) return true;
-      if (kind !== 'sentence' && target.length === 1 && normalized.length === 1 && singleHan(text)) {
-        const base = baseSyllable(target[0]);
-        return !!base && base === baseSyllable(normalized[0]);
+  // Long sentences may drop or add a syllable. 90% of the longer sequence
+  // matching in order still counts. Shorter sentences must match exactly.
+  const LONG_SENTENCE_MIN_SYLLABLES = 8;
+  const LONG_SENTENCE_SYLLABLE_TOLERANCE = 0.9;
+
+  function lcsLength(left, right) {
+    const rows = left.length + 1;
+    const cols = right.length + 1;
+    const dp = Array.from({length: rows}, function () { return new Array(cols).fill(0); });
+    for (let i = 1; i < rows; i++) {
+      for (let j = 1; j < cols; j++) {
+        dp[i][j] = left[i - 1] === right[j - 1] ? dp[i - 1][j - 1] + 1 : Math.max(dp[i - 1][j], dp[i][j - 1]);
       }
-      return false;
-    });
+    }
+    return dp[left.length][right.length];
+  }
+
+  function sentenceSyllablesClose(target, heard) {
+    if (target.length < LONG_SENTENCE_MIN_SYLLABLES) return false;
+    const longer = Math.max(target.length, heard.length);
+    if (!longer) return false;
+    return lcsLength(target, heard) / longer >= LONG_SENTENCE_SYLLABLE_TOLERANCE;
+  }
+
+  function normalizeHeardSyllables(heard) {
+    return (heard || []).map(tonelessLetters).filter(Boolean);
+  }
+
+  function pinyinAlternativeMatches(target, normalized, kind, text) {
+    if (sameSyllables(target, normalized)) return true;
+    if (kind === 'sentence' && sentenceSyllablesClose(target, normalized)) return true;
+    // One-syllable words: a single character may match the base syllable
+    // (nín, nǐ, and níng all share "ni"). Recognizers often change the nasal.
+    if (kind !== 'sentence' && target.length === 1 && normalized.length === 1 && singleHan(text)) {
+      const base = baseSyllable(target[0]);
+      return !!base && base === baseSyllable(normalized[0]);
+    }
+    return false;
+  }
+
+  function formatHeard(chars, syllables) {
+    const text = String(chars || '').trim();
+    const py = normalizeHeardSyllables(syllables).join(' ');
+    if (py && text) return py + ' (' + text + ')';
+    return py || text;
+  }
+
+  function formatHeardList(parts) {
+    return (parts || []).map(function (part) {
+      return formatHeard(part.chars, part.syllables);
+    }).filter(Boolean).join(' / ');
+  }
+
+  function pronunciationLenientMatch(item, transcripts, kind, syllablesOf) {
+    const list = transcripts || [];
+    const target = segmentPinyin(kind === 'sentence' ? item.examplePinyin : item.pinyin);
+    let sawPinyin = false;
+    if (typeof syllablesOf === 'function' && target.length) {
+      for (let i = 0; i < list.length; i++) {
+        const heard = syllablesOf(list[i]);
+        if (!heard || !heard.length) continue;
+        sawPinyin = true;
+        if (pinyinAlternativeMatches(target, normalizeHeardSyllables(heard), kind, list[i])) return true;
+      }
+    }
+    // pinyin-pro missing or unable to read the guess: compare characters instead.
+    if (sawPinyin) return false;
+    return pronunciationAnyMatch(item, list, kind);
   }
 
   function mount(data) {
@@ -576,7 +630,8 @@
         heard: heardText,
         ok: ok,
         expected: expected,
-        skippedByUser: !!skippedByUser
+        skippedByUser: !!skippedByUser,
+        heardParts: state.lastHeardParts || null
       };
       if (ok) state.correctCount += 1;
     }
@@ -613,13 +668,34 @@
       }, 1700);
     }
 
+    function renderHeardLine(node, parts) {
+      node.replaceChildren();
+      node.appendChild(document.createTextNode('들은 말: '));
+      if (!parts || !parts.length) {
+        node.appendChild(document.createTextNode('(알아듣지 못함)'));
+        return;
+      }
+      parts.forEach(function (part, index) {
+        if (index) node.appendChild(document.createTextNode(' / '));
+        const py = normalizeHeardSyllables(part.syllables).join(' ');
+        if (py) node.appendChild(document.createTextNode(py + ' '));
+        if (part.chars) {
+          const small = document.createElement('span');
+          small.className = 'heard-chars';
+          small.textContent = '(' + part.chars + ')';
+          node.appendChild(small);
+        }
+      });
+    }
+
     function showMissed(item, heardText) {
       const sentence = state.speakKind === 'sentence';
       ui.failBox.hidden = false;
       ui.failTitle.textContent = '틀렸습니다';
       ui.failAnswer.textContent = '정답: ' + (sentence ? item.example : displayWord(item));
       ui.failPinyin.textContent = '병음: ' + (sentence ? (item.examplePinyin || '') : (item.pinyin || ''));
-      ui.failHeard.textContent = '들은 말: ' + (heardText || '(알아듣지 못함)');
+      if (state.lastHeardParts && state.lastHeardParts.length) renderHeardLine(ui.failHeard, state.lastHeardParts);
+      else ui.failHeard.textContent = '들은 말: ' + (heardText || '(알아듣지 못함)');
       ui.mic.disabled = true;
     }
 
@@ -659,10 +735,14 @@
         return;
       }
       const item = state.queue[state.index];
-      const heardText = alts.join(' / ');
+      const parts = alts.map(function (text) {
+        return {chars: text, syllables: syllablesOfHeard(text)};
+      });
+      const heardText = formatHeardList(parts);
+      state.lastHeardParts = parts;
       const ok = pronunciationLenientMatch(item, alts, state.speakKind, syllablesOfHeard);
       state.tries += 1;
-      ui.heard.textContent = '들은 말: ' + heardText;
+      renderHeardLine(ui.heard, parts);
       if (ok || state.tries >= 3) {
         settlePronounce(ok, heardText, false);
         return;
@@ -763,7 +843,7 @@
       ui.pronounceKind.hidden = !pronounce;
       ui.title.textContent = state.kind === 'word' ? '단어 시험' : state.kind === 'sentence' ? '예문 시험' : '발음 시험';
       ui.help.textContent = pronounce
-        ? '화면에 나온 한자나 예문을 소리 내어 읽습니다. 채점은 느슨합니다. 인공지능이 알아들었는지만 확인하며, 성조를 정확하게 채점하지 않습니다. 한 글자 단어는 비슷한 소리도 맞을 수 있습니다. 한 문제당 3번까지 다시 읽을 수 있고, 세 번 모두 틀리면 정답을 잠시 보여 준 뒤 다음 문제로 넘어갑니다.'
+        ? '화면에 나온 한자나 예문을 소리 내어 읽습니다. 글자가 달라도 소리가 같으면 맞습니다. 성조는 채점하지 않습니다. 한 글자 단어는 비슷한 소리도 맞을 수 있습니다. 한 문제당 3번까지 다시 읽을 수 있고, 세 번 모두 틀리면 정답을 잠시 보여 준 뒤 다음 문제로 넘어갑니다.'
         : state.kind === 'word'
           ? '한국어 뜻만 보여 줍니다. 그 번호의 한자를 입력하면 맞았는지 틀렸는지 표시합니다.'
           : '예문의 한국어 해석만 보여 줍니다. 중국어 문장을 입력하세요. 띄어쓰기는 보지 않고, 전각과 반각 문장부호는 같게 봅니다. 끝 문장부호는 빼도 맞습니다. 한국어 해석이 없는 항목은 건너뛰고 알려 줍니다.';
@@ -862,6 +942,7 @@
         const sentence = state.speakKind === 'sentence';
         ui.prompt.textContent = sentence ? item.example : (wordForms(item)[0] || item.word);
         ui.prompt.classList.toggle('is-sentence', sentence);
+        state.lastHeardParts = null;
         ui.heard.textContent = '';
         ui.failBox.hidden = true;
         ui.tryCount.textContent = '기회 3번';
@@ -967,7 +1048,8 @@
           const heard = document.createElement('div');
           heard.className = 'zh result-mine';
           heard.lang = 'zh-CN';
-          heard.textContent = '들은 말: ' + (row.heard || (row.skippedByUser ? '(건너뜀)' : '(알아듣지 못함)'));
+          if (row.heardParts && row.heardParts.length) renderHeardLine(heard, row.heardParts);
+          else heard.textContent = '들은 말: ' + (row.heard || (row.skippedByUser ? '(건너뜀)' : '(알아듣지 못함)'));
           li.appendChild(heard);
         } else if (!row.ok) {
           const mine = document.createElement('div');
