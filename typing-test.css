@@ -11,6 +11,21 @@ body.typing-test-active #list { display:none !important; }
 .mode-switch button[aria-selected="true"] { background:var(--blue,#174ea6); border-color:var(--blue,#174ea6); color:white; }
 #typing-test { padding:4px 0 56px; }
 #typing-test h2 { margin:0 0 8px; font-size:clamp(22px, 4vw, 28px); letter-spacing:-.04em; }
+#typing-test .pronounce-kind { display:flex; gap:8px; margin:0 0 12px; }
+#typing-test .pronounce-kind button {
+  flex:1 1 120px; min-height:44px; border:1px solid #a9c3df; border-radius:10px; background:#f5f9ff;
+  color:var(--blue,#174ea6); font-weight:800; cursor:pointer;
+}
+#typing-test .pronounce-kind button[aria-pressed="true"] { background:var(--blue,#174ea6); border-color:var(--blue,#174ea6); color:white; }
+#typing-test .pronounce-support { margin:0 0 12px; padding:10px 12px; border-radius:10px; background:#fff4d6; color:#735c0f; font-size:14px; line-height:1.55; font-weight:700; word-break:keep-all; }
+#mic-button {
+  width:100%; min-height:64px; margin-top:8px; border:0; border-radius:14px; background:var(--blue,#174ea6);
+  color:white; font-size:22px; font-weight:800; cursor:pointer;
+}
+#mic-button:disabled { opacity:.6; cursor:wait; }
+#typing-test .try-count, #typing-test .mic-hint { color:#526d82; font-size:14px; line-height:1.55; word-break:keep-all; }
+#typing-test .heard { min-height:1.5em; margin:10px 0 0; font-size:18px; font-weight:800; color:#102a43; }
+#typing-test .prompt.zh { font-family:"Microsoft YaHei","PingFang SC","Noto Sans SC","Noto Sans CJK SC",sans-serif; }
 #typing-test .test-help, #typing-test .range-note, #typing-test .enter-note, #typing-test .range-preview {
   color:#526d82; font-size:14px; line-height:1.65; word-break:keep-all; overflow-wrap:anywhere;
 }

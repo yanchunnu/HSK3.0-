@@ -221,6 +221,120 @@ class TypingUiTests(unittest.TestCase):
         fresh.close()
         self.assertEqual(fresh_errors, [])
 
+    def test_pronunciation_mock_range_retry_and_unsupported(self):
+        self.open_page('index.html')
+        self.page.evaluate('''() => {
+          window.__recogStarted = [];
+          window.__recogQueue = [];
+          function FakeRecognition() {
+            this.lang = '';
+            this.interimResults = true;
+            this.maxAlternatives = 1;
+            this.continuous = false;
+          }
+          FakeRecognition.prototype.start = function () {
+            const job = window.__recogQueue.shift() || {alts: []};
+            const self = this;
+            window.__recogStarted.push({lang: self.lang, interim: self.interimResults, max: self.maxAlternatives});
+            setTimeout(function () {
+              if (job.error) {
+                if (self.onerror) self.onerror({error: job.error});
+              } else {
+                const result = {length: job.alts.length, isFinal: true};
+                job.alts.forEach(function (text, index) { result[index] = {transcript: text}; });
+                if (self.onresult) self.onresult({results: [result]});
+              }
+              if (self.onend) self.onend();
+            }, 0);
+          };
+          FakeRecognition.prototype.abort = function () {};
+          FakeRecognition.prototype.stop = function () {};
+          window.SpeechRecognition = FakeRecognition;
+          window.webkitSpeechRecognition = FakeRecognition;
+        }''')
+        self.page.locator('#mode-pronounce').click()
+        self.assertIn('성조', self.page.locator('#test-help').inner_text())
+        self.assertIn('느슨', self.page.locator('#test-help').inner_text())
+        self.page.locator('#range-start').fill('4')
+        self.page.locator('#range-end').fill('6')
+        preview = self.page.locator('#range-preview').inner_text()
+        self.assertIn('4번', preview)
+        self.assertIn('6번', preview)
+        self.assertIn('3문제', preview)
+        self.page.screenshot(path=str(ARTIFACTS / 'pronounce_range.png'), full_page=False)
+        self.page.locator('#pronounce-sentence').click()
+        self.page.locator('#test-start').click()
+        self.assertEqual(self.page.locator('#q-prompt').inner_text(), '我是学生。')
+        self.assertNotIn('학생', self.page.locator('#q-prompt').inner_text())
+        self.page.locator('#mode-pronounce').click()
+        self.page.locator('#pronounce-word').click()
+        self.page.locator('#test-start').click()
+        self.assertEqual(self.page.locator('#q-prompt').inner_text(), '我')
+        self.assertNotIn('나, 저', self.page.locator('.question-card').inner_text())
+        self.page.set_viewport_size({'width': 390, 'height': 844})
+        overflow = self.page.evaluate('() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 1')
+        self.assertTrue(overflow)
+        self.page.screenshot(path=str(ARTIFACTS / 'pronounce_question_phone.png'), full_page=False)
+        self.page.set_viewport_size({'width': 1280, 'height': 900})
+        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_question.png'))
+        self.page.evaluate('''() => {
+          window.__recogQueue = [
+            {alts: ['你']},
+            {alts: ['你']},
+            {alts: ['你']},
+            {alts: ['我们']},
+            {alts: ['他']}
+          ];
+        }''')
+        self.page.locator('#mic-button').click()
+        self.page.wait_for_function("() => document.getElementById('heard').textContent.includes('你')")
+        self.assertEqual(self.page.locator('#q-meta').inner_text(), '4번')
+        self.assertIn('1/3', self.page.locator('#last-mark').inner_text())
+        started = self.page.evaluate('window.__recogStarted[0]')
+        self.assertEqual(started['lang'], 'zh-CN')
+        self.assertEqual(started['interim'], False)
+        self.assertGreaterEqual(started['max'], 3)
+        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_heard_retry.png'))
+        self.page.locator('#mic-button').click()
+        self.page.wait_for_function("() => document.getElementById('try-count').textContent.includes('남은 기회 1')")
+        self.page.locator('#mic-button').click()
+        self.page.wait_for_function("() => document.getElementById('q-meta').textContent === '5번'")
+        self.page.locator('#mic-button').click()
+        self.page.wait_for_function("() => document.getElementById('q-meta').textContent === '6번'")
+        self.assertIn('맞았습니다', self.page.locator('#last-mark').inner_text())
+        self.page.locator('#mic-button').click()
+        self.page.wait_for_function("() => document.getElementById('score-fraction').textContent === '2/3'")
+        self.assertEqual(self.page.locator('#score-hundred').inner_text(), '100점 만점에 67점')
+        wrong = self.page.locator('.result-list li.is-wrong')
+        self.assertEqual(wrong.count(), 1)
+        wrong_text = wrong.inner_text()
+        self.assertIn('오답 · 4번', wrong_text)
+        self.assertIn('정답: 我', wrong_text)
+        self.assertIn('들은 말: 你', wrong_text)
+        self.assertEqual(rgb(self.page, '.result-list li.is-wrong', 'color'), 'rgb(166, 27, 27)')
+        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_result_wrong_red.png'))
+        self.page.locator('#mode-listen').click()
+        self.assertEqual(self.page.locator('article.card').count(), 300)
+
+        bare = self.browser.new_page(viewport={'width': 1280, 'height': 900})
+        bare_errors = []
+        bare.on('pageerror', lambda error: bare_errors.append(str(error)))
+        bare.goto(self.url('index.html'), wait_until='domcontentloaded', timeout=60000)
+        bare.wait_for_selector('#mode-pronounce')
+        bare.evaluate('''() => {
+          window.SpeechRecognition = undefined;
+          window.webkitSpeechRecognition = undefined;
+        }''')
+        bare.locator('#mode-pronounce').click()
+        notice = bare.locator('#pronounce-support').inner_text()
+        self.assertIn('Chrome', notice)
+        self.assertIn('Safari', notice)
+        self.assertIn('카카오톡', notice)
+        self.assertTrue(bare.locator('#test-start').is_disabled())
+        bare.screenshot(path=str(ARTIFACTS / 'pronounce_unsupported.png'), full_page=False)
+        bare.close()
+        self.assertEqual(bare_errors, [])
+
 
 if __name__ == '__main__':
     unittest.main()
