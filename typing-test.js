@@ -365,8 +365,112 @@
     }).filter(Boolean).join(' / ');
   }
 
+  const CN_DIGITS = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+
+  function asciiNumberText(text) {
+    return String(text || '').normalize('NFKC').replace(/％/g, '%');
+  }
+
+  function readBelow10000(n, liang) {
+    function digit(value, useLiang) {
+      if (value === 2 && useLiang) return '两';
+      return CN_DIGITS[value];
+    }
+    if (n === 0) return '零';
+    if (n < 10) return digit(n, liang);
+    if (n < 20) return n === 10 ? '十' : '十' + CN_DIGITS[n - 10];
+    if (n < 100) {
+      let text = CN_DIGITS[Math.floor(n / 10)] + '十';
+      if (n % 10) text += CN_DIGITS[n % 10];
+      return text;
+    }
+    if (n < 1000) {
+      let text = digit(Math.floor(n / 100), liang) + '百';
+      const rest = n % 100;
+      if (!rest) return text;
+      if (rest < 10) return text + '零' + CN_DIGITS[rest];
+      if (rest < 20) return text + '一' + readBelow10000(rest, false);
+      return text + readBelow10000(rest, false);
+    }
+    let text = digit(Math.floor(n / 1000), liang) + '千';
+    const rest = n % 1000;
+    if (!rest) return text;
+    if (rest < 100) return text + '零' + readBelow10000(rest, false);
+    return text + readBelow10000(rest, false);
+  }
+
+  function readFullNumber(n, liang) {
+    if (n < 10000) return readBelow10000(n, liang);
+    if (n >= 100000000) return String(n).split('').map(function (ch) { return CN_DIGITS[Number(ch)]; }).join('');
+    const wan = Math.floor(n / 10000);
+    const rest = n % 10000;
+    let text = readBelow10000(wan, liang) + '万';
+    if (!rest) return text;
+    if (rest < 1000) text += '零';
+    return text + readBelow10000(rest, false);
+  }
+
+  function integerHanziVariants(n) {
+    if (!Number.isSafeInteger(n) || n < 0) return [];
+    const plain = readFullNumber(n, false);
+    const withLiang = readFullNumber(n, true);
+    const variants = [plain];
+    if (withLiang !== plain) variants.push(withLiang);
+    if (n >= 1000 && n <= 9999) {
+      const digits = String(n).split('').map(function (ch) { return CN_DIGITS[Number(ch)]; }).join('');
+      if (variants.indexOf(digits) === -1) variants.push(digits);
+    }
+    return variants;
+  }
+
+  function numberTokenVariants(token) {
+    const percent = /%$/.test(token);
+    const body = percent ? token.slice(0, -1) : token;
+    if (!/^\d+(?:\.\d+)?$/.test(body)) return [token];
+    const bits = body.split('.');
+    const whole = Number(bits[0]);
+    let variants = integerHanziVariants(whole);
+    if (!variants.length) return [token];
+    if (bits[1]) {
+      const fraction = bits[1].split('').map(function (ch) { return CN_DIGITS[Number(ch)]; }).join('');
+      variants = variants.map(function (item) { return item + '点' + fraction; });
+    }
+    if (percent) variants = variants.map(function (item) { return '百分之' + item; });
+    if (token === '1') variants.push('幺');
+    return variants;
+  }
+
+  function expandNumericHanzi(text) {
+    const source = asciiNumberText(text);
+    if (!/\d/.test(source)) return [source];
+    const pieces = [];
+    const pattern = /\d+(?:\.\d+)?%?/g;
+    let last = 0;
+    let match;
+    while ((match = pattern.exec(source))) {
+      if (match.index > last) pieces.push([source.slice(last, match.index)]);
+      pieces.push(numberTokenVariants(match[0]));
+      last = match.index + match[0].length;
+    }
+    if (last < source.length) pieces.push([source.slice(last)]);
+    let combined = [''];
+    pieces.forEach(function (options) {
+      const next = [];
+      combined.forEach(function (prefix) {
+        options.forEach(function (option) {
+          if (next.length < 12) next.push(prefix + option);
+        });
+      });
+      combined = next;
+    });
+    return combined.length ? combined : [source];
+  }
+
   function pronunciationLenientMatch(item, transcripts, kind, syllablesOf) {
-    const list = transcripts || [];
+    const list = [];
+    (transcripts || []).forEach(function (text) {
+      expandNumericHanzi(text).forEach(function (form) { list.push(form); });
+    });
     const target = segmentPinyin(kind === 'sentence' ? item.examplePinyin : item.pinyin);
     let sawPinyin = false;
     if (typeof syllablesOf === 'function' && target.length) {
@@ -379,7 +483,7 @@
     }
     // pinyin-pro missing or unable to read the guess: compare characters instead.
     if (sawPinyin) return false;
-    return pronunciationAnyMatch(item, list, kind);
+    return pronunciationAnyMatch(item, list.length ? list : (transcripts || []), kind);
   }
 
   function mount(data) {
@@ -700,7 +804,12 @@
       }
       parts.forEach(function (part, index) {
         if (index) node.appendChild(document.createTextNode(' / '));
-        const py = normalizeHeardSyllables(part.syllables).join(' ');
+        const lists = part.syllableLists || (part.syllables ? [part.syllables] : []);
+        const py = lists.map(function (list) {
+          return normalizeHeardSyllables(list).join(' ');
+        }).filter(Boolean).filter(function (item, index, all) {
+          return all.indexOf(item) === index;
+        }).join(' / ');
         if (py) node.appendChild(document.createTextNode(py + ' '));
         if (part.chars) {
           const small = document.createElement('span');
@@ -759,7 +868,7 @@
       }
       const item = state.queue[state.index];
       const parts = alts.map(function (text) {
-        return {chars: text, syllables: syllablesOfHeard(text)};
+        return {chars: text, syllables: syllablesOfHeard(text), syllableLists: syllableListsOf(text)};
       });
       const heardText = formatHeardList(parts);
       state.lastHeardParts = parts;
@@ -784,16 +893,23 @@
       ui.tryCount.textContent = '남은 기회 ' + (3 - state.tries) + '번';
     }
 
-    function syllablesOfHeard(text) {
+    function syllableListsOf(text) {
       const api = window.pinyinPro;
       if (!api || typeof api.pinyin !== 'function') return null;
-      try {
-        const parts = api.pinyin(text, {toneType: 'none', type: 'array', nonZh: 'removed'});
-        if (!parts || !parts.length) return null;
-        return parts.map(tonelessLetters).filter(Boolean);
-      } catch (error) {
-        return null;
-      }
+      const lists = [];
+      expandNumericHanzi(text).forEach(function (form) {
+        try {
+          const parts = api.pinyin(form, {toneType: 'none', type: 'array', nonZh: 'removed'});
+          const normalized = parts && parts.map(tonelessLetters).filter(Boolean);
+          if (normalized && normalized.length) lists.push(normalized);
+        } catch (error) {}
+      });
+      return lists.length ? lists : null;
+    }
+
+    function syllablesOfHeard(text) {
+      const lists = syllableListsOf(text);
+      return lists ? lists[0] : null;
     }
 
     function loadPinyinPro() {
@@ -934,7 +1050,7 @@
       ui.pronounceKind.hidden = !pronounce;
       ui.title.textContent = state.kind === 'word' ? '단어 시험' : state.kind === 'sentence' ? '예문 시험' : '발음 시험';
       ui.help.textContent = pronounce
-        ? '화면에 나온 한자나 예문을 소리 내어 읽습니다. 글자가 달라도 소리가 같으면 맞습니다. 성조는 채점하지 않습니다. 한 글자 단어는 비슷한 소리도 맞을 수 있습니다. 한 문제당 3번까지 다시 읽을 수 있고, 세 번 모두 틀리면 정답을 잠시 보여 준 뒤 다음 문제로 넘어갑니다.'
+        ? '화면에 나온 한자나 예문을 소리 내어 읽습니다. 글자가 달라도 소리가 같으면 맞습니다. 성조는 채점하지 않습니다. 한 글자는 두 번 읽고, 1이나 10처럼 숫자로 들려도 됩니다. 세 번 모두 틀리면 정답을 잠시 보여 준 뒤 다음 문제로 넘어갑니다.'
         : state.kind === 'word'
           ? '한국어 뜻만 보여 줍니다. 그 번호의 한자를 입력하면 맞았는지 틀렸는지 표시합니다.'
           : '예문의 한국어 해석만 보여 줍니다. 중국어 문장을 입력하세요. 띄어쓰기는 보지 않고, 전각과 반각 문장부호는 같게 봅니다. 끝 문장부호는 빼도 맞습니다. 한국어 해석이 없는 항목은 건너뛰고 알려 줍니다.';
@@ -1222,6 +1338,7 @@
     segmentPinyin: segmentPinyin,
     pinyinResidue: pinyinResidue,
     pronunciationLenientMatch: pronunciationLenientMatch,
+    expandNumericHanzi: expandNumericHanzi,
     baseSyllable: baseSyllable
   };
 });

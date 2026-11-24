@@ -387,6 +387,57 @@ class TypingUiTests(unittest.TestCase):
         bare.close()
         self.assertEqual(bare_errors, [])
 
+    def test_level1_number_words_accept_arabic_digits(self):
+        self.open_page('index.html')
+        self.page.evaluate('''() => {
+          window.__recogQueue = [];
+          function FakeRecognition() {}
+          FakeRecognition.prototype.start = function () {
+            const job = window.__recogQueue.shift() || {alts: []};
+            const self = this;
+            setTimeout(function () {
+              if (self.onaudiostart) self.onaudiostart();
+              const result = {length: job.alts.length, isFinal: true};
+              job.alts.forEach(function (text, index) { result[index] = {transcript: text}; });
+              if (self.onresult) self.onresult({results: [result]});
+              if (self.onend) self.onend();
+            }, 0);
+          };
+          FakeRecognition.prototype.abort = function () {};
+          FakeRecognition.prototype.stop = function () {};
+          window.SpeechRecognition = FakeRecognition;
+          window.webkitSpeechRecognition = FakeRecognition;
+          const reading = {"零":"ling","一":"yi","二":"er","两":"liang","三":"san","四":"si","五":"wu","六":"liu","七":"qi","八":"ba","九":"jiu","十":"shi","百":"bai","千":"qian","万":"wan","点":"dian","幺":"yao","分":"fen","之":"zhi","个":"ge"};
+          window.pinyinPro = {pinyin: function (text) {
+            const out = [];
+            for (const ch of text) if (reading[ch]) out.push(reading[ch]);
+            return out;
+          }};
+        }''')
+        cases = [('44', '1', '一', 'yi'), ('45', '2', '二', 'er'), ('46', '2', '两', 'liang'), ('54', '１０', '十', 'shi'), ('55', '100', '百', 'bai')]
+        for number, heard, hanzi, pinyin in cases:
+            self.page.locator('#mode-pronounce').click()
+            self.page.locator('#pronounce-word').click()
+            self.page.locator('#range-start').fill(number)
+            self.page.locator('#range-end').fill(number)
+            self.page.locator('#test-start').click()
+            self.assertEqual(self.page.locator('#q-prompt').inner_text(), hanzi)
+            if hanzi == '一':
+                self.assertIn('一一', self.page.locator('#repeat-hint').inner_text())
+            self.page.evaluate('''(text) => { window.__recogQueue = [{alts: [text]}]; }''', heard)
+            self.page.locator('#mic-button').click()
+            self.page.wait_for_function('''(hanzi) => {
+              const result = document.getElementById('test-result');
+              const score = document.getElementById('score-fraction');
+              const row = document.querySelector('.result-list li');
+              return result && !result.hidden && score && score.textContent === '1/1' && row && row.innerText.includes('정답: ' + hanzi);
+            }''', arg=hanzi)
+            row = self.page.locator('.result-list li.is-right').inner_text()
+            self.assertIn('정답: ' + hanzi, row)
+            self.assertIn(pinyin, row)
+            self.assertIn(heard, row)
+        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_number_bai.png'))
+
 
 if __name__ == '__main__':
     unittest.main()
