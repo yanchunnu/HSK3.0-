@@ -103,6 +103,31 @@ function testPages() {
   assert.strictEqual(none.skipped.length, 2);
 }
 
+function testPronunciation() {
+  assert.strictEqual(api.pronunciationMatches({word: '我'}, '我', 'word'), true);
+  assert.strictEqual(api.pronunciationMatches({word: '我'}, ' 我。 ', 'word'), true);
+  assert.strictEqual(api.pronunciationMatches({word: '我'}, '我?', 'word'), true);
+  assert.strictEqual(api.pronunciationMatches({word: '我'}, '你', 'word'), false);
+  assert.strictEqual(api.pronunciationMatches({word: '没(有)'}, '没有', 'word'), true);
+  assert.strictEqual(api.pronunciationMatches({word: '没(有)'}, '没', 'word'), true);
+  assert.strictEqual(api.pronunciationMatches({word: '没(有)'}, '有', 'word'), false);
+  assert.strictEqual(api.pronunciationMatches({word: '面¹'}, '面', 'word'), true);
+  assert.strictEqual(api.pronunciationMatches({word: '面¹'}, '面1', 'word'), true);
+  assert.strictEqual(api.pronunciationMatches({word: '成年1'}, '成年', 'word'), true);
+  assert.strictEqual(api.pronunciationMatches({word: '你是老师吗？', example: '你是老师吗？'}, '你 是 老师 吗', 'sentence'), true);
+  assert.strictEqual(api.pronunciationMatches({example: '他说“好”。'}, '他说好', 'sentence'), true);
+  assert.strictEqual(api.pronunciationMatches({example: '你是老师吗？'}, '你是学生吗', 'sentence'), false);
+  assert.strictEqual(api.pronunciationAnyMatch({word: '我'}, ['你', '我'], 'word'), true);
+  assert.strictEqual(api.pronunciationAnyMatch({word: '我'}, ['你', '他'], 'word'), false);
+  assert.strictEqual(api.pronunciationBlocker({secure: true, hasRecognition: false}), 'unsupported');
+  assert.strictEqual(api.pronunciationBlocker({secure: false, hasRecognition: true}), 'insecure');
+  assert.strictEqual(api.pronunciationBlocker({secure: true, hasRecognition: true}), '');
+  assert.ok(api.pronunciationSupportMessage('unsupported').includes('Chrome'));
+  assert.ok(api.pronunciationSupportMessage('unsupported').includes('Safari'));
+  assert.ok(api.pronunciationSupportMessage('unsupported').includes('카카오톡'));
+  assert.ok(api.pronunciationSupportMessage('insecure').includes('HTTPS'));
+}
+
 function testPagesWired() {
   files.forEach(function (name) {
     const text = fs.readFileSync(path.join(__dirname, '..', name), 'utf8');
@@ -115,6 +140,7 @@ function testPagesWired() {
 testSentences();
 testWords();
 testEnterAndScore();
+testPronunciation();
 testPages();
 testPagesWired();
 console.log('typing test checks passed');
