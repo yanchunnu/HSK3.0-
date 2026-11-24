@@ -311,13 +311,12 @@ class TypingUiTests(unittest.TestCase):
         self.assertEqual(self.page.locator('#q-meta').inner_text(), '4번')
         fail = self.page.locator('#pronounce-fail').inner_text()
         self.assertIn('틀렸습니다', fail)
-        self.assertIn('정답: wǒ', fail)
-        self.assertNotIn('我', fail)
+        self.assertIn('정답: 我 wǒ', fail)
         self.assertNotIn('병음', fail)
         self.assertIn('들은 말: ni', fail)
         self.assertNotIn('你', fail)
         self.assertEqual(self.page.locator('#q-prompt').inner_text(), '我')
-        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_pinyin_only_fail.png'))
+        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_answer_hanzi_fail.png'))
         self.page.wait_for_function("() => document.getElementById('q-meta').textContent === '5번'", timeout=4000)
         self.page.locator('#mic-button').click()
         self.page.wait_for_function("() => document.getElementById('q-meta').textContent === '6번'")
@@ -329,12 +328,11 @@ class TypingUiTests(unittest.TestCase):
         self.assertEqual(wrong.count(), 1)
         wrong_text = wrong.inner_text()
         self.assertIn('오답 · 4번', wrong_text)
-        self.assertIn('정답: wǒ', wrong_text)
-        self.assertNotIn('我', wrong_text)
+        self.assertIn('정답: 我 wǒ', wrong_text)
         self.assertIn('들은 말: ni', wrong_text)
         self.assertNotIn('你', wrong_text)
         self.assertEqual(rgb(self.page, '.result-list li.is-wrong', 'color'), 'rgb(166, 27, 27)')
-        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_pinyin_only_result.png'))
+        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_answer_hanzi_result.png'))
         self.page.locator('#mode-listen').click()
         self.assertEqual(self.page.locator('article.card').count(), 300)
 
@@ -370,8 +368,7 @@ class TypingUiTests(unittest.TestCase):
         self.page.locator('#mic-button').click()
         self.page.wait_for_function("() => document.getElementById('score-fraction').textContent === '1/1'")
         nin = self.page.locator('.result-list li.is-right').inner_text()
-        self.assertIn('정답: nín', nin)
-        self.assertNotIn('您', nin)
+        self.assertIn('정답: 您 nín', nin)
         self.assertIn('들은 말: ren / ni', nin)
         self.assertNotIn('人', nin)
         self.assertNotIn('你', nin)
@@ -435,18 +432,18 @@ class TypingUiTests(unittest.TestCase):
                 self.assertIn('一一', self.page.locator('#repeat-hint').inner_text())
             self.page.evaluate('''(text) => { window.__recogQueue = [{alts: [text]}]; }''', heard)
             self.page.locator('#mic-button').click()
-            self.page.wait_for_function('''(answer) => {
+            label = hanzi + ' ' + answer
+            self.page.wait_for_function('''(label) => {
               const result = document.getElementById('test-result');
               const score = document.getElementById('score-fraction');
               const row = document.querySelector('.result-list li');
-              return result && !result.hidden && score && score.textContent === '1/1' && row && row.innerText.includes('정답: ' + answer);
-            }''', arg=answer)
+              return result && !result.hidden && score && score.textContent === '1/1' && row && row.innerText.includes('정답: ' + label);
+            }''', arg=label)
             row = self.page.locator('.result-list li.is-right').inner_text()
-            self.assertIn('정답: ' + answer, row)
-            self.assertNotIn(hanzi, row)
+            self.assertIn('정답: ' + label, row)
             self.assertIn('들은 말: ' + heard_py, row)
             self.assertNotIn('(' + heard + ')', row)
-        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_pinyin_only_bai.png'))
+        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_answer_hanzi_bai.png'))
 
 
 if __name__ == '__main__':

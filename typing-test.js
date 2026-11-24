@@ -369,6 +369,15 @@
     return String((sentence ? item.examplePinyin : item.pinyin) || '').trim();
   }
 
+  function pronounceAnswerText(item, sentence) {
+    const hanzi = sentence
+      ? String((item && item.example) || '').trim()
+      : (wordForms(item)[0] || String((item && item.word) || '').trim());
+    const py = storedAnswerPinyin(item, sentence);
+    if (hanzi && py) return hanzi + ' ' + py;
+    return hanzi || py;
+  }
+
   const CN_DIGITS = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
 
   function asciiNumberText(text) {
@@ -550,7 +559,7 @@
       '<p class="heard" id="heard"></p>',
       '<div id="pronounce-fail" class="pronounce-fail" hidden>',
       '<p id="fail-title"></p>',
-      '<p id="fail-answer"></p>',
+      '<p id="fail-answer" class="zh" lang="zh-CN"></p>',
       '<p id="fail-pinyin" hidden></p>',
       '<p id="fail-heard"></p>',
       '</div>',
@@ -754,7 +763,7 @@
 
     function recordPronounce(ok, heardText, skippedByUser) {
       const item = state.queue[state.index];
-      const expected = storedAnswerPinyin(item, state.speakKind === 'sentence');
+      const expected = pronounceAnswerText(item, state.speakKind === 'sentence');
       state.answers[state.index] = {
         item: item,
         given: heardText,
@@ -783,7 +792,7 @@
             given: '',
             heard: '',
             ok: false,
-            expected: storedAnswerPinyin(missed, state.speakKind === 'sentence')
+            expected: pronounceAnswerText(missed, state.speakKind === 'sentence')
           };
         }
       }
@@ -809,7 +818,7 @@
       const sentence = state.speakKind === 'sentence';
       ui.failBox.hidden = false;
       ui.failTitle.textContent = '틀렸습니다';
-      ui.failAnswer.textContent = '정답: ' + storedAnswerPinyin(item, sentence);
+      ui.failAnswer.textContent = '정답: ' + pronounceAnswerText(item, sentence);
       ui.failPinyin.hidden = true;
       if (state.lastHeardParts && state.lastHeardParts.length) renderHeardLine(ui.failHeard, state.lastHeardParts);
       else ui.failHeard.textContent = '들은 말: ' + (heardText || '(알아듣지 못함)');
@@ -1240,9 +1249,8 @@
           ? String(row.item.translation || row.item.example || '').trim()
           : row.item.meaning;
         const expected = document.createElement('div');
-        expected.className = state.kind === 'pronounce' ? '' : 'zh';
-        if (state.kind === 'pronounce') expected.removeAttribute('lang');
-        else expected.lang = 'zh-CN';
+        expected.className = 'zh';
+        expected.lang = 'zh-CN';
         expected.textContent = '정답: ' + row.expected;
         li.append(head, prompt, expected);
         if (state.kind === 'pronounce') {
