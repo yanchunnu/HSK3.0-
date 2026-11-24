@@ -194,6 +194,123 @@
     return '';
   }
 
+  const TONE_MARKS = {
+    ā:'a', á:'a', ǎ:'a', à:'a', ē:'e', é:'e', ě:'e', è:'e',
+    ī:'i', í:'i', ǐ:'i', ì:'i', ō:'o', ó:'o', ǒ:'o', ò:'o',
+    ū:'u', ú:'u', ǔ:'u', ù:'u', ǖ:'v', ǘ:'v', ǚ:'v', ǜ:'v', ü:'v',
+    ń:'n', ň:'n', ǹ:'n', ḿ:'m'
+  };
+  const PINYIN_SYLLABLES = new Set(('a ai an ang ao ba bai ban bang bao bei ben beng bi bian biao bie bin bing bo bu ' +
+    'ca cai can cang cao ce cen ceng cha chai chan chang chao che chen cheng chi chong chou chu chua chuai chuan chuang chui chun chuo ci cong cou cu cuan cui cun cuo ' +
+    'da dai dan dang dao de dei den deng di dia dian diao die ding diu dong dou du duan dui dun duo e ei en eng er ' +
+    'fa fan fang fei fen feng fo fou fu ga gai gan gang gao ge gei gen geng gong gou gu gua guai guan guang gui gun guo ' +
+    'ha hai han hang hao he hei hen heng hong hou hu hua huai huan huang hui hun huo ' +
+    'ji jia jian jiang jiao jie jin jing jiong jiu ju juan jue jun ka kai kan kang kao ke ken keng kong kou ku kua kuai kuan kuang kui kun kuo ' +
+    'la lai lan lang lao le lei leng li lia lian liang liao lie lin ling liu lo long lou lu lv lve luan lun luo ' +
+    'ma mai man mang mao me mei men meng mi mian miao mie min ming miu mo mou mu ' +
+    'na nai nan nang nao ne nei nen neng ng ni nian niang niao nie nin ning niu nong nou nu nv nve nuan nun nuo ' +
+    'o ou pa pai pan pang pao pei pen peng pi pian piao pie pin ping po pou pu ' +
+    'qi qia qian qiang qiao qie qin qing qiong qiu qu quan que qun ' +
+    'ran rang rao re ren reng ri rong rou ru rua ruan rui run ruo ' +
+    'sa sai san sang sao se sen seng sha shai shan shang shao she shei shen sheng shi shou shu shua shuai shuan shuang shui shun shuo si song sou su suan sui sun suo ' +
+    'ta tai tan tang tao te tei teng ti tian tiao tie ting tong tou tu tuan tui tun tuo ' +
+    'wa wai wan wang wei wen weng wo wu xi xia xian xiang xiao xie xin xing xiong xiu xu xuan xue xun ' +
+    'ya yan yang yao ye yi yin ying yo yong you yu yuan yue yun ' +
+    'za zai zan zang zao ze zei zen zeng zha zhai zhan zhang zhao zhe zhei zhen zheng zhi zhong zhou zhu zhua zhuai zhuan zhuang zhui zhun zhuo zi zong zou zu zuan zui zun zuo'
+  ).split(' '));
+
+  function normalizePinyin(value) {
+    let out = '';
+    for (const ch of String(value || '').toLowerCase()) out += TONE_MARKS[ch] || ch;
+    return out;
+  }
+
+  function tonelessLetters(value) {
+    return normalizePinyin(value).replace(/[^a-z]/g, '');
+  }
+
+  function segmentLetters(letters) {
+    const memo = new Array(letters.length + 1);
+    function walk(index) {
+      if (index === letters.length) return [];
+      if (memo[index] !== undefined) return memo[index];
+      const max = Math.min(6, letters.length - index);
+      for (let len = max; len >= 1; len--) {
+        const piece = letters.slice(index, index + len);
+        if (!PINYIN_SYLLABLES.has(piece)) continue;
+        const rest = walk(index + len);
+        if (rest) {
+          memo[index] = [piece].concat(rest);
+          return memo[index];
+        }
+      }
+      if (letters.charAt(index) === 'r') {
+        const rest = walk(index + 1);
+        if (rest) {
+          memo[index] = ['er'].concat(rest);
+          return memo[index];
+        }
+      }
+      memo[index] = null;
+      return null;
+    }
+    return walk(0);
+  }
+
+  function pinyinChunks(value) {
+    return normalizePinyin(value).split(/[^a-z]+/).filter(Boolean);
+  }
+
+  function pinyinResidue(value) {
+    let residue = '';
+    pinyinChunks(value).forEach(function (chunk) {
+      const letters = tonelessLetters(chunk);
+      if (letters && !segmentLetters(letters)) residue += letters;
+    });
+    return residue;
+  }
+
+  function segmentPinyin(value) {
+    const syllables = [];
+    pinyinChunks(value).forEach(function (chunk) {
+      const parts = segmentLetters(tonelessLetters(chunk));
+      if (parts) syllables.push.apply(syllables, parts);
+    });
+    return syllables;
+  }
+
+  function baseSyllable(syllable) {
+    return String(syllable || '').replace(/(?:ng|n)$/, '');
+  }
+
+  function sameSyllables(left, right) {
+    if (!left || !right || left.length !== right.length || !left.length) return false;
+    for (let i = 0; i < left.length; i++) if (left[i] !== right[i]) return false;
+    return true;
+  }
+
+  function singleHan(value) {
+    return /^\p{Script=Han}$/u.test(normalizePronunciation(value, true));
+  }
+
+  function pronunciationLenientMatch(item, transcripts, kind, syllablesOf) {
+    if (pronunciationAnyMatch(item, transcripts, kind)) return true;
+    if (typeof syllablesOf !== 'function') return false;
+    const target = segmentPinyin(kind === 'sentence' ? item.examplePinyin : item.pinyin);
+    if (!target.length) return false;
+    return (transcripts || []).some(function (text) {
+      const heard = syllablesOf(text);
+      if (!heard || !heard.length) return false;
+      const normalized = heard.map(tonelessLetters).filter(Boolean);
+      if (sameSyllables(target, normalized)) return true;
+      if (kind !== 'sentence' && target.length === 1 && normalized.length === 1 && singleHan(text)) {
+        const base = baseSyllable(target[0]);
+        return !!base && base === baseSyllable(normalized[0]);
+      }
+      return false;
+    });
+  }
+
   function mount(data) {
     const items = (data || []).filter(function (item) { return item && Number.isInteger(item.no); });
     const headerWrap = document.querySelector('header .wrap');
@@ -248,8 +365,15 @@
       '<div id="pronounce-panel" hidden>',
       '<p class="try-count" id="try-count"></p>',
       '<button type="button" id="mic-button">🎤 읽기</button>',
+      '<button type="button" id="pronounce-skip" class="secondary">건너뛰기</button>',
       '<p class="heard" id="heard"></p>',
-      '<p class="mic-hint" id="mic-hint">마이크 버튼을 누르면 읽기가 시작됩니다. 권한을 물어보면 허용해 주세요.</p>',
+      '<div id="pronounce-fail" class="pronounce-fail" hidden>',
+      '<p id="fail-title"></p>',
+      '<p id="fail-answer" class="zh" lang="zh-CN"></p>',
+      '<p id="fail-pinyin"></p>',
+      '<p id="fail-heard" class="zh" lang="zh-CN"></p>',
+      '</div>',
+      '<p class="mic-hint" id="mic-hint">마이크 버튼을 누르면 읽기가 시작됩니다. 권한을 물어보면 허용해 주세요. 건너뛰기는 오답으로 남습니다.</p>',
       '</div>',
       '<p class="enter-note" id="enter-note"></p>',
       '<div class="test-actions" id="typing-actions">',
@@ -285,7 +409,13 @@
       pronouncePanel: document.getElementById('pronounce-panel'),
       tryCount: document.getElementById('try-count'),
       mic: document.getElementById('mic-button'),
+      skip: document.getElementById('pronounce-skip'),
       heard: document.getElementById('heard'),
+      failBox: document.getElementById('pronounce-fail'),
+      failTitle: document.getElementById('fail-title'),
+      failAnswer: document.getElementById('fail-answer'),
+      failPinyin: document.getElementById('fail-pinyin'),
+      failHeard: document.getElementById('fail-heard'),
       typingActions: document.getElementById('typing-actions'),
       setup: document.getElementById('test-setup'),
       run: document.getElementById('test-run'),
@@ -333,7 +463,10 @@
       speakKind: 'word',
       tries: 0,
       listening: false,
-      recognition: null
+      recognition: null,
+      answerLocked: false,
+      advanceToken: 0,
+      advanceTimer: null
     };
 
     ui.startInput.max = String(total);
@@ -365,6 +498,7 @@
         state.kind = mode;
         showSetup();
       } else {
+        cancelAdvance();
         stopRecognition();
       }
     }
@@ -427,14 +561,29 @@
       ui.support.textContent = '마이크 사용을 허용해 주세요. 브라우저에서 마이크를 허용한 뒤 다시 🎤 읽기를 눌러 주세요.';
     }
 
-    function settlePronounce(ok, heardText) {
+    function cancelAdvance() {
+      state.advanceToken += 1;
+      clearTimeout(state.advanceTimer);
+      state.advanceTimer = null;
+    }
+
+    function recordPronounce(ok, heardText, skippedByUser) {
       const item = state.queue[state.index];
       const expected = state.speakKind === 'sentence' ? item.example : displayWord(item);
-      state.answers[state.index] = {item: item, given: heardText, heard: heardText, ok: ok, expected: expected};
+      state.answers[state.index] = {
+        item: item,
+        given: heardText,
+        heard: heardText,
+        ok: ok,
+        expected: expected,
+        skippedByUser: !!skippedByUser
+      };
       if (ok) state.correctCount += 1;
-      ui.lastMark.textContent = (ok ? '맞았습니다' : '틀렸습니다') + ' · 들은 말: ' + (heardText || '(알아듣지 못함)');
-      ui.lastMark.className = 'last-mark ' + (ok ? 'is-right' : 'is-wrong');
-      stopRecognition();
+    }
+
+    function goNextPronounce() {
+      cancelAdvance();
+      if (state.phase !== 'question' || state.kind !== 'pronounce') return;
       if (state.index + 1 < state.queue.length) {
         state.index += 1;
         showQuestion();
@@ -448,27 +597,74 @@
             given: '',
             heard: '',
             ok: false,
-            expected: state.speakKind === 'sentence' ? missed.example : displayWord(missed),
-            skipped: true
+            expected: state.speakKind === 'sentence' ? missed.example : displayWord(missed)
           };
         }
       }
       showResults();
     }
 
-    function judgePronunciation(alts) {
+    function scheduleAdvance() {
+      const token = ++state.advanceToken;
+      clearTimeout(state.advanceTimer);
+      state.advanceTimer = setTimeout(function () {
+        if (token !== state.advanceToken) return;
+        goNextPronounce();
+      }, 1700);
+    }
+
+    function showMissed(item, heardText) {
+      const sentence = state.speakKind === 'sentence';
+      ui.failBox.hidden = false;
+      ui.failTitle.textContent = '틀렸습니다';
+      ui.failAnswer.textContent = '정답: ' + (sentence ? item.example : displayWord(item));
+      ui.failPinyin.textContent = '병음: ' + (sentence ? (item.examplePinyin || '') : (item.pinyin || ''));
+      ui.failHeard.textContent = '들은 말: ' + (heardText || '(알아듣지 못함)');
+      ui.mic.disabled = true;
+    }
+
+    function settlePronounce(ok, heardText, skippedByUser) {
+      if (state.answerLocked || state.phase !== 'question' || state.kind !== 'pronounce') return;
+      state.answerLocked = true;
+      recordPronounce(ok, heardText, skippedByUser);
+      stopRecognition();
+      if (!ok && !skippedByUser) {
+        showMissed(state.queue[state.index], heardText);
+        ui.lastMark.textContent = '틀렸습니다 · 들은 말: ' + (heardText || '(알아듣지 못함)');
+        ui.lastMark.className = 'last-mark is-wrong';
+        scheduleAdvance();
+        return;
+      }
+      ui.failBox.hidden = true;
+      ui.lastMark.textContent = (ok ? '맞았습니다' : '건너뜀') + (heardText ? ' · 들은 말: ' + heardText : '');
+      ui.lastMark.className = 'last-mark ' + (ok ? 'is-right' : 'is-wrong');
+      goNextPronounce();
+    }
+
+    function skipPronounce() {
       if (state.phase !== 'question' || state.kind !== 'pronounce') return;
+      if (state.answerLocked) {
+        cancelAdvance();
+        goNextPronounce();
+        return;
+      }
+      const heard = (ui.heard.textContent || '').replace(/^들은 말:\s*/, '');
+      settlePronounce(false, heard && heard !== '알아듣지 못했습니다. 다시 읽어 주세요.' ? heard : '', true);
+    }
+
+    function judgePronunciation(alts) {
+      if (state.answerLocked || state.phase !== 'question' || state.kind !== 'pronounce') return;
       if (!alts.length) {
         ui.heard.textContent = '알아듣지 못했습니다. 다시 읽어 주세요.';
         return;
       }
       const item = state.queue[state.index];
       const heardText = alts.join(' / ');
-      const ok = pronunciationAnyMatch(item, alts, state.speakKind);
+      const ok = pronunciationLenientMatch(item, alts, state.speakKind, syllablesOfHeard);
       state.tries += 1;
       ui.heard.textContent = '들은 말: ' + heardText;
       if (ok || state.tries >= 3) {
-        settlePronounce(ok, heardText);
+        settlePronounce(ok, heardText, false);
         return;
       }
       ui.lastMark.textContent = '알아듣지 못했습니다. 다시 읽어 주세요. (' + state.tries + '/3)';
@@ -476,8 +672,30 @@
       ui.tryCount.textContent = '남은 기회 ' + (3 - state.tries) + '번';
     }
 
+    function syllablesOfHeard(text) {
+      const api = window.pinyinPro;
+      if (!api || typeof api.pinyin !== 'function') return null;
+      try {
+        const parts = api.pinyin(text, {toneType: 'none', type: 'array', nonZh: 'removed'});
+        if (!parts || !parts.length) return null;
+        return parts.map(tonelessLetters).filter(Boolean);
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function loadPinyinPro() {
+      if (window.pinyinPro && typeof window.pinyinPro.pinyin === 'function') return;
+      if (document.getElementById('pinyin-pro-lib')) return;
+      const script = document.createElement('script');
+      script.id = 'pinyin-pro-lib';
+      script.async = true;
+      script.src = 'https://cdn.jsdelivr.net/npm/pinyin-pro@3.29.5/dist/index.js';
+      document.head.appendChild(script);
+    }
+
     function startListening() {
-      if (state.listening || state.phase !== 'question' || state.kind !== 'pronounce') return;
+      if (state.answerLocked || state.listening || state.phase !== 'question' || state.kind !== 'pronounce') return;
       const blocker = currentBlocker();
       if (blocker) {
         updateSupportNotice();
@@ -487,7 +705,7 @@
       const recog = new Ctor();
       recog.lang = 'zh-CN';
       recog.interimResults = false;
-      recog.maxAlternatives = 3;
+      recog.maxAlternatives = 5;
       recog.continuous = false;
       state.recognition = recog;
       state.listening = true;
@@ -535,6 +753,7 @@
     }
 
     function showSetup() {
+      cancelAdvance();
       stopRecognition();
       state.phase = 'setup';
       ui.setup.hidden = false;
@@ -544,7 +763,7 @@
       ui.pronounceKind.hidden = !pronounce;
       ui.title.textContent = state.kind === 'word' ? '단어 시험' : state.kind === 'sentence' ? '예문 시험' : '발음 시험';
       ui.help.textContent = pronounce
-        ? '화면에 나온 한자나 예문을 소리 내어 읽습니다. 채점은 느슨합니다. 인공지능이 알아들었는지만 확인하며, 성조를 정확하게 채점하지 않습니다. 한 문제당 3번까지 다시 읽을 수 있습니다.'
+        ? '화면에 나온 한자나 예문을 소리 내어 읽습니다. 채점은 느슨합니다. 인공지능이 알아들었는지만 확인하며, 성조를 정확하게 채점하지 않습니다. 한 글자 단어는 비슷한 소리도 맞을 수 있습니다. 한 문제당 3번까지 다시 읽을 수 있고, 세 번 모두 틀리면 정답을 잠시 보여 준 뒤 다음 문제로 넘어갑니다.'
         : state.kind === 'word'
           ? '한국어 뜻만 보여 줍니다. 그 번호의 한자를 입력하면 맞았는지 틀렸는지 표시합니다.'
           : '예문의 한국어 해석만 보여 줍니다. 중국어 문장을 입력하세요. 띄어쓰기는 보지 않고, 전각과 반각 문장부호는 같게 봅니다. 끝 문장부호는 빼도 맞습니다. 한국어 해석이 없는 항목은 건너뛰고 알려 줍니다.';
@@ -599,6 +818,7 @@
     }
 
     function begin() {
+      cancelAdvance();
       stopRecognition();
       const plan = currentPlan();
       if (!plan || !plan.queue.length || ui.startBtn.disabled) {
@@ -625,7 +845,9 @@
       const item = state.queue[state.index];
       const last = state.index + 1 === state.queue.length;
       const pronounce = state.kind === 'pronounce';
+      cancelAdvance();
       stopRecognition();
+      state.answerLocked = false;
       state.tries = 0;
       ui.progress.textContent = '문제 ' + (state.index + 1) + ' / ' + state.queue.length;
       ui.meta.textContent = item.no + '번';
@@ -641,9 +863,11 @@
         ui.prompt.textContent = sentence ? item.example : (wordForms(item)[0] || item.word);
         ui.prompt.classList.toggle('is-sentence', sentence);
         ui.heard.textContent = '';
+        ui.failBox.hidden = true;
         ui.tryCount.textContent = '기회 3번';
         ui.mic.disabled = false;
         ui.mic.textContent = '🎤 읽기';
+        ui.skip.disabled = false;
       } else {
         ui.prompt.textContent = state.kind === 'word' ? item.meaning : item.translation.trim();
         ui.prompt.classList.toggle('is-sentence', state.kind === 'sentence');
@@ -710,6 +934,7 @@
     }
 
     function showResults() {
+      cancelAdvance();
       stopRecognition();
       state.phase = 'result';
       ui.run.hidden = true;
@@ -727,7 +952,7 @@
         li.className = row.ok ? 'is-right' : 'is-wrong';
         const head = document.createElement('div');
         head.className = 'result-key';
-        head.textContent = (row.ok ? '정답' : '오답') + ' · ' + row.item.no + '번';
+        head.textContent = (row.ok ? '정답' : row.skippedByUser ? '건너뜀' : '오답') + ' · ' + row.item.no + '번';
         const prompt = document.createElement('div');
         prompt.className = 'result-prompt';
         prompt.textContent = state.kind === 'sentence' || (state.kind === 'pronounce' && state.speakKind === 'sentence')
@@ -742,7 +967,7 @@
           const heard = document.createElement('div');
           heard.className = 'zh result-mine';
           heard.lang = 'zh-CN';
-          heard.textContent = '들은 말: ' + (row.heard || row.given || '(알아듣지 못함)');
+          heard.textContent = '들은 말: ' + (row.heard || (row.skippedByUser ? '(건너뜀)' : '(알아듣지 못함)'));
           li.appendChild(heard);
         } else if (!row.ok) {
           const mine = document.createElement('div');
@@ -764,6 +989,8 @@
     ui.pronounceWord.addEventListener('click', function () { setSpeakKind('word'); });
     ui.pronounceSentence.addEventListener('click', function () { setSpeakKind('sentence'); });
     ui.mic.addEventListener('click', startListening);
+    ui.skip.addEventListener('click', skipPronounce);
+    loadPinyinPro();
     ui.startInput.addEventListener('input', refreshRange);
     ui.endInput.addEventListener('input', refreshRange);
     ui.startBtn.addEventListener('click', begin);
@@ -810,6 +1037,10 @@
     pronunciationMatches: pronunciationMatches,
     pronunciationAnyMatch: pronunciationAnyMatch,
     pronunciationBlocker: pronunciationBlocker,
-    pronunciationSupportMessage: pronunciationSupportMessage
+    pronunciationSupportMessage: pronunciationSupportMessage,
+    segmentPinyin: segmentPinyin,
+    pinyinResidue: pinyinResidue,
+    pronunciationLenientMatch: pronunciationLenientMatch,
+    baseSyllable: baseSyllable
   };
 });
