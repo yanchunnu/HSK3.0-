@@ -291,10 +291,6 @@
     return true;
   }
 
-  function singleHan(value) {
-    return /^\p{Script=Han}$/u.test(normalizePronunciation(value, true));
-  }
-
   // Long sentences may drop or add a syllable. 90% of the longer sequence
   // matching in order still counts. Shorter sentences must match exactly.
   const LONG_SENTENCE_MIN_SYLLABLES = 8;
@@ -323,14 +319,35 @@
     return (heard || []).map(tonelessLetters).filter(Boolean);
   }
 
-  function pinyinAlternativeMatches(target, normalized, kind, text) {
+  // Single-syllable answers only. Final n/ng is ignored, so in≡ing, en≡eng,
+  // and 您 (nin) matches ni or ning. Retroflex initials match the plain pair.
+  const SINGLE_SYLLABLE_SOUND_EQUIVALENCE = {
+    ignoreFinalNasal: true,
+    initialAliases: [['zh', 'z'], ['ch', 'c'], ['sh', 's']]
+  };
+
+  function singleSyllableKey(syllable) {
+    let text = tonelessLetters(syllable);
+    if (!text) return '';
+    const aliases = SINGLE_SYLLABLE_SOUND_EQUIVALENCE.initialAliases;
+    for (let i = 0; i < aliases.length; i++) {
+      if (text.indexOf(aliases[i][0]) === 0) {
+        text = aliases[i][1] + text.slice(aliases[i][0].length);
+        break;
+      }
+    }
+    if (SINGLE_SYLLABLE_SOUND_EQUIVALENCE.ignoreFinalNasal) text = text.replace(/(?:ng|n)$/, '');
+    return text;
+  }
+
+  function pinyinAlternativeMatches(target, normalized, kind) {
     if (sameSyllables(target, normalized)) return true;
     if (kind === 'sentence' && sentenceSyllablesClose(target, normalized)) return true;
-    // One-syllable words: a single character may match the base syllable
-    // (nín, nǐ, and níng all share "ni"). Recognizers often change the nasal.
-    if (kind !== 'sentence' && target.length === 1 && normalized.length === 1 && singleHan(text)) {
-      const base = baseSyllable(target[0]);
-      return !!base && base === baseSyllable(normalized[0]);
+    // One syllable: any syllable in the guess may carry the sound ("nin hao" still passes for 您).
+    if (kind !== 'sentence' && target.length === 1) {
+      const wanted = singleSyllableKey(target[0]);
+      if (!wanted) return false;
+      return normalized.some(function (syllable) { return singleSyllableKey(syllable) === wanted; });
     }
     return false;
   }
@@ -357,7 +374,7 @@
         const heard = syllablesOf(list[i]);
         if (!heard || !heard.length) continue;
         sawPinyin = true;
-        if (pinyinAlternativeMatches(target, normalizeHeardSyllables(heard), kind, list[i])) return true;
+        if (pinyinAlternativeMatches(target, normalizeHeardSyllables(heard), kind)) return true;
       }
     }
     // pinyin-pro missing or unable to read the guess: compare characters instead.
@@ -417,7 +434,9 @@
       '<input id="typing-answer" type="text" lang="zh-CN" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="next">',
       '<p class="tally" id="tally"></p>',
       '<div id="pronounce-panel" hidden>',
+      '<p class="repeat-hint" id="repeat-hint" hidden></p>',
       '<p class="try-count" id="try-count"></p>',
+      '<p class="mic-status" id="mic-status" aria-live="polite"></p>',
       '<button type="button" id="mic-button">🎤 읽기</button>',
       '<button type="button" id="pronounce-skip" class="secondary">건너뛰기</button>',
       '<p class="heard" id="heard"></p>',
@@ -462,6 +481,8 @@
       support: document.getElementById('pronounce-support'),
       pronouncePanel: document.getElementById('pronounce-panel'),
       tryCount: document.getElementById('try-count'),
+      repeatHint: document.getElementById('repeat-hint'),
+      micStatus: document.getElementById('mic-status'),
       mic: document.getElementById('mic-button'),
       skip: document.getElementById('pronounce-skip'),
       heard: document.getElementById('heard'),
@@ -596,15 +617,17 @@
       try { recog.abort(); } catch (error) {}
     }
 
-    function transcriptsOf(event) {
+      function transcriptsOf(event) {
       const out = [];
       const results = event && event.results;
-      if (!results || !results.length) return out;
-      const row = results[0];
-      const count = typeof row.length === 'number' ? row.length : 0;
-      for (let i = 0; i < count; i++) {
-        const text = row[i] && row[i].transcript ? String(row[i].transcript).trim() : '';
-        if (text) out.push(text);
+      if (!results) return out;
+      for (let r = 0; r < results.length; r++) {
+        const row = results[r];
+        const count = row && typeof row.length === 'number' ? row.length : 0;
+        for (let i = 0; i < count; i++) {
+          const text = row[i] && row[i].transcript ? String(row[i].transcript).trim() : '';
+          if (text && out.indexOf(text) === -1) out.push(text);
+        }
       }
       return out;
     }
@@ -740,11 +763,20 @@
       });
       const heardText = formatHeardList(parts);
       state.lastHeardParts = parts;
-      const ok = pronunciationLenientMatch(item, alts, state.speakKind, syllablesOfHeard);
-      state.tries += 1;
       renderHeardLine(ui.heard, parts);
-      if (ok || state.tries >= 3) {
-        settlePronounce(ok, heardText, false);
+      if (pronunciationLenientMatch(item, alts, state.speakKind, syllablesOfHeard)) {
+        settlePronounce(true, heardText, false);
+        return true;
+      }
+      return false;
+    }
+
+    function countPronounceMiss() {
+      if (state.answerLocked || state.phase !== 'question') return;
+      const heardText = formatHeardList(state.lastHeardParts || []);
+      state.tries += 1;
+      if (state.tries >= 3) {
+        settlePronounce(false, heardText, false);
         return;
       }
       ui.lastMark.textContent = '알아듣지 못했습니다. 다시 읽어 주세요. (' + state.tries + '/3)';
@@ -781,30 +813,50 @@
         updateSupportNotice();
         return;
       }
+      primeReadyBeep();
       const Ctor = window.SpeechRecognition || window.webkitSpeechRecognition;
       const recog = new Ctor();
       recog.lang = 'zh-CN';
-      recog.interimResults = false;
+      recog.interimResults = true;
       recog.maxAlternatives = 5;
       recog.continuous = false;
       state.recognition = recog;
       state.listening = true;
+      state.micReady = false;
+      state.lastAlts = [];
       ui.mic.disabled = true;
-      ui.mic.textContent = '듣는 중…';
+      ui.mic.classList.add('is-arming');
+      ui.mic.textContent = '준비 중…';
+      ui.micStatus.textContent = '마이크를 준비하는 중입니다. 소리가 난 뒤에 읽어 주세요.';
       let settled = false;
+      let ended = false;
       function finish() {
         if (settled) return;
         settled = true;
         state.listening = false;
         if (ui.mic) {
           ui.mic.disabled = false;
+          ui.mic.classList.remove('is-arming', 'is-listening');
           ui.mic.textContent = '🎤 읽기';
         }
       }
+      function markReady() {
+        if (state.micReady || state.answerLocked) return;
+        state.micReady = true;
+        ui.mic.classList.remove('is-arming');
+        ui.mic.classList.add('is-listening');
+        ui.mic.textContent = '듣는 중…';
+        ui.micStatus.textContent = '지금 읽어 주세요.';
+        playReadyBeep();
+      }
+      recog.onaudiostart = markReady;
+      recog.onstart = markReady;
       recog.onresult = function (event) {
+        if (state.answerLocked) return;
         const alts = transcriptsOf(event);
-        finish();
-        judgePronunciation(alts);
+        if (!alts.length) return;
+        state.lastAlts = alts;
+        if (judgePronunciation(alts)) stopRecognition();
       };
       recog.onerror = function (event) {
         const code = event && event.error;
@@ -813,6 +865,7 @@
           return;
         }
         finish();
+        ui.micStatus.textContent = '';
         if (code === 'not-allowed' || code === 'service-not-allowed') {
           showPermissionNotice();
           return;
@@ -822,14 +875,52 @@
           : '음성 인식을 시작하지 못했습니다. 다시 시도해 주세요.';
       };
       recog.onend = function () {
-        if (state.listening) finish();
+        if (ended) return;
+        ended = true;
+        const hadSpeech = state.lastAlts && state.lastAlts.length;
+        finish();
+        if (state.answerLocked) return;
+        ui.micStatus.textContent = '';
+        if (!hadSpeech) {
+          ui.heard.textContent = '알아듣지 못했습니다. 다시 읽어 주세요.';
+          return;
+        }
+        countPronounceMiss();
       };
       try {
         recog.start();
       } catch (error) {
         finish();
+        ui.micStatus.textContent = '';
         ui.heard.textContent = '음성 인식을 시작하지 못했습니다. 다시 시도해 주세요.';
       }
+    }
+
+    function primeReadyBeep() {
+      const Ctx = window.AudioContext || window.webkitAudioContext;
+      if (!Ctx) return;
+      try {
+        if (!state.audioCtx) state.audioCtx = new Ctx();
+        if (state.audioCtx.state === 'suspended') state.audioCtx.resume();
+      } catch (error) {}
+    }
+
+    function playReadyBeep() {
+      const ctx = state.audioCtx;
+      if (!ctx) return;
+      try {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        const now = ctx.currentTime;
+        osc.frequency.value = 880;
+        gain.gain.setValueAtTime(0.0001, now);
+        gain.gain.exponentialRampToValueAtTime(0.06, now + 0.02);
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.12);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.13);
+      } catch (error) {}
     }
 
     function showSetup() {
@@ -942,8 +1033,16 @@
         const sentence = state.speakKind === 'sentence';
         ui.prompt.textContent = sentence ? item.example : (wordForms(item)[0] || item.word);
         ui.prompt.classList.toggle('is-sentence', sentence);
+        const oneSyllable = !sentence && segmentPinyin(item.pinyin).length === 1;
+        ui.repeatHint.hidden = !oneSyllable;
+        ui.repeatHint.textContent = oneSyllable
+          ? '한 글자 단어는 두 번 연달아 읽어 주세요 (예: ' + ui.prompt.textContent + ui.prompt.textContent + ')'
+          : '';
         state.lastHeardParts = null;
+        state.lastAlts = [];
         ui.heard.textContent = '';
+        ui.micStatus.textContent = '';
+        ui.mic.classList.remove('is-arming', 'is-listening');
         ui.failBox.hidden = true;
         ui.tryCount.textContent = '기회 3번';
         ui.mic.disabled = false;

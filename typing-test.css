@@ -22,6 +22,10 @@ body.typing-test-active #list { display:none !important; }
   width:100%; min-height:64px; margin-top:8px; border:0; border-radius:14px; background:var(--blue,#174ea6);
   color:white; font-size:22px; font-weight:800; cursor:pointer;
 }
+#mic-button.is-listening { box-shadow:0 0 0 6px #174ea633; }
+#mic-button.is-arming { opacity:.8; }
+#typing-test .repeat-hint { margin:0 0 8px; color:#174ea6; font-weight:800; line-height:1.5; word-break:keep-all; }
+#typing-test .mic-status { min-height:1.4em; margin:0 0 8px; font-weight:800; color:#0b6b45; word-break:keep-all; }
 #mic-button:disabled { opacity:.6; cursor:wait; }
 #pronounce-skip {
   width:100%; min-height:48px; margin-top:8px; border:1px solid #a9c3df; border-radius:12px;
