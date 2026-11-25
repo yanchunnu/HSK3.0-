@@ -182,6 +182,17 @@
     });
   }
 
+  function shouldOfferChrome(ua) {
+    const text = String(ua || '');
+    if (!/Android/i.test(text)) return false;
+    if (/SamsungBrowser/i.test(text)) return true;
+    return /; wv\)/.test(text);
+  }
+
+  function chromeIntentHref(host, pathname, search) {
+    return 'intent://' + host + pathname + (search || '') + '#Intent;scheme=https;package=com.android.chrome;end';
+  }
+
   function pronunciationBlocker(env) {
     if (!env || !env.hasRecognition) return env && env.samsung ? 'samsung' : 'unsupported';
     if (!env.secure) return 'insecure';
@@ -560,6 +571,10 @@
       '<button type="button" id="pronounce-sentence" aria-pressed="false">예문</button>',
       '</div>',
       '<p id="pronounce-support" class="pronounce-support" hidden></p>',
+      '<div id="chrome-open" class="pronounce-support" hidden>',
+      '<p>음성 인식은 크롬에서 가장 잘 돼요. 아래 버튼으로 크롬에서 열어 주세요.</p>',
+      '<a id="chrome-open-link" href="#">크롬으로 열기</a>',
+      '</div>',
       '<p id="mic-permission-help" class="mic-hint" hidden>' + MIC_HELP + '</p>',
       '<div id="test-setup">',
       '<p class="test-help" id="test-help"></p>',
@@ -627,6 +642,8 @@
       pronounceWord: document.getElementById('pronounce-word'),
       pronounceSentence: document.getElementById('pronounce-sentence'),
       support: document.getElementById('pronounce-support'),
+      chromeOpen: document.getElementById('chrome-open'),
+      chromeOpenLink: document.getElementById('chrome-open-link'),
       micHelp: document.getElementById('mic-permission-help'),
       pronouncePanel: document.getElementById('pronounce-panel'),
       tryCount: document.getElementById('try-count'),
@@ -726,6 +743,16 @@
         cancelAdvance();
         stopRecognition();
       }
+      updateChromeOffer();
+    }
+
+    function updateChromeOffer() {
+      const ua = typeof navigator !== 'undefined' ? navigator.userAgent : '';
+      const offer = state.mode === 'pronounce' && shouldOfferChrome(ua);
+      if (!ui.chromeOpen) return;
+      ui.chromeOpen.hidden = !offer;
+      if (!offer || !ui.chromeOpenLink || typeof location === 'undefined') return;
+      ui.chromeOpenLink.href = chromeIntentHref(location.host, location.pathname, location.search);
     }
 
     function rangeLabel(item) {
@@ -1382,6 +1409,8 @@
     pronunciationMatches: pronunciationMatches,
     pronunciationAnyMatch: pronunciationAnyMatch,
     pronunciationBlocker: pronunciationBlocker,
+    shouldOfferChrome: shouldOfferChrome,
+    chromeIntentHref: chromeIntentHref,
     pronunciationSupportMessage: pronunciationSupportMessage,
     segmentPinyin: segmentPinyin,
     pinyinResidue: pinyinResidue,

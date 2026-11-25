@@ -126,6 +126,19 @@ function testPronunciation() {
   assert.strictEqual(api.pronunciationBlocker({secure: true, hasRecognition: true}), '');
   assert.ok(api.pronunciationSupportMessage('samsung').includes('삼성 인터넷'));
   assert.ok(api.pronunciationSupportMessage('samsung').includes('Chrome'));
+  const chromeUa = 'Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36';
+  const samsungUa = 'Mozilla/5.0 (Linux; Android 14; SM-S918N) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/26.0 Chrome/120.0.0.0 Mobile Safari/537.36';
+  const webviewUa = 'Mozilla/5.0 (Linux; Android 14; SM-S918N; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.0.0 Mobile Safari/537.36';
+  const iosUa = 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1';
+  assert.strictEqual(api.shouldOfferChrome(samsungUa), true);
+  assert.strictEqual(api.shouldOfferChrome(webviewUa), true);
+  assert.strictEqual(api.shouldOfferChrome(chromeUa), false);
+  assert.strictEqual(api.shouldOfferChrome(iosUa), false);
+  assert.strictEqual(api.shouldOfferChrome('Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/131.0.0.0'), false);
+  assert.strictEqual(
+    api.chromeIntentHref('yanchunnu.github.io', '/HSK3.0-/level2.html', '?v=1'),
+    'intent://yanchunnu.github.io/HSK3.0-/level2.html?v=1#Intent;scheme=https;package=com.android.chrome;end'
+  );
   assert.ok(api.pronunciationSupportMessage('unsupported').includes('Chrome'));
   assert.ok(api.pronunciationSupportMessage('unsupported').includes('Safari'));
   assert.ok(api.pronunciationSupportMessage('unsupported').includes('카카오톡'));

@@ -18,6 +18,11 @@ body.typing-test-active #list { display:none !important; }
 }
 #typing-test .pronounce-kind button[aria-pressed="true"] { background:var(--blue,#174ea6); border-color:var(--blue,#174ea6); color:white; }
 #typing-test .pronounce-support { margin:0 0 12px; padding:10px 12px; border-radius:10px; background:#fff4d6; color:#735c0f; font-size:14px; line-height:1.55; font-weight:700; word-break:keep-all; }
+#chrome-open p { margin:0 0 8px; }
+#chrome-open a {
+  display:inline-block; margin-top:2px; padding:10px 14px; border-radius:10px;
+  background:var(--blue,#174ea6); color:white; text-decoration:none; font-weight:800;
+}
 #mic-button {
   width:100%; min-height:64px; margin-top:8px; border:0; border-radius:14px; background:var(--blue,#174ea6);
   color:white; font-size:22px; font-weight:800; cursor:pointer;
