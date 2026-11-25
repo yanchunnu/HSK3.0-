@@ -182,6 +182,29 @@
     });
   }
 
+  function isAndroidChrome(ua) {
+    const text = String(ua || '');
+    if (!/Android/i.test(text)) return false;
+    if (/SamsungBrowser/i.test(text) || /; wv\)/.test(text)) return false;
+    if (/EdgA\/|Edg\/|OPR\/|Opera Mini|Firefox\//i.test(text)) return false;
+    return /Chrome\/[\d.]+/.test(text);
+  }
+
+  function shouldOfferChrome(ua, hasRecognition) {
+    const text = String(ua || '');
+    if (!/Android/i.test(text) || isAndroidChrome(text)) return false;
+    if (/SamsungBrowser/i.test(text) || /; wv\)/.test(text)) return true;
+    return !hasRecognition;
+  }
+
+  function chromeIntentHref(pathname, search) {
+    const path = String(pathname || '');
+    const marker = '/HSK3.0-/';
+    const at = path.indexOf(marker);
+    const rest = at >= 0 ? path.slice(at + marker.length) : path.replace(/^\/+/, '');
+    return 'intent://yanchunnu.github.io/HSK3.0-/' + rest + (search || '') + '#Intent;scheme=https;package=com.android.chrome;end';
+  }
+
   function pronunciationBlocker(env) {
     if (!env || !env.hasRecognition) return env && env.samsung ? 'samsung' : 'unsupported';
     if (!env.secure) return 'insecure';
@@ -560,6 +583,10 @@
       '<button type="button" id="pronounce-sentence" aria-pressed="false">예문</button>',
       '</div>',
       '<p id="pronounce-support" class="pronounce-support" hidden></p>',
+      '<div id="chrome-open" class="pronounce-support" hidden>',
+      '<p>음성 인식은 크롬에서 가장 잘 돼요. 아래 버튼으로 크롬에서 열어 주세요.</p>',
+      '<a id="chrome-open-link" href="#">크롬으로 열기</a>',
+      '</div>',
       '<p id="mic-permission-help" class="mic-hint" hidden>' + MIC_HELP + '</p>',
       '<div id="test-setup">',
       '<p class="test-help" id="test-help"></p>',
@@ -627,6 +654,8 @@
       pronounceWord: document.getElementById('pronounce-word'),
       pronounceSentence: document.getElementById('pronounce-sentence'),
       support: document.getElementById('pronounce-support'),
+      chromeOpen: document.getElementById('chrome-open'),
+      chromeOpenLink: document.getElementById('chrome-open-link'),
       micHelp: document.getElementById('mic-permission-help'),
       pronouncePanel: document.getElementById('pronounce-panel'),
       tryCount: document.getElementById('try-count'),
@@ -718,6 +747,7 @@
       ui.modePronounce.setAttribute('aria-selected', String(mode === 'pronounce'));
       test.hidden = !testing;
       setStudyHidden(testing);
+      updateChromeOffer();
       if (testing) {
         quietAudio();
         state.kind = mode;
@@ -741,6 +771,19 @@
         hasRecognition: !!(window.SpeechRecognition || window.webkitSpeechRecognition),
         samsung: typeof navigator !== 'undefined' && /SamsungBrowser/i.test(navigator.userAgent || '')
       });
+    }
+
+    function updateChromeOffer() {
+      const offer = state.mode === 'pronounce' && shouldOfferChrome(
+        (typeof navigator !== 'undefined' && navigator.userAgent) || '',
+        !!(window.SpeechRecognition || window.webkitSpeechRecognition)
+      );
+      if (!ui.chromeOpen) return;
+      ui.chromeOpen.hidden = !offer;
+      if (offer && ui.chromeOpenLink) {
+        const loc = typeof location !== 'undefined' ? location : {pathname: '', search: ''};
+        ui.chromeOpenLink.href = chromeIntentHref(loc.pathname, loc.search);
+      }
     }
 
     function updateSupportNotice() {
@@ -1097,6 +1140,7 @@
           ? '한국어 뜻만 보여 줍니다. 그 번호의 한자를 입력하면 맞았는지 틀렸는지 표시합니다.'
           : '예문의 한국어 해석만 보여 줍니다. 중국어 문장을 입력하세요. 띄어쓰기는 보지 않고, 전각과 반각 문장부호는 같게 봅니다. 끝 문장부호는 빼도 맞습니다. 한국어 해석이 없는 항목은 건너뛰고 알려 줍니다.';
       updateSupportNotice();
+      updateChromeOffer();
       refreshRange();
       test.scrollIntoView({block: 'start'});
     }
@@ -1382,6 +1426,9 @@
     pronunciationMatches: pronunciationMatches,
     pronunciationAnyMatch: pronunciationAnyMatch,
     pronunciationBlocker: pronunciationBlocker,
+    shouldOfferChrome: shouldOfferChrome,
+    chromeIntentHref: chromeIntentHref,
+    isAndroidChrome: isAndroidChrome,
     pronunciationSupportMessage: pronunciationSupportMessage,
     segmentPinyin: segmentPinyin,
     pinyinResidue: pinyinResidue,

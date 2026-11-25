@@ -296,6 +296,7 @@ class TypingUiTests(unittest.TestCase):
           }};
         }''')
         self.page.locator('#mode-pronounce').click()
+        self.assertTrue(self.page.locator('#chrome-open').is_hidden())
         self.assertIn('성조', self.page.locator('#test-help').inner_text())
         self.assertIn('소리가 같으면', self.page.locator('#test-help').inner_text())
         self.page.locator('#range-start').fill('4')
@@ -465,14 +466,37 @@ class TypingUiTests(unittest.TestCase):
         self.assertIn('삼성 인터넷', samsung_notice)
         self.assertIn('Chrome', samsung_notice)
         self.assertTrue(samsung.locator('#test-start').is_disabled())
-        samsung.screenshot(path=str(ARTIFACTS / 'samsung_internet_use_chrome.png'), full_page=False)
+        banner = samsung.locator('#chrome-open')
+        self.assertTrue(banner.is_visible())
+        self.assertIn('크롬에서 가장 잘 돼요', banner.inner_text())
+        self.assertEqual(samsung.locator('#chrome-open-link').inner_text(), '크롬으로 열기')
+        self.assertEqual(
+            samsung.locator('#chrome-open-link').get_attribute('href'),
+            'intent://yanchunnu.github.io/HSK3.0-/index.html#Intent;scheme=https;package=com.android.chrome;end')
+        samsung.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'samsung_internet_use_chrome.png'))
+        samsung.locator('#mode-word').click()
+        self.assertTrue(samsung.locator('#chrome-open').is_hidden())
         samsung.evaluate('''() => { window.webkitSpeechRecognition = function () {}; }''')
         samsung.locator('#mode-listen').click()
         samsung.locator('#mode-pronounce').click()
         self.assertFalse(samsung.locator('#test-start').is_disabled())
         self.assertNotIn('삼성 인터넷', samsung.locator('#pronounce-support').inner_text())
+        self.assertTrue(samsung.locator('#chrome-open').is_visible())
         samsung.close()
         self.assertEqual(samsung_errors, [])
+
+        android_chrome = self.browser.new_page(
+            viewport={'width': 390, 'height': 844},
+            user_agent='Mozilla/5.0 (Linux; Android 14; SM-S918N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36')
+        android_chrome.goto(self.url('index.html'), wait_until='domcontentloaded', timeout=60000)
+        android_chrome.wait_for_selector('#mode-pronounce')
+        android_chrome.evaluate('''() => {
+          window.SpeechRecognition = undefined;
+          window.webkitSpeechRecognition = undefined;
+        }''')
+        android_chrome.locator('#mode-pronounce').click()
+        self.assertTrue(android_chrome.locator('#chrome-open').is_hidden())
+        android_chrome.close()
 
     def test_mic_grant_releases_before_recognition(self):
         self.open_page('index.html')

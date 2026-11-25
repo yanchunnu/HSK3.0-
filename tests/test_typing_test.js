@@ -126,6 +126,29 @@ function testPronunciation() {
   assert.strictEqual(api.pronunciationBlocker({secure: true, hasRecognition: true}), '');
   assert.ok(api.pronunciationSupportMessage('samsung').includes('삼성 인터넷'));
   assert.ok(api.pronunciationSupportMessage('samsung').includes('Chrome'));
+  const chromeUa = 'Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36';
+  const samsungUa = 'Mozilla/5.0 (Linux; Android 14; SM-S918N) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/26.0 Chrome/120.0.0.0 Mobile Safari/537.36';
+  const webviewUa = 'Mozilla/5.0 (Linux; Android 14; SM-S918N; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.0.0 Mobile Safari/537.36';
+  const firefoxUa = 'Mozilla/5.0 (Android 14; Mobile; rv:132.0) Gecko/132.0 Firefox/132.0';
+  assert.strictEqual(api.isAndroidChrome(chromeUa), true);
+  assert.strictEqual(api.isAndroidChrome(samsungUa), false);
+  assert.strictEqual(api.isAndroidChrome(webviewUa), false);
+  assert.strictEqual(api.shouldOfferChrome(chromeUa, false), false);
+  assert.strictEqual(api.shouldOfferChrome(chromeUa, true), false);
+  assert.strictEqual(api.shouldOfferChrome(samsungUa, true), true);
+  assert.strictEqual(api.shouldOfferChrome(samsungUa, false), true);
+  assert.strictEqual(api.shouldOfferChrome(webviewUa, true), true);
+  assert.strictEqual(api.shouldOfferChrome(firefoxUa, false), true);
+  assert.strictEqual(api.shouldOfferChrome(firefoxUa, true), false);
+  assert.strictEqual(api.shouldOfferChrome('Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/131.0.0.0', false), false);
+  assert.strictEqual(
+    api.chromeIntentHref('/HSK3.0-/level2.html', '?v=1'),
+    'intent://yanchunnu.github.io/HSK3.0-/level2.html?v=1#Intent;scheme=https;package=com.android.chrome;end'
+  );
+  assert.strictEqual(
+    api.chromeIntentHref('/index.html', ''),
+    'intent://yanchunnu.github.io/HSK3.0-/index.html#Intent;scheme=https;package=com.android.chrome;end'
+  );
   assert.ok(api.pronunciationSupportMessage('unsupported').includes('Chrome'));
   assert.ok(api.pronunciationSupportMessage('unsupported').includes('Safari'));
   assert.ok(api.pronunciationSupportMessage('unsupported').includes('카카오톡'));
