@@ -280,7 +280,11 @@ class TypingUiTests(unittest.TestCase):
               if (self.onend) self.onend();
             }, 0);
           };
-          FakeRecognition.prototype.abort = function () {};
+          FakeRecognition.prototype.abort = function () {
+            const end = this.onend;
+            this.onend = null;
+            if (end) end();
+          };
           FakeRecognition.prototype.stop = function () {};
           window.SpeechRecognition = FakeRecognition;
           window.webkitSpeechRecognition = FakeRecognition;
@@ -370,12 +374,11 @@ class TypingUiTests(unittest.TestCase):
         self.assertEqual(rgb(self.page, '.result-list li.is-wrong', 'color'), 'rgb(166, 27, 27)')
         self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'pronounce_answer_hanzi_result.png'))
         mic = self.page.evaluate('window.__mic')
-        self.assertEqual(mic['calls'], 1)
+        self.assertEqual(mic['calls'], 0)
         self.assertEqual(mic['stops'], 0)
         self.assertEqual(mic['built'], 1)
         self.assertEqual(len(self.page.evaluate('window.__recogStarted')), 5)
         self.page.locator('#mode-listen').click()
-        self.assertEqual(self.page.evaluate('window.__mic.stops'), 1)
         self.assertEqual(self.page.locator('article.card').count(), 300)
 
         self.page.locator('#mode-pronounce').click()
@@ -447,6 +450,77 @@ class TypingUiTests(unittest.TestCase):
         bare.close()
         self.assertEqual(bare_errors, [])
 
+    def test_mic_grant_releases_before_recognition(self):
+        self.open_page('index.html')
+        self.page.evaluate('''() => {
+          window.__recogStarted = [];
+          window.__recogQueue = [{alts: []}, {alts: []}];
+          window.__mic = {calls: 0, stops: 0, built: 0, liveAtStart: 0};
+          const track = {readyState: 'live', stop: function () { window.__mic.stops += 1; this.readyState = 'ended'; }};
+          const devices = {getUserMedia: function () {
+            window.__mic.calls += 1;
+            track.readyState = 'live';
+            return Promise.resolve({getTracks: function () { return [track]; }});
+          }};
+          try { Object.defineProperty(navigator, 'mediaDevices', {configurable: true, value: devices}); }
+          catch (error) { navigator.mediaDevices.getUserMedia = devices.getUserMedia; }
+          try { Object.defineProperty(navigator, 'permissions', {configurable: true, value: {query: function () { return Promise.resolve({state: 'prompt'}); }}}); }
+          catch (error) {}
+          function FakeRecognition() {
+            window.__mic.built += 1;
+            this.lang = '';
+            this.interimResults = false;
+            this.maxAlternatives = 1;
+            this.continuous = true;
+          }
+          FakeRecognition.prototype.start = function () {
+            if (track.readyState === 'live') window.__mic.liveAtStart += 1;
+            const self = this;
+            window.__recogStarted.push({lang: self.lang, interim: self.interimResults, max: self.maxAlternatives, continuous: self.continuous});
+            const job = window.__recogQueue.shift() || {alts: []};
+            setTimeout(function () {
+              const result = {length: job.alts.length, isFinal: true};
+              if (self.onresult) self.onresult({results: [result]});
+              if (self.onend) self.onend();
+            }, 0);
+          };
+          FakeRecognition.prototype.abort = function () {
+            const end = this.onend;
+            this.onend = null;
+            if (end) end();
+          };
+          window.SpeechRecognition = FakeRecognition;
+          window.webkitSpeechRecognition = FakeRecognition;
+        }''')
+        self.page.locator('#mode-pronounce').click()
+        self.page.locator('#range-start').fill('4')
+        self.page.locator('#range-end').fill('4')
+        self.page.locator('#test-start').click()
+        self.page.locator('#mic-button').click()
+        self.page.wait_for_function("() => document.getElementById('heard').textContent.includes('다시 읽어 주세요')")
+        self.assertNotIn('새로고침', self.page.locator('#heard').inner_text())
+        self.assertEqual(self.page.locator('#try-count').inner_text(), '기회 3번')
+        first = self.page.evaluate('window.__mic')
+        self.assertEqual(first['calls'], 1)
+        self.assertEqual(first['stops'], 1)
+        self.assertEqual(first['liveAtStart'], 0)
+        self.assertEqual(first['built'], 1)
+        started = self.page.evaluate('window.__recogStarted[0]')
+        self.assertEqual(started['lang'], 'zh-CN')
+        self.assertEqual(started['interim'], True)
+        self.assertGreaterEqual(started['max'], 5)
+        self.assertEqual(started['continuous'], False)
+        self.page.locator('#mic-button').click()
+        self.page.wait_for_function("() => document.getElementById('heard').textContent.includes('새로고침')")
+        self.assertIn('자물쇠', self.page.locator('#mic-permission-help').text_content())
+        self.assertTrue(self.page.locator('#mic-permission-help').is_hidden())
+        second = self.page.evaluate('window.__mic')
+        self.assertEqual(second['calls'], 1)
+        self.assertEqual(second['built'], 1)
+        self.assertEqual(second['liveAtStart'], 0)
+        self.assertEqual(self.page.locator('#try-count').inner_text(), '기회 3번')
+        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'mic_silent_refresh.png'))
+
     def test_level1_number_words_accept_arabic_digits(self):
         self.open_page('index.html')
         self.page.evaluate('''() => {
@@ -463,7 +537,11 @@ class TypingUiTests(unittest.TestCase):
               if (self.onend) self.onend();
             }, 0);
           };
-          FakeRecognition.prototype.abort = function () {};
+          FakeRecognition.prototype.abort = function () {
+            const end = this.onend;
+            this.onend = null;
+            if (end) end();
+          };
           FakeRecognition.prototype.stop = function () {};
           window.SpeechRecognition = FakeRecognition;
           window.webkitSpeechRecognition = FakeRecognition;
