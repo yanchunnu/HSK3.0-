@@ -449,6 +449,31 @@ class TypingUiTests(unittest.TestCase):
         bare.close()
         self.assertEqual(bare_errors, [])
 
+        samsung = self.browser.new_page(
+            viewport={'width': 390, 'height': 844},
+            user_agent='Mozilla/5.0 (Linux; Android 14; SM-S918N) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/26.0 Chrome/120.0.0.0 Mobile Safari/537.36')
+        samsung_errors = []
+        samsung.on('pageerror', lambda error: samsung_errors.append(str(error)))
+        samsung.goto(self.url('index.html'), wait_until='domcontentloaded', timeout=60000)
+        samsung.wait_for_selector('#mode-pronounce')
+        samsung.evaluate('''() => {
+          window.SpeechRecognition = undefined;
+          window.webkitSpeechRecognition = undefined;
+        }''')
+        samsung.locator('#mode-pronounce').click()
+        samsung_notice = samsung.locator('#pronounce-support').inner_text()
+        self.assertIn('삼성 인터넷', samsung_notice)
+        self.assertIn('Chrome', samsung_notice)
+        self.assertTrue(samsung.locator('#test-start').is_disabled())
+        samsung.screenshot(path=str(ARTIFACTS / 'samsung_internet_use_chrome.png'), full_page=False)
+        samsung.evaluate('''() => { window.webkitSpeechRecognition = function () {}; }''')
+        samsung.locator('#mode-listen').click()
+        samsung.locator('#mode-pronounce').click()
+        self.assertFalse(samsung.locator('#test-start').is_disabled())
+        self.assertNotIn('삼성 인터넷', samsung.locator('#pronounce-support').inner_text())
+        samsung.close()
+        self.assertEqual(samsung_errors, [])
+
     def test_mic_grant_releases_before_recognition(self):
         self.open_page('index.html')
         self.page.evaluate('''() => {

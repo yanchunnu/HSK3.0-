@@ -183,13 +183,14 @@
   }
 
   function pronunciationBlocker(env) {
-    if (!env || !env.hasRecognition) return 'unsupported';
+    if (!env || !env.hasRecognition) return env && env.samsung ? 'samsung' : 'unsupported';
     if (!env.secure) return 'insecure';
     return '';
   }
 
   function pronunciationSupportMessage(blocker) {
     if (blocker === 'insecure') return '음성 인식은 보안 연결(HTTPS)에서만 동작합니다. GitHub Pages 주소(https)로 열어 주세요.';
+    if (blocker === 'samsung') return '삼성 인터넷에서는 음성 인식이 되지 않습니다. Chrome으로 열어 주세요.';
     if (blocker === 'unsupported') return '이 브라우저는 음성 인식을 지원하지 않습니다. 안드로이드에서는 Chrome, 아이폰에서는 Safari 또는 Chrome을 사용해 주세요. 카카오톡처럼 앱 안에서 열면 마이크가 막히는 경우가 많습니다.';
     return '';
   }
@@ -737,7 +738,8 @@
     function currentBlocker() {
       return pronunciationBlocker({
         secure: typeof window.isSecureContext === 'boolean' ? window.isSecureContext : true,
-        hasRecognition: !!(window.SpeechRecognition || window.webkitSpeechRecognition)
+        hasRecognition: !!(window.SpeechRecognition || window.webkitSpeechRecognition),
+        samsung: typeof navigator !== 'undefined' && /SamsungBrowser/i.test(navigator.userAgent || '')
       });
     }
 
