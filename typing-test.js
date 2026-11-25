@@ -525,6 +525,65 @@
     return pronunciationAnyMatch(item, list.length ? list : (transcripts || []), kind);
   }
 
+  let heldMicStream = null;
+  let heldMicPromise = null;
+  let sharedRecognition = null;
+  const MIC_HINT_ASK = '마이크 버튼을 누르면 읽기가 시작됩니다. 권한을 물어보면 허용해 주세요. 건너뛰기는 오답으로 남습니다.';
+  const MIC_HINT_READY = '마이크 버튼을 누르면 읽기가 시작됩니다. 건너뛰기는 오답으로 남습니다.';
+  const MIC_HELP = '계속 물어보면 주소창 왼쪽 자물쇠(사이트 설정) → 마이크 → 허용으로 바꿔 주세요.';
+
+  function micTracksLive(stream) {
+    if (!stream || typeof stream.getTracks !== 'function') return false;
+    try {
+      return stream.getTracks().some(function (track) { return track && track.readyState === 'live'; });
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function releaseHeldMic() {
+    const stream = heldMicStream;
+    heldMicStream = null;
+    heldMicPromise = null;
+    if (!stream || typeof stream.getTracks !== 'function') return;
+    try {
+      stream.getTracks().forEach(function (track) {
+        try { track.stop(); } catch (error) {}
+      });
+    } catch (error) {}
+  }
+
+  function ensureHeldMic() {
+    if (micTracksLive(heldMicStream)) return Promise.resolve(heldMicStream);
+    if (heldMicPromise) return heldMicPromise;
+    const devices = typeof navigator !== 'undefined' ? navigator.mediaDevices : null;
+    if (!devices || typeof devices.getUserMedia !== 'function') return Promise.resolve(null);
+    heldMicPromise = devices.getUserMedia({audio: true}).then(function (stream) {
+      heldMicStream = stream;
+      heldMicPromise = null;
+      return stream;
+    }, function (error) {
+      heldMicPromise = null;
+      throw error;
+    });
+    return heldMicPromise;
+  }
+
+  function micPermissionState() {
+    const permissions = typeof navigator !== 'undefined' ? navigator.permissions : null;
+    if (!permissions || typeof permissions.query !== 'function') return Promise.resolve('');
+    return permissions.query({name: 'microphone'}).then(function (status) {
+      return status && status.state ? status.state : '';
+    }).catch(function () { return ''; });
+  }
+
+  function permissionDenied(error) {
+    const name = error && error.name;
+    return name === 'NotAllowedError' || name === 'PermissionDeniedError' || name === 'SecurityError';
+  }
+
+  if (typeof window !== 'undefined') window.addEventListener('pagehide', releaseHeldMic);
+
   function mount(data) {
     const items = (data || []).filter(function (item) { return item && Number.isInteger(item.no); });
     const headerWrap = document.querySelector('header .wrap');
@@ -556,6 +615,7 @@
       '<button type="button" id="pronounce-sentence" aria-pressed="false">예문</button>',
       '</div>',
       '<p id="pronounce-support" class="pronounce-support" hidden></p>',
+      '<p id="mic-permission-help" class="mic-hint" hidden>' + MIC_HELP + '</p>',
       '<div id="test-setup">',
       '<p class="test-help" id="test-help"></p>',
       '<p class="range-note" id="range-note"></p>',
@@ -589,7 +649,7 @@
       '<p id="fail-pinyin" hidden></p>',
       '<p id="fail-heard"></p>',
       '</div>',
-      '<p class="mic-hint" id="mic-hint">마이크 버튼을 누르면 읽기가 시작됩니다. 권한을 물어보면 허용해 주세요. 건너뛰기는 오답으로 남습니다.</p>',
+      '<p class="mic-hint" id="mic-hint">' + MIC_HINT_ASK + '</p>',
       '</div>',
       '<p class="enter-note" id="enter-note"></p>',
       '<div class="test-actions" id="typing-actions">',
@@ -622,6 +682,8 @@
       pronounceWord: document.getElementById('pronounce-word'),
       pronounceSentence: document.getElementById('pronounce-sentence'),
       support: document.getElementById('pronounce-support'),
+      micHelp: document.getElementById('mic-permission-help'),
+      micHint: document.getElementById('mic-hint'),
       pronouncePanel: document.getElementById('pronounce-panel'),
       tryCount: document.getElementById('try-count'),
       repeatHint: document.getElementById('repeat-hint'),
@@ -682,6 +744,7 @@
       tries: 0,
       listening: false,
       recognition: null,
+      listenToken: 0,
       answerLocked: false,
       advanceToken: 0,
       advanceTimer: null
@@ -711,6 +774,7 @@
       ui.modePronounce.setAttribute('aria-selected', String(mode === 'pronounce'));
       test.hidden = !testing;
       setStudyHidden(testing);
+      if (mode !== 'pronounce') releaseHeldMic();
       if (testing) {
         quietAudio();
         state.kind = mode;
@@ -740,6 +804,14 @@
       ui.support.hidden = !blocker;
       ui.support.className = 'pronounce-support' + (blocker ? ' is-warn' : '');
       ui.support.textContent = pronunciationSupportMessage(blocker);
+      if (ui.micHelp) ui.micHelp.hidden = true;
+    }
+
+    function refreshMicHint() {
+      micPermissionState().then(function (name) {
+        if (!ui.micHint) return;
+        ui.micHint.textContent = name === 'granted' ? MIC_HINT_READY : MIC_HINT_ASK;
+      });
     }
 
     function setSpeakKind(kind) {
@@ -750,13 +822,16 @@
     }
 
     function stopRecognition() {
-      const recog = state.recognition;
-      state.recognition = null;
+      state.listenToken += 1;
       state.listening = false;
+      const recog = sharedRecognition;
+      state.recognition = recog;
       if (!recog) return;
       recog.onresult = null;
       recog.onerror = null;
       recog.onend = null;
+      recog.onaudiostart = null;
+      recog.onstart = null;
       try { recog.abort(); } catch (error) {}
     }
 
@@ -779,6 +854,7 @@
       ui.support.hidden = false;
       ui.support.className = 'pronounce-support is-warn';
       ui.support.textContent = '마이크 사용을 허용해 주세요. 브라우저에서 마이크를 허용한 뒤 다시 🎤 읽기를 눌러 주세요.';
+      if (ui.micHelp) ui.micHelp.hidden = false;
     }
 
     function cancelAdvance() {
@@ -942,42 +1018,42 @@
       document.head.appendChild(script);
     }
 
-    function startListening() {
-      if (state.answerLocked || state.listening || state.phase !== 'question' || state.kind !== 'pronounce') return;
-      const blocker = currentBlocker();
-      if (blocker) {
-        updateSupportNotice();
-        return;
-      }
-      primeReadyBeep();
+    function sharedRecognizer() {
+      if (sharedRecognition) return sharedRecognition;
       const Ctor = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (!Ctor) return null;
       const recog = new Ctor();
       recog.lang = 'zh-CN';
       recog.interimResults = true;
       recog.maxAlternatives = 5;
       recog.continuous = false;
+      sharedRecognition = recog;
       state.recognition = recog;
-      state.listening = true;
+      return recog;
+    }
+
+    function armRecognition(token) {
+      const recog = sharedRecognizer();
+      if (!recog || token !== state.listenToken) {
+        state.listening = false;
+        return;
+      }
       state.micReady = false;
       state.lastAlts = [];
-      ui.mic.disabled = true;
-      ui.mic.classList.add('is-arming');
-      ui.mic.textContent = '준비 중…';
-      ui.micStatus.textContent = '마이크를 준비하는 중입니다. 소리가 난 뒤에 읽어 주세요.';
       let settled = false;
       let ended = false;
       function finish() {
         if (settled) return;
         settled = true;
         state.listening = false;
-        if (ui.mic) {
+        if (ui.mic && !state.answerLocked) {
           ui.mic.disabled = false;
           ui.mic.classList.remove('is-arming', 'is-listening');
           ui.mic.textContent = '🎤 읽기';
         }
       }
       function markReady() {
-        if (state.micReady || state.answerLocked) return;
+        if (state.micReady || state.answerLocked || token !== state.listenToken) return;
         state.micReady = true;
         ui.mic.classList.remove('is-arming');
         ui.mic.classList.add('is-listening');
@@ -985,16 +1061,22 @@
         ui.micStatus.textContent = '지금 읽어 주세요.';
         playReadyBeep();
       }
+      function failStart() {
+        finish();
+        ui.micStatus.textContent = '';
+        ui.heard.textContent = '음성 인식을 시작하지 못했습니다. 다시 시도해 주세요.';
+      }
       recog.onaudiostart = markReady;
       recog.onstart = markReady;
       recog.onresult = function (event) {
-        if (state.answerLocked) return;
+        if (state.answerLocked || token !== state.listenToken) return;
         const alts = transcriptsOf(event);
         if (!alts.length) return;
         state.lastAlts = alts;
         if (judgePronunciation(alts)) stopRecognition();
       };
       recog.onerror = function (event) {
+        if (token !== state.listenToken) return;
         const code = event && event.error;
         if (code === 'aborted') {
           if (state.listening) finish();
@@ -1011,7 +1093,7 @@
           : '음성 인식을 시작하지 못했습니다. 다시 시도해 주세요.';
       };
       recog.onend = function () {
-        if (ended) return;
+        if (ended || token !== state.listenToken) return;
         ended = true;
         const hadSpeech = state.lastAlts && state.lastAlts.length;
         finish();
@@ -1026,10 +1108,44 @@
       try {
         recog.start();
       } catch (error) {
-        finish();
-        ui.micStatus.textContent = '';
-        ui.heard.textContent = '음성 인식을 시작하지 못했습니다. 다시 시도해 주세요.';
+        try { recog.abort(); } catch (ignore) {}
+        setTimeout(function () {
+          if (token !== state.listenToken || !state.listening) return;
+          try { recog.start(); } catch (again) { failStart(); }
+        }, 0);
       }
+    }
+
+    function startListening() {
+      if (state.answerLocked || state.listening || state.phase !== 'question' || state.kind !== 'pronounce') return;
+      const blocker = currentBlocker();
+      if (blocker) {
+        updateSupportNotice();
+        return;
+      }
+      primeReadyBeep();
+      const token = ++state.listenToken;
+      state.listening = true;
+      ui.mic.disabled = true;
+      ui.mic.classList.add('is-arming');
+      ui.mic.textContent = '준비 중…';
+      ui.micStatus.textContent = '마이크를 준비하는 중입니다. 소리가 난 뒤에 읽어 주세요.';
+      ensureHeldMic().then(function () {
+        if (token !== state.listenToken) return;
+        armRecognition(token);
+      }, function (error) {
+        if (token !== state.listenToken) return;
+        if (permissionDenied(error)) {
+          state.listening = false;
+          ui.mic.disabled = false;
+          ui.mic.classList.remove('is-arming', 'is-listening');
+          ui.mic.textContent = '🎤 읽기';
+          ui.micStatus.textContent = '';
+          showPermissionNotice();
+          return;
+        }
+        armRecognition(token);
+      });
     }
 
     function primeReadyBeep() {
@@ -1075,6 +1191,7 @@
           ? '한국어 뜻만 보여 줍니다. 그 번호의 한자를 입력하면 맞았는지 틀렸는지 표시합니다.'
           : '예문의 한국어 해석만 보여 줍니다. 중국어 문장을 입력하세요. 띄어쓰기는 보지 않고, 전각과 반각 문장부호는 같게 봅니다. 끝 문장부호는 빼도 맞습니다. 한국어 해석이 없는 항목은 건너뛰고 알려 줍니다.';
       updateSupportNotice();
+      if (pronounce) refreshMicHint();
       refreshRange();
       test.scrollIntoView({block: 'start'});
     }
@@ -1184,6 +1301,8 @@
         ui.mic.disabled = false;
         ui.mic.textContent = '🎤 읽기';
         ui.skip.disabled = false;
+        if (ui.micHelp) ui.micHelp.hidden = true;
+        refreshMicHint();
       } else {
         ui.prompt.textContent = state.kind === 'word' ? item.meaning : item.translation.trim();
         ui.prompt.classList.toggle('is-sentence', state.kind === 'sentence');
