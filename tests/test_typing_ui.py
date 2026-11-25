@@ -314,8 +314,7 @@ class TypingUiTests(unittest.TestCase):
         self.page.locator('#test-start').click()
         self.assertEqual(self.page.locator('#q-prompt').inner_text(), '我')
         self.assertNotIn('나, 저', self.page.locator('.question-card').inner_text())
-        self.page.wait_for_function("() => !document.getElementById('mic-hint').textContent.includes('허용해 주세요')")
-        self.assertIn('건너뛰기는 오답', self.page.locator('#mic-hint').inner_text())
+        self.assertIn('허용해 주세요', self.page.locator('#mic-hint').inner_text())
         self.assertTrue(self.page.locator('#mic-permission-help').is_hidden())
         self.page.set_viewport_size({'width': 390, 'height': 844})
         overflow = self.page.evaluate('() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 1')
@@ -376,7 +375,7 @@ class TypingUiTests(unittest.TestCase):
         mic = self.page.evaluate('window.__mic')
         self.assertEqual(mic['calls'], 0)
         self.assertEqual(mic['stops'], 0)
-        self.assertEqual(mic['built'], 1)
+        self.assertEqual(mic['built'], 5)
         self.assertEqual(len(self.page.evaluate('window.__recogStarted')), 5)
         self.page.locator('#mode-listen').click()
         self.assertEqual(self.page.locator('article.card').count(), 300)
@@ -450,6 +449,31 @@ class TypingUiTests(unittest.TestCase):
         bare.close()
         self.assertEqual(bare_errors, [])
 
+        samsung = self.browser.new_page(
+            viewport={'width': 390, 'height': 844},
+            user_agent='Mozilla/5.0 (Linux; Android 14; SM-S918N) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/26.0 Chrome/120.0.0.0 Mobile Safari/537.36')
+        samsung_errors = []
+        samsung.on('pageerror', lambda error: samsung_errors.append(str(error)))
+        samsung.goto(self.url('index.html'), wait_until='domcontentloaded', timeout=60000)
+        samsung.wait_for_selector('#mode-pronounce')
+        samsung.evaluate('''() => {
+          window.SpeechRecognition = undefined;
+          window.webkitSpeechRecognition = undefined;
+        }''')
+        samsung.locator('#mode-pronounce').click()
+        samsung_notice = samsung.locator('#pronounce-support').inner_text()
+        self.assertIn('삼성 인터넷', samsung_notice)
+        self.assertIn('Chrome', samsung_notice)
+        self.assertTrue(samsung.locator('#test-start').is_disabled())
+        samsung.screenshot(path=str(ARTIFACTS / 'samsung_internet_use_chrome.png'), full_page=False)
+        samsung.evaluate('''() => { window.webkitSpeechRecognition = function () {}; }''')
+        samsung.locator('#mode-listen').click()
+        samsung.locator('#mode-pronounce').click()
+        self.assertFalse(samsung.locator('#test-start').is_disabled())
+        self.assertNotIn('삼성 인터넷', samsung.locator('#pronounce-support').inner_text())
+        samsung.close()
+        self.assertEqual(samsung_errors, [])
+
     def test_mic_grant_releases_before_recognition(self):
         self.open_page('index.html')
         self.page.evaluate('''() => {
@@ -501,9 +525,7 @@ class TypingUiTests(unittest.TestCase):
         self.assertNotIn('새로고침', self.page.locator('#heard').inner_text())
         self.assertEqual(self.page.locator('#try-count').inner_text(), '기회 3번')
         first = self.page.evaluate('window.__mic')
-        self.assertEqual(first['calls'], 1)
-        self.assertEqual(first['stops'], 1)
-        self.assertEqual(first['liveAtStart'], 0)
+        self.assertEqual(first['calls'], 0)
         self.assertEqual(first['built'], 1)
         started = self.page.evaluate('window.__recogStarted[0]')
         self.assertEqual(started['lang'], 'zh-CN')
@@ -515,11 +537,10 @@ class TypingUiTests(unittest.TestCase):
         self.assertIn('자물쇠', self.page.locator('#mic-permission-help').text_content())
         self.assertTrue(self.page.locator('#mic-permission-help').is_hidden())
         second = self.page.evaluate('window.__mic')
-        self.assertEqual(second['calls'], 1)
-        self.assertEqual(second['built'], 1)
-        self.assertEqual(second['liveAtStart'], 0)
+        self.assertEqual(second['calls'], 0)
+        self.assertEqual(second['built'], 2)
         self.assertEqual(self.page.locator('#try-count').inner_text(), '기회 3번')
-        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'mic_silent_refresh.png'))
+        self.page.locator('#typing-test').screenshot(path=str(ARTIFACTS / 'mic_revert_silent.png'))
 
     def test_level1_number_words_accept_arabic_digits(self):
         self.open_page('index.html')

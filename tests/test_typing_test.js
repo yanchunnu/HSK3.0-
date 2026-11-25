@@ -120,8 +120,12 @@ function testPronunciation() {
   assert.strictEqual(api.pronunciationAnyMatch({word: '我'}, ['你', '我'], 'word'), true);
   assert.strictEqual(api.pronunciationAnyMatch({word: '我'}, ['你', '他'], 'word'), false);
   assert.strictEqual(api.pronunciationBlocker({secure: true, hasRecognition: false}), 'unsupported');
+  assert.strictEqual(api.pronunciationBlocker({secure: true, hasRecognition: false, samsung: true}), 'samsung');
+  assert.strictEqual(api.pronunciationBlocker({secure: true, hasRecognition: true, samsung: true}), '');
   assert.strictEqual(api.pronunciationBlocker({secure: false, hasRecognition: true}), 'insecure');
   assert.strictEqual(api.pronunciationBlocker({secure: true, hasRecognition: true}), '');
+  assert.ok(api.pronunciationSupportMessage('samsung').includes('삼성 인터넷'));
+  assert.ok(api.pronunciationSupportMessage('samsung').includes('Chrome'));
   assert.ok(api.pronunciationSupportMessage('unsupported').includes('Chrome'));
   assert.ok(api.pronunciationSupportMessage('unsupported').includes('Safari'));
   assert.ok(api.pronunciationSupportMessage('unsupported').includes('카카오톡'));
